@@ -2,7 +2,10 @@
   "id": "fall-04",
   "titel": "Der gekündigte Einkäufer",
   "kurz": "Gekündigter Einkäufer bestellt weiter im Namen der Chefin – Erlöschen der Vollmacht, Rechtsschein (§§ 171, 173), Überschreitung, § 177, Haftung nach § 179 und Ausschluss nach § 179 Abs. 3.",
-  "themen": ["stellvertretung", "vertreter-ohne-vertretungsmacht"],
+  "themen": [
+    "stellvertretung",
+    "vertreter-ohne-vertretungsmacht"
+  ],
   "schwierigkeit": 3,
   "minuten": 60,
   "punkte": 48,
@@ -19,22 +22,52 @@
     "Bearbeitungshinweis: Gehen Sie davon aus, dass die Ware jeweils zum vereinbarten Preis verkauft wurde und G vertragsbereit ist."
   ],
   "skizze": [
-    { "ebene": 1, "text": "A. Anspruch G gegen H auf 2.400 € aus § 433 Abs. 2 BGB" },
-    { "ebene": 2, "text": "I. Einigung G – B (Antrag/Annahme) (+)" },
-    { "ebene": 2, "text": "II. Stellvertretung, § 164 Abs. 1 BGB: eigene WE (+), im Namen der H (+)" },
-    { "ebene": 2, "text": "III. Vertretungsmacht: Innenvollmacht im Arbeitsvertrag (§ 167 Abs. 1 Alt. 1 BGB), erloschen mit Kündigung (§ 168 S. 1 BGB) und Widerruf (§ 168 S. 2, 3 BGB)" },
-    { "ebene": 2, "text": "IV. Fortbestehen kraft Rechtsscheins: Kundgabe durch besondere Mitteilung (§ 171 Abs. 1 BGB), kein Widerruf in gleicher Weise (§ 171 Abs. 2 BGB), G gutgläubig (§ 173 BGB); 2.400 € im kundgegebenen Rahmen" },
-    { "ebene": 2, "text": "V. Ergebnis: Anspruch (+)" },
-    { "ebene": 1, "text": "B. Anspruch G gegen H auf 4.500 € aus § 433 Abs. 2 BGB" },
-    { "ebene": 2, "text": "Vertretungsmacht: auch der Rechtsschein reicht nur bis 3.000 € je Auftrag → überschritten; § 177 Abs. 1 BGB, Genehmigung verweigert → (−)" },
-    { "ebene": 1, "text": "C. Anspruch G gegen B aus § 179 Abs. 1 BGB" },
-    { "ebene": 2, "text": "Vertrag als Vertreter, ohne Vertretungsmacht, Genehmigung verweigert (+); B kannte den Mangel → Abs. 1; aber Ausschluss § 179 Abs. 3 S. 1 BGB: G kannte die Grenze von 3.000 € → (−)" }
+    {
+      "ebene": 1,
+      "text": "A. Anspruch G gegen H auf 2.400 € aus § 433 Abs. 2 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "I. Einigung G – B (Antrag/Annahme) (+)"
+    },
+    {
+      "ebene": 2,
+      "text": "II. Stellvertretung, § 164 Abs. 1 BGB: eigene WE (+), im Namen der H (+)"
+    },
+    {
+      "ebene": 2,
+      "text": "III. Vertretungsmacht: Innenvollmacht im Arbeitsvertrag (§ 167 Abs. 1 Alt. 1 BGB), erloschen mit Kündigung (§ 168 S. 1 BGB) und Widerruf (§ 168 S. 2, 3 BGB)"
+    },
+    {
+      "ebene": 2,
+      "text": "IV. Fortbestehen kraft Rechtsscheins: Kundgabe durch besondere Mitteilung (§ 171 Abs. 1 BGB), kein Widerruf in gleicher Weise (§ 171 Abs. 2 BGB), G gutgläubig (§ 173 BGB); 2.400 € im kundgegebenen Rahmen"
+    },
+    {
+      "ebene": 2,
+      "text": "V. Ergebnis: Anspruch (+)"
+    },
+    {
+      "ebene": 1,
+      "text": "B. Anspruch G gegen H auf 4.500 € aus § 433 Abs. 2 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "Vertretungsmacht: auch der Rechtsschein reicht nur bis 3.000 € je Auftrag → überschritten; § 177 Abs. 1 BGB, Genehmigung verweigert → (−)"
+    },
+    {
+      "ebene": 1,
+      "text": "C. Anspruch G gegen B aus § 179 Abs. 1 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "Vertrag als Vertreter, ohne Vertretungsmacht, Genehmigung verweigert (+); B kannte den Mangel → Abs. 1; aber Ausschluss § 179 Abs. 3 S. 1 BGB: G kannte die Grenze von 3.000 € → (−)"
+    }
   ],
   "musterloesung": [
     {
       "id": "A",
       "titel": "A. Anspruch G gegen H auf Zahlung von 2.400 € aus § 433 Abs. 2 BGB",
-      "text": "G könnte gegen H einen Anspruch auf Zahlung von 2.400 € für die Obstbäume aus § 433 Abs. 2 BGB haben. Dies setzt einen wirksamen Kaufvertrag zwischen G und H voraus.\n\n**I. Einigung**\nB hat telefonisch die Bäume zu 2.400 € bestellt, G hat die Bestellung angenommen. Zwei übereinstimmende Willenserklärungen liegen vor (§§ 145 ff. BGB). H selbst hat keine Erklärung abgegeben; die Erklärung des B wirkt für und gegen H, wenn B sie wirksam vertreten hat (§ 164 Abs. 1 BGB).\n\n**II. Eigene Willenserklärung im fremden Namen**\nB hat selbst entschieden, was er zu welchem Preis bestellt; er gab eine eigene Willenserklärung ab. Er trat als „Herr Krüger von der Gärtnerei Roth“ auf und bestellte ausdrücklich im Namen der H. Das Offenkundigkeitsprinzip ist gewahrt.\n\n**III. Vertretungsmacht durch Vollmacht**\nVollmacht ist die durch Rechtsgeschäft erteilte Vertretungsmacht (§ 166 Abs. 2 S. 1 BGB). H hat B im Arbeitsvertrag zum Einkauf bis 3.000 € je Auftrag ermächtigt – eine Innenvollmacht (§ 167 Abs. 1 Alt. 1 BGB), die die Bestellung über 2.400 € ursprünglich deckte.\nDie Vollmacht könnte aber erloschen sein. Ihr Erlöschen bestimmt sich nach dem ihr zugrunde liegenden Rechtsverhältnis (§ 168 S. 1 BGB). Grundlage war das Arbeitsverhältnis, das H am 1. Juni wirksam fristlos gekündigt hat. Zudem hat H die Vollmacht gegenüber B ausdrücklich widerrufen (§ 168 S. 2, 3 i. V. m. § 167 Abs. 1 BGB). Am 3. Juni hatte B daher keine Vollmacht mehr.\n\n**IV. Fortbestehen der Vertretungsmacht kraft Rechtsscheins (§§ 171, 173 BGB)**\nDie Vertretungsmacht könnte gegenüber G jedoch als fortbestehend gelten. Hat jemand durch besondere Mitteilung an einen Dritten kundgegeben, dass er einen anderen bevollmächtigt habe, so ist dieser dem Dritten gegenüber zur Vertretung befugt (§ 171 Abs. 1 BGB); die Vertretungsmacht bleibt bestehen, bis die Kundgebung in derselben Weise widerrufen wird (§ 171 Abs. 2 BGB). H hat G schriftlich mitgeteilt, B sei bis 3.000 € je Auftrag einkaufsberechtigt. Darin liegt eine besondere Mitteilung an einen Dritten. Einen Widerruf gegenüber G hat H nicht erklärt; den Widerruf gegenüber B konnte G nicht kennen.\nDer Schutz entfällt, wenn der Dritte das Erlöschen der Vertretungsmacht bei Vornahme des Rechtsgeschäfts kennt oder kennen muss (§ 173 BGB). G wusste von der Kündigung nichts und musste davon nach dem Sachverhalt auch nichts wissen. Die Bestellung über 2.400 € hält sich im kundgegebenen Rahmen von 3.000 € je Auftrag.\nB handelte daher gegenüber G mit Vertretungsmacht; dass er aus Ärger und gegen die Interessen der H handelte, betrifft nur das Innenverhältnis.\n\n**V. Ergebnis zu A:** Zwischen G und H ist ein wirksamer Kaufvertrag zustande gekommen. G kann von H Zahlung von 2.400 € aus § 433 Abs. 2 BGB verlangen (Zug um Zug gegen Lieferung, § 320 BGB)."
+      "text": "G könnte gegen H einen Anspruch auf Zahlung von 2.400 € für die Obstbäume aus § 433 Abs. 2 BGB haben. Dies setzt einen wirksamen Kaufvertrag zwischen G und H voraus.\n\n**I. Einigung**\nB hat telefonisch die Bäume zu 2.400 € bestellt, G hat die Bestellung angenommen. Zwei übereinstimmende Willenserklärungen liegen vor (§§ 145 ff. BGB). H selbst hat keine Erklärung abgegeben; die Erklärung des B wirkt für und gegen H, wenn B sie wirksam vertreten hat (§ 164 Abs. 1 BGB).\n\n**II. Eigene Willenserklärung im fremden Namen**\nB hat selbst entschieden, was er zu welchem Preis bestellt; er gab eine eigene Willenserklärung ab. Er trat als „Herr Krüger von der Gärtnerei Roth“ auf und bestellte ausdrücklich im Namen der H. Das Offenkundigkeitsprinzip ist gewahrt.\n\n**III. Vertretungsmacht durch Vollmacht**\nVollmacht ist die durch Rechtsgeschäft erteilte Vertretungsmacht (§ 166 Abs. 2 S. 1 BGB). H hat B im Arbeitsvertrag zum Einkauf bis 3.000 € je Auftrag ermächtigt – eine Innenvollmacht (§ 167 Abs. 1 Alt. 1 BGB), die die Bestellung über 2.400 € ursprünglich deckte.\nDie Vollmacht könnte aber erloschen sein. Ihr Erlöschen bestimmt sich nach dem ihr zugrunde liegenden Rechtsverhältnis (§ 168 S. 1 BGB). Grundlage war das Arbeitsverhältnis, das H am 1. Juni wirksam fristlos gekündigt hat. Zudem hat H die Vollmacht gegenüber B ausdrücklich widerrufen (§ 168 S. 2, 3 i. V. m. § 167 Abs. 1 BGB). Am 3. Juni hatte B daher keine Vollmacht mehr.\n\n**IV. Fortbestehen der Vertretungsmacht kraft Rechtsscheins (§§ 171, 173 BGB)**\nDie Vertretungsmacht könnte gegenüber G jedoch als fortbestehend gelten. Hat jemand durch besondere Mitteilung an einen Dritten kundgegeben, dass er einen anderen bevollmächtigt habe, so ist dieser dem Dritten gegenüber zur Vertretung befugt (§ 171 Abs. 1 BGB); die Vertretungsmacht bleibt bestehen, bis die Kundgebung in derselben Weise widerrufen wird (§ 171 Abs. 2 BGB). H hat G schriftlich mitgeteilt, B sei bis 3.000 € je Auftrag einkaufsberechtigt. Nach §§ 133, 157 BGB ist dieser Brief keine eigenständige Bevollmächtigung gegenüber G (Außenvollmacht, § 167 Abs. 1 Alt. 2 BGB, dann § 170 BGB), sondern die Mitteilung der bereits im Arbeitsvertrag erteilten Innenvollmacht („ist … einkaufsberechtigt“). Darin liegt eine besondere Mitteilung an einen Dritten im Sinne des § 171 Abs. 1 BGB; beide Wege führten hier zum selben Ergebnis. Einen Widerruf gegenüber G hat H nicht erklärt; den Widerruf gegenüber B konnte G nicht kennen.\nDer Schutz entfällt, wenn der Dritte das Erlöschen der Vertretungsmacht bei Vornahme des Rechtsgeschäfts kennt oder kennen muss (§ 173 BGB). G wusste von der Kündigung nichts und musste davon nach dem Sachverhalt auch nichts wissen. Die Bestellung über 2.400 € hält sich im kundgegebenen Rahmen von 3.000 € je Auftrag.\nB handelte daher gegenüber G mit Vertretungsmacht; dass er aus Ärger und gegen die Interessen der H handelte, betrifft nur das Innenverhältnis. Ein Missbrauch der Vertretungsmacht (Kollusion oder evidenter Missbrauch) scheidet aus, da G von den Motiven des B nichts wusste und nichts erkennen konnte.\n\n**V. Ergebnis zu A:** Zwischen G und H ist ein wirksamer Kaufvertrag zustande gekommen. G kann von H Zahlung von 2.400 € aus § 433 Abs. 2 BGB verlangen (Zug um Zug gegen Lieferung, § 320 BGB)."
     },
     {
       "id": "B",
@@ -44,35 +77,153 @@
     {
       "id": "C",
       "titel": "C. Anspruch G gegen B aus § 179 Abs. 1 BGB",
-      "text": "G könnte gegen B nach seiner Wahl einen Anspruch auf Erfüllung (Zahlung von 4.500 € gegen Lieferung) oder auf Schadensersatz aus § 179 Abs. 1 BGB haben.\n\n**I. Voraussetzungen**\nB hat als Vertreter einen Vertrag mit G geschlossen, ohne Vertretungsmacht zu haben (siehe B); einen Nachweis der Vertretungsmacht kann er nicht erbringen, und H hat die Genehmigung verweigert. Da B wusste, dass seine Vollmacht erloschen war und ohnehin nur bis 3.000 € reichte, kannte er den Mangel; eine Beschränkung auf den Vertrauensschaden nach § 179 Abs. 2 BGB kommt nicht in Betracht.\n\n**II. Ausschluss nach § 179 Abs. 3 S. 1 BGB**\nDer Vertreter haftet jedoch nicht, wenn der andere Teil den Mangel der Vertretungsmacht kannte oder kennen musste (§ 179 Abs. 3 S. 1 BGB). G lag der Brief der H vor, wonach B nur bis 3.000 € je Auftrag einkaufen durfte. G wusste also, dass B für einen Auftrag über 4.500 € keine Vertretungsmacht hatte. Er kannte den Mangel. Wer sich auf ein Geschäft mit einem erkennbar nicht bevollmächtigten Vertreter einlässt, ist nicht schutzwürdig.\nAuch auf die Kündigung kommt es daher nicht mehr an.\n\n**Ergebnis zu C:** G hat gegen B keinen Anspruch aus § 179 Abs. 1 BGB."
+      "text": "G könnte gegen B nach seiner Wahl einen Anspruch auf Erfüllung (Zahlung von 4.500 € gegen Lieferung) oder auf Schadensersatz aus § 179 Abs. 1 BGB haben.\n\n**I. Voraussetzungen**\nB hat als Vertreter einen Vertrag mit G geschlossen, ohne Vertretungsmacht zu haben (siehe B); einen Nachweis der Vertretungsmacht kann er nicht erbringen, und H hat die Genehmigung verweigert. Da B wusste, dass seine Vollmacht erloschen war und ohnehin nur bis 3.000 € reichte, kannte er den Mangel; eine Beschränkung auf den Vertrauensschaden nach § 179 Abs. 2 BGB kommt nicht in Betracht.\n\n**II. Ausschluss nach § 179 Abs. 3 S. 1 BGB**\nDer Vertreter haftet jedoch nicht, wenn der andere Teil den Mangel der Vertretungsmacht kannte oder kennen musste (§ 179 Abs. 3 S. 1 BGB). G lag die schriftliche Begrenzung auf 3.000 € je Auftrag vor. Jedenfalls musste er daher erkennen, dass B für einen Auftrag über 4.500 € keine Vertretungsmacht hatte (Kennenmüssen = fahrlässige Unkenntnis, vgl. § 122 Abs. 2 BGB). Wer sich auf ein Geschäft mit einem erkennbar nicht bevollmächtigten Vertreter einlässt, ist nicht schutzwürdig.\nAuch auf die Kündigung kommt es daher nicht mehr an.\n\n**Ergebnis zu C:** G hat gegen B keinen Anspruch aus § 179 Abs. 1 BGB."
     }
   ],
   "raster": [
-    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz G gegen H auf 2.400 € aus § 433 Abs. 2 BGB", "punkte": 1 },
-    { "id": "a2", "abschnitt": "A", "kriterium": "Einigung knapp festgestellt; Zurechnung über § 164 Abs. 1 BGB als Problem erkannt", "punkte": 1 },
-    { "id": "a3", "abschnitt": "A", "kriterium": "Eigene WE und Offenkundigkeit", "punkte": 2 },
-    { "id": "a4", "abschnitt": "A", "kriterium": "Innenvollmacht im Arbeitsvertrag (§ 167 Abs. 1 Alt. 1 BGB, § 166 Abs. 2 S. 1 BGB)", "punkte": 1 },
-    { "id": "a5", "abschnitt": "A", "kriterium": "Erlöschen nach § 168 S. 1 BGB (Kündigung) und Widerruf (§ 168 S. 2, 3 BGB)", "punkte": 2 },
-    { "id": "a6", "abschnitt": "A", "kriterium": "Rechtsschein: besondere Mitteilung an Dritten (§ 171 Abs. 1 BGB), kein Widerruf in gleicher Weise (§ 171 Abs. 2 BGB)", "punkte": 4 },
-    { "id": "a7", "abschnitt": "A", "kriterium": "Gutgläubigkeit des G (§ 173 BGB) und Bestellung im kundgegebenen Rahmen", "punkte": 2 },
-    { "id": "a8", "abschnitt": "A", "kriterium": "Motiv des B betrifft nur das Innenverhältnis; Ergebnis zu A", "punkte": 2 },
-    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz G gegen H auf 4.500 €", "punkte": 1 },
-    { "id": "b2", "abschnitt": "B", "kriterium": "Rechtsschein reicht nur bis 3.000 € je Auftrag → keine Vertretungsmacht", "punkte": 3 },
-    { "id": "b3", "abschnitt": "B", "kriterium": "§ 177 Abs. 1 BGB: Genehmigung verweigert → endgültig unwirksam; Ergebnis", "punkte": 3 },
-    { "id": "c1", "abschnitt": "C", "kriterium": "Obersatz § 179 Abs. 1 BGB mit Wahlrecht", "punkte": 1 },
-    { "id": "c2", "abschnitt": "C", "kriterium": "Voraussetzungen des § 179 Abs. 1 BGB; Kenntnis des B (nicht Abs. 2)", "punkte": 3 },
-    { "id": "c3", "abschnitt": "C", "kriterium": "Ausschluss § 179 Abs. 3 S. 1 BGB: G kannte die Grenze aus dem Brief", "punkte": 3 },
-    { "id": "c4", "abschnitt": "C", "kriterium": "Ergebnis zu C", "punkte": 1 }
+    {
+      "id": "a1",
+      "abschnitt": "A",
+      "kriterium": "Obersatz G gegen H auf 2.400 € aus § 433 Abs. 2 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "a2",
+      "abschnitt": "A",
+      "kriterium": "Einigung knapp festgestellt; Zurechnung über § 164 Abs. 1 BGB als Problem erkannt",
+      "punkte": 1
+    },
+    {
+      "id": "a3",
+      "abschnitt": "A",
+      "kriterium": "Eigene WE und Offenkundigkeit",
+      "punkte": 2
+    },
+    {
+      "id": "a4",
+      "abschnitt": "A",
+      "kriterium": "Innenvollmacht im Arbeitsvertrag (§ 167 Abs. 1 Alt. 1 BGB, § 166 Abs. 2 S. 1 BGB)",
+      "punkte": 1
+    },
+    {
+      "id": "a5",
+      "abschnitt": "A",
+      "kriterium": "Erlöschen nach § 168 S. 1 BGB (Kündigung) und Widerruf (§ 168 S. 2, 3 BGB)",
+      "punkte": 2
+    },
+    {
+      "id": "a6",
+      "abschnitt": "A",
+      "kriterium": "Rechtsschein: Auslegung des Briefs als Kundgabe (Abgrenzung zur Außenvollmacht/§ 170 BGB), § 171 Abs. 1 BGB, kein Widerruf in gleicher Weise (§ 171 Abs. 2 BGB)",
+      "punkte": 4
+    },
+    {
+      "id": "a7",
+      "abschnitt": "A",
+      "kriterium": "Gutgläubigkeit des G (§ 173 BGB) und Bestellung im kundgegebenen Rahmen",
+      "punkte": 2
+    },
+    {
+      "id": "a8",
+      "abschnitt": "A",
+      "kriterium": "Motiv des B betrifft nur das Innenverhältnis; Ergebnis zu A",
+      "punkte": 2
+    },
+    {
+      "id": "b1",
+      "abschnitt": "B",
+      "kriterium": "Obersatz G gegen H auf 4.500 €",
+      "punkte": 1
+    },
+    {
+      "id": "b2",
+      "abschnitt": "B",
+      "kriterium": "Rechtsschein reicht nur bis 3.000 € je Auftrag → keine Vertretungsmacht",
+      "punkte": 3
+    },
+    {
+      "id": "b3",
+      "abschnitt": "B",
+      "kriterium": "§ 177 Abs. 1 BGB: Genehmigung verweigert → endgültig unwirksam; Ergebnis",
+      "punkte": 3
+    },
+    {
+      "id": "c1",
+      "abschnitt": "C",
+      "kriterium": "Obersatz § 179 Abs. 1 BGB mit Wahlrecht",
+      "punkte": 1
+    },
+    {
+      "id": "c2",
+      "abschnitt": "C",
+      "kriterium": "Voraussetzungen des § 179 Abs. 1 BGB; Kenntnis des B (nicht Abs. 2)",
+      "punkte": 3
+    },
+    {
+      "id": "c3",
+      "abschnitt": "C",
+      "kriterium": "Ausschluss § 179 Abs. 3 S. 1 BGB: G kannte die Grenze aus dem Brief oder musste sie jedenfalls kennen",
+      "punkte": 3
+    },
+    {
+      "id": "c4",
+      "abschnitt": "C",
+      "kriterium": "Ergebnis zu C",
+      "punkte": 1
+    }
   ],
   "gutachtenstil": [
-    { "id": "g1", "kriterium": "Obersätze vollständig und im Konjunktiv", "punkte": 4 },
-    { "id": "g2", "kriterium": "Definitionen (Vollmacht, Offenkundigkeit, Kundgabe) vor der Subsumtion", "punkte": 4 },
-    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt (Brief, Kündigung, Beträge)", "punkte": 4 },
-    { "id": "g4", "kriterium": "Zwischenergebnisse und Ergebnissätze", "punkte": 3 },
-    { "id": "g5", "kriterium": "Aufbau (Vollmacht → Erlöschen → Rechtsschein) und Schwerpunktsetzung", "punkte": 3 }
+    {
+      "id": "g1",
+      "kriterium": "Obersätze vollständig und im Konjunktiv",
+      "punkte": 4
+    },
+    {
+      "id": "g2",
+      "kriterium": "Definitionen (Vollmacht, Offenkundigkeit, Kundgabe) vor der Subsumtion",
+      "punkte": 4
+    },
+    {
+      "id": "g3",
+      "kriterium": "Subsumtion am Sachverhalt (Brief, Kündigung, Beträge)",
+      "punkte": 4
+    },
+    {
+      "id": "g4",
+      "kriterium": "Zwischenergebnisse und Ergebnissätze",
+      "punkte": 3
+    },
+    {
+      "id": "g5",
+      "kriterium": "Aufbau (Vollmacht → Erlöschen → Rechtsschein) und Schwerpunktsetzung",
+      "punkte": 3
+    }
   ],
-  "erwarteteNormen": ["§ 433 Abs. 2 BGB", "§ 164 Abs. 1 BGB", "§ 166 Abs. 2 BGB", "§ 167 Abs. 1 BGB", "§ 168 BGB", "§ 171 Abs. 1 BGB", "§ 171 Abs. 2 BGB", "§ 173 BGB", "§ 177 Abs. 1 BGB", "§ 179 Abs. 1 BGB", "§ 179 Abs. 3 BGB"],
-  "schluesselbegriffe": ["Offenkundigkeit|im fremden Namen", "Innenvollmacht", "erloschen|Erlöschen", "Rechtsschein", "Kundgabe|Mitteilung", "gutgläubig|kennen muss", "Vertreter ohne Vertretungsmacht", "Genehmigung", "kannte den Mangel|Kenntnis"],
+  "erwarteteNormen": [
+    "§ 433 Abs. 2 BGB",
+    "§ 164 Abs. 1 BGB",
+    "§ 166 Abs. 2 BGB",
+    "§ 167 Abs. 1 BGB",
+    "§ 168 BGB",
+    "§ 171 Abs. 1 BGB",
+    "§ 171 Abs. 2 BGB",
+    "§ 173 BGB",
+    "§ 177 Abs. 1 BGB",
+    "§ 179 Abs. 1 BGB",
+    "§ 179 Abs. 3 BGB",
+    "§ 170 BGB"
+  ],
+  "schluesselbegriffe": [
+    "Offenkundigkeit|im fremden Namen",
+    "Innenvollmacht",
+    "erloschen|Erlöschen",
+    "Rechtsschein",
+    "Kundgabe|Mitteilung",
+    "gutgläubig|kennen muss",
+    "Vertreter ohne Vertretungsmacht",
+    "Genehmigung",
+    "kannte den Mangel|Kenntnis"
+  ],
   "typischeFehler": [
     "Mit dem Erlöschen der Vollmacht (§ 168 BGB) aufhören und den Rechtsschein der §§ 170–173 BGB übersehen.",
     "§ 170 BGB statt § 171 BGB zitieren: H hat eine Innenvollmacht erteilt und dem G nur mitgeteilt (Kundgabe) – § 170 betrifft die Außenvollmacht.",
@@ -83,25 +234,45 @@
   "abwandlungen": [
     {
       "frage": "Abwandlung 1: H hatte G vor dem 3. Juni per E-Mail mitgeteilt, B sei nicht mehr bei ihr beschäftigt. G liest die E-Mail nicht und nimmt die Bestellung über 2.400 € an.",
-      "kurzloesung": "Die Kundgabe wurde in derselben Weise (schriftliche Mitteilung an G) widerrufen (§ 171 Abs. 2 BGB); jedenfalls musste G das Erlöschen nach Zugang der E-Mail kennen (§ 173 BGB). Kein Rechtsschein → B ohne Vertretungsmacht → § 177 BGB, Verweigerung → kein Anspruch gegen H. G kann B aus § 179 Abs. 1 BGB in Anspruch nehmen, sofern G den Mangel nicht kennen musste – hier musste er ihn kennen (E-Mail zugegangen), also § 179 Abs. 3 S. 1 BGB (−)."
+      "kurzloesung": "Der Widerruf erfolgte wie die Kundgabe durch besondere Mitteilung an G und ist ihm zugegangen (§ 130 Abs. 1 BGB); dass G die E-Mail nicht las, ist unerheblich (§ 171 Abs. 2 BGB; jedenfalls § 173 BGB). Kein Rechtsschein → B ohne Vertretungsmacht → § 177 BGB, Verweigerung → kein Anspruch gegen H. Die Haftung des B aus § 179 Abs. 1 BGB ist nach § 179 Abs. 3 S. 1 BGB ausgeschlossen, weil G den Mangel kennen musste."
     },
     {
       "frage": "Abwandlung 2: H hatte die Vollmacht direkt gegenüber G erklärt („Ich bevollmächtige Herrn Krüger …“) und nur B gegenüber widerrufen.",
       "kurzloesung": "Außenvollmacht (§ 167 Abs. 1 Alt. 2 BGB): Sie bleibt dem G gegenüber in Kraft, bis ihm das Erlöschen von der H angezeigt wird (§ 170 BGB), Grenze § 173 BGB. Ergebnis wie im Ausgangsfall."
     },
     {
-      "frage": "Abwandlung 3: B ist 17 Jahre alt und Auszubildender; seine Eltern wussten von der Bestellung über 4.500 € nichts. G wusste nichts von der 3.000-€-Grenze.",
-      "kurzloesung": "Auch ein Minderjähriger kann Vertreter sein (§ 165 BGB). Eine Haftung nach § 179 BGB scheidet aber aus, weil er ohne Zustimmung seiner gesetzlichen Vertreter handelte (§ 179 Abs. 3 S. 2 BGB)."
+      "frage": "Abwandlung 3 (nur Fallfrage 3): Unterstellen Sie, dass B 17 Jahre alt und Auszubildender ist, seine Eltern von der Bestellung nichts wussten und G den Mangel der Vertretungsmacht weder kannte noch kennen musste.",
+      "kurzloesung": "Auch ein Minderjähriger kann Vertreter sein (§ 165 BGB). Eine Haftung nach § 179 BGB scheidet aber aus, weil er ohne Zustimmung seiner gesetzlichen Vertreter handelte (§ 179 Abs. 3 S. 2 BGB). Eine Zustimmung folgt nicht aus § 113 BGB: Die Vorschrift gilt nach h. M. nicht für Berufsausbildungsverhältnisse und deckte eine eigenmächtige Bestellung nach Kündigung ohnehin nicht."
     }
   ],
   "gefuehrt": {
     "einstieg": "Drei Fallfragen, zwei Bestellungen. Welche Prüfungen brauchst du?",
     "anspruchsgrundlagen": [
-      { "text": "G gegen H auf 2.400 € aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – Schwerpunkt: Rechtsschein nach §§ 171, 173 BGB." },
-      { "text": "G gegen H auf 4.500 € aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – getrennter Auftrag; Grenze 3.000 €." },
-      { "text": "G gegen B aus § 179 Abs. 1 BGB", "richtig": true, "feedback": "Richtig – Haftung des Vertreters ohne Vertretungsmacht; an § 179 Abs. 3 BGB denken." },
-      { "text": "G gegen B auf 4.500 € aus § 433 Abs. 2 BGB", "richtig": false, "feedback": "Falsch – B handelte offenkundig im fremden Namen und ist nicht Vertragspartei (§ 164 Abs. 1, 2 BGB)." },
-      { "text": "H gegen B aus § 122 BGB", "richtig": false, "feedback": "Falsch – nicht gefragt; § 122 BGB setzt zudem eine Anfechtung voraus." }
+      {
+        "text": "G gegen H auf 2.400 € aus § 433 Abs. 2 BGB",
+        "richtig": true,
+        "feedback": "Richtig – Schwerpunkt: Rechtsschein nach §§ 171, 173 BGB."
+      },
+      {
+        "text": "G gegen H auf 4.500 € aus § 433 Abs. 2 BGB",
+        "richtig": true,
+        "feedback": "Richtig – getrennter Auftrag; Grenze 3.000 €."
+      },
+      {
+        "text": "G gegen B aus § 179 Abs. 1 BGB",
+        "richtig": true,
+        "feedback": "Richtig – Haftung des Vertreters ohne Vertretungsmacht; an § 179 Abs. 3 BGB denken."
+      },
+      {
+        "text": "G gegen B auf 4.500 € aus § 433 Abs. 2 BGB",
+        "richtig": false,
+        "feedback": "Falsch – B handelte offenkundig im fremden Namen und ist nicht Vertragspartei (§ 164 Abs. 1, 2 BGB)."
+      },
+      {
+        "text": "H gegen B aus § 122 BGB",
+        "richtig": false,
+        "feedback": "Falsch – nicht gefragt; § 122 BGB setzt zudem eine Anfechtung voraus."
+      }
     ],
     "obersatzAufgabe": "Formuliere den Obersatz für Prüfung C.",
     "obersatzMuster": "G könnte gegen B nach seiner Wahl einen Anspruch auf Erfüllung oder Schadensersatz aus § 179 Abs. 1 BGB haben.",
@@ -117,17 +288,25 @@
       {
         "titel": "Rechtsschein nach § 171 BGB",
         "aufgabe": "Begründe, warum B gegenüber G trotz Kündigung Vertretungsmacht hatte.",
-        "tipps": ["Norm: § 171 Abs. 1, 2 BGB, § 173 BGB", "Schema: Kundgabe → kein Widerruf in gleicher Weise → Gutgläubigkeit → im Rahmen der Kundgabe", "Mustersatz: „Hat jemand durch besondere Mitteilung an einen Dritten kundgegeben, dass er einen anderen bevollmächtigt habe, …“"],
+        "tipps": [
+          "Norm: § 171 Abs. 1, 2 BGB, § 173 BGB",
+          "Schema: Kundgabe → kein Widerruf in gleicher Weise → Gutgläubigkeit → im Rahmen der Kundgabe",
+          "Mustersatz: „Hat jemand durch besondere Mitteilung an einen Dritten kundgegeben, dass er einen anderen bevollmächtigt habe, …“"
+        ],
         "muster": "Nach § 171 Abs. 1 BGB ist der Bevollmächtigte dem Dritten gegenüber zur Vertretung befugt, wenn der Vollmachtgeber die Bevollmächtigung durch besondere Mitteilung kundgegeben hat; dies gilt bis zum Widerruf in derselben Weise (§ 171 Abs. 2 BGB). H hat G schriftlich mitgeteilt, B sei bis 3.000 € einkaufsberechtigt, und diese Mitteilung nie widerrufen. G kannte das Erlöschen nicht und musste es nicht kennen (§ 173 BGB). Die Bestellung über 2.400 € liegt im kundgegebenen Rahmen. B hatte gegenüber G Vertretungsmacht."
       },
       {
         "titel": "Ausschluss nach § 179 Abs. 3 S. 1 BGB",
         "aufgabe": "Warum haftet B dem G nicht für den Folientunnel?",
-        "tipps": ["Norm: § 179 Abs. 3 S. 1 BGB", "Schema: Kenntnis oder Kennenmüssen des Geschäftsgegners vom Mangel der Vertretungsmacht", "Mustersatz: „Der Vertreter haftet nicht, wenn der andere Teil den Mangel kannte … G lag der Brief der H vor …“"],
-        "muster": "Der Vertreter haftet nicht, wenn der andere Teil den Mangel der Vertretungsmacht kannte oder kennen musste (§ 179 Abs. 3 S. 1 BGB). G wusste aus dem Brief der H, dass B nur bis 3.000 € je Auftrag einkaufen durfte. Für den Auftrag über 4.500 € kannte er den Mangel. Ein Anspruch aus § 179 Abs. 1 BGB scheidet aus."
+        "tipps": [
+          "Norm: § 179 Abs. 3 S. 1 BGB",
+          "Schema: Kenntnis oder Kennenmüssen des Geschäftsgegners vom Mangel der Vertretungsmacht",
+          "Mustersatz: „Der Vertreter haftet nicht, wenn der andere Teil den Mangel kannte … G lag der Brief der H vor …“"
+        ],
+        "muster": "Der Vertreter haftet nicht, wenn der andere Teil den Mangel der Vertretungsmacht kannte oder kennen musste (§ 179 Abs. 3 S. 1 BGB). G lag der Brief der H mit der Grenze von 3.000 € je Auftrag vor; für den Auftrag über 4.500 € musste er den Mangel jedenfalls kennen. Ein Anspruch aus § 179 Abs. 1 BGB scheidet aus."
       }
     ]
   },
   "quelle": "material:faelle-6",
-  "geprueft": false
+  "geprueft": true
 }

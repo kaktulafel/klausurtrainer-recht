@@ -37,6 +37,11 @@ Gesamturteil: Fall 01 setzt alle vier Korrekturhinweise korrekt um; Nachbesserun
 - [x] nk-038: § 138 Abs. 2 vollständige Schwächelagen; „doppelter Wert“ → wucherähnliches Geschäft § 138 Abs. 1.
 - [x] nk-021, 031, 083, 004, 037, 067, 133, 127, 123, 134 präzisiert; neue Karte nk-135 (Art. 83 Abs. 4).
 
+### Fälle 02–04
+- [x] fall-02 (mittel): Widerspruch Erheblichkeit ↔ Erkennbarkeit beseitigt (Sachverhalt: Sammlerpreise > 40.000 €; Erheblichkeit aus Sicht des K); § 156 S. 2 bei der Kausalität; Erfüllungsinteresse = Preis abzgl. Rollerwert; Abwandlung „Eine Million“ mit Ergebnis.
+- [x] fall-03 (mittel): Übereignung des Taschengelds im Gutachtenstil begründet (§ 107 nachteilig, Zustimmung durch Überlassung, Rechtsgedanke § 110); § 131 Abs. 2 S. 2 beim Zugang; Abwandlungen 2/3 widerspruchsfrei.
+- [x] fall-04 (mittel): § 179 Abs. 3 S. 1 über „kennen musste“ statt positiver Kenntnis; Abgrenzung Kundgabe (§ 171) / Außenvollmacht (§ 170) durch Auslegung; Missbrauch der Vertretungsmacht verneint; Abwandlungen 1/3 präzisiert (§ 113 nicht für Ausbildung).
+
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |
 |---|---|---|

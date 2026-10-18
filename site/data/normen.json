@@ -2890,5 +2890,17 @@
   "wortlaut": "wortlaut/wortlaut-5.json",
   "quelleWortlaut": "gesetze-im-internet.de",
   "geprueftAm": "2026-10-18"
+ },
+ {
+  "id": "bgb-131",
+  "zitat": "§ 131 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Wirksamwerden gegenüber nicht voll Geschäftsfähigen",
+  "kurz": "Zugang gegenüber Geschäftsunfähigen und beschränkt Geschäftsfähigen: grundsätzlich erst mit Zugang beim gesetzlichen Vertreter; Ausnahme bei lediglich rechtlichem Vorteil oder Einwilligung (Abs. 2 S. 2).",
+  "lage": "BGB › Buch 1 – Allgemeiner Teil › Abschnitt 3 – Rechtsgeschäfte › Titel 2 – Willenserklärung",
+  "link": "https://www.gesetze-im-internet.de/bgb/__131.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-18"
  }
 ]
