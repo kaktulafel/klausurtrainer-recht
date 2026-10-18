@@ -1,0 +1,32 @@
+# Kursmaterial – niemals committen (Urheberrecht/Privatsphäre)
+*.pdf
+*.PDF
+*.pptx
+*.ppt
+*.docx
+*.doc
+*.xlsx
+*.xls
+*.zip
+*.heic
+*.HEIC
+# Scans/Fotos nur innerhalb von site/ erlaubt
+/*.png
+/*.jpg
+/*.jpeg
+/*.PNG
+/*.JPG
+docs/**/*.png
+docs/**/*.jpg
+# Arbeits-/Entpackordner
+_arbeit/
+_work/
+tmp/
+# Node & Tools
+node_modules/
+test-results/
+playwright-report/
+.env*
+*.log
+.DS_Store
+Thumbs.db

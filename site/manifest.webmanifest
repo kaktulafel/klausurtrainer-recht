@@ -1,0 +1,16 @@
+{
+  "name": "Klausurtrainer Recht & Datenschutz",
+  "short_name": "Klausurtrainer",
+  "description": "Gutachtenstil, Normen, Datenschutz-MC und Probeklausuren",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#f6f7f9",
+  "theme_color": "#1d3557",
+  "lang": "de",
+  "icons": [
+    { "src": "icons/icon-192.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "icons/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any maskable" },
+    { "src": "icons/icon.svg", "sizes": "any", "type": "image/svg+xml" }
+  ]
+}

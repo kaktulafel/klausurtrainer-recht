@@ -1,0 +1,11 @@
+{
+  "version": 1,
+  "abdeckungPflicht": false,
+  "dateien": {
+    "faelle": [],
+    "mc": [],
+    "wissen": [],
+    "normkarten": [],
+    "einzel": ["themen.json", "normen.json", "schemata.json", "drills.json", "klausuren.json"]
+  }
+}

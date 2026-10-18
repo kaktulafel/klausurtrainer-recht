@@ -1,0 +1,10 @@
+/* Druckansicht: Schemata, Musterlösungen, Sachverhalte */
+.kopf, .unten-nav, .fuss, .banner, .btn, .btn-reihe, .tabs, .icon-btn, .suchfeld, textarea, .nicht-drucken { display: none !important; }
+body { background: #fff; color: #000; padding: 0; font-size: 11pt; }
+main { max-width: none; padding: 0; }
+.karte { border: 1px solid #999; box-shadow: none; break-inside: avoid; }
+details.knoten { border-left: 2px solid #999; }
+details.knoten > * { display: block; }
+.norm { color: #000; text-decoration: none; }
+a { color: #000; text-decoration: none; }
+.lese { font-size: 11pt; max-width: none; }
