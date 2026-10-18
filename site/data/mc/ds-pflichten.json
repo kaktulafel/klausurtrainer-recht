@@ -1,0 +1,1381 @@
+[
+ {
+  "id": "ds-mc-108",
+  "thema": "ds-auftragsverarbeitung",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was braucht ein Unternehmen, das einen externen Dienstleister mit der weisungsgebundenen Verarbeitung personenbezogener Daten beauftragt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Einen Vertrag zur Auftragsverarbeitung mit dem Pflichtinhalt des Art. 28 Abs. 3 DSGVO",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 28 Abs. 3 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Die Einwilligung aller betroffenen Personen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auftragsverarbeitung braucht keine gesonderte Einwilligung, sondern einen AV-Vertrag (Art. 28 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Eine Genehmigung der Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Genehmigung ist nicht vorgesehen (Art. 28 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nichts, solange der Dienstleister in der EU sitzt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Vertrag ist auch innerhalb der EU Pflicht (Art. 28 Abs. 3 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 28 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-109",
+  "thema": "ds-auftragsverarbeitung",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wer bleibt bei der Auftragsverarbeitung gegenüber den Betroffenen für die Verarbeitung verantwortlich?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Der Auftraggeber (Verantwortliche) – der Dienstleister ist quasi eine ausgelagerte Abteilung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 7, 8, Art. 28 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Allein der Auftragsverarbeiter",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Verantwortliche bleibt verantwortlich (Art. 24, 28 DSGVO); der Auftragsverarbeiter haftet daneben nur für eigene Pflichtverstöße (Art. 82 Abs. 2 S. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Niemand",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Verantwortliche bleibt verantwortlich (Art. 24 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Behörde überwacht nur (Art. 58 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 28 DSGVO",
+   "Art. 24 DSGVO",
+   "Art. 82 DSGVO",
+   "Art. 58 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-110",
+  "thema": "ds-auftragsverarbeitung",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Was muss ein Vertrag zur Auftragsverarbeitung nach Art. 28 Abs. 3 DSGVO u. a. regeln? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Verarbeitung nur auf dokumentierte Weisung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 28 Abs. 3 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Vertraulichkeitsverpflichtung der eingesetzten Personen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 28 Abs. 3 lit. b DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Rückgabe oder Löschung der Daten nach Ende des Auftrags",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 28 Abs. 3 lit. g DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Recht des Dienstleisters, die Daten für eigene Produkte zu verwenden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Wer eigene Zwecke verfolgt, wird selbst Verantwortlicher (Art. 28 Abs. 10 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 28 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-111",
+  "thema": "ds-auftragsverarbeitung",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wie heißt das zentrale Dokumentationsinstrument, in dem ein Verantwortlicher seine Verarbeitungen mit Zwecken, Kategorien und Löschfristen aufführt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Verzeichnis von Verarbeitungstätigkeiten (Art. 30 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 30 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Datenschutz-Folgenabschätzung (Art. 35 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSFA ist nur bei hohem Risiko nötig; das Verzeichnis führt alle Verarbeitungen auf (Art. 30 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Datenschutzerklärung nach Art. 13 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Datenschutzerklärung informiert Betroffene; das Verzeichnis ist intern (Art. 30 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Handelsregister",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kein datenschutzrechtliches Instrument."
+   }
+  ],
+  "normen": [
+   "Art. 30 DSGVO",
+   "Art. 35 DSGVO",
+   "Art. 13 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-112",
+  "thema": "ds-auftragsverarbeitung",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Auftragsverarbeitung und Verzeichnis – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Auch Auftragsverarbeiter müssen ein Verzeichnis führen.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 30 Abs. 2 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Unternehmen unter 250 Beschäftigten müssen nie ein Verzeichnis führen.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Ausnahme gilt nicht bei nicht nur gelegentlicher Verarbeitung, Risiko oder besonderen Kategorien (Art. 30 Abs. 5 DSGVO) – praktisch fast immer Pflicht."
+   },
+   {
+    "id": "3",
+    "text": "Ein Auftragsverarbeiter darf weitere Unterauftragsverarbeiter nur mit Genehmigung des Verantwortlichen einschalten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 28 Abs. 2 DSGVO."
+   },
+   {
+    "id": "4",
+    "text": "Wer Daten ohne AV-Vertrag verarbeiten lässt, riskiert ein Bußgeld.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verstöße gegen Art. 28 DSGVO sind nach Art. 83 Abs. 4 lit. a DSGVO bußgeldbewehrt."
+   }
+  ],
+  "normen": [
+   "Art. 30 DSGVO",
+   "Art. 28 DSGVO",
+   "Art. 83 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-113",
+  "thema": "ds-auftragsverarbeitung",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Callcenter-Dienstleister nutzt die Kundendaten seines Auftraggebers heimlich auch für eigene Werbeanrufe. Welche Folge sieht die DSGVO vor?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Er gilt für diese Verarbeitung selbst als Verantwortlicher",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 28 Abs. 10 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Er bleibt Auftragsverarbeiter, alle Verantwortung liegt beim Auftraggeber",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bei Bestimmung eigener Zwecke wird er Verantwortlicher (Art. 28 Abs. 10 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der AV-Vertrag wird automatisch zu einem Kaufvertrag",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine solche Rechtsfolge; maßgeblich ist Art. 28 Abs. 10 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Keine – Auftragsverarbeiter dürfen Daten frei nutzen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie sind weisungsgebunden (Art. 28 Abs. 3 lit. a, Art. 29 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 28 DSGVO",
+   "Art. 29 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-114",
+  "thema": "ds-dsfa",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wann ist eine Datenschutz-Folgenabschätzung (DSFA) durchzuführen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Wenn eine Verarbeitung voraussichtlich ein hohes Risiko für die Rechte und Freiheiten natürlicher Personen zur Folge hat",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 35 Abs. 1 DSGVO – insbesondere bei neuen Technologien."
+   },
+   {
+    "id": "b",
+    "text": "Bei jeder Verarbeitung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nur bei voraussichtlich hohem Risiko (Art. 35 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur nach einer Datenpanne",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSFA erfolgt vorab (Art. 35 Abs. 1 DSGVO: „vorab“)."
+   },
+   {
+    "id": "d",
+    "text": "Nur bei Behörden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie trifft jeden Verantwortlichen (Art. 35 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 35 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-115",
+  "thema": "ds-dsfa",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "In welchen Fällen ist eine DSFA nach Art. 35 Abs. 3 DSGVO insbesondere erforderlich? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Systematische umfassende Bewertung persönlicher Aspekte (Profiling) mit Entscheidungen von rechtlicher Wirkung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 35 Abs. 3 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Umfangreiche Verarbeitung besonderer Kategorien (Art. 9) oder von Straftatendaten (Art. 10)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 35 Abs. 3 lit. b DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Systematische umfangreiche Überwachung öffentlich zugänglicher Bereiche",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 35 Abs. 3 lit. c DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Führen einer Kundenkartei eines kleinen Friseursalons",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kein hohes Risiko; keine DSFA nötig (Art. 35 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 35 DSGVO",
+   "Art. 9 DSGVO",
+   "Art. 10 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-116",
+  "thema": "ds-dsfa",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Was ist zu tun, wenn die DSFA ein hohes Risiko ergibt, das der Verantwortliche nicht durch Maßnahmen eindämmen kann?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Vor Beginn der Verarbeitung die Aufsichtsbehörde konsultieren",
+    "korrekt": true,
+    "erklaerung": "Richtig: Vorherige Konsultation, Art. 36 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Die Verarbeitung trotzdem starten und später melden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Konsultation muss vorher erfolgen (Art. 36 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Alle Betroffenen nach Art. 34 DSGVO benachrichtigen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 34 DSGVO betrifft Datenpannen."
+   },
+   {
+    "id": "d",
+    "text": "Einen zweiten Datenschutzbeauftragten benennen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nicht vorgesehen; einschlägig ist Art. 36 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 36 DSGVO",
+   "Art. 34 DSGVO",
+   "Art. 35 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-117",
+  "thema": "ds-dsfa",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wessen Rat muss der Verantwortliche bei der Durchführung einer DSFA einholen, sofern benannt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Den des Datenschutzbeauftragten",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 35 Abs. 2 DSGVO, Art. 39 Abs. 1 lit. c DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Den der Polizei",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nicht vorgesehen (Art. 35 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Den des Betriebsrats – zwingend und allein",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO nennt den DSB (Art. 35 Abs. 2 DSGVO); Mitbestimmungsrechte bleiben unberührt."
+   },
+   {
+    "id": "d",
+    "text": "Den aller Kunden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Standpunkt Betroffener ist nur „gegebenenfalls“ einzuholen (Art. 35 Abs. 9 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 35 DSGVO",
+   "Art. 39 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-118",
+  "thema": "ds-sanktionen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wie hoch kann ein Bußgeld bei Verstößen gegen die Grundsätze der Verarbeitung (Art. 5 DSGVO) höchstens sein?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Bis zu 20 Mio. € oder bis zu 4 % des weltweiten Jahresumsatzes des Vorjahres – je nachdem, was höher ist",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 5 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Bis zu 10 Mio. € oder 2 %",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist der Rahmen des Art. 83 Abs. 4 DSGVO (z. B. Art. 25, 28, 30, 32–35, 37–39)."
+   },
+   {
+    "id": "c",
+    "text": "Pauschal 50.000 €",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO nennt Höchstbeträge nach Art. 83 Abs. 4, 5 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Gar nicht – Grundsätze sind nur Empfehlungen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verstöße gegen Art. 5 DSGVO sind sogar im höheren Rahmen bußgeldbewehrt (Art. 83 Abs. 5 lit. a DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 83 DSGVO",
+   "Art. 5 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-119",
+  "thema": "ds-sanktionen",
+  "typ": "zuordnung",
+  "schwierigkeit": 2,
+  "frage": "Ordne den Verstoß dem richtigen Bußgeldrahmen zu.",
+  "ziele": [
+   {
+    "id": "k",
+    "text": "Art. 83 Abs. 4 – bis 10 Mio. € / 2 %"
+   },
+   {
+    "id": "g",
+    "text": "Art. 83 Abs. 5 – bis 20 Mio. € / 4 %"
+   }
+  ],
+  "paare": [
+   {
+    "id": "p1",
+    "text": "Kein Verzeichnis von Verarbeitungstätigkeiten geführt",
+    "loesung": "k",
+    "erklaerung": "Pflichten nach Art. 30 DSGVO → Art. 83 Abs. 4 lit. a DSGVO."
+   },
+   {
+    "id": "p2",
+    "text": "Verarbeitung ohne Rechtsgrundlage",
+    "loesung": "g",
+    "erklaerung": "Art. 6 DSGVO → Art. 83 Abs. 5 lit. a DSGVO."
+   },
+   {
+    "id": "p3",
+    "text": "Auskunftsanträge werden systematisch ignoriert",
+    "loesung": "g",
+    "erklaerung": "Betroffenenrechte (Art. 12–22 DSGVO) → Art. 83 Abs. 5 lit. b DSGVO."
+   },
+   {
+    "id": "p4",
+    "text": "Pflicht zur Benennung eines Datenschutzbeauftragten missachtet",
+    "loesung": "k",
+    "erklaerung": "Art. 37 DSGVO → Art. 83 Abs. 4 lit. a DSGVO."
+   },
+   {
+    "id": "p5",
+    "text": "Unzulässige Übermittlung in ein Drittland",
+    "loesung": "g",
+    "erklaerung": "Art. 44–49 DSGVO → Art. 83 Abs. 5 lit. c DSGVO."
+   },
+   {
+    "id": "p6",
+    "text": "Datenpanne nicht gemeldet",
+    "loesung": "k",
+    "erklaerung": "Art. 33 DSGVO → Art. 83 Abs. 4 lit. a DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 83 DSGVO",
+   "Art. 30 DSGVO",
+   "Art. 6 DSGVO",
+   "Art. 37 DSGVO",
+   "Art. 44 DSGVO",
+   "Art. 33 DSGVO",
+   "Art. 12 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-120",
+  "thema": "ds-sanktionen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wer hat bei einem Datenschutzverstoß einen Anspruch auf Schadensersatz, auch für immaterielle Schäden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Jede Person, der wegen des Verstoßes ein materieller oder immaterieller Schaden entstanden ist",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 82 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur die Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Behörde verhängt Bußgelder (Art. 83 DSGVO); Schadensersatz steht Geschädigten zu (Art. 82 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur Unternehmen, nie Privatpersonen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Gerade Betroffene sind anspruchsberechtigt (Art. 82 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Niemand – die DSGVO sieht nur Bußgelder vor",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 82 DSGVO gewährt einen eigenen Schadensersatzanspruch."
+   }
+  ],
+  "normen": [
+   "Art. 82 DSGVO",
+   "Art. 83 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-121",
+  "thema": "ds-sanktionen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Konzern mit 2 Mrd. € Vorjahresumsatz verstößt gegen Art. 6 DSGVO. Wie hoch ist das maximal mögliche Bußgeld?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "80 Mio. € (4 % von 2 Mrd. €, weil höher als 20 Mio. €)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 5 DSGVO – der höhere Betrag gilt."
+   },
+   {
+    "id": "b",
+    "text": "20 Mio. €",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bei Unternehmen gilt der höhere Betrag; 4 % von 2 Mrd. € = 80 Mio. € (Art. 83 Abs. 5 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "40 Mio. € (2 %)",
+    "korrekt": false,
+    "erklaerung": "Falsch: 2 % gilt für Art. 83 Abs. 4 DSGVO; Art. 6 DSGVO fällt unter Abs. 5 (4 %)."
+   },
+   {
+    "id": "d",
+    "text": "10 Mio. €",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist der feste Betrag des Abs. 4; hier gilt Art. 83 Abs. 5 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 83 DSGVO",
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-122",
+  "thema": "ds-sanktionen",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Welche Verstöße fallen in den höheren Bußgeldrahmen des Art. 83 Abs. 5 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Verstoß gegen die Bedingungen für die Einwilligung (Art. 7 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 5 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Missachtung der Betroffenenrechte (Art. 12–22 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 5 lit. b DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Nichtbefolgung einer Anweisung der Aufsichtsbehörde",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 5 lit. e, Abs. 6 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Fehlende Datenschutz-Folgenabschätzung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 35 DSGVO fällt unter Art. 83 Abs. 4 lit. a DSGVO (10 Mio. € / 2 %)."
+   }
+  ],
+  "normen": [
+   "Art. 83 DSGVO",
+   "Art. 7 DSGVO",
+   "Art. 12 DSGVO",
+   "Art. 35 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-123",
+  "thema": "ds-sanktionen",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Haftung und Bußgelder – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Geldbußen müssen im Einzelfall wirksam, verhältnismäßig und abschreckend sein.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 1 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Betroffene können sich bei einer Aufsichtsbehörde beschweren.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 77 DSGVO."
+   },
+   {
+    "id": "3",
+    "text": "Gegen Behörden und sonstige öffentliche Stellen des Bundes werden nach dem BDSG keine Geldbußen verhängt.",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 43 Abs. 3 BDSG (Öffnungsklausel Art. 83 Abs. 7 DSGVO); für Landesbehörden gelten die Landesdatenschutzgesetze."
+   },
+   {
+    "id": "4",
+    "text": "Der Verantwortliche haftet nach Art. 82 DSGVO auch dann, wenn er nachweist, dass er für den schadensverursachenden Umstand in keiner Weise verantwortlich ist.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Dann ist er befreit (Art. 82 Abs. 3 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 83 DSGVO",
+   "Art. 77 DSGVO",
+   "§ 43 BDSG",
+   "Art. 82 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-124",
+  "thema": "ds-sanktionen",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Welche Behörde ist in Deutschland für die Verhängung von DSGVO-Bußgeldern gegen ein privates Unternehmen in der Regel zuständig?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Die Datenschutz-Aufsichtsbehörde des Landes, in dem das Unternehmen seinen Sitz hat",
+    "korrekt": true,
+    "erklaerung": "Richtig: Aufsicht über nichtöffentliche Stellen durch die Landesbehörden (§ 40 Abs. 1 BDSG; Ausnahmen u. a. Telekommunikation beim BfDI); Bußgeldbefugnis nach Art. 58 Abs. 2 lit. i, Art. 83 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Das Bundeskartellamt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Datenschutzbußgelder verhängen die Datenschutzaufsichtsbehörden (Art. 51, 58 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der betriebliche Datenschutzbeauftragte",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der DSB hat keine Sanktionsbefugnis (Art. 39 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Das Amtsgericht von Amts wegen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Zuständig ist zunächst die Aufsichtsbehörde (Art. 58 Abs. 2 lit. i DSGVO); Gerichte entscheiden erst bei Einspruch."
+   }
+  ],
+  "normen": [
+   "Art. 58 DSGVO",
+   "Art. 83 DSGVO",
+   "Art. 51 DSGVO",
+   "Art. 39 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-125",
+  "thema": "ds-beschaeftigte",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Vorschrift enthält im deutschen Recht Regeln zur Datenverarbeitung für Zwecke des Beschäftigungsverhältnisses?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "§ 26 BDSG (gestützt auf die Öffnungsklausel Art. 88 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 BDSG; Abs. 1 S. 1 ist nach EuGH-Rechtsprechung (2023) nur eingeschränkt anwendbar – dann gilt Art. 6 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "§ 38 BDSG",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 38 BDSG betrifft den Datenschutzbeauftragten."
+   },
+   {
+    "id": "c",
+    "text": "Art. 8 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 8 DSGVO betrifft Kinder."
+   },
+   {
+    "id": "d",
+    "text": "§ 25 TDDDG",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 25 TDDDG betrifft Cookies/Endgerätezugriff."
+   }
+  ],
+  "normen": [
+   "§ 26 BDSG",
+   "Art. 88 DSGVO",
+   "Art. 6 DSGVO",
+   "§ 38 BDSG",
+   "Art. 8 DSGVO",
+   "§ 25 TDDDG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-126",
+  "thema": "ds-beschaeftigte",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Wer gilt nach § 26 Abs. 8 BDSG als „Beschäftigter“? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Bewerberinnen und Bewerber",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 Abs. 8 S. 2 BDSG."
+   },
+   {
+    "id": "b",
+    "text": "Auszubildende",
+    "korrekt": true,
+    "erklaerung": "Richtig: zu ihrer Berufsbildung Beschäftigte (§ 26 Abs. 8 S. 1 Nr. 2 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Ausgeschiedene Beschäftigte",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 Abs. 8 S. 2 BDSG."
+   },
+   {
+    "id": "d",
+    "text": "Kunden des Unternehmens",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kunden sind keine Beschäftigten (§ 26 Abs. 8 BDSG)."
+   }
+  ],
+  "normen": [
+   "§ 26 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-127",
+  "thema": "ds-beschaeftigte",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Unter welchen Voraussetzungen dürfen Beschäftigtendaten zur Aufdeckung von Straftaten verarbeitet werden (§ 26 Abs. 1 S. 2 BDSG)?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Bei zu dokumentierenden tatsächlichen Anhaltspunkten für eine im Beschäftigungsverhältnis begangene Straftat, Erforderlichkeit und ohne überwiegendes schutzwürdiges Interesse des Beschäftigten",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 Abs. 1 S. 2 BDSG."
+   },
+   {
+    "id": "b",
+    "text": "Jederzeit ohne Anlass, weil der Arbeitgeber Eigentümer der IT ist",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es braucht konkrete, dokumentierte Anhaltspunkte und Verhältnismäßigkeit (§ 26 Abs. 1 S. 2 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Nur mit Zustimmung der Polizei",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nicht vorgesehen; maßgeblich sind die Voraussetzungen des § 26 Abs. 1 S. 2 BDSG."
+   },
+   {
+    "id": "d",
+    "text": "Nie",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 26 Abs. 1 S. 2 BDSG erlaubt es unter engen Voraussetzungen."
+   }
+  ],
+  "normen": [
+   "§ 26 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-128",
+  "thema": "ds-beschaeftigte",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "In welcher Form hat eine Einwilligung im Beschäftigungsverhältnis nach § 26 Abs. 2 S. 3 BDSG grundsätzlich zu erfolgen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Schriftlich oder elektronisch, soweit nicht wegen besonderer Umstände eine andere Form angemessen ist",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 Abs. 2 S. 3 BDSG („schriftlich oder elektronisch“). Lernhinweis: Die Folie nennt nur die Schriftform (ältere Fassung)."
+   },
+   {
+    "id": "b",
+    "text": "Nur mündlich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Grundsätzlich schriftlich oder elektronisch (§ 26 Abs. 2 S. 3 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Notariell",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine Beurkundung (§ 26 Abs. 2 BDSG)."
+   },
+   {
+    "id": "d",
+    "text": "Gar nicht – im Arbeitsverhältnis gibt es keine Einwilligung",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 26 Abs. 2 BDSG setzt sie gerade voraus."
+   }
+  ],
+  "normen": [
+   "§ 26 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-129",
+  "thema": "ds-beschaeftigte",
+  "typ": "aussagen",
+  "schwierigkeit": 3,
+  "frage": "Beschäftigtendatenschutz – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Der Arbeitgeber darf für die Durchführung des Arbeitsverhältnisses erforderliche Daten (z. B. Bankverbindung) verarbeiten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Erforderlich für die Durchführung des Beschäftigungsverhältnisses (§ 26 Abs. 1 S. 1 BDSG bzw. Art. 6 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "2",
+    "text": "Eine Einwilligung im Arbeitsverhältnis kann freiwillig sein, wenn der Beschäftigte dadurch einen Vorteil erlangt.",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 Abs. 2 S. 2 BDSG."
+   },
+   {
+    "id": "3",
+    "text": "Der EuGH hat 2023 entschieden, dass eine § 26 Abs. 1 S. 1 BDSG entsprechende Regel nur anwendbar ist, wenn sie spezifischer ist als die DSGVO.",
+    "korrekt": true,
+    "erklaerung": "Richtig: EuGH, C-34/21 (zu einer hessischen Parallelnorm); Folge: Rückgriff auf Art. 6 Abs. 1 lit. b, c DSGVO; Art. 88 DSGVO verlangt spezifischere Vorschriften."
+   },
+   {
+    "id": "4",
+    "text": "Bewerberdaten fallen nicht unter den Beschäftigtendatenschutz.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bewerber gelten als Beschäftigte (§ 26 Abs. 8 S. 2 BDSG)."
+   }
+  ],
+  "normen": [
+   "§ 26 BDSG",
+   "Art. 6 DSGVO",
+   "Art. 88 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-130",
+  "thema": "ds-drittland",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Welche Voraussetzung macht eine Übermittlung personenbezogener Daten in ein Drittland allein aufgrund einer Entscheidung der EU-Kommission zulässig?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Wenn die EU-Kommission für dieses Land einen Angemessenheitsbeschluss erlassen hat",
+    "korrekt": true,
+    "erklaerung": "Richtig: Angemessenheitsbeschluss, Art. 45 Abs. 1 DSGVO – die Übermittlung bedarf dann keiner besonderen Genehmigung (Art. 45 Abs. 1 S. 2 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Wenn der Empfänger verspricht, die Daten gut zu behandeln",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bloße Zusagen genügen nicht; es braucht Angemessenheit (Art. 45 DSGVO) oder geeignete Garantien (Art. 46 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Immer, wenn das Drittland ein Datenschutzgesetz hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Entscheidend ist die Feststellung der Angemessenheit durch die Kommission (Art. 45 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nie – Übermittlungen in Drittländer sind verboten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie sind unter den Bedingungen der Art. 44 ff. DSGVO zulässig."
+   }
+  ],
+  "normen": [
+   "Art. 45 DSGVO",
+   "Art. 46 DSGVO",
+   "Art. 44 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-131",
+  "thema": "ds-drittland",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Unternehmen übermittelt Daten an einen Dienstleister in einem Land ohne Angemessenheitsbeschluss. Welches Instrument kommt typischerweise als geeignete Garantie in Betracht?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Von der Kommission erlassene Standarddatenschutzklauseln",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 46 Abs. 2 lit. c DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Eine einfache E-Mail-Bestätigung des Dienstleisters",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine geeignete Garantie im Sinne von Art. 46 DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Die Benennung eines Datenschutzbeauftragten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der DSB ersetzt keine Übermittlungsgrundlage (Art. 44 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Ein Bußgeldbescheid",
+    "korrekt": false,
+    "erklaerung": "Falsch: Völlig unpassend; einschlägig ist Art. 46 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 46 DSGVO",
+   "Art. 44 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-132",
+  "thema": "ds-drittland",
+  "typ": "aussagen",
+  "schwierigkeit": 3,
+  "frage": "Drittlandübermittlung – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Unzulässige Drittlandübermittlungen fallen in den höheren Bußgeldrahmen (20 Mio. € / 4 %).",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 83 Abs. 5 lit. c DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Eine ausdrückliche Einwilligung nach Information über die Risiken kann eine Übermittlung im Einzelfall rechtfertigen.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Ausnahme nach Art. 49 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "3",
+    "text": "Die Übermittlung in ein anderes EU-Land ist eine Drittlandübermittlung.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Innerhalb der EU/des EWR gilt der freie Datenverkehr (Art. 1 Abs. 3 DSGVO); Drittland sind Staaten außerhalb."
+   },
+   {
+    "id": "4",
+    "text": "Auch bei einer Übermittlung in ein Drittland braucht es zusätzlich eine Rechtsgrundlage nach Art. 6 DSGVO.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Zweistufige Prüfung – Rechtmäßigkeit (Art. 6 DSGVO) und Kapitel V (Art. 44 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 83 DSGVO",
+   "Art. 49 DSGVO",
+   "Art. 1 DSGVO",
+   "Art. 6 DSGVO",
+   "Art. 44 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-133",
+  "thema": "ds-cookies",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Vorschrift regelt in Deutschland, wann Cookies auf dem Endgerät gespeichert werden dürfen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "§ 25 TDDDG (bis Mai 2024: TTDSG)",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 25 TDDDG."
+   },
+   {
+    "id": "b",
+    "text": "§ 26 BDSG",
+    "korrekt": false,
+    "erklaerung": "Falsch: Beschäftigtendatenschutz."
+   },
+   {
+    "id": "c",
+    "text": "Art. 20 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Datenübertragbarkeit."
+   },
+   {
+    "id": "d",
+    "text": "§ 241a BGB",
+    "korrekt": false,
+    "erklaerung": "Falsch: Unbestellte Leistungen."
+   }
+  ],
+  "normen": [
+   "§ 25 TDDDG",
+   "§ 26 BDSG",
+   "Art. 20 DSGVO",
+   "§ 241a BGB"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-134",
+  "thema": "ds-cookies",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wofür braucht eine Website nach § 25 TDDDG KEINE Einwilligung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Für Cookies, die unbedingt erforderlich sind, um einen ausdrücklich gewünschten Dienst bereitzustellen (z. B. Warenkorb)",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 25 Abs. 2 Nr. 2 TDDDG."
+   },
+   {
+    "id": "b",
+    "text": "Für Werbe-Tracking über mehrere Websites",
+    "korrekt": false,
+    "erklaerung": "Falsch: Tracking ist nicht unbedingt erforderlich; Einwilligung nötig (§ 25 Abs. 1 TDDDG)."
+   },
+   {
+    "id": "c",
+    "text": "Für Analyse-Cookies eines Drittanbieters",
+    "korrekt": false,
+    "erklaerung": "Falsch: Grundsätzlich einwilligungspflichtig (§ 25 Abs. 1 TDDDG)."
+   },
+   {
+    "id": "d",
+    "text": "Für Social-Media-Plugins, die Daten an Plattformen senden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nicht unbedingt erforderlich (§ 25 Abs. 1 TDDDG)."
+   }
+  ],
+  "normen": [
+   "§ 25 TDDDG"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-135",
+  "thema": "ds-cookies",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Cookies – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Für die Einwilligung nach § 25 TDDDG gelten die Anforderungen der DSGVO.",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 25 Abs. 1 S. 2 TDDDG verweist auf die DSGVO (Art. 4 Nr. 11, Art. 7 DSGVO)."
+   },
+   {
+    "id": "2",
+    "text": "Ein vorangekreuztes Kästchen genügt für eine wirksame Cookie-Einwilligung.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es braucht eine aktive Handlung (Art. 4 Nr. 11 DSGVO; EuGH „Planet49“)."
+   },
+   {
+    "id": "3",
+    "text": "Das TTDSG heißt seit Mai 2024 TDDDG.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Umbenennung durch das Digitale-Dienste-Gesetz; § 25 TDDDG blieb inhaltlich gleich."
+   },
+   {
+    "id": "4",
+    "text": "§ 25 TDDDG gilt nur, wenn die gespeicherten Informationen personenbezogen sind.",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 25 TDDDG schützt das Endgerät unabhängig vom Personenbezug („Informationen“)."
+   }
+  ],
+  "normen": [
+   "§ 25 TDDDG",
+   "Art. 4 DSGVO",
+   "Art. 7 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-136",
+  "thema": "ds-ki-vo",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Seit wann ist die europäische KI-Verordnung in Kraft?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Seit dem 1. August 2024 (mit gestaffelter Geltung einzelner Pflichten)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 113 KI-VO – Verbote ab 2. Februar 2025, allgemeine Geltung ab 2. August 2026; die Hochrisiko-Pflichten wurden durch VO (EU) 2026/1744 verschoben (Anhang III: 2. Dezember 2027, Anhang I: 2. August 2028)."
+   },
+   {
+    "id": "b",
+    "text": "Seit dem 25. Mai 2018",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist der Geltungsbeginn der DSGVO (Art. 99 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Sie ist noch nicht verabschiedet",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie ist seit 1. August 2024 in Kraft (Art. 113 KI-VO)."
+   },
+   {
+    "id": "d",
+    "text": "Seit dem 1. Januar 2030",
+    "korrekt": false,
+    "erklaerung": "Falsch: Inkrafttreten 1. August 2024 (Art. 113 KI-VO)."
+   }
+  ],
+  "normen": [
+   "Art. 113 KI-VO",
+   "Art. 99 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-137",
+  "thema": "ds-ki-vo",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Nach welchem Ansatz reguliert die KI-Verordnung KI-Systeme?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Risikobasiert: verbotene Praktiken, Hochrisiko-Systeme mit besonderen Pflichten, Transparenzpflichten für bestimmte Systeme, im Übrigen geringe Anforderungen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verbote (Art. 5 KI-VO), Hochrisiko (Art. 6 ff. KI-VO), Transparenz (Art. 50 KI-VO)."
+   },
+   {
+    "id": "b",
+    "text": "Alle KI-Systeme sind gleich streng reguliert",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Pflichten hängen vom Risiko ab (Art. 5, 6, 50 KI-VO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur KI-Systeme von Behörden werden reguliert",
+    "korrekt": false,
+    "erklaerung": "Falsch: Erfasst sind Anbieter und Betreiber allgemein (Art. 3 Nr. 3, 4 KI-VO)."
+   },
+   {
+    "id": "d",
+    "text": "KI-Systeme sind vollständig verboten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nur bestimmte Praktiken sind verboten (Art. 5 KI-VO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 KI-VO",
+   "Art. 6 KI-VO",
+   "Art. 50 KI-VO",
+   "Art. 3 KI-VO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-138",
+  "thema": "ds-ki-vo",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Was verlangt Art. 4 KI-VO (in der seit 27. Juli 2026 geltenden Fassung) von Anbietern und Betreibern von KI-Systemen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Maßnahmen, um die Entwicklung der KI-Kompetenz ihres Personals zu unterstützen – ohne ein bestimmtes Kompetenzniveau garantieren zu müssen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Abs. 1 KI-VO i. d. F. der VO (EU) 2026/1744 („Digital-Omnibus-Verordnung zur KI“). Die Vorlesung (Stand Juni 2026) beschrieb noch die alte, strengere Fassung („ausreichendes Maß an KI-Kompetenz“) und kündigte die Abschwächung an."
+   },
+   {
+    "id": "b",
+    "text": "Eine Zertifizierung aller Beschäftigten durch eine Behörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 4 KI-VO verlangt keine behördliche Zertifizierung, sondern Unterstützungsmaßnahmen."
+   },
+   {
+    "id": "c",
+    "text": "Die Benennung eines Datenschutzbeauftragten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das regeln Art. 37 DSGVO und § 38 BDSG."
+   },
+   {
+    "id": "d",
+    "text": "Die Kennzeichnung aller Texte mit Wasserzeichen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kennzeichnungspflichten stehen in Art. 50 KI-VO und betreffen bestimmte Fälle."
+   }
+  ],
+  "normen": [
+   "Art. 4 KI-VO",
+   "Art. 37 DSGVO",
+   "§ 38 BDSG",
+   "Art. 50 KI-VO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-139",
+  "thema": "ds-ki-vo",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ein Unternehmen entwickelt einen KI-Chatbot und bietet ihn unter eigenem Namen auf seiner Website an. Welche Pflicht trifft es nach der KI-Verordnung typischerweise?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Nutzer müssen erkennen können, dass sie mit einem KI-System interagieren (Transparenzpflicht)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Pflicht des Anbieters (Art. 50 Abs. 1 KI-VO, Art. 3 Nr. 3 KI-VO), gilt seit 2. August 2026; Ausnahme, wenn die KI-Interaktion offensichtlich ist."
+   },
+   {
+    "id": "b",
+    "text": "Der Chatbot muss vorab von der EU-Kommission genehmigt werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine Genehmigungspflicht; Transparenzpflicht nach Art. 50 KI-VO."
+   },
+   {
+    "id": "c",
+    "text": "Chatbots sind verbotene KI-Praktiken",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verboten sind nur die in Art. 5 KI-VO genannten Praktiken."
+   },
+   {
+    "id": "d",
+    "text": "Keine – die KI-VO gilt nur für Roboter",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die KI-VO erfasst auch Software-KI-Systeme (Art. 3 Nr. 1 KI-VO)."
+   }
+  ],
+  "normen": [
+   "Art. 50 KI-VO",
+   "Art. 5 KI-VO",
+   "Art. 3 KI-VO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-140",
+  "thema": "ds-ki-vo",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Welche Punkte gehören zur Checkliste für den datenschutzgerechten Einsatz von LLM-Chatbots im Unternehmen (laut Vorlesung)? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Keine Eingabe personenbezogener Daten",
+    "korrekt": true,
+    "erklaerung": "Richtig: Datenminimierung (Art. 5 Abs. 1 lit. c DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Opt-out des KI-Trainings mit eigenen Eingaben",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verhindert Zweckänderung (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Keine automatisierte Letztentscheidung durch die KI",
+    "korrekt": true,
+    "erklaerung": "Richtig: Vgl. Art. 22 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Ergebnisse ungeprüft übernehmen, da LLMs immer richtig sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ergebnisse sind auf Richtigkeit und Diskriminierung zu prüfen (Art. 5 Abs. 1 lit. d DSGVO – Richtigkeit)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 22 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-141",
+  "thema": "ds-ki-vo",
+  "typ": "aussagen",
+  "schwierigkeit": 3,
+  "frage": "KI und Datenschutz – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Prompts, Chatverläufe und Login-Daten bei der Nutzung eines KI-Systems können personenbezogene Daten sein.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Laut Vorlesung; für diese Daten gilt die DSGVO (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "2",
+    "text": "Die KI-VO ersetzt die DSGVO, soweit KI eingesetzt wird.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Beide gelten nebeneinander; die DSGVO bleibt für personenbezogene Daten maßgeblich (Art. 2 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Ein Betreiber ist, wer ein KI-System in eigener Verantwortung verwendet – außer im Rahmen persönlicher, nicht beruflicher Tätigkeit.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 3 Nr. 4 KI-VO."
+   },
+   {
+    "id": "4",
+    "text": "Die Pflichten für Hochrisiko-KI-Systeme nach Anhang I (Art. 6 Abs. 1 KI-VO) gelten bereits seit 2024.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie gelten nach Änderung durch VO (EU) 2026/1744 erst ab dem 2. August 2028 (Art. 113 Abs. 3 lit. c KI-VO), für Anhang-III-Systeme ab dem 2. Dezember 2027."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 2 DSGVO",
+   "Art. 3 KI-VO",
+   "Art. 6 KI-VO",
+   "Art. 113 KI-VO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ }
+]

@@ -1,0 +1,570 @@
+[
+ {
+  "id": "ds-mc-016",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was sind personenbezogene Daten im Sinne der DSGVO?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Legaldefinition in Art. 4 Nr. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur Name, Anschrift und Geburtsdatum",
+    "korrekt": false,
+    "erklaerung": "Falsch: Erfasst sind „alle Informationen“, z. B. auch IP-Adresse oder Standortdaten (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Alle Daten über natürliche und juristische Personen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nur natürliche Personen (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur Daten, die besonders sensibel sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sensible Daten sind eine Unterkategorie (Art. 9 DSGVO); personenbezogen sind alle Informationen über eine Person (Art. 4 Nr. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-017",
+  "thema": "ds-begriffe",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche Angaben sind personenbezogene Daten? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Kfz-Kennzeichen eines Privatwagens",
+    "korrekt": true,
+    "erklaerung": "Richtig: Über das Kennzeichen ist der Halter identifizierbar (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "IP-Adresse eines Website-Besuchers",
+    "korrekt": true,
+    "erklaerung": "Richtig: Online-Kennung, über die eine Person identifizierbar sein kann (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Arbeitszeugnis einer Mitarbeiterin",
+    "korrekt": true,
+    "erklaerung": "Richtig: Auch Werturteile über eine Person sind personenbezogen (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Anzahl der Beschäftigten über 45 Jahre in einem Konzern",
+    "korrekt": false,
+    "erklaerung": "Falsch: Aggregierte Angaben ohne Bezug zu einzelnen Personen sind nicht personenbezogen (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "e",
+    "text": "Handelsregisternummer einer Aktiengesellschaft",
+    "korrekt": false,
+    "erklaerung": "Falsch: Angaben über juristische Personen sind nicht erfasst (Art. 4 Nr. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-018",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was ist nach der DSGVO eine „Verarbeitung“?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Jeder Vorgang im Zusammenhang mit personenbezogenen Daten, z. B. Erheben, Speichern, Abfragen, Übermitteln, Löschen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Sehr weiter Begriff, Art. 4 Nr. 2 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur das Verändern von Daten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verändern ist nur ein Beispiel; Art. 4 Nr. 2 DSGVO erfasst „jeden Vorgang“."
+   },
+   {
+    "id": "c",
+    "text": "Nur automatisierte Vorgänge",
+    "korrekt": false,
+    "erklaerung": "Falsch: „mit oder ohne Hilfe automatisierter Verfahren“ (Art. 4 Nr. 2 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur die Weitergabe an Dritte",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auch das bloße Speichern oder Löschen ist Verarbeitung (Art. 4 Nr. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-019",
+  "thema": "ds-begriffe",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Welche Vorgänge sind „Verarbeitung“ im Sinne von Art. 4 Nr. 2 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Das Löschen einer Kundendatei",
+    "korrekt": true,
+    "erklaerung": "Richtig: „Löschen oder die Vernichtung“ sind ausdrücklich genannt (Art. 4 Nr. 2 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Das bloße Ansehen (Abfragen) eines Datensatzes am Bildschirm",
+    "korrekt": true,
+    "erklaerung": "Richtig: „Abfragen“ und „Verwendung“ sind Verarbeitung (Art. 4 Nr. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Das Erheben von Daten über ein Kontaktformular",
+    "korrekt": true,
+    "erklaerung": "Richtig: „Erheben“ (Art. 4 Nr. 2 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Das Nachdenken über eine Person ohne jede Aufzeichnung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ohne Datenverarbeitung im technischen bzw. Dateisystem-Sinn liegt keine Verarbeitung vor (Art. 2 Abs. 1, Art. 4 Nr. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 2 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-020",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Worin unterscheidet sich Pseudonymisierung von Anonymisierung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Pseudonymisierte Daten sind mit Zusatzwissen (z. B. Zuordnungstabelle) wieder einer Person zuordenbar und bleiben jedenfalls für den, der über das Zusatzwissen verfügt, personenbezogen; anonymisierte Daten sind es für niemanden mehr",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 5 DSGVO; anonyme Daten fallen nicht unter die DSGVO (Erwägungsgrund 26). Nach EuGH C-413/23 P (2025) kann es für einen Empfänger ohne Zugang zum Zusatzwissen an der Identifizierbarkeit fehlen (relativer Personenbezug)."
+   },
+   {
+    "id": "b",
+    "text": "Es gibt keinen Unterschied",
+    "korrekt": false,
+    "erklaerung": "Falsch: Pseudonymisierte Daten bleiben personenbezogen (Art. 4 Nr. 5 DSGVO), anonyme nicht."
+   },
+   {
+    "id": "c",
+    "text": "Anonymisierte Daten können mit einem Schlüssel jederzeit zurückgeführt werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das beschreibt Pseudonymisierung (Art. 4 Nr. 5 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Pseudonymisierte Daten fallen nie unter die DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Für den Verantwortlichen, der die Zuordnung herstellen kann, bleiben sie personenbezogen; Pseudonymisierung ist eine Schutzmaßnahme (Art. 32 Abs. 1 lit. a DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-021",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wer ist „Verantwortlicher“ im Sinne der DSGVO?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Wer allein oder gemeinsam mit anderen über Zwecke und Mittel der Verarbeitung entscheidet",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 7 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Der Datenschutzbeauftragte des Unternehmens",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der DSB berät und überwacht (Art. 39 DSGVO), verantwortlich ist das Unternehmen (Art. 4 Nr. 7 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der IT-Dienstleister, der die Server betreibt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Wer nur weisungsgebunden im Auftrag verarbeitet, ist Auftragsverarbeiter (Art. 4 Nr. 8 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die betroffene Person",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die betroffene Person ist die, deren Daten verarbeitet werden (Art. 4 Nr. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 39 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-022",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Lohnbüro rechnet für eine Bäckerei weisungsgebunden die Gehälter ab und nutzt die Daten zu keinem eigenen Zweck. Welche Rolle hat das Lohnbüro?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Auftragsverarbeiter",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verarbeitung im Auftrag des Verantwortlichen (Art. 4 Nr. 8 DSGVO, Art. 28 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Verantwortlicher",
+    "korrekt": false,
+    "erklaerung": "Falsch: Über Zwecke und Mittel entscheidet die Bäckerei (Art. 4 Nr. 7 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Betroffene Person",
+    "korrekt": false,
+    "erklaerung": "Falsch: Betroffen sind die Beschäftigten der Bäckerei (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Aufsichtsbehörden sind staatliche Stellen (Art. 51 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 28 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-023",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Angabe ist KEIN personenbezogenes Datum?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ein korrekt anonymisierter Datensatz, bei dem niemand mehr identifizierbar ist",
+    "korrekt": true,
+    "erklaerung": "Richtig: Anonyme Daten haben keinen Personenbezug (Art. 4 Nr. 1 DSGVO, Erwägungsgrund 26)."
+   },
+   {
+    "id": "b",
+    "text": "Die private E-Mail-Adresse vorname.nachname@example.de",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Person ist identifizierbar (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Die Personalausweisnummer",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kennnummer einer Person (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Eine Vorstrafe",
+    "korrekt": false,
+    "erklaerung": "Falsch: Personenbezogen, zusätzlich besonders geschützt (Art. 10 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 10 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-024",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Was ist eine „Verletzung des Schutzes personenbezogener Daten“ (Datenpanne)?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Eine Sicherheitsverletzung, die zur Vernichtung, zum Verlust, zur Veränderung oder zur unbefugten Offenlegung von bzw. zum unbefugten Zugang zu personenbezogenen Daten führt",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 12 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur ein Hackerangriff von außen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auch versehentliche Fehler (z. B. falsch adressierte E-Mail) zählen (Art. 4 Nr. 12 DSGVO: „unbeabsichtigt oder unrechtmäßig“)."
+   },
+   {
+    "id": "c",
+    "text": "Jede Verarbeitung ohne Einwilligung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Verarbeitung ohne Rechtsgrundlage verletzt Art. 6 DSGVO, ist aber nicht per se eine Datenpanne i. S. v. Art. 4 Nr. 12 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Nur Fälle, in denen ein Schaden nachgewiesen ist",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ein Schaden ist keine Voraussetzung der Definition (Art. 4 Nr. 12 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-025",
+  "thema": "ds-begriffe",
+  "typ": "zuordnung",
+  "schwierigkeit": 2,
+  "frage": "Ordne jedem Begriff die passende Beschreibung zu.",
+  "ziele": [
+   {
+    "id": "v",
+    "text": "Verantwortlicher"
+   },
+   {
+    "id": "av",
+    "text": "Auftragsverarbeiter"
+   },
+   {
+    "id": "bp",
+    "text": "Betroffene Person"
+   },
+   {
+    "id": "e",
+    "text": "Empfänger"
+   }
+  ],
+  "paare": [
+   {
+    "id": "p1",
+    "text": "Online-Shop, der entscheidet, welche Kundendaten er wozu speichert",
+    "loesung": "v",
+    "erklaerung": "Entscheidet über Zwecke und Mittel (Art. 4 Nr. 7 DSGVO)."
+   },
+   {
+    "id": "p2",
+    "text": "Cloud-Anbieter, der die Shop-Datenbank weisungsgebunden hostet",
+    "loesung": "av",
+    "erklaerung": "Verarbeitung im Auftrag (Art. 4 Nr. 8 DSGVO)."
+   },
+   {
+    "id": "p3",
+    "text": "Kundin, deren Bestelldaten gespeichert sind",
+    "loesung": "bp",
+    "erklaerung": "Identifizierte natürliche Person (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "p4",
+    "text": "Paketdienst, dem der Shop Name und Lieferadresse offenlegt",
+    "loesung": "e",
+    "erklaerung": "Stelle, der Daten offengelegt werden (Art. 4 Nr. 9 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-026",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Unternehmen ersetzt in einer Studie Namen durch Codes; die Codeliste liegt verschlossen in der Personalabteilung. Wie sind die Studiendaten einzuordnen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Pseudonymisiert – weiterhin personenbezogen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Mit der getrennt aufbewahrten Zusatzinformation ist eine Zuordnung möglich (Art. 4 Nr. 5 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Anonymisiert – nicht mehr personenbezogen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Solange die Codeliste existiert, ist eine Rückführung möglich (Art. 4 Nr. 5 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Besondere Kategorie personenbezogener Daten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das hängt vom Inhalt ab (Art. 9 DSGVO), nicht von der Codierung."
+   },
+   {
+    "id": "d",
+    "text": "Verschlüsselte Daten, auf die die DSGVO keine Anwendung findet",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auch verschlüsselte bzw. codierte Daten bleiben personenbezogen; Verschlüsselung ist eine Sicherheitsmaßnahme (Art. 32 Abs. 1 lit. a DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 9 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-027",
+  "thema": "ds-begriffe",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Begriffe der DSGVO – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Angaben über eine GmbH sind keine personenbezogenen Daten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Nur natürliche Personen (Art. 4 Nr. 1 DSGVO) – anders ggf. bei Angaben, die zugleich eine Person betreffen (Ein-Personen-GmbH)."
+   },
+   {
+    "id": "2",
+    "text": "Eine Person ist schon dann „identifizierbar“, wenn sie mit Zusatzwissen bestimmbar ist.",
+    "korrekt": true,
+    "erklaerung": "Richtig: „direkt oder indirekt“ (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Profiling ist eine Unterform der automatisierten Verarbeitung zur Bewertung persönlicher Aspekte.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 4 DSGVO."
+   },
+   {
+    "id": "4",
+    "text": "Ein Auftragsverarbeiter darf die Daten auch für eigene Werbezwecke nutzen.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Er verarbeitet nur auf dokumentierte Weisung (Art. 28 Abs. 3 UAbs. 1 S. 2 lit. a DSGVO, Art. 29 DSGVO); bestimmt er eigene Zwecke, gilt er insoweit als Verantwortlicher (Art. 28 Abs. 10 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 28 DSGVO",
+   "Art. 29 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-028",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Wann ist eine dynamische IP-Adresse für einen Website-Betreiber nach der Rechtsprechung des EuGH ein personenbezogenes Datum?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Wenn er rechtliche Mittel hat, die es ihm vernünftigerweise ermöglichen, die Person mit Zusatzwissen Dritter (z. B. des Providers) zu identifizieren",
+    "korrekt": true,
+    "erklaerung": "Richtig: Relativer Personenbezug mit Blick auf vernünftigerweise einsetzbare Mittel (EuGH, Breyer, 2016; Art. 4 Nr. 1 DSGVO, Erwägungsgrund 26)."
+   },
+   {
+    "id": "b",
+    "text": "Nie, weil sie sich ständig ändert",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auch dynamische IP-Adressen können Online-Kennungen sein (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur, wenn der Betreiber selbst Internetprovider ist",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es genügt, dass rechtliche Mittel zur Identifizierung über Dritte bestehen (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur, wenn die Person eingewilligt hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Einwilligung betrifft die Rechtmäßigkeit (Art. 6 Abs. 1 lit. a DSGVO), nicht den Personenbezug."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-029",
+  "thema": "ds-begriffe",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Zwei Unternehmen legen gemeinsam fest, wozu und wie sie Daten aus einem gemeinsamen Kundenportal verarbeiten. Was ist zwingend erforderlich?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Eine Vereinbarung über die Aufteilung der Pflichten als gemeinsam Verantwortliche",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 26 Abs. 1 S. 2 DSGVO – Vereinbarung in transparenter Form, sofern die Aufgabenverteilung nicht durch Rechtsvorschriften festgelegt ist."
+   },
+   {
+    "id": "b",
+    "text": "Ein Auftragsverarbeitungsvertrag",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keiner verarbeitet bloß weisungsgebunden für den anderen; Art. 28 DSGVO passt nicht, sondern Art. 26 DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Eine Genehmigung der Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Genehmigungspflicht besteht nicht; erforderlich ist die Vereinbarung nach Art. 26 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Gar nichts – gemeinsame Verantwortung ist nicht geregelt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 26 DSGVO regelt sie ausdrücklich."
+   }
+  ],
+  "normen": [
+   "Art. 26 DSGVO",
+   "Art. 28 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ }
+]

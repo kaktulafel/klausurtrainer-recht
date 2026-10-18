@@ -1,0 +1,971 @@
+[
+ {
+  "id": "ds-mc-084",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Vorschrift verpflichtet zu geeigneten technischen und organisatorischen Maßnahmen (TOM) für die Sicherheit der Verarbeitung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 32 DSGVO",
+    "korrekt": true,
+    "erklaerung": "Richtig: Sicherheit der Verarbeitung, Art. 32 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Art. 15 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auskunftsrecht."
+   },
+   {
+    "id": "c",
+    "text": "Art. 83 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Geldbußen."
+   },
+   {
+    "id": "d",
+    "text": "Art. 8 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Einwilligung von Kindern."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-085",
+  "thema": "ds-sicherheit",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche Maßnahmen nennt Art. 32 Abs. 1 DSGVO ausdrücklich als Beispiele? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Pseudonymisierung und Verschlüsselung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Fähigkeit, die Verfügbarkeit nach einem Zwischenfall rasch wiederherzustellen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 1 lit. c DSGVO (z. B. Backups)."
+   },
+   {
+    "id": "c",
+    "text": "Verfahren zur regelmäßigen Überprüfung der Wirksamkeit der Maßnahmen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 1 lit. d DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Abschluss einer Cyberversicherung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Versicherung ist keine in Art. 32 DSGVO genannte Sicherheitsmaßnahme."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-086",
+  "thema": "ds-sicherheit",
+  "typ": "zuordnung",
+  "schwierigkeit": 2,
+  "frage": "Ordne die Maßnahme der richtigen Kontrollart zu (Zutritt – Zugang – Zugriff).",
+  "ziele": [
+   {
+    "id": "zt",
+    "text": "Zutrittskontrolle (Räume)"
+   },
+   {
+    "id": "zg",
+    "text": "Zugangskontrolle (Systeme)"
+   },
+   {
+    "id": "zr",
+    "text": "Zugriffskontrolle (Daten/Rechte)"
+   }
+  ],
+  "paare": [
+   {
+    "id": "p1",
+    "text": "Schlüsselkarten und Drehkreuz am Rechenzentrum",
+    "loesung": "zt",
+    "erklaerung": "Physischer Zutritt zu Räumen – Teil der TOM (Art. 32 DSGVO)."
+   },
+   {
+    "id": "p2",
+    "text": "Zwei-Faktor-Authentifizierung beim Login",
+    "loesung": "zg",
+    "erklaerung": "Zugang zum System (Art. 32 DSGVO)."
+   },
+   {
+    "id": "p3",
+    "text": "Rollenbasiertes Berechtigungskonzept (Least Privilege)",
+    "loesung": "zr",
+    "erklaerung": "Zugriff nur auf die für die Aufgabe nötigen Daten (Art. 32 DSGVO)."
+   },
+   {
+    "id": "p4",
+    "text": "Besuchermanagement mit Registrierung am Empfang",
+    "loesung": "zt",
+    "erklaerung": "Physischer Zutritt (Art. 32 DSGVO)."
+   },
+   {
+    "id": "p5",
+    "text": "Lese- und Schreibrechte je Ordner nach Rolle vergeben",
+    "loesung": "zr",
+    "erklaerung": "Steuerung, wer auf welche Daten zugreifen darf (Art. 32 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-087",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was bedeutet „Privacy by Default“?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Datenschutzfreundliche Voreinstellungen: standardmäßig werden nur die für den Zweck erforderlichen Daten verarbeitet",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 25 Abs. 2 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Daten sind standardmäßig öffentlich sichtbar, bis der Nutzer sie verbirgt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Genau das Gegenteil verlangt Art. 25 Abs. 2 DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Eine Pflicht zur Benennung eines Datenschutzbeauftragten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das regeln Art. 37 DSGVO und § 38 BDSG."
+   },
+   {
+    "id": "d",
+    "text": "Eine Pflicht zur Verschlüsselung aller E-Mails",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 25 Abs. 2 DSGVO betrifft Voreinstellungen, keine pauschale Verschlüsselungspflicht."
+   }
+  ],
+  "normen": [
+   "Art. 25 DSGVO",
+   "Art. 37 DSGVO",
+   "§ 38 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-088",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Softwarehaus berücksichtigt schon bei der Entwicklung einer App Pseudonymisierung und Datensparsamkeit. Welches Prinzip setzt es um?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Datenschutz durch Technikgestaltung (Privacy by Design)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 25 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Rechenschaftspflicht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Rechenschaftspflicht (Art. 5 Abs. 2 DSGVO) betrifft den Nachweis, nicht die Gestaltung."
+   },
+   {
+    "id": "c",
+    "text": "Recht auf Vergessenwerden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Löschrecht der betroffenen Person (Art. 17 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Marktortprinzip",
+    "korrekt": false,
+    "erklaerung": "Falsch: Regel zum räumlichen Anwendungsbereich (Art. 3 Abs. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 25 DSGVO",
+   "Art. 5 DSGVO",
+   "Art. 17 DSGVO",
+   "Art. 3 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-089",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Nach welchem Maßstab richtet sich, welche TOM ein Unternehmen ergreifen muss?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Risikobasiert: Stand der Technik, Implementierungskosten, Art/Umfang/Umstände/Zwecke sowie Eintrittswahrscheinlichkeit und Schwere des Risikos",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Für alle Unternehmen gelten exakt dieselben Maßnahmen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Maßnahmen müssen dem Risiko angemessen sein (Art. 32 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Allein nach dem Budget des Unternehmens",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kosten sind nur ein Faktor unter mehreren (Art. 32 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nach Vorgabe des Datenschutzbeauftragten, die bindend ist",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der DSB berät (Art. 39 DSGVO); verantwortlich ist der Verantwortliche (Art. 24, 32 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO",
+   "Art. 24 DSGVO",
+   "Art. 39 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-090",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wofür steht der PDCA-Zyklus im Datenschutzmanagement?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Plan – Do – Check – Act: Maßnahmen planen, umsetzen, auf Wirksamkeit prüfen und verbessern",
+    "korrekt": true,
+    "erklaerung": "Richtig: Er setzt die regelmäßige Überprüfung nach Art. 32 Abs. 1 lit. d DSGVO um."
+   },
+   {
+    "id": "b",
+    "text": "Privacy – Data – Consent – Accountability",
+    "korrekt": false,
+    "erklaerung": "Falsch: PDCA steht für Plan – Do – Check – Act (Verbesserungszyklus, vgl. Art. 32 Abs. 1 lit. d DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Eine Bußgeldkategorie",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bußgelder regelt Art. 83 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Ein Verschlüsselungsverfahren",
+    "korrekt": false,
+    "erklaerung": "Falsch: PDCA ist ein Managementzyklus (vgl. Art. 32 Abs. 1 lit. d DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO",
+   "Art. 83 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-091",
+  "thema": "ds-sicherheit",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Datensicherheit – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Regelmäßige Backups dienen der Verfügbarkeit und Wiederherstellbarkeit.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 1 lit. b, c DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Schulungen und Sensibilisierung der Beschäftigten sind organisatorische Maßnahmen.",
+    "korrekt": true,
+    "erklaerung": "Richtig: TOM umfassen auch organisatorische Maßnahmen (Art. 32 Abs. 1, Abs. 4 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Wer verschlüsselt, muss sich um weitere Maßnahmen nicht kümmern.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verschlüsselung ist nur eine von mehreren Maßnahmen; das Gesamtniveau muss dem Risiko angemessen sein (Art. 32 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "4",
+    "text": "Beschäftigte dürfen personenbezogene Daten nur auf Anweisung des Verantwortlichen verarbeiten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 4, Art. 29 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO",
+   "Art. 29 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-092",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Maßnahme empfiehlt die Vorlesung u. a. für den Fall eines Erpressungsangriffs (Ransomware)?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Notfallplan aktivieren, Systeme isolieren und Strafanzeige erstatten",
+    "korrekt": true,
+    "erklaerung": "Richtig: So die Schulung („bei Erpressung 1. Maßnahme: Strafanzeige“) zusammen mit dem Krisen- und Notfallplan; parallel läuft die 72-Stunden-Prüfung nach Art. 33 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Sofort das Lösegeld zahlen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Zahlung garantiert nichts; außerdem bleiben die Pflichten nach Art. 33, 34 DSGVO bestehen."
+   },
+   {
+    "id": "c",
+    "text": "Den Vorfall verschweigen, um Imageschäden zu vermeiden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Datenpannen mit Risiko sind binnen 72 Stunden zu melden (Art. 33 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Alle Logdateien löschen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine lückenlose Dokumentation ist nötig (Art. 33 Abs. 5 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 33 DSGVO",
+   "Art. 34 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-093",
+  "thema": "ds-sicherheit",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein soziales Netzwerk stellt neue Profile so ein, dass Fotos standardmäßig „für alle sichtbar“ sind. Gegen welche Pflicht verstößt es am deutlichsten, und welcher Bußgeldrahmen gilt dafür?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 25 Abs. 2 DSGVO (Privacy by Default) – Bußgeld bis 10 Mio. € oder 2 % des Vorjahresumsatzes",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verstöße gegen Art. 25 DSGVO fallen unter Art. 83 Abs. 4 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Art. 25 Abs. 2 DSGVO – Bußgeld bis 20 Mio. € oder 4 %",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 25 DSGVO gehört zu den Pflichten des Art. 83 Abs. 4 DSGVO (10 Mio. € / 2 %)."
+   },
+   {
+    "id": "c",
+    "text": "Art. 15 DSGVO – kein Bußgeld möglich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es geht um Voreinstellungen (Art. 25 Abs. 2 DSGVO), und Verstöße sind bußgeldbewehrt (Art. 83 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Kein Verstoß, weil Nutzer die Einstellung ändern können",
+    "korrekt": false,
+    "erklaerung": "Falsch: Gerade die Voreinstellung muss datenschutzfreundlich sein (Art. 25 Abs. 2 S. 3 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 25 DSGVO",
+   "Art. 83 DSGVO",
+   "Art. 15 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-094",
+  "thema": "ds-datenpannen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Innerhalb welcher Frist muss eine Datenpanne grundsätzlich der Aufsichtsbehörde gemeldet werden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Unverzüglich und möglichst binnen 72 Stunden nach Bekanntwerden",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 1 S. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Innerhalb eines Monats",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ein Monat gilt für Antworten auf Betroffenenanträge (Art. 12 Abs. 3 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Innerhalb von 24 Stunden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO nennt 72 Stunden (Art. 33 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur auf Anfrage der Behörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Meldung ist eine aktive Pflicht (Art. 33 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 33 DSGVO",
+   "Art. 12 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-095",
+  "thema": "ds-datenpannen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wann müssen zusätzlich die betroffenen Personen benachrichtigt werden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Wenn die Verletzung voraussichtlich ein hohes Risiko für ihre Rechte und Freiheiten zur Folge hat",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 34 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Bei jeder Datenpanne, auch ohne Risiko",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ohne Risiko entfällt sogar die Meldung an die Behörde (Art. 33 Abs. 1 DSGVO); die Benachrichtigung verlangt ein hohes Risiko (Art. 34 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur wenn die Aufsichtsbehörde zustimmt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Pflicht besteht kraft Gesetzes; die Behörde kann sie zusätzlich anordnen (Art. 34 Abs. 4 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nie, das übernimmt die Polizei",
+    "korrekt": false,
+    "erklaerung": "Falsch: Den Verantwortlichen trifft die Pflicht (Art. 34 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 34 DSGVO",
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-096",
+  "thema": "ds-datenpannen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Mitarbeiter schickt versehentlich eine Excel-Liste mit Namen und Gehältern aller Kollegen an einen externen Empfänger. Liegt eine meldepflichtige Datenpanne vor?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, unbefugte Offenlegung personenbezogener Daten mit Risiko – Meldung binnen 72 Stunden, ggf. Benachrichtigung der Betroffenen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Auch versehentliche Offenlegung ist eine Datenpanne (Art. 4 Nr. 12, Art. 33, 34 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Nein, weil es nur ein Versehen war",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 4 Nr. 12 DSGVO erfasst auch unbeabsichtigte Verletzungen."
+   },
+   {
+    "id": "c",
+    "text": "Nein, weil keine Gesundheitsdaten betroffen sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Meldepflicht gilt für alle Kategorien personenbezogener Daten (Art. 33 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur, wenn der Empfänger die Daten tatsächlich missbraucht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Maßgeblich ist das voraussichtliche Risiko, nicht ein eingetretener Missbrauch (Art. 33 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 33 DSGVO",
+   "Art. 34 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-097",
+  "thema": "ds-datenpannen",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Was muss die Meldung an die Aufsichtsbehörde nach Art. 33 Abs. 3 DSGVO mindestens enthalten? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Beschreibung der Art der Verletzung, möglichst mit Kategorien und ungefährer Zahl der Betroffenen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 3 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Name und Kontaktdaten des Datenschutzbeauftragten oder einer Anlaufstelle",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 3 lit. b DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Beschreibung der wahrscheinlichen Folgen und der ergriffenen Maßnahmen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 3 lit. c, d DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Ein Schuldeingeständnis der Geschäftsführung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nicht vorgesehen (Art. 33 Abs. 3 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-098",
+  "thema": "ds-datenpannen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Auftragsverarbeiter bemerkt eine Datenpanne. Was muss er tun?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Den Verantwortlichen unverzüglich informieren",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 2 DSGVO – die Meldung an die Behörde obliegt dann dem Verantwortlichen."
+   },
+   {
+    "id": "b",
+    "text": "Direkt alle Betroffenen anschreiben",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Benachrichtigung ist Sache des Verantwortlichen (Art. 34 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nichts – Auftragsverarbeiter haben keine Pflichten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 33 Abs. 2 DSGVO verpflichtet ihn ausdrücklich."
+   },
+   {
+    "id": "d",
+    "text": "Abwarten, ob ein Schaden entsteht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Information muss unverzüglich erfolgen (Art. 33 Abs. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 33 DSGVO",
+   "Art. 34 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-099",
+  "thema": "ds-datenpannen",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Laptop mit Kundendaten wird gestohlen. In welchem Fall entfiele die Benachrichtigung der betroffenen Personen nach Art. 34 Abs. 3 DSGVO typischerweise?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Wenn die Festplatte nach dem Stand der Technik verschlüsselt war, sodass Unbefugte die Daten nicht lesen können",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 34 Abs. 3 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Wenn der Dieb nicht gefasst wird",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das erhöht eher das Risiko (Art. 34 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Wenn das Unternehmen mehr als 250 Beschäftigte hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Unternehmensgröße ist unerheblich (Art. 34 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Wenn der Vorfall schon älter als 72 Stunden ist",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verspätung beseitigt keine Pflicht; sie ist zu begründen (Art. 33 Abs. 1 S. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 34 DSGVO",
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-100",
+  "thema": "ds-datenpannen",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Datenpannen – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Erfolgt die Meldung nicht binnen 72 Stunden, ist eine Begründung für die Verzögerung beizufügen.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 1 S. 2 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Datenpannen müssen intern dokumentiert werden, auch wenn sie nicht meldepflichtig sind.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 33 Abs. 5 DSGVO – „Verletzungen“ insgesamt sind zu dokumentieren."
+   },
+   {
+    "id": "3",
+    "text": "Die Meldepflicht gilt nur für besondere Kategorien personenbezogener Daten.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie gilt für alle personenbezogenen Daten (Art. 33 DSGVO)."
+   },
+   {
+    "id": "4",
+    "text": "Die 72-Stunden-Frist beginnt mit dem Bekanntwerden der Verletzung beim Verantwortlichen.",
+    "korrekt": true,
+    "erklaerung": "Richtig: „nachdem ihm die Verletzung bekannt wurde“ (Art. 33 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-101",
+  "thema": "ds-dsb",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ab wie vielen Personen, die ständig mit der automatisierten Verarbeitung personenbezogener Daten beschäftigt sind, muss ein nichtöffentliches Unternehmen in Deutschland in der Regel einen Datenschutzbeauftragten benennen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ab in der Regel mindestens 20 Personen",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 38 Abs. 1 S. 1 BDSG (Stand 10/2026; eine Aufhebung ist politisch geplant, aber nicht beschlossen)."
+   },
+   {
+    "id": "b",
+    "text": "Ab 10 Personen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Schwelle wurde 2019 auf 20 angehoben (§ 38 Abs. 1 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Ab 250 Personen",
+    "korrekt": false,
+    "erklaerung": "Falsch: 250 ist die Grenze für Erleichterungen beim Verzeichnis (Art. 30 Abs. 5 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Erst ab 500 Personen",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 38 Abs. 1 BDSG nennt 20."
+   }
+  ],
+  "normen": [
+   "§ 38 BDSG",
+   "Art. 30 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-102",
+  "thema": "ds-dsb",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche Aufgaben hat der Datenschutzbeauftragte nach Art. 39 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Unterrichtung und Beratung des Verantwortlichen und der Beschäftigten",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 39 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Überwachung der Einhaltung des Datenschutzrechts",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 39 Abs. 1 lit. b DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Zusammenarbeit mit der Aufsichtsbehörde und Anlaufstelle für sie",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 39 Abs. 1 lit. d, e DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Verhängung von Bußgeldern gegen Kollegen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bußgelder verhängt die Aufsichtsbehörde (Art. 58, 83 DSGVO)."
+   },
+   {
+    "id": "e",
+    "text": "Persönliche Haftung für alle Datenschutzverstöße des Unternehmens",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verantwortlich bleibt der Verantwortliche (Art. 24 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 39 DSGVO",
+   "Art. 58 DSGVO",
+   "Art. 83 DSGVO",
+   "Art. 24 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-103",
+  "thema": "ds-dsb",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Darf der Datenschutzbeauftragte ein externer Dienstleister sein?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, er kann Beschäftigter sein oder seine Aufgaben auf Grundlage eines Dienstleistungsvertrags erfüllen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 37 Abs. 6 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nein, er muss immer Arbeitnehmer des Unternehmens sein",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 37 Abs. 6 DSGVO erlaubt externe DSB."
+   },
+   {
+    "id": "c",
+    "text": "Nur mit Genehmigung der Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Genehmigung ist nicht nötig; die Kontaktdaten sind aber zu veröffentlichen und der Behörde mitzuteilen (Art. 37 Abs. 7 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur, wenn das Unternehmen weniger als 20 Beschäftigte hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Größe spielt für die Wahl intern/extern keine Rolle (Art. 37 Abs. 6 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 37 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-104",
+  "thema": "ds-dsb",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein kleines Unternehmen mit 8 Beschäftigten betreibt als Kerntätigkeit eine Auskunftei (geschäftsmäßige Verarbeitung zum Zweck der Übermittlung). Muss es einen DSB benennen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, unabhängig von der Beschäftigtenzahl",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 38 Abs. 1 S. 2 BDSG – bei geschäftsmäßiger Verarbeitung zur Übermittlung gilt die 20-Personen-Grenze nicht."
+   },
+   {
+    "id": "b",
+    "text": "Nein, weil es weniger als 20 Beschäftigte hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 38 Abs. 1 S. 2 BDSG macht davon eine Ausnahme."
+   },
+   {
+    "id": "c",
+    "text": "Nur, wenn die Aufsichtsbehörde es anordnet",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Pflicht besteht kraft Gesetzes (§ 38 Abs. 1 S. 2 BDSG)."
+   },
+   {
+    "id": "d",
+    "text": "Nein, Auskunfteien sind vom Datenschutz ausgenommen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine solche Ausnahme gibt es nicht (Art. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "§ 38 BDSG",
+   "Art. 2 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-105",
+  "thema": "ds-dsb",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Stellung des Datenschutzbeauftragten – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Der DSB ist bei der Erfüllung seiner Aufgaben weisungsfrei.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 38 Abs. 3 S. 1 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Der DSB darf wegen der Erfüllung seiner Aufgaben nicht abberufen oder benachteiligt werden.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 38 Abs. 3 S. 2 DSGVO."
+   },
+   {
+    "id": "3",
+    "text": "Der DSB berichtet unmittelbar der höchsten Managementebene.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 38 Abs. 3 S. 3 DSGVO."
+   },
+   {
+    "id": "4",
+    "text": "Der DSB ist für die Einhaltung des Datenschutzes allein verantwortlich.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verantwortlich bleibt der Verantwortliche (Art. 5 Abs. 2, Art. 24 DSGVO); der DSB berät und überwacht (Art. 39 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 38 DSGVO",
+   "Art. 39 DSGVO",
+   "Art. 5 DSGVO",
+   "Art. 24 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-106",
+  "thema": "ds-dsb",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Muss jede Behörde (öffentliche Stelle) einen Datenschutzbeauftragten benennen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, unabhängig von der Größe (Ausnahme: Gerichte bei justizieller Tätigkeit)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 37 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur ab 20 Beschäftigten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die 20er-Schwelle gilt für nichtöffentliche Stellen (§ 38 Abs. 1 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Nein, Behörden sind von der DSGVO ausgenommen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO gilt auch für Behörden (Art. 2, Art. 37 Abs. 1 lit. a DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur Bundesbehörden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Alle Behörden und öffentlichen Stellen (Art. 37 Abs. 1 lit. a DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 37 DSGVO",
+   "§ 38 BDSG",
+   "Art. 2 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-107",
+  "thema": "ds-dsb",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Start-up mit 12 Beschäftigten führt eine Verarbeitung durch, die einer Datenschutz-Folgenabschätzung unterliegt. Muss es einen DSB benennen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, § 38 Abs. 1 S. 2 BDSG verlangt dies bei DSFA-pflichtigen Verarbeitungen unabhängig von der Personenzahl",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 38 Abs. 1 S. 2 BDSG i. V. m. Art. 35 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nein, die Schwelle von 20 Personen ist nicht erreicht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSFA-Pflicht löst die Benennungspflicht unabhängig von der Zahl aus (§ 38 Abs. 1 S. 2 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Nur, wenn mehr als 250 Personen beschäftigt sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: 250 betrifft Art. 30 Abs. 5 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Nein, eine DSFA ersetzt den DSB",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der DSB berät gerade bei der DSFA (Art. 35 Abs. 2, Art. 39 Abs. 1 lit. c DSGVO)."
+   }
+  ],
+  "normen": [
+   "§ 38 BDSG",
+   "Art. 35 DSGVO",
+   "Art. 30 DSGVO",
+   "Art. 39 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ }
+]

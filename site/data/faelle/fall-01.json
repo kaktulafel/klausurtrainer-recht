@@ -1,0 +1,453 @@
+{
+  "id": "fall-01",
+  "titel": "Das ersteigerte Schiffsmodell (Probeklausur-Fall)",
+  "kurz": "Täuschende Vertreterin ersteigert ein Modell; Vollmacht wird angefochten – Ansprüche des Versteigerers gegen Vollmachtgeber und Vertreterin, Regress.",
+  "themen": [
+    "anfechtung",
+    "stellvertretung",
+    "vertreter-ohne-vertretungsmacht",
+    "vertragsschluss"
+  ],
+  "schwierigkeit": 3,
+  "minuten": 60,
+  "punkte": 48,
+  "sachverhalt": [
+    "Jakob Albers (J) sammelt historische Schiffsmodelle. Er erfährt, dass das Auktionshaus „Modell-Kontor“ des Einzelkaufmanns Malte Kranz (MK) am kommenden Samstag ein seltenes Dampfermodell aus den 1920er-Jahren versteigert; MK versteigert das Modell aus eigenem Bestand und im eigenen Namen. J selbst ist an diesem Tag verreist.",
+    "Seine 34-jährige Bekannte Nora Lindner (N) bietet an, für ihn zu bieten. Um den Auftrag zu bekommen, für den J ihr 200 € versprochen hat, erzählt sie ihm, sie sei seit Jahren als Gutachterin für antike Modelle tätig und erkenne Fälschungen sofort. Das ist frei erfunden; N weiß das und weiß auch, dass J ihr nur deshalb vertraut. J sagt daraufhin am Telefon zu ihr: „Gut, dann ersteigere das Modell für mich, aber höchstens bis 5.000 €.“ Weitere Erklärungen gibt J gegenüber MK nicht ab.",
+    "Bei der Versteigerung meldet sich N am Empfang als „Bieterin im Auftrag von Herrn Jakob Albers“ an. Sie gibt im Namen des J ein Gebot von 4.500 € ab, auf das MK den Zuschlag erteilt. Für den sicheren Versand bereitet MK bereits eine Spezialverpackung für 80 € vor. Von der Vorgeschichte zwischen J und N ahnt MK nichts; Anlass zu Zweifeln an der Bevollmächtigung hatte er nicht.",
+    "Zwei Tage später erfährt J von einer gemeinsamen Freundin, dass N noch nie als Gutachterin gearbeitet hat. Noch am selben Tag ruft er N an und erklärt: „Ich fechte die Vollmacht an, die ich dir gegeben habe. Mit dem Kauf will ich nichts zu tun haben.“ Als MK den J kurz darauf zur Zahlung von 4.500 € auffordert, erklärt J, er genehmige den Kauf nicht.",
+    "MK verlangt nun von N die Zahlung von 4.500 € gegen Übergabe und Übereignung des Modells. N meint, sie habe beim Zuschlag noch eine wirksame Vollmacht gehabt; jedenfalls müsse sie, wenn überhaupt, nur die 80 € für die Verpackung ersetzen – und diese wolle sie dann von J zurückhaben, weil allein seine Anfechtung sie in diese Lage gebracht habe."
+  ],
+  "fallfragen": [
+    "1. Hat J die Vollmacht wirksam beseitigt?",
+    "2. Kann MK von J Zahlung von 4.500 € verlangen?",
+    "3. Kann MK von N Zahlung von 4.500 € (Zug um Zug gegen Übereignung des Modells) verlangen?",
+    "4. Kann N von J Ersatz dessen verlangen, was sie an MK leisten muss?",
+    "Bearbeitungshinweis: Prüfen Sie im Gutachtenstil. Der Gutachtenstil wird gesondert bewertet."
+  ],
+  "skizze": [
+    {
+      "ebene": 1,
+      "text": "A. Anfechtung der Vollmachtserteilung durch J (Gestaltungsrecht, Rechtsfolge § 142 Abs. 1 BGB)"
+    },
+    {
+      "ebene": 2,
+      "text": "I. Anfechtbare Willenserklärung: Erteilung der Innenvollmacht, § 167 Abs. 1 Alt. 1 BGB (Def. Vollmacht § 166 Abs. 2 S. 1 BGB) – nicht § 166 Abs. 1 BGB (betrifft das Vertretergeschäft)"
+    },
+    {
+      "ebene": 2,
+      "text": "II. Anfechtungsgrund: arglistige Täuschung, § 123 Abs. 1 Alt. 1 BGB (Täuschung, Irrtum, Kausalität, Arglist); N ist Erklärungsempfängerin, kein Dritter i. S. d. § 123 Abs. 2 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "III. Anfechtungserklärung, § 143 Abs. 1, Abs. 3 S. 1 BGB: gegenüber N (+)"
+    },
+    {
+      "ebene": 2,
+      "text": "IV. Frist, § 124 Abs. 1 BGB (ein Jahr) (+)"
+    },
+    {
+      "ebene": 2,
+      "text": "V. Kein Ausschluss, § 144 BGB (+)"
+    },
+    {
+      "ebene": 2,
+      "text": "VI. Rechtsfolge: Vollmacht von Anfang an nichtig, § 142 Abs. 1 BGB"
+    },
+    {
+      "ebene": 1,
+      "text": "B. Anspruch MK gegen J auf 4.500 € aus § 433 Abs. 2 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "I. Vertragsschluss durch Gebot (Antrag) und Zuschlag (Annahme), § 156 S. 1 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "II. Wirksame Stellvertretung, § 164 Abs. 1 BGB: eigene WE (+), im fremden Namen (+), Vertretungsmacht (−, ex tunc entfallen); kein Rechtsschein (§§ 170–173 BGB)"
+    },
+    {
+      "ebene": 2,
+      "text": "III. § 177 Abs. 1 BGB: schwebend unwirksam, Genehmigung verweigert → endgültig unwirksam"
+    },
+    {
+      "ebene": 2,
+      "text": "IV. Ergebnis: kein Anspruch"
+    },
+    {
+      "ebene": 1,
+      "text": "C. Anspruch MK gegen N aus § 179 Abs. 1 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "I. Vertrag als Vertreterin geschlossen, ohne Vertretungsmacht, Genehmigung verweigert (+)"
+    },
+    {
+      "ebene": 2,
+      "text": "II. Kenntnis des Mangels: § 142 Abs. 2 BGB – N kannte die Anfechtbarkeit (selbst gesetzt) → Abs. 1, nicht Abs. 2"
+    },
+    {
+      "ebene": 2,
+      "text": "III. Kein Ausschluss nach § 179 Abs. 3 BGB"
+    },
+    {
+      "ebene": 2,
+      "text": "IV. Rechtsfolge: Erfüllung nach Wahl des MK → 4.500 € Zug um Zug"
+    },
+    {
+      "ebene": 1,
+      "text": "D. Anspruch N gegen J aus § 122 Abs. 1 BGB (analog)"
+    },
+    {
+      "ebene": 2,
+      "text": "§ 122 BGB nur bei §§ 118–120 BGB, nicht bei § 123 BGB; jedenfalls ausgeschlossen nach § 122 Abs. 2 BGB → (−)"
+    },
+    {
+      "ebene": 2,
+      "text": "Aufwendungsersatz §§ 675 Abs. 1, 670 BGB (−): Auftrag ebenfalls angefochten; Täuschungskosten nicht erforderlich"
+    }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Wirksame Anfechtung der Vollmachtserteilung durch J",
+      "text": "J könnte die N erteilte Vollmacht durch Anfechtung mit Wirkung von Anfang an beseitigt haben, § 142 Abs. 1 BGB. Die Anfechtung ist kein Anspruch gegen N, sondern ein Gestaltungsrecht: Sie vernichtet die angefochtene Willenserklärung ex tunc. Eine wirksame Anfechtung setzt eine anfechtbare Willenserklärung, einen Anfechtungsgrund, eine Anfechtungserklärung gegenüber dem richtigen Anfechtungsgegner innerhalb der Anfechtungsfrist und das Fehlen eines Ausschlussgrundes voraus.\n\n**I. Anfechtbare Willenserklärung**\nAngefochten werden kann jede Willenserklärung, also auch die Erteilung einer Vollmacht. Vollmacht ist die durch Rechtsgeschäft erteilte Vertretungsmacht (§ 166 Abs. 2 S. 1 BGB). Sie wird durch einseitige, empfangsbedürftige Willenserklärung gegenüber dem zu Bevollmächtigenden (Innenvollmacht, § 167 Abs. 1 Alt. 1 BGB) oder gegenüber dem Dritten (Außenvollmacht, § 167 Abs. 1 Alt. 2 BGB) erteilt. J hat am Telefon zu N gesagt, sie solle das Modell „für ihn“ bis 5.000 € ersteigern. Darin liegt die Erteilung einer Innenvollmacht an N. Gegenüber MK hat J nichts erklärt.\nNicht einschlägig ist dagegen § 166 Abs. 1 BGB. Diese Vorschrift regelt, auf wessen Willensmängel und Wissen es beim Vertretergeschäft – hier dem Kaufvertrag mit MK – ankommt. Angefochten wird aber nicht der Kaufvertrag, sondern die Vollmachtserteilung durch J selbst. Für Willensmängel bei dieser Erklärung kommt es unmittelbar auf die Person des J an; sie richten sich nach §§ 119 ff. BGB.\nFraglich ist allerdings, ob eine Vollmacht noch angefochten werden kann, nachdem der Vertreter von ihr bereits Gebrauch gemacht hat. Teilweise wird dies abgelehnt, weil die Anfechtung auf das Vertretergeschäft durchschlägt und den gutgläubigen Geschäftsgegner belastet. Die überwiegende Ansicht bejaht die Anfechtbarkeit: Die Vollmachtserteilung ist eine Willenserklärung wie jede andere, und der Geschäftsgegner wird über die Haftung des Vertreters nach § 179 BGB (bzw. bei Irrtumsanfechtung über § 122 BGB) geschützt. Dem ist zu folgen.\nEine anfechtbare Willenserklärung liegt somit vor.\n\n**II. Anfechtungsgrund**\nIn Betracht kommt eine arglistige Täuschung nach § 123 Abs. 1 Alt. 1 BGB. Täuschung ist jedes Verhalten, das durch Vorspiegeln oder Entstellen von Tatsachen oder durch Verschweigen offenbarungspflichtiger Tatsachen einen Irrtum hervorruft oder aufrechterhält. N hat J vorgespiegelt, seit Jahren als Gutachterin für antike Modelle tätig zu sein. Ihre berufliche Tätigkeit ist eine dem Beweis zugängliche Tatsache, die tatsächlich nicht bestand. Eine Täuschung liegt vor.\nDadurch muss bei J ein Irrtum entstanden sein, der für die Abgabe der Erklärung ursächlich war. J hielt N für eine erfahrene Gutachterin und erteilte ihr gerade deshalb die Vollmacht; ohne die Täuschung hätte er sie nicht beauftragt. Irrtum und Kausalität sind gegeben.\nDie Täuschung müsste arglistig gewesen sein. Arglistig handelt, wer weiß oder zumindest billigend in Kauf nimmt, dass seine Angaben unwahr sind und den anderen zur Abgabe der Erklärung bestimmen. N wusste, dass ihre Angaben erfunden waren, und wollte gerade dadurch den bezahlten Auftrag erhalten. Sie handelte arglistig.\nDie Täuschung ging von N aus, also von der Empfängerin der Vollmachtserklärung selbst. N ist damit keine „Dritte“ im Sinne des § 123 Abs. 2 BGB; die dortigen zusätzlichen Voraussetzungen spielen keine Rolle. Eine analoge Anwendung des § 123 Abs. 2 BGB zum Schutz des MK ist nicht geboten, weil MK über § 179 BGB geschützt ist.\nEin Anfechtungsgrund nach § 123 Abs. 1 Alt. 1 BGB liegt vor. (Daneben wäre an einen Irrtum über eine verkehrswesentliche Eigenschaft der Person nach § 119 Abs. 2 BGB zu denken – die Sachkunde einer Bieterin ist für ihre Beauftragung wesentlich. Da § 123 BGB greift und für J günstiger ist – keine Ersatzpflicht nach § 122 BGB, längere Frist –, kommt es darauf nicht an.)\n\n**III. Anfechtungserklärung**\nDie Anfechtung erfolgt durch Erklärung gegenüber dem Anfechtungsgegner (§ 143 Abs. 1 BGB). Bei einem einseitigen empfangsbedürftigen Rechtsgeschäft wie der Innenvollmacht ist Anfechtungsgegner derjenige, dem gegenüber die Erklärung abzugeben war (§ 143 Abs. 3 S. 1 BGB), hier also N. J hat N gegenüber ausdrücklich erklärt, er fechte die Vollmacht an. Nach anderer Ansicht ist eine bereits ausgeübte Innenvollmacht (auch) gegenüber dem Geschäftsgegner anzufechten, weil dieser von der Anfechtung betroffen ist. Für den Wortlaut des § 143 Abs. 3 S. 1 BGB und die Rechtssicherheit spricht jedoch, auf den Erklärungsempfänger abzustellen; der Geschäftsgegner ist über § 179 BGB geschützt. Eine wirksame Anfechtungserklärung gegenüber dem richtigen Gegner liegt vor.\n\n**IV. Anfechtungsfrist**\nBei arglistiger Täuschung kann nur binnen eines Jahres angefochten werden; die Frist beginnt mit der Entdeckung der Täuschung (§ 124 Abs. 1, Abs. 2 S. 1 BGB). J hat noch am Tag der Entdeckung angefochten. Die Frist ist gewahrt (sie wäre sogar bei einer Anfechtung nach § 119 Abs. 2 BGB gewahrt, die unverzüglich, also ohne schuldhaftes Zögern erfolgen muss, § 121 Abs. 1 S. 1 BGB).\n\n**V. Kein Ausschluss**\nDie Anfechtung ist ausgeschlossen, wenn der Anfechtungsberechtigte das anfechtbare Rechtsgeschäft bestätigt hat (§ 144 Abs. 1 BGB). J hat die Vollmacht nach Kenntnis der Täuschung nicht bestätigt, sondern sofort angefochten. Ein Ausschluss liegt nicht vor.\n\n**VI. Rechtsfolge**\nDie Vollmachtserteilung ist als von Anfang an nichtig anzusehen (§ 142 Abs. 1 BGB). N wird so behandelt, als habe sie nie Vertretungsmacht besessen – auch für den Zeitpunkt des Zuschlags.\n\n**Ergebnis zu A:** J hat die Vollmacht wirksam nach §§ 123 Abs. 1 Alt. 1, 143 BGB angefochten; sie ist gemäß § 142 Abs. 1 BGB von Anfang an nichtig."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch MK gegen J auf Zahlung von 4.500 € aus § 433 Abs. 2 BGB",
+      "text": "MK könnte gegen J einen Anspruch auf Zahlung von 4.500 € aus § 433 Abs. 2 BGB haben. Dies setzt einen wirksamen Kaufvertrag zwischen MK und J voraus.\n\n**I. Vertragsschluss bei der Versteigerung**\nEin Vertrag kommt durch zwei übereinstimmende, aufeinander bezogene Willenserklärungen – Antrag und Annahme – zustande (§§ 145 ff. BGB). Bei einer Versteigerung ist das Gebot der Antrag; der Vertrag kommt erst durch den Zuschlag zustande (§ 156 S. 1 BGB). Hier hat N ein Gebot über 4.500 € abgegeben, auf das MK den Zuschlag erteilt hat. Antrag und Annahme liegen vor. Fraglich ist, ob das Gebot der N dem J zugerechnet wird.\n\n**II. Wirksame Stellvertretung, § 164 Abs. 1 BGB**\nJ hat selbst kein Gebot abgegeben. Die Erklärung der N wirkt für und gegen J, wenn N eine eigene Willenserklärung im Namen des J innerhalb der ihr zustehenden Vertretungsmacht abgegeben hat (§ 164 Abs. 1 S. 1 BGB).\n1. Eigene Willenserklärung: Vertreter ist, wer eine eigene Willenserklärung abgibt und dabei einen eigenen Entscheidungsspielraum hat; der Bote übermittelt dagegen nur eine fremde Erklärung. N durfte bis zu 5.000 € selbst entscheiden, wann und wie hoch sie bietet. Sie gab eine eigene Willenserklärung ab.\n2. Im fremden Namen: Nach dem Offenkundigkeitsprinzip muss erkennbar sein, dass im Namen eines anderen gehandelt wird; das kann ausdrücklich oder aus den Umständen geschehen (§ 164 Abs. 1 S. 2 BGB). N meldete sich als „Bieterin im Auftrag von Herrn Jakob Albers“ an und bot in dessen Namen. Sie handelte offenkundig im fremden Namen.\n3. Mit Vertretungsmacht: J hatte N zunächst eine Innenvollmacht erteilt (§ 167 Abs. 1 Alt. 1 BGB), die das Gebot über 4.500 € abdeckte. Diese Vollmacht hat J jedoch wirksam angefochten; sie gilt als von Anfang an nichtig (§ 142 Abs. 1 BGB, siehe A). Damit handelte N rückwirkend ohne Vertretungsmacht.\nEine Vertretungsmacht kraft Rechtsscheins (§§ 170–173 BGB) scheidet aus: J hat die Bevollmächtigung weder MK gegenüber erklärt noch kundgegeben, noch eine Vollmachtsurkunde ausgestellt. Den Rechtsschein setzte allein N durch ihre Anmeldung; das ist J nicht zuzurechnen.\nN handelte somit als Vertreterin ohne Vertretungsmacht.\n\n**III. Genehmigung, § 177 Abs. 1 BGB**\nSchließt jemand ohne Vertretungsmacht im Namen eines anderen einen Vertrag, so hängt die Wirksamkeit für und gegen den Vertretenen von dessen Genehmigung ab (§ 177 Abs. 1 BGB); bis dahin ist der Vertrag schwebend unwirksam. J hat gegenüber MK ausdrücklich erklärt, er genehmige den Kauf nicht. Mit der Verweigerung der Genehmigung ist der Vertrag endgültig unwirksam.\n\n**IV. Ergebnis zu B:** Zwischen MK und J ist kein wirksamer Kaufvertrag zustande gekommen. MK hat gegen J keinen Anspruch auf Zahlung von 4.500 € aus § 433 Abs. 2 BGB."
+    },
+    {
+      "id": "C",
+      "titel": "C. Anspruch MK gegen N aus § 179 Abs. 1 BGB",
+      "text": "MK könnte gegen N nach seiner Wahl einen Anspruch auf Erfüllung, also Zahlung von 4.500 € Zug um Zug gegen Übereignung des Modells, aus § 179 Abs. 1 BGB haben.\n\n**I. Voraussetzungen des § 179 Abs. 1 BGB**\nDies setzt voraus, dass N als Vertreterin einen Vertrag geschlossen hat, ihre Vertretungsmacht nicht nachweisen kann und der Vertretene die Genehmigung verweigert hat. N hat im Namen des J den Kaufvertrag mit MK geschlossen (siehe B. I.). Infolge der Anfechtung fehlte ihr die Vertretungsmacht von Anfang an (§ 142 Abs. 1 BGB); einen Nachweis kann sie daher nicht erbringen. J hat die Genehmigung verweigert (§ 177 Abs. 1 BGB). Die Voraussetzungen liegen vor.\n\n**II. Keine Beschränkung nach § 179 Abs. 2 BGB**\nHat der Vertreter den Mangel der Vertretungsmacht nicht gekannt, haftet er nur auf den Vertrauensschaden (negatives Interesse), begrenzt durch das Erfüllungsinteresse (§ 179 Abs. 2 BGB). N wendet ein, beim Zuschlag habe ihre Vollmacht noch bestanden; die Nichtigkeit sei erst durch die spätere Anfechtung eingetreten. Fraglich ist daher, ob N den Mangel „gekannt“ hat.\nNach § 142 Abs. 2 BGB wird, wer die Anfechtbarkeit eines Rechtsgeschäfts kannte oder kennen musste, im Falle der Anfechtung so behandelt, als hätte er die Nichtigkeit gekannt bzw. kennen müssen. N hat den Anfechtungsgrund durch ihre eigene arglistige Täuschung selbst gesetzt. Sie wusste also beim Zuschlag, dass J die Vollmacht wegen Täuschung anfechten konnte. Sie wird deshalb so behandelt, als hätte sie den Mangel ihrer Vertretungsmacht gekannt. Die Haftungsbeschränkung des § 179 Abs. 2 BGB greift nicht; N haftet nach § 179 Abs. 1 BGB.\n\n**III. Kein Ausschluss nach § 179 Abs. 3 BGB**\nDie Haftung entfällt, wenn der andere Teil den Mangel der Vertretungsmacht kannte oder kennen musste (§ 179 Abs. 3 S. 1 BGB). MK wusste von der Täuschung nichts; Anhaltspunkte für Zweifel an der Vollmacht bestanden nicht. Auch ist N nicht in der Geschäftsfähigkeit beschränkt (§ 179 Abs. 3 S. 2 BGB). Ein Ausschluss liegt nicht vor.\n\n**IV. Rechtsfolge**\nMK kann nach seiner Wahl Erfüllung oder Schadensersatz verlangen (§ 179 Abs. 1 BGB). Wählt er Erfüllung, muss N die 4.500 € Zug um Zug gegen Übergabe und Übereignung des Modells zahlen. Ihr Einwand, sie müsse nur die 80 € für die Verpackung (Vertrauensschaden) ersetzen, greift nicht, weil diese Beschränkung nur bei Unkenntnis nach § 179 Abs. 2 BGB gilt.\n\n**Ergebnis zu C:** MK kann von N aus § 179 Abs. 1 BGB Zahlung von 4.500 € Zug um Zug gegen Übereignung des Modells verlangen."
+    },
+    {
+      "id": "D",
+      "titel": "D. Anspruch N gegen J aus § 122 Abs. 1 BGB (analog)",
+      "text": "N könnte gegen J einen Anspruch auf Ersatz der an MK zu leistenden Beträge aus § 122 Abs. 1 BGB, gegebenenfalls in analoger Anwendung, haben.\n§ 122 Abs. 1 BGB gewährt Ersatz des Vertrauensschadens, wenn eine Erklärung nach § 118 BGB nichtig oder nach §§ 119, 120 BGB angefochten ist. J hat jedoch nach § 123 Abs. 1 BGB wegen arglistiger Täuschung angefochten. Für diesen Fall sieht § 122 BGB keinen Ersatzanspruch vor; der Getäuschte soll gerade nicht für den Schaden des Täuschenden einstehen. Eine analoge Anwendung scheidet daher schon mangels vergleichbarer Interessenlage aus.\nSelbst wenn man auf eine (hilfsweise mögliche) Anfechtung nach § 119 Abs. 2 BGB abstellte, wäre der Anspruch nach § 122 Abs. 2 BGB ausgeschlossen: Danach tritt die Ersatzpflicht nicht ein, wenn der Geschädigte den Grund der Anfechtbarkeit kannte oder kennen musste. N kannte ihn, denn sie hatte ihn selbst durch die Täuschung geschaffen.\nAuch ein Anspruch auf Aufwendungsersatz aus dem zugrunde liegenden entgeltlichen Geschäftsbesorgungsverhältnis (§§ 675 Abs. 1, 670 BGB) scheidet aus: Dieses Verhältnis beruht auf derselben Täuschung, und J hat mit seiner Erklärung („Mit dem Kauf will ich nichts zu tun haben“) erkennbar die gesamte Beauftragung angefochten (§§ 123 Abs. 1, 142 Abs. 1 BGB). Jedenfalls durfte N Aufwendungen, die allein auf ihrer eigenen Täuschung beruhen, nicht „den Umständen nach für erforderlich halten“ (§ 670 BGB). Im Übrigen erhält N im Gegenzug zur Zahlung das Modell.\n\n**Ergebnis zu D:** N hat gegen J keinen Anspruch aus § 122 Abs. 1 BGB (analog). Sie trägt das Risiko ihrer eigenen Täuschung allein."
+    }
+  ],
+  "raster": [
+    {
+      "id": "a1",
+      "abschnitt": "A",
+      "kriterium": "Obersatz: Anfechtung als Gestaltungsrecht mit Rechtsfolge § 142 Abs. 1 BGB formuliert (kein „Anspruch aus § 167“)",
+      "punkte": 1
+    },
+    {
+      "id": "a2",
+      "abschnitt": "A",
+      "kriterium": "Vollmachtserteilung als anfechtbare WE: Innenvollmacht § 167 Abs. 1 Alt. 1 BGB, Definition § 166 Abs. 2 S. 1 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "a3",
+      "abschnitt": "A",
+      "kriterium": "§ 166 Abs. 1 BGB richtig eingeordnet (betrifft das Vertretergeschäft, nicht die Vollmachtserteilung)",
+      "punkte": 1
+    },
+    {
+      "id": "a4",
+      "abschnitt": "A",
+      "kriterium": "§ 123 Abs. 1 Alt. 1 BGB vollständig subsumiert: Täuschung, Irrtum, Kausalität, Arglist (N keine Dritte i. S. v. § 123 Abs. 2)",
+      "punkte": 3
+    },
+    {
+      "id": "a5",
+      "abschnitt": "A",
+      "kriterium": "§ 119 Abs. 2 BGB (Eigenschaft der Person) gesehen und Verhältnis zu § 123 BGB erklärt",
+      "punkte": 1
+    },
+    {
+      "id": "a6",
+      "abschnitt": "A",
+      "kriterium": "Anfechtbarkeit der bereits ausgeübten Innenvollmacht und Anfechtungsgegner N (§ 143 Abs. 1, Abs. 3 S. 1 BGB) – Streitstand vertretbar gelöst",
+      "punkte": 2
+    },
+    {
+      "id": "a7",
+      "abschnitt": "A",
+      "kriterium": "Frist § 124 Abs. 1 BGB (bzw. § 121 BGB) geprüft",
+      "punkte": 1
+    },
+    {
+      "id": "a8",
+      "abschnitt": "A",
+      "kriterium": "Kein Ausschluss nach § 144 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "a9",
+      "abschnitt": "A",
+      "kriterium": "Rechtsfolge § 142 Abs. 1 BGB: Nichtigkeit ex tunc",
+      "punkte": 1
+    },
+    {
+      "id": "b1",
+      "abschnitt": "B",
+      "kriterium": "Obersatz MK gegen J auf 4.500 € aus § 433 Abs. 2 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "b2",
+      "abschnitt": "B",
+      "kriterium": "Vertragsschluss bei Versteigerung: Gebot = Antrag, Zuschlag = Annahme (§ 156 S. 1 BGB)",
+      "punkte": 1
+    },
+    {
+      "id": "b3",
+      "abschnitt": "B",
+      "kriterium": "Eigene WE der N (Abgrenzung zum Boten)",
+      "punkte": 1
+    },
+    {
+      "id": "b4",
+      "abschnitt": "B",
+      "kriterium": "Handeln im fremden Namen / Offenkundigkeit (§ 164 Abs. 1 S. 2 BGB)",
+      "punkte": 1
+    },
+    {
+      "id": "b5",
+      "abschnitt": "B",
+      "kriterium": "Vertretungsmacht rückwirkend entfallen; kein Rechtsschein nach §§ 170–173 BGB",
+      "punkte": 2
+    },
+    {
+      "id": "b6",
+      "abschnitt": "B",
+      "kriterium": "§ 177 Abs. 1 BGB: schwebende Unwirksamkeit, Verweigerung der Genehmigung → endgültig unwirksam",
+      "punkte": 1
+    },
+    {
+      "id": "b7",
+      "abschnitt": "B",
+      "kriterium": "Ergebnis: kein Anspruch aus § 433 Abs. 2 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "c1",
+      "abschnitt": "C",
+      "kriterium": "Obersatz MK gegen N aus § 179 Abs. 1 BGB (Wahlrecht Erfüllung/Schadensersatz)",
+      "punkte": 1
+    },
+    {
+      "id": "c2",
+      "abschnitt": "C",
+      "kriterium": "Voraussetzungen: Vertrag als Vertreterin, ohne Vertretungsmacht, Genehmigung verweigert",
+      "punkte": 1
+    },
+    {
+      "id": "c3",
+      "abschnitt": "C",
+      "kriterium": "§ 142 Abs. 2 BGB: Kenntnis der Anfechtbarkeit = Kenntnis der Nichtigkeit; N setzte den Grund selbst → Abs. 1, nicht Abs. 2",
+      "punkte": 3
+    },
+    {
+      "id": "c4",
+      "abschnitt": "C",
+      "kriterium": "Kein Ausschluss nach § 179 Abs. 3 S. 1 und S. 2 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "c5",
+      "abschnitt": "C",
+      "kriterium": "Rechtsfolge: Erfüllung 4.500 € Zug um Zug; 80 €-Einwand zurückgewiesen",
+      "punkte": 1
+    },
+    {
+      "id": "d1",
+      "abschnitt": "D",
+      "kriterium": "§ 122 Abs. 1 BGB erfasst nur §§ 118–120 BGB, nicht § 123 BGB",
+      "punkte": 1
+    },
+    {
+      "id": "d2",
+      "abschnitt": "D",
+      "kriterium": "Jedenfalls Ausschluss nach § 122 Abs. 2 BGB (N kannte den Anfechtungsgrund)",
+      "punkte": 1
+    },
+    {
+      "id": "d3",
+      "abschnitt": "D",
+      "kriterium": "Aufwendungsersatz aus §§ 675 Abs. 1, 670 BGB gesehen und abgelehnt",
+      "punkte": 1
+    }
+  ],
+  "gutachtenstil": [
+    {
+      "id": "g1",
+      "kriterium": "Obersätze vollständig und im Konjunktiv (wer, was, von wem, woraus; beim Gestaltungsrecht: Rechtsfolge § 142 Abs. 1 BGB)",
+      "punkte": 4
+    },
+    {
+      "id": "g2",
+      "kriterium": "Tatbestandsmerkmale benannt und definiert, bevor subsumiert wird",
+      "punkte": 4
+    },
+    {
+      "id": "g3",
+      "kriterium": "Echte Subsumtion am Sachverhalt (Tatsachen werden den Merkmalen zugeordnet, keine bloßen Behauptungen)",
+      "punkte": 4
+    },
+    {
+      "id": "g4",
+      "kriterium": "Zwischenergebnisse und Ergebnissatz je Prüfung",
+      "punkte": 3
+    },
+    {
+      "id": "g5",
+      "kriterium": "Aufbau und Schwerpunktsetzung: logische Reihenfolge, Unproblematisches knapp, Probleme (§ 142 Abs. 2, Anfechtungsgegner) ausführlich",
+      "punkte": 3
+    }
+  ],
+  "erwarteteNormen": [
+    "§ 142 Abs. 1 BGB",
+    "§ 167 Abs. 1 BGB",
+    "§ 166 Abs. 2 BGB",
+    "§ 123 Abs. 1 BGB",
+    "§ 143 Abs. 3 BGB",
+    "§ 124 Abs. 1 BGB",
+    "§ 144 BGB",
+    "§ 433 Abs. 2 BGB",
+    "§ 156 BGB",
+    "§ 164 Abs. 1 BGB",
+    "§ 177 Abs. 1 BGB",
+    "§ 179 Abs. 1 BGB",
+    "§ 142 Abs. 2 BGB",
+    "§ 179 Abs. 3 BGB",
+    "§ 122 BGB",
+    "§ 670 BGB"
+  ],
+  "schluesselbegriffe": [
+    "Gestaltungsrecht",
+    "ex tunc|von Anfang an",
+    "Innenvollmacht",
+    "arglistige Täuschung",
+    "Anfechtungsgegner",
+    "Zuschlag",
+    "Offenkundigkeit|im fremden Namen",
+    "Vertreter ohne Vertretungsmacht",
+    "Genehmigung",
+    "Kenntnis der Anfechtbarkeit",
+    "Erfüllung"
+  ],
+  "typischeFehler": [
+    "Anfechtung als „Anspruch auf rückwirkenden Entzug der Vollmacht aus § 167 BGB“ formulieren – richtig: Gestaltungsrecht, Rechtsfolge § 142 Abs. 1 BGB.",
+    "§ 166 Abs. 1 BGB zur Anfechtung der Vollmacht heranziehen – § 166 betrifft das Vertretergeschäft, angefochten wird die Vollmachtserteilung.",
+    "Anfechtungsgrund nur benennen statt subsumieren; Erklärung (§ 143 BGB) und Frist (§§ 121, 124 BGB) vergessen.",
+    "Annehmen, N habe den Mangel nicht gekannt, weil die Vollmacht beim Zuschlag noch bestand – § 142 Abs. 2 BGB übersehen.",
+    "Regress der N über § 122 BGB analog bejahen – § 122 BGB gilt nicht bei § 123 BGB und ist bei Kenntnis nach § 122 Abs. 2 BGB ausgeschlossen.",
+    "Vertragsschluss bei der Versteigerung ohne § 156 BGB begründen."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung 1: N hielt sich selbst gutgläubig für sachkundig (keine Täuschung). J ficht die Vollmacht wegen Irrtums über ihre Sachkunde an. Wie haftet N gegenüber MK, und kann sie bei J Rückgriff nehmen?",
+      "kurzloesung": "Anfechtung nach § 119 Abs. 2 BGB (Sachkunde als verkehrswesentliche Eigenschaft der Person), unverzüglich (§ 121 Abs. 1 BGB) gegenüber N (§ 143 Abs. 3 S. 1 BGB) → Vollmacht ex tunc nichtig (§ 142 Abs. 1 BGB). N kannte die Anfechtbarkeit nicht und musste sie nicht kennen → § 179 Abs. 2 BGB: nur Vertrauensschaden des MK (80 € Verpackung), begrenzt auf das Erfüllungsinteresse. N kann diesen Betrag von J nach § 122 Abs. 1 BGB ersetzt verlangen: Die Innenvollmacht war ihr gegenüber abzugeben, sie ist also „der andere“ im Sinne der Norm und hat auf die Gültigkeit vertraut; § 122 Abs. 2 BGB greift mangels Kenntnis nicht."
+    },
+    {
+      "frage": "Abwandlung 2: J hatte MK vorab schriftlich mitgeteilt, N dürfe für ihn bis 5.000 € bieten (Außenvollmacht). Kann J nach Entdeckung der Täuschung durch N wirksam anfechten?",
+      "kurzloesung": "Anfechtungsgegner ist bei der Außenvollmacht MK als Empfänger der Erklärung (§ 143 Abs. 3 S. 1 BGB). N ist im Verhältnis J–MK Dritte: Eine Täuschung durch Dritte berechtigt nur zur Anfechtung, wenn MK sie kannte oder kennen musste (§ 123 Abs. 2 S. 1 BGB) – hier nicht. Möglich bleibt eine Anfechtung nach § 119 Abs. 2 BGB (unverzüglich, § 121 BGB); dann schuldet J dem MK aber den Vertrauensschaden nach § 122 Abs. 1 BGB. N ist nicht „Lager“ des MK und damit Dritte; § 123 Abs. 2 S. 2 BGB greift nicht, weil MK aus der Vollmacht kein Recht erwirbt. N haftet nach einer Anfechtung gleichwohl nach §§ 142 Abs. 2, 179 Abs. 1 BGB, weil sie die Anfechtbarkeit kannte."
+    },
+    {
+      "frage": "Abwandlung 3: N ist 17 Jahre alt; ihre Eltern wussten nichts von dem Auftrag. Ändert das etwas an der Haftung gegenüber MK?",
+      "kurzloesung": "Als Vertreterin kann auch eine beschränkt Geschäftsfähige wirksam handeln (§ 165 BGB). Nach der Anfechtung haftet sie aber nicht aus § 179 BGB, weil sie ohne Zustimmung ihrer gesetzlichen Vertreter gehandelt hat (§ 179 Abs. 3 S. 2 BGB). MK bleibt ohne Anspruch aus § 179 BGB."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "Lies den Sachverhalt zweimal. Wer will was von wem woraus? Wähle alle Prüfungen aus, die du in der Lösung brauchst.",
+    "anspruchsgrundlagen": [
+      {
+        "text": "MK gegen J auf Zahlung von 4.500 € aus § 433 Abs. 2 BGB",
+        "richtig": true,
+        "feedback": "Richtig – Kaufpreisanspruch des Verkäufers. Ob ein Vertrag mit J besteht, hängt von der Stellvertretung ab."
+      },
+      {
+        "text": "MK gegen N aus § 179 Abs. 1 BGB",
+        "richtig": true,
+        "feedback": "Richtig – Haftung der Vertreterin ohne Vertretungsmacht, sobald der Vertrag mit J scheitert."
+      },
+      {
+        "text": "Anfechtung der Vollmachtserteilung durch J (Rechtsfolge § 142 Abs. 1 BGB)",
+        "richtig": true,
+        "feedback": "Richtig – als Gestaltungsrecht zu prüfen (vorweg oder inzident bei der Vertretungsmacht)."
+      },
+      {
+        "text": "N gegen J aus § 122 Abs. 1 BGB (analog)",
+        "richtig": true,
+        "feedback": "Richtig – die Fallfrage 4 fragt nach dem Rückgriff. Ergebnis wird negativ sein."
+      },
+      {
+        "text": "J gegen N auf rückwirkenden Entzug der Vollmacht aus § 167 BGB",
+        "richtig": false,
+        "feedback": "Falsch – genau der Fehler aus der Probeklausur: Die Anfechtung ist kein Anspruch, sondern ein Gestaltungsrecht; Rechtsfolge § 142 Abs. 1 BGB."
+      },
+      {
+        "text": "MK gegen J aus § 433 Abs. 1 BGB",
+        "richtig": false,
+        "feedback": "Falsch – § 433 Abs. 1 BGB regelt die Pflichten des Verkäufers. Der Kaufpreisanspruch folgt aus § 433 Abs. 2 BGB."
+      },
+      {
+        "text": "MK gegen N aus § 433 Abs. 2 BGB",
+        "richtig": false,
+        "feedback": "Falsch – N handelte im fremden Namen und wurde nicht selbst Vertragspartei (§ 164 Abs. 1 BGB). Ihre Haftung folgt aus § 179 BGB."
+      }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Prüfung C (MK gegen N).",
+    "obersatzMuster": "MK könnte gegen N nach seiner Wahl einen Anspruch auf Erfüllung, also Zahlung von 4.500 € Zug um Zug gegen Übereignung des Modells, aus § 179 Abs. 1 BGB haben.",
+    "reihenfolgeTitel": "Bringe die Prüfungspunkte der Anfechtung (Prüfung A) in die richtige Reihenfolge.",
+    "reihenfolge": [
+      "Anfechtbare Willenserklärung (Vollmachtserteilung, § 167 Abs. 1 BGB)",
+      "Anfechtungsgrund (§ 123 Abs. 1 Alt. 1 BGB)",
+      "Anfechtungserklärung gegenüber dem Anfechtungsgegner (§ 143 BGB)",
+      "Anfechtungsfrist (§ 124 BGB)",
+      "Kein Ausschluss (§ 144 BGB)",
+      "Rechtsfolge: Nichtigkeit ex tunc (§ 142 Abs. 1 BGB)"
+    ],
+    "punkte": [
+      {
+        "titel": "Anfechtungsgrund: arglistige Täuschung",
+        "aufgabe": "Definiere „Täuschung“ und „Arglist“ und subsumiere den Sachverhalt.",
+        "tipps": [
+          "Norm: § 123 Abs. 1 Alt. 1 BGB",
+          "Schema: Täuschung → Irrtum → Kausalität → Arglist; Täuschender darf kein Dritter i. S. d. § 123 Abs. 2 BGB sein",
+          "Mustersatz: „Täuschung ist jedes Verhalten, das durch Vorspiegeln oder Entstellen von Tatsachen einen Irrtum hervorruft. N hat J vorgespiegelt, …“"
+        ],
+        "muster": "Täuschung ist jedes Verhalten, das durch Vorspiegeln oder Entstellen von Tatsachen einen Irrtum hervorruft oder aufrechterhält. N spiegelte J eine Gutachtertätigkeit vor, die es nie gab; J irrte und erteilte gerade deshalb die Vollmacht. Arglistig handelt, wer die Unwahrheit seiner Angaben kennt oder zumindest billigend in Kauf nimmt und weiß oder billigend in Kauf nimmt, dass sie den anderen zur Erklärung bestimmen. N wusste beides. Als Erklärungsempfängerin ist N keine Dritte (§ 123 Abs. 2 BGB). Ein Anfechtungsgrund liegt vor."
+      },
+      {
+        "titel": "Anfechtungserklärung und -gegner",
+        "aufgabe": "Wem gegenüber musste J anfechten? Begründe mit der Norm.",
+        "tipps": [
+          "Norm: § 143 Abs. 1, Abs. 3 S. 1 BGB",
+          "Schema: einseitiges empfangsbedürftiges Rechtsgeschäft → Empfänger der Erklärung ist Gegner",
+          "Mustersatz: „Bei der Innenvollmacht ist Anfechtungsgegner der Bevollmächtigte, § 143 Abs. 3 S. 1 BGB …“"
+        ],
+        "muster": "Die Anfechtung erfolgt durch Erklärung gegenüber dem Anfechtungsgegner (§ 143 Abs. 1 BGB). Bei einem einseitigen empfangsbedürftigen Rechtsgeschäft ist das derjenige, dem gegenüber es vorzunehmen war (§ 143 Abs. 3 S. 1 BGB). Die Innenvollmacht wurde N gegenüber erteilt; J hat N gegenüber angefochten. Die Erklärung ist wirksam."
+      },
+      {
+        "titel": "Kenntnis des Vertreters (§ 179 Abs. 1 oder Abs. 2?)",
+        "aufgabe": "N sagt, beim Zuschlag habe sie noch Vollmacht gehabt. Haftet sie nach Abs. 1 oder nur nach Abs. 2?",
+        "tipps": [
+          "Norm: § 142 Abs. 2 BGB",
+          "Schema: Kenntnis der Anfechtbarkeit steht der Kenntnis der Nichtigkeit gleich",
+          "Mustersatz: „Nach § 142 Abs. 2 BGB wird, wer die Anfechtbarkeit kannte, so behandelt, als hätte er die Nichtigkeit gekannt. N hat den Anfechtungsgrund selbst gesetzt …“"
+        ],
+        "muster": "Nach § 142 Abs. 2 BGB wird, wer die Anfechtbarkeit kannte, im Falle der Anfechtung so behandelt, als hätte er die Nichtigkeit gekannt. N hat den Anfechtungsgrund durch ihre Täuschung selbst gesetzt und kannte ihn daher. Sie gilt als bösgläubig; die Beschränkung des § 179 Abs. 2 BGB greift nicht. N haftet nach § 179 Abs. 1 BGB."
+      },
+      {
+        "titel": "Rückgriff der N über § 122 BGB",
+        "aufgabe": "Begründe, warum N keinen Ersatz von J verlangen kann.",
+        "tipps": [
+          "Norm: § 122 Abs. 1 und Abs. 2 BGB",
+          "Schema: Anwendungsbereich (§§ 118–120) → Ausschluss bei Kenntnis (Abs. 2)",
+          "Mustersatz: „§ 122 Abs. 1 BGB setzt eine Anfechtung nach §§ 119, 120 BGB voraus; J hat nach § 123 BGB angefochten …“"
+        ],
+        "muster": "§ 122 Abs. 1 BGB setzt Nichtigkeit nach § 118 BGB oder eine Anfechtung nach §§ 119, 120 BGB voraus. J hat wegen arglistiger Täuschung nach § 123 BGB angefochten; dafür sieht das Gesetz keine Ersatzpflicht des Getäuschten vor. Jedenfalls ist der Anspruch nach § 122 Abs. 2 BGB ausgeschlossen, weil N den Anfechtungsgrund kannte. N hat keinen Rückgriffsanspruch."
+      }
+    ]
+  },
+  "quelle": "material:probeklausur",
+  "geprueft": true
+}

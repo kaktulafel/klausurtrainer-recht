@@ -1,0 +1,993 @@
+[
+ {
+  "id": "ds-mc-030",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wo sind die Grundsätze für die Verarbeitung personenbezogener Daten geregelt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 5 DSGVO",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 DSGVO enthält die Grundsätze, Abs. 2 die Rechenschaftspflicht."
+   },
+   {
+    "id": "b",
+    "text": "Art. 6 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 6 DSGVO regelt die Rechtmäßigkeit (Rechtsgrundlagen)."
+   },
+   {
+    "id": "c",
+    "text": "Art. 32 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 32 DSGVO betrifft die Sicherheit der Verarbeitung."
+   },
+   {
+    "id": "d",
+    "text": "§ 26 BDSG",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 26 BDSG betrifft den Beschäftigtendatenschutz."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-031",
+  "thema": "ds-grundsaetze",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche der folgenden sind Grundsätze nach Art. 5 Abs. 1 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Zweckbindung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. b DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Datenminimierung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. c DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Speicherbegrenzung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. e DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Datenmaximierung zur Qualitätssicherung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Gegenteil gilt – Datenminimierung (Art. 5 Abs. 1 lit. c DSGVO)."
+   },
+   {
+    "id": "e",
+    "text": "Vorratsdatenspeicherung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Speicherung „auf Vorrat“ widerspricht Zweckbindung und Speicherbegrenzung (Art. 5 Abs. 1 lit. b, e DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-032",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was besagt die Rechenschaftspflicht (Accountability)?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Der Verantwortliche muss die Einhaltung der Grundsätze nachweisen können",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 2 DSGVO – praktisch eine Beweislastumkehr zulasten des Verantwortlichen."
+   },
+   {
+    "id": "b",
+    "text": "Die betroffene Person muss einen Verstoß beweisen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Nachweispflicht trifft den Verantwortlichen (Art. 5 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der Datenschutzbeauftragte haftet persönlich für jeden Verstoß",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verantwortlich bleibt der Verantwortliche (Art. 5 Abs. 2, Art. 24 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die Aufsichtsbehörde muss jährlich Rechenschaft gegenüber Unternehmen ablegen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Rechenschaft schuldet der Verantwortliche (Art. 5 Abs. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 24 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-033",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Fitnessstudio erhebt für den Mitgliedsvertrag neben Name, Adresse und Bankverbindung auch Religion und Familienstand, „falls man das mal braucht“. Welcher Grundsatz ist vor allem verletzt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Datenminimierung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Daten müssen dem Zweck angemessen, erheblich und auf das notwendige Maß beschränkt sein (Art. 5 Abs. 1 lit. c DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Richtigkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Daten können richtig sein – sie sind aber nicht erforderlich (Art. 5 Abs. 1 lit. c DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Integrität und Vertraulichkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es geht nicht um die Sicherheit, sondern um den Umfang der Erhebung (Art. 5 Abs. 1 lit. c DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Kein Grundsatz – zusätzliche Daten sind immer erlaubt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 5 Abs. 1 lit. c DSGVO begrenzt den Umfang; Religion ist zudem besondere Kategorie (Art. 9 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 9 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-034",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Händler nutzt die für die Lieferung erhobene Adresse, um sie an einen Adresshändler zu verkaufen. Gegen welchen Grundsatz verstößt er in erster Linie?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Zweckbindung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Daten dürfen nicht in einer mit dem ursprünglichen Zweck unvereinbaren Weise weiterverarbeitet werden (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Speicherbegrenzung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es geht nicht um die Dauer, sondern um den neuen Zweck (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Richtigkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Adresse ist richtig; problematisch ist die Zweckänderung (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Datenübertragbarkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Datenübertragbarkeit ist ein Betroffenenrecht (Art. 20 DSGVO), kein Grundsatz."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 20 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-035",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was verlangt der Grundsatz der Speicherbegrenzung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Personenbezogene Daten nur so lange identifizierbar zu speichern, wie es für den Zweck erforderlich ist",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. e DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur eine begrenzte Anzahl von Datensätzen zu speichern",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es geht um die Dauer, nicht die Menge (Art. 5 Abs. 1 lit. e DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Daten nur auf Servern in der EU zu speichern",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Speicherort ist eine Frage der Drittlandübermittlung (Art. 44 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Daten höchstens ein Jahr zu speichern",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine feste Höchstfrist gibt es nicht; maßgeblich ist der Zweck (Art. 5 Abs. 1 lit. e DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 44 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-036",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ein Kunde teilt seine neue Adresse mit, das Unternehmen pflegt sie aber nicht ein. Welcher Grundsatz ist betroffen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Richtigkeit",
+    "korrekt": true,
+    "erklaerung": "Richtig: Daten müssen sachlich richtig und erforderlichenfalls aktuell sein; unrichtige Daten sind unverzüglich zu berichtigen oder zu löschen (Art. 5 Abs. 1 lit. d DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Transparenz",
+    "korrekt": false,
+    "erklaerung": "Falsch: Transparenz betrifft die Information der Betroffenen (Art. 5 Abs. 1 lit. a, Art. 12 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Datenminimierung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es werden nicht zu viele Daten erhoben; sie sind veraltet (Art. 5 Abs. 1 lit. d DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Zweckbindung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Zweck bleibt gleich; die Daten sind unrichtig (Art. 5 Abs. 1 lit. d DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 12 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-037",
+  "thema": "ds-grundsaetze",
+  "typ": "zuordnung",
+  "schwierigkeit": 2,
+  "frage": "Ordne jedem Fall den Grundsatz zu, der in erster Linie betroffen ist.",
+  "ziele": [
+   {
+    "id": "zb",
+    "text": "Zweckbindung (lit. b)"
+   },
+   {
+    "id": "dm",
+    "text": "Datenminimierung (lit. c)"
+   },
+   {
+    "id": "sb",
+    "text": "Speicherbegrenzung (lit. e)"
+   },
+   {
+    "id": "iv",
+    "text": "Integrität und Vertraulichkeit (lit. f)"
+   }
+  ],
+  "paare": [
+   {
+    "id": "p1",
+    "text": "Bewerbungsunterlagen abgelehnter Bewerber werden jahrelang aufbewahrt",
+    "loesung": "sb",
+    "erklaerung": "Speicherdauer über den Zweck hinaus (Art. 5 Abs. 1 lit. e DSGVO)."
+   },
+   {
+    "id": "p2",
+    "text": "Patientendaten liegen unverschlüsselt auf einem offenen Netzlaufwerk",
+    "loesung": "iv",
+    "erklaerung": "Fehlende Sicherheit (Art. 5 Abs. 1 lit. f, Art. 32 DSGVO)."
+   },
+   {
+    "id": "p3",
+    "text": "Gewinnspiel-Adressen werden für Bonitätsprüfungen genutzt",
+    "loesung": "zb",
+    "erklaerung": "Unvereinbarer neuer Zweck (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "p4",
+    "text": "Für einen Newsletter werden Geburtsdatum und Beruf als Pflichtfelder verlangt",
+    "loesung": "dm",
+    "erklaerung": "Für den Zweck nicht erforderlich (Art. 5 Abs. 1 lit. c DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-038",
+  "thema": "ds-grundsaetze",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Grundsätze – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "„Treu und Glauben“ ist ausdrücklich ein Grundsatz der DSGVO.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Art. 5 Abs. 1 lit. a DSGVO enthält drei Grundsätze: Rechtmäßigkeit, Verarbeitung nach Treu und Glauben und Transparenz.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. a DSGVO. (Die Vorlesung zählt insgesamt „neun Grundsätze“ einschließlich der Rechenschaftspflicht nach Art. 5 Abs. 2 DSGVO.)"
+   },
+   {
+    "id": "3",
+    "text": "Die Rechenschaftspflicht trifft die Aufsichtsbehörde.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie trifft den Verantwortlichen (Art. 5 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "4",
+    "text": "Integrität und Vertraulichkeit werden durch geeignete technische und organisatorische Maßnahmen gewährleistet.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. f, Art. 32 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-039",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Welcher Grundsatz verlangt, dass die Verarbeitung für die betroffene Person nachvollziehbar ist?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Transparenz",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. a DSGVO, konkretisiert durch Art. 12–14 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Zweckbindung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Zweckbindung betrifft die Festlegung und Einhaltung des Zwecks (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Richtigkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Richtigkeit betrifft die inhaltliche Korrektheit (Art. 5 Abs. 1 lit. d DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Speicherbegrenzung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Speicherbegrenzung betrifft die Dauer (Art. 5 Abs. 1 lit. e DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 12 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-040",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Unternehmen hat seine Prozesse datenschutzkonform gestaltet, aber nichts dokumentiert. Die Aufsichtsbehörde fragt nach. Wie ist die Lage?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Problematisch: Ohne Nachweis kann es die Einhaltung nicht belegen und verstößt gegen die Rechenschaftspflicht",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 2 DSGVO verlangt den Nachweis; die Aufsicht kann die Bereitstellung verlangen (Art. 58 Abs. 1 lit. a DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Unproblematisch, weil tatsächlich alles eingehalten wurde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO verlangt die Einhaltung UND deren Nachweis (Art. 5 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Die Aufsichtsbehörde muss die Rechtmäßigkeit der Prozesse selbst ermitteln; den Verantwortlichen trifft keine Nachweispflicht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 5 Abs. 2 DSGVO verpflichtet den Verantwortlichen, die Einhaltung nachweisen zu können (Rechenschaftspflicht). Im Bußgeldverfahren muss die Behörde einen Verstoß zwar nachweisen – fehlende Dokumentation ist aber selbst ein Verstoß."
+   },
+   {
+    "id": "d",
+    "text": "Dokumentation ist nur bei mehr als 250 Beschäftigten nötig",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die 250er-Grenze betrifft nur Erleichterungen beim Verzeichnis (Art. 30 Abs. 5 DSGVO), nicht die Rechenschaftspflicht."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 58 DSGVO",
+   "Art. 30 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-041",
+  "thema": "ds-grundsaetze",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Online-Händler will Bestelldaten, die er für die Vertragsabwicklung erhoben hat, für eine Statistik weiterverwenden, deren Ergebnisse nur aggregiert und anonym ausgewertet werden. Was gilt grundsätzlich?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Eine Weiterverarbeitung für statistische Zwecke gilt nach Art. 5 Abs. 1 lit. b DSGVO grundsätzlich nicht als unvereinbar (mit Garantien nach Art. 89 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. b Hs. 2 DSGVO privilegiert Archiv-, Forschungs- und Statistikzwecke."
+   },
+   {
+    "id": "b",
+    "text": "Jede Weiterverarbeitung ist ausnahmslos verboten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Zweckbindung verbietet nur unvereinbare Weiterverarbeitung (Art. 5 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Die Weiterverarbeitung braucht stets eine neue Einwilligung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Für statistische Zwecke enthält Art. 5 Abs. 1 lit. b DSGVO eine Privilegierung; Einwilligung ist nicht zwingend."
+   },
+   {
+    "id": "d",
+    "text": "Statistiken fallen nie unter den Datenschutz",
+    "korrekt": false,
+    "erklaerung": "Falsch: Solange personenbezogene Daten verarbeitet werden, gilt die DSGVO; erst das Ergebnis ist anonym (Art. 4 Nr. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 5 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-042",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Nach welchem Prinzip ist die Verarbeitung personenbezogener Daten grundsätzlich geregelt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Verbot mit Erlaubnisvorbehalt",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verarbeitung ist nur rechtmäßig, wenn eine Bedingung des Art. 6 Abs. 1 DSGVO erfüllt ist."
+   },
+   {
+    "id": "b",
+    "text": "Erlaubnis mit Verbotsvorbehalt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Umgekehrt – ohne Rechtsgrundlage ist die Verarbeitung unzulässig (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Alles ist erlaubt, was nicht schadet",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es braucht stets eine Rechtsgrundlage (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur mit Einwilligung ist jede Verarbeitung zulässig",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Einwilligung ist nur eine von sechs Rechtsgrundlagen (Art. 6 Abs. 1 lit. a–f DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-043",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ein Online-Shop speichert die Lieferadresse, um die bestellte Ware zu versenden. Welche Rechtsgrundlage passt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 6 Abs. 1 lit. b DSGVO (Vertragserfüllung)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Die Verarbeitung ist für die Erfüllung des Kaufvertrags erforderlich."
+   },
+   {
+    "id": "b",
+    "text": "Art. 6 Abs. 1 lit. a DSGVO (Einwilligung)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Einwilligung ist unnötig, wenn die Verarbeitung für den Vertrag erforderlich ist (Art. 6 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Art. 6 Abs. 1 lit. d DSGVO (lebenswichtige Interessen)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Lit. d betrifft z. B. medizinische Notfälle."
+   },
+   {
+    "id": "d",
+    "text": "Art. 6 Abs. 1 lit. e DSGVO (öffentliche Aufgabe)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ein Shop nimmt keine öffentliche Aufgabe wahr."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-044",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "zuordnung",
+  "schwierigkeit": 2,
+  "frage": "Ordne jedem Fall die passende Rechtsgrundlage nach Art. 6 Abs. 1 DSGVO zu.",
+  "ziele": [
+   {
+    "id": "a",
+    "text": "lit. a – Einwilligung"
+   },
+   {
+    "id": "b",
+    "text": "lit. b – Vertrag"
+   },
+   {
+    "id": "c",
+    "text": "lit. c – rechtliche Verpflichtung"
+   },
+   {
+    "id": "d",
+    "text": "lit. d – lebenswichtige Interessen"
+   },
+   {
+    "id": "f",
+    "text": "lit. f – berechtigte Interessen"
+   }
+  ],
+  "paare": [
+   {
+    "id": "p1",
+    "text": "Arbeitgeber meldet Lohndaten an das Finanzamt",
+    "loesung": "c",
+    "erklaerung": "Gesetzliche Pflicht (Art. 6 Abs. 1 lit. c DSGVO)."
+   },
+   {
+    "id": "p2",
+    "text": "Notarzt fragt bei der Hausärztin eines bewusstlosen Unfallopfers Vorerkrankungen ab",
+    "loesung": "d",
+    "erklaerung": "Schutz lebenswichtiger Interessen (Art. 6 Abs. 1 lit. d DSGVO; bei Gesundheitsdaten zusätzlich Art. 9 Abs. 2 lit. c DSGVO)."
+   },
+   {
+    "id": "p3",
+    "text": "Newsletter-Versand nach Double-Opt-in",
+    "loesung": "a",
+    "erklaerung": "Einwilligung (Art. 6 Abs. 1 lit. a, Art. 7 DSGVO)."
+   },
+   {
+    "id": "p4",
+    "text": "Fitnessstudio bucht den monatlichen Beitrag vom Konto ab",
+    "loesung": "b",
+    "erklaerung": "Erforderlich zur Vertragserfüllung (Art. 6 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "p5",
+    "text": "Videoüberwachung des eigenen Lagers zum Schutz vor Diebstahl (mit Hinweisschild)",
+    "loesung": "f",
+    "erklaerung": "Berechtigtes Interesse nach Abwägung (Art. 6 Abs. 1 lit. f DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 7 DSGVO",
+   "Art. 9 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-045",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Was muss bei einer Verarbeitung auf Grundlage berechtigter Interessen (Art. 6 Abs. 1 lit. f DSGVO) stets geprüft werden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Erforderlichkeit und eine Interessenabwägung mit den Interessen und Grundrechten der betroffenen Person",
+    "korrekt": true,
+    "erklaerung": "Richtig: Lit. f greift nur, wenn nicht die Interessen der betroffenen Person überwiegen."
+   },
+   {
+    "id": "b",
+    "text": "Ob die betroffene Person schriftlich eingewilligt hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Dann wäre lit. a die Grundlage; lit. f braucht keine Einwilligung (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Ob eine Behörde die Verarbeitung angeordnet hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das wäre lit. c oder e (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nichts – berechtigte Interessen rechtfertigen jede Verarbeitung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ohne Abwägung keine Rechtmäßigkeit; außerdem Widerspruchsrecht nach Art. 21 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-046",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche der folgenden sind Rechtsgrundlagen nach Art. 6 Abs. 1 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Erfüllung einer rechtlichen Verpflichtung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 6 Abs. 1 lit. c DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Wahrnehmung einer Aufgabe im öffentlichen Interesse",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 6 Abs. 1 lit. e DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Schutz lebenswichtiger Interessen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 6 Abs. 1 lit. d DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Wirtschaftlicher Nutzen für das Unternehmen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bloßer Nutzen genügt nicht; allenfalls berechtigtes Interesse mit Abwägung (Art. 6 Abs. 1 lit. f DSGVO)."
+   },
+   {
+    "id": "e",
+    "text": "Mündliche Zustimmung des Geschäftsführers",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es zählt die Einwilligung der betroffenen Person (lit. a), nicht die des Verantwortlichen (Art. 6 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-047",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Eine Bank muss Kundendaten zehn Jahre aufbewahren, weil handels- und steuerrechtliche Aufbewahrungsfristen das verlangen. Rechtsgrundlage?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 6 Abs. 1 lit. c DSGVO",
+    "korrekt": true,
+    "erklaerung": "Richtig: Rechtliche Verpflichtung des Verantwortlichen."
+   },
+   {
+    "id": "b",
+    "text": "Art. 6 Abs. 1 lit. a DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine gesetzliche Pflicht hängt nicht von einer Einwilligung ab."
+   },
+   {
+    "id": "c",
+    "text": "Art. 6 Abs. 1 lit. f DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bei gesetzlicher Pflicht ist lit. c spezieller."
+   },
+   {
+    "id": "d",
+    "text": "Gar keine – nach Vertragsende muss sofort gelöscht werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Gesetzliche Aufbewahrungspflichten gehen vor; das Löschrecht ist insoweit ausgeschlossen (Art. 17 Abs. 3 lit. b DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 17 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-048",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Eine Interessentin bittet einen Möbelhändler um ein individuelles Angebot und gibt dafür ihre Maße und Adresse an. Rechtsgrundlage für die Verarbeitung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 6 Abs. 1 lit. b DSGVO – vorvertragliche Maßnahmen auf Anfrage der betroffenen Person",
+    "korrekt": true,
+    "erklaerung": "Richtig: Lit. b erfasst auch vorvertragliche Maßnahmen auf Anfrage."
+   },
+   {
+    "id": "b",
+    "text": "Nur Art. 6 Abs. 1 lit. a DSGVO, weil noch kein Vertrag besteht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Lit. b deckt ausdrücklich auch vorvertragliche Maßnahmen (Art. 6 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Art. 6 Abs. 1 lit. e DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Kein öffentliches Interesse."
+   },
+   {
+    "id": "d",
+    "text": "Art. 9 Abs. 2 lit. a DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Maße und Adresse sind keine besonderen Kategorien (Art. 9 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 9 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-049",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Rechtmäßigkeit – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Für eine Verarbeitung genügt mindestens eine der Bedingungen des Art. 6 Abs. 1 DSGVO.",
+    "korrekt": true,
+    "erklaerung": "Richtig: „mindestens eine der nachstehenden Bedingungen“ (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "2",
+    "text": "Behörden können sich bei der Erfüllung ihrer Aufgaben auf berechtigte Interessen (lit. f) stützen.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Lit. f gilt nicht für Behörden in Erfüllung ihrer Aufgaben (Art. 6 Abs. 1 UAbs. 2 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Die Einwilligung ist immer die beste Rechtsgrundlage, auch wenn ein Vertrag die Verarbeitung erfordert.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Wo lit. b greift, ist eine Einwilligung entbehrlich – und wegen der Widerrufbarkeit (Art. 7 Abs. 3 DSGVO) oft ungünstig."
+   },
+   {
+    "id": "4",
+    "text": "Direktwerbung kann ein berechtigtes Interesse sein.",
+    "korrekt": true,
+    "erklaerung": "Richtig: So Erwägungsgrund 47; die betroffene Person kann aber jederzeit widersprechen (Art. 21 Abs. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 7 DSGVO",
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-050",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Online-Shop nennt in seiner Datenschutzerklärung von Anfang an Art. 6 Abs. 1 lit. b DSGVO als Rechtsgrundlage für die Verarbeitung der Lieferadresse und holt zusätzlich (überflüssig) eine Einwilligung ein. Die Kundin widerruft die Einwilligung nach dem Kauf. Was folgt daraus für die Lieferung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Die Verarbeitung für die Lieferung bleibt zulässig, soweit sie für die Vertragserfüllung erforderlich ist (Art. 6 Abs. 1 lit. b DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Der Widerruf (Art. 7 Abs. 3 DSGVO) beseitigt nur die Einwilligung; die von Anfang an angegebene Rechtsgrundlage (Art. 13 Abs. 1 lit. c DSGVO) trägt weiter. Ein nachträgliches „Umschwenken“ auf eine andere Rechtsgrundlage nach dem Widerruf wäre dagegen nach Auffassung des EDSA (Leitlinien 05/2020) unzulässig."
+   },
+   {
+    "id": "b",
+    "text": "Das Unternehmen darf nicht mehr liefern",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Vertragserfüllung trägt die Verarbeitung (Art. 6 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der Widerruf ist unwirksam, weil ein Vertrag besteht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Einwilligung ist jederzeit widerruflich (Art. 7 Abs. 3 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Der Kaufvertrag wird durch den Widerruf nichtig",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der datenschutzrechtliche Widerruf berührt den Kaufvertrag nicht (Art. 7 Abs. 3 DSGVO wirkt nur für die Einwilligung)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 7 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-051",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Rechtsgrundlage steht in Art. 6 Abs. 1 lit. a DSGVO?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Einwilligung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 6 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Vertrag",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist lit. b (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Berechtigte Interessen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist lit. f (Art. 6 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Rechtliche Verpflichtung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist lit. c (Art. 6 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-052",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Gesundheitsamt verarbeitet Meldedaten zu Infektionskrankheiten zur Seuchenbekämpfung. Welche Rechtsgrundlage nach Art. 6 DSGVO ist (neben Art. 9 DSGVO) typischerweise einschlägig?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 6 Abs. 1 lit. e DSGVO – Wahrnehmung einer Aufgabe im öffentlichen Interesse",
+    "korrekt": true,
+    "erklaerung": "Richtig: Öffentliche Aufgabe auf gesetzlicher Grundlage (Art. 6 Abs. 1 lit. e, Abs. 3 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Art. 6 Abs. 1 lit. f DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Behörden können sich bei ihrer Aufgabenerfüllung nicht auf lit. f stützen (Art. 6 Abs. 1 UAbs. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Art. 6 Abs. 1 lit. b DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es besteht kein Vertrag mit den Gemeldeten."
+   },
+   {
+    "id": "d",
+    "text": "Art. 6 Abs. 1 lit. a DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Meldepflicht hängt nicht von einer Einwilligung ab."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 9 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-053",
+  "thema": "ds-rechtsgrundlagen",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Onlinehändler will Kaufdaten nutzen, um Bestandskunden per Post ähnliche Produkte anzubieten. Welche Rechtsgrundlage kommt ohne Einwilligung in Betracht, und welches Recht hat der Kunde?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 6 Abs. 1 lit. f DSGVO nach Interessenabwägung; der Kunde kann jederzeit nach Art. 21 Abs. 2 DSGVO widersprechen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Direktwerbung kann berechtigtes Interesse sein; das Widerspruchsrecht gegen Direktwerbung ist voraussetzungslos (Art. 21 Abs. 2, 3 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Art. 6 Abs. 1 lit. b DSGVO; ein Widerspruch ist ausgeschlossen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Werbung ist für die Vertragserfüllung nicht erforderlich; Widerspruch nach Art. 21 Abs. 2 DSGVO ist immer möglich."
+   },
+   {
+    "id": "c",
+    "text": "Art. 6 Abs. 1 lit. c DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es gibt keine gesetzliche Pflicht zur Werbung."
+   },
+   {
+    "id": "d",
+    "text": "Keine – Werbung ist ohne Einwilligung immer verboten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nach der DSGVO kann lit. f tragen (Erwägungsgrund 47); für E-Mail-Werbung gelten zusätzlich wettbewerbsrechtliche Regeln."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ }
+]

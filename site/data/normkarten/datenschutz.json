@@ -1,0 +1,317 @@
+[
+ {
+  "id": "nk-101",
+  "thema": "ds-anwendungsbereich",
+  "problem": "Ausnahme für rein private/familiäre Datenverarbeitung (Haushaltsausnahme)",
+  "norm": "Art. 2 Abs. 2 lit. c DSGVO",
+  "erklaerung": "Die DSGVO gilt nicht für ausschließlich persönliche oder familiäre Tätigkeiten.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-102",
+  "thema": "ds-anwendungsbereich",
+  "problem": "Marktortprinzip: Anbieter ohne EU-Sitz bietet Waren in der EU an",
+  "norm": "Art. 3 Abs. 2 lit. a DSGVO",
+  "erklaerung": "Anwendbarkeit auch ohne Niederlassung in der Union; lit. b: Verhaltensbeobachtung.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-103",
+  "thema": "ds-begriffe",
+  "problem": "Definition personenbezogene Daten",
+  "norm": "Art. 4 Nr. 1 DSGVO",
+  "erklaerung": "Alle Informationen über eine identifizierte oder identifizierbare natürliche Person.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-104",
+  "thema": "ds-begriffe",
+  "problem": "Definition Pseudonymisierung",
+  "norm": "Art. 4 Nr. 5 DSGVO",
+  "erklaerung": "Zuordnung nur mit gesondert aufbewahrten Zusatzinformationen möglich – Daten bleiben personenbezogen.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-105",
+  "thema": "ds-begriffe",
+  "problem": "Definition Verantwortlicher",
+  "norm": "Art. 4 Nr. 7 DSGVO",
+  "erklaerung": "Wer über Zwecke und Mittel der Verarbeitung entscheidet; Auftragsverarbeiter: Nr. 8.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-106",
+  "thema": "ds-grundsaetze",
+  "problem": "Zweckbindung",
+  "norm": "Art. 5 Abs. 1 lit. b DSGVO",
+  "erklaerung": "Festgelegte, eindeutige, legitime Zwecke; keine unvereinbare Weiterverarbeitung.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-107",
+  "thema": "ds-grundsaetze",
+  "problem": "Rechenschaftspflicht (Accountability)",
+  "norm": "Art. 5 Abs. 2 DSGVO",
+  "erklaerung": "Verantwortlicher muss die Einhaltung der Grundsätze nachweisen können.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-108",
+  "thema": "ds-grundsaetze",
+  "problem": "Datenminimierung",
+  "norm": "Art. 5 Abs. 1 lit. c DSGVO",
+  "erklaerung": "Angemessen, erheblich, auf das notwendige Maß beschränkt.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-109",
+  "thema": "ds-rechtsgrundlagen",
+  "problem": "Verarbeitung zur Vertragserfüllung (z. B. Lieferadresse)",
+  "norm": "Art. 6 Abs. 1 lit. b DSGVO",
+  "erklaerung": "Erforderlich für Vertrag oder vorvertragliche Maßnahmen auf Anfrage.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-110",
+  "thema": "ds-rechtsgrundlagen",
+  "problem": "Verarbeitung aufgrund berechtigter Interessen (z. B. Videoüberwachung des Lagers)",
+  "norm": "Art. 6 Abs. 1 lit. f DSGVO",
+  "erklaerung": "Interessenabwägung; nicht für Behörden in Erfüllung ihrer Aufgaben.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-111",
+  "thema": "ds-rechtsgrundlagen",
+  "problem": "Verarbeitung aufgrund gesetzlicher Pflicht (z. B. Steuerdaten an das Finanzamt)",
+  "norm": "Art. 6 Abs. 1 lit. c DSGVO",
+  "erklaerung": "Rechtliche Verpflichtung des Verantwortlichen.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-112",
+  "thema": "ds-einwilligung",
+  "problem": "Widerruf der Einwilligung",
+  "norm": "Art. 7 Abs. 3 DSGVO",
+  "erklaerung": "Jederzeit, so einfach wie die Erteilung, wirkt für die Zukunft.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-113",
+  "thema": "ds-einwilligung",
+  "problem": "Einwilligung von Kindern bei Online-Diensten",
+  "norm": "Art. 8 Abs. 1 DSGVO",
+  "erklaerung": "Ab 16 Jahren selbst; darunter Zustimmung der Eltern (Deutschland: keine Absenkung).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-114",
+  "thema": "ds-besondere-kategorien",
+  "problem": "Gesundheits-, Religions-, biometrische Daten",
+  "norm": "Art. 9 Abs. 1 DSGVO",
+  "erklaerung": "Grundsätzlich verboten; Ausnahmen nach Abs. 2 (z. B. ausdrückliche Einwilligung, lit. a).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-115",
+  "thema": "ds-betroffenenrechte",
+  "problem": "Auskunft über gespeicherte Daten",
+  "norm": "Art. 15 Abs. 1 DSGVO",
+  "erklaerung": "Zwecke, Kategorien, Empfänger, Speicherdauer, Rechte; Kopie nach Abs. 3.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-116",
+  "thema": "ds-betroffenenrechte",
+  "problem": "Recht auf Löschung („Recht auf Vergessenwerden“)",
+  "norm": "Art. 17 Abs. 1 DSGVO",
+  "erklaerung": "Ausnahmen in Abs. 3 (z. B. Aufbewahrungspflichten, Rechtsansprüche).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-117",
+  "thema": "ds-betroffenenrechte",
+  "problem": "Daten in maschinenlesbarem Format mitnehmen (Anbieterwechsel)",
+  "norm": "Art. 20 Abs. 1 DSGVO",
+  "erklaerung": "Datenübertragbarkeit bei Einwilligung/Vertrag und automatisierter Verarbeitung.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-118",
+  "thema": "ds-betroffenenrechte",
+  "problem": "Widerspruch gegen Direktwerbung",
+  "norm": "Art. 21 Abs. 2 DSGVO",
+  "erklaerung": "Jederzeit ohne Begründung; danach keine Verarbeitung für Werbung (Abs. 3).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-119",
+  "thema": "ds-betroffenenrechte",
+  "problem": "Frist zur Beantwortung eines Betroffenenantrags",
+  "norm": "Art. 12 Abs. 3 DSGVO",
+  "erklaerung": "Unverzüglich, spätestens innerhalb eines Monats (Verlängerung um zwei Monate möglich).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-120",
+  "thema": "ds-betroffenenrechte",
+  "problem": "Einschränkung der Verarbeitung (Sperre statt Löschung)",
+  "norm": "Art. 18 Abs. 1 DSGVO",
+  "erklaerung": "Z. B. solange die Richtigkeit bestritten ist. (Folie nennt fälschlich Art. 19.)",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-121",
+  "thema": "ds-sicherheit",
+  "problem": "Technische und organisatorische Maßnahmen (TOM)",
+  "norm": "Art. 32 Abs. 1 DSGVO",
+  "erklaerung": "Risikoangemessen: Pseudonymisierung, Verschlüsselung, Vertraulichkeit/Integrität/Verfügbarkeit, Wiederherstellung, Überprüfung.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-122",
+  "thema": "ds-sicherheit",
+  "problem": "Privacy by Design und Privacy by Default",
+  "norm": "Art. 25 DSGVO",
+  "erklaerung": "Abs. 1 Technikgestaltung, Abs. 2 datenschutzfreundliche Voreinstellungen.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-123",
+  "thema": "ds-datenpannen",
+  "problem": "Meldung einer Datenpanne an die Aufsichtsbehörde",
+  "norm": "Art. 33 Abs. 1 DSGVO",
+  "erklaerung": "Unverzüglich und möglichst binnen 72 Stunden – es sei denn, die Verletzung führt voraussichtlich nicht zu einem Risiko; bei Überschreiten ist die Verzögerung zu begründen.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-124",
+  "thema": "ds-datenpannen",
+  "problem": "Benachrichtigung der Betroffenen bei hohem Risiko",
+  "norm": "Art. 34 Abs. 1 DSGVO",
+  "erklaerung": "Unverzüglich; Ausnahmen in Abs. 3 (z. B. Verschlüsselung).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-125",
+  "thema": "ds-dsb",
+  "problem": "Pflicht zur Benennung eines DSB ab 20 Personen (Deutschland)",
+  "norm": "§ 38 Abs. 1 BDSG",
+  "erklaerung": "I. d. R. mind. 20 Personen ständig mit automatisierter Verarbeitung; unabhängig davon bei DSFA-Pflicht oder geschäftsmäßiger Übermittlung.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-126",
+  "thema": "ds-dsb",
+  "problem": "Aufgaben des Datenschutzbeauftragten",
+  "norm": "Art. 39 Abs. 1 DSGVO",
+  "erklaerung": "Beraten, überwachen, DSFA begleiten, mit der Aufsicht zusammenarbeiten.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-127",
+  "thema": "ds-sanktionen",
+  "problem": "Bußgeldrahmen bis 20 Mio. € / 4 % des Umsatzes",
+  "norm": "Art. 83 Abs. 5 DSGVO",
+  "erklaerung": "Bis 20 Mio. € oder 4 % des weltweiten Vorjahresumsatzes – je nachdem, welcher Betrag höher ist. Erfasst u. a. Grundsätze, Rechtsgrundlagen, Einwilligung, Betroffenenrechte, Drittland.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-128",
+  "thema": "ds-sanktionen",
+  "problem": "Schadensersatz für Betroffene (auch immateriell)",
+  "norm": "Art. 82 Abs. 1 DSGVO",
+  "erklaerung": "Anspruch gegen Verantwortlichen bzw. Auftragsverarbeiter.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-129",
+  "thema": "ds-auftragsverarbeitung",
+  "problem": "Vertrag mit einem Dienstleister, der weisungsgebunden Daten verarbeitet",
+  "norm": "Art. 28 Abs. 3 DSGVO",
+  "erklaerung": "Pflichtinhalt des AV-Vertrags (Weisung, Vertraulichkeit, TOM, Löschung …).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-130",
+  "thema": "ds-auftragsverarbeitung",
+  "problem": "Verzeichnis von Verarbeitungstätigkeiten",
+  "norm": "Art. 30 Abs. 1 DSGVO",
+  "erklaerung": "Zentrales Dokumentationsinstrument des Verantwortlichen.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-131",
+  "thema": "ds-dsfa",
+  "problem": "Datenschutz-Folgenabschätzung bei hohem Risiko",
+  "norm": "Art. 35 Abs. 1 DSGVO",
+  "erklaerung": "Vorab, v. a. bei neuen Technologien; Regelbeispiele in Abs. 3.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-132",
+  "thema": "ds-cookies",
+  "problem": "Cookies nur mit Einwilligung, außer unbedingt erforderlich",
+  "norm": "§ 25 Abs. 1 TDDDG",
+  "erklaerung": "Ausnahmen in Abs. 2 (z. B. Warenkorb-Cookie).",
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "nk-133",
+  "thema": "ds-beschaeftigte",
+  "problem": "Einwilligung im Arbeitsverhältnis – Freiwilligkeit",
+  "norm": "§ 26 Abs. 2 BDSG",
+  "erklaerung": "Abhängigkeit und Umstände berücksichtigen; grundsätzlich schriftlich oder elektronisch. Unionsrechtskonformität seit EuGH C-34/21 umstritten; Maßstab jedenfalls Art. 4 Nr. 11, Art. 7 DSGVO.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-134",
+  "thema": "ds-ki-vo",
+  "problem": "Pflicht, Nutzer über die Interaktion mit einem KI-System (Chatbot) zu informieren",
+  "norm": "Art. 50 Abs. 1 KI-VO",
+  "erklaerung": "Pflicht des Anbieters; gilt seit 2. August 2026; Ausnahme, wenn die KI-Interaktion offensichtlich ist.",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "nk-135",
+  "thema": "ds-sanktionen",
+  "problem": "Bußgeldrahmen bis 10 Mio. € / 2 % des Umsatzes",
+  "norm": "Art. 83 Abs. 4 DSGVO",
+  "erklaerung": "Je nachdem, welcher Betrag höher ist; erfasst u. a. Pflichten aus Art. 8 und Art. 25–39 DSGVO (z. B. Privacy by Design, AV-Vertrag, Verzeichnis, TOM, Datenpanne, DSFA, DSB).",
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ }
+]

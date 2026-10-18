@@ -1,0 +1,722 @@
+[
+ {
+  "id": "ds-mc-054",
+  "thema": "ds-einwilligung",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ab welchem Alter kann ein Kind in Deutschland selbst in die Verarbeitung seiner Daten bei einem Online-Dienst (Dienst der Informationsgesellschaft) einwilligen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ab 16 Jahren",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 8 Abs. 1 DSGVO; Deutschland hat die Altersgrenze nicht abgesenkt."
+   },
+   {
+    "id": "b",
+    "text": "Ab 13 Jahren",
+    "korrekt": false,
+    "erklaerung": "Falsch: 13 ist die Untergrenze, bis zu der Mitgliedstaaten absenken dürfen (Art. 8 Abs. 1 UAbs. 2 DSGVO) – Deutschland hat das nicht getan."
+   },
+   {
+    "id": "c",
+    "text": "Ab 18 Jahren",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die datenschutzrechtliche Einwilligungsfähigkeit beginnt nach Art. 8 Abs. 1 DSGVO mit 16."
+   },
+   {
+    "id": "d",
+    "text": "Ab 7 Jahren wie bei der beschränkten Geschäftsfähigkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: § 106 BGB regelt die Geschäftsfähigkeit; für die Einwilligung bei Online-Diensten gilt Art. 8 DSGVO (16 Jahre)."
+   }
+  ],
+  "normen": [
+   "Art. 8 DSGVO",
+   "§ 106 BGB"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-055",
+  "thema": "ds-einwilligung",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche Anforderungen stellt die DSGVO an Einwilligungen? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Sie muss freiwillig erteilt werden",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 11, Art. 7 Abs. 4 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Sie muss für den bestimmten Fall, informiert und unmissverständlich sein",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 11 DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Der Widerruf muss so einfach sein wie die Erteilung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 7 Abs. 3 S. 4 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Sie muss immer eigenhändig unterschrieben werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine Schriftform nötig; der Verantwortliche muss sie aber nachweisen können (Art. 7 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "e",
+    "text": "Schweigen oder vorangekreuzte Kästchen genügen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es braucht eine eindeutige bestätigende Handlung; Stillschweigen, bereits angekreuzte Kästchen oder Untätigkeit genügen nicht (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32 S. 3)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 7 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-056",
+  "thema": "ds-einwilligung",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wie wirkt der Widerruf einer Einwilligung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Für die Zukunft; die bis dahin erfolgte Verarbeitung bleibt rechtmäßig",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 7 Abs. 3 S. 2 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Rückwirkend, alle bisherigen Verarbeitungen werden rechtswidrig",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Widerruf berührt nicht die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung (Art. 7 Abs. 3 S. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Erst nach einer Frist von 14 Tagen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Widerruf ist jederzeit möglich und wirkt mit Zugang (Art. 7 Abs. 3 DSGVO); die 14 Tage gelten beim Verbraucherwiderruf (§ 355 Abs. 2 BGB)."
+   },
+   {
+    "id": "d",
+    "text": "Gar nicht – eine Einwilligung ist unwiderruflich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 7 Abs. 3 S. 1 DSGVO: jederzeit widerrufbar."
+   }
+  ],
+  "normen": [
+   "Art. 7 DSGVO",
+   "§ 355 BGB"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-057",
+  "thema": "ds-einwilligung",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Eine App kann nur genutzt werden, wenn man der Weitergabe aller Kontaktdaten an Werbepartner zustimmt – obwohl dies für den Dienst nicht nötig ist. Was ist das Problem?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Kopplungsverbot: Die Einwilligung ist dann regelmäßig nicht freiwillig",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 7 Abs. 4 DSGVO – bei Kopplung an eine nicht erforderliche Verarbeitung ist die Freiwilligkeit fraglich."
+   },
+   {
+    "id": "b",
+    "text": "Es fehlt die Schriftform",
+    "korrekt": false,
+    "erklaerung": "Falsch: Schriftform ist nicht verlangt (Art. 7 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Kein Problem, weil die Nutzer zugestimmt haben",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine unfreiwillige Zustimmung ist keine wirksame Einwilligung (Art. 4 Nr. 11, Art. 7 Abs. 4 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die App braucht eine Genehmigung der Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Genehmigungspflicht besteht nicht; das Problem ist die Freiwilligkeit (Art. 7 Abs. 4 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 7 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-058",
+  "thema": "ds-einwilligung",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wer muss nachweisen, dass eine Einwilligung erteilt wurde?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Der Verantwortliche",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 7 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Die betroffene Person",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Nachweislast trägt der Verantwortliche (Art. 7 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der Datenschutzbeauftragte",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der DSB überwacht nur (Art. 39 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die Aufsichtsbehörde",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Behörde prüft, die Nachweislast trifft den Verantwortlichen (Art. 7 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 7 DSGVO",
+   "Art. 39 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-059",
+  "thema": "ds-einwilligung",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Einwilligung – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Wird die Einwilligung in einer Erklärung abgegeben, die noch andere Sachverhalte betrifft, muss sie klar davon unterscheidbar sein.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 7 Abs. 2 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Die betroffene Person ist vor Abgabe der Einwilligung über ihr Widerrufsrecht zu informieren.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 7 Abs. 3 S. 3 DSGVO."
+   },
+   {
+    "id": "3",
+    "text": "Eine 15-Jährige kann in Deutschland wirksam allein in ein Social-Media-Profil einwilligen.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Unter 16 ist die Zustimmung der Eltern nötig (Art. 8 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "4",
+    "text": "Eine Einwilligung kann auch elektronisch, z. B. durch Anklicken eines Kästchens, erteilt werden.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Eine eindeutige bestätigende Handlung genügt (Art. 4 Nr. 11 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 7 DSGVO",
+   "Art. 8 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-060",
+  "thema": "ds-einwilligung",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Arbeitgeber lässt alle Beschäftigten eine Einwilligung in die Veröffentlichung ihrer Fotos auf der Firmenwebsite unterschreiben. Was ist bei der Beurteilung der Freiwilligkeit besonders zu berücksichtigen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Die im Beschäftigungsverhältnis bestehende Abhängigkeit und die Umstände der Erteilung",
+    "korrekt": true,
+    "erklaerung": "Richtig: § 26 Abs. 2 S. 1 BDSG nennt genau diese Kriterien. Nach EuGH C-34/21 (2023) ist die Fortgeltung von § 26 BDSG umstritten; die Kriterien werden jedenfalls als Konkretisierung von Art. 7 Abs. 4 DSGVO und Erwägungsgrund 43 herangezogen."
+   },
+   {
+    "id": "b",
+    "text": "Ob der Arbeitgeber mehr als 250 Beschäftigte hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Unternehmensgröße spielt für die Freiwilligkeit keine Rolle (§ 26 Abs. 2 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Nichts – Einwilligungen im Arbeitsverhältnis sind ausnahmslos unwirksam",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sie sind möglich, z. B. wenn der Beschäftigte einen Vorteil erlangt oder gleichgelagerte Interessen bestehen (§ 26 Abs. 2 S. 2 BDSG)."
+   },
+   {
+    "id": "d",
+    "text": "Ob die Fotos in Farbe oder schwarz-weiß sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Irrelevant; maßgeblich sind Abhängigkeit und Umstände (§ 26 Abs. 2 BDSG)."
+   }
+  ],
+  "normen": [
+   "§ 26 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-061",
+  "thema": "ds-einwilligung",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "In welcher Form muss eine Einwilligung nach der DSGVO grundsätzlich erteilt werden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Formfrei, aber unmissverständlich (z. B. Erklärung oder eindeutige bestätigende Handlung) und nachweisbar",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 4 Nr. 11, Art. 7 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nur schriftlich mit Unterschrift",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO verlangt keine Schriftform (Art. 7 DSGVO); anders im Beschäftigungsverhältnis grundsätzlich § 26 Abs. 2 S. 3 BDSG (Schriftform oder elektronisch)."
+   },
+   {
+    "id": "c",
+    "text": "Nur notariell beurkundet",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Beurkundung ist nicht vorgesehen (Art. 7 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Stillschweigend durch Weitersurfen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bloße Untätigkeit ist keine Einwilligung (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32 S. 3)."
+   }
+  ],
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 7 DSGVO",
+   "§ 26 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-062",
+  "thema": "ds-besondere-kategorien",
+  "typ": "multi",
+  "schwierigkeit": 1,
+  "frage": "Welche Daten gehören zu den besonderen Kategorien nach Art. 9 Abs. 1 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Gesundheitsdaten",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Gewerkschaftszugehörigkeit",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Biometrische Daten zur eindeutigen Identifizierung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Kontonummer",
+    "korrekt": false,
+    "erklaerung": "Falsch: Sensibel, aber keine besondere Kategorie nach Art. 9 Abs. 1 DSGVO."
+   },
+   {
+    "id": "e",
+    "text": "Geburtsdatum",
+    "korrekt": false,
+    "erklaerung": "Falsch: Normales personenbezogenes Datum (Art. 4 Nr. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 9 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-063",
+  "thema": "ds-besondere-kategorien",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was gilt grundsätzlich für die Verarbeitung besonderer Kategorien personenbezogener Daten?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Sie ist untersagt, außer eine Ausnahme nach Art. 9 Abs. 2 DSGVO greift (z. B. ausdrückliche Einwilligung)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 9 Abs. 1 und 2 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Sie ist wie jede andere Verarbeitung allein nach Art. 6 DSGVO zu beurteilen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 9 DSGVO stellt zusätzliche, strengere Anforderungen."
+   },
+   {
+    "id": "c",
+    "text": "Sie ist ausnahmslos verboten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 9 Abs. 2 DSGVO enthält zahlreiche Ausnahmen."
+   },
+   {
+    "id": "d",
+    "text": "Sie ist nur Behörden erlaubt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auch Private können unter Art. 9 Abs. 2 DSGVO verarbeiten (z. B. Ärzte, lit. h)."
+   }
+  ],
+  "normen": [
+   "Art. 9 DSGVO",
+   "Art. 6 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-064",
+  "thema": "ds-besondere-kategorien",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Fitnessstudio will den Zugang per Fingerabdruck-Scanner steuern. Was ist datenschutzrechtlich zu beachten?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Biometrische Daten zur eindeutigen Identifizierung sind besondere Kategorien; es braucht i. d. R. eine ausdrückliche, freiwillige Einwilligung mit Alternative",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 9 Abs. 1, Abs. 2 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nichts, ein Fingerabdruck ist kein personenbezogenes Datum",
+    "korrekt": false,
+    "erklaerung": "Falsch: Biometrische Daten sind personenbezogen und besonders geschützt (Art. 4 Nr. 14, Art. 9 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Es genügt das berechtigte Interesse nach Art. 6 Abs. 1 lit. f DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bei besonderen Kategorien braucht es zusätzlich eine Ausnahme nach Art. 9 Abs. 2 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Nur eine Meldung an die Aufsichtsbehörde binnen 72 Stunden",
+    "korrekt": false,
+    "erklaerung": "Falsch: 72 Stunden betreffen Datenpannen (Art. 33 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 9 DSGVO",
+   "Art. 4 DSGVO",
+   "Art. 6 DSGVO",
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-065",
+  "thema": "ds-besondere-kategorien",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Welche Form der Einwilligung verlangt Art. 9 Abs. 2 lit. a DSGVO für besondere Kategorien?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Eine ausdrückliche Einwilligung",
+    "korrekt": true,
+    "erklaerung": "Richtig: „ausdrücklich eingewilligt“ – konkludentes Verhalten genügt nicht (Art. 9 Abs. 2 lit. a DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Eine mutmaßliche Einwilligung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Mutmaßungen genügen nicht (Art. 9 Abs. 2 lit. a DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Eine notarielle Einwilligung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Beurkundung ist nicht vorgeschrieben (Art. 9 Abs. 2 lit. a DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Gar keine – Einwilligung ist bei Art. 9 nie möglich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die ausdrückliche Einwilligung ist gerade die erste Ausnahme (Art. 9 Abs. 2 lit. a DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 9 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-066",
+  "thema": "ds-besondere-kategorien",
+  "typ": "aussagen",
+  "schwierigkeit": 3,
+  "frage": "Besondere Kategorien – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Daten über die sexuelle Orientierung gehören zu den besonderen Kategorien.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Strafrechtliche Verurteilungen sind in Art. 9 DSGVO geregelt.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Dafür gilt die Sondervorschrift Art. 10 DSGVO."
+   },
+   {
+    "id": "3",
+    "text": "Ärzte dürfen Gesundheitsdaten zur Behandlung auf Grundlage von Art. 9 Abs. 2 lit. h DSGVO verarbeiten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Gesundheitsvorsorge und Behandlung durch Berufsgeheimnisträger (Art. 9 Abs. 2 lit. h, Abs. 3 DSGVO; ergänzend § 22 BDSG)."
+   },
+   {
+    "id": "4",
+    "text": "Ein Lichtbild ist stets ein biometrisches Datum im Sinne von Art. 9 DSGVO.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nur bei Verarbeitung mit speziellen technischen Mitteln zur eindeutigen Identifizierung (Erwägungsgrund 51; Art. 4 Nr. 14 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 9 DSGVO",
+   "Art. 10 DSGVO",
+   "Art. 4 DSGVO",
+   "§ 22 BDSG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-067",
+  "thema": "ds-informationspflichten",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wann muss ein Verantwortlicher informieren, wenn er Daten direkt bei der betroffenen Person erhebt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Zum Zeitpunkt der Erhebung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 13 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Innerhalb eines Monats nach der Erhebung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Monatsfrist gilt bei Dritterhebung (Art. 14 Abs. 3 lit. a DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur auf Nachfrage",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Information ist eine aktive Pflicht (Art. 13 DSGVO); auf Nachfrage greift zusätzlich das Auskunftsrecht (Art. 15 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Erst wenn eine Datenpanne passiert",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das betrifft Art. 34 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 13 DSGVO",
+   "Art. 14 DSGVO",
+   "Art. 15 DSGVO",
+   "Art. 34 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-068",
+  "thema": "ds-informationspflichten",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Eine Auskunftei erhält Daten über Frau B von einer Bank, nicht von Frau B selbst. Welche Vorschrift regelt die Informationspflicht?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 14 DSGVO",
+    "korrekt": true,
+    "erklaerung": "Richtig: Information, wenn die Daten nicht bei der betroffenen Person erhoben wurden."
+   },
+   {
+    "id": "b",
+    "text": "Art. 13 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 13 DSGVO betrifft die Direkterhebung."
+   },
+   {
+    "id": "c",
+    "text": "Art. 33 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 33 DSGVO betrifft die Meldung von Datenpannen an die Aufsicht."
+   },
+   {
+    "id": "d",
+    "text": "Art. 20 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 20 DSGVO regelt die Datenübertragbarkeit."
+   }
+  ],
+  "normen": [
+   "Art. 14 DSGVO",
+   "Art. 13 DSGVO",
+   "Art. 33 DSGVO",
+   "Art. 20 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-069",
+  "thema": "ds-informationspflichten",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Welche Angaben gehören zu den Pflichtinformationen bei der Direkterhebung nach Art. 13 DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Name und Kontaktdaten des Verantwortlichen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 13 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Zwecke und Rechtsgrundlage der Verarbeitung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 13 Abs. 1 lit. c DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Dauer der Speicherung bzw. Kriterien dafür",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 13 Abs. 2 lit. a DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Gehälter der Geschäftsführung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine Pflichtangabe nach Art. 13 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 13 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-070",
+  "thema": "ds-informationspflichten",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wie müssen Informationen an betroffene Personen grundsätzlich gestaltet sein?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Präzise, transparent, verständlich, leicht zugänglich, in klarer und einfacher Sprache – und grundsätzlich unentgeltlich",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 12 Abs. 1, Abs. 5 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Juristisch vollständig, auch wenn schwer verständlich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Klare und einfache Sprache ist Pflicht (Art. 12 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur gegen eine Bearbeitungsgebühr",
+    "korrekt": false,
+    "erklaerung": "Falsch: Grundsätzlich unentgeltlich (Art. 12 Abs. 5 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur mündlich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Schriftlich oder in anderer Form, auch elektronisch (Art. 12 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 12 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-071",
+  "thema": "ds-informationspflichten",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Spätestens wann muss bei Dritterhebung (Art. 14 DSGVO) informiert werden, wenn die Daten nicht zur Kommunikation genutzt oder offengelegt werden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Innerhalb einer angemessenen Frist, längstens innerhalb eines Monats nach Erlangung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 14 Abs. 3 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Innerhalb von 72 Stunden",
+    "korrekt": false,
+    "erklaerung": "Falsch: 72 Stunden gelten für die Meldung von Datenpannen (Art. 33 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Innerhalb eines Jahres",
+    "korrekt": false,
+    "erklaerung": "Falsch: Höchstens ein Monat (Art. 14 Abs. 3 lit. a DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Gar nicht, Dritterhebung ist informationsfrei",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 14 DSGVO verpflichtet ausdrücklich zur Information."
+   }
+  ],
+  "normen": [
+   "Art. 14 DSGVO",
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ }
+]

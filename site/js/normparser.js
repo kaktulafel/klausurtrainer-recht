@@ -32,6 +32,7 @@ export function parseNormen(text, opts = {}) {
   let m;
   while ((m = START_RE.exec(text))) {
     const zeichen = m[1].startsWith('§') ? '§' : 'Art.';
+    const mehrfach = m[1] === '§§' || m[1] === 'Artt.';
     const startIdx = m.index;
     let pos = m.index + m[0].length;
     const items = [];
@@ -51,13 +52,15 @@ export function parseNormen(text, opts = {}) {
         continue;
       }
       // Qualifizierer
-      if ((t = /^\s*(?:Abs\.?|Absatz)\s*(\d+)/.exec(rest))) { cur.abs = +t[1]; pos += t[0].length; continue; }
-      if ((t = /^\s*(?:S\.|Satz)\s*(\d+)/.exec(rest))) { cur.satz = +t[1]; pos += t[0].length; continue; }
+      if ((t = /^\s*(?:Abs\.?|Absatz)\s*(\d+)/.exec(rest))) { cur.abs = +t[1]; cur._letzte = 'abs'; pos += t[0].length; continue; }
+      if ((t = /^\s*(?:S\.|Satz)\s*(\d+)/.exec(rest))) { cur.satz = +t[1]; cur._letzte = 'satz'; pos += t[0].length; continue; }
+      // "§ 168 S. 2, 3" bzw. "§ 119 Abs. 1, 2" (einfaches §): Fortsetzung von Satz/Absatz, kein neuer Paragraph
+      if (!mehrfach && cur._letzte && (t = /^\s*(?:,|und)\s*(\d)(?![\d.a-z])(?!\s*(?:Abs|Absatz|S\.|Satz))/.exec(rest))) { pos += t[0].length; continue; }
       if ((t = /^\s*(?:Nr\.?|Nummer)\s*(\d+)/.exec(rest))) { cur.nummer = +t[1]; pos += t[0].length; continue; }
       if ((t = /^\s*(?:Alt\.?|Alternative|Var\.?|Fall)\s*(\d+)/.exec(rest))) { cur.alt = +t[1]; pos += t[0].length; continue; }
       if ((t = /^,?\s*(\d+)\.\s*(?:Alt\.?|Alternative|Var\.?|Variante|Fall)(?![a-zäöü])/.exec(rest))) { cur.alt = +t[1]; pos += t[0].length; continue; }
       if ((t = /^\s*(?:lit\.?|Buchst\.?|Buchstabe)\s*([a-z])\)?(?![a-zäöü])/.exec(rest))) { cur.lit = t[1]; pos += t[0].length; continue; }
-      if ((t = /^\s*(?:Hs\.?|Halbsatz)\s*(\d+)/.exec(rest))) { pos += t[0].length; continue; }
+      if ((t = /^\s*(?:Hs\.?|Halbsatz|UAbs\.?|Unterabsatz)\s*(\d+)/.exec(rest))) { pos += t[0].length; continue; }
       if ((t = /^\s*(ff?\.)/.exec(rest))) { cur.ff = true; pos += t[0].length; continue; }
       if (cur.abs === undefined && (t = /^\s+(X|IX|VIII|VII|VI|V|IV|III|II|I)(?![A-Za-z0-9äöüÄÖÜ])/.exec(rest))) {
         cur.abs = ROEMISCH[t[1]]; pos += t[0].length; continue;
@@ -67,7 +70,7 @@ export function parseNormen(text, opts = {}) {
         cur.lit = t[1]; pos += t[0].length; continue;
       }
       // "§ 812 I 1" – nackte Zahl direkt nach römischem/arabischem Absatz = Satz
-      if (cur.abs !== undefined && cur.satz === undefined && (t = /^\s+(\d)(?![\d.,a-zA-Z])/.exec(rest))) {
+      if (cur.abs !== undefined && cur.satz === undefined && (t = /^\s+(\d)(?![\d.a-zA-Z])/.exec(rest))) {
         // nicht verwechseln mit "§§ 280 I 2, 276" – trotzdem Satz (übliche Schreibweise)
         cur.satz = +t[1]; pos += t[0].length; continue;
       }
@@ -95,7 +98,7 @@ export function parseNormen(text, opts = {}) {
     const raw = text.slice(startIdx, pos).trim();
     const fallback = zeichen === '§' ? (opts.defaultParagraph || 'BGB') : (opts.defaultArtikel || 'DSGVO');
     for (const it of items) {
-      delete it._closed;
+      delete it._closed; delete it._letzte;
       if (!it.gesetz) it.gesetz = fallback;
       it.raw = raw;
       it.index = startIdx;
@@ -165,3 +168,21 @@ function detailPasst(soll, ist) {
   }
   return true;
 }
+
+/** Vergleicht ein Nutzerzitat mit dem Soll (Paragraph + alle verlangten Details). */
+export function vergleicheZitat(soll, eingabe) {
+  const s = parseEine(soll);
+  const ist = parseNormen(eingabe, { defaultParagraph: s?.gesetz || 'BGB', defaultArtikel: s?.gesetz || 'DSGVO' });
+  if (!ist.length) return { art: 'falsch', text: 'Keine Norm erkannt.', ok: false };
+  const gleich = ist.find(n => registerId(n) === registerId(s));
+  if (!gleich) return { art: 'falsch', text: `Falsche Norm (du: ${formatNorm(ist[0])}).`, ok: false };
+  const felder = ['abs', 'satz', 'nummer', 'lit', 'alt'];
+  const fehlt = felder.filter(f => s[f] !== undefined && gleich[f] === undefined);
+  const falsch = felder.filter(f => s[f] !== undefined && gleich[f] !== undefined && gleich[f] !== s[f]);
+  const zuviel = felder.filter(f => s[f] === undefined && gleich[f] !== undefined);
+  if (falsch.length) return { art: 'falsch', text: `Richtige Norm, aber ${falsch.map(name).join(', ')} falsch (du: ${formatNorm(gleich)}).`, ok: false };
+  if (fehlt.length) return { art: 'teil', text: `Richtige Norm, aber ${fehlt.map(name).join(', ')} fehlt.`, ok: false };
+  if (zuviel.length) return { art: 'teil', text: `Richtig – deine Angabe (${formatNorm(gleich)}) ist genauer als verlangt; prüfe sie im Gesetz.`, ok: true };
+  return { art: 'ok', text: 'Exakt richtig zitiert.', ok: true };
+}
+function name(f) { return { abs: 'Absatz', satz: 'Satz', nummer: 'Nummer', lit: 'Buchstabe (lit.)', alt: 'Alternative' }[f]; }

@@ -1,0 +1,140 @@
+{
+  "id": "fall-02",
+  "titel": "Der Versprecher bei der Rollerauktion",
+  "kurz": "Bieter ruft 42.000 € statt 4.200 € – Vertragsschluss durch Zuschlag, Auslegung, Anfechtung wegen Erklärungsirrtums und Vertrauensschaden.",
+  "themen": ["anfechtung", "vertragsschluss", "willenserklaerung"],
+  "schwierigkeit": 2,
+  "minuten": 60,
+  "punkte": 48,
+  "sachverhalt": [
+    "Vera Stein (V) betreibt als Einzelunternehmerin ein Auktionshaus für Oldtimer und versteigert dort im eigenen Namen ihre eigenen Fahrzeuge. Bei der Versteigerung am 3. Mai wird ein restaurierter Motorroller aufgerufen, Schätzpreis 3.800 €. Es wird lebhaft in Schritten von 100 € geboten. Das letzte Gebot stammt von dem Bieter Xaver (X) über 4.000 €.",
+    "Karl Brehm (K) möchte 4.200 € bieten, verspricht sich aber und ruft laut und deutlich „42.000!“. V hält das für ein ernst gemeintes Sprunggebot, wie es bei begehrten Stücken immer wieder vorkommt, ruft „42.000 zum Ersten, zum Zweiten, zum Dritten“ und erteilt K den Zuschlag.",
+    "K bemerkt seinen Versprecher sofort und ruft noch im Saal: „Halt, ich habe mich versprochen, ich wollte 4.200 sagen – an die 42.000 bin ich nicht gebunden!“ X hat den Saal in diesem Moment bereits verlassen.",
+    "V verlangt von K die Zahlung von 42.000 €. K weigert sich. V lässt den Roller deshalb vier Wochen später erneut versteigern; dabei wird nur noch ein Erlös von 3.400 € erzielt. Für die erneute Versteigerung fallen bei V Kosten von 300 € an. Hätte V nicht auf das Gebot des K vertraut, hätte sie dem X den Zuschlag zu 4.000 € erteilt."
+  ],
+  "fallfragen": [
+    "1. Kann V von K Zahlung von 42.000 € verlangen?",
+    "2. Kann V von K jedenfalls Ersatz von 900 € (600 € Mindererlös und 300 € Kosten) verlangen?",
+    "Bearbeitungshinweis: Gutachtenstil; Gewährleistungsrecht ist nicht zu prüfen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch V gegen K auf 42.000 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "I. Anspruch entstanden: Kaufvertrag durch Gebot (Antrag) und Zuschlag (Annahme), § 156 S. 1 BGB; Inhalt des Gebots nach §§ 133, 157 BGB (objektiver Empfängerhorizont) = 42.000 €" },
+    { "ebene": 2, "text": "II. Anspruch erloschen? Anfechtung, § 142 Abs. 1 BGB" },
+    { "ebene": 3, "text": "1. Anfechtungsgrund: Erklärungsirrtum, § 119 Abs. 1 Alt. 2 BGB (Versprechen); Abgrenzung Inhaltsirrtum; Kausalität" },
+    { "ebene": 3, "text": "2. Anfechtungserklärung gegenüber V, § 143 Abs. 1, 2 BGB (Auslegung der Äußerung im Saal)" },
+    { "ebene": 3, "text": "3. Frist: unverzüglich, § 121 Abs. 1 S. 1 BGB (+)" },
+    { "ebene": 3, "text": "4. Kein Ausschluss, § 144 BGB; 5. Rechtsfolge: nichtig ex tunc" },
+    { "ebene": 2, "text": "III. Ergebnis: kein Anspruch" },
+    { "ebene": 1, "text": "B. Anspruch V gegen K auf 900 € aus § 122 Abs. 1 BGB" },
+    { "ebene": 2, "text": "I. Anfechtung nach § 119 BGB (+) – nicht § 123 BGB" },
+    { "ebene": 2, "text": "II. Vertrauensschaden (negatives Interesse): 600 € + 300 € = 900 €; Obergrenze Erfüllungsinteresse" },
+    { "ebene": 2, "text": "III. Kein Ausschluss nach § 122 Abs. 2 BGB (V musste den Irrtum nicht erkennen)" },
+    { "ebene": 2, "text": "IV. Ergebnis: 900 €" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch V gegen K auf Zahlung von 42.000 € aus § 433 Abs. 2 BGB",
+      "text": "V könnte gegen K einen Anspruch auf Zahlung von 42.000 € aus § 433 Abs. 2 BGB haben. Dann müsste zwischen V und K ein wirksamer Kaufvertrag über den Roller zu diesem Preis zustande gekommen sein und der Anspruch dürfte nicht untergegangen sein.\n\n**I. Anspruch entstanden: Vertragsschluss**\nEin Vertrag kommt durch zwei übereinstimmende Willenserklärungen, Antrag und Annahme, zustande (§§ 145 ff. BGB). Bei einer Versteigerung kommt der Vertrag erst durch den Zuschlag zustande (§ 156 S. 1 BGB); das Gebot ist der Antrag, der Zuschlag die Annahme.\nK hat ein Gebot abgegeben. Fraglich ist, mit welchem Inhalt. Willenserklärungen sind nach §§ 133, 157 BGB so auszulegen, wie der Empfänger sie nach Treu und Glauben mit Rücksicht auf die Verkehrssitte verstehen durfte (objektiver Empfängerhorizont). K rief laut und deutlich „42.000“. Zwar wurde in Schritten von 100 € geboten; Sprunggebote kommen bei begehrten Stücken aber vor, und V hielt das Gebot tatsächlich für ernst gemeint. Für eine verständige Auktionatorin war nicht erkennbar, dass K in Wahrheit 4.200 € meinte. Das Gebot lautet daher auf 42.000 €.\nDurch den Zuschlag hat V dieses Gebot angenommen. Ein Kaufvertrag über den Roller zum Preis von 42.000 € ist zustande gekommen; der Anspruch ist entstanden.\n\n**II. Anspruch untergegangen: Anfechtung, § 142 Abs. 1 BGB**\nDer Anspruch könnte jedoch untergegangen sein, wenn K sein Gebot wirksam angefochten hat. Ein angefochtenes Rechtsgeschäft ist als von Anfang an nichtig anzusehen (§ 142 Abs. 1 BGB). Dies setzt einen Anfechtungsgrund, eine Anfechtungserklärung gegenüber dem richtigen Gegner, die Wahrung der Anfechtungsfrist und das Fehlen eines Ausschlusses voraus.\n1. Anfechtungsgrund: In Betracht kommt ein Erklärungsirrtum nach § 119 Abs. 1 Alt. 2 BGB. Ein Erklärungsirrtum liegt vor, wenn der Erklärende eine Erklärung dieses Inhalts überhaupt nicht abgeben wollte, also schon das äußere Erklärungszeichen fehlgeht – typischerweise beim Versprechen, Verschreiben oder Vertippen. Davon zu unterscheiden ist der Inhaltsirrtum (§ 119 Abs. 1 Alt. 1 BGB), bei dem der Erklärende zwar sagt, was er sagen will, sich aber über dessen Bedeutung irrt. K wollte „4.200“ sagen und hat sich versprochen; er wollte die Erklärung „42.000“ gar nicht abgeben. Es liegt ein Erklärungsirrtum vor.\nDer Irrtum muss für die Erklärung ursächlich gewesen sein, und K darf die Erklärung bei Kenntnis der Sachlage und verständiger Würdigung des Falles nicht abgegeben haben (§ 119 Abs. 1 a. E. BGB). Niemand würde für einen Roller mit einem Schätzpreis von 3.800 € verständigerweise 42.000 € bieten. Der Irrtum war subjektiv und objektiv erheblich. Ein Anfechtungsgrund liegt vor.\n2. Anfechtungserklärung: Die Anfechtung erfolgt durch Erklärung gegenüber dem Anfechtungsgegner, bei einem Vertrag gegenüber dem anderen Teil (§ 143 Abs. 1, Abs. 2 BGB). Das Wort „anfechten“ muss nicht fallen; es genügt, dass der Erklärende eindeutig zu erkennen gibt, das Geschäft wegen des Willensmangels nicht gelten lassen zu wollen (Auslegung nach § 133 BGB). K rief V noch im Saal zu, er habe sich versprochen und sei an die 42.000 € nicht gebunden. Damit hat er gegenüber V als Vertragspartnerin wirksam die Anfechtung erklärt.\n3. Anfechtungsfrist: Die Anfechtung wegen Irrtums muss unverzüglich, das heißt ohne schuldhaftes Zögern, nach Kenntnis des Anfechtungsgrundes erfolgen (§ 121 Abs. 1 S. 1 BGB). K erklärte die Anfechtung sofort, nachdem er den Versprecher bemerkte. Die Frist ist gewahrt.\n4. Kein Ausschluss: K hat das Geschäft nicht bestätigt (§ 144 Abs. 1 BGB).\n5. Rechtsfolge: Das Gebot des K und damit der Kaufvertrag sind von Anfang an nichtig (§ 142 Abs. 1 BGB). Der Anspruch ist untergegangen.\n\n**III. Ergebnis zu A:** V kann von K nicht Zahlung von 42.000 € aus § 433 Abs. 2 BGB verlangen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch V gegen K auf Ersatz von 900 € aus § 122 Abs. 1 BGB",
+      "text": "V könnte gegen K einen Anspruch auf Ersatz von 900 € aus § 122 Abs. 1 BGB haben.\n\n**I. Anfechtung nach § 119 BGB**\n§ 122 Abs. 1 BGB setzt voraus, dass eine Willenserklärung nach § 118 BGB nichtig oder auf Grund der §§ 119, 120 BGB angefochten ist; bei einer Anfechtung wegen Täuschung oder Drohung (§ 123 BGB) haftet der Anfechtende nicht. K hat sein Gebot wegen Erklärungsirrtums nach § 119 Abs. 1 Alt. 2 BGB wirksam angefochten (siehe A. II.). Die Voraussetzung liegt vor; V ist als Empfängerin der Erklärung „der andere“ im Sinne der Norm.\n\n**II. Ersatzfähiger Schaden: Vertrauensschaden**\nZu ersetzen ist der Schaden, den V dadurch erleidet, dass sie auf die Gültigkeit der Erklärung vertraut hat (Vertrauensschaden, negatives Interesse). V ist so zu stellen, wie sie stünde, wenn sie nie auf das Gebot vertraut hätte (§ 249 Abs. 1 BGB, Differenzhypothese). Dann hätte sie dem X den Zuschlag zu 4.000 € erteilt. Tatsächlich hat sie nur 3.400 € erlöst; der Mindererlös beträgt 600 €. Hinzu kommen die Kosten der erneuten Versteigerung von 300 €, die ohne das Vertrauen ebenfalls nicht angefallen wären. Der Vertrauensschaden beträgt 900 €.\nDer Ersatz ist der Höhe nach auf das Erfüllungsinteresse begrenzt, also auf das, was V bei Wirksamkeit des Vertrags gehabt hätte (§ 122 Abs. 1 a. E. BGB). Bei Wirksamkeit hätte V 42.000 € erhalten; die Grenze wird nicht erreicht.\n\n**III. Kein Ausschluss nach § 122 Abs. 2 BGB**\nDie Ersatzpflicht entfällt, wenn der Geschädigte den Grund der Anfechtbarkeit kannte oder infolge von Fahrlässigkeit nicht kannte (kennen musste). V hielt das Gebot für ein ernst gemeintes Sprunggebot. Da Sprunggebote bei begehrten Stücken vorkommen und K laut und deutlich bot, musste V den Versprecher nicht erkennen. Ein Ausschluss liegt nicht vor.\n\n**IV. Ergebnis zu B:** V kann von K Ersatz von 900 € aus § 122 Abs. 1 BGB verlangen."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz V gegen K auf 42.000 € aus § 433 Abs. 2 BGB", "punkte": 1 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Vertragsschluss bei Versteigerung: Gebot = Antrag, Zuschlag = Annahme (§ 156 S. 1 BGB)", "punkte": 2 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Auslegung nach §§ 133, 157 BGB (objektiver Empfängerhorizont): Gebot über 42.000 €", "punkte": 2 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Anfechtung richtig eingeordnet: Anspruch untergegangen, Rechtsfolge § 142 Abs. 1 BGB", "punkte": 1 },
+    { "id": "a5", "abschnitt": "A", "kriterium": "Erklärungsirrtum § 119 Abs. 1 Alt. 2 BGB definiert, subsumiert und vom Inhaltsirrtum abgegrenzt", "punkte": 4 },
+    { "id": "a6", "abschnitt": "A", "kriterium": "Ursächlichkeit und Erheblichkeit des Irrtums (verständige Würdigung)", "punkte": 1 },
+    { "id": "a7", "abschnitt": "A", "kriterium": "Anfechtungserklärung durch Auslegung, Gegner V (§ 143 Abs. 1, 2 BGB)", "punkte": 2 },
+    { "id": "a8", "abschnitt": "A", "kriterium": "Frist: unverzüglich, § 121 Abs. 1 S. 1 BGB", "punkte": 2 },
+    { "id": "a9", "abschnitt": "A", "kriterium": "Kein Ausschluss, § 144 BGB", "punkte": 1 },
+    { "id": "a10", "abschnitt": "A", "kriterium": "Rechtsfolge ex tunc und Ergebnis zu A", "punkte": 2 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz V gegen K auf 900 € aus § 122 Abs. 1 BGB", "punkte": 1 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Voraussetzung: Anfechtung nach § 119 BGB (nicht § 123 BGB)", "punkte": 2 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Vertrauensschaden / negatives Interesse definiert", "punkte": 2 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "Berechnung nach der Differenzhypothese: 600 € + 300 € = 900 €", "punkte": 3 },
+    { "id": "b5", "abschnitt": "B", "kriterium": "Obergrenze Erfüllungsinteresse geprüft", "punkte": 1 },
+    { "id": "b6", "abschnitt": "B", "kriterium": "Kein Ausschluss nach § 122 Abs. 2 BGB (kein Kennenmüssen)", "punkte": 2 },
+    { "id": "b7", "abschnitt": "B", "kriterium": "Ergebnis zu B", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze vollständig im Konjunktiv (wer, was, von wem, woraus)", "punkte": 4 },
+    { "id": "g2", "kriterium": "Definitionen vor der Subsumtion (Erklärungsirrtum, Vertrauensschaden, unverzüglich …)", "punkte": 4 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt (Schätzpreis, Bietschritte, sofortige Reaktion)", "punkte": 4 },
+    { "id": "g4", "kriterium": "Zwischenergebnisse und Ergebnissätze", "punkte": 3 },
+    { "id": "g5", "kriterium": "Aufbau (entstanden – untergegangen) und Schwerpunktsetzung bei Auslegung und Anfechtung", "punkte": 3 }
+  ],
+  "erwarteteNormen": ["§ 433 Abs. 2 BGB", "§ 156 BGB", "§ 133 BGB", "§ 157 BGB", "§ 142 Abs. 1 BGB", "§ 119 Abs. 1 BGB", "§ 143 Abs. 1 BGB", "§ 121 Abs. 1 BGB", "§ 144 BGB", "§ 122 Abs. 1 BGB", "§ 122 Abs. 2 BGB", "§ 249 BGB"],
+  "schluesselbegriffe": ["Zuschlag", "objektiver Empfängerhorizont|Empfängerhorizont", "Erklärungsirrtum", "Inhaltsirrtum", "unverzüglich", "ex tunc|von Anfang an", "Vertrauensschaden|negatives Interesse", "Erfüllungsinteresse", "kennen musste|Kennenmüssen"],
+  "typischeFehler": [
+    "Den Vertrag schon mit dem Gebot statt erst mit dem Zuschlag schließen (§ 156 S. 1 BGB).",
+    "Auslegung überspringen und direkt anfechten – oder umgekehrt per Auslegung 4.200 € annehmen, obwohl der Versprecher für V nicht erkennbar war.",
+    "Erklärungsirrtum (Versprechen) und Inhaltsirrtum (Bedeutungsirrtum) verwechseln.",
+    "Die Äußerung „Ich habe mich versprochen“ nicht als Anfechtungserklärung auslegen oder die Frist vergessen.",
+    "Bei § 122 BGB das positive statt des negativen Interesses ersetzen (z. B. 42.000 € abzüglich Wert).",
+    "§ 122 Abs. 2 BGB nicht prüfen."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung 1: K bemerkt den Versprecher sofort, unternimmt aber zunächst nichts und erklärt erst drei Wochen später per E-Mail die Anfechtung.",
+      "kurzloesung": "Die Anfechtung ist nicht mehr unverzüglich (§ 121 Abs. 1 S. 1 BGB): K hat ohne Grund drei Wochen gewartet – schuldhaftes Zögern. Die Anfechtung ist verfristet; der Kaufvertrag über 42.000 € bleibt wirksam, V hat den Anspruch aus § 433 Abs. 2 BGB."
+    },
+    {
+      "frage": "Abwandlung 2: Bei der Versteigerung bieten bislang alle in 100-€-Schritten, der Roller hat einen Schätzpreis von 800 €, und K ruft „Eine Million!“ in die Runde, worauf alle lachen. V erteilt dennoch den Zuschlag.",
+      "kurzloesung": "Auslegung (§§ 133, 157 BGB): Für eine verständige Empfängerin ist offensichtlich, dass es an einem ernstlichen Rechtsbindungswillen fehlt. Jedenfalls ist eine nicht ernstlich gemeinte Erklärung, die in der Erwartung abgegeben wird, der Mangel der Ernstlichkeit werde nicht verkannt, nach § 118 BGB nichtig. Ein Ersatzanspruch aus § 122 Abs. 1 BGB scheitert an § 122 Abs. 2 BGB, weil V die Nichternstlichkeit kennen musste."
+    },
+    {
+      "frage": "Abwandlung 3: K wollte „42.000“ rufen, weil er glaubte, es werde in Tschechischen Kronen geboten. Anfechtbar?",
+      "kurzloesung": "K hat erklärt, was er erklären wollte, sich aber über die Bedeutung (Währung) geirrt: Inhaltsirrtum nach § 119 Abs. 1 Alt. 1 BGB – ebenfalls anfechtbar, Frist § 121 BGB, Ersatzpflicht nach § 122 Abs. 1 BGB."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "Wer will was von wem woraus? Wähle die Prüfungen, die die Fallfragen verlangen.",
+    "anspruchsgrundlagen": [
+      { "text": "V gegen K auf 42.000 € aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – Kaufpreisanspruch aus dem durch Zuschlag geschlossenen Vertrag." },
+      { "text": "V gegen K auf 900 € aus § 122 Abs. 1 BGB", "richtig": true, "feedback": "Richtig – Vertrauensschaden nach Irrtumsanfechtung (Fallfrage 2)." },
+      { "text": "V gegen K aus § 123 BGB", "richtig": false, "feedback": "Falsch – § 123 BGB ist ein Anfechtungsgrund (Täuschung/Drohung), keine Anspruchsgrundlage; hier liegt keine Täuschung vor." },
+      { "text": "K gegen V auf Übereignung des Rollers für 4.200 € aus § 433 Abs. 1 BGB", "richtig": false, "feedback": "Falsch – ein Vertrag über 4.200 € kam nie zustande; gefragt sind die Ansprüche der V." },
+      { "text": "V gegen K auf 42.000 € aus § 179 BGB", "richtig": false, "feedback": "Falsch – K handelte im eigenen Namen, nicht als Vertreter." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Prüfung B.",
+    "obersatzMuster": "V könnte gegen K einen Anspruch auf Ersatz von 900 € aus § 122 Abs. 1 BGB haben.",
+    "reihenfolgeTitel": "Bringe die Prüfungspunkte von Prüfung A in die richtige Reihenfolge.",
+    "reihenfolge": [
+      "Vertragsschluss durch Gebot und Zuschlag (§ 156 S. 1 BGB)",
+      "Auslegung des Gebots (§§ 133, 157 BGB)",
+      "Anfechtungsgrund: Erklärungsirrtum (§ 119 Abs. 1 Alt. 2 BGB)",
+      "Anfechtungserklärung gegenüber V (§ 143 BGB)",
+      "Anfechtungsfrist (§ 121 BGB)",
+      "Rechtsfolge: Nichtigkeit von Anfang an (§ 142 Abs. 1 BGB)"
+    ],
+    "punkte": [
+      {
+        "titel": "Auslegung des Gebots",
+        "aufgabe": "Mit welchem Inhalt hat K geboten? Definiere den Maßstab und subsumiere.",
+        "tipps": ["Norm: §§ 133, 157 BGB", "Schema: Maßstab objektiver Empfängerhorizont → was durfte V verstehen? → Ergebnis", "Mustersatz: „Willenserklärungen sind so auszulegen, wie der Empfänger sie nach Treu und Glauben … verstehen durfte. K rief laut und deutlich …“"],
+        "muster": "Willenserklärungen sind nach §§ 133, 157 BGB so auszulegen, wie der Empfänger sie nach Treu und Glauben mit Rücksicht auf die Verkehrssitte verstehen durfte. K rief laut und deutlich „42.000“. Sprunggebote kommen bei begehrten Stücken vor; ein Versprecher war für V nicht erkennbar. Das Gebot lautet daher auf 42.000 €."
+      },
+      {
+        "titel": "Erklärungsirrtum",
+        "aufgabe": "Definiere den Erklärungsirrtum, grenze ihn vom Inhaltsirrtum ab und subsumiere.",
+        "tipps": ["Norm: § 119 Abs. 1 Alt. 2 BGB", "Schema: Definition → Abgrenzung Alt. 1 → Subsumtion → Erheblichkeit", "Mustersatz: „Ein Erklärungsirrtum liegt vor, wenn der Erklärende eine Erklärung dieses Inhalts überhaupt nicht abgeben wollte …“"],
+        "muster": "Ein Erklärungsirrtum liegt vor, wenn der Erklärende eine Erklärung dieses Inhalts überhaupt nicht abgeben wollte (Versprechen, Verschreiben). Beim Inhaltsirrtum sagt er dagegen, was er sagen will, irrt aber über die Bedeutung. K wollte „4.200“ sagen und versprach sich. Bei verständiger Würdigung hätte niemand 42.000 € für einen Roller mit Schätzpreis 3.800 € geboten. Ein Erklärungsirrtum nach § 119 Abs. 1 Alt. 2 BGB liegt vor."
+      },
+      {
+        "titel": "Vertrauensschaden",
+        "aufgabe": "Berechne den ersatzfähigen Schaden der V nach § 122 Abs. 1 BGB.",
+        "tipps": ["Norm: § 122 Abs. 1 BGB i. V. m. § 249 Abs. 1 BGB", "Schema: Wie stünde V, wenn sie nie auf das Gebot vertraut hätte? → Differenz → Obergrenze Erfüllungsinteresse", "Mustersatz: „Zu ersetzen ist das negative Interesse. Ohne ihr Vertrauen hätte V dem X den Zuschlag zu 4.000 € erteilt …“"],
+        "muster": "Zu ersetzen ist das negative Interesse: V ist so zu stellen, als hätte sie nie auf das Gebot vertraut. Dann hätte sie dem X den Zuschlag zu 4.000 € erteilt; tatsächlich erlöste sie nur 3.400 €. Mindererlös 600 € zuzüglich 300 € Kosten der erneuten Versteigerung ergeben 900 €. Das Erfüllungsinteresse (42.000 €) wird nicht überschritten."
+      }
+    ]
+  },
+  "quelle": "neu",
+  "geprueft": false
+}

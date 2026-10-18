@@ -1,0 +1,875 @@
+[
+ {
+  "id": "nk-001",
+  "thema": "anspruchsaufbau",
+  "problem": "Anspruch erlischt, weil die geschuldete Leistung bewirkt wurde (Erfüllung)",
+  "norm": "§ 362 Abs. 1 BGB",
+  "erklaerung": "Erfüllung bringt das Schuldverhältnis zum Erlöschen. (Achtung: Folie nennt fälschlich § 346.)",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-002",
+  "thema": "anspruchsaufbau",
+  "problem": "Gegenseitige Forderungen werden verrechnet (Aufrechnung) – Wirkung",
+  "norm": "§ 389 BGB",
+  "erklaerung": "Die Forderungen erlöschen, soweit sie sich decken. Erklärung der Aufrechnung: § 388 BGB.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-003",
+  "thema": "anspruchsaufbau",
+  "problem": "Einrede: Anspruch ist verjährt – Schuldner darf verweigern",
+  "norm": "§ 214 Abs. 1 BGB",
+  "erklaerung": "Verjährung ist eine Einrede: Der Schuldner muss sich darauf berufen. Regelfrist 3 Jahre (§ 195 BGB).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-004",
+  "thema": "anspruchsaufbau",
+  "problem": "Einrede des nicht erfüllten Vertrags (Zug um Zug)",
+  "norm": "§ 320 Abs. 1 BGB",
+  "erklaerung": "Beim gegenseitigen Vertrag kann jede Seite ihre Leistung bis zur Bewirkung der Gegenleistung verweigern – es sei denn, sie ist vorleistungspflichtig.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-005",
+  "thema": "anspruchsaufbau",
+  "problem": "Gläubiger verzichtet vertraglich auf die Forderung (Erlass)",
+  "norm": "§ 397 Abs. 1 BGB",
+  "erklaerung": "Erlassvertrag lässt das Schuldverhältnis erlöschen. (Folie nennt fälschlich § 389.)",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-006",
+  "thema": "willenserklaerung",
+  "problem": "Auslegung einer Willenserklärung: wirklicher Wille statt buchstäblicher Ausdruck",
+  "norm": "§ 133 BGB",
+  "erklaerung": "Zusammen mit § 157 BGB: Auslegung nach dem objektiven Empfängerhorizont.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-007",
+  "thema": "willenserklaerung",
+  "problem": "Auslegung von Verträgen nach Treu und Glauben und Verkehrssitte",
+  "norm": "§ 157 BGB",
+  "erklaerung": "Maßstab: Wie durfte ein verständiger Empfänger die Erklärung verstehen?",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-008",
+  "thema": "willenserklaerung",
+  "problem": "Nicht ernst gemeinte Erklärung in der Erwartung, man durchschaut den Scherz",
+  "norm": "§ 118 BGB",
+  "erklaerung": "Scherzerklärung ist nichtig; Ersatz des Vertrauensschadens nach § 122 BGB.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-009",
+  "thema": "willenserklaerung",
+  "problem": "Geheimer Vorbehalt – man will das Erklärte insgeheim nicht",
+  "norm": "§ 116 S. 1 BGB",
+  "erklaerung": "Unbeachtlich; Erklärung gilt. Nichtig nur, wenn der Empfänger den Vorbehalt kennt (S. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-010",
+  "thema": "willenserklaerung",
+  "problem": "Beide Seiten wollen das Geschäft nur zum Schein (z. B. niedrigerer Preis im Vertrag)",
+  "norm": "§ 117 Abs. 1 BGB",
+  "erklaerung": "Scheingeschäft nichtig; das verdeckte Geschäft gilt nach seinen Regeln (Abs. 2).",
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "nk-011",
+  "thema": "zugang",
+  "problem": "Wirksamwerden einer Erklärung unter Abwesenden (Brief, E-Mail)",
+  "norm": "§ 130 Abs. 1 S. 1 BGB",
+  "erklaerung": "Mit Zugang: Machtbereich + Möglichkeit der Kenntnisnahme unter gewöhnlichen Umständen.",
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "nk-012",
+  "thema": "zugang",
+  "problem": "Widerruf einer Willenserklärung, der spätestens gleichzeitig mit ihr zugeht",
+  "norm": "§ 130 Abs. 1 S. 2 BGB",
+  "erklaerung": "Die ursprüngliche Erklärung wird nicht wirksam.",
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "nk-013",
+  "thema": "zugang",
+  "problem": "Annahme eines Angebots unter Anwesenden bzw. am Telefon",
+  "norm": "§ 147 Abs. 1 BGB",
+  "erklaerung": "Nur sofort annehmbar; Telefon gilt als unter Anwesenden (S. 2).",
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "nk-014",
+  "thema": "zugang",
+  "problem": "Empfänger vereitelt den Zugang arglistig (z. B. verweigert grundlos die Annahme)",
+  "norm": "§ 242 BGB",
+  "erklaerung": "Treu und Glauben (Rechtsgedanke des § 162 BGB, Folie: „§ 162 I analog“): Bei arglistiger Vereitelung gilt die Erklärung als zugegangen; sonst muss der Absender unverzüglich einen neuen Zustellversuch unternehmen.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-015",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Taschengeldparagraph",
+  "norm": "§ 110 BGB",
+  "erklaerung": "Vertrag wirksam, wenn der Minderjährige die Leistung mit überlassenen Mitteln vollständig bewirkt (Raten: erst mit der letzten Rate).",
+  "quelle": "material:faelle-3",
+  "geprueft": true
+ },
+ {
+  "id": "nk-016",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Wer ist geschäftsunfähig?",
+  "norm": "§ 104 BGB",
+  "erklaerung": "Kinder unter 7 (Nr. 1) und dauerhaft krankhaft Geistesgestörte (Nr. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-017",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Rechtsfolge der Willenserklärung eines Geschäftsunfähigen",
+  "norm": "§ 105 Abs. 1 BGB",
+  "erklaerung": "Nichtig – auch eine Genehmigung hilft nicht.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-018",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Minderjähriger erhält ein Geschenk ohne Gegenleistung (lediglich rechtlicher Vorteil)",
+  "norm": "§ 107 BGB",
+  "erklaerung": "Keine Einwilligung nötig, wenn das Geschäft lediglich rechtlich vorteilhaft ist (Übereignung an den Minderjährigen).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-019",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Vertrag eines 15-Jährigen ohne Einwilligung – Schwebezustand und Genehmigung",
+  "norm": "§ 108 Abs. 1 BGB",
+  "erklaerung": "Schwebend unwirksam; Genehmigung der Eltern macht ihn rückwirkend wirksam (§ 184 Abs. 1 BGB).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-020",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Händler fordert die Eltern zur Genehmigung auf – Frist",
+  "norm": "§ 108 Abs. 2 BGB",
+  "erklaerung": "Genehmigung nur bis zum Ablauf von zwei Wochen; sonst gilt sie als verweigert.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-021",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Vertragspartner kannte die Minderjährigkeit – darf er vor der Genehmigung widerrufen?",
+  "norm": "§ 109 Abs. 2 BGB",
+  "erklaerung": "Grundsätzlich Widerruf bis zur Genehmigung (§ 109 Abs. 1 BGB); kannte er die Minderjährigkeit, nur wenn der Minderjährige wahrheitswidrig die Einwilligung behauptet hat – und auch dann nicht, wenn ihm das Fehlen der Einwilligung bekannt war.",
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "nk-022",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "17-Jähriger mit Erlaubnis zu einem Arbeitsverhältnis (kein Ausbildungsverhältnis) kündigt selbst",
+  "norm": "§ 113 Abs. 1 BGB",
+  "erklaerung": "Für Geschäfte des Dienst-/Arbeitsverhältnisses unbeschränkt geschäftsfähig; nach h. M. nicht auf Berufsausbildungsverhältnisse anwendbar.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-023",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Berechnung des Lebensalters: Wann wird man 7 (oder 18)?",
+  "norm": "§ 187 Abs. 2 S. 2 BGB",
+  "erklaerung": "Der Geburtstag wird mitgerechnet – mit Beginn des Geburtstags ist das Lebensjahr vollendet.",
+  "quelle": "material:faelle-3",
+  "geprueft": true
+ },
+ {
+  "id": "nk-024",
+  "thema": "geschaeftsfaehigkeit",
+  "problem": "Eltern als gesetzliche Vertreter des Kindes",
+  "norm": "§ 1629 Abs. 1 BGB",
+  "erklaerung": "Gemeinschaftliche Vertretung durch beide Eltern.",
+  "quelle": "material:faelle-3",
+  "geprueft": true
+ },
+ {
+  "id": "nk-025",
+  "thema": "vertragsschluss",
+  "problem": "Bindung an ein abgegebenes Angebot (Antrag)",
+  "norm": "§ 145 BGB",
+  "erklaerung": "Wer einen Antrag macht, ist daran gebunden – außer die Bindung ist ausgeschlossen.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-026",
+  "thema": "vertragsschluss",
+  "problem": "Verspätete oder geänderte Annahme",
+  "norm": "§ 150 BGB",
+  "erklaerung": "Gilt als neuer Antrag (Abs. 1 verspätet, Abs. 2 mit Änderungen).",
+  "quelle": "material:faelle-5",
+  "geprueft": true
+ },
+ {
+  "id": "nk-027",
+  "thema": "vertragsschluss",
+  "problem": "Vertragsschluss bei einer Versteigerung",
+  "norm": "§ 156 S. 1 BGB",
+  "erklaerung": "Gebot = Antrag; Vertrag kommt erst durch den Zuschlag zustande.",
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "nk-028",
+  "thema": "vertragsschluss",
+  "problem": "Gebot erlischt bei Versteigerung durch ein höheres Gebot",
+  "norm": "§ 156 S. 2 BGB",
+  "erklaerung": "Übergebot oder Schluss ohne Zuschlag lässt das Gebot erlöschen.",
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "nk-029",
+  "thema": "vertragsschluss",
+  "problem": "Unternehmer schickt Verbraucher unbestellt Ware",
+  "norm": "§ 241a Abs. 1 BGB",
+  "erklaerung": "Kein Anspruch gegen den Verbraucher – auch nicht bei Nutzung oder Verbrauch.",
+  "quelle": "material:faelle-5",
+  "geprueft": true
+ },
+ {
+  "id": "nk-030",
+  "thema": "vertragsschluss",
+  "problem": "Annahme ohne Erklärung gegenüber dem Antragenden (z. B. Hotelbuchung, Zusendung)",
+  "norm": "§ 151 S. 1 BGB",
+  "erklaerung": "Zugang der Annahme entbehrlich, wenn verkehrsüblich oder darauf verzichtet; Annahme selbst ist nötig.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-031",
+  "thema": "vertragsschluss",
+  "problem": "Parteien verstehen einen mehrdeutigen Begriff unterschiedlich, ohne es zu merken (versteckter Dissens)",
+  "norm": "§ 155 BGB",
+  "erklaerung": "Vertrag gilt hinsichtlich des Vereinbarten, wenn anzunehmen ist, dass er auch ohne den offenen Punkt geschlossen worden wäre (Auslegung §§ 133, 157 BGB). In der Vorlesung auch bei kollidierenden Gerichtsstandsklauseln herangezogen.",
+  "quelle": "material:faelle-5",
+  "geprueft": true
+ },
+ {
+  "id": "nk-032",
+  "thema": "vertragsschluss",
+  "problem": "Einbeziehung Allgemeiner Geschäftsbedingungen",
+  "norm": "§ 305 Abs. 2 BGB",
+  "erklaerung": "Ausdrücklicher Hinweis, zumutbare Möglichkeit der Kenntnisnahme, Einverständnis.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-033",
+  "thema": "vertragsschluss",
+  "problem": "AGB-Klausel benachteiligt den Vertragspartner unangemessen",
+  "norm": "§ 307 Abs. 1 BGB",
+  "erklaerung": "Unwirksam – auch bei Intransparenz (S. 2); Vertrag bleibt im Übrigen wirksam (§ 306 BGB).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-034",
+  "thema": "unwirksamkeit",
+  "problem": "Rechtsfolge eines Formmangels",
+  "norm": "§ 125 S. 1 BGB",
+  "erklaerung": "Nichtigkeit bei Verstoß gegen gesetzliche Form; bei vereinbarter Form im Zweifel (S. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-035",
+  "thema": "unwirksamkeit",
+  "problem": "Was bedeutet „Schriftform“?",
+  "norm": "§ 126 Abs. 1 BGB",
+  "erklaerung": "Eigenhändige Namensunterschrift auf der Urkunde (Fax/E-Mail genügen nicht).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-036",
+  "thema": "unwirksamkeit",
+  "problem": "Grundstückskaufvertrag ohne Notar",
+  "norm": "§ 311b Abs. 1 BGB",
+  "erklaerung": "Beurkundungspflicht; Heilung durch Auflassung und Eintragung (S. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-037",
+  "thema": "unwirksamkeit",
+  "problem": "Vertrag verstößt gegen ein gesetzliches Verbot (z. B. Schwarzarbeit, verbotener Verkauf)",
+  "norm": "§ 134 BGB",
+  "erklaerung": "Nichtig, wenn sich aus dem Gesetz nichts anderes ergibt.",
+  "quelle": "material:faelle-4",
+  "geprueft": true
+ },
+ {
+  "id": "nk-038",
+  "thema": "unwirksamkeit",
+  "problem": "Wucher: Ausnutzen einer Zwangslage bei auffälligem Missverhältnis",
+  "norm": "§ 138 Abs. 2 BGB",
+  "erklaerung": "Nichtig bei auffälligem Missverhältnis + Ausbeutung von Zwangslage, Unerfahrenheit, Mangel an Urteilsvermögen oder erheblicher Willensschwäche (vor § 138 Abs. 1 BGB prüfen). Ab etwa doppeltem Wert („besonders grobes Missverhältnis“) wird beim wucherähnlichen Geschäft nach § 138 Abs. 1 BGB verwerfliche Gesinnung vermutet.",
+  "quelle": "material:faelle-4",
+  "geprueft": true
+ },
+ {
+  "id": "nk-039",
+  "thema": "unwirksamkeit",
+  "problem": "Schenkungsversprechen nur mündlich",
+  "norm": "§ 518 Abs. 1 BGB",
+  "erklaerung": "Notarielle Beurkundung nötig; Heilung durch Bewirken der Leistung (Abs. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-040",
+  "thema": "abstraktionsprinzip",
+  "problem": "Übereignung einer beweglichen Sache (Verfügungsgeschäft)",
+  "norm": "§ 929 S. 1 BGB",
+  "erklaerung": "Einigung und Übergabe – unabhängig vom Kaufvertrag (Abstraktionsprinzip).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-041",
+  "thema": "abstraktionsprinzip",
+  "problem": "Kaufvertrag als Verpflichtungsgeschäft: Pflichten des Verkäufers",
+  "norm": "§ 433 Abs. 1 BGB",
+  "erklaerung": "Übergabe und Verschaffung des Eigentums – erfüllt durch § 929 BGB.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-042",
+  "thema": "stellvertretung",
+  "problem": "Voraussetzungen der Stellvertretung",
+  "norm": "§ 164 Abs. 1 BGB",
+  "erklaerung": "Eigene Willenserklärung, im fremden Namen, mit Vertretungsmacht.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-043",
+  "thema": "stellvertretung",
+  "problem": "Vertreter handelt nicht erkennbar im fremden Namen",
+  "norm": "§ 164 Abs. 2 BGB",
+  "erklaerung": "Er wird selbst Vertragspartner; Irrtum darüber ist nicht anfechtbar.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-044",
+  "thema": "stellvertretung",
+  "problem": "Legaldefinition der Vollmacht",
+  "norm": "§ 166 Abs. 2 S. 1 BGB",
+  "erklaerung": "Durch Rechtsgeschäft erteilte Vertretungsmacht.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-045",
+  "thema": "stellvertretung",
+  "problem": "Erteilung der Vollmacht gegenüber dem Vertreter (Innenvollmacht)",
+  "norm": "§ 167 Abs. 1 Alt. 1 BGB",
+  "erklaerung": "Erklärung gegenüber dem zu Bevollmächtigenden; Alt. 2: gegenüber dem Dritten (Außenvollmacht).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-046",
+  "thema": "stellvertretung",
+  "problem": "Kenntnis/Willensmängel beim Vertretergeschäft: auf wen kommt es an?",
+  "norm": "§ 166 Abs. 1 BGB",
+  "erklaerung": "Auf den Vertreter – nicht auf den Vertretenen. Betrifft das Vertretergeschäft, nicht die Vollmachtserteilung!",
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "nk-047",
+  "thema": "stellvertretung",
+  "problem": "Vollmacht erlischt mit dem zugrunde liegenden Rechtsverhältnis (z. B. Kündigung des Arbeitsvertrags)",
+  "norm": "§ 168 S. 1 BGB",
+  "erklaerung": "Erlöschen nach dem Grundverhältnis; Widerruf nach S. 2, 3.",
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "nk-048",
+  "thema": "stellvertretung",
+  "problem": "Außenvollmacht wurde intern widerrufen, dem Dritten aber nicht mitgeteilt",
+  "norm": "§ 170 BGB",
+  "erklaerung": "Bleibt dem Dritten gegenüber in Kraft, bis ihm das Erlöschen angezeigt wird (Grenze: § 173 BGB).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-049",
+  "thema": "stellvertretung",
+  "problem": "Vertreter schließt im Namen des Vertretenen ein Geschäft mit sich selbst",
+  "norm": "§ 181 BGB",
+  "erklaerung": "Insichgeschäft verboten, außer gestattet oder reine Erfüllung einer Verbindlichkeit.",
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "nk-050",
+  "thema": "stellvertretung",
+  "problem": "Minderjähriger als Vertreter",
+  "norm": "§ 165 BGB",
+  "erklaerung": "Wirksam – die Folgen treffen nur den Vertretenen. Haftung nach § 179 Abs. 3 S. 2 BGB eingeschränkt.",
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "nk-051",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "problem": "Vertrag eines Vertreters ohne Vertretungsmacht – Wirksamkeit gegenüber dem Vertretenen",
+  "norm": "§ 177 Abs. 1 BGB",
+  "erklaerung": "Schwebend unwirksam bis zur Genehmigung des Vertretenen.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-052",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "problem": "Haftung des bösgläubigen Vertreters ohne Vertretungsmacht",
+  "norm": "§ 179 Abs. 1 BGB",
+  "erklaerung": "Nach Wahl des Gegners Erfüllung oder Schadensersatz (positives Interesse).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-053",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "problem": "Haftung des gutgläubigen Vertreters ohne Vertretungsmacht",
+  "norm": "§ 179 Abs. 2 BGB",
+  "erklaerung": "Nur Vertrauensschaden (negatives Interesse), gedeckelt durch das Erfüllungsinteresse.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-054",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "problem": "Gegner kannte den Mangel der Vertretungsmacht oder musste ihn kennen",
+  "norm": "§ 179 Abs. 3 S. 1 BGB",
+  "erklaerung": "Keine Haftung des Vertreters.",
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "nk-055",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "problem": "Vertragspartner will vor der Genehmigung vom Vertrag mit dem Vertreter ohne Vertretungsmacht loskommen",
+  "norm": "§ 178 BGB",
+  "erklaerung": "Widerruf bis zur Genehmigung, außer er kannte den Mangel.",
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "nk-056",
+  "thema": "anfechtung",
+  "problem": "Versprechen, Verschreiben, Vertippen (z. B. „2500“ statt „250“)",
+  "norm": "§ 119 Abs. 1 Alt. 2 BGB",
+  "erklaerung": "Erklärungsirrtum: Man wollte eine Erklärung dieses Inhalts gar nicht abgeben.",
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "nk-057",
+  "thema": "anfechtung",
+  "problem": "Irrtum über die Bedeutung des Erklärten (z. B. „Gold Doublé“ für massives Gold gehalten)",
+  "norm": "§ 119 Abs. 1 Alt. 1 BGB",
+  "erklaerung": "Inhaltsirrtum.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-058",
+  "thema": "anfechtung",
+  "problem": "Irrtum über eine verkehrswesentliche Eigenschaft einer Sache oder Person",
+  "norm": "§ 119 Abs. 2 BGB",
+  "erklaerung": "Wertbildende Faktoren (nicht der Wert selbst!).",
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "nk-059",
+  "thema": "anfechtung",
+  "problem": "Bote übermittelt die Erklärung falsch",
+  "norm": "§ 120 BGB",
+  "erklaerung": "Anfechtbar wie ein Irrtum nach § 119 BGB.",
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "nk-060",
+  "thema": "anfechtung",
+  "problem": "Anfechtung wegen arglistiger Täuschung",
+  "norm": "§ 123 Abs. 1 Alt. 1 BGB",
+  "erklaerung": "Täuschung, Irrtum, Kausalität, Arglist; Täuschung durch Dritte nur nach § 123 Abs. 2 BGB.",
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "nk-061",
+  "thema": "anfechtung",
+  "problem": "Anfechtung wegen widerrechtlicher Drohung",
+  "norm": "§ 123 Abs. 1 Alt. 2 BGB",
+  "erklaerung": "Inaussichtstellen eines empfindlichen Übels; widerrechtlich v. a. bei unangemessener Zweck-Mittel-Relation.",
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "nk-062",
+  "thema": "anfechtung",
+  "problem": "Frist für die Irrtumsanfechtung",
+  "norm": "§ 121 Abs. 1 S. 1 BGB",
+  "erklaerung": "Unverzüglich = ohne schuldhaftes Zögern nach Kenntnis des Anfechtungsgrundes.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-063",
+  "thema": "anfechtung",
+  "problem": "Frist für die Anfechtung wegen Täuschung oder Drohung",
+  "norm": "§ 124 Abs. 1 BGB",
+  "erklaerung": "Ein Jahr ab Entdeckung bzw. Ende der Zwangslage (Abs. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-064",
+  "thema": "anfechtung",
+  "problem": "Wem gegenüber muss angefochten werden?",
+  "norm": "§ 143 Abs. 1 BGB",
+  "erklaerung": "Erklärung gegenüber dem Anfechtungsgegner – beim Vertrag der andere Teil (Abs. 2), bei einseitigen Geschäften der Empfänger (Abs. 3).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-065",
+  "thema": "anfechtung",
+  "problem": "Rechtsfolge einer erfolgreichen Anfechtung",
+  "norm": "§ 142 Abs. 1 BGB",
+  "erklaerung": "Rechtsgeschäft ist von Anfang an nichtig (ex tunc).",
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "nk-066",
+  "thema": "anfechtung",
+  "problem": "Wer die Anfechtbarkeit kannte, wird behandelt, als kannte er die Nichtigkeit",
+  "norm": "§ 142 Abs. 2 BGB",
+  "erklaerung": "Wichtig für § 179 BGB (Abs. 1 statt Abs. 2) und Bösgläubigkeit.",
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "nk-067",
+  "thema": "anfechtung",
+  "problem": "Schadensersatzpflicht des Anfechtenden bei Irrtumsanfechtung",
+  "norm": "§ 122 Abs. 1 BGB",
+  "erklaerung": "Vertrauensschaden (negatives Interesse), gedeckelt durch das Erfüllungsinteresse – nur bei § 118 und §§ 119, 120 BGB, nicht bei § 123 BGB.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-068",
+  "thema": "anfechtung",
+  "problem": "Kein Vertrauensschaden, wenn der Gegner den Anfechtungsgrund kannte",
+  "norm": "§ 122 Abs. 2 BGB",
+  "erklaerung": "Ausschluss bei Kenntnis oder Kennenmüssen des Geschädigten.",
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "nk-069",
+  "thema": "anfechtung",
+  "problem": "Anfechtungsberechtigter bestätigt das anfechtbare Geschäft",
+  "norm": "§ 144 Abs. 1 BGB",
+  "erklaerung": "Anfechtung ausgeschlossen.",
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "nk-070",
+  "thema": "schuldverhaeltnisse",
+  "problem": "Rechtsgeschäftliches Schuldverhältnis entsteht durch Vertrag",
+  "norm": "§ 311 Abs. 1 BGB",
+  "erklaerung": "Vertragliches Schuldverhältnis (Grundsatz der Vertragsfreiheit).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-071",
+  "thema": "schuldverhaeltnisse",
+  "problem": "Vorvertragliches Schuldverhältnis durch Vertragsverhandlungen/Geschäftskontakt",
+  "norm": "§ 311 Abs. 2 BGB",
+  "erklaerung": "Nr. 1 Vertragsverhandlungen, Nr. 2 Vertragsanbahnung, Nr. 3 ähnliche geschäftliche Kontakte → Pflichten nach § 241 Abs. 2 BGB.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-072",
+  "thema": "schuldverhaeltnisse",
+  "problem": "Rücksichtnahmepflichten im Schuldverhältnis",
+  "norm": "§ 241 Abs. 2 BGB",
+  "erklaerung": "Rücksicht auf Rechte, Rechtsgüter und Interessen des anderen Teils.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-073",
+  "thema": "schuldverhaeltnisse",
+  "problem": "Gesetzliches Schuldverhältnis bei Hilfe für einen anderen ohne Auftrag",
+  "norm": "§ 677 BGB",
+  "erklaerung": "Geschäftsführung ohne Auftrag (GoA).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-074",
+  "thema": "schuldverhaeltnisse",
+  "problem": "Gesetzliches Schuldverhältnis bei Vermögensverschiebung ohne Rechtsgrund",
+  "norm": "§ 812 Abs. 1 S. 1 BGB",
+  "erklaerung": "Ungerechtfertigte Bereicherung: Leistungskondiktion (Alt. 1), Nichtleistungskondiktion (Alt. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-075",
+  "thema": "schuldverhaeltnisse",
+  "problem": "Gesetzliches Schuldverhältnis durch rechtswidrige, schuldhafte Rechtsgutverletzung",
+  "norm": "§ 823 Abs. 1 BGB",
+  "erklaerung": "Unerlaubte Handlung (Delikt).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-076",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Anspruchsgrundlage für Schadensersatz aus culpa in contrahendo",
+  "norm": "§ 280 Abs. 1 BGB",
+  "erklaerung": "i. V. m. § 311 Abs. 2 und § 241 Abs. 2 BGB.",
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "nk-077",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Vertretenmüssen: Vorsatz und Fahrlässigkeit",
+  "norm": "§ 276 Abs. 1 BGB",
+  "erklaerung": "Fahrlässigkeit = Außerachtlassen der im Verkehr erforderlichen Sorgfalt (Abs. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-078",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Haftung für Fehler eines Erfüllungsgehilfen",
+  "norm": "§ 278 S. 1 BGB",
+  "erklaerung": "Verschulden des Gehilfen wird wie eigenes zugerechnet.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-079",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Bereicherter hat das Erlangte schon ausgegeben (Entreicherung)",
+  "norm": "§ 818 Abs. 3 BGB",
+  "erklaerung": "Keine Herausgabepflicht, soweit nicht mehr bereichert (Ausnahme: verschärfte Haftung § 819 BGB).",
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "nk-080",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Leistung zu einem Zweck, der nicht eintritt (Zweckverfehlung)",
+  "norm": "§ 812 Abs. 1 S. 2 Alt. 2 BGB",
+  "erklaerung": "Condictio ob rem: Rückforderung, wenn der bezweckte Erfolg nicht eintritt.",
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "nk-081",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Umfang des Schadensersatzes (Herstellung des ursprünglichen Zustands)",
+  "norm": "§ 249 Abs. 1 BGB",
+  "erklaerung": "Differenzhypothese; bei Sach-/Personenschaden Geld statt Herstellung (Abs. 2).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-082",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Schmerzensgeld",
+  "norm": "§ 253 Abs. 2 BGB",
+  "erklaerung": "Immaterieller Schaden bei Körper, Gesundheit, Freiheit, sexueller Selbstbestimmung. (Folie 1_6 nennt fälschlich § 252.)",
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "nk-083",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Entgangener Gewinn als Schaden",
+  "norm": "§ 252 BGB",
+  "erklaerung": "Entgangener Gewinn ist zu ersetzen (S. 1); als entgangen gilt der Gewinn, der nach dem gewöhnlichen Lauf der Dinge zu erwarten war (S. 2).",
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "nk-084",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Kfz-Halter haftet ohne Verschulden (Gefährdungshaftung)",
+  "norm": "§ 7 Abs. 1 StVG",
+  "erklaerung": "Halterhaftung für Schäden beim Betrieb des Kfz. (Folie: „StrVG“ = StVG.)",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-085",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Aufwendungsersatz bei berechtigter GoA (z. B. Erste Hilfe)",
+  "norm": "§ 683 S. 1 BGB",
+  "erklaerung": "Ersatz wie ein Beauftragter (§ 670 BGB), wenn im Interesse und mutmaßlichen Willen des Geschäftsherrn.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-086",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "problem": "Rückforderung ausgeschlossen, weil der Leistende wusste, dass er nichts schuldet",
+  "norm": "§ 814 BGB",
+  "erklaerung": "Kenntnis der Nichtschuld schließt die Leistungskondiktion aus.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-087",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Widerrufsrecht bei Fernabsatz- und Außergeschäftsraumverträgen",
+  "norm": "§ 312g Abs. 1 BGB",
+  "erklaerung": "Verbraucher hat ein Widerrufsrecht nach § 355 BGB.",
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "nk-088",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Frist für den Verbraucherwiderruf",
+  "norm": "§ 355 Abs. 2 S. 1 BGB",
+  "erklaerung": "14 Tage; Beginn bei Waren grundsätzlich mit Erhalt (§ 356 Abs. 2 BGB).",
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "nk-089",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Rücktritt, weil die fällige Leistung trotz Fristsetzung ausbleibt",
+  "norm": "§ 323 Abs. 1 BGB",
+  "erklaerung": "Fällige Leistung, nicht/nicht vertragsgemäß erbracht, erfolglose angemessene Frist; Entbehrlichkeit nach Abs. 2.",
+  "quelle": "material:faelle-9",
+  "geprueft": true
+ },
+ {
+  "id": "nk-090",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Rücktritt wegen Verletzung einer Rücksichtnahmepflicht",
+  "norm": "§ 324 BGB",
+  "erklaerung": "Verletzung nach § 241 Abs. 2 BGB, Festhalten unzumutbar.",
+  "quelle": "material:faelle-9",
+  "geprueft": true
+ },
+ {
+  "id": "nk-091",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Wie wird der Rücktritt erklärt?",
+  "norm": "§ 349 BGB",
+  "erklaerung": "Durch Erklärung gegenüber dem anderen Teil.",
+  "quelle": "material:faelle-9",
+  "geprueft": true
+ },
+ {
+  "id": "nk-092",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Rechtsfolge des Rücktritts",
+  "norm": "§ 346 Abs. 1 BGB",
+  "erklaerung": "Rückgewährschuldverhältnis: empfangene Leistungen zurückgewähren.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-093",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Schadensersatz trotz Rücktritt",
+  "norm": "§ 325 BGB",
+  "erklaerung": "Rücktritt schließt Schadensersatz nicht aus (z. B. Expresszuschlag einer anderen Werkstatt).",
+  "quelle": "material:faelle-9",
+  "geprueft": true
+ },
+ {
+  "id": "nk-094",
+  "thema": "widerruf-ruecktritt",
+  "problem": "Schuldnerverzug: Mahnung und Voraussetzungen",
+  "norm": "§ 286 Abs. 1 BGB",
+  "erklaerung": "Fälligkeit, Mahnung (ggf. entbehrlich nach Abs. 2), Nichtleistung, Vertretenmüssen (Abs. 4).",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-095",
+  "thema": "grundlagen-recht",
+  "problem": "Ab wann ist ein Mensch rechtsfähig?",
+  "norm": "§ 1 BGB",
+  "erklaerung": "Mit Vollendung der Geburt.",
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "nk-096",
+  "thema": "vertragsschluss",
+  "problem": "Gattungsschuld: welche Qualität ist geschuldet, wann Konkretisierung?",
+  "norm": "§ 243 BGB",
+  "erklaerung": "Mittlere Art und Güte (Abs. 1); Konkretisierung, wenn der Schuldner das seinerseits Erforderliche getan hat (Abs. 2).",
+  "quelle": "material:faelle-5",
+  "geprueft": true
+ },
+ {
+  "id": "nk-097",
+  "thema": "unwirksamkeit",
+  "problem": "Was bedeutet „Textform“ (z. B. E-Mail)?",
+  "norm": "§ 126b BGB",
+  "erklaerung": "Lesbare Erklärung auf dauerhaftem Datenträger mit Nennung der Person – keine Unterschrift nötig.",
+  "quelle": "material:folien",
+  "geprueft": true
+ }
+]

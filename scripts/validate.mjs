@@ -54,7 +54,7 @@ const EINZEL = ['themen.json', 'normen.json', 'schemata.json', 'drills.json', 'k
 
 // index.json ↔ tatsächliche Dateien
 if (idx) {
-  const gelistet = new Set([...KATS.flatMap(k => idx.dateien?.[k] || []), ...(idx.dateien?.einzel || [])]);
+  const gelistet = new Set([...KATS.flatMap(k => idx.dateien?.[k] || []), ...(idx.dateien?.einzel || []), ...(idx.dateien?.wortlaut || [])]);
   for (const k of KATS) if (!Array.isArray(idx.dateien?.[k])) F('index.json', k, 'Kategorie fehlt in dateien');
   for (const g of gelistet) if (!json[g]) F('index.json', g, 'gelistete Datei existiert nicht (oder ist kaputt)');
   for (const vorhanden of Object.keys(json)) {
@@ -114,6 +114,11 @@ else for (const n of normen) {
   else if (registerId(p) !== n.id) F('normen.json', n.id, `id passt nicht zum Zitat (erwartet ${registerId(p)})`);
   if (n.link && !/^https:\/\/(www\.gesetze-im-internet\.de|eur-lex\.europa\.eu)\//.test(n.link)) F('normen.json', n.id, 'link muss auf gesetze-im-internet.de oder EUR-Lex zeigen');
   if (n.wortlaut !== undefined && n.wortlaut !== null && !n.geprueftAm) F('normen.json', n.id, 'wortlaut ohne geprueftAm (nur amtliche Quelle!)');
+  if (n.wortlaut) {
+    const w = json[n.wortlaut];
+    if (!w) F('normen.json', n.id, `Wortlaut-Datei ${n.wortlaut} fehlt`);
+    else if (typeof w[n.id] !== 'string' || !w[n.id].trim()) F('normen.json', n.id, `Wortlaut fehlt in ${n.wortlaut}`);
+  } else W('normen.json', n.id, 'kein amtlicher Wortlaut hinterlegt (nur Link)');
   register.add(n.id);
 }
 

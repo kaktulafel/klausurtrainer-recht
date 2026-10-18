@@ -2,6 +2,18 @@
 import { parseNormen, registerId, formatNorm } from '../normparser.js';
 import { lade } from '../data.js';
 
+// Null-sichere append/prepend/replaceChildren: optionale Bausteine (null/undefined/false) werden übersprungen,
+// statt als Text „null“ eingefügt zu werden.
+for (const proto of [Element.prototype, DocumentFragment.prototype]) {
+  for (const name of ['append', 'prepend', 'replaceChildren']) {
+    const orig = proto[name];
+    if (!orig || orig.__nullsicher) continue;
+    const neu = function (...kinder) { return orig.apply(this, kinder.filter(k => k !== null && k !== undefined && k !== false)); };
+    neu.__nullsicher = true;
+    proto[name] = neu;
+  }
+}
+
 /** Element erzeugen: h('button', {class:'btn', onclick: fn, 'aria-label': 'x'}, 'Text', kind2 …) */
 export function h(tag, attrs, ...kinder) {
   const el = document.createElement(tag);
@@ -100,7 +112,9 @@ export function md(text, opts = {}) {
     }
     if (!z.trim()) { flushAbsatz(); liste = null; continue; }
     if (liste) { liste = null; }
+    // Jede Zeile ist ein eigener Absatz (Zeilenumbruch = Absatz, wie in Klausurtexten üblich)
     absatz.push(z.trim());
+    flushAbsatz();
   }
   flushAbsatz();
   return wrap;
@@ -136,6 +150,15 @@ async function registerLaden() {
   return register;
 }
 
+/** Lädt den amtlichen Wortlaut einer Registernorm (aus data/wortlaut/…). */
+export async function wortlautLaden(eintrag) {
+  if (!eintrag || !eintrag.wortlaut) return 'Kein Wortlaut hinterlegt – bitte den Link zum Gesetzestext nutzen.';
+  try { const w = await lade(eintrag.wortlaut); return w[eintrag.id] || 'Wortlaut nicht gefunden.'; }
+  catch { return 'Wortlaut offline nicht verfügbar – bitte den Link nutzen.'; }
+}
+
+export async function normRegister() { return registerLaden(); }
+
 export function schliessePopover() { if (popover) { popover.remove(); popover = null; } }
 
 export async function zeigeNormPopover(btn) {
@@ -151,7 +174,9 @@ export async function zeigeNormPopover(btn) {
     if (e.kurz) box.append(h('p', null, e.kurz));
     if (e.lage) box.append(h('p', { class: 'leise klein' }, 'Fundort: ' + e.lage));
     if (e.wortlaut) {
-      const d = h('details', null, h('summary', null, 'Amtlicher Wortlaut'), h('div', { class: 'wortlaut' }, e.wortlaut));
+      const ziel = h('div', { class: 'wortlaut' }, 'Lädt …');
+      const d = h('details', null, h('summary', null, 'Amtlicher Wortlaut'), ziel);
+      d.addEventListener('toggle', () => { if (d.open) wortlautLaden(e).then(t => { ziel.textContent = t; }); }, { once: true });
       box.append(d);
     }
     box.append(h('p', { class: 'klein' }, h('a', { href: e.link, target: '_blank', rel: 'noopener noreferrer' }, 'Gesetzestext öffnen ↗'), ' · ', h('a', { href: '#/normen/register/' + e.id }, 'Im Register')));

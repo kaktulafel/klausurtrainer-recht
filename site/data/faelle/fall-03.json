@@ -1,0 +1,136 @@
+{
+  "id": "fall-03",
+  "titel": "Die Kamera auf Raten (Taschengeld)",
+  "kurz": "16-Jährige kauft mit Taschengeld auf Raten; Eltern verweigern die Genehmigung – § 107, § 110, § 108, Abstraktionsprinzip, Rückabwicklung über § 812.",
+  "themen": ["geschaeftsfaehigkeit", "abstraktionsprinzip", "gesetzliche-schuldverhaeltnisse"],
+  "schwierigkeit": 2,
+  "minuten": 60,
+  "punkte": 48,
+  "sachverhalt": [
+    "Die 16-jährige Lina Vogt (L) bekommt von ihren Eltern jede Woche 40 € Taschengeld zur freien Verfügung. Über Bedingungen für die Verwendung haben die Eltern nie gesprochen. L hat daraus 350 € angespart.",
+    "Im Laden des Händlers Tom Berger (T), der gebrauchte Elektronik an- und verkauft, entdeckt L am 2. März eine gebrauchte Systemkamera für 600 €. L erklärt, sie wolle die Kamera kaufen; 350 € zahle sie sofort in bar, den Rest in zwei Monatsraten zu je 125 € zum 1. April und 1. Mai, ebenfalls aus ihrem Taschengeld. T ist einverstanden, nimmt die 350 € entgegen und übergibt L die Kamera mit den Worten: „Die gehört jetzt dir.“",
+    "Als die Eltern am 10. März von dem Geschäft erfahren, rufen sie T an und erklären, sie seien mit dem Kauf nicht einverstanden; L solle ihr Geld zurückbekommen. T verlangt dagegen von L die ausstehenden 250 € und hält L ohnehin nicht für die Eigentümerin der Kamera, solange nicht alles bezahlt ist."
+  ],
+  "fallfragen": [
+    "1. Kann T von L Zahlung der restlichen 250 € verlangen?",
+    "2. Wer ist Eigentümer der Kamera?",
+    "3. Kann L (vertreten durch ihre Eltern) von T die gezahlten 350 € zurückverlangen?",
+    "Bearbeitungshinweis: Ein Eigentumsvorbehalt wurde nicht vereinbart. Ansprüche aus §§ 985 ff. BGB sind nicht zu prüfen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch T gegen L auf 250 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "I. Einigung über Kauf (Antrag/Annahme, §§ 145 ff. BGB) (+)" },
+    { "ebene": 2, "text": "II. Wirksamkeit der Willenserklärung der L: beschränkt geschäftsfähig (§§ 2, 106 BGB)" },
+    { "ebene": 3, "text": "1. Lediglich rechtlicher Vorteil, § 107 BGB? (−) Zahlungspflicht" },
+    { "ebene": 3, "text": "2. Einwilligung der Eltern (§§ 107, 183 BGB)? (−)" },
+    { "ebene": 3, "text": "3. Taschengeldparagraph, § 110 BGB: Mittel zur freien Verfügung (+), Leistung vollständig bewirkt? (−) Raten offen" },
+    { "ebene": 3, "text": "4. Folge: schwebend unwirksam, § 108 Abs. 1 BGB; Genehmigung verweigert (§ 182 Abs. 1 BGB) → endgültig unwirksam" },
+    { "ebene": 2, "text": "III. Ergebnis: kein Anspruch" },
+    { "ebene": 1, "text": "B. Eigentum an der Kamera" },
+    { "ebene": 2, "text": "Übereignung § 929 S. 1 BGB: Einigung + Übergabe; Einigungserklärung der L lediglich rechtlich vorteilhaft (§ 107 BGB) → wirksam; Abstraktionsprinzip; L ist Eigentümerin" },
+    { "ebene": 1, "text": "C. Anspruch L gegen T auf 350 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "Etwas erlangt (Geld), durch Leistung der L, ohne Rechtsgrund (Kaufvertrag unwirksam) → (+); T kann seinerseits Rückübereignung der Kamera verlangen" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch T gegen L auf Zahlung von 250 € aus § 433 Abs. 2 BGB",
+      "text": "T könnte gegen L einen Anspruch auf Zahlung der restlichen 250 € aus § 433 Abs. 2 BGB haben. Dies setzt einen wirksamen Kaufvertrag zwischen T und L voraus.\n\n**I. Einigung**\nEin Vertrag kommt durch Antrag und Annahme zustande (§§ 145 ff. BGB). L hat erklärt, die Kamera für 600 € kaufen zu wollen, zahlbar in einer Anzahlung und zwei Raten; T war einverstanden. Übereinstimmende Willenserklärungen liegen vor.\n\n**II. Wirksamkeit der Willenserklärung der L**\nL ist 16 Jahre alt, also minderjährig (§ 2 BGB) und als Minderjährige, die das siebente Lebensjahr vollendet hat, beschränkt geschäftsfähig (§ 106 BGB). Ihre Willenserklärung bedarf nach § 107 BGB der Einwilligung ihrer gesetzlichen Vertreter, sofern sie nicht lediglich einen rechtlichen Vorteil erlangt.\n1. Lediglich rechtlicher Vorteil: Lediglich rechtlich vorteilhaft ist ein Geschäft, das dem Minderjährigen keine rechtlichen Pflichten auferlegt und keine Rechte nimmt; auf den wirtschaftlichen Vorteil kommt es nicht an. Der Kaufvertrag verpflichtet L zur Zahlung von 600 € (§ 433 Abs. 2 BGB). Er ist rechtlich nachteilig – unabhängig davon, ob der Preis günstig ist.\n2. Einwilligung: Einwilligung ist die vorherige Zustimmung (§ 183 S. 1 BGB). Die Eltern als gesetzliche Vertreter (§ 1629 Abs. 1 BGB) haben dem konkreten Kauf vorher nicht zugestimmt.\n3. Taschengeldparagraph (§ 110 BGB): Der Vertrag könnte dennoch von Anfang an wirksam sein. Nach § 110 BGB gilt ein ohne Zustimmung geschlossener Vertrag als von Anfang an wirksam, wenn der Minderjährige die vertragsmäßige Leistung mit Mitteln bewirkt, die ihm zu diesem Zweck oder zur freien Verfügung vom gesetzlichen Vertreter überlassen worden sind. Das Taschengeld wurde L zur freien Verfügung überlassen; auch das Angesparte stammt daraus.\nFraglich ist, ob L die Leistung „bewirkt“ hat. Bewirkt ist die Leistung erst, wenn sie vollständig erbracht ist. Bei einem Ratenkauf ist das erst mit Zahlung der letzten Rate der Fall. Dieses Verständnis entspricht dem Schutzzweck: § 110 BGB soll dem Minderjährigen Geschäfte im Rahmen seiner verfügbaren Mittel ermöglichen, ihn aber nicht in längerfristige Verbindlichkeiten führen, die er nicht überblickt. L hat bislang nur 350 € von 600 € gezahlt. Die Leistung ist nicht vollständig bewirkt; § 110 BGB greift (noch) nicht.\n4. Rechtsfolge: Ein ohne die erforderliche Einwilligung geschlossener Vertrag ist schwebend unwirksam; seine Wirksamkeit hängt von der Genehmigung des gesetzlichen Vertreters ab (§ 108 Abs. 1 BGB). Die Genehmigung oder ihre Verweigerung kann gegenüber jedem Teil erklärt werden (§ 182 Abs. 1 BGB). Die Eltern haben T telefonisch erklärt, mit dem Kauf nicht einverstanden zu sein. Darin liegt die Verweigerung der Genehmigung. Der Vertrag ist damit endgültig unwirksam.\n\n**III. Ergebnis zu A:** T kann von L nicht Zahlung von 250 € aus § 433 Abs. 2 BGB verlangen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Eigentum an der Kamera",
+      "text": "Ursprünglich war T Eigentümer der Kamera. Er könnte das Eigentum durch Übereignung an L nach § 929 S. 1 BGB verloren haben. Dies setzt eine Einigung über den Eigentumsübergang und die Übergabe voraus.\nT erklärte bei der Übergabe: „Die gehört jetzt dir.“ L nahm die Kamera entgegen. Darin liegt eine Einigung über den Eigentumsübergang; einen Eigentumsvorbehalt haben die Parteien nicht vereinbart. Die Übergabe ist erfolgt.\nFraglich ist, ob die Einigungserklärung der L wirksam ist (§§ 106, 107 BGB). Die Übereignung ist ein vom Kaufvertrag unabhängiges, eigenständiges Rechtsgeschäft (Trennungs- und Abstraktionsprinzip). Durch sie erwirbt L Eigentum, ohne eine Pflicht einzugehen oder ein Recht zu verlieren. Die Einigung ist für L lediglich rechtlich vorteilhaft und bedarf daher keiner Einwilligung (§ 107 BGB). Dass der Kaufvertrag unwirksam ist, berührt die Übereignung wegen des Abstraktionsprinzips nicht.\n\n**Ergebnis zu B:** L ist Eigentümerin der Kamera. T kann allerdings die Rückübertragung verlangen, weil L das Eigentum ohne Rechtsgrund erlangt hat (§ 812 Abs. 1 S. 1 Alt. 1 BGB)."
+    },
+    {
+      "id": "C",
+      "titel": "C. Anspruch L gegen T auf Rückzahlung von 350 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB",
+      "text": "L könnte gegen T einen Anspruch auf Rückzahlung von 350 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) haben. Dann müsste T etwas durch Leistung der L ohne rechtlichen Grund erlangt haben.\nErlangt ist jeder vermögenswerte Vorteil. T hat 350 € in bar erhalten, jedenfalls also Besitz an den Geldscheinen; nach der Vorlesung wurde ihm auch das Eigentum am Geld wirksam übertragen, weil L insoweit mit ihr zur freien Verfügung überlassenen Mitteln handelte. Etwas erlangt hat T in beiden Fällen.\nLeistung ist jede bewusste und zweckgerichtete Mehrung fremden Vermögens. L zahlte die 350 € bewusst, um ihre Kaufpreisschuld zu tilgen.\nOhne Rechtsgrund ist die Leistung erfolgt, wenn der verfolgte Zweck – hier die Erfüllung des Kaufvertrags – rechtlich nicht besteht. Der Kaufvertrag ist nach Verweigerung der Genehmigung endgültig unwirksam (siehe A). Ein Rechtsgrund fehlt.\nT muss daher die 350 € herausgeben. Umgekehrt kann T von L die Rückübereignung der Kamera nach § 812 Abs. 1 S. 1 Alt. 1 BGB verlangen; bis dahin steht ihm gegebenenfalls ein Zurückbehaltungsrecht zu (§ 273 BGB).\n\n**Ergebnis zu C:** L kann, vertreten durch ihre Eltern, von T die Rückzahlung der 350 € verlangen."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz T gegen L auf 250 € aus § 433 Abs. 2 BGB", "punkte": 1 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Einigung (Antrag/Annahme) knapp festgestellt", "punkte": 1 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Beschränkte Geschäftsfähigkeit (§§ 2, 106 BGB)", "punkte": 1 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "§ 107 BGB: rechtlicher Nachteil durch Zahlungspflicht (wirtschaftlicher Vorteil unerheblich)", "punkte": 2 },
+    { "id": "a5", "abschnitt": "A", "kriterium": "Keine Einwilligung (§ 183 BGB)", "punkte": 1 },
+    { "id": "a6", "abschnitt": "A", "kriterium": "§ 110 BGB: Mittel zur freien Verfügung (+)", "punkte": 2 },
+    { "id": "a7", "abschnitt": "A", "kriterium": "§ 110 BGB: „bewirkt“ = vollständige Erfüllung; Ratenkauf → (−), mit Schutzzweck begründet", "punkte": 4 },
+    { "id": "a8", "abschnitt": "A", "kriterium": "§ 108 Abs. 1 BGB: schwebende Unwirksamkeit; Verweigerung der Genehmigung gegenüber T (§ 182 Abs. 1 BGB)", "punkte": 3 },
+    { "id": "a9", "abschnitt": "A", "kriterium": "Ergebnis zu A", "punkte": 1 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "§ 929 S. 1 BGB: Einigung und Übergabe; kein Eigentumsvorbehalt", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Einigung der L lediglich rechtlich vorteilhaft, § 107 BGB", "punkte": 2 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Abstraktionsprinzip erklärt (Unwirksamkeit des Kaufs unschädlich)", "punkte": 2 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "Ergebnis: L Eigentümerin; Rückübertragungsanspruch des T nach § 812 BGB gesehen", "punkte": 1 },
+    { "id": "c1", "abschnitt": "C", "kriterium": "Obersatz § 812 Abs. 1 S. 1 Alt. 1 BGB", "punkte": 1 },
+    { "id": "c2", "abschnitt": "C", "kriterium": "Etwas erlangt und durch Leistung (Definitionen)", "punkte": 2 },
+    { "id": "c3", "abschnitt": "C", "kriterium": "Ohne Rechtsgrund: Kaufvertrag endgültig unwirksam", "punkte": 2 },
+    { "id": "c4", "abschnitt": "C", "kriterium": "Ergebnis; Gegenanspruch/Zurückbehaltungsrecht des T erwähnt", "punkte": 2 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze vollständig und im Konjunktiv", "punkte": 4 },
+    { "id": "g2", "kriterium": "Definitionen (rechtlicher Vorteil, Einwilligung, bewirken, Leistung) vor der Subsumtion", "punkte": 4 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt (Raten, Daten, Erklärungen der Eltern)", "punkte": 4 },
+    { "id": "g4", "kriterium": "Ergebnissätze je Prüfung", "punkte": 3 },
+    { "id": "g5", "kriterium": "Trennung Verpflichtungs-/Verfügungsgeschäft im Aufbau, Schwerpunkt § 110 BGB", "punkte": 3 }
+  ],
+  "erwarteteNormen": ["§ 433 Abs. 2 BGB", "§ 106 BGB", "§ 107 BGB", "§ 110 BGB", "§ 108 Abs. 1 BGB", "§ 182 Abs. 1 BGB", "§ 929 BGB", "§ 812 Abs. 1 BGB", "§ 2 BGB", "§ 183 BGB"],
+  "schluesselbegriffe": ["beschränkt geschäftsfähig", "lediglich rechtlicher Vorteil", "Einwilligung", "Taschengeld|Taschengeldparagraph", "bewirkt", "schwebend unwirksam|schwebende Unwirksamkeit", "Genehmigung", "Abstraktionsprinzip", "Leistungskondiktion|ohne Rechtsgrund"],
+  "typischeFehler": [
+    "§ 110 BGB schon wegen der Anzahlung bejahen – „bewirkt“ verlangt die vollständige Leistung (Ratenkauf erst mit der letzten Rate).",
+    "Wirtschaftlichen Vorteil (günstiger Preis) mit rechtlichem Vorteil verwechseln.",
+    "Kaufvertrag und Übereignung vermischen: Die Übereignung an die Minderjährige ist lediglich rechtlich vorteilhaft und wirksam (Abstraktionsprinzip).",
+    "Annehmen, Eigentum gehe erst mit vollständiger Zahlung über – das gilt nur bei vereinbartem Eigentumsvorbehalt.",
+    "Rückforderung der 350 € ohne Anspruchsgrundlage oder mit § 433 BGB begründen."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung 1: L zahlt beide Raten pünktlich. Die Eltern erfahren erst am 5. Mai von dem Kauf und wollen ihn rückgängig machen.",
+      "kurzloesung": "Mit der letzten Rate hat L die Leistung vollständig mit Mitteln bewirkt, die ihr zur freien Verfügung überlassen waren. Nach § 110 BGB gilt der Vertrag als von Anfang an wirksam; einer Genehmigung bedarf es nicht, eine Verweigerung geht ins Leere. Die Eltern können den Kauf nicht rückgängig machen."
+    },
+    {
+      "frage": "Abwandlung 2: T fordert die Eltern am 12. März schriftlich auf, sich zur Genehmigung zu erklären. Die Eltern reagieren drei Wochen lang nicht.",
+      "kurzloesung": "Nach Aufforderung kann die Genehmigung nur noch gegenüber T und nur bis zum Ablauf von zwei Wochen erklärt werden; danach gilt sie als verweigert (§ 108 Abs. 2 BGB). Der Vertrag ist endgültig unwirksam."
+    },
+    {
+      "frage": "Abwandlung 3: T erfährt vor einer Erklärung der Eltern, dass L erst 16 ist, und will „vom Vertrag zurücktreten“. L hatte ihm ihr Alter beim Kauf nicht verschwiegen.",
+      "kurzloesung": "Bis zur Genehmigung kann der andere Teil widerrufen (§ 109 Abs. 1 BGB). Kannte er die Minderjährigkeit beim Vertragsschluss, ist der Widerruf aber ausgeschlossen, es sei denn, der Minderjährige hat wahrheitswidrig eine Einwilligung behauptet (§ 109 Abs. 2 BGB). Hier kannte T das Alter → kein Widerruf."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "Drei Fallfragen – welche Prüfungen brauchst du?",
+    "anspruchsgrundlagen": [
+      { "text": "T gegen L auf 250 € aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – Fallfrage 1; Kern: § 110 BGB." },
+      { "text": "Eigentumslage an der Kamera nach § 929 S. 1 BGB", "richtig": true, "feedback": "Richtig – Fallfrage 2; Kern: § 107 BGB und Abstraktionsprinzip." },
+      { "text": "L gegen T auf 350 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB", "richtig": true, "feedback": "Richtig – Fallfrage 3: Rückabwicklung nach Bereicherungsrecht." },
+      { "text": "L gegen T auf 350 € aus § 433 Abs. 1 BGB", "richtig": false, "feedback": "Falsch – § 433 Abs. 1 BGB regelt Verkäuferpflichten; Rückzahlung bei unwirksamem Vertrag läuft über § 812 BGB." },
+      { "text": "T gegen die Eltern auf 250 € aus § 433 Abs. 2 BGB", "richtig": false, "feedback": "Falsch – die Eltern sind nicht Vertragspartei; sie handelten nur als gesetzliche Vertreter (Genehmigung verweigert)." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Fallfrage 1.",
+    "obersatzMuster": "T könnte gegen L einen Anspruch auf Zahlung der restlichen 250 € aus § 433 Abs. 2 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung der Wirksamkeit der Willenserklärung der L.",
+    "reihenfolge": [
+      "Beschränkte Geschäftsfähigkeit (§§ 2, 106 BGB)",
+      "Lediglich rechtlicher Vorteil? (§ 107 BGB)",
+      "Einwilligung der Eltern? (§§ 107, 183 BGB)",
+      "Taschengeldparagraph (§ 110 BGB)",
+      "Schwebende Unwirksamkeit und Genehmigung (§ 108 BGB)"
+    ],
+    "punkte": [
+      {
+        "titel": "§ 110 BGB beim Ratenkauf",
+        "aufgabe": "Greift der Taschengeldparagraph? Definiere „bewirken“ und begründe mit dem Schutzzweck.",
+        "tipps": ["Norm: § 110 BGB", "Schema: Mittel überlassen (Zweck/freie Verfügung) → Leistung vollständig bewirkt? → Schutzzweck", "Mustersatz: „Bewirkt ist die Leistung erst, wenn sie vollständig erbracht ist; bei Ratenzahlung erst mit der letzten Rate …“"],
+        "muster": "Nach § 110 BGB gilt der Vertrag als von Anfang an wirksam, wenn die Minderjährige die Leistung mit Mitteln bewirkt, die ihr zur freien Verfügung überlassen wurden. Das Taschengeld war zur freien Verfügung überlassen. Bewirkt ist die Leistung aber erst bei vollständiger Erfüllung; § 110 BGB soll vor längerfristigen Verbindlichkeiten schützen. L hat erst 350 € von 600 € gezahlt. § 110 BGB greift nicht."
+      },
+      {
+        "titel": "Übereignung an die Minderjährige",
+        "aufgabe": "Ist die Übereignung der Kamera an L wirksam, obwohl der Kaufvertrag unwirksam ist?",
+        "tipps": ["Norm: § 929 S. 1 BGB, § 107 BGB", "Schema: Einigung + Übergabe → Wirksamkeit der Einigungserklärung der L → Abstraktionsprinzip", "Mustersatz: „Die Übereignung ist ein vom Kaufvertrag unabhängiges Rechtsgeschäft; L erwirbt nur ein Recht …“"],
+        "muster": "Die Übereignung nach § 929 S. 1 BGB erfordert Einigung und Übergabe; beides liegt vor. Durch die Einigung erwirbt L Eigentum, ohne eine Pflicht zu übernehmen; sie ist lediglich rechtlich vorteilhaft (§ 107 BGB) und daher ohne Einwilligung wirksam. Wegen des Abstraktionsprinzips schadet die Unwirksamkeit des Kaufvertrags nicht. L ist Eigentümerin."
+      }
+    ]
+  },
+  "quelle": "material:faelle-3",
+  "geprueft": false
+}

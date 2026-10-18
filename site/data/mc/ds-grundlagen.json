@@ -1,0 +1,587 @@
+[
+ {
+  "id": "ds-mc-001",
+  "thema": "ds-grundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Aus welchen Bestimmungen hat das Bundesverfassungsgericht im Volkszählungsurteil (1983) das Recht auf informationelle Selbstbestimmung abgeleitet?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Aus dem allgemeinen Persönlichkeitsrecht, Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG",
+    "korrekt": true,
+    "erklaerung": "Richtig: Das Gericht leitete das Grundrecht aus dem allgemeinen Persönlichkeitsrecht ab (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
+   },
+   {
+    "id": "b",
+    "text": "Aus der DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO stammt von 2016 und gilt seit 2018 (Art. 99 DSGVO) – das Urteil ist von 1983."
+   },
+   {
+    "id": "c",
+    "text": "Aus dem Bundesdatenschutzgesetz",
+    "korrekt": false,
+    "erklaerung": "Falsch: Ein einfaches Gesetz kann kein Grundrecht begründen; Grundlage ist das Grundgesetz (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
+   },
+   {
+    "id": "d",
+    "text": "Aus dem Brief-, Post- und Fernmeldegeheimnis",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Fernmeldegeheimnis (Art. 10 GG) schützt Kommunikation; das Volkszählungsurteil stützte sich auf das allgemeine Persönlichkeitsrecht (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
+   }
+  ],
+  "normen": [
+   "Art. 2 GG",
+   "Art. 1 GG"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-002",
+  "thema": "ds-grundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Seit wann ist die DSGVO in allen Mitgliedstaaten verbindlich anzuwenden?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Seit dem 25. Mai 2018",
+    "korrekt": true,
+    "erklaerung": "Richtig: In Kraft trat sie 2016, sie gilt ab dem 25. Mai 2018 (Art. 99 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "b",
+    "text": "Seit dem 25. Mai 2016",
+    "korrekt": false,
+    "erklaerung": "Falsch: 2016 trat die DSGVO in Kraft; angewendet wird sie erst ab dem 25. Mai 2018 (Art. 99 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Seit dem 1. Januar 2020",
+    "korrekt": false,
+    "erklaerung": "Falsch: Geltungsbeginn ist der 25. Mai 2018 (Art. 99 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Erst nach Umsetzung durch ein deutsches Gesetz",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Verordnung gilt unmittelbar in jedem Mitgliedstaat (Schlussformel der DSGVO; unmittelbare Geltung von EU-Verordnungen nach dem AEU-Vertrag); eine Umsetzung ist nicht nötig. Geltungsbeginn: Art. 99 Abs. 2 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 99 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-003",
+  "thema": "ds-grundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Was ist nach Art. 1 DSGVO Gegenstand der Verordnung?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Der Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und der freie Verkehr solcher Daten",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 1 Abs. 1 DSGVO nennt beide Ziele – Schutz und freien Datenverkehr."
+   },
+   {
+    "id": "b",
+    "text": "Der Schutz von Betriebs- und Geschäftsgeheimnissen von Unternehmen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Geschützt werden natürliche Personen (Art. 1 Abs. 1 DSGVO), nicht Unternehmensdaten."
+   },
+   {
+    "id": "c",
+    "text": "Ausschließlich die IT-Sicherheit kritischer Infrastrukturen",
+    "korrekt": false,
+    "erklaerung": "Falsch: IT-Sicherheit ist nur ein Mittel (Art. 32 DSGVO); Gegenstand ist der Schutz personenbezogener Daten (Art. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Der Schutz juristischer Personen vor Datenmissbrauch",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO schützt natürliche Personen (Art. 1 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 1 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-004",
+  "thema": "ds-grundlagen",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Welche der folgenden Ziele sind klassische Schutzziele der Informationssicherheit, die sich auch in Art. 32 DSGVO wiederfinden? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Vertraulichkeit",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 32 Abs. 1 lit. b DSGVO nennt Vertraulichkeit."
+   },
+   {
+    "id": "b",
+    "text": "Integrität",
+    "korrekt": true,
+    "erklaerung": "Richtig: Daten müssen vollständig und unverändert sein (Art. 32 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Verfügbarkeit",
+    "korrekt": true,
+    "erklaerung": "Richtig: Verfügbarkeit (und Belastbarkeit) der Systeme, Art. 32 Abs. 1 lit. b DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Profitabilität",
+    "korrekt": false,
+    "erklaerung": "Falsch: Wirtschaftlichkeit ist kein Schutzziel; Art. 32 DSGVO verlangt risikoangemessene Sicherheit."
+   },
+   {
+    "id": "e",
+    "text": "Öffentlichkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Gegenteil – Vertraulichkeit – ist Schutzziel (Art. 32 Abs. 1 lit. b DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-005",
+  "thema": "ds-grundlagen",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wie lässt sich das Verhältnis von Datenschutz und Datensicherheit am besten beschreiben?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Datenschutz fragt, ob und wozu personenbezogene Daten verarbeitet werden dürfen; Datensicherheit sorgt mit technischen und organisatorischen Maßnahmen für deren Schutz",
+    "korrekt": true,
+    "erklaerung": "Richtig: Zulässigkeit (z. B. Art. 6 DSGVO) und Sicherheit der Verarbeitung (Art. 32 DSGVO) sind zwei Seiten des Schutzes."
+   },
+   {
+    "id": "b",
+    "text": "Beides ist dasselbe",
+    "korrekt": false,
+    "erklaerung": "Falsch: Datensicherheit schützt alle Daten technisch; Datenschutz betrifft die Rechtmäßigkeit der Verarbeitung personenbezogener Daten (Art. 5, 6 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Datensicherheit betrifft nur personenbezogene Daten, Datenschutz alle Daten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Umgekehrt – der Datenschutz bezieht sich auf personenbezogene Daten (Art. 1 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Datensicherheit ist gesetzlich nicht geregelt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 32 DSGVO verpflichtet ausdrücklich zu angemessener Sicherheit."
+   }
+  ],
+  "normen": [
+   "Art. 6 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-006",
+  "thema": "ds-grundlagen",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Welche Rechtsquellen bilden in Deutschland den Kern des allgemeinen Datenschutzrechts?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "DSGVO und ergänzend das BDSG",
+    "korrekt": true,
+    "erklaerung": "Richtig: Die DSGVO gilt unmittelbar; das BDSG ergänzt sie, wo sie Öffnungsklauseln enthält (§ 1 BDSG)."
+   },
+   {
+    "id": "b",
+    "text": "Nur das BDSG",
+    "korrekt": false,
+    "erklaerung": "Falsch: Vorrang hat die unmittelbar geltende DSGVO; das BDSG ergänzt sie nur (§ 1 BDSG)."
+   },
+   {
+    "id": "c",
+    "text": "Nur das BGB",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das BGB enthält kein allgemeines Datenschutzrecht; maßgeblich sind DSGVO und BDSG (§ 1 BDSG)."
+   },
+   {
+    "id": "d",
+    "text": "Die KI-Verordnung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die KI-VO regelt KI-Systeme; das allgemeine Datenschutzrecht steht in DSGVO und BDSG (§ 1 BDSG)."
+   }
+  ],
+  "normen": [
+   "§ 1 BDSG",
+   "Art. 1 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-007",
+  "thema": "ds-grundlagen",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Richtig oder falsch? Markiere jede Aussage.",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Datenschutz ist im Kern Persönlichkeitsschutz.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Geschützt wird die betroffene Person, nicht das Datum an sich (Art. 1 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "2",
+    "text": "Die DSGVO muss erst durch nationale Gesetze umgesetzt werden, bevor sie gilt.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Als Verordnung gilt sie unmittelbar (Schlussformel der DSGVO; Geltung ab 25.5.2018 nach Art. 99 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Datenminimierung ist ein Grundsatz der Verarbeitung.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. c DSGVO."
+   },
+   {
+    "id": "4",
+    "text": "Die Wahrung von Vertraulichkeit, Integrität und Verfügbarkeit ist eine Frage der Rechtsgrundlage nach Art. 6 DSGVO.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist Sicherheit der Verarbeitung (Art. 32 DSGVO), nicht Rechtsgrundlage."
+   }
+  ],
+  "normen": [
+   "Art. 1 DSGVO",
+   "Art. 5 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-008",
+  "thema": "ds-anwendungsbereich",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Lena führt eine Excel-Liste mit Geburtstagen ihrer Familie und Freunde – ausschließlich privat. Gilt die DSGVO?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Nein, ausschließlich persönliche oder familiäre Tätigkeiten sind ausgenommen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Haushaltsausnahme, Art. 2 Abs. 2 lit. c DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Ja, weil die Liste automatisiert geführt wird",
+    "korrekt": false,
+    "erklaerung": "Falsch: Automatisierung allein genügt nicht, wenn die Haushaltsausnahme greift (Art. 2 Abs. 2 lit. c DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Ja, weil Geburtsdaten besondere Kategorien sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Geburtsdaten sind keine besonderen Kategorien (Art. 9 Abs. 1 DSGVO); zudem greift die Haushaltsausnahme."
+   },
+   {
+    "id": "d",
+    "text": "Nur, wenn mehr als 20 Personen erfasst sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine solche Schwelle gibt es nicht; die 20 betrifft die DSB-Pflicht (§ 38 Abs. 1 BDSG)."
+   }
+  ],
+  "normen": [
+   "Art. 2 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-009",
+  "thema": "ds-anwendungsbereich",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein US-Onlinehändler ohne Niederlassung in der EU bietet seine Waren gezielt Kundinnen in Deutschland an (deutsche Website, Lieferung nach Deutschland). Gilt die DSGVO?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, nach dem Marktortprinzip",
+    "korrekt": true,
+    "erklaerung": "Richtig: Angebot von Waren/Dienstleistungen an Personen in der Union genügt, Art. 3 Abs. 2 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nein, weil der Händler keine Niederlassung in der EU hat",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Niederlassungsprinzip (Art. 3 Abs. 1 DSGVO) ist nicht die einzige Anknüpfung; Art. 3 Abs. 2 DSGVO greift."
+   },
+   {
+    "id": "c",
+    "text": "Nur, wenn die Daten auch in der EU gespeichert werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Speicherort ist unerheblich; entscheidend ist das Ausrichten des Angebots auf die Union (Art. 3 Abs. 2 lit. a DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur bei entgeltlichen Angeboten",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auch unentgeltliche Angebote erfasst Art. 3 Abs. 2 lit. a DSGVO („unabhängig davon, ob … eine Zahlung … zu leisten ist“)."
+   }
+  ],
+  "normen": [
+   "Art. 3 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-010",
+  "thema": "ds-anwendungsbereich",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ein Unternehmen mit Sitz in Frankfurt verarbeitet Kundendaten ausschließlich auf Servern in Singapur. Ist die DSGVO anwendbar?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ja, nach dem Niederlassungsprinzip – unabhängig vom Ort der Verarbeitung",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 3 Abs. 1 DSGVO – maßgeblich ist die Niederlassung in der Union."
+   },
+   {
+    "id": "b",
+    "text": "Nein, weil die Verarbeitung außerhalb der EU stattfindet",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 3 Abs. 1 DSGVO stellt ausdrücklich nicht auf den Verarbeitungsort ab."
+   },
+   {
+    "id": "c",
+    "text": "Nur für Kunden mit deutscher Staatsangehörigkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Staatsangehörigkeit spielt keine Rolle (Art. 3 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur, wenn ein Angemessenheitsbeschluss fehlt",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Angemessenheitsbeschluss (Art. 45 DSGVO) betrifft Übermittlungen, nicht die Anwendbarkeit."
+   }
+  ],
+  "normen": [
+   "Art. 3 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-011",
+  "thema": "ds-anwendungsbereich",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Welche Verarbeitungen fallen in den sachlichen Anwendungsbereich der DSGVO? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Ganz automatisierte Verarbeitung im Kundenverwaltungssystem eines Unternehmens",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 2 Abs. 1 DSGVO (ganz oder teilweise automatisiert)."
+   },
+   {
+    "id": "b",
+    "text": "Eine nach Namen sortierte Papier-Personalakte im Aktenschrank",
+    "korrekt": true,
+    "erklaerung": "Richtig: Nichtautomatisierte Verarbeitung, wenn die Daten in einem Dateisystem gespeichert sind (Art. 2 Abs. 1, Art. 4 Nr. 6 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Ein privates Fotoalbum mit Urlaubsbildern der Familie",
+    "korrekt": false,
+    "erklaerung": "Falsch: Haushaltsausnahme, Art. 2 Abs. 2 lit. c DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Statistiken über den Umsatz einer GmbH",
+    "korrekt": false,
+    "erklaerung": "Falsch: Keine personenbezogenen Daten (Art. 4 Nr. 1 DSGVO) – Angaben über juristische Personen sind nicht erfasst."
+   }
+  ],
+  "normen": [
+   "Art. 2 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-012",
+  "thema": "ds-anwendungsbereich",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Ein Analyseunternehmen in Kanada verfolgt mit Cookies das Surfverhalten von Personen in Österreich, um Profile zu erstellen. Welche Vorschrift begründet die Anwendbarkeit der DSGVO?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 3 Abs. 2 lit. b DSGVO (Beobachtung des Verhaltens in der Union)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Das Beobachten des Verhaltens betroffener Personen in der Union genügt."
+   },
+   {
+    "id": "b",
+    "text": "Art. 3 Abs. 1 DSGVO (Niederlassungsprinzip)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Unternehmen hat keine Niederlassung in der Union; einschlägig ist Art. 3 Abs. 2 lit. b DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Art. 2 Abs. 2 lit. c DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das ist die Haushaltsausnahme – sie schließt die Anwendung aus."
+   },
+   {
+    "id": "d",
+    "text": "Gar keine – die DSGVO gilt nicht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Verhaltensbeobachtung in der Union fällt unter Art. 3 Abs. 2 lit. b DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 3 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-013",
+  "thema": "ds-anwendungsbereich",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Anwendungsbereich – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Die DSGVO gilt auch für kostenlose Online-Dienste aus Drittländern, die sich an Nutzer in der EU richten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 3 Abs. 2 lit. a DSGVO – unabhängig von einer Zahlung."
+   },
+   {
+    "id": "2",
+    "text": "Daten über Verstorbene sind nach der DSGVO geschützte personenbezogene Daten.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die DSGVO gilt nicht für Verstorbene (Erwägungsgrund 27); personenbezogen sind nur Daten lebender natürlicher Personen (Art. 4 Nr. 1 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Ein Verein, der Mitgliederdaten in einer Software verwaltet, unterliegt der DSGVO.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Automatisierte Verarbeitung personenbezogener Daten außerhalb der Haushaltsausnahme (Art. 2 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "4",
+    "text": "Handschriftliche Notizen, die in keiner Weise geordnet sind, fallen immer unter die DSGVO.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nichtautomatisierte Verarbeitung ist nur erfasst, wenn die Daten in einem Dateisystem gespeichert sind (Art. 2 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 2 DSGVO",
+   "Art. 3 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-014",
+  "thema": "ds-anwendungsbereich",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Lehrer veröffentlicht privat in einem öffentlich zugänglichen Blog Fotos und Namen von Schülern einer Klassenfahrt. Greift die Haushaltsausnahme?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Nein – bei Veröffentlichung für einen unbegrenzten Personenkreis liegt keine ausschließlich persönliche oder familiäre Tätigkeit mehr vor",
+    "korrekt": true,
+    "erklaerung": "Richtig: Die Ausnahme des Art. 2 Abs. 2 lit. c DSGVO ist eng; öffentliche Veröffentlichung im Internet ist nicht mehr „ausschließlich persönlich“ (EuGH, Lindqvist-Rechtsprechung)."
+   },
+   {
+    "id": "b",
+    "text": "Ja, weil der Blog privat betrieben wird",
+    "korrekt": false,
+    "erklaerung": "Falsch: Entscheidend ist nicht der private Betreiber, sondern ob die Tätigkeit ausschließlich persönlich bleibt (Art. 2 Abs. 2 lit. c DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Ja, weil keine Gewinnerzielungsabsicht besteht",
+    "korrekt": false,
+    "erklaerung": "Falsch: Fehlende Gewinnerzielung genügt nicht für die Haushaltsausnahme (Art. 2 Abs. 2 lit. c DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die Frage stellt sich nicht, weil Fotos keine personenbezogenen Daten sind",
+    "korrekt": false,
+    "erklaerung": "Falsch: Fotos identifizierbarer Personen sind personenbezogene Daten (Art. 4 Nr. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 2 DSGVO",
+   "Art. 4 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-015",
+  "thema": "ds-anwendungsbereich",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wie nennt man den Anknüpfungspunkt, nach dem die DSGVO für alle Verantwortlichen mit einer Niederlassung in der Union gilt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Niederlassungsprinzip",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 3 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Marktortprinzip",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Marktortprinzip erfasst Anbieter ohne EU-Niederlassung (Art. 3 Abs. 2 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Territorialprinzip des Serverstandorts",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Serverstandort ist nach Art. 3 Abs. 1 DSGVO gerade unerheblich."
+   },
+   {
+    "id": "d",
+    "text": "Staatsangehörigkeitsprinzip",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Staatsangehörigkeit spielt für Art. 3 DSGVO keine Rolle."
+   }
+  ],
+  "normen": [
+   "Art. 3 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ }
+]

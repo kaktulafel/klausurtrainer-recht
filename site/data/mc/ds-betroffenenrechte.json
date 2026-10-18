@@ -1,0 +1,512 @@
+[
+ {
+  "id": "ds-mc-072",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Wo ist das Auskunftsrecht der betroffenen Person geregelt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Art. 15 DSGVO",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 15 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Art. 17 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 17 DSGVO regelt die Löschung."
+   },
+   {
+    "id": "c",
+    "text": "Art. 21 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 21 DSGVO regelt den Widerspruch."
+   },
+   {
+    "id": "d",
+    "text": "Art. 13 DSGVO",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 13 DSGVO ist die aktive Informationspflicht bei Erhebung."
+   }
+  ],
+  "normen": [
+   "Art. 15 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-073",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Innerhalb welcher Frist muss ein Verantwortlicher grundsätzlich auf einen Auskunftsantrag reagieren?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Unverzüglich, spätestens innerhalb eines Monats (verlängerbar um zwei weitere Monate)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 12 Abs. 3 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Innerhalb von 72 Stunden",
+    "korrekt": false,
+    "erklaerung": "Falsch: 72 Stunden betreffen die Meldung von Datenpannen (Art. 33 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Innerhalb von 14 Tagen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Die Frist beträgt einen Monat (Art. 12 Abs. 3 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Innerhalb eines Jahres",
+    "korrekt": false,
+    "erklaerung": "Falsch: Höchstens einen Monat, verlängerbar um zwei Monate (Art. 12 Abs. 3 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 12 DSGVO",
+   "Art. 33 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-074",
+  "thema": "ds-betroffenenrechte",
+  "typ": "multi",
+  "schwierigkeit": 2,
+  "frage": "Worüber muss die Auskunft nach Art. 15 DSGVO u. a. informieren? (mehrere richtig)",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Verarbeitungszwecke",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 15 Abs. 1 lit. a DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Empfänger oder Kategorien von Empfängern",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 15 Abs. 1 lit. c DSGVO."
+   },
+   {
+    "id": "c",
+    "text": "Geplante Speicherdauer oder Kriterien dafür",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 15 Abs. 1 lit. d DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Bestehen eines Beschwerderechts bei einer Aufsichtsbehörde",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 15 Abs. 1 lit. f DSGVO."
+   },
+   {
+    "id": "e",
+    "text": "Interne Kalkulation des Unternehmens",
+    "korrekt": false,
+    "erklaerung": "Falsch: Geschäftsinterna gehören nicht zur Auskunft (Art. 15 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 15 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-075",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ein Kunde stellt fest, dass sein Name falsch geschrieben gespeichert ist. Welches Recht macht er geltend?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Recht auf Berichtigung (Art. 16 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Unrichtige Daten sind unverzüglich zu berichtigen."
+   },
+   {
+    "id": "b",
+    "text": "Recht auf Löschung (Art. 17 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Er will die Daten korrigiert, nicht gelöscht haben (Art. 16 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Widerspruchsrecht (Art. 21 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Der Widerspruch richtet sich gegen die Verarbeitung selbst, nicht gegen falsche Daten."
+   },
+   {
+    "id": "d",
+    "text": "Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Datenübertragbarkeit betrifft die Herausgabe in maschinenlesbarem Format."
+   }
+  ],
+  "normen": [
+   "Art. 16 DSGVO",
+   "Art. 17 DSGVO",
+   "Art. 20 DSGVO",
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-076",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Eine ehemalige Kundin verlangt die Löschung aller ihrer Daten. Der Händler muss Rechnungen aber noch acht Jahre aufbewahren. Was gilt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Die Rechnungsdaten dürfen trotz Löschverlangen gespeichert bleiben, weil eine rechtliche Aufbewahrungspflicht besteht",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 17 Abs. 3 lit. b DSGVO (Aufbewahrungspflichten nach Handels- und Steuerrecht); die übrigen, nicht mehr benötigten Daten sind zu löschen. Für die Aufbewahrungsdaten ist der Zugriff zu beschränken (vgl. § 35 Abs. 3 BDSG)."
+   },
+   {
+    "id": "b",
+    "text": "Alle Daten müssen sofort gelöscht werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Rechtliche Aufbewahrungspflichten gehen vor (Art. 17 Abs. 3 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Der Händler darf alles behalten, weil einmal ein Vertrag bestand",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nicht mehr erforderliche Daten sind zu löschen (Art. 17 Abs. 1 lit. a DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Die Kundin muss das Löschverlangen begründen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Begründung ist nicht verlangt; maßgeblich sind die Löschgründe des Art. 17 Abs. 1 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 17 DSGVO",
+   "Art. 18 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-077",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Wer möchte, dass seine Daten zwar vorerst nicht gelöscht, aber nicht weiter genutzt werden (z. B. solange die Richtigkeit geprüft wird), macht welches Recht geltend?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Recht auf Einschränkung der Verarbeitung (Art. 18 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 18 Abs. 1 lit. a DSGVO – z. B. während die Richtigkeit bestritten ist."
+   },
+   {
+    "id": "b",
+    "text": "Recht auf Löschung (Art. 17 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Löschung beendet die Speicherung; gewünscht ist nur eine Sperre (Art. 18 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Mitteilungspflicht (Art. 19 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 19 DSGVO verpflichtet den Verantwortlichen, Empfänger über Berichtigung, Löschung oder Einschränkung zu informieren – das Recht selbst steht in Art. 18 DSGVO."
+   },
+   {
+    "id": "d",
+    "text": "Auskunftsrecht (Art. 15 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Auskunft ist Information, keine Sperre."
+   }
+  ],
+  "normen": [
+   "Art. 18 DSGVO",
+   "Art. 17 DSGVO",
+   "Art. 19 DSGVO",
+   "Art. 15 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-078",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 2,
+  "frage": "Unter welchen Voraussetzungen besteht das Recht auf Datenübertragbarkeit?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Bei selbst bereitgestellten Daten, wenn die Verarbeitung auf Einwilligung oder Vertrag beruht und automatisiert erfolgt",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 20 Abs. 1 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Bei allen Daten, auch wenn sie auf Papier verarbeitet werden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Nur bei automatisierter Verarbeitung (Art. 20 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Nur bei Verarbeitung aufgrund rechtlicher Verpflichtung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Erfasst sind Einwilligung oder Vertrag (Art. 20 Abs. 1 lit. a DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Nur gegenüber Behörden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Für Aufgaben im öffentlichen Interesse gilt das Recht gerade nicht (Art. 20 Abs. 3 S. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 20 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-079",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 1,
+  "frage": "Ein Kunde möchte keine Werbebriefe mehr. Er widerspricht der Verarbeitung zu Werbezwecken. Muss er das begründen?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Nein, gegen Direktwerbung kann jederzeit ohne Begründung widersprochen werden",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 21 Abs. 2 und 3 DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Ja, er muss Gründe aus seiner besonderen Situation darlegen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das gilt für den allgemeinen Widerspruch nach Art. 21 Abs. 1 DSGVO, nicht für Direktwerbung (Abs. 2)."
+   },
+   {
+    "id": "c",
+    "text": "Ja, und der Händler kann zwingende Gründe dagegen anführen",
+    "korrekt": false,
+    "erklaerung": "Falsch: Bei Direktwerbung gibt es keine Abwägung; die Daten dürfen nicht mehr dafür verarbeitet werden (Art. 21 Abs. 3 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Ein Widerspruch ist nur schriftlich und mit Unterschrift möglich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine bestimmte Form ist nicht vorgeschrieben (Art. 21 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-080",
+  "thema": "ds-betroffenenrechte",
+  "typ": "zuordnung",
+  "schwierigkeit": 2,
+  "frage": "Ordne jedem Anliegen das passende Betroffenenrecht zu.",
+  "ziele": [
+   {
+    "id": "15",
+    "text": "Art. 15 – Auskunft"
+   },
+   {
+    "id": "16",
+    "text": "Art. 16 – Berichtigung"
+   },
+   {
+    "id": "17",
+    "text": "Art. 17 – Löschung"
+   },
+   {
+    "id": "20",
+    "text": "Art. 20 – Datenübertragbarkeit"
+   },
+   {
+    "id": "21",
+    "text": "Art. 21 – Widerspruch"
+   }
+  ],
+  "paare": [
+   {
+    "id": "p1",
+    "text": "„Welche Daten haben Sie über mich gespeichert und an wen weitergegeben?“",
+    "loesung": "15",
+    "erklaerung": "Auskunftsrecht (Art. 15 DSGVO)."
+   },
+   {
+    "id": "p2",
+    "text": "„Bitte schicken Sie meine Playlist-Daten als Datei, damit ich zum Konkurrenzdienst wechseln kann.“",
+    "loesung": "20",
+    "erklaerung": "Datenübertragbarkeit (Art. 20 DSGVO)."
+   },
+   {
+    "id": "p3",
+    "text": "„Meine Telefonnummer hat sich geändert.“",
+    "loesung": "16",
+    "erklaerung": "Berichtigung (Art. 16 DSGVO)."
+   },
+   {
+    "id": "p4",
+    "text": "„Ich habe meine Einwilligung widerrufen – löschen Sie bitte meine Fotos.“",
+    "loesung": "17",
+    "erklaerung": "Löschung nach Widerruf (Art. 17 Abs. 1 lit. b DSGVO)."
+   },
+   {
+    "id": "p5",
+    "text": "„Ich will nicht, dass Sie meine Daten weiter für Werbung nutzen.“",
+    "loesung": "21",
+    "erklaerung": "Widerspruch gegen Direktwerbung (Art. 21 Abs. 2 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 15 DSGVO",
+   "Art. 16 DSGVO",
+   "Art. 17 DSGVO",
+   "Art. 20 DSGVO",
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-081",
+  "thema": "ds-betroffenenrechte",
+  "typ": "aussagen",
+  "schwierigkeit": 2,
+  "frage": "Betroffenenrechte – richtig oder falsch?",
+  "optionen": [
+   {
+    "id": "1",
+    "text": "Die betroffene Person hat Anspruch auf eine Kopie der verarbeiteten Daten.",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 15 Abs. 3 DSGVO."
+   },
+   {
+    "id": "2",
+    "text": "Die erste Auskunft darf grundsätzlich nur gegen Gebühr erteilt werden.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Grundsätzlich unentgeltlich (Art. 12 Abs. 5 DSGVO); für weitere Kopien kann ein angemessenes Entgelt verlangt werden (Art. 15 Abs. 3 S. 2 DSGVO)."
+   },
+   {
+    "id": "3",
+    "text": "Wer öffentlich gemachte Daten löschen muss, muss andere Verantwortliche über das Löschverlangen informieren (angemessene Maßnahmen).",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 17 Abs. 2 DSGVO („Recht auf Vergessenwerden“)."
+   },
+   {
+    "id": "4",
+    "text": "Die Einschränkung der Verarbeitung ist in Art. 19 DSGVO geregelt.",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 18 DSGVO; Art. 19 DSGVO enthält nur die Mitteilungspflicht an Empfänger."
+   }
+  ],
+  "normen": [
+   "Art. 15 DSGVO",
+   "Art. 12 DSGVO",
+   "Art. 17 DSGVO",
+   "Art. 18 DSGVO",
+   "Art. 19 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-082",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Eine Bank lehnt einen Kreditantrag ausschließlich automatisiert per Scoring-Algorithmus ab, ohne dass ein Mensch prüft. Welches Recht ist berührt?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Das Recht, keiner ausschließlich automatisierten Entscheidung mit rechtlicher oder ähnlich erheblicher Wirkung unterworfen zu werden (Art. 22 DSGVO)",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 22 Abs. 1 DSGVO; Ausnahmen nach Abs. 2 mit Schutzmaßnahmen wie dem Recht auf Eingreifen einer Person (Abs. 3)."
+   },
+   {
+    "id": "b",
+    "text": "Das Recht auf Datenübertragbarkeit (Art. 20 DSGVO)",
+    "korrekt": false,
+    "erklaerung": "Falsch: Es geht nicht um die Mitnahme von Daten, sondern um die automatisierte Entscheidung (Art. 22 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Kein Recht – Banken dürfen frei entscheiden",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 22 DSGVO begrenzt vollautomatisierte Einzelentscheidungen."
+   },
+   {
+    "id": "d",
+    "text": "Nur das Widerspruchsrecht gegen Direktwerbung",
+    "korrekt": false,
+    "erklaerung": "Falsch: Art. 21 Abs. 2 DSGVO betrifft Werbung; einschlägig ist Art. 22 DSGVO."
+   }
+  ],
+  "normen": [
+   "Art. 22 DSGVO",
+   "Art. 20 DSGVO",
+   "Art. 21 DSGVO"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "ds-mc-083",
+  "thema": "ds-betroffenenrechte",
+  "typ": "single",
+  "schwierigkeit": 3,
+  "frage": "Ein Unternehmen stützt eine Verarbeitung auf Art. 6 Abs. 1 lit. f DSGVO. Die betroffene Person widerspricht nach Art. 21 Abs. 1 DSGVO. Was muss das Unternehmen tun, um weiter zu verarbeiten?",
+  "optionen": [
+   {
+    "id": "a",
+    "text": "Zwingende schutzwürdige Gründe nachweisen, die die Interessen der Person überwiegen (oder Rechtsansprüche); bis dahin kann die Person Einschränkung verlangen",
+    "korrekt": true,
+    "erklaerung": "Richtig: Art. 21 Abs. 1 S. 2 DSGVO; Einschränkung während der Prüfung nach Art. 18 Abs. 1 lit. d DSGVO."
+   },
+   {
+    "id": "b",
+    "text": "Nichts – der Widerspruch ist bei lit. f unbeachtlich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Gerade bei lit. e und f ist der Widerspruch vorgesehen (Art. 21 Abs. 1 DSGVO)."
+   },
+   {
+    "id": "c",
+    "text": "Die Daten sofort an die Aufsichtsbehörde übermitteln",
+    "korrekt": false,
+    "erklaerung": "Falsch: Eine Übermittlung an die Behörde ist nicht vorgesehen (Art. 21 DSGVO)."
+   },
+   {
+    "id": "d",
+    "text": "Eine neue Einwilligung einholen – sonst ist der Widerspruch automatisch erfolgreich",
+    "korrekt": false,
+    "erklaerung": "Falsch: Das Unternehmen kann zwingende Gründe nachweisen; die Einwilligung ist nicht die einzige Möglichkeit (Art. 21 Abs. 1 DSGVO)."
+   }
+  ],
+  "normen": [
+   "Art. 21 DSGVO",
+   "Art. 6 DSGVO",
+   "Art. 18 DSGVO"
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ }
+]

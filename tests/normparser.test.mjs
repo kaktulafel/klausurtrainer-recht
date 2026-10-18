@@ -86,3 +86,22 @@ test('Normen-Check: ok, teil, fehlt, zusatz', () => {
   assert.equal(s['§ 177 BGB'], 'fehlt');
   assert.deepEqual(r.zusatz, ['§ 119 BGB']);
 });
+
+import { vergleicheZitat } from '../site/js/normparser.js';
+test('Zitier-Trainer: Vergleich', () => {
+  assert.equal(vergleicheZitat('§ 119 Abs. 1 Alt. 2 BGB', '§ 119 I Alt. 2').art, 'ok');
+  assert.equal(vergleicheZitat('§ 119 Abs. 1 Alt. 2 BGB', '§ 119 Abs. 1 BGB').art, 'teil');
+  assert.equal(vergleicheZitat('§ 119 Abs. 1 Alt. 2 BGB', '§ 119 Abs. 2 BGB').art, 'falsch');
+  assert.equal(vergleicheZitat('§ 119 Abs. 1 Alt. 2 BGB', '§ 123 BGB').art, 'falsch');
+  assert.equal(vergleicheZitat('Art. 6 Abs. 1 lit. f DSGVO', 'Art. 6 I f').art, 'ok');
+  assert.equal(vergleicheZitat('§ 38 Abs. 1 BDSG', '§ 38 Abs. 1').art, 'ok');
+  assert.equal(vergleicheZitat('§ 110 BGB', 'Taschengeld').ok, false);
+  assert.equal(vergleicheZitat('§ 179 BGB', '§ 179 Abs. 1 BGB').ok, true);
+});
+
+test('Fortsetzung „S. 2, 3“ und „Abs. 1, 2“ bei einfachem §', () => {
+  assert.deepEqual(kurz('§ 168 S. 2, 3 BGB'), ['§ 168 S. 2 BGB']);
+  assert.deepEqual(kurz('§ 119 Abs. 1, 2 BGB'), ['§ 119 Abs. 1 BGB']);
+  assert.deepEqual(kurz('§§ 280 I 2, 276 BGB'), ['§ 280 Abs. 1 S. 2 BGB', '§ 276 BGB']);
+  assert.deepEqual(kurz('§ 171 Abs. 2, § 173 BGB'), ['§ 171 Abs. 2 BGB', '§ 173 BGB']);
+});
