@@ -17,7 +17,11 @@
       "mc/ds-pflichten.json",
       "mc/ds-sicherheit.json"
     ],
-    "wissen": [],
+    "wissen": [
+      "wissen/wissen-at.json",
+      "wissen/wissen-schuldrecht.json",
+      "wissen/wissen-vertretung-anfechtung.json"
+    ],
     "normkarten": [
       "normkarten/datenschutz.json",
       "normkarten/recht.json"

@@ -42,6 +42,17 @@ Gesamturteil: Fall 01 setzt alle vier Korrekturhinweise korrekt um; Nachbesserun
 - [x] fall-03 (mittel): Übereignung des Taschengelds im Gutachtenstil begründet (§ 107 nachteilig, Zustimmung durch Überlassung, Rechtsgedanke § 110); § 131 Abs. 2 S. 2 beim Zugang; Abwandlungen 2/3 widerspruchsfrei.
 - [x] fall-04 (mittel): § 179 Abs. 3 S. 1 über „kennen musste“ statt positiver Kenntnis; Abgrenzung Kundgabe (§ 171) / Außenvollmacht (§ 170) durch Auslegung; Missbrauch der Vertretungsmacht verneint; Abwandlungen 1/3 präzisiert (§ 113 nicht für Ausbildung).
 
+### Schemata (19) und Wissensfragen (64) – Batch 2
+- [x] schema-812 (kritisch): Norm „Ohne rechtlichen Grund“ = § 812 Abs. 1 S. 1 Alt. 1 (nicht S. 2); Kondiktionsarten getrennt.
+- [x] schema-we (kritisch): abhanden gekommene WE – h. M. vs. Vorlesungslösung korrekt dargestellt (§ 122 analog statt „Anfechtung analog § 122“).
+- [x] Puzzle-Eindeutigkeit: Zugang, Vertragsschluss, Vertretung, § 179, Minderjährige, DSGVO, Datenpanne umstrukturiert (Alternativen als Unterpunkte); Anfechtung/Rücktritt/§ 823 mit Hinweis „Reihenfolge der Vorlesung“.
+- [x] Normzuordnungen im Lückenschema: Annahme § 147, Anspruchsgrundlage (§ 433 Abs. 2 statt § 194), Widerruf/Rücktritt getrennt, Zugang unter Anwesenden ungeschrieben, § 323 Abs. 5 S. 2, Deliktsfähigkeit §§ 827, 828, § 111 kein Schwebezustand, Verzug mit AGL §§ 280 Abs. 1, 2, 286.
+- [x] Wissen: wi-047 (Erstklausur-Frage!) Bewertung auf drei Kernpunkte; § 123 Abs. 2 vollständig; § 121 Abs. 1 S. 2; § 611a statt § 611; positives Interesse §§ 280 Abs. 1, 3, 281; § 356 Abs. 3 und **§ 356a BGB (elektronische Widerrufsfunktion, seit Juni 2026 – am amtlichen Text verifiziert)**; Rücktritt ohne Vertretenmüssen; Zugangsvereitelung (BGH-Linie); B2B bei AGB; Gegenansichten (Erklärungsbewusstsein, § 110 bei Dauerschuld).
+- [x] Stichwort-Prüfung strenger: Zahlen/kurze Wörter exakt, bei zwei Gruppen müssen beide passen (≥ 60 %); Regressionstests.
+
+### Drills (22)
+- Selbst geprüft gegen die Checkliste (identische Rechtsaussagen wie Fall 01/Wissen, bereits zweitkorrigiert). Zweitkorrektur durch Subagent folgt mit dem nächsten Batch.
+
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |
 |---|---|---|

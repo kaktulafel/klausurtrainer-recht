@@ -1,0 +1,963 @@
+[
+ {
+  "id": "wi-001",
+  "thema": "gutachtenstil",
+  "schwierigkeit": 1,
+  "frage": "Beschreiben Sie den Aufbau einer Prüfung im Gutachtenstil.",
+  "antwort": "Eine Prüfung im Gutachtenstil folgt vier Schritten:\n1. **Obersatz:** hypothetische Frage im Konjunktiv – wer will was von wem woraus („A könnte gegen B einen Anspruch auf … aus § … haben“).\n2. **Definition:** Die Tatbestandsmerkmale der Norm werden benannt und definiert, ggf. in mehreren Ebenen.\n3. **Subsumtion:** Der Sachverhalt wird unter die Definitionen eingeordnet („Vorliegend …“).\n4. **Ergebnis (Schlusssatz):** Feststellung, ob die Rechtsfolge eintritt („Somit hat A …“).\nDas Ergebnis steht am Ende – anders als im Urteilsstil, der mit dem Ergebnis beginnt („A hat … , weil …“).\n(Im Schema „Gutachtenstil“ ist das feiner aufgeteilt: Voraussetzungen benennen und Zwischenergebnisse gehören zu Definition bzw. Subsumtion.)",
+  "kernpunkte": [
+   "Obersatz im Konjunktiv (wer, was, von wem, woraus)",
+   "Definition der Tatbestandsmerkmale",
+   "Subsumtion des Sachverhalts",
+   "Ergebnis/Schlusssatz am Ende",
+   "Abgrenzung zum Urteilsstil"
+  ],
+  "stichwoerter": [
+   [
+    "Obersatz",
+    "könnte|Konjunktiv"
+   ],
+   [
+    "Definition",
+    "Tatbestandsmerkmal|Merkmal|Voraussetzung"
+   ],
+   [
+    "Subsumtion"
+   ],
+   [
+    "Ergebnis",
+    "Schlusssatz|somit|folglich"
+   ],
+   [
+    "Urteilsstil"
+   ]
+  ],
+  "normen": [],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-002",
+  "thema": "gutachtenstil",
+  "schwierigkeit": 2,
+  "frage": "Worin unterscheiden sich Gutachten- und Urteilsstil? Wann darf man im Gutachten den Urteilsstil verwenden?",
+  "antwort": "Im **Gutachtenstil** wird das Ergebnis erst nach der Prüfung festgestellt (Obersatz → Definition → Subsumtion → Ergebnis; Signalwörter: „fraglich ist“, „somit“). Im **Urteilsstil** steht das Ergebnis vorne und wird anschließend begründet („A hat einen Anspruch, denn …“; Signalwort: „weil/denn“).\nIm Gutachten ist der Urteilsstil für **unproblematische** Punkte zulässig und sogar erwünscht (z. B. „A und B haben einen Kaufvertrag geschlossen.“), damit die Schwerpunkte ausführlich im Gutachtenstil geprüft werden können.",
+  "kernpunkte": [
+   "Gutachtenstil: Ergebnis am Ende",
+   "Urteilsstil: Ergebnis vorne, dann Begründung (denn/weil)",
+   "Urteilsstil bei Unproblematischem zulässig",
+   "Schwerpunkte ausführlich im Gutachtenstil"
+  ],
+  "stichwoerter": [
+   [
+    "am Ende|am Schluss|zuletzt|Ende"
+   ],
+   [
+    "vorangestellt|vorne|zuerst|voran",
+    "denn|weil"
+   ],
+   [
+    "unproblematisch"
+   ],
+   [
+    "Schwerpunkt|Problem"
+   ]
+  ],
+  "normen": [],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-003",
+  "thema": "gutachtenstil",
+  "schwierigkeit": 1,
+  "frage": "Was bedeutet die Frage „Wer will was von wem woraus?“ und wozu dient sie?",
+  "antwort": "Sie strukturiert die Fallfrage und führt zum **Obersatz**: **Wer** (Anspruchsteller) will **was** (Anspruchsziel, z. B. Zahlung von 500 €) von **wem** (Anspruchsgegner) **woraus** (Anspruchsgrundlage, z. B. § 433 Abs. 2 BGB)? Bei mehreren Personenbeziehungen sind mehrere Obersätze zu bilden und getrennt zu prüfen.",
+  "kernpunkte": [
+   "Anspruchsteller (wer)",
+   "Anspruchsinhalt (was)",
+   "Anspruchsgegner (von wem)",
+   "Anspruchsgrundlage (woraus)",
+   "Je Personenbeziehung eigener Obersatz"
+  ],
+  "stichwoerter": [
+   [
+    "Anspruchsteller|Gläubiger"
+   ],
+   [
+    "Anspruchsinhalt|Ziel|Zahlung"
+   ],
+   [
+    "Anspruchsgegner|Schuldner"
+   ],
+   [
+    "Anspruchsgrundlage|Norm"
+   ],
+   [
+    "Personenbeziehung|mehrere Obersätze|getrennt|mehrere"
+   ]
+  ],
+  "normen": [
+   "§ 433 Abs. 2 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-004",
+  "thema": "anspruchsaufbau",
+  "schwierigkeit": 1,
+  "frage": "In welchen drei Stufen wird ein Anspruch geprüft? Nennen Sie je ein Beispiel mit Norm.",
+  "antwort": "1. **Anspruch entstanden?** – Anspruchsgrundlage erfüllt, keine rechtshindernden Einwendungen (z. B. Nichtigkeit nach § 105 Abs. 1 BGB, § 125 BGB).\n2. **Anspruch erloschen?** – rechtsvernichtende Einwendungen, z. B. Erfüllung (§ 362 Abs. 1 BGB), Aufrechnung (§ 389 BGB), Erlass (§ 397 BGB), Anfechtung (§ 142 Abs. 1 BGB).\n3. **Anspruch durchsetzbar?** – Einreden, z. B. Verjährung (§ 214 Abs. 1 BGB), Zurückbehaltungsrecht (§ 273 BGB), Einrede des nicht erfüllten Vertrags (§ 320 BGB).\nEinwendungen werden von Amts wegen berücksichtigt, Einreden nur, wenn der Schuldner sich darauf beruft. (Die Einordnung der Anfechtung ist systematisch umstritten – wegen der Rückwirkung teils „rechtshindernd“; klausurüblich wird sie bei „erloschen/untergegangen“ geprüft.)",
+  "kernpunkte": [
+   "Entstanden (Anspruchsgrundlage, rechtshindernde Einwendungen)",
+   "Erloschen (rechtsvernichtende Einwendungen, z. B. § 362 BGB)",
+   "Durchsetzbar (Einreden, z. B. § 214 BGB)",
+   "Einwendungen von Amts wegen, Einreden nur wenn erhoben"
+  ],
+  "stichwoerter": [
+   [
+    "entstanden"
+   ],
+   [
+    "erloschen",
+    "§ 362|§ 389|§ 397|§ 142"
+   ],
+   [
+    "durchsetzbar",
+    "§ 214|§ 273|§ 320"
+   ],
+   [
+    "Amts wegen",
+    "erheben|geltend|berufen"
+   ]
+  ],
+  "normen": [
+   "§ 362 BGB",
+   "§ 389 BGB",
+   "§ 397 BGB",
+   "§ 142 BGB",
+   "§ 214 BGB",
+   "§ 273 BGB",
+   "§ 320 BGB",
+   "§ 105 BGB",
+   "§ 125 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-005",
+  "thema": "anspruchsaufbau",
+  "schwierigkeit": 2,
+  "frage": "Was ist der Unterschied zwischen einer Einwendung und einer Einrede?",
+  "antwort": "**Einwendungen** sind von Amts wegen zu berücksichtigen. Rechtshindernde Einwendungen verhindern, dass ein Anspruch entsteht (z. B. Geschäftsunfähigkeit, § 105 Abs. 1 BGB; Formnichtigkeit, § 125 BGB); rechtsvernichtende Einwendungen lassen einen entstandenen Anspruch erlöschen (Erfüllung, § 362 BGB; Anfechtung, § 142 Abs. 1 BGB).\n**Einreden** sind Leistungsverweigerungsrechte, die der Schuldner geltend machen muss; der Anspruch besteht fort, ist aber nicht durchsetzbar (Verjährung, § 214 Abs. 1 BGB; § 320 BGB).",
+  "kernpunkte": [
+   "Einwendung: von Amts wegen zu beachten",
+   "Rechtshindernd vs. rechtsvernichtend mit Beispiel",
+   "Einrede: muss erhoben werden, Anspruch bleibt bestehen",
+   "Beispiel Verjährung § 214 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "Amts wegen"
+   ],
+   [
+    "rechtshindernd|rechtsvernichtend"
+   ],
+   [
+    "erheben|geltend|berufen"
+   ],
+   [
+    "Verjährung",
+    "§ 214"
+   ]
+  ],
+  "normen": [
+   "§ 105 BGB",
+   "§ 125 BGB",
+   "§ 362 BGB",
+   "§ 142 BGB",
+   "§ 214 BGB",
+   "§ 320 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-006",
+  "thema": "anspruchsaufbau",
+  "schwierigkeit": 1,
+  "frage": "Wo ist der Begriff „Anspruch“ legal definiert und was bedeutet er?",
+  "antwort": "§ 194 Abs. 1 BGB: Ein Anspruch ist das Recht, von einem anderen ein **Tun oder Unterlassen** zu verlangen. Ansprüche unterliegen der Verjährung (regelmäßig drei Jahre, § 195 BGB).",
+  "kernpunkte": [
+   "§ 194 Abs. 1 BGB",
+   "Recht, von einem anderen ein Tun oder Unterlassen zu verlangen",
+   "Unterliegt der Verjährung"
+  ],
+  "stichwoerter": [
+   [
+    "§ 194"
+   ],
+   [
+    "Tun",
+    "Unterlassen"
+   ],
+   [
+    "Verjährung"
+   ]
+  ],
+  "normen": [
+   "§ 194 BGB",
+   "§ 195 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-007",
+  "thema": "willenserklaerung",
+  "schwierigkeit": 1,
+  "frage": "Was ist eine Willenserklärung? Aus welchen Bestandteilen besteht sie?",
+  "antwort": "Eine Willenserklärung ist eine auf einen **rechtlichen Erfolg gerichtete Willensäußerung**.\n- **Objektiver Tatbestand:** ein Verhalten, das nach außen (aus Sicht eines objektiven Empfängers, §§ 133, 157 BGB) einen Rechtsbindungswillen erkennen lässt – ausdrücklich oder konkludent.\n- **Subjektiver Tatbestand:** Handlungswille (willensgetragenes Verhalten), Erklärungsbewusstsein (Bewusstsein, rechtlich Erhebliches zu erklären) und Geschäftswille (Wille, ein bestimmtes Geschäft zu schließen).\nNach h. M. ist nur der **Handlungswille** zwingend; fehlen Erklärungsbewusstsein oder Geschäftswille, liegt dennoch eine (anfechtbare) Willenserklärung vor, wenn sie dem Erklärenden zurechenbar ist.",
+  "kernpunkte": [
+   "Auf einen Rechtserfolg gerichtete Willensäußerung",
+   "Objektiver Tatbestand: Rechtsbindungswille aus Empfängersicht",
+   "Handlungswille",
+   "Erklärungsbewusstsein",
+   "Geschäftswille"
+  ],
+  "stichwoerter": [
+   [
+    "Rechtserfolg|rechtlichen Erfolg"
+   ],
+   [
+    "objektiv|Rechtsbindungswille|Empfänger"
+   ],
+   [
+    "Handlungswille"
+   ],
+   [
+    "Erklärungsbewusstsein|Erklärungswille"
+   ],
+   [
+    "Geschäftswille"
+   ]
+  ],
+  "normen": [
+   "§ 133 BGB",
+   "§ 157 BGB"
+  ],
+  "quelle": "material:folien",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-008",
+  "thema": "willenserklaerung",
+  "schwierigkeit": 2,
+  "frage": "Ein Besucher winkt in einem Auktionssaal einem Freund zu; der Auktionator erteilt ihm den Zuschlag. Liegt eine Willenserklärung vor?",
+  "antwort": "Der Handlungswille liegt vor, es fehlt aber das **Erklärungsbewusstsein**. Nach h. M. (und der Vorlesungslösung) liegt dennoch eine Willenserklärung vor, weil die Erklärung nach Auslegung vom **objektiven Empfängerhorizont** (§§ 133, 157 BGB) als Gebot zu verstehen war und der Besucher bei pflichtgemäßer Sorgfalt hätte erkennen können, dass sein Winken in einer Auktion als Gebot verstanden wird. Er kann die Erklärung aber analog **§ 119 Abs. 1 BGB** anfechten und schuldet dann den Vertrauensschaden nach **§ 122 BGB**. A. A. (Willenstheorie): Ohne aktuelles Erklärungsbewusstsein liegt keine WE vor; dann nur Haftung auf den Vertrauensschaden analog § 122 BGB. Die Anfechtung muss unverzüglich erfolgen (§ 121 BGB).",
+  "kernpunkte": [
+   "Handlungswille (+)",
+   "Erklärungsbewusstsein fehlt",
+   "Zurechnung nach objektivem Empfängerhorizont (§§ 133, 157 BGB) → WE (+)",
+   "Anfechtung analog § 119 Abs. 1 BGB",
+   "Ersatzpflicht nach § 122 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "Handlungswille"
+   ],
+   [
+    "Erklärungsbewusstsein"
+   ],
+   [
+    "Empfängerhorizont|§ 133|§ 157"
+   ],
+   [
+    "§ 119",
+    "anfecht"
+   ],
+   [
+    "§ 122"
+   ]
+  ],
+  "normen": [
+   "§ 133 BGB",
+   "§ 157 BGB",
+   "§ 119 Abs. 1 BGB",
+   "§ 122 BGB",
+   "§ 121 BGB"
+  ],
+  "quelle": "material:faelle-1",
+  "geprueft": true
+ },
+ {
+  "id": "wi-009",
+  "thema": "willenserklaerung",
+  "schwierigkeit": 2,
+  "frage": "Ist ein Werbeplakat („Konsole nur 649 €!“) ein Angebot im Sinne von § 145 BGB? Begründen Sie.",
+  "antwort": "Nein. Es fehlt am **Rechtsbindungswillen**: Der Händler will sich nicht gegenüber jedermann binden (begrenzter Vorrat, Prüfung der Zahlungsfähigkeit). Es handelt sich um eine **invitatio ad offerendum** – eine Aufforderung zur Abgabe eines Angebots. Das Angebot macht erst der Kunde (z. B. an der Kasse), der Händler nimmt an. Gleiches gilt grundsätzlich für Schaufensterauslagen und Preisschilder.",
+  "kernpunkte": [
+   "Kein Angebot",
+   "Fehlender Rechtsbindungswille",
+   "invitatio ad offerendum",
+   "Angebot kommt vom Kunden"
+  ],
+  "stichwoerter": [
+   [
+    "kein Angebot|nein"
+   ],
+   [
+    "Rechtsbindungswille"
+   ],
+   [
+    "invitatio"
+   ],
+   [
+    "Kunde"
+   ]
+  ],
+  "normen": [
+   "§ 145 BGB"
+  ],
+  "quelle": "material:faelle-1",
+  "geprueft": true
+ },
+ {
+  "id": "wi-010",
+  "thema": "willenserklaerung",
+  "schwierigkeit": 1,
+  "frage": "Nach welchem Maßstab werden empfangsbedürftige Willenserklärungen ausgelegt? Nennen Sie die Normen.",
+  "antwort": "Nach §§ 133, 157 BGB vom **objektiven Empfängerhorizont**: Maßgeblich ist, wie ein verständiger Empfänger die Erklärung nach Treu und Glauben mit Rücksicht auf die Verkehrssitte verstehen durfte. § 133 BGB verlangt, den wirklichen Willen zu erforschen und nicht am buchstäblichen Ausdruck zu haften.",
+  "kernpunkte": [
+   "§ 133 BGB und § 157 BGB",
+   "Objektiver Empfängerhorizont",
+   "Treu und Glauben, Verkehrssitte",
+   "Wirklicher Wille statt Wortlaut"
+  ],
+  "stichwoerter": [
+   [
+    "§ 133"
+   ],
+   [
+    "Empfängerhorizont|Empfänger"
+   ],
+   [
+    "Treu und Glauben|Verkehrssitte"
+   ],
+   [
+    "wirklich"
+   ]
+  ],
+  "normen": [
+   "§ 133 BGB",
+   "§ 157 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-011",
+  "thema": "willenserklaerung",
+  "schwierigkeit": 2,
+  "frage": "Grenzen Sie geheimen Vorbehalt, Scheingeschäft und Scherzerklärung voneinander ab.",
+  "antwort": "- **Geheimer Vorbehalt (§ 116 BGB):** Der Erklärende will das Erklärte insgeheim nicht – unbeachtlich, die Erklärung gilt (nichtig nur, wenn der Empfänger den Vorbehalt kennt).\n- **Scheingeschäft (§ 117 BGB):** Beide Seiten sind sich einig, dass das Erklärte nicht gelten soll – nichtig; ein verdecktes Geschäft gilt nach seinen Regeln.\n- **Scherzerklärung (§ 118 BGB):** Der Erklärende erwartet, dass die fehlende Ernstlichkeit erkannt wird – nichtig, aber Ersatz des Vertrauensschadens nach § 122 BGB.",
+  "kernpunkte": [
+   "§ 116 BGB: unbeachtlich, Erklärung gilt",
+   "§ 117 BGB: einverständlich, nichtig",
+   "§ 118 BGB: Erwartung des Erkennens, nichtig",
+   "§ 122 BGB bei § 118"
+  ],
+  "stichwoerter": [
+   [
+    "§ 116",
+    "unbeachtlich|gilt|wirksam"
+   ],
+   [
+    "§ 117",
+    "nichtig"
+   ],
+   [
+    "§ 118",
+    "nichtig"
+   ],
+   [
+    "§ 122"
+   ]
+  ],
+  "normen": [
+   "§ 116 BGB",
+   "§ 117 BGB",
+   "§ 118 BGB",
+   "§ 122 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-012",
+  "thema": "zugang",
+  "schwierigkeit": 1,
+  "frage": "Wann geht eine Willenserklärung unter Abwesenden zu? Nennen Sie die Norm.",
+  "antwort": "Nach **§ 130 Abs. 1 S. 1 BGB** wird sie mit **Zugang** wirksam. Zugegangen ist sie, wenn sie so in den **Machtbereich** des Empfängers gelangt ist, dass dieser unter **gewöhnlichen Umständen** die Möglichkeit der Kenntnisnahme hat und mit der Kenntnisnahme zu rechnen ist. Auf die tatsächliche Kenntnisnahme kommt es nicht an.",
+  "kernpunkte": [
+   "§ 130 Abs. 1 S. 1 BGB",
+   "Gelangen in den Machtbereich",
+   "Kenntnisnahme unter gewöhnlichen Umständen zu erwarten",
+   "Tatsächliche Kenntnis unerheblich"
+  ],
+  "stichwoerter": [
+   [
+    "§ 130"
+   ],
+   [
+    "Machtbereich"
+   ],
+   [
+    "gewöhnlich|üblich"
+   ],
+   [
+    "tatsächlich|unerheblich"
+   ]
+  ],
+  "normen": [
+   "§ 130 Abs. 1 BGB"
+  ],
+  "quelle": "material:faelle-2",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-013",
+  "thema": "zugang",
+  "schwierigkeit": 2,
+  "frage": "Eine private E-Mail mit einem Angebot geht um 21 Uhr ein, um 22 Uhr folgt eine E-Mail mit dem Widerruf. Der Empfänger liest beide am nächsten Morgen. Ist das Angebot wirksam geworden?",
+  "antwort": "Beide E-Mails gelangen am Abend in den Machtbereich des Empfängers. Mit einer Kenntnisnahme ist bei privaten E-Mails spätabends unter gewöhnlichen Umständen aber erst am **nächsten Tag** zu rechnen. Beide gehen daher **gleichzeitig** zu. Nach **§ 130 Abs. 1 S. 2 BGB** wird eine Willenserklärung nicht wirksam, wenn dem Empfänger vorher oder gleichzeitig ein Widerruf zugeht. Das Angebot ist nicht wirksam geworden.\nHinweis: Liest der Empfänger das Angebot tatsächlich schon um 21:01 Uhr, geht es nach h. M. bereits dann zu (der Widerruf käme zu spät); die Vorlesungslösung stellt dagegen auch dann auf die übliche Kenntnisnahme am Folgetag ab.",
+  "kernpunkte": [
+   "Machtbereich am Abend",
+   "Übliche Kenntnisnahme erst am Folgetag",
+   "Gleichzeitiger Zugang",
+   "§ 130 Abs. 1 S. 2 BGB: Angebot nicht wirksam"
+  ],
+  "stichwoerter": [
+   [
+    "Machtbereich"
+   ],
+   [
+    "nächsten Tag|Folgetag"
+   ],
+   [
+    "gleichzeitig"
+   ],
+   [
+    "§ 130"
+   ]
+  ],
+  "normen": [
+   "§ 130 Abs. 1 BGB"
+  ],
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "wi-014",
+  "thema": "zugang",
+  "schwierigkeit": 2,
+  "frage": "Unterscheiden Sie Erklärungs- und Empfangsboten und erläutern Sie die Folgen für den Zugang.",
+  "antwort": "Der **Erklärungsbote** steht im Lager des Erklärenden; die Erklärung geht erst zu, wenn er sie dem Empfänger übermittelt (Verzögerungen trägt der Erklärende). Der **Empfangsbote** ist vom Empfänger zur Entgegennahme bestimmt oder nach der Verkehrsanschauung dazu geeignet (Ehegatte, Mitbewohner, Angestellte); die Erklärung geht zu, sobald unter gewöhnlichen Umständen mit der Weitergabe zu rechnen ist – das Risiko verspäteter Weitergabe trägt der Empfänger. Eine Nachbarin oder ein 10-jähriges Kind sind regelmäßig keine Empfangsboten.",
+  "kernpunkte": [
+   "Erklärungsbote: Lager des Erklärenden, Zugang mit Übermittlung",
+   "Empfangsbote: Lager des Empfängers",
+   "Zugang, wenn Weitergabe zu erwarten",
+   "Risikoverteilung",
+   "Nachbarin/Kind regelmäßig kein Empfangsbote"
+  ],
+  "stichwoerter": [
+   [
+    "Erklärungsbote"
+   ],
+   [
+    "Empfangsbote"
+   ],
+   [
+    "Weitergabe|weiterleiten"
+   ],
+   [
+    "Risiko|Sphäre"
+   ],
+   [
+    "Nachbar|Kind"
+   ]
+  ],
+  "normen": [
+   "§ 130 Abs. 1 BGB"
+  ],
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "wi-015",
+  "thema": "zugang",
+  "schwierigkeit": 1,
+  "frage": "Wann wird eine Erklärung unter Anwesenden bzw. am Telefon wirksam?",
+  "antwort": "Das Wirksamwerden einer mündlichen Erklärung unter Anwesenden ist gesetzlich nicht geregelt: Sie wird wirksam, wenn der Empfänger sie **vernimmt** bzw. der Erklärende nach den Umständen davon ausgehen durfte, dass er sie richtig verstanden hat (eingeschränkte Vernehmungstheorie; Störungen in der Sphäre des Empfängers gehen zu seinen Lasten). Das **Telefon** wird nach der Wertung des **§ 147 Abs. 1 S. 2 BGB** wie Anwesenheit behandelt. Ein Angebot unter Anwesenden kann nur **sofort** angenommen werden (§ 147 Abs. 1 S. 1 BGB).",
+  "kernpunkte": [
+   "Vernehmen der Erklärung (eingeschränkte Vernehmungstheorie)",
+   "Telefon wie unter Anwesenden (Wertung § 147 Abs. 1 S. 2 BGB)",
+   "Annahme nur sofort",
+   "Risiko bei Unaufmerksamkeit des Empfängers"
+  ],
+  "stichwoerter": [
+   [
+    "vernehm|hören"
+   ],
+   [
+    "Telefon",
+    "§ 147"
+   ],
+   [
+    "sofort"
+   ],
+   [
+    "Sphäre|Risiko|abgelenkt"
+   ]
+  ],
+  "normen": [
+   "§ 147 Abs. 1 BGB"
+  ],
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "wi-016",
+  "thema": "geschaeftsfaehigkeit",
+  "schwierigkeit": 1,
+  "frage": "Wo ist der Taschengeldparagraph geregelt? Nennen Sie Voraussetzungen und Rechtsfolge.",
+  "antwort": "**§ 110 BGB.** Voraussetzungen: (1) Vertrag eines beschränkt geschäftsfähigen Minderjährigen ohne Zustimmung des gesetzlichen Vertreters, (2) die vertragsmäßige Leistung wird **vollständig bewirkt**, (3) mit Mitteln, die ihm **zu diesem Zweck oder zur freien Verfügung** vom gesetzlichen Vertreter (oder mit dessen Zustimmung von einem Dritten) überlassen wurden.\nRechtsfolge: Der Vertrag gilt als **von Anfang an wirksam**. Bei Ratenzahlung greift § 110 BGB erst mit der letzten Rate; langfristige Bindungen sind nicht erfasst – bis dahin bleibt der Vertrag schwebend unwirksam (§ 108 Abs. 1 BGB).",
+  "kernpunkte": [
+   "§ 110 BGB",
+   "Leistung vollständig bewirkt",
+   "Mittel zu diesem Zweck oder zur freien Verfügung überlassen",
+   "Rechtsfolge: von Anfang an wirksam",
+   "Raten: erst mit letzter Rate; sonst § 108 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 110"
+   ],
+   [
+    "bewirkt|vollständig"
+   ],
+   [
+    "freien Verfügung|überlassen|Mittel"
+   ],
+   [
+    "von Anfang an"
+   ],
+   [
+    "Rate|§ 108"
+   ]
+  ],
+  "normen": [
+   "§ 110 BGB",
+   "§ 108 Abs. 1 BGB"
+  ],
+  "quelle": "material:faelle-3",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-017",
+  "thema": "geschaeftsfaehigkeit",
+  "schwierigkeit": 1,
+  "frage": "Welche Stufen der Geschäftsfähigkeit kennt das BGB? Nennen Sie Altersgrenzen und Rechtsfolgen.",
+  "antwort": "- **Geschäftsunfähig** (§ 104 BGB): Kinder unter 7 Jahren und Personen in einem nicht nur vorübergehenden krankhaften Zustand der Geistestätigkeit → Willenserklärungen sind **nichtig** (§ 105 Abs. 1 BGB); nichtig sind auch Erklärungen im Zustand der Bewusstlosigkeit oder vorübergehenden Störung (§ 105 Abs. 2 BGB).\n- **Beschränkt geschäftsfähig** (§ 106 BGB): Minderjährige von 7 bis 17 Jahren → Einwilligung erforderlich, außer bei lediglich rechtlichem Vorteil (§ 107 BGB); sonst **schwebend unwirksam** (§ 108 BGB); Ausnahmen §§ 110, 112, 113 BGB.\n- **Voll geschäftsfähig:** ab Volljährigkeit mit 18 Jahren (§ 2 BGB).",
+  "kernpunkte": [
+   "Unter 7: geschäftsunfähig, nichtig (§§ 104, 105 BGB)",
+   "7–17: beschränkt geschäftsfähig (§ 106 BGB)",
+   "§ 107 lediglich rechtlicher Vorteil, sonst § 108 schwebend unwirksam",
+   "Ab 18 voll geschäftsfähig (§ 2 BGB)"
+  ],
+  "stichwoerter": [
+   [
+    "§ 104|sieben Jahre|7 Jahre|unter 7"
+   ],
+   [
+    "§ 106|beschränkt"
+   ],
+   [
+    "§ 107|§ 108|schwebend"
+   ],
+   [
+    "18|volljährig|§ 2 BGB"
+   ]
+  ],
+  "normen": [
+   "§ 104 BGB",
+   "§ 105 BGB",
+   "§ 106 BGB",
+   "§ 107 BGB",
+   "§ 108 BGB",
+   "§ 2 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-018",
+  "thema": "geschaeftsfaehigkeit",
+  "schwierigkeit": 2,
+  "frage": "Ein 15-Jähriger bekommt von seiner Tante ein Fahrrad geschenkt und übereignet. Braucht er die Zustimmung seiner Eltern? Erklären Sie dabei das Abstraktionsprinzip.",
+  "antwort": "Nach dem **Trennungs- und Abstraktionsprinzip** sind Verpflichtungsgeschäft (Schenkungsvertrag, § 516 BGB) und Verfügungsgeschäft (Übereignung, § 929 S. 1 BGB) getrennt zu beurteilen. Beide sind hier **lediglich rechtlich vorteilhaft** (§ 107 BGB): Der Beschenkte geht keine Pflicht ein und erwirbt Eigentum. Eine Einwilligung der Eltern ist nicht erforderlich. Anders wäre es etwa bei einem Kauf, weil die Zahlungspflicht rechtlich nachteilig ist.",
+  "kernpunkte": [
+   "Trennung von Verpflichtungs- und Verfügungsgeschäft",
+   "Schenkung und Übereignung lediglich rechtlich vorteilhaft",
+   "§ 107 BGB: keine Einwilligung nötig",
+   "Kauf wäre wegen Zahlungspflicht nachteilig"
+  ],
+  "stichwoerter": [
+   [
+    "Abstraktion|Trennung"
+   ],
+   [
+    "rechtlich vorteilhaft|rechtlicher Vorteil"
+   ],
+   [
+    "§ 107"
+   ],
+   [
+    "Kauf|Zahlungspflicht"
+   ]
+  ],
+  "normen": [
+   "§ 107 BGB",
+   "§ 516 BGB",
+   "§ 929 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-019",
+  "thema": "geschaeftsfaehigkeit",
+  "schwierigkeit": 2,
+  "frage": "Ein Händler schließt mit einem 16-Jährigen einen Vertrag; die Eltern wissen nichts. Wie kann der Händler den Schwebezustand beenden?",
+  "antwort": "Der Vertrag ist **schwebend unwirksam** (§ 108 Abs. 1 BGB). Der Händler kann den gesetzlichen Vertreter **zur Erklärung über die Genehmigung auffordern** (§ 108 Abs. 2 BGB): Dann kann die Genehmigung nur noch ihm gegenüber und nur innerhalb von **zwei Wochen** erklärt werden; danach gilt sie als **verweigert**. Außerdem kann er bis zur Genehmigung **widerrufen** (§ 109 Abs. 1 BGB) – nicht aber, wenn er die Minderjährigkeit kannte, es sei denn, der Minderjährige hat wahrheitswidrig eine Einwilligung behauptet (§ 109 Abs. 2 BGB). Eine vor der Aufforderung gegenüber dem Minderjährigen erklärte Genehmigung oder Verweigerung wird durch die Aufforderung unwirksam (§ 108 Abs. 2 S. 1 Hs. 2 BGB).",
+  "kernpunkte": [
+   "Schwebende Unwirksamkeit § 108 Abs. 1 BGB",
+   "Aufforderung § 108 Abs. 2 BGB",
+   "Zwei Wochen, sonst verweigert",
+   "Widerruf § 109 BGB mit Einschränkung bei Kenntnis"
+  ],
+  "stichwoerter": [
+   [
+    "schwebend"
+   ],
+   [
+    "Aufforder"
+   ],
+   [
+    "zwei Wochen|2 Wochen"
+   ],
+   [
+    "§ 109|Widerruf"
+   ]
+  ],
+  "normen": [
+   "§ 108 BGB",
+   "§ 109 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-020",
+  "thema": "geschaeftsfaehigkeit",
+  "schwierigkeit": 2,
+  "frage": "Ein 17-Jähriger schließt mit Taschengeld ein Handy-Abo über 24 Monate ab und zahlt die ersten zwei Monatsbeiträge. Ist der Vertrag nach § 110 BGB wirksam?",
+  "antwort": "Nein. § 110 BGB setzt voraus, dass die vertragsmäßige Leistung **vollständig bewirkt** ist. Bei Dauerschuldverhältnissen und Ratenverträgen ist das erst mit der letzten Zahlung der Fall; nach Sinn und Zweck (Schutz vor langfristigen Bindungen) ist § 110 BGB **einschränkend** auszulegen. Der Vertrag ist schwebend unwirksam (§ 108 Abs. 1 BGB); verweigern die Eltern die Genehmigung, können bereits gezahlte Beträge nach § 812 Abs. 1 S. 1 Alt. 1 BGB zurückverlangt werden. (Nach a. A. sind bei teilbaren Dauerschuldverhältnissen bereits bezahlte Zeitabschnitte wirksam.)",
+  "kernpunkte": [
+   "Leistung nicht vollständig bewirkt",
+   "Einschränkende Auslegung: keine langfristigen Bindungen",
+   "Schwebend unwirksam (§ 108 BGB)",
+   "Rückforderung nach § 812 BGB bei Verweigerung"
+  ],
+  "stichwoerter": [
+   [
+    "bewirkt|vollständig"
+   ],
+   [
+    "langfristig|einschränkend|Abo"
+   ],
+   [
+    "§ 108|schwebend"
+   ],
+   [
+    "§ 812"
+   ]
+  ],
+  "normen": [
+   "§ 110 BGB",
+   "§ 108 Abs. 1 BGB",
+   "§ 812 Abs. 1 BGB"
+  ],
+  "quelle": "material:faelle-3",
+  "geprueft": true
+ },
+ {
+  "id": "wi-021",
+  "thema": "geschaeftsfaehigkeit",
+  "schwierigkeit": 3,
+  "frage": "Ein Kind gibt an seinem 7. Geburtstag eine Willenserklärung ab. Ist es geschäftsunfähig oder beschränkt geschäftsfähig?",
+  "antwort": "Beschränkt geschäftsfähig. Bei der Berechnung des Lebensalters wird der **Tag der Geburt mitgerechnet** (§ 187 Abs. 2 S. 2 BGB); mit Beginn des 7. Geburtstags ist das siebente Lebensjahr vollendet. Das Kind ist daher nach **§ 106 BGB** beschränkt geschäftsfähig; seine Erklärung ist nicht nichtig (§ 105 BGB), sondern ggf. schwebend unwirksam (§ 108 BGB).",
+  "kernpunkte": [
+   "Geburtstag wird mitgerechnet (§ 187 Abs. 2 S. 2 BGB)",
+   "Siebentes Lebensjahr vollendet",
+   "Beschränkt geschäftsfähig (§ 106 BGB)",
+   "Nicht nichtig, ggf. schwebend unwirksam"
+  ],
+  "stichwoerter": [
+   [
+    "§ 187|mitgerechnet"
+   ],
+   [
+    "vollendet"
+   ],
+   [
+    "§ 106|beschränkt"
+   ],
+   [
+    "§ 108|schwebend"
+   ]
+  ],
+  "normen": [
+   "§ 187 Abs. 2 BGB",
+   "§ 106 BGB",
+   "§ 105 BGB",
+   "§ 108 BGB"
+  ],
+  "quelle": "material:faelle-3",
+  "geprueft": true
+ },
+ {
+  "id": "wi-022",
+  "thema": "vertragsschluss",
+  "schwierigkeit": 1,
+  "frage": "Wie kommt ein Vertrag zustande? Nennen Sie die Normen und die „essentialia negotii“.",
+  "antwort": "Durch zwei übereinstimmende, aufeinander bezogene Willenserklärungen: **Angebot (Antrag)** und **Annahme** (§§ 145 ff. BGB). Das Angebot muss die wesentlichen Vertragsbestandteile (**essentialia negotii**) enthalten – Vertragsparteien, Vertragsgegenstand und Gegenleistung (Preis) –, sodass der andere nur noch „ja“ sagen muss. Die Annahme muss rechtzeitig (§§ 147, 148 BGB) und ohne Änderungen erfolgen; sonst gilt sie als neues Angebot (§ 150 BGB).",
+  "kernpunkte": [
+   "Angebot und Annahme (§§ 145 ff. BGB)",
+   "essentialia negotii: Parteien, Gegenstand, Preis",
+   "Rechtzeitige Annahme (§§ 147, 148 BGB)",
+   "Verspätete/geänderte Annahme = neues Angebot (§ 150 BGB)"
+  ],
+  "stichwoerter": [
+   [
+    "Angebot",
+    "Annahme"
+   ],
+   [
+    "Parteien|Vertragsparteien",
+    "Gegenstand",
+    "Preis|Gegenleistung"
+   ],
+   [
+    "§ 147|§ 148|rechtzeitig"
+   ],
+   [
+    "§ 150"
+   ]
+  ],
+  "normen": [
+   "§ 145 BGB",
+   "§ 147 BGB",
+   "§ 148 BGB",
+   "§ 150 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-023",
+  "thema": "vertragsschluss",
+  "schwierigkeit": 1,
+  "frage": "Wie kommt bei einer Versteigerung der Vertrag zustande?",
+  "antwort": "Nach **§ 156 S. 1 BGB** kommt der Vertrag erst durch den **Zuschlag** zustande. Das **Gebot** ist das Angebot (Antrag), der Zuschlag die Annahme. Ein Gebot **erlischt**, wenn ein Übergebot abgegeben oder die Versteigerung ohne Zuschlag geschlossen wird (§ 156 S. 2 BGB).",
+  "kernpunkte": [
+   "§ 156 BGB",
+   "Gebot = Angebot",
+   "Zuschlag = Annahme, erst dann Vertrag",
+   "Erlöschen bei Übergebot (§ 156 S. 2 BGB)"
+  ],
+  "stichwoerter": [
+   [
+    "§ 156"
+   ],
+   [
+    "Gebot",
+    "Angebot|Antrag"
+   ],
+   [
+    "Zuschlag"
+   ],
+   [
+    "Übergebot|erlischt"
+   ]
+  ],
+  "normen": [
+   "§ 156 BGB"
+  ],
+  "quelle": "material:probeklausur",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-024",
+  "thema": "vertragsschluss",
+  "schwierigkeit": 2,
+  "frage": "Ein Obsthändler schickt einer Kundin ungefragt eine Kiste Obst mit Rechnung. Sie isst einen Teil. Muss sie zahlen?",
+  "antwort": "Nein. Nach **§ 241a Abs. 1 BGB** wird durch die Lieferung unbestellter Sachen durch einen **Unternehmer** (§ 14 BGB) an einen **Verbraucher** (§ 13 BGB) ein Anspruch gegen den Verbraucher nicht begründet. Das gilt auch, wenn sie die Ware nutzt oder verbraucht; in dem Verzehr liegt nach der Wertung des § 241a BGB keine zur Zahlung verpflichtende Annahme. Ausnahme: Die Leistung war erkennbar für einen anderen bestimmt oder erfolgte irrtümlich und der Verbraucher hätte dies erkennen können (§ 241a Abs. 2 BGB).",
+  "kernpunkte": [
+   "§ 241a Abs. 1 BGB",
+   "Unternehmer (§ 14) an Verbraucher (§ 13)",
+   "Unbestellte Lieferung",
+   "Kein Anspruch, auch bei Verbrauch"
+  ],
+  "stichwoerter": [
+   [
+    "§ 241a"
+   ],
+   [
+    "Unternehmer",
+    "Verbraucher"
+   ],
+   [
+    "unbestellt"
+   ],
+   [
+    "verzehrt|verbraucht|Nutzung|genutzt|gegessen|aufgegessen"
+   ]
+  ],
+  "normen": [
+   "§ 241a BGB",
+   "§ 13 BGB",
+   "§ 14 BGB"
+  ],
+  "quelle": "material:faelle-5",
+  "geprueft": true
+ },
+ {
+  "id": "wi-025",
+  "thema": "vertragsschluss",
+  "schwierigkeit": 2,
+  "frage": "Unter welchen Voraussetzungen werden AGB Vertragsbestandteil, und wann sind Klauseln unwirksam?",
+  "antwort": "AGB sind für eine Vielzahl von Verträgen vorformulierte Bedingungen (**§ 305 Abs. 1 BGB**). Einbezogen werden sie nach **§ 305 Abs. 2 BGB** durch ausdrücklichen Hinweis, zumutbare Möglichkeit der Kenntnisnahme und Einverständnis der anderen Partei. Überraschende Klauseln werden nicht Bestandteil (§ 305c BGB). Unwirksam sind Klauseln, die den Vertragspartner entgegen Treu und Glauben unangemessen benachteiligen oder intransparent sind (**§ 307 BGB**; Klauselverbote §§ 308, 309 BGB). Der Vertrag bleibt im Übrigen wirksam, es gilt das Gesetz (§ 306 BGB).\nBesonderheiten: AGB müssen vom Verwender **gestellt** sein; Individualabreden haben Vorrang (§ 305b BGB); Transparenzgebot (§ 307 Abs. 1 S. 2 BGB); Prüfungsreihenfolge §§ 309 → 308 → 307 BGB. Gegenüber **Unternehmern** gilt § 305 Abs. 2 BGB nicht, und die Inhaltskontrolle ist eingeschränkt (§ 310 Abs. 1 BGB).",
+  "kernpunkte": [
+   "Definition § 305 Abs. 1 BGB",
+   "Einbeziehung § 305 Abs. 2 BGB (Hinweis, Kenntnisnahme, Einverständnis)",
+   "Inhaltskontrolle §§ 307–309 BGB",
+   "Rechtsfolge § 306 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 305",
+    "vorformuliert"
+   ],
+   [
+    "Hinweis|Kenntnisnahme"
+   ],
+   [
+    "§ 307|unangemessen"
+   ],
+   [
+    "§ 306"
+   ]
+  ],
+  "normen": [
+   "§ 305 BGB",
+   "§ 305c BGB",
+   "§ 306 BGB",
+   "§ 307 BGB",
+   "§ 308 BGB",
+   "§ 309 BGB",
+   "§ 305b BGB",
+   "§ 310 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-026",
+  "thema": "vertragsschluss",
+  "schwierigkeit": 3,
+  "frage": "Unterscheiden Sie offenen und versteckten Dissens.",
+  "antwort": "**Offener Dissens (§ 154 BGB):** Die Parteien wissen, dass sie sich über einen Punkt noch nicht geeinigt haben, über den eine Einigung erfolgen sollte – im Zweifel ist der Vertrag **nicht geschlossen**.\n**Versteckter Dissens (§ 155 BGB):** Die Parteien glauben, sich geeinigt zu haben, verstehen einen Punkt aber unterschiedlich (bei gleicher Auslegung nach §§ 133, 157 BGB besteht gar kein Dissens). Das Vereinbarte gilt, wenn anzunehmen ist, dass der Vertrag **auch ohne** die Bestimmung geschlossen worden wäre. Betrifft der versteckte Dissens die essentialia negotii, fehlt es an einem Vertrag.",
+  "kernpunkte": [
+   "Offener Dissens: bewusst, § 154 BGB, im Zweifel kein Vertrag",
+   "Versteckter Dissens: unbewusst, § 155 BGB",
+   "Vorrang der Auslegung (§§ 133, 157 BGB)",
+   "Vertrag gilt, wenn auch ohne den Punkt gewollt"
+  ],
+  "stichwoerter": [
+   [
+    "§ 154",
+    "offen"
+   ],
+   [
+    "§ 155",
+    "versteckt"
+   ],
+   [
+    "Auslegung|§ 133"
+   ],
+   [
+    "auch ohne"
+   ]
+  ],
+  "normen": [
+   "§ 154 BGB",
+   "§ 155 BGB",
+   "§ 133 BGB",
+   "§ 157 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-064",
+  "thema": "zugang",
+  "schwierigkeit": 2,
+  "frage": "Ein Empfänger hat keinen Briefkasten, ein Kündigungsschreiben kann deshalb nicht zugestellt werden. Ist die Kündigung zugegangen?",
+  "antwort": "Mangels Gelangens in den Machtbereich ist die Erklärung zunächst **nicht zugegangen** (§ 130 Abs. 1 S. 1 BGB). Liegt das Zugangshindernis aber in der **Sphäre des Empfängers**, der mit rechtserheblichen Erklärungen rechnen muss, gilt nach **Treu und Glauben (§ 242 BGB)**: Unternimmt der Erklärende **unverzüglich einen neuen Zustellversuch**, muss sich der Empfänger so behandeln lassen, als sei die Erklärung bereits beim ersten Versuch (rechtzeitig) zugegangen. Bei **arglistiger Zugangsvereitelung** gilt die Erklärung auch ohne neuen Versuch als zugegangen. Die Vorlesung stützt die Zugangsfiktion auf § 162 Abs. 1 BGB analog.",
+  "kernpunkte": [
+   "Kein Machtbereich → zunächst kein Zugang",
+   "Hindernis in der Sphäre des Empfängers",
+   "Treu und Glauben § 242 BGB (Vorlesung: § 162 BGB analog)",
+   "Neuer unverzüglicher Zustellversuch → Rechtzeitigkeit; bei Arglist Zugangsfiktion"
+  ],
+  "stichwoerter": [
+   [
+    "Machtbereich",
+    "nicht zugegangen|kein Zugang"
+   ],
+   [
+    "Sphäre|Empfänger"
+   ],
+   [
+    "§ 242|§ 162|Treu"
+   ],
+   [
+    "Zustellversuch|arglistig|Fiktion"
+   ]
+  ],
+  "normen": [
+   "§ 130 Abs. 1 BGB",
+   "§ 242 BGB",
+   "§ 162 BGB"
+  ],
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ }
+]

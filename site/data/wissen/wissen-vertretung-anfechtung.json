@@ -1,0 +1,962 @@
+[
+ {
+  "id": "wi-027",
+  "thema": "unwirksamkeit",
+  "schwierigkeit": 1,
+  "frage": "Nennen Sie formale und inhaltliche Unwirksamkeitsgründe eines Rechtsgeschäfts mit Normen.",
+  "antwort": "**Formal:** fehlende Geschäftsfähigkeit (§§ 104 ff. BGB: Nichtigkeit nach § 105 BGB oder schwebende Unwirksamkeit nach § 108 BGB) und Formmangel (§ 125 BGB, z. B. Schriftform § 126 BGB, notarielle Beurkundung § 128 BGB).\n**Inhaltlich:** Verstoß gegen ein gesetzliches Verbot (§ 134 BGB), Sittenwidrigkeit und Wucher (§ 138 Abs. 1, 2 BGB) sowie die erfolgreiche Anfechtung (§ 142 Abs. 1 BGB).",
+  "kernpunkte": [
+   "Geschäftsfähigkeit §§ 104 ff. BGB",
+   "Formmangel § 125 BGB",
+   "Gesetzliches Verbot § 134 BGB",
+   "Sittenwidrigkeit/Wucher § 138 BGB",
+   "Anfechtung § 142 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 104|§ 105|§ 108|Geschäftsfähig"
+   ],
+   [
+    "§ 125|Form"
+   ],
+   [
+    "§ 134|Verbot"
+   ],
+   [
+    "§ 138|sittenwidrig|Wucher"
+   ],
+   [
+    "§ 142|Anfecht"
+   ]
+  ],
+  "normen": [
+   "§ 104 BGB",
+   "§ 105 BGB",
+   "§ 108 BGB",
+   "§ 125 BGB",
+   "§ 126 BGB",
+   "§ 128 BGB",
+   "§ 134 BGB",
+   "§ 138 BGB",
+   "§ 142 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-028",
+  "thema": "unwirksamkeit",
+  "schwierigkeit": 2,
+  "frage": "Welche Voraussetzungen hat der Wucher nach § 138 Abs. 2 BGB, und wie verhält er sich zu § 138 Abs. 1 BGB?",
+  "antwort": "Wucher liegt vor bei einem **auffälligen Missverhältnis** zwischen Leistung und Gegenleistung und der **Ausbeutung** einer Zwangslage, der Unerfahrenheit, des Mangels an Urteilsvermögen oder einer erheblichen Willensschwäche des anderen (subjektives Element). Rechtsfolge: Nichtigkeit – auch des Verfügungsgeschäfts des Bewucherten („gewähren lässt“). § 138 Abs. 2 BGB ist als Spezialfall **vor** § 138 Abs. 1 BGB zu prüfen; fehlt ein Merkmal, kommt das wucherähnliche Geschäft nach Abs. 1 in Betracht (bei besonders grobem Missverhältnis, etwa dem Doppelten, wird die verwerfliche Gesinnung vermutet).",
+  "kernpunkte": [
+   "Auffälliges Missverhältnis",
+   "Ausbeutung einer Schwäche (Zwangslage u. a.)",
+   "Nichtigkeit",
+   "Vorrang vor § 138 Abs. 1 BGB",
+   "Wucherähnliches Geschäft bei besonders grobem Missverhältnis"
+  ],
+  "stichwoerter": [
+   [
+    "Missverhältnis"
+   ],
+   [
+    "Zwangslage|Ausbeut|Unerfahrenheit"
+   ],
+   [
+    "nichtig"
+   ],
+   [
+    "Abs. 1|vorrangig|zuerst"
+   ],
+   [
+    "wucherähnlich|doppelt"
+   ]
+  ],
+  "normen": [
+   "§ 138 BGB"
+  ],
+  "quelle": "material:faelle-4",
+  "geprueft": true
+ },
+ {
+  "id": "wi-029",
+  "thema": "unwirksamkeit",
+  "schwierigkeit": 1,
+  "frage": "Nennen Sie drei Rechtsgeschäfte, die der Schriftform bzw. der notariellen Beurkundung bedürfen, und die Rechtsfolge eines Formverstoßes.",
+  "antwort": "Schriftform (§ 126 BGB): Bürgschaftserklärung (§ 766 BGB), Verbraucherdarlehen (§ 492 BGB), Kündigung eines Arbeitsverhältnisses (§ 623 BGB) bzw. eines Wohnraummietvertrags (§ 568 BGB); bei § 766 und § 623 BGB ist die elektronische Form ausgeschlossen. Notarielle Beurkundung (§ 128 BGB): Grundstückskaufvertrag (§ 311b Abs. 1 BGB), Schenkungsversprechen (§ 518 Abs. 1 BGB). Rechtsfolge: **Nichtigkeit** bei Verstoß gegen die gesetzliche Form (§ 125 S. 1 BGB), bei vereinbarter Form nur „im Zweifel“ (§ 125 S. 2 BGB). Heilung ist teilweise möglich (z. B. § 311b Abs. 1 S. 2 BGB, § 518 Abs. 2 BGB, § 766 S. 3 BGB, § 494 Abs. 2 BGB).",
+  "kernpunkte": [
+   "Beispiele Schriftform (z. B. § 766 BGB)",
+   "Beispiele Beurkundung (z. B. § 311b BGB)",
+   "Nichtigkeit nach § 125 BGB",
+   "Heilung möglich (§ 311b Abs. 1 S. 2, § 518 Abs. 2 BGB)"
+  ],
+  "stichwoerter": [
+   [
+    "§ 766|§ 492|§ 623|§ 568|Bürgschaft"
+   ],
+   [
+    "§ 311b|§ 518|Grundstück|Schenkung"
+   ],
+   [
+    "§ 125|nichtig"
+   ],
+   [
+    "Heilung"
+   ]
+  ],
+  "normen": [
+   "§ 126 BGB",
+   "§ 128 BGB",
+   "§ 766 BGB",
+   "§ 492 BGB",
+   "§ 623 BGB",
+   "§ 568 BGB",
+   "§ 311b BGB",
+   "§ 518 BGB",
+   "§ 125 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-030",
+  "thema": "abstraktionsprinzip",
+  "schwierigkeit": 1,
+  "frage": "Erklären Sie das Trennungs- und Abstraktionsprinzip am Beispiel eines Kaufs.",
+  "antwort": "**Trennungsprinzip:** Verpflichtungsgeschäft (Kaufvertrag, § 433 BGB – „ich verspreche“) und Verfügungsgeschäfte (Übereignung der Sache und des Geldes, § 929 S. 1 BGB – „ich bewirke“) sind zwei getrennte Rechtsgeschäfte.\n**Abstraktionsprinzip:** Die Wirksamkeit des einen ist von der des anderen unabhängig. Ist der Kaufvertrag nichtig, bleibt die Übereignung grundsätzlich wirksam; die Rückabwicklung erfolgt über das Bereicherungsrecht (§ 812 Abs. 1 S. 1 Alt. 1 BGB). Ausnahme: Fehleridentität (z. B. Anfechtung wegen Täuschung erfasst oft beide Geschäfte).",
+  "kernpunkte": [
+   "Verpflichtungsgeschäft (§ 433 BGB)",
+   "Verfügungsgeschäft (§ 929 BGB)",
+   "Wirksamkeit unabhängig voneinander",
+   "Rückabwicklung über § 812 BGB",
+   "Ausnahme Fehleridentität"
+  ],
+  "stichwoerter": [
+   [
+    "Verpflichtung",
+    "§ 433"
+   ],
+   [
+    "Verfügung",
+    "§ 929"
+   ],
+   [
+    "unabhängig"
+   ],
+   [
+    "§ 812|Bereicherung"
+   ],
+   [
+    "Fehleridentität"
+   ]
+  ],
+  "normen": [
+   "§ 433 BGB",
+   "§ 929 BGB",
+   "§ 812 Abs. 1 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-031",
+  "thema": "abstraktionsprinzip",
+  "schwierigkeit": 2,
+  "frage": "Nennen Sie drei Paare aus Verpflichtungs- und Verfügungsgeschäft (bzw. Vollzugsakt) aus der Vorlesung.",
+  "antwort": "- Kaufvertrag (§ 433 BGB) und Übereignung beweglicher Sachen (§ 929 BGB)\n- Grundstückskauf (§ 311b Abs. 1 BGB i. V. m. § 433 BGB) und Auflassung + Eintragung (§§ 873, 925 BGB)\n- Leihe (§ 598 BGB) und Besitzverschaffung (§ 854 BGB)\n- (Vorlesungsbeispiel, dogmatisch nur eingeschränkt passend, weil aus dem Verlöbnis nicht auf Eheschließung geklagt werden kann, § 1297 Abs. 1 BGB: Verlöbnis und Eheschließung, § 1310 BGB)",
+  "kernpunkte": [
+   "Kauf § 433 / Übereignung § 929 BGB",
+   "Grundstück: Auflassung und Eintragung §§ 873, 925 BGB",
+   "Leihe § 598 / Besitz § 854 BGB (oder Verlöbnis/Ehe nach Vorlesung)"
+  ],
+  "stichwoerter": [
+   [
+    "§ 433",
+    "§ 929"
+   ],
+   [
+    "§ 873|§ 925|Auflassung"
+   ],
+   [
+    "§ 598|§ 854|§ 1297|§ 1310"
+   ]
+  ],
+  "normen": [
+   "§ 433 BGB",
+   "§ 929 BGB",
+   "§ 311b BGB",
+   "§ 873 BGB",
+   "§ 925 BGB",
+   "§ 598 BGB",
+   "§ 854 BGB",
+   "§ 1297 BGB",
+   "§ 1310 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-032",
+  "thema": "stellvertretung",
+  "schwierigkeit": 1,
+  "frage": "Nennen Sie die Voraussetzungen einer wirksamen Stellvertretung mit Normen.",
+  "antwort": "Nach **§ 164 Abs. 1 BGB**: (1) Zulässigkeit der Stellvertretung (nicht bei höchstpersönlichen Geschäften, z. B. Ehe § 1311 BGB, Testament § 2064 BGB), (2) **eigene Willenserklärung** des Vertreters (Abgrenzung zum Boten; beschränkte Geschäftsfähigkeit genügt, § 165 BGB), (3) **im fremden Namen** (Offenkundigkeit, § 164 Abs. 1 S. 2 BGB; sonst Eigengeschäft, § 164 Abs. 2 BGB), (4) **mit Vertretungsmacht** (Gesetz, z. B. Eltern nach § 1629 Abs. 1 BGB, oder Vollmacht, § 167 BGB). Rechtsfolge: Die Erklärung wirkt unmittelbar für und gegen den Vertretenen.",
+  "kernpunkte": [
+   "§ 164 Abs. 1 BGB",
+   "Eigene Willenserklärung (Abgrenzung Bote)",
+   "Im fremden Namen / Offenkundigkeit",
+   "Mit Vertretungsmacht",
+   "Wirkung für und gegen den Vertretenen"
+  ],
+  "stichwoerter": [
+   [
+    "§ 164"
+   ],
+   [
+    "eigene Willenserklärung|Bote"
+   ],
+   [
+    "fremden Namen|Offenkundig"
+   ],
+   [
+    "Vertretungsmacht|Vollmacht"
+   ],
+   [
+    "unmittelbar|für und gegen"
+   ]
+  ],
+  "normen": [
+   "§ 164 Abs. 1 BGB",
+   "§ 167 BGB",
+   "§ 1311 BGB",
+   "§ 2064 BGB",
+   "§ 165 BGB",
+   "§ 1629 BGB"
+  ],
+  "quelle": "material:folien",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-033",
+  "thema": "stellvertretung",
+  "schwierigkeit": 1,
+  "frage": "Unterscheiden Sie Innen- und Außenvollmacht. Wo ist die Vollmacht legal definiert?",
+  "antwort": "Vollmacht ist die durch Rechtsgeschäft erteilte Vertretungsmacht (**§ 166 Abs. 2 S. 1 BGB**). Sie wird nach **§ 167 Abs. 1 BGB** erteilt durch Erklärung gegenüber dem zu Bevollmächtigenden (**Innenvollmacht**, Alt. 1) oder gegenüber dem Dritten, dem gegenüber die Vertretung stattfinden soll (**Außenvollmacht**, Alt. 2). Sie ist grundsätzlich formfrei (§ 167 Abs. 2 BGB) – Ausnahme z. B. die unwiderrufliche Vollmacht zum Grundstückskauf, die wegen § 311b Abs. 1 BGB notariell beurkundet werden muss.",
+  "kernpunkte": [
+   "§ 166 Abs. 2 S. 1 BGB",
+   "Innenvollmacht gegenüber dem Vertreter (§ 167 Abs. 1 Alt. 1)",
+   "Außenvollmacht gegenüber dem Dritten (§ 167 Abs. 1 Alt. 2)",
+   "Grundsätzlich formfrei"
+  ],
+  "stichwoerter": [
+   [
+    "§ 166"
+   ],
+   [
+    "Innenvollmacht",
+    "Vertreter|Bevollmächtigten"
+   ],
+   [
+    "Außenvollmacht",
+    "Dritten"
+   ],
+   [
+    "formfrei|§ 167 Abs. 2"
+   ]
+  ],
+  "normen": [
+   "§ 166 Abs. 2 BGB",
+   "§ 167 BGB",
+   "§ 311b BGB"
+  ],
+  "quelle": "material:folien",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-034",
+  "thema": "stellvertretung",
+  "schwierigkeit": 2,
+  "frage": "Wie grenzt man den Stellvertreter vom Boten ab, und welche Folgen hat ein Übermittlungsfehler des Boten?",
+  "antwort": "Der **Vertreter** gibt eine **eigene** Willenserklärung ab und hat einen Entscheidungsspielraum; der **Bote** übermittelt eine **fremde** Erklärung. Maßgeblich ist das Auftreten nach außen (Empfängersicht). Übermittelt der Bote die Erklärung unbewusst falsch, ist die Erklärung so wirksam, wie sie ankommt, kann aber nach **§ 120 BGB** wie ein Irrtum angefochten werden (Frist § 121 BGB, Ersatz § 122 BGB). Übermittelt der Bote bewusst etwas anderes, ist die Erklärung dem Geschäftsherrn nicht zuzurechnen; es gelten §§ 177, 179 BGB analog.",
+  "kernpunkte": [
+   "Vertreter: eigene WE mit Entscheidungsspielraum",
+   "Bote: übermittelt fremde WE",
+   "Maßstab: Auftreten nach außen",
+   "Falschübermittlung: Anfechtung nach § 120 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "eigene"
+   ],
+   [
+    "fremde|übermittelt"
+   ],
+   [
+    "außen|Empfänger"
+   ],
+   [
+    "§ 120"
+   ]
+  ],
+  "normen": [
+   "§ 120 BGB",
+   "§ 121 BGB",
+   "§ 122 BGB"
+  ],
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "wi-035",
+  "thema": "stellvertretung",
+  "schwierigkeit": 2,
+  "frage": "Wann erlischt eine Vollmacht, und wie wird der Geschäftspartner geschützt, wenn er vom Erlöschen nichts weiß?",
+  "antwort": "Die Vollmacht erlischt nach dem zugrunde liegenden Rechtsverhältnis (**§ 168 S. 1 BGB**, z. B. Kündigung des Arbeitsvertrags) oder durch **Widerruf** (§ 168 S. 2, 3 BGB). Schutz des Dritten (Rechtsschein): Eine **Außenvollmacht** bleibt ihm gegenüber in Kraft, bis ihm das Erlöschen angezeigt wird (**§ 170 BGB**); eine **Kundgabe** (§ 171 BGB) wirkt fort, bis sie „in derselben Weise“ widerrufen wird (§ 171 Abs. 2 BGB); bei einer **Vollmachtsurkunde** bis zur Rückgabe oder Kraftloserklärung (§ 172 Abs. 2 BGB). Kein Schutz, wenn der Dritte das Erlöschen kennt oder kennen muss (**§ 173 BGB**).",
+  "kernpunkte": [
+   "Erlöschen nach Grundverhältnis (§ 168 S. 1 BGB)",
+   "Widerruf (§ 168 S. 2, 3 BGB)",
+   "Rechtsschein §§ 170–172 BGB",
+   "Grenze § 173 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 168",
+    "Grundverhältnis|Rechtsverhältnis|Kündigung"
+   ],
+   [
+    "Widerruf"
+   ],
+   [
+    "§ 170|§ 171|§ 172|Rechtsschein"
+   ],
+   [
+    "§ 173|kennen"
+   ]
+  ],
+  "normen": [
+   "§ 168 BGB",
+   "§ 170 BGB",
+   "§ 171 BGB",
+   "§ 172 BGB",
+   "§ 173 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-036",
+  "thema": "stellvertretung",
+  "schwierigkeit": 2,
+  "frage": "Was versteht man unter Duldungs- und Anscheinsvollmacht?",
+  "antwort": "Beides sind **Rechtsscheinvollmachten** (Rechtsgedanke der §§ 170–173 BGB): Jemand tritt als Vertreter auf, ohne bevollmächtigt zu sein, und der Geschäftspartner vertraut gutgläubig und **ursächlich** auf eine Vollmacht.\n- **Duldungsvollmacht:** Der Vertretene **kennt** das Auftreten und **duldet** es (schreitet nicht ein).\n- **Anscheinsvollmacht:** Auftreten von gewisser **Dauer und Häufigkeit**; der Vertretene kennt es nicht, **hätte es aber bei pflichtgemäßer Sorgfalt erkennen und verhindern können**. (In der Literatur teils umstritten – dort nur Haftung auf das negative Interesse aus c.i.c.; die Rechtsprechung und die Vorlesung bejahen die Bindung.)\nFolge: Der Vertretene muss sich so behandeln lassen, als habe er Vollmacht erteilt.",
+  "kernpunkte": [
+   "Rechtsschein (Rechtsgedanke §§ 170 ff. BGB), gutgläubiges und ursächliches Vertrauen",
+   "Duldungsvollmacht: Kenntnis und Dulden",
+   "Anscheinsvollmacht: Dauer/Häufigkeit, Kennenmüssen und Verhindernkönnen",
+   "Rechtsfolge: so behandeln, als habe er Vollmacht erteilt"
+  ],
+  "stichwoerter": [
+   [
+    "Rechtsschein|§ 170",
+    "gutgläubig|vertraut"
+   ],
+   [
+    "Duldungsvollmacht",
+    "kennt|Kenntnis",
+    "duldet|einschreit"
+   ],
+   [
+    "Anscheinsvollmacht",
+    "kennen müssen|hätte|Sorgfalt"
+   ],
+   [
+    "so behandeln|gebunden|als habe er"
+   ]
+  ],
+  "normen": [
+   "§ 170 BGB",
+   "§ 171 BGB",
+   "§ 172 BGB",
+   "§ 173 BGB"
+  ],
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "wi-037",
+  "thema": "stellvertretung",
+  "schwierigkeit": 2,
+  "frage": "Was regelt § 181 BGB? Nennen Sie die Ausnahmen.",
+  "antwort": "§ 181 BGB verbietet das **Insichgeschäft**: Ein Vertreter darf im Namen des Vertretenen nicht mit sich selbst im eigenen Namen (**Selbstkontrahieren**) oder als Vertreter eines Dritten (**Mehrvertretung**) ein Rechtsgeschäft vornehmen. **Ausnahmen:** Es ist ihm gestattet (Befreiung), oder das Geschäft besteht ausschließlich in der Erfüllung einer Verbindlichkeit. Ein Verstoß führt zur schwebenden Unwirksamkeit (§ 177 BGB analog). Genehmigen kann nur der Vertretene. Anerkannt ist eine teleologische Reduktion bei Geschäften, die dem Vertretenen lediglich einen rechtlichen Vorteil bringen (keine Interessenkollision).",
+  "kernpunkte": [
+   "Verbot des Insichgeschäfts",
+   "Selbstkontrahieren und Mehrvertretung",
+   "Ausnahme: Gestattung",
+   "Ausnahme: reine Erfüllung einer Verbindlichkeit"
+  ],
+  "stichwoerter": [
+   [
+    "Insichgeschäft|§ 181"
+   ],
+   [
+    "Selbstkontrahier|Mehrvertretung|mit sich selbst"
+   ],
+   [
+    "gestattet|Befreiung"
+   ],
+   [
+    "Erfüllung"
+   ]
+  ],
+  "normen": [
+   "§ 181 BGB",
+   "§ 177 BGB"
+  ],
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "wi-038",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "schwierigkeit": 1,
+  "frage": "Was gilt, wenn jemand ohne Vertretungsmacht einen Vertrag im Namen eines anderen schließt?",
+  "antwort": "Der Vertrag ist **schwebend unwirksam**; seine Wirksamkeit hängt von der **Genehmigung** des Vertretenen ab (**§ 177 Abs. 1 BGB**). Genehmigt er, wirkt der Vertrag von Anfang an (§ 184 Abs. 1 BGB). Fordert der andere Teil zur Genehmigung auf, kann sie nur binnen **zwei Wochen** erklärt werden, sonst gilt sie als verweigert (§ 177 Abs. 2 BGB). Bis zur Genehmigung kann der andere Teil widerrufen – außer er kannte den Mangel der Vertretungsmacht beim Vertragsschluss (§ 178 BGB). Wird die Genehmigung verweigert, haftet der Vertreter nach **§ 179 BGB**.",
+  "kernpunkte": [
+   "Schwebend unwirksam (§ 177 Abs. 1 BGB)",
+   "Genehmigung wirkt zurück (§ 184 BGB)",
+   "Aufforderung: zwei Wochen (§ 177 Abs. 2 BGB)",
+   "Widerruf § 178 BGB",
+   "Haftung § 179 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "schwebend",
+    "§ 177"
+   ],
+   [
+    "Genehmigung|§ 184"
+   ],
+   [
+    "zwei Wochen|2 Wochen"
+   ],
+   [
+    "§ 178|Widerruf"
+   ],
+   [
+    "§ 179"
+   ]
+  ],
+  "normen": [
+   "§ 177 BGB",
+   "§ 178 BGB",
+   "§ 179 BGB",
+   "§ 184 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-039",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "schwierigkeit": 2,
+  "frage": "Wie haftet der Vertreter ohne Vertretungsmacht? Unterscheiden Sie § 179 Abs. 1, 2 und 3 BGB.",
+  "antwort": "Voraussetzungen: Vertrag als Vertreter geschlossen, Vertretungsmacht nicht nachgewiesen, Genehmigung verweigert.\n- **Abs. 1 (Grundfall):** Nach Wahl des Gegners **Erfüllung** oder **Schadensersatz** (positives Interesse, inkl. entgangenem Gewinn).\n- **Abs. 2 (Privileg des Vertreters, der den Mangel nicht kannte):** nur der **Vertrauensschaden** (negatives Interesse, z. B. Transport- und Vertragskosten), höchstens bis zum Erfüllungsinteresse.\n- **Abs. 3:** keine Haftung, wenn der Gegner den Mangel **kannte oder kennen musste** (S. 1) oder der Vertreter **beschränkt geschäftsfähig** war und ohne Zustimmung seines gesetzlichen Vertreters handelte (S. 2).\nBeachte § 142 Abs. 2 BGB: Kenntnis der Anfechtbarkeit der Vollmacht steht der Kenntnis des Mangels gleich.",
+  "kernpunkte": [
+   "Abs. 1: Erfüllung oder Schadensersatz (positives Interesse)",
+   "Abs. 2: Vertrauensschaden, gedeckelt",
+   "Abs. 3 S. 1: Kenntnis/Kennenmüssen des Gegners",
+   "Abs. 3 S. 2: Minderjähriger ohne Zustimmung",
+   "§ 142 Abs. 2 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "Erfüllung|positiv"
+   ],
+   [
+    "Vertrauensschaden|negativ"
+   ],
+   [
+    "Abs. 3",
+    "Gegner|anderer Teil",
+    "kennen musste"
+   ],
+   [
+    "beschränkt|minderjährig"
+   ],
+   [
+    "§ 142"
+   ]
+  ],
+  "normen": [
+   "§ 179 BGB",
+   "§ 142 Abs. 2 BGB"
+  ],
+  "quelle": "material:folien",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-040",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "schwierigkeit": 3,
+  "frage": "J ficht die Vollmacht der N wegen arglistiger Täuschung durch N an, nachdem N in seinem Namen gekauft hat. Haftet N gegenüber dem Verkäufer nach § 179 Abs. 1 oder Abs. 2 BGB?",
+  "antwort": "Nach der Anfechtung ist die Vollmacht **von Anfang an nichtig** (§ 142 Abs. 1 BGB); N war Vertreterin ohne Vertretungsmacht. Zwar bestand die Vollmacht beim Kauf noch. Nach **§ 142 Abs. 2 BGB** wird aber, wer die **Anfechtbarkeit kannte**, so behandelt, als hätte er die **Nichtigkeit** gekannt. N hat den Anfechtungsgrund durch ihre Täuschung selbst gesetzt, kannte ihn also. Sie haftet daher nach **§ 179 Abs. 1 BGB** (Erfüllung oder Schadensersatz), nicht nur nach Abs. 2. Einen Regress gegen J über § 122 BGB hat sie nicht (§ 122 BGB gilt nicht bei § 123 BGB; zudem § 122 Abs. 2 BGB). (Angefochten wird die Innenvollmacht gegenüber N, § 143 Abs. 3 S. 1 BGB. Der Verkäufer hat gegen J auch keinen Anspruch aus § 122 BGB, weil wegen Täuschung nach § 123 BGB angefochten wurde.)",
+  "kernpunkte": [
+   "Nichtigkeit ex tunc (§ 142 Abs. 1 BGB)",
+   "§ 142 Abs. 2 BGB: Kenntnis der Anfechtbarkeit = Kenntnis der Nichtigkeit",
+   "N setzte den Grund selbst",
+   "Haftung nach § 179 Abs. 1 BGB",
+   "Kein Regress über § 122 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 142 Abs. 1|ex tunc|von Anfang an"
+   ],
+   [
+    "§ 142 Abs. 2|Anfechtbarkeit"
+   ],
+   [
+    "selbst|Anfechtungsgrund gesetzt"
+   ],
+   [
+    "§ 179 Abs. 1|Erfüllung"
+   ],
+   [
+    "§ 122"
+   ]
+  ],
+  "normen": [
+   "§ 142 BGB",
+   "§ 179 BGB",
+   "§ 122 BGB",
+   "§ 123 BGB",
+   "§ 143 BGB"
+  ],
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "wi-041",
+  "thema": "anfechtung",
+  "schwierigkeit": 1,
+  "frage": "Nennen Sie die Voraussetzungen einer wirksamen Anfechtung und ihre Rechtsfolgen.",
+  "antwort": "Voraussetzungen: (1) anfechtbare Willenserklärung, (2) **Anfechtungsgrund** (§§ 119, 120, 123 BGB), (3) **Anfechtungserklärung** gegenüber dem Anfechtungsgegner (**§ 143 BGB**), (4) Einhaltung der **Anfechtungsfrist** (§ 121 BGB: unverzüglich; § 124 BGB: ein Jahr), (5) kein **Ausschluss** durch Bestätigung (§ 144 BGB).\nRechtsfolgen: Nichtigkeit **von Anfang an** (ex tunc, § 142 Abs. 1 BGB); bei Irrtumsanfechtung Ersatz des **Vertrauensschadens** (§ 122 BGB).",
+  "kernpunkte": [
+   "Anfechtungsgrund §§ 119, 120, 123 BGB",
+   "Anfechtungserklärung § 143 BGB",
+   "Frist §§ 121, 124 BGB",
+   "Kein Ausschluss § 144 BGB",
+   "Nichtigkeit ex tunc § 142 Abs. 1 BGB; ggf. § 122 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 119|§ 123|Anfechtungsgrund"
+   ],
+   [
+    "§ 143|Anfechtungserklärung|Anfechtungsgegner"
+   ],
+   [
+    "§ 121|§ 124|Frist"
+   ],
+   [
+    "§ 144|Bestätigung"
+   ],
+   [
+    "§ 142|ex tunc|von Anfang an"
+   ]
+  ],
+  "normen": [
+   "§ 119 BGB",
+   "§ 120 BGB",
+   "§ 123 BGB",
+   "§ 143 BGB",
+   "§ 121 BGB",
+   "§ 124 BGB",
+   "§ 144 BGB",
+   "§ 142 BGB",
+   "§ 122 BGB"
+  ],
+  "quelle": "material:folien",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-042",
+  "thema": "anfechtung",
+  "schwierigkeit": 1,
+  "frage": "Nennen Sie die drei Irrtumsarten des § 119 BGB mit Definition und je einem Beispiel. Welcher Irrtum berechtigt nicht zur Anfechtung?",
+  "antwort": "- **Erklärungsirrtum (§ 119 Abs. 1 Alt. 2 BGB):** Der Erklärende wollte eine Erklärung dieses Inhalts gar nicht abgeben – Versprechen, Verschreiben, Vertippen („2500 € statt 250 €“).\n- **Inhaltsirrtum (§ 119 Abs. 1 Alt. 1 BGB):** Er sagt, was er sagen will, irrt aber über die **Bedeutung** des Erklärten (bestellt „25 Gros Rollen“ im Glauben, „Gros“ heiße „groß“ – tatsächlich 25 × 144 Stück).\n- **Eigenschaftsirrtum (§ 119 Abs. 2 BGB):** Irrtum über **verkehrswesentliche** Eigenschaften einer Sache oder Person, also wertbildende Faktoren – nicht über den Wert/Preis selbst (Druck statt Original-Lithografie).\nDer bloße **Motivirrtum** (z. B. Geschenk für jemanden, der es nicht mehr möchte) berechtigt nicht zur Anfechtung.",
+  "kernpunkte": [
+   "Erklärungsirrtum: Versprechen/Verschreiben",
+   "Inhaltsirrtum: Irrtum über die Bedeutung",
+   "Eigenschaftsirrtum: verkehrswesentliche Eigenschaft (wertbildend, nicht Wert selbst)",
+   "Motivirrtum unbeachtlich"
+  ],
+  "stichwoerter": [
+   [
+    "Versprechen|Verschreiben|Vertippen|vertippt|verschrieben"
+   ],
+   [
+    "Bedeutung"
+   ],
+   [
+    "verkehrswesentlich|wertbildend"
+   ],
+   [
+    "Motivirrtum|Motiv"
+   ]
+  ],
+  "normen": [
+   "§ 119 BGB"
+  ],
+  "quelle": "material:faelle-8",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-043",
+  "thema": "anfechtung",
+  "schwierigkeit": 2,
+  "frage": "Unter welchen Voraussetzungen kann wegen arglistiger Täuschung angefochten werden? Was gilt bei Täuschung durch einen Dritten?",
+  "antwort": "**§ 123 Abs. 1 Alt. 1 BGB:** (1) **Täuschung** – Vorspiegeln, Entstellen oder Verschweigen (bei Aufklärungspflicht) von Tatsachen, (2) dadurch hervorgerufener **Irrtum**, (3) **Kausalität** für die Abgabe der Erklärung, (4) **Arglist** – Vorsatz bzgl. der Unwahrheit und der Beeinflussung (bedingter Vorsatz genügt), (5) Widerrechtlichkeit (fehlt ausnahmsweise bei einer Lüge auf eine unzulässige Frage, z. B. nach einer Schwangerschaft im Bewerbungsgespräch). Frist: ein Jahr ab Entdeckung (§ 124 BGB); kein Ersatz nach § 122 BGB.\n**Täuschung durch einen Dritten (§ 123 Abs. 2 BGB):** Anfechtbar nur, wenn der Erklärungsempfänger die Täuschung kannte oder kennen musste (S. 1); hat ein anderer als der Empfänger unmittelbar ein Recht aus der Erklärung erworben, ist ihm gegenüber anfechtbar, wenn er die Täuschung kannte oder kennen musste (S. 2). **Kein „Dritter“** ist, wer im Lager des Empfängers steht (sein Vertreter, Verhandlungsgehilfe, Vertrauensperson). Eine **Drohung** durch Dritte berechtigt dagegen immer zur Anfechtung.",
+  "kernpunkte": [
+   "Täuschung über Tatsachen",
+   "Irrtum und Kausalität",
+   "Arglist (Vorsatz)",
+   "Frist § 124 BGB, kein § 122 BGB",
+   "Dritter: Kenntnis/Kennenmüssen des Empfängers (§ 123 Abs. 2 BGB); kein Dritter im Lager des Empfängers"
+  ],
+  "stichwoerter": [
+   [
+    "Täuschung",
+    "Tatsache"
+   ],
+   [
+    "Irrtum",
+    "Kausal|ursächlich"
+   ],
+   [
+    "Arglist|Vorsatz"
+   ],
+   [
+    "§ 124|ein Jahr"
+   ],
+   [
+    "§ 123 Abs. 2",
+    "kannte|kennen musste",
+    "Vertreter|Lager"
+   ]
+  ],
+  "normen": [
+   "§ 123 BGB",
+   "§ 124 BGB",
+   "§ 122 BGB"
+  ],
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "wi-044",
+  "thema": "anfechtung",
+  "schwierigkeit": 2,
+  "frage": "Wann ist eine Drohung widerrechtlich im Sinne von § 123 Abs. 1 Alt. 2 BGB?",
+  "antwort": "Drohung ist das Inaussichtstellen eines **empfindlichen Übels**, auf dessen Eintritt der Drohende Einfluss zu haben vorgibt. **Widerrechtlich** ist sie, wenn (1) das **Mittel** rechtswidrig ist (z. B. Gewalt), (2) der **Zweck** rechtswidrig ist oder (3) die **Zweck-Mittel-Relation** unangemessen ist – etwa wenn Mittel und Zweck keinen inneren Zusammenhang haben (Drohung mit Anzeige eines unbeteiligten Diebstahls, um ein Unfallgeständnis zu erhalten). Droht jemand dagegen mit der Anzeige gerade des Unfalls, um ein Schuldanerkenntnis darüber zu erhalten, ist die Relation angemessen.",
+  "kernpunkte": [
+   "Empfindliches Übel, Einflussnahme des Drohenden",
+   "Widerrechtlichkeit des Mittels",
+   "Widerrechtlichkeit des Zwecks",
+   "Zweck-Mittel-Relation / innerer Zusammenhang",
+   "Beispiel Anzeige"
+  ],
+  "stichwoerter": [
+   [
+    "Übel"
+   ],
+   [
+    "Mittel"
+   ],
+   [
+    "Zweck"
+   ],
+   [
+    "Relation|Zusammenhang|Verhältnis"
+   ],
+   [
+    "Anzeige"
+   ]
+  ],
+  "normen": [
+   "§ 123 BGB"
+  ],
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "wi-045",
+  "thema": "anfechtung",
+  "schwierigkeit": 2,
+  "frage": "Wann muss angefochten werden? Unterscheiden Sie die Fristen.",
+  "antwort": "- Irrtum und falsche Übermittlung (§§ 119, 120 BGB): **unverzüglich**, d. h. ohne schuldhaftes Zögern, nachdem der Anfechtungsberechtigte vom Anfechtungsgrund Kenntnis erlangt hat (**§ 121 Abs. 1 S. 1 BGB**); unter Abwesenden genügt die **unverzügliche Absendung** (§ 121 Abs. 1 S. 2 BGB). Ausgeschlossen, wenn seit Abgabe der Willenserklärung **10 Jahre** verstrichen sind (§ 121 Abs. 2 BGB).\n- Täuschung und Drohung (§ 123 BGB): binnen **eines Jahres** ab Entdeckung der Täuschung bzw. Ende der Zwangslage (**§ 124 Abs. 1, 2 BGB**); ausgeschlossen 10 Jahre nach Abgabe der Willenserklärung (§ 124 Abs. 3 BGB).",
+  "kernpunkte": [
+   "§ 121 Abs. 1 S. 1 BGB: unverzüglich = ohne schuldhaftes Zögern ab Kenntnis",
+   "Absendung genügt (§ 121 Abs. 1 S. 2 BGB)",
+   "§ 124 BGB: ein Jahr ab Entdeckung/Ende der Zwangslage",
+   "Absolute Grenze 10 Jahre ab Abgabe"
+  ],
+  "stichwoerter": [
+   [
+    "§ 121",
+    "unverzüglich|schuldhaft"
+   ],
+   [
+    "Absendung|abgesendet"
+   ],
+   [
+    "§ 124",
+    "Jahr"
+   ],
+   [
+    "10 Jahre|zehn"
+   ]
+  ],
+  "normen": [
+   "§ 121 BGB",
+   "§ 124 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-046",
+  "thema": "anfechtung",
+  "schwierigkeit": 2,
+  "frage": "Wann schuldet der Anfechtende Schadensersatz, und in welcher Höhe?",
+  "antwort": "Nach **§ 122 Abs. 1 BGB** – nur bei Nichtigkeit nach **§ 118 BGB** oder Anfechtung nach **§§ 119, 120 BGB**, nicht bei § 123 BGB. Ersetzt wird der **Vertrauensschaden** (negatives Interesse): Der Gegner ist so zu stellen, als hätte er nie auf die Gültigkeit vertraut (z. B. Vertragskosten, entgangenes anderes Geschäft) – höchstens bis zur Höhe des **Erfüllungsinteresses**. Ausgeschlossen, wenn der Geschädigte den Grund der Nichtigkeit/Anfechtbarkeit **kannte oder kennen musste** (§ 122 Abs. 2 BGB). Die Haftung ist verschuldensunabhängig; ersatzberechtigt ist der Erklärungsempfänger bzw. bei nicht empfangsbedürftigen Erklärungen jeder Dritte.",
+  "kernpunkte": [
+   "Nur bei § 118 und §§ 119, 120 BGB",
+   "Nicht bei § 123 BGB",
+   "Vertrauensschaden / negatives Interesse",
+   "Begrenzt durch Erfüllungsinteresse",
+   "Ausschluss § 122 Abs. 2 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 118|§ 119|§ 120"
+   ],
+   [
+    "§ 123",
+    "nicht"
+   ],
+   [
+    "Vertrauensschaden|negativ"
+   ],
+   [
+    "Erfüllungsinteresse|begrenzt|höchstens"
+   ],
+   [
+    "§ 122 Abs. 2|kennen musste"
+   ]
+  ],
+  "normen": [
+   "§ 122 BGB",
+   "§ 118 BGB",
+   "§ 119 BGB",
+   "§ 120 BGB",
+   "§ 123 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-047",
+  "thema": "schuldverhaeltnisse",
+  "schwierigkeit": 1,
+  "frage": "Nennen Sie drei Arten von Schuldverhältnissen mit Norm und Beispiel.",
+  "antwort": "**Klausurantwort (Einteilung der Vorlesung nach dem Entstehungsgrund):**\n1. **Rechtsgeschäftliche (vertragliche) Schuldverhältnisse** – entstehen in der Regel durch Vertrag, **§ 311 Abs. 1 BGB** (ausnahmsweise durch einseitiges Rechtsgeschäft, z. B. Auslobung); Beispiel: Kaufvertrag (§ 433 BGB).\n2. **Rechtsgeschäftsähnliche (vorvertragliche) Schuldverhältnisse** – entstehen durch Vertragsverhandlungen, Vertragsanbahnung oder ähnliche geschäftliche Kontakte, **§ 311 Abs. 2 i. V. m. § 241 Abs. 2 BGB**; Beispiel: Kundin rutscht im Supermarkt auf einem Gemüseblatt aus, bevor sie etwas kauft (c.i.c., Schadensersatz aus § 280 Abs. 1 BGB) – oder Malware auf der Website eines Online-Shops.\n3. **Gesetzliche Schuldverhältnisse** – entstehen kraft Gesetzes unabhängig vom Willen: Geschäftsführung ohne Auftrag (**§§ 677 ff. BGB**, z. B. Erste Hilfe), ungerechtfertigte Bereicherung (**§§ 812 ff. BGB**, z. B. Rückzahlung einer Doppelüberweisung), unerlaubte Handlung (**§§ 823 ff. BGB**, z. B. Verkehrsunfall).\nWeitere mögliche Einteilungen: nach Pflichtenstruktur (einseitig verpflichtend wie Schenkung, unvollkommen zweiseitig wie Leihe/Auftrag, gegenseitig wie Kauf) und nach Dauer (Ziel- vs. Dauerschuldverhältnis).",
+  "kernpunkte": [
+   "Rechtsgeschäftlich/vertraglich (§ 311 Abs. 1 BGB) mit Beispiel",
+   "Vorvertraglich/rechtsgeschäftsähnlich (§ 311 Abs. 2 i. V. m. § 241 Abs. 2 BGB) mit Beispiel",
+   "Gesetzlich (GoA §§ 677 ff., Bereicherung §§ 812 ff., Delikt §§ 823 ff.) mit Beispiel"
+  ],
+  "stichwoerter": [
+   [
+    "rechtsgeschäftlich|Kaufvertrag|§ 433",
+    "§ 311 Abs. 1"
+   ],
+   [
+    "vorvertraglich|rechtsgeschäftsähnlich|c.i.c|culpa|Vertragsverhandlung|Anbahnung",
+    "§ 311 Abs. 2"
+   ],
+   [
+    "gesetzlich|kraft Gesetzes",
+    "§ 677|§ 812|§ 823|GoA|Bereicherung|Delikt|unerlaubte"
+   ]
+  ],
+  "normen": [
+   "§ 311 BGB",
+   "§ 241 BGB",
+   "§ 280 BGB",
+   "§ 433 BGB",
+   "§ 677 BGB",
+   "§ 812 BGB",
+   "§ 823 BGB"
+  ],
+  "quelle": "material:folien",
+  "klausurantwort": true,
+  "geprueft": true
+ },
+ {
+  "id": "wi-048",
+  "thema": "schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Ordnen Sie Schuldverhältnisse nach ihrer Pflichtenstruktur. Nennen Sie je ein Beispiel.",
+  "antwort": "- **Einseitig verpflichtend:** Nur eine Seite ist zur Leistung verpflichtet – Schenkungsversprechen (§ 516, § 518 BGB).\n- **Unvollkommen zweiseitig verpflichtend:** Hauptpflicht nur auf einer Seite, die andere Seite trifft ggf. Nebenpflichten (z. B. Aufwendungsersatz) – Leihe (§ 598 BGB), Auftrag (§ 662, § 670 BGB).\n- **Gegenseitig (synallagmatisch):** Leistung und Gegenleistung stehen im Austauschverhältnis – Kauf (§ 433 BGB), Miete (§ 535 BGB), Werkvertrag (§ 631 BGB); Folge z. B. § 320 BGB.",
+  "kernpunkte": [
+   "Einseitig verpflichtend (Schenkung)",
+   "Unvollkommen zweiseitig (Leihe, Auftrag)",
+   "Gegenseitig/synallagmatisch (Kauf, Miete)",
+   "Bedeutung z. B. § 320 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "einseitig",
+    "Schenkung"
+   ],
+   [
+    "unvollkommen",
+    "Leihe|Auftrag"
+   ],
+   [
+    "gegenseitig|synallagma",
+    "Kauf|Miete"
+   ],
+   [
+    "§ 320"
+   ]
+  ],
+  "normen": [
+   "§ 516 BGB",
+   "§ 518 BGB",
+   "§ 598 BGB",
+   "§ 662 BGB",
+   "§ 670 BGB",
+   "§ 433 BGB",
+   "§ 535 BGB",
+   "§ 631 BGB",
+   "§ 320 BGB"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "wi-049",
+  "thema": "schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Was unterscheidet ein Zielschuldverhältnis von einem Dauerschuldverhältnis?",
+  "antwort": "Beim **Zielschuldverhältnis** erschöpft sich die Leistung in einem einmaligen Austausch und erlischt mit Erfüllung (§ 362 BGB) – z. B. Kauf (§ 433 BGB). Beim **Dauerschuldverhältnis** werden fortlaufend Leistungen geschuldet, der Umfang hängt von der Dauer ab – z. B. Miete (§ 535 BGB), Arbeitsvertrag (§ 611a BGB), Abonnement. Es endet durch Zeitablauf oder **Kündigung** (bei wichtigem Grund § 314 BGB) statt durch Rücktritt. Im Minderjährigenrecht greift § 110 BGB bei Dauerschuldverhältnissen allenfalls für die jeweils bereits bewirkten Zeitabschnitte; eine langfristige Bindung für die Zukunft deckt er nicht.",
+  "kernpunkte": [
+   "Zielschuld: einmaliger Austausch, Erlöschen durch Erfüllung",
+   "Dauerschuld: fortlaufende Leistung",
+   "Beispiele Kauf vs. Miete/Arbeit/Abo",
+   "Beendigung durch Kündigung"
+  ],
+  "stichwoerter": [
+   [
+    "Ziel",
+    "einmalig|Erfüllung"
+   ],
+   [
+    "Dauer",
+    "fortlaufend|laufend"
+   ],
+   [
+    "Kauf",
+    "Miete|Arbeit|Abo"
+   ],
+   [
+    "Kündigung"
+   ]
+  ],
+  "normen": [
+   "§ 362 BGB",
+   "§ 433 BGB",
+   "§ 535 BGB",
+   "§ 611a BGB",
+   "§ 314 BGB",
+   "§ 110 BGB"
+  ],
+  "quelle": "zusatz",
+  "geprueft": true
+ },
+ {
+  "id": "wi-050",
+  "thema": "schuldverhaeltnisse",
+  "schwierigkeit": 1,
+  "frage": "Welche Pflichten können aus einem Schuldverhältnis folgen? Nennen Sie die Normen.",
+  "antwort": "Nach **§ 241 Abs. 1 BGB** ist der Gläubiger berechtigt, vom Schuldner eine **Leistung** zu fordern (Leistungspflichten: Hauptleistungspflichten, z. B. Übergabe und Übereignung nach § 433 Abs. 1 BGB und Kaufpreiszahlung nach § 433 Abs. 2 BGB, sowie Nebenleistungspflichten, z. B. Abnahme der Kaufsache nach § 433 Abs. 2 BGB, Verpackung oder Montageanleitung). Nach **§ 241 Abs. 2 BGB** bestehen außerdem **Rücksichtnahmepflichten** (Schutzpflichten) gegenüber Rechten, Rechtsgütern und Interessen des anderen Teils; ihre Verletzung kann Schadensersatz nach § 280 Abs. 1 BGB auslösen.",
+  "kernpunkte": [
+   "Leistungspflichten (§ 241 Abs. 1 BGB)",
+   "Haupt- und Nebenleistungspflichten (Beispiel § 433 BGB)",
+   "Rücksichtnahmepflichten (§ 241 Abs. 2 BGB)",
+   "Schadensersatz § 280 Abs. 1 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 241 Abs. 1|Leistung"
+   ],
+   [
+    "Hauptpflicht|Nebenpflicht|§ 433"
+   ],
+   [
+    "§ 241 Abs. 2|Rücksicht|Schutzpflicht"
+   ],
+   [
+    "§ 280"
+   ]
+  ],
+  "normen": [
+   "§ 241 BGB",
+   "§ 433 BGB",
+   "§ 280 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-051",
+  "thema": "schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Ist eine „invitatio ad offerendum“ rechtlich folgenlos? Begründen Sie mit Normen.",
+  "antwort": "Nein. Sie ist zwar **kein Angebot** (fehlender Rechtsbindungswille), der dadurch veranlasste geschäftliche Kontakt (Betreten des Ladens, Aufruf der Website) begründet aber nach der Vorlesung bereits ein **vorvertragliches Schuldverhältnis** durch Vertragsanbahnung bzw. ähnliche geschäftliche Kontakte (**§ 311 Abs. 2 Nr. 2, 3 BGB**). Daraus folgen Rücksichtnahmepflichten (**§ 241 Abs. 2 BGB**); ihre schuldhafte Verletzung kann Schadensersatz aus **§ 280 Abs. 1 BGB** (c.i.c.) begründen – etwa wenn ein Kunde durch eine präparierte Website geschädigt wird.",
+  "kernpunkte": [
+   "Kein Angebot (kein Rechtsbindungswille)",
+   "Vorvertragliches Schuldverhältnis § 311 Abs. 2 BGB",
+   "Rücksichtnahmepflichten § 241 Abs. 2 BGB",
+   "Schadensersatz § 280 Abs. 1 BGB (c.i.c.)"
+  ],
+  "stichwoerter": [
+   [
+    "kein Angebot|Rechtsbindungswille"
+   ],
+   [
+    "§ 311 Abs. 2|vorvertraglich"
+   ],
+   [
+    "§ 241 Abs. 2|Rücksicht"
+   ],
+   [
+    "§ 280|c.i.c"
+   ]
+  ],
+  "normen": [
+   "§ 311 BGB",
+   "§ 241 BGB",
+   "§ 280 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ }
+]

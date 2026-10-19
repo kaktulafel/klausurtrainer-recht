@@ -43,8 +43,23 @@ test('Blöcke und Wortzähler', () => {
 });
 
 test('Kernpunkte', () => {
-  const r = kernpunktCheck(['Taschengeld § 110 BGB', 'Leistung vollständig bewirkt'], 'Nach § 110 gilt der Vertrag als wirksam, wenn die Leistung bewirkt ist.', [['§ 110', 'Taschengeld|Mittel'], ['bewirkt', 'vollständig']]);
+  const r = kernpunktCheck(['Taschengeld § 110 BGB', 'Leistung vollständig bewirkt'], 'Nach § 110 gilt der Vertrag als wirksam, wenn die Leistung mit überlassenen Mitteln vollständig bewirkt ist.', [['§ 110', 'Taschengeld|Mittel'], ['bewirkt', 'vollständig']]);
   assert.equal(r[0].getroffen, true);
   assert.equal(r[1].getroffen, true);
   assert.equal(kernpunktCheck(['Anfechtungsfrist unverzüglich'], 'nichts dazu')[0].getroffen, false);
+});
+
+test('Begriffe: Zahlen und kurze Wörter exakt, keine Allerwelts-Treffer', () => {
+  assert.equal(enthaeltBegriff('Verjährung nach § 214 BGB', '§ 2'), false);
+  assert.equal(enthaeltBegriff('volljährig nach § 2 BGB', '§ 2'), true);
+  assert.equal(enthaeltBegriff('Kinder unter sieben Jahren', 'unter 7'), false);
+  assert.equal(enthaeltBegriff('Kinder unter 7 Jahren', 'unter 7'), true);
+  assert.equal(enthaeltBegriff('auch wenn sie das Obst verzehrt', 'verzehrt|verbraucht'), true);
+  assert.equal(enthaeltBegriff('Geschäftsfähigkeit', 'Geschäftsfähig'), true);
+});
+
+test('Kernpunkte: bei zwei Gruppen müssen beide passen', () => {
+  const r = kernpunktCheck(['X'], 'nur das Ergebnis', [['Ergebnis', 'Ende|Schluss']]);
+  assert.equal(r[0].getroffen, false);
+  assert.equal(kernpunktCheck(['X'], 'Ergebnis am Ende', [['Ergebnis', 'Ende|Schluss']])[0].getroffen, true);
 });

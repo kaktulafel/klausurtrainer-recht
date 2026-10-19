@@ -16,13 +16,21 @@ export function woerter(text) {
  * Mehrwortbegriffe: alle Wörter müssen (in Stammform, erste 5 Zeichen) vorkommen.
  */
 export function enthaeltBegriff(text, begriff) {
-  const t = ' ' + normalisiere(text) + ' ';
+  const norm = normalisiere(text);
+  const t = ' ' + norm + ' ';
+  const tokens = norm.split(' ');
+  // Ein Wort passt, wenn es als Token vorkommt (Zahlen/kurze Wörter exakt), längere Wörter auch als Wortanfang (Flexion).
+  const wortPasst = (w) => {
+    if (/\d/.test(w) || w.length <= 4) return tokens.includes(w);
+    const stamm = w.slice(0, Math.max(5, w.length - 2));
+    return tokens.some(tok => tok.startsWith(stamm));
+  };
   return String(begriff).split('|').some(alt => {
     const n = normalisiere(alt);
     if (!n) return false;
-    if (t.includes(' ' + n)) return true;
-    const teile = n.split(' ').filter(w => w.length > 2);
-    return teile.length > 0 && teile.every(w => t.includes(' ' + w.slice(0, Math.max(4, Math.min(6, w.length - 1)))));
+    if (t.includes(' ' + n + ' ')) return true;
+    const teile = n.split(' ').filter(w => w.length > 2 || /\d|§/.test(w)).filter(w => w !== '§');
+    return teile.length > 0 && teile.every(wortPasst);
   });
 }
 
@@ -96,7 +104,8 @@ export function kernpunktCheck(kernpunkte, text, stichwoerter) {
     const sw = stichwoerter && stichwoerter[i] ? stichwoerter[i] : null;
     if (sw && sw.length) {
       const treffer = sw.filter(w => enthaeltBegriff(text, w)).length;
-      return { kernpunkt: kp, getroffen: treffer >= Math.ceil(sw.length / 2) };
+      // Mindestens 60 % der Stichwortgruppen (bei zwei Gruppen also beide)
+      return { kernpunkt: kp, getroffen: treffer >= Math.ceil(sw.length * 0.6) };
     }
     const woerter = normalisiere(kp).split(' ').filter(w => w.length > 4 && !STOP.has(w));
     if (!woerter.length) return { kernpunkt: kp, getroffen: false };

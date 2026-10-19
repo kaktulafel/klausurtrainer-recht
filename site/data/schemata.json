@@ -1,1 +1,1115 @@
-[]
+[
+ {
+  "id": "schema-gutachten",
+  "titel": "Gutachtenstil: Aufbau jeder Prüfung",
+  "thema": "gutachtenstil",
+  "normen": [],
+  "einleitung": "So wird jede Prüfung aufgebaut – der Stil wird in der Klausur eigens bepunktet (Probeklausur: 18 von 48 Punkten).",
+  "knoten": [
+   {
+    "text": "Obersatz",
+    "hinweis": "Wer will was von wem woraus? Konjunktiv: „A könnte gegen B einen Anspruch auf … aus § … haben.“ Beim Gestaltungsrecht: „A könnte … durch Anfechtung gemäß § 142 Abs. 1 BGB rückwirkend beseitigt haben.“"
+   },
+   {
+    "text": "Voraussetzungen benennen",
+    "hinweis": "„Dies setzt voraus, dass …“ – Tatbestandsmerkmale der Norm aufzählen."
+   },
+   {
+    "text": "Definition je Tatbestandsmerkmal",
+    "hinweis": "„Unter … versteht man …“ – ggf. in mehreren Ebenen (Definition enthält weiter zu definierende Begriffe)."
+   },
+   {
+    "text": "Subsumtion",
+    "hinweis": "Sachverhalt unter die Definition ordnen: „Vorliegend …“ – mit Tatsachen aus dem Sachverhalt argumentieren, nicht behaupten."
+   },
+   {
+    "text": "Zwischenergebnis je Merkmal",
+    "hinweis": "„Somit liegt … vor.“"
+   },
+   {
+    "text": "Ergebnis",
+    "hinweis": "„Folglich hat A gegen B einen/keinen Anspruch auf … aus § … .“ Rechtsfolge feststellen."
+   }
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "schema-anspruch",
+  "titel": "Anspruchsaufbau: entstanden – erloschen – durchsetzbar",
+  "thema": "anspruchsaufbau",
+  "normen": [
+   "§ 194 BGB",
+   "§ 362 BGB",
+   "§ 389 BGB",
+   "§ 397 BGB",
+   "§ 275 BGB",
+   "§ 142 BGB",
+   "§ 214 BGB",
+   "§ 273 BGB",
+   "§ 320 BGB",
+   "§ 346 BGB",
+   "§ 433 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Anspruch entstanden",
+    "hinweis": "Anspruchsgrundlage erfüllt (Vertrag, z. B. § 433 Abs. 2 BGB; c.i.c.; § 812; § 823 …); keine rechtshindernden Einwendungen (§§ 105, 108, 125, 134, 138 BGB).",
+    "kinder": [
+     {
+      "text": "Anspruchsgrundlage (z. B. § 433 Abs. 2 BGB; Legaldefinition Anspruch § 194 BGB)",
+      "norm": "§ 433 Abs. 2 BGB"
+     },
+     {
+      "text": "Keine Wirksamkeitshindernisse (Geschäftsfähigkeit, Form, Verbot, Sittenwidrigkeit)",
+      "hinweis": "§§ 104 ff., 125, 134, 138 BGB."
+     }
+    ]
+   },
+   {
+    "text": "Anspruch nicht erloschen (rechtsvernichtende Einwendungen, von Amts wegen)",
+    "kinder": [
+     {
+      "text": "Erfüllung",
+      "norm": "§ 362 Abs. 1 BGB"
+     },
+     {
+      "text": "Aufrechnung",
+      "norm": "§ 389 BGB"
+     },
+     {
+      "text": "Erlass",
+      "norm": "§ 397 Abs. 1 BGB"
+     },
+     {
+      "text": "Unmöglichkeit",
+      "norm": "§ 275 Abs. 1 BGB",
+      "hinweis": "Gegenleistung: § 326 Abs. 1 BGB."
+     },
+     {
+      "text": "Wirksame Anfechtung (Nichtigkeit ex tunc)",
+      "norm": "§ 142 Abs. 1 BGB",
+      "hinweis": "Systematisch str. (ex tunc, daher teils als rechtshindernd eingeordnet); klausurüblich hier („Anspruch untergegangen“)."
+     },
+     {
+      "text": "Rücktritt (Rückgewährschuldverhältnis)",
+      "norm": "§ 346 Abs. 1 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Anspruch durchsetzbar (Einreden, nur wenn erhoben)",
+    "kinder": [
+     {
+      "text": "Verjährung",
+      "norm": "§ 214 Abs. 1 BGB"
+     },
+     {
+      "text": "Zurückbehaltungsrecht",
+      "norm": "§ 273 Abs. 1 BGB"
+     },
+     {
+      "text": "Nicht erfüllter Vertrag",
+      "norm": "§ 320 Abs. 1 BGB"
+     },
+     {
+      "text": "Stundung (vertraglich)"
+     }
+    ]
+   },
+   {
+    "text": "Endergebnis"
+   }
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "schema-we",
+  "titel": "Willenserklärung: Tatbestand und Wirksamwerden",
+  "thema": "willenserklaerung",
+  "normen": [
+   "§ 133 BGB",
+   "§ 157 BGB",
+   "§ 130 BGB",
+   "§ 116 BGB",
+   "§ 117 BGB",
+   "§ 118 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Äußerer (objektiver) Tatbestand",
+    "hinweis": "Verhalten, das aus Sicht eines objektiven Empfängers auf einen Rechtsbindungswillen schließen lässt; ausdrücklich oder konkludent. Auslegung §§ 133, 157 BGB.",
+    "norm": "§ 133 BGB"
+   },
+   {
+    "text": "Innerer (subjektiver) Tatbestand",
+    "kinder": [
+     {
+      "text": "Handlungswille",
+      "hinweis": "Willensgetragenes Verhalten (fehlt bei Reflex, Hypnose) – fehlt er, liegt keine WE vor."
+     },
+     {
+      "text": "Erklärungsbewusstsein",
+      "hinweis": "Bewusstsein, rechtlich Erhebliches zu erklären. Fehlt es (Winken in der Auktion), liegt nach h. M. dennoch eine WE vor, wenn der Erklärende dies bei Sorgfalt hätte erkennen können und der Empfänger die Erklärung als WE verstehen durfte; der Erklärende kann anfechten (§ 119 Abs. 1 BGB analog). Nur der Handlungswille ist zwingend."
+     },
+     {
+      "text": "Geschäftswille",
+      "hinweis": "Wille, ein bestimmtes Rechtsgeschäft abzuschließen; fehlt er, ist die WE wirksam, aber ggf. anfechtbar (§ 119 BGB)."
+     }
+    ]
+   },
+   {
+    "text": "Abgabe",
+    "hinweis": "Willentliche Entäußerung in Richtung Empfänger. Abhanden gekommene WE (Entwurf auf dem Tisch wird von Dritten abgeschickt): h. M. keine Abgabe, also keine WE; bei Fahrlässigkeit Ersatz des Vertrauensschadens analog § 122 BGB. A. A. (so die Vorlesungslösung): Zurechnung wie bei fehlendem Erklärungsbewusstsein, dann Anfechtung analog § 119 BGB und Haftung nach § 122 BGB."
+   },
+   {
+    "text": "Zugang (bei empfangsbedürftigen WE)",
+    "norm": "§ 130 Abs. 1 S. 1 BGB",
+    "hinweis": "Machtbereich + Möglichkeit der Kenntnisnahme unter gewöhnlichen Umständen; Widerruf spätestens gleichzeitig verhindert Wirksamkeit (§ 130 Abs. 1 S. 2 BGB)."
+   },
+   {
+    "text": "Keine Nichtigkeit wegen Willensmängeln",
+    "kinder": [
+     {
+      "text": "Geheimer Vorbehalt unbeachtlich",
+      "norm": "§ 116 S. 1 BGB",
+      "hinweis": "Nichtig nur, wenn der Empfänger den Vorbehalt kennt (S. 2)."
+     },
+     {
+      "text": "Scheingeschäft nichtig",
+      "norm": "§ 117 Abs. 1 BGB"
+     },
+     {
+      "text": "Scherzerklärung nichtig",
+      "norm": "§ 118 BGB"
+     }
+    ]
+   }
+  ],
+  "quelle": "material:faelle-1",
+  "geprueft": true
+ },
+ {
+  "id": "schema-zugang",
+  "titel": "Zugang einer Willenserklärung",
+  "thema": "zugang",
+  "normen": [
+   "§ 130 BGB",
+   "§ 147 BGB",
+   "§ 242 BGB",
+   "§ 151 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Empfangsbedürftige Willenserklärung?",
+    "hinweis": "Ja bei Angebot, Annahme (Ausnahme § 151 BGB), Kündigung, Anfechtung, Rücktritt."
+   },
+   {
+    "text": "Zugang",
+    "kinder": [
+     {
+      "text": "Unter Anwesenden (auch Telefon): Vernehmen",
+      "hinweis": "Ungeschrieben (eingeschränkte Vernehmungstheorie): wirksam, wenn der Empfänger die Erklärung verstanden hat bzw. der Erklärende davon ausgehen durfte. Das Telefon wird nach der Wertung des § 147 Abs. 1 S. 2 BGB wie Anwesenheit behandelt."
+     },
+     {
+      "text": "Unter Abwesenden: Machtbereich + Kenntnisnahme unter gewöhnlichen Umständen",
+      "norm": "§ 130 Abs. 1 S. 1 BGB",
+      "hinweis": "Briefkasten: bis zur üblichen Leerungszeit am selben Tag, danach am Folgetag; private E-Mail spätabends: nächster Tag; Geschäftspost: während der Geschäftszeit. Tatsächliche Kenntnisnahme unerheblich."
+     },
+     {
+      "text": "Einschaltung Dritter",
+      "hinweis": "Erklärungsbote (Lager des Erklärenden): Zugang erst bei Weitergabe. Empfangsbote (Mitbewohner, Ehegatte): Zugang, wenn mit Weitergabe zu rechnen ist."
+     }
+    ]
+   },
+   {
+    "text": "Kein vorheriger oder gleichzeitiger Widerruf",
+    "norm": "§ 130 Abs. 1 S. 2 BGB"
+   },
+   {
+    "text": "Ggf. Zugangsvereitelung",
+    "norm": "§ 242 BGB",
+    "hinweis": "Treu und Glauben (Folie: § 162 Abs. 1 BGB analog): bei arglistiger Vereitelung Zugangsfiktion; sonst muss der Erklärende unverzüglich einen neuen Zustellversuch unternehmen, dann wirkt der Zugang auf den ersten Versuch zurück."
+   }
+  ],
+  "quelle": "material:faelle-2",
+  "geprueft": true
+ },
+ {
+  "id": "schema-vertrag",
+  "titel": "Vertragsschluss (§§ 145 ff. BGB) inkl. Versteigerung",
+  "thema": "vertragsschluss",
+  "normen": [
+   "§ 145 BGB",
+   "§ 147 BGB",
+   "§ 150 BGB",
+   "§ 151 BGB",
+   "§ 154 BGB",
+   "§ 155 BGB",
+   "§ 156 BGB",
+   "§ 241a BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Angebot (Antrag)",
+    "norm": "§ 145 BGB",
+    "hinweis": "WE mit Rechtsbindungswillen und essentialia negotii (Parteien, Gegenstand, Preis); Abgrenzung invitatio ad offerendum (Schaufenster, Katalog, Plakat)."
+   },
+   {
+    "text": "Wirksamwerden und Fortbestehen des Angebots",
+    "norm": "§ 146 BGB",
+    "hinweis": "Zugang (§ 130 BGB); erlischt bei Ablehnung oder Fristablauf (§§ 147, 148 BGB)."
+   },
+   {
+    "text": "Annahme",
+    "hinweis": "Vorbehaltlose Zustimmung; ausdrücklich/konkludent; rechtzeitig (§§ 147, 148 BGB); Zugang ggf. entbehrlich (§ 151 BGB); verspätet/geändert = neues Angebot (§ 150 BGB).",
+    "norm": "§ 147 BGB"
+   },
+   {
+    "text": "Einigung / kein Dissens",
+    "norm": "§ 155 BGB",
+    "hinweis": "Offener Dissens: im Zweifel kein Vertrag (§ 154 BGB); versteckter Dissens: § 155 BGB."
+   },
+   {
+    "text": "Besonderheiten",
+    "kinder": [
+     {
+      "text": "Versteigerung: Gebot = Antrag, Zuschlag = Annahme",
+      "norm": "§ 156 S. 1 BGB",
+      "hinweis": "Gebot erlischt bei Übergebot oder Schluss der Versteigerung ohne Zuschlag (S. 2)."
+     },
+     {
+      "text": "Unbestellte Leistung Unternehmer → Verbraucher: kein Anspruch",
+      "norm": "§ 241a Abs. 1 BGB"
+     }
+    ]
+   }
+  ],
+  "quelle": "material:faelle-5",
+  "geprueft": true
+ },
+ {
+  "id": "schema-minderjaehrige",
+  "titel": "Geschäftsfähigkeit / Minderjährigenrecht",
+  "thema": "geschaeftsfaehigkeit",
+  "normen": [
+   "§ 104 BGB",
+   "§ 105 BGB",
+   "§ 106 BGB",
+   "§ 107 BGB",
+   "§ 108 BGB",
+   "§ 110 BGB",
+   "§ 112 BGB",
+   "§ 113 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Alter feststellen",
+    "norm": "§ 106 BGB",
+    "hinweis": "Unter 7: geschäftsunfähig (§ 104 Nr. 1 BGB) → WE nichtig (§ 105 Abs. 1 BGB); 7–17: beschränkt geschäftsfähig (§ 106 BGB); Geburtstag mitzählen (§ 187 Abs. 2 S. 2 BGB)."
+   },
+   {
+    "text": "Teilgeschäftsfähigkeit?",
+    "kinder": [
+     {
+      "text": "Selbständiges Erwerbsgeschäft (mit Genehmigung Familiengericht)",
+      "norm": "§ 112 BGB"
+     },
+     {
+      "text": "Dienst-/Arbeitsverhältnis (nicht Ausbildung)",
+      "norm": "§ 113 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Lediglich rechtlicher Vorteil?",
+    "norm": "§ 107 BGB",
+    "hinweis": "Nur rechtliche Folgen zählen; Kaufvertrag (Zahlungspflicht) nachteilig, Übereignung an den Minderjährigen vorteilhaft (Abstraktionsprinzip)."
+   },
+   {
+    "text": "Einwilligung des gesetzlichen Vertreters?",
+    "norm": "§ 183 BGB",
+    "hinweis": "§ 107 BGB i. V. m. § 183 BGB; Eltern gemeinsam (§ 1629 Abs. 1 BGB); Generaleinwilligung möglich.",
+    "kinder": [
+     {
+      "text": "Taschengeldparagraph – Leistung vollständig mit überlassenen Mitteln bewirkt",
+      "norm": "§ 110 BGB",
+      "hinweis": "Ratenkauf erst mit letzter Rate; keine langfristigen Bindungen (Abo)."
+     }
+    ]
+   },
+   {
+    "text": "Rechtsfolge ohne Einwilligung",
+    "kinder": [
+     {
+      "text": "Vertrag: schwebend unwirksam, Genehmigung wirkt zurück",
+      "norm": "§ 108 Abs. 1 BGB",
+      "hinweis": "Rückwirkung § 184 Abs. 1 BGB; Aufforderung → 2 Wochen (§ 108 Abs. 2 BGB); Widerruf des Vertragspartners (§ 109 BGB)."
+     },
+     {
+      "text": "Einseitiges Rechtsgeschäft: unwirksam (kein Schwebezustand)",
+      "norm": "§ 111 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Rückabwicklung bei Unwirksamkeit",
+    "norm": "§ 812 Abs. 1 S. 1 BGB",
+    "hinweis": "Leistungskondiktion (Alt. 1); Entreicherung § 818 Abs. 3 BGB."
+   }
+  ],
+  "quelle": "material:faelle-3",
+  "geprueft": true
+ },
+ {
+  "id": "schema-anfechtung",
+  "titel": "Anfechtung",
+  "thema": "anfechtung",
+  "normen": [
+   "§ 142 BGB",
+   "§ 119 BGB",
+   "§ 120 BGB",
+   "§ 123 BGB",
+   "§ 143 BGB",
+   "§ 121 BGB",
+   "§ 124 BGB",
+   "§ 144 BGB",
+   "§ 122 BGB"
+  ],
+  "einleitung": "Gestaltungsrecht – kein Anspruch! Obersatz: „A könnte seine Willenserklärung durch Anfechtung gemäß § 142 Abs. 1 BGB rückwirkend beseitigt haben.“ Im Anspruchsaufbau: rechtsvernichtende Einwendung („Anspruch untergegangen“). Reihenfolge im Puzzle = Reihenfolge der Vorlesung (manche Lehrbücher prüfen die Erklärung vor dem Grund – beides ist vertretbar).",
+  "knoten": [
+   {
+    "text": "Anfechtbare Willenserklärung",
+    "hinweis": "Auch Vollmachtserteilung (§ 167 BGB). Achtung: § 166 Abs. 1 BGB betrifft das Vertretergeschäft, nicht die Vollmachtserteilung."
+   },
+   {
+    "text": "Anfechtungsgrund (mit echter Subsumtion!)",
+    "kinder": [
+     {
+      "text": "Inhaltsirrtum",
+      "norm": "§ 119 Abs. 1 Alt. 1 BGB",
+      "hinweis": "Erklärt, was gewollt, aber über Bedeutung geirrt."
+     },
+     {
+      "text": "Erklärungsirrtum",
+      "norm": "§ 119 Abs. 1 Alt. 2 BGB",
+      "hinweis": "Versprechen, Verschreiben, Vertippen."
+     },
+     {
+      "text": "Eigenschaftsirrtum (verkehrswesentliche Eigenschaft von Sache/Person)",
+      "norm": "§ 119 Abs. 2 BGB",
+      "hinweis": "Wertbildende Faktoren, nicht der Wert selbst; Motivirrtum sonst unbeachtlich."
+     },
+     {
+      "text": "Falsche Übermittlung durch Boten",
+      "norm": "§ 120 BGB"
+     },
+     {
+      "text": "Arglistige Täuschung",
+      "norm": "§ 123 Abs. 1 Alt. 1 BGB",
+      "hinweis": "Täuschung, Irrtum, Kausalität, Arglist; Dritte: § 123 Abs. 2 BGB."
+     },
+     {
+      "text": "Widerrechtliche Drohung",
+      "norm": "§ 123 Abs. 1 Alt. 2 BGB",
+      "hinweis": "Empfindliches Übel; Widerrechtlichkeit von Mittel, Zweck oder Zweck-Mittel-Relation."
+     }
+    ],
+    "hinweis": "Der Irrtum muss ursächlich und bei verständiger Würdigung erheblich sein (§ 119 Abs. 1 a. E. BGB)."
+   },
+   {
+    "text": "Anfechtungserklärung gegenüber dem Anfechtungsgegner",
+    "norm": "§ 143 Abs. 1 BGB",
+    "hinweis": "Vertrag: der andere Teil (Abs. 2); einseitiges Rechtsgeschäft/Innenvollmacht: Empfänger (Abs. 3 S. 1). Wort „anfechten“ nicht nötig (Auslegung)."
+   },
+   {
+    "text": "Anfechtungsfrist",
+    "kinder": [
+     {
+      "text": "Irrtum: unverzüglich (ohne schuldhaftes Zögern)",
+      "norm": "§ 121 Abs. 1 S. 1 BGB",
+      "hinweis": "Unter Abwesenden genügt unverzügliche Absendung (§ 121 Abs. 1 S. 2 BGB); spätestens 10 Jahre nach Abgabe (§ 121 Abs. 2 BGB)."
+     },
+     {
+      "text": "Täuschung/Drohung: ein Jahr ab Entdeckung bzw. Ende der Zwangslage",
+      "norm": "§ 124 Abs. 1 BGB",
+      "hinweis": "Spätestens 10 Jahre nach Abgabe (§ 124 Abs. 3 BGB)."
+     }
+    ]
+   },
+   {
+    "text": "Kein Ausschluss durch Bestätigung",
+    "norm": "§ 144 Abs. 1 BGB"
+   },
+   {
+    "text": "Rechtsfolgen",
+    "kinder": [
+     {
+      "text": "Nichtigkeit von Anfang an (ex tunc)",
+      "norm": "§ 142 Abs. 1 BGB"
+     },
+     {
+      "text": "Kenntnis der Anfechtbarkeit = Kenntnis der Nichtigkeit",
+      "norm": "§ 142 Abs. 2 BGB",
+      "hinweis": "Wichtig für § 179 BGB und Bösgläubigkeit."
+     },
+     {
+      "text": "Vertrauensschaden nur bei §§ 118–120, nicht bei § 123 BGB",
+      "norm": "§ 122 Abs. 1 BGB",
+      "hinweis": "Ausschluss bei Kenntnis/Kennenmüssen des Geschädigten (§ 122 Abs. 2 BGB)."
+     }
+    ]
+   }
+  ],
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "schema-vertretung",
+  "titel": "Stellvertretung (§ 164 BGB)",
+  "thema": "stellvertretung",
+  "normen": [
+   "§ 164 BGB",
+   "§ 166 BGB",
+   "§ 167 BGB",
+   "§ 168 BGB",
+   "§ 170 BGB",
+   "§ 171 BGB",
+   "§ 173 BGB",
+   "§ 177 BGB",
+   "§ 181 BGB",
+   "§ 165 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Zulässigkeit der Stellvertretung",
+    "hinweis": "Nicht bei höchstpersönlichen Geschäften (Ehe § 1311, Testament § 2064 BGB)."
+   },
+   {
+    "text": "Eigene Willenserklärung des Vertreters",
+    "hinweis": "Abgrenzung zum Boten (überbringt fremde WE): Entscheidungsspielraum, Auftreten nach außen. Beschränkte Geschäftsfähigkeit genügt (§ 165 BGB)."
+   },
+   {
+    "text": "Im fremden Namen (Offenkundigkeit)",
+    "norm": "§ 164 Abs. 1 S. 2 BGB",
+    "hinweis": "Ausdrücklich oder aus den Umständen; Ausnahme: Geschäft für den, den es angeht (Bargeschäft des täglichen Lebens); sonst Eigengeschäft (§ 164 Abs. 2 BGB)."
+   },
+   {
+    "text": "Mit Vertretungsmacht",
+    "kinder": [
+     {
+      "text": "Gesetzlich (Eltern § 1629, Organe § 26 BGB, § 35 GmbHG)",
+      "norm": "§ 1629 Abs. 1 BGB"
+     },
+     {
+      "text": "Rechtsgeschäftlich: Vollmacht (Definition)",
+      "norm": "§ 166 Abs. 2 S. 1 BGB"
+     },
+     {
+      "text": "Erteilung: Innen- oder Außenvollmacht",
+      "norm": "§ 167 Abs. 1 BGB"
+     },
+     {
+      "text": "Nicht erloschen (Grundverhältnis, Widerruf)",
+      "norm": "§ 168 BGB"
+     },
+     {
+      "text": "Rechtsschein: fortwirkende Außenvollmacht (§ 170), Kundgabe, Urkunde; Gutgläubigkeit",
+      "norm": "§ 171 Abs. 1 BGB",
+      "hinweis": "§§ 170–172 BGB; Grenze § 173 BGB; Duldungs-/Anscheinsvollmacht."
+     },
+     {
+      "text": "Umfang nicht überschritten; kein Insichgeschäft",
+      "norm": "§ 181 BGB"
+     },
+     {
+      "text": "Fehlt sie: schwebende Unwirksamkeit, Genehmigung",
+      "norm": "§ 177 Abs. 1 BGB",
+      "hinweis": "Aufforderung: 2 Wochen (§ 177 Abs. 2 BGB); Widerruf des Gegners § 178 BGB; Haftung § 179 BGB."
+     }
+    ]
+   },
+   {
+    "text": "Rechtsfolge: Wirkung für und gegen den Vertretenen",
+    "norm": "§ 164 Abs. 1 S. 1 BGB"
+   }
+  ],
+  "quelle": "material:faelle-6",
+  "geprueft": true
+ },
+ {
+  "id": "schema-179",
+  "titel": "Haftung des Vertreters ohne Vertretungsmacht (§ 179 BGB)",
+  "thema": "vertreter-ohne-vertretungsmacht",
+  "normen": [
+   "§ 179 BGB",
+   "§ 177 BGB",
+   "§ 142 BGB",
+   "§ 165 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Vertrag als Vertreter im fremden Namen geschlossen",
+    "norm": "§ 164 Abs. 1 BGB"
+   },
+   {
+    "text": "Ohne Vertretungsmacht (kein Nachweis)",
+    "hinweis": "Auch rückwirkend nach Anfechtung der Vollmacht (§ 142 Abs. 1 BGB)."
+   },
+   {
+    "text": "Genehmigung verweigert",
+    "norm": "§ 177 Abs. 1 BGB"
+   },
+   {
+    "text": "Kein Ausschluss",
+    "kinder": [
+     {
+      "text": "Gegner kannte/musste den Mangel kennen",
+      "norm": "§ 179 Abs. 3 S. 1 BGB"
+     },
+     {
+      "text": "Vertreter beschränkt geschäftsfähig ohne Zustimmung",
+      "norm": "§ 179 Abs. 3 S. 2 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Rechtsfolge je nach Kenntnis des Vertreters",
+    "kinder": [
+     {
+      "text": "Kenntnis → Erfüllung oder Schadensersatz (positives Interesse) nach Wahl",
+      "norm": "§ 179 Abs. 1 BGB"
+     },
+     {
+      "text": "Kenntnis der Anfechtbarkeit = Kenntnis der Nichtigkeit",
+      "norm": "§ 142 Abs. 2 BGB"
+     },
+     {
+      "text": "Unkenntnis → nur Vertrauensschaden, gedeckelt durch Erfüllungsinteresse",
+      "norm": "§ 179 Abs. 2 BGB"
+     }
+    ]
+   }
+  ],
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "schema-kaufpreis",
+  "titel": "Kaufpreisanspruch (§ 433 Abs. 2 BGB)",
+  "thema": "vertragsschluss",
+  "normen": [
+   "§ 433 BGB",
+   "§ 145 BGB",
+   "§ 164 BGB",
+   "§ 108 BGB",
+   "§ 125 BGB",
+   "§ 134 BGB",
+   "§ 138 BGB",
+   "§ 142 BGB",
+   "§ 362 BGB",
+   "§ 320 BGB",
+   "§ 346 BGB",
+   "§ 355 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Obersatz: V könnte gegen K einen Anspruch auf Zahlung von … € aus § 433 Abs. 2 BGB haben.",
+    "norm": "§ 433 Abs. 2 BGB"
+   },
+   {
+    "text": "Wirksamer Kaufvertrag: Angebot und Annahme",
+    "norm": "§ 145 BGB",
+    "hinweis": "Ggf. Stellvertretung (§ 164 BGB), Versteigerung (§ 156 BGB)."
+   },
+   {
+    "text": "Keine Wirksamkeitshindernisse",
+    "kinder": [
+     {
+      "text": "Geschäftsfähigkeit",
+      "norm": "§ 108 Abs. 1 BGB"
+     },
+     {
+      "text": "Form",
+      "norm": "§ 125 S. 1 BGB"
+     },
+     {
+      "text": "Gesetzliches Verbot",
+      "norm": "§ 134 BGB"
+     },
+     {
+      "text": "Sittenwidrigkeit/Wucher",
+      "norm": "§ 138 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Anspruch nicht untergegangen",
+    "kinder": [
+     {
+      "text": "Anfechtung",
+      "norm": "§ 142 Abs. 1 BGB"
+     },
+     {
+      "text": "Erfüllung",
+      "norm": "§ 362 Abs. 1 BGB"
+     },
+     {
+      "text": "Widerruf",
+      "norm": "§ 355 Abs. 1 BGB"
+     },
+     {
+      "text": "Rücktritt",
+      "norm": "§ 346 Abs. 1 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Durchsetzbar (z. B. Zug um Zug)",
+    "norm": "§ 320 Abs. 1 BGB"
+   }
+  ],
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "schema-cic",
+  "titel": "Culpa in contrahendo (§§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB)",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "normen": [
+   "§ 280 BGB",
+   "§ 311 BGB",
+   "§ 241 BGB",
+   "§ 276 BGB",
+   "§ 278 BGB",
+   "§ 249 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Vorvertragliches Schuldverhältnis",
+    "norm": "§ 311 Abs. 2 BGB",
+    "hinweis": "Nr. 1 Vertragsverhandlungen, Nr. 2 Anbahnung (z. B. Besuch eines Webshops oder Ladens), Nr. 3 ähnliche geschäftliche Kontakte."
+   },
+   {
+    "text": "Pflichtverletzung (Rücksichtnahmepflicht)",
+    "norm": "§ 241 Abs. 2 BGB",
+    "hinweis": "Schutz von Rechtsgütern und Interessen (IT-Sicherheit, wahre Informationen)."
+   },
+   {
+    "text": "Vertretenmüssen (vermutet)",
+    "norm": "§ 280 Abs. 1 S. 2 BGB",
+    "hinweis": "Vorsatz/Fahrlässigkeit § 276 BGB; Erfüllungsgehilfen § 278 BGB."
+   },
+   {
+    "text": "Kausaler Schaden",
+    "hinweis": "Conditio sine qua non + Adäquanz."
+   },
+   {
+    "text": "Rechtsfolge: regelmäßig negatives Interesse (vgl. § 122 BGB); bei Verletzung von Rechtsgütern das Integritätsinteresse",
+    "norm": "§ 249 Abs. 1 BGB"
+   }
+  ],
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "schema-812",
+  "titel": "Leistungskondiktion (§ 812 Abs. 1 S. 1 Alt. 1 BGB)",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "normen": [
+   "§ 812 BGB",
+   "§ 814 BGB",
+   "§ 817 BGB",
+   "§ 818 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Etwas erlangt",
+    "hinweis": "Jeder vermögenswerte Vorteil (Eigentum, Besitz, Geld, Befreiung von einer Schuld)."
+   },
+   {
+    "text": "Durch Leistung",
+    "hinweis": "Bewusste und zweckgerichtete Mehrung fremden Vermögens."
+   },
+   {
+    "text": "Ohne rechtlichen Grund",
+    "hinweis": "Rechtsgrund fehlt von Anfang an (z. B. nichtiger Vertrag, auch nach Anfechtung, § 142 Abs. 1 BGB). Späterer Wegfall des Rechtsgrundes und Zweckverfehlung sind eigene Kondiktionen (§ 812 Abs. 1 S. 2 Alt. 1/Alt. 2 BGB).",
+    "norm": "§ 812 Abs. 1 S. 1 BGB"
+   },
+   {
+    "text": "Kein Ausschluss",
+    "kinder": [
+     {
+      "text": "Kenntnis der Nichtschuld",
+      "norm": "§ 814 BGB"
+     },
+     {
+      "text": "Gesetzes-/Sittenverstoß des Leistenden",
+      "norm": "§ 817 S. 2 BGB",
+      "hinweis": "Gilt für alle Leistungskondiktionen."
+     }
+    ]
+   },
+   {
+    "text": "Rechtsfolge: Herausgabe (§ 812 Abs. 1 S. 1, § 818 Abs. 1, 2 BGB); Entreicherung",
+    "norm": "§ 818 Abs. 3 BGB"
+   }
+  ],
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "schema-823",
+  "titel": "Unerlaubte Handlung (§ 823 Abs. 1 BGB)",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "normen": [
+   "§ 823 BGB",
+   "§ 276 BGB",
+   "§ 249 BGB",
+   "§ 252 BGB",
+   "§ 253 BGB",
+   "§ 254 BGB",
+   "§ 827 BGB",
+   "§ 828 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Verletzungshandlung (Tun oder Unterlassen)"
+   },
+   {
+    "text": "Haftungsbegründende Kausalität",
+    "hinweis": "Conditio sine qua non + Adäquanz; Unterbrechung durch völlig atypisches Dazwischentreten Dritter."
+   },
+   {
+    "text": "Verletzung eines geschützten Rechtsguts",
+    "hinweis": "Leben, Körper, Gesundheit, Freiheit, Eigentum, sonstiges Recht – nicht das Vermögen als solches."
+   },
+   {
+    "text": "Rechtswidrigkeit",
+    "hinweis": "Bei unmittelbarer Verletzung durch aktives Tun indiziert; entfällt bei Rechtfertigung (Notwehr). Bei Unterlassen und mittelbaren Verletzungen positiv festzustellen."
+   },
+   {
+    "text": "Verschulden",
+    "kinder": [
+     {
+      "text": "Deliktsfähigkeit",
+      "norm": "§ 828 BGB",
+      "hinweis": "Auch § 827 BGB."
+     },
+     {
+      "text": "Vorsatz oder Fahrlässigkeit",
+      "norm": "§ 276 Abs. 1 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Schaden und haftungsausfüllende Kausalität",
+    "kinder": [
+     {
+      "text": "Herstellung des ursprünglichen Zustands",
+      "norm": "§ 249 Abs. 1 BGB"
+     },
+     {
+      "text": "Entgangener Gewinn",
+      "norm": "§ 252 BGB"
+     },
+     {
+      "text": "Schmerzensgeld",
+      "norm": "§ 253 Abs. 2 BGB"
+     },
+     {
+      "text": "Mitverschulden",
+      "norm": "§ 254 Abs. 1 BGB"
+     }
+    ]
+   }
+  ],
+  "quelle": "material:faelle-7",
+  "geprueft": true,
+  "einleitung": "Reihenfolge wie in der Vorlesung (1_7): Verletzungshandlung → Kausalität → Rechtsgutsverletzung …; andere Darstellungen beginnen mit der Rechtsgutsverletzung."
+ },
+ {
+  "id": "schema-ruecktritt",
+  "titel": "Rücktritt (§§ 323, 346 BGB)",
+  "thema": "widerruf-ruecktritt",
+  "normen": [
+   "§ 323 BGB",
+   "§ 324 BGB",
+   "§ 346 BGB",
+   "§ 349 BGB",
+   "§ 271 BGB",
+   "§ 325 BGB",
+   "§ 326 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Gegenseitiger Vertrag"
+   },
+   {
+    "text": "Rücktrittsgrund",
+    "kinder": [
+     {
+      "text": "Fällige Leistung",
+      "norm": "§ 271 Abs. 1 BGB"
+     },
+     {
+      "text": "Nicht oder nicht vertragsgemäß erbracht"
+     },
+     {
+      "text": "Erfolglose angemessene Frist (ggf. entbehrlich)",
+      "norm": "§ 323 Abs. 1 BGB",
+      "hinweis": "Entbehrlichkeit: § 323 Abs. 2 BGB."
+     },
+     {
+      "text": "Alternativ: Verletzung einer Rücksichtnahmepflicht, Unzumutbarkeit",
+      "norm": "§ 324 BGB"
+     }
+    ]
+   },
+   {
+    "text": "Rücktrittserklärung",
+    "norm": "§ 349 BGB"
+   },
+   {
+    "text": "Kein Ausschluss",
+    "hinweis": "Unerhebliche Pflichtverletzung (§ 323 Abs. 5 S. 2 BGB); Gläubiger allein oder weit überwiegend verantwortlich oder im Annahmeverzug (§ 323 Abs. 6 BGB). Bei Unmöglichkeit: § 326 Abs. 5 BGB.",
+    "norm": "§ 323 Abs. 5 BGB"
+   },
+   {
+    "text": "Rechtsfolge: Rückgewährschuldverhältnis",
+    "norm": "§ 346 Abs. 1 BGB",
+    "hinweis": "Schadensersatz bleibt möglich (§ 325 BGB)."
+   }
+  ],
+  "quelle": "material:faelle-9",
+  "geprueft": true,
+  "einleitung": "Kein Vertretenmüssen nötig (anders als beim Schadensersatz). Puzzle-Reihenfolge wie in der Vorlesung; viele Schemata beginnen mit der Erklärung – beides vertretbar."
+ },
+ {
+  "id": "schema-widerruf",
+  "titel": "Verbraucherwiderruf (§§ 312g, 355 BGB)",
+  "thema": "widerruf-ruecktritt",
+  "normen": [
+   "§ 312g BGB",
+   "§ 312b BGB",
+   "§ 312c BGB",
+   "§ 13 BGB",
+   "§ 14 BGB",
+   "§ 355 BGB",
+   "§ 357 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Verbrauchervertrag: Verbraucher und Unternehmer",
+    "norm": "§ 13 BGB",
+    "hinweis": "Unternehmer: § 14 BGB; entgeltliche Leistung (§ 312 BGB)."
+   },
+   {
+    "text": "Außergeschäftsraum- oder Fernabsatzvertrag",
+    "norm": "§ 312c BGB",
+    "hinweis": "Außerhalb von Geschäftsräumen: § 312b BGB; Fernabsatz (Telefon, Online): § 312c BGB."
+   },
+   {
+    "text": "Widerrufsrecht und keine Ausnahme",
+    "norm": "§ 312g Abs. 1 BGB",
+    "hinweis": "Ausnahmen in § 312g Abs. 2 BGB."
+   },
+   {
+    "text": "Widerrufserklärung gegenüber dem Unternehmer",
+    "norm": "§ 355 Abs. 1 BGB"
+   },
+   {
+    "text": "Frist: 14 Tage",
+    "norm": "§ 355 Abs. 2 BGB",
+    "hinweis": "Beginn bei Waren grundsätzlich mit Erhalt (§ 356 Abs. 2 BGB)."
+   },
+   {
+    "text": "Rechtsfolge: Rückgewähr binnen 14 Tagen",
+    "norm": "§ 357 BGB"
+   }
+  ],
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "schema-goa",
+  "titel": "Geschäftsführung ohne Auftrag (Aufwendungsersatz)",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "normen": [
+   "§ 677 BGB",
+   "§ 683 BGB",
+   "§ 670 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Geschäftsbesorgung",
+    "hinweis": "Jede Tätigkeit (Erste Hilfe, Lottoschein abgeben)."
+   },
+   {
+    "text": "Fremdes Geschäft mit Fremdgeschäftsführungswillen",
+    "norm": "§ 677 BGB",
+    "hinweis": "Beim objektiv fremden Geschäft wird der Fremdgeschäftsführungswille vermutet."
+   },
+   {
+    "text": "Ohne Auftrag oder sonstige Berechtigung"
+   },
+   {
+    "text": "Berechtigung: Interesse und (mutmaßlicher) Wille des Geschäftsherrn",
+    "norm": "§ 683 S. 1 BGB"
+   },
+   {
+    "text": "Rechtsfolge: Aufwendungsersatz wie ein Beauftragter (§§ 683 S. 1, 670 BGB)",
+    "norm": "§ 683 S. 1 BGB"
+   }
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "schema-verzug",
+  "titel": "Schadensersatz wegen Verzögerung (Verzug)",
+  "thema": "anspruchsaufbau",
+  "normen": [
+   "§ 280 BGB",
+   "§ 286 BGB",
+   "§ 271 BGB",
+   "§ 276 BGB"
+  ],
+  "knoten": [
+   {
+    "text": "Schuldverhältnis (Anspruchsgrundlage §§ 280 Abs. 1, 2, 286 BGB)",
+    "norm": "§ 280 Abs. 1 BGB"
+   },
+   {
+    "text": "Wirksamer, fälliger und durchsetzbarer Anspruch",
+    "norm": "§ 271 Abs. 1 BGB"
+   },
+   {
+    "text": "Nichtleistung trotz Möglichkeit"
+   },
+   {
+    "text": "Mahnung oder Entbehrlichkeit",
+    "norm": "§ 286 Abs. 1 BGB",
+    "hinweis": "Entbehrlich nach § 286 Abs. 2 BGB (Kalendertermin, ernsthafte Verweigerung …) und § 286 Abs. 3 BGB (30 Tage nach Rechnung bei Entgeltforderungen; gegenüber Verbrauchern nur bei Hinweis in der Rechnung)."
+   },
+   {
+    "text": "Vertretenmüssen (vermutet)",
+    "norm": "§ 286 Abs. 4 BGB"
+   },
+   {
+    "text": "Rechtsfolge: Ersatz des kausal entstandenen Verzögerungsschadens",
+    "norm": "§ 280 Abs. 2 BGB"
+   }
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "schema-dsgvo",
+  "titel": "Datenschutz: Zulässigkeit einer Verarbeitung (Prüfung)",
+  "thema": "ds-rechtsgrundlagen",
+  "normen": [
+   "Art. 2 DSGVO",
+   "Art. 3 DSGVO",
+   "Art. 4 DSGVO",
+   "Art. 6 DSGVO",
+   "Art. 9 DSGVO",
+   "Art. 5 DSGVO",
+   "Art. 13 DSGVO",
+   "Art. 14 DSGVO",
+   "Art. 30 DSGVO",
+   "Art. 32 DSGVO"
+  ],
+  "knoten": [
+   {
+    "text": "Anwendbarkeit der DSGVO",
+    "kinder": [
+     {
+      "text": "Personenbezogene Daten und Verarbeitung",
+      "norm": "Art. 4 Nr. 1 DSGVO",
+      "hinweis": "Verarbeitung Nr. 2; Rollen: Verantwortlicher (Nr. 7), Auftragsverarbeiter (Nr. 8)."
+     },
+     {
+      "text": "Automatisiert oder Dateisystem; keine Haushaltsausnahme",
+      "norm": "Art. 2 DSGVO"
+     },
+     {
+      "text": "Niederlassungs- oder Marktortprinzip",
+      "norm": "Art. 3 DSGVO"
+     }
+    ]
+   },
+   {
+    "text": "Rechtsgrundlage (Verbot mit Erlaubnisvorbehalt)",
+    "norm": "Art. 6 Abs. 1 DSGVO",
+    "hinweis": "lit. a Einwilligung (Art. 7, 8), b Vertrag, c Pflicht, d Lebensschutz, e öffentliche Aufgabe, f berechtigte Interessen.",
+    "kinder": [
+     {
+      "text": "Besondere Kategorien: Verbot + Ausnahme",
+      "norm": "Art. 9 Abs. 2 DSGVO"
+     }
+    ]
+   },
+   {
+    "text": "Grundsätze eingehalten",
+    "norm": "Art. 5 Abs. 1 DSGVO",
+    "hinweis": "Zweckbindung, Datenminimierung, Speicherbegrenzung …; Nachweis Art. 5 Abs. 2."
+   },
+   {
+    "text": "Pflichten: Information, Sicherheit, Dokumentation",
+    "kinder": [
+     {
+      "text": "Informationspflichten",
+      "norm": "Art. 13 DSGVO",
+      "hinweis": "Bei Dritterhebung Art. 14 DSGVO."
+     },
+     {
+      "text": "TOM",
+      "norm": "Art. 32 DSGVO"
+     },
+     {
+      "text": "Verzeichnis",
+      "norm": "Art. 30 DSGVO"
+     }
+    ]
+   }
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true
+ },
+ {
+  "id": "schema-datenpanne",
+  "titel": "Datenpanne: Melde- und Benachrichtigungspflicht",
+  "thema": "ds-datenpannen",
+  "normen": [
+   "Art. 4 DSGVO",
+   "Art. 33 DSGVO",
+   "Art. 34 DSGVO"
+  ],
+  "knoten": [
+   {
+    "text": "Verletzung des Schutzes personenbezogener Daten",
+    "norm": "Art. 4 Nr. 12 DSGVO",
+    "hinweis": "Nr. 12: Vernichtung, Verlust, Veränderung, unbefugte Offenlegung/Zugang – auch versehentlich."
+   },
+   {
+    "text": "Risiko für Rechte und Freiheiten?",
+    "hinweis": "Kein Risiko → keine Meldung, aber Dokumentation (Art. 33 Abs. 5 DSGVO)."
+   },
+   {
+    "text": "Meldung an die Aufsichtsbehörde: unverzüglich, möglichst binnen 72 Stunden",
+    "norm": "Art. 33 Abs. 1 DSGVO",
+    "hinweis": "Inhalt Art. 33 Abs. 3; Auftragsverarbeiter informiert den Verantwortlichen (Abs. 2)."
+   },
+   {
+    "text": "Hohes Risiko? → Benachrichtigung der Betroffenen",
+    "norm": "Art. 34 Abs. 1 DSGVO",
+    "hinweis": "Ausnahmen Art. 34 Abs. 3 (z. B. Verschlüsselung)."
+   }
+  ],
+  "quelle": "material:ds-schulung",
+  "geprueft": true,
+  "einleitung": "Jede Verletzung ist intern zu dokumentieren – auch wenn keine Meldepflicht besteht (Art. 33 Abs. 5 DSGVO)."
+ }
+]

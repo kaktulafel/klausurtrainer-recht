@@ -1,0 +1,485 @@
+[
+ {
+  "id": "wi-052",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Nennen Sie die Voraussetzungen eines Schadensersatzanspruchs aus culpa in contrahendo mit Normen. Welcher Schaden wird ersetzt?",
+  "antwort": "Anspruchsgrundlage: **§ 280 Abs. 1 i. V. m. § 311 Abs. 2 i. V. m. § 241 Abs. 2 BGB**.\n1. **Vorvertragliches Schuldverhältnis** (§ 311 Abs. 2 BGB: Vertragsverhandlungen, Anbahnung, ähnliche Kontakte),\n2. **Pflichtverletzung** einer Rücksichtnahmepflicht (§ 241 Abs. 2 BGB),\n3. **Vertretenmüssen** (§ 280 Abs. 1 S. 2 BGB vermutet; Maßstab § 276 BGB, Gehilfen § 278 BGB),\n4. **kausaler Schaden**.\nErsetzt wird grundsätzlich das **negative Interesse** (Vertrauensschaden, vgl. § 122 BGB): Der Geschädigte ist so zu stellen, als hätte er sich nie auf die Verhandlungen eingelassen.",
+  "kernpunkte": [
+   "§ 280 Abs. 1, § 311 Abs. 2, § 241 Abs. 2 BGB",
+   "Vorvertragliches Schuldverhältnis",
+   "Pflichtverletzung",
+   "Vertretenmüssen (vermutet, §§ 276, 278 BGB)",
+   "Kausaler Schaden, negatives Interesse"
+  ],
+  "stichwoerter": [
+   [
+    "§ 280",
+    "§ 311",
+    "§ 241"
+   ],
+   [
+    "vorvertraglich|Verhandlung"
+   ],
+   [
+    "Pflichtverletzung|Rücksicht"
+   ],
+   [
+    "Vertretenmüssen|§ 276|vermutet"
+   ],
+   [
+    "negativ|Vertrauensschaden"
+   ]
+  ],
+  "normen": [
+   "§ 280 BGB",
+   "§ 311 BGB",
+   "§ 241 BGB",
+   "§ 276 BGB",
+   "§ 278 BGB",
+   "§ 122 BGB"
+  ],
+  "quelle": "material:faelle-7",
+  "geprueft": true
+ },
+ {
+  "id": "wi-053",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Nennen Sie das Prüfungsschema des § 823 Abs. 1 BGB.",
+  "antwort": "1. **Rechtsgutsverletzung** (Leben, Körper, Gesundheit, Freiheit, Eigentum, sonstiges Recht – nicht das bloße Vermögen),\n2. **Verletzungshandlung** (Tun oder Unterlassen),\n3. **haftungsbegründende Kausalität** (conditio sine qua non + Adäquanz),\n4. **Rechtswidrigkeit** (bei unmittelbarer Verletzung durch aktives Tun indiziert; entfällt bei Rechtfertigung, z. B. Notwehr; bei Unterlassen und mittelbaren Verletzungen positiv festzustellen),\n5. **Verschulden** (Deliktsfähigkeit §§ 827, 828 BGB; Vorsatz/Fahrlässigkeit, § 276 BGB),\n6. **Schaden** und **haftungsausfüllende Kausalität**; Umfang §§ 249 ff. BGB (inkl. entgangenem Gewinn § 252, Schmerzensgeld § 253 Abs. 2 BGB).",
+  "kernpunkte": [
+   "Rechtsgutsverletzung (kein reines Vermögen)",
+   "Verletzungshandlung und haftungsbegründende Kausalität",
+   "Rechtswidrigkeit",
+   "Verschulden § 276 BGB",
+   "Schaden, haftungsausfüllende Kausalität, §§ 249 ff. BGB"
+  ],
+  "stichwoerter": [
+   [
+    "Rechtsgut"
+   ],
+   [
+    "Kausalität|kausal"
+   ],
+   [
+    "Rechtswidrig"
+   ],
+   [
+    "Verschulden|§ 276|fahrlässig"
+   ],
+   [
+    "Schaden|§ 249"
+   ]
+  ],
+  "normen": [
+   "§ 823 BGB",
+   "§ 276 BGB",
+   "§ 249 BGB",
+   "§ 252 BGB",
+   "§ 253 BGB",
+   "§ 827 BGB",
+   "§ 828 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-054",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Welche Voraussetzungen hat die Leistungskondiktion, und welche Einwendungen kennen Sie?",
+  "antwort": "**§ 812 Abs. 1 S. 1 Alt. 1 BGB:** (1) **etwas erlangt** (jeder vermögenswerte Vorteil), (2) **durch Leistung** (bewusste, zweckgerichtete Mehrung fremden Vermögens), (3) **ohne rechtlichen Grund** (z. B. nichtiger Vertrag; auch späterer Wegfall oder Zweckverfehlung, § 812 Abs. 1 S. 2 BGB).\nEinwendungen: Kenntnis der Nichtschuld (**§ 814 BGB**, nur bei der Leistungskondiktion nach § 812 Abs. 1 S. 1 Alt. 1 BGB), treuwidrige Verhinderung des Erfolgseintritts (§ 815 BGB), beiderseitiger Gesetzes- oder Sittenverstoß (**§ 817 S. 2 BGB**), **Entreicherung** (§ 818 Abs. 3 BGB) – nicht bei verschärfter Haftung (§ 819 BGB).",
+  "kernpunkte": [
+   "Etwas erlangt",
+   "Durch Leistung",
+   "Ohne Rechtsgrund",
+   "Ausschluss nach § 814, § 815 oder § 817 S. 2 BGB",
+   "§ 818 Abs. 3 BGB Entreicherung"
+  ],
+  "stichwoerter": [
+   [
+    "erlangt"
+   ],
+   [
+    "Leistung",
+    "zweckgerichtet|bewusst"
+   ],
+   [
+    "ohne Rechtsgrund|rechtlichen Grund"
+   ],
+   [
+    "§ 814|§ 815|§ 817"
+   ],
+   [
+    "§ 818|Entreicherung"
+   ]
+  ],
+  "normen": [
+   "§ 812 BGB",
+   "§ 814 BGB",
+   "§ 817 BGB",
+   "§ 818 BGB",
+   "§ 819 BGB",
+   "§ 815 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-055",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "schwierigkeit": 1,
+  "frage": "Was ist eine Geschäftsführung ohne Auftrag, und welchen Anspruch hat der Geschäftsführer bei berechtigter GoA?",
+  "antwort": "GoA liegt vor, wenn jemand ein **Geschäft für einen anderen** besorgt, ohne von ihm beauftragt oder sonst dazu berechtigt zu sein (**§ 677 BGB**), z. B. Erste Hilfe für einen Bewusstlosen. Entspricht die Übernahme dem **Interesse und dem wirklichen oder mutmaßlichen Willen** des Geschäftsherrn (**§ 683 S. 1 BGB**; ein entgegenstehender Wille ist unbeachtlich bei Pflichten im öffentlichen Interesse, § 683 S. 2 i. V. m. § 679 BGB), kann der Geschäftsführer wie ein Beauftragter **Ersatz seiner Aufwendungen** verlangen (**§§ 677, 683 S. 1, 670 BGB**). Bei der Abwehr einer dringenden Gefahr haftet er nur für Vorsatz und grobe Fahrlässigkeit (§ 680 BGB).",
+  "kernpunkte": [
+   "Geschäft für einen anderen (Fremdgeschäftsführungswille)",
+   "Ohne Auftrag/Berechtigung (§ 677 BGB)",
+   "Interesse und Wille des Geschäftsherrn (§ 683 S. 1 BGB)",
+   "Aufwendungsersatz (§ 670 BGB)"
+  ],
+  "stichwoerter": [
+   [
+    "für einen anderen|fremd"
+   ],
+   [
+    "ohne Auftrag|§ 677"
+   ],
+   [
+    "Interesse|Wille|§ 683"
+   ],
+   [
+    "Aufwendung|§ 670"
+   ]
+  ],
+  "normen": [
+   "§ 677 BGB",
+   "§ 683 BGB",
+   "§ 679 BGB",
+   "§ 670 BGB",
+   "§ 680 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-056",
+  "thema": "gesetzliche-schuldverhaeltnisse",
+  "schwierigkeit": 2,
+  "frage": "Erklären Sie positives und negatives Interesse und nennen Sie je eine Norm, die es gewährt.",
+  "antwort": "- **Positives Interesse (Erfüllungsinteresse):** Der Geschädigte ist so zu stellen, als wäre der Vertrag **ordnungsgemäß erfüllt** worden (inkl. entgangenem Gewinn, § 252 BGB) – z. B. § 179 Abs. 1 BGB oder Schadensersatz statt der Leistung (§ 280 Abs. 1, Abs. 3 BGB i. V. m. § 281 BGB), auch neben dem Rücktritt (§ 325 BGB).\n- **Negatives Interesse (Vertrauensschaden):** Der Geschädigte ist so zu stellen, als hätte er **nie auf die Gültigkeit vertraut** (Vertragskosten, Transport, entgangenes anderes Geschäft) – z. B. § 122 Abs. 1 BGB, § 179 Abs. 2 BGB, c.i.c.\nBerechnung jeweils nach der Differenzhypothese (§ 249 Abs. 1 BGB).",
+  "kernpunkte": [
+   "Positives Interesse: wie bei ordnungsgemäßer Erfüllung",
+   "Beispiel § 179 Abs. 1 BGB",
+   "Negatives Interesse: wie ohne Vertrauen",
+   "Beispiele § 122, § 179 Abs. 2 BGB",
+   "Differenzhypothese § 249 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "positiv|Erfüllungsinteresse"
+   ],
+   [
+    "§ 179 Abs. 1|§ 281|§ 280"
+   ],
+   [
+    "negativ|Vertrauensschaden"
+   ],
+   [
+    "§ 122|§ 179 Abs. 2"
+   ],
+   [
+    "§ 249|Differenz"
+   ]
+  ],
+  "normen": [
+   "§ 179 BGB",
+   "§ 280 BGB",
+   "§ 281 BGB",
+   "§ 325 BGB",
+   "§ 122 BGB",
+   "§ 249 BGB",
+   "§ 252 BGB"
+  ],
+  "quelle": "material:faelle-9",
+  "geprueft": true
+ },
+ {
+  "id": "wi-057",
+  "thema": "widerruf-ruecktritt",
+  "schwierigkeit": 2,
+  "frage": "Unter welchen Voraussetzungen hat ein Verbraucher ein Widerrufsrecht? Nennen Sie Frist und Normen.",
+  "antwort": "Nach **§ 312g Abs. 1 BGB** bei **Außergeschäftsraumverträgen** (§ 312b BGB) und **Fernabsatzverträgen** (§ 312c BGB: ausschließlich Fernkommunikationsmittel im Rahmen eines für den Fernabsatz organisierten Systems, z. B. Telefon, Online) zwischen einem **Verbraucher** (§ 13 BGB) und einem **Unternehmer** (§ 14 BGB); erfasst sind Verbraucherverträge, bei denen der Verbraucher einen Preis zahlt (§ 312 Abs. 1 BGB) oder personenbezogene Daten bereitstellt (§ 312 Abs. 1a BGB), sofern keine Ausnahme nach § 312g Abs. 2 BGB greift. Der Widerruf erfolgt durch Erklärung gegenüber dem Unternehmer ohne Begründung; rechtzeitige Absendung genügt (§ 355 Abs. 1 BGB). Frist **14 Tage** (§ 355 Abs. 2 BGB); bei Waren beginnt sie grundsätzlich mit Erhalt (§ 356 Abs. 2 BGB), aber nicht vor ordnungsgemäßer Belehrung – Höchstfrist 12 Monate und 14 Tage (§ 356 Abs. 3 BGB). Bei Online-Verträgen muss der Unternehmer seit Juni 2026 eine elektronische **Widerrufsfunktion** („Vertrag widerrufen“) bereitstellen (§ 356a BGB). Folge: Rückgewähr (§§ 355 Abs. 3, 357 BGB).",
+  "kernpunkte": [
+   "§ 312g Abs. 1 BGB",
+   "Fernabsatz/außerhalb von Geschäftsräumen (§§ 312b, 312c BGB)",
+   "Verbraucher und Unternehmer (§§ 13, 14 BGB)",
+   "14 Tage (§ 355 Abs. 2 BGB), Fristbeginn/Höchstfrist § 356 BGB",
+   "Rückgewähr"
+  ],
+  "stichwoerter": [
+   [
+    "§ 312g"
+   ],
+   [
+    "Fernabsatz|§ 312c|§ 312b|Telefon|Geschäftsräum"
+   ],
+   [
+    "Verbraucher",
+    "Unternehmer"
+   ],
+   [
+    "14 Tage|vierzehn",
+    "§ 356|Belehrung"
+   ],
+   [
+    "Rückgewähr|zurück"
+   ]
+  ],
+  "normen": [
+   "§ 312g BGB",
+   "§ 312b BGB",
+   "§ 312c BGB",
+   "§ 13 BGB",
+   "§ 14 BGB",
+   "§ 312 BGB",
+   "§ 355 BGB",
+   "§ 356 BGB",
+   "§ 356a BGB",
+   "§ 357 BGB"
+  ],
+  "quelle": "material:faelle-8",
+  "geprueft": true
+ },
+ {
+  "id": "wi-058",
+  "thema": "widerruf-ruecktritt",
+  "schwierigkeit": 2,
+  "frage": "Welche Voraussetzungen hat der Rücktritt nach § 323 BGB, und was ist die Rechtsfolge?",
+  "antwort": "(1) **Gegenseitiger Vertrag**, (2) **fälliger**, wirksamer und einredefreier Anspruch (§ 271 BGB), (3) Leistung **nicht oder nicht vertragsgemäß** erbracht, (4) **erfolglose angemessene Frist** zur Leistung oder Nacherfüllung – ggf. entbehrlich (§ 323 Abs. 2 BGB), (5) kein Ausschluss (§ 323 Abs. 5 BGB: Teilleistung ohne Interessewegfall bzw. unerhebliche Pflichtverletzung; § 323 Abs. 6 BGB: Gläubiger allein/weit überwiegend verantwortlich oder im Annahmeverzug), (6) **Rücktrittserklärung** (§ 349 BGB). Ein **Vertretenmüssen** des Schuldners ist – anders als beim Schadensersatz – **nicht erforderlich**.\nRechtsfolge: Umwandlung in ein **Rückgewährschuldverhältnis** (§ 346 Abs. 1 BGB); Schadensersatz bleibt möglich (§ 325 BGB).",
+  "kernpunkte": [
+   "Gegenseitiger Vertrag, fällige Leistung",
+   "Nicht oder nicht vertragsgemäß erbracht",
+   "Erfolglose Fristsetzung (ggf. entbehrlich)",
+   "Kein Vertretenmüssen erforderlich",
+   "Rücktrittserklärung § 349 BGB; Rückgewähr § 346 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "fällig|gegenseitig"
+   ],
+   [
+    "nicht vertragsgemäß|nicht erbracht"
+   ],
+   [
+    "Frist"
+   ],
+   [
+    "Vertretenmüssen|Verschulden"
+   ],
+   [
+    "§ 349|§ 346|Rückgewähr"
+   ]
+  ],
+  "normen": [
+   "§ 323 BGB",
+   "§ 271 BGB",
+   "§ 349 BGB",
+   "§ 346 BGB",
+   "§ 325 BGB"
+  ],
+  "quelle": "material:faelle-9",
+  "geprueft": true
+ },
+ {
+  "id": "wi-059",
+  "thema": "widerruf-ruecktritt",
+  "schwierigkeit": 3,
+  "frage": "Grenzen Sie Widerruf, Anfechtung und Rücktritt als Wege zur Lösung vom Vertrag ab.",
+  "antwort": "- **Widerruf:** (a) einer Willenserklärung vor oder gleichzeitig mit ihrem Zugang (§ 130 Abs. 1 S. 2 BGB) – sie wird gar nicht wirksam; (b) gesetzliches Verbraucherwiderrufsrecht (§§ 312g, 355 BGB) ohne Begründung binnen 14 Tagen → Rückgewähr.\n- **Anfechtung:** wegen eines Willensmangels bei Abgabe (§§ 119, 120, 123 BGB) → Nichtigkeit von Anfang an (§ 142 Abs. 1 BGB), ggf. Vertrauensschaden (§ 122 BGB).\n- **Rücktritt:** wegen einer Störung bei der Durchführung (z. B. § 323, § 324 BGB) oder vertraglichem Vorbehalt → Vertrag bleibt wirksam, wird aber in ein Rückgewährschuldverhältnis umgewandelt (§ 346 BGB); Schadensersatz bleibt möglich (§ 325 BGB).\nHinweis: Der Widerruf nach § 130 Abs. 1 S. 2 BGB ist streng genommen keine „Lösung vom Vertrag“ – es kommt gar kein Vertrag zustande. Dauerschuldverhältnisse werden außerdem durch Kündigung beendet (aus wichtigem Grund § 314 BGB).",
+  "kernpunkte": [
+   "Widerruf vor Zugang § 130 Abs. 1 S. 2 BGB",
+   "Verbraucherwiderruf §§ 312g, 355 BGB",
+   "Anfechtung: Willensmangel, ex tunc § 142 BGB",
+   "Rücktritt: Leistungsstörung, Rückgewähr § 346 BGB"
+  ],
+  "stichwoerter": [
+   [
+    "§ 130"
+   ],
+   [
+    "§ 355|§ 312g"
+   ],
+   [
+    "§ 142|Willensmangel|ex tunc"
+   ],
+   [
+    "§ 346|§ 323|Rückgewähr"
+   ]
+  ],
+  "normen": [
+   "§ 130 BGB",
+   "§ 312g BGB",
+   "§ 355 BGB",
+   "§ 119 BGB",
+   "§ 123 BGB",
+   "§ 142 BGB",
+   "§ 122 BGB",
+   "§ 323 BGB",
+   "§ 324 BGB",
+   "§ 346 BGB",
+   "§ 325 BGB",
+   "§ 314 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-060",
+  "thema": "grundlagen-recht",
+  "schwierigkeit": 1,
+  "frage": "Wie ist das BGB aufgebaut?",
+  "antwort": "Das BGB hat **fünf Bücher**: 1. Allgemeiner Teil (§§ 1–240), 2. Schuldrecht (§§ 241–853; Allgemeiner und Besonderer Teil), 3. Sachenrecht (§§ 854–1296), 4. Familienrecht (ab § 1297; die Folie nennt „bis 1921“; die letzten Paragraphen dieses Buches sind heute unbesetzt), 5. Erbrecht (§§ 1922–2385). Der Allgemeine Teil enthält „vor die Klammer gezogene“ Regeln (z. B. Willenserklärung, Geschäftsfähigkeit, Stellvertretung, Anfechtung), die für alle Bücher gelten.",
+  "kernpunkte": [
+   "Fünf Bücher",
+   "Allgemeiner Teil §§ 1–240",
+   "Schuldrecht §§ 241–853",
+   "Sachen-, Familien-, Erbrecht",
+   "AT als vor die Klammer gezogene Regeln"
+  ],
+  "stichwoerter": [
+   [
+    "fünf|5"
+   ],
+   [
+    "Allgemeiner Teil"
+   ],
+   [
+    "Schuldrecht"
+   ],
+   [
+    "Sachenrecht|Familienrecht|Erbrecht"
+   ],
+   [
+    "Klammer|für alle"
+   ]
+  ],
+  "normen": [
+   "§ 1 BGB",
+   "§ 241 BGB",
+   "§ 854 BGB",
+   "§ 1297 BGB"
+  ],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-061",
+  "thema": "grundlagen-recht",
+  "schwierigkeit": 1,
+  "frage": "Worin unterscheiden sich öffentliches Recht und Privatrecht? Nennen Sie je zwei Rechtsgebiete.",
+  "antwort": "Das **Privatrecht** regelt die Rechtsbeziehungen gleichgeordneter Rechtssubjekte (Gleichordnung, Privatautonomie) – z. B. Bürgerliches Recht (BGB), Handels-, Gesellschafts-, Arbeits- oder Urheberrecht. Das **öffentliche Recht** regelt Beziehungen, an denen ein Träger hoheitlicher Gewalt als solcher beteiligt ist (Über-/Unterordnung) – z. B. Verfassungs-, Verwaltungs-, Steuer-, Straf- und Prozessrecht. Der Datenschutz hat Bezüge zu beiden (DSGVO gilt für öffentliche und nichtöffentliche Stellen).",
+  "kernpunkte": [
+   "Privatrecht: Gleichordnung",
+   "Beispiele Privatrecht",
+   "Öffentliches Recht: Über-/Unterordnung, Hoheitsträger",
+   "Beispiele öffentliches Recht"
+  ],
+  "stichwoerter": [
+   [
+    "Privatrecht",
+    "Gleichordnung|gleichgeordnet|Privatautonomie"
+   ],
+   [
+    "BGB|Handelsrecht|Gesellschaftsrecht|Arbeitsrecht"
+   ],
+   [
+    "öffentlich",
+    "Unterordnung|Hoheit|Staat"
+   ],
+   [
+    "Verwaltung|Steuer|Straf|Verfassung"
+   ]
+  ],
+  "normen": [],
+  "quelle": "material:folien",
+  "geprueft": true
+ },
+ {
+  "id": "wi-062",
+  "thema": "gutachtenstil",
+  "schwierigkeit": 2,
+  "frage": "Wie formuliert man den Obersatz bei einem Gestaltungsrecht wie der Anfechtung – und warum ist „Anspruch auf Entzug der Vollmacht aus § 167 BGB“ falsch?",
+  "antwort": "Die Anfechtung ist ein **Gestaltungsrecht**: Der Berechtigte ändert die Rechtslage durch einseitige Erklärung; er „verlangt“ nichts von einem anderen. Ein Anspruch (§ 194 Abs. 1 BGB) liegt daher nicht vor. Richtig: „J könnte die Vollmachtserteilung durch Anfechtung gemäß **§ 142 Abs. 1 BGB** mit Wirkung von Anfang an beseitigt haben. Dies setzt einen Anfechtungsgrund, eine Anfechtungserklärung (§ 143 BGB) innerhalb der Frist (§§ 121, 124 BGB) und das Fehlen eines Ausschlusses (§ 144 BGB) voraus.“ § 167 BGB regelt nur die Erteilung der Vollmacht. Im Anspruchsaufbau wird die Anfechtung als rechtsvernichtende Einwendung („Anspruch untergegangen“) geprüft.",
+  "kernpunkte": [
+   "Anfechtung ist Gestaltungsrecht, kein Anspruch",
+   "Obersatz mit Rechtsfolge § 142 Abs. 1 BGB",
+   "Voraussetzungen im Obersatz nennen",
+   "§ 167 BGB betrifft nur die Erteilung",
+   "Im Anspruchsaufbau: Anspruch untergegangen"
+  ],
+  "stichwoerter": [
+   [
+    "Gestaltungsrecht"
+   ],
+   [
+    "§ 142"
+   ],
+   [
+    "§ 143|Anfechtungsgrund|Frist"
+   ],
+   [
+    "§ 167",
+    "Erteilung"
+   ],
+   [
+    "untergegangen|erloschen|Einwendung"
+   ]
+  ],
+  "normen": [
+   "§ 142 BGB",
+   "§ 194 BGB",
+   "§ 143 BGB",
+   "§ 121 BGB",
+   "§ 124 BGB",
+   "§ 144 BGB",
+   "§ 167 BGB"
+  ],
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ },
+ {
+  "id": "wi-063",
+  "thema": "stellvertretung",
+  "schwierigkeit": 3,
+  "frage": "Auf wessen Person kommt es bei Willensmängeln und Wissen im Rahmen der Stellvertretung an? Wo liegt die typische Verwechslungsgefahr?",
+  "antwort": "Beim **Vertretergeschäft** kommt es auf die Person des **Vertreters** an (**§ 166 Abs. 1 BGB**): Irrt der Vertreter oder wird er getäuscht, kann das Geschäft angefochten werden; kennt er einen Mangel, wird dies dem Vertretenen zugerechnet. Ausnahme: Handelt der Vertreter nach bestimmten **Weisungen**, kann sich der Vertretene auf seine eigene Kenntnis nicht berufen (§ 166 Abs. 2 S. 1 BGB).\nVerwechslungsgefahr: § 166 BGB betrifft das **Vertretergeschäft**, nicht die **Vollmachtserteilung**. Willensmängel des Vollmachtgebers bei der Erteilung (z. B. Täuschung durch den Vertreter) beurteilen sich unmittelbar nach §§ 119 ff. BGB (Anfechtung der Vollmacht). Das Anfechtungsrecht beim Vertretergeschäft steht dem Vertretenen zu.",
+  "kernpunkte": [
+   "§ 166 Abs. 1 BGB: Person des Vertreters",
+   "Ausnahme Weisung § 166 Abs. 2 BGB",
+   "§ 166 betrifft das Vertretergeschäft",
+   "Vollmachtserteilung: §§ 119 ff. BGB direkt"
+  ],
+  "stichwoerter": [
+   [
+    "§ 166 Abs. 1|Person des Vertreters"
+   ],
+   [
+    "Weisung|§ 166 Abs. 2"
+   ],
+   [
+    "Vertretergeschäft"
+   ],
+   [
+    "Vollmachtserteilung|§ 119|§ 123"
+   ]
+  ],
+  "normen": [
+   "§ 166 BGB",
+   "§ 119 BGB",
+   "§ 123 BGB"
+  ],
+  "quelle": "material:probeklausur",
+  "geprueft": true
+ }
+]
