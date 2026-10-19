@@ -34,3 +34,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 ## 19.10.2026 – KI: Zeitlimit und Prompt-Injection
 - Zeitlimit galt nur bis zum Eintreffen der Header; ein hängender Antwort-Body blockierte → Limit umfasst jetzt die ganze Anfrage (Test).
 - System-Prompts weisen an, Anweisungen innerhalb der Bearbeitung zu ignorieren (Test).
+
+## 19.10.2026 – CI: A11y „scrollable-region-focusable“ nur unter Linux
+- **Symptom:** a11y-Job in CI rot (Statistik-Tabelle), lokal grün.
+- **Ursache:** Andere Schriftmetriken unter Linux machen die Tabelle breiter → `.scroll-x` wird scrollbar, ist aber per Tastatur nicht erreichbar.
+- **Fix:** `h()` macht jeden `.scroll-x`-Bereich fokussierbar (`tabindex=0`, `role=region`, `aria-label`) – zentral statt pro Ansicht.

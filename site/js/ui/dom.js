@@ -31,6 +31,12 @@ export function h(tag, attrs, ...kinder) {
     }
   }
   haenge(el, kinder);
+  // Horizontal scrollbare Bereiche müssen per Tastatur erreichbar sein (WCAG 2.1.1)
+  if (el.classList.contains('scroll-x') && !el.hasAttribute('tabindex')) {
+    el.tabIndex = 0;
+    el.setAttribute('role', 'region');
+    if (!el.hasAttribute('aria-label')) el.setAttribute('aria-label', 'Tabelle (seitlich scrollbar)');
+  }
   return el;
 }
 

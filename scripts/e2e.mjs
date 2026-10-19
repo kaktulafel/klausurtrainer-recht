@@ -28,6 +28,33 @@ async function keinMuell(route) {
   if (breite > 376) throw new Error(`${route}: horizontales Scrollen (${breite}px)`);
 }
 
+await schritt('Alle Bereiche laden ohne Konsolenfehler, ohne Überlauf, ohne null/undefined', async () => {
+  for (const r of ['#/', '#/faelle', '#/faelle/fall-01', '#/mc', '#/normen', '#/normen/karten', '#/normen/zitieren', '#/normen/register', '#/wissen',
+    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/mehr', '#/info', '#/gibtsnicht']) {
+    await page.goto(basis + r, { waitUntil: 'networkidle' });
+    await page.waitForSelector('main h1');
+    await keinMuell(r);
+  }
+});
+
+await schritt('MC beantworten → Feedback sichtbar', async () => {
+  await page.goto(basis + '#/mc?start=1&modus=ueben&n=3', { waitUntil: 'networkidle' });
+  await page.locator('label.option, li.aussage .rf button, li.aussage > select').first().click();
+  await page.getByRole('button', { name: 'Antwort prüfen' }).click();
+  await page.waitForSelector('.erklaerung:not([hidden])');
+  const t = await sichtbarerText();
+  if (!/Richtig|Teilweise|Falsch/.test(t)) throw new Error('kein Feedback sichtbar');
+});
+
+await schritt('Fall: Text tippen → Reload → Text noch da', async () => {
+  await page.goto(basis + '#/faelle/fall-02?modus=klausur', { waitUntil: 'networkidle' });
+  await page.fill('textarea.editor', 'Reload-Test: V könnte gegen K einen Anspruch aus § 433 Abs. 2 BGB haben.');
+  await page.locator('textarea.editor').blur();
+  await page.reload({ waitUntil: 'networkidle' });
+  const t = await page.inputValue('textarea.editor');
+  if (!t.startsWith('Reload-Test')) throw new Error('Entwurf nach Reload verloren');
+});
+
 await schritt('Probeklausur: starten, bearbeiten, abgeben, auswerten, speichern', async () => {
   await page.goto(basis + '#/klausur', { waitUntil: 'networkidle' });
   await page.getByRole('button', { name: 'Starten' }).first().click();
