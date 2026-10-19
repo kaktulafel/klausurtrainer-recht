@@ -3,9 +3,9 @@
 > Gedächtnis für Folgesitzungen. Neue Sitzung: „Lies AUFTRAG.md und PROGRESS.md und mach weiter.“
 
 ## Stand
-- **Meilenstein:** M2 (Inhalte) und M3 (Simulator, Wiederholen, Statistik, Offline) abgeschlossen → weiter mit M4 (KI-Feinschliff, Design/A11y) und M5 (Doku, Abschluss-QA)
+- **Meilenstein:** M0–M5 abgeschlossen, Definition of Done erfüllt (Stand 19.10.2026). Weitere Arbeit = Pflege/Erweiterung.
 - **Live-URL:** https://kaktulafel.github.io/klausurtrainer-recht/
-- **Repo:** https://github.com/kaktulafel/klausurtrainer-recht (öffentlich, Pages via Actions)
+- **Repo:** https://github.com/kaktulafel/klausurtrainer-recht (öffentlich, Pages via Actions; CI: test → deploy → live inkl. Offline-Test)
 
 ## Erledigt
 - M0: Inventar, Themenkarte, Klausurformat, Git/.gitignore, Kernlogik + Tests, Validator, Smoke, Workflow, Live-Check
@@ -22,15 +22,17 @@
   - Offline-Test `scripts/offline-check.mjs` gegen die Live-Seite (echter SW) – als CI-Job „live“ nach jedem Deploy
   - SW: network-first mit 4-s-Fallback auf Cache (Funkloch)
 
-## Offen
-- M4: KI-Korrektur-Feinschliff, A11y-Durchgang (Tastatur, Kontraste, Fokus), Design-Check 375 px aller Views
-- M5: README.md, CLAUDE.md/AGENTS.md, docs/DATENFORMATE.md, docs/THEMENKARTE.md, Abschluss-QA, Abschlussbericht
+- M4: A11y-Scan (axe, WCAG 2.1 AA, hell/dunkel, 375 px) in CI, Fixes; KI: Zeitlimit für ganze Anfrage, Prompt-Injection-Schutz, E2E mit gemockter API (Ergebnis, 401, Key nie im DOM)
+- M5: README, CLAUDE.md/AGENTS.md, docs/DATENFORMATE.md, docs/THEMENKARTE.md (generiert, `npm run docs`), Namensprüfung ohne Klartextnamen
+
+## Offen / Ideen für später
+- § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen
+- Git-Historie enthält in alten Commits die Klartext-Namensregex des Validators (nicht umgeschrieben, siehe FIXLOG)
+- Optional: weitere Fälle (z. B. zweite Erstklausur-Variante), KI-Check auch für Teil B der Probeklausur
 
 ## Nächste Schritte (exakt)
-1. CI-Lauf mit neuem Job „live“ prüfen
-2. A11y/Design: alle Views per `scripts/screens.mjs` (375 px hell/dunkel) ansehen, Tastaturbedienung prüfen
-3. KI-Panel: Fehlertexte, Kosten-/Datenschutzhinweis, Test mit gemocktem fetch
-4. Doku (M5) schreiben, Abschlussbericht
+1. Bei neuen Inhalten: Format nach docs/DATENFORMATE.md → `npm run check` → Review-Subagent → `geprueft: true` → `npm run docs` → Commit → CI beobachten
+2. Rechtsstand halbjährlich prüfen: `npm run normen` (amtlicher Wortlaut), docs/REVIEW.md „Rechtsstand“
 
 ## Bekannte Probleme / Hinweise
 - Bash-Heredocs mit bestimmten Inhalten brechen im Tool ab → Skripte mit dem Write-Werkzeug anlegen; `\s` in Heredocs geht verloren.

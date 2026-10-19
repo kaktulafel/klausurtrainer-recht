@@ -4,6 +4,7 @@ import { readFileSync, readdirSync, statSync, existsSync } from 'node:fs';
 import { join, relative, dirname, posix, sep } from 'node:path';
 import { execSync } from 'node:child_process';
 import { fileURLToPath } from 'node:url';
+import { createHash } from 'node:crypto';
 import { parseNormen, registerId, formatNorm, parseEine } from '../site/js/normparser.js';
 
 const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
@@ -400,11 +401,23 @@ for (const g of getrackt) {
 }
 const pruefDateien = (getrackt.length ? getrackt : alleDateien(ROOT).map(rel).filter(r => !r.startsWith('node_modules') && !r.startsWith('.git/')))
   .filter(g => /\.(js|mjs|json|html|css|md|yml|yaml|txt|webmanifest)$/.test(g) && existsSync(join(ROOT, g)));
-const NAMEN = /\b(Wike|Keuter|Firla)\b/;
+// Namen von Dozierenden/Verfasser:innen der Materialien – nur als SHA-256 (klein geschrieben) hinterlegt,
+// damit die Namen selbst nicht im öffentlichen Repo stehen. Geprüft wird jedes Wort jeder Datei.
+const NAMEN_HASHES = new Set([
+  'b733e83c5c6bfe3a4832df2c817a54c2adf63052d6234e8e035a5be92deed4f9',
+  'f111a6c418814900429d7579acecba5470a804ce767895c00387b054694b8ccc',
+  'ea842197c40acdef494df6cbe12565af24f03487db1acca0e9996587a23502cb'
+]);
+const enthaeltNamen = (t) => {
+  for (const w of new Set(t.toLowerCase().match(/[a-zäöüß]{4,}/g) || [])) {
+    if (NAMEN_HASHES.has(createHash('sha256').update(w).digest('hex'))) return true;
+  }
+  return false;
+};
 for (const g of pruefDateien) {
   const t = readFileSync(join(ROOT, g), 'utf8');
   if (/sk-ant-(api|admin)\d{2}-[A-Za-z0-9_\-]{20,}/.test(t)) F(g, null, 'API-Key-Muster (sk-ant-…) gefunden!');
-  if (g !== 'scripts/validate.mjs' && NAMEN.test(t)) F(g, null, 'Name von Dozierenden/Verfasser:in gefunden – entfernen');
+  if (enthaeltNamen(t)) F(g, null, 'Name von Dozierenden/Verfasser:in gefunden – entfernen');
 }
 
 // ---------- Ausgabe ----------

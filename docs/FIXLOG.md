@@ -39,3 +39,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Symptom:** a11y-Job in CI rot (Statistik-Tabelle), lokal grün.
 - **Ursache:** Andere Schriftmetriken unter Linux machen die Tabelle breiter → `.scroll-x` wird scrollbar, ist aber per Tastatur nicht erreichbar.
 - **Fix:** `h()` macht jeden `.scroll-x`-Bereich fokussierbar (`tabindex=0`, `role=region`, `aria-label`) – zentral statt pro Ansicht.
+
+## 19.10.2026 – Namen im Prüfskript selbst
+- **Befund (Abschluss-QA):** Die Namensprüfung in `scripts/validate.mjs` enthielt die zu verhindernden Namen als Klartext-Regex – damit standen sie im öffentlichen Repo.
+- **Fix:** Prüfung über SHA-256-Hashes der (klein geschriebenen) Namen; jedes Wort jeder getrackten Datei wird gehasht und verglichen. Erkennung manuell verifiziert.
+- **Hinweis:** In früheren Commits steht die alte Regex noch in der Git-Historie. Laut Auftrag wird die Historie nicht eigenmächtig umgeschrieben → im Abschlussbericht gemeldet.
