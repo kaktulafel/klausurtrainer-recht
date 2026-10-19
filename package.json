@@ -14,12 +14,14 @@
     "live-check": "node scripts/live-check.mjs",
     "normen": "node scripts/fetch-normen.mjs",
     "docs": "node scripts/gen-docs.mjs",
-    "offline-check": "node scripts/offline-check.mjs"
+    "offline-check": "node scripts/offline-check.mjs",
+    "a11y": "node scripts/a11y.mjs"
   },
   "engines": {
     "node": ">=20"
   },
   "devDependencies": {
-    "@playwright/test": "^1.64.1"
+    "@playwright/test": "^1.64.1",
+    "axe-core": "^4.10.3"
   }
 }

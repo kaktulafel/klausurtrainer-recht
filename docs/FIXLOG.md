@@ -25,3 +25,12 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 
 ## 19.10.2026 – E2E: Locator traf versteckten Norm-Knopf
 - Im MC-Aussagenblock wählte `li.aussage button` zuerst den (versteckten) Norm-Link in der Erklärung → Locator auf `.rf button` präzisiert.
+
+## 19.10.2026 – A11y-Scan (axe-core, WCAG 2.1 AA)
+- MC-Aussagenblock: `<li role="group">` brach die Listen-Semantik → Rolle auf die Richtig/Falsch-Knopfgruppe verschoben.
+- Fortschrittsbalken ohne zugänglichen Namen → `aria-label`.
+- Dunkelmodus: weißer Text auf hellrotem „Gefahr“-Knopf (Kontrast) → eigenes Token `--auf-falsch`.
+
+## 19.10.2026 – KI: Zeitlimit und Prompt-Injection
+- Zeitlimit galt nur bis zum Eintreffen der Header; ein hängender Antwort-Body blockierte → Limit umfasst jetzt die ganze Anfrage (Test).
+- System-Prompts weisen an, Anweisungen innerhalb der Bearbeitung zu ignorieren (Test).

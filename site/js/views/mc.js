@@ -70,7 +70,7 @@ function session(main, daten, themen, query) {
   const antworten = new Map(); // id → {auswahl, ergebnis}
   let i = 0;
   const kopf = h('div', { class: 'zeile zwischen' });
-  const fortschritt = h('div', { class: 'fortschritt', role: 'progressbar', 'aria-valuemin': '0', 'aria-valuemax': String(fragen.length) }, h('div'));
+  const fortschritt = h('div', { class: 'fortschritt', role: 'progressbar', 'aria-label': 'Fortschritt der Runde', 'aria-valuemin': '0', 'aria-valuemax': String(fragen.length) }, h('div'));
   const buehne = h('div');
   const t = pruefung ? timer('mc-pruefung-' + (query.themen || '') + fragen.length, fragen.length, { onAblauf: () => abgeben() }) : null;
   if (t) { store.setzeEntwurf('timer:mc-pruefung-' + (query.themen || '') + fragen.length, ''); t.starte(); }
@@ -175,7 +175,7 @@ export function frageUI(q, vorauswahl, gesperrt = false) {
       const setze = (v) => { werte.set(o.id, v); r.setAttribute('aria-pressed', String(v === true)); f.setAttribute('aria-pressed', String(v === false)); };
       r.addEventListener('click', () => setze(true)); f.addEventListener('click', () => setze(false));
       const erkl = h('div', { class: 'erklaerung', hidden: true }, inline(o.erklaerung));
-      const zeile = h('li', { class: 'aussage', role: 'group', 'aria-label': `Aussage ${idx + 1}` }, h('span', null, h('span', { class: 'nr' }, `${idx + 1}. `), inline(o.text), erkl), h('span', { class: 'rf' }, r, f));
+      const zeile = h('li', { class: 'aussage' }, h('span', null, h('span', { class: 'nr' }, `${idx + 1}. `), inline(o.text), erkl), h('span', { class: 'rf', role: 'group', 'aria-label': `Aussage ${idx + 1}: richtig oder falsch?` }, r, f));
       return { o, zeile, erkl, setze, umschalten: () => setze(werte.get(o.id) === true ? false : true) };
     });
     return {
