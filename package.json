@@ -13,7 +13,8 @@
     "e2e": "node scripts/e2e.mjs",
     "live-check": "node scripts/live-check.mjs",
     "normen": "node scripts/fetch-normen.mjs",
-    "docs": "node scripts/gen-docs.mjs"
+    "docs": "node scripts/gen-docs.mjs",
+    "offline-check": "node scripts/offline-check.mjs"
   },
   "engines": {
     "node": ">=20"

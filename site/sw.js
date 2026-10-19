@@ -44,14 +44,18 @@ self.addEventListener('fetch', (e) => {
   else e.respondWith(cacheFirst(req));
 });
 
+// Netz zuerst; bei Funkloch oder sehr langsamem Netz (> 4 s) die Kopie aus dem Cache.
 async function networkFirst(req, istHtml) {
   const c = await caches.open(CACHE);
+  const schluessel = istHtml ? 'index.html' : req;
+  const netz = fetch(req).then(res => { if (res.ok) c.put(schluessel, res.clone()); return res; });
+  netz.catch(() => { /* wird unten behandelt */ });
   try {
-    const res = await fetch(req);
-    if (res.ok) c.put(istHtml ? 'index.html' : req, res.clone());
-    return res;
+    const erster = await Promise.race([netz, new Promise(r => setTimeout(r, 4000, 'zeit'))]);
+    if (erster !== 'zeit') return erster;
+    return (await c.match(schluessel, { ignoreSearch: true })) || await netz;
   } catch {
-    const hit = await c.match(istHtml ? 'index.html' : req, { ignoreSearch: true });
+    const hit = await c.match(schluessel, { ignoreSearch: true });
     if (hit) return hit;
     return new Response('Offline – Inhalt nicht im Cache.', { status: 503, headers: { 'content-type': 'text/plain; charset=utf-8' } });
   }

@@ -26,6 +26,8 @@ jobs:
   deploy:
     needs: test
     runs-on: ubuntu-latest
+    outputs:
+      url: ${{ steps.deployment.outputs.page_url }}
     environment:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
@@ -41,3 +43,15 @@ jobs:
           path: site
       - id: deployment
         uses: actions/deploy-pages@v5
+  live:
+    needs: deploy
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v7
+      - uses: actions/setup-node@v7
+        with:
+          node-version: 24
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: node scripts/live-check.mjs "${{ needs.deploy.outputs.url }}" --sha "${{ github.sha }}" --warten
+      - run: node scripts/offline-check.mjs "${{ needs.deploy.outputs.url }}"
