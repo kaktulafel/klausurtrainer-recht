@@ -1,0 +1,71 @@
+{
+  "id": "fall-13",
+  "titel": "Das Zahngold (Klausurfall mit Dozenten-Schema)",
+  "kurz": "17-Jähriger verkauft geschenktes Zahngold; die Händlerin will ihr Geld zurück – § 812 mit inzidenter Prüfung von §§ 106–110 BGB. Bewertung nach dem Schema des Dozenten.",
+  "themen": ["geschaeftsfaehigkeit", "gesetzliche-schuldverhaeltnisse"],
+  "schwierigkeit": 2,
+  "minuten": 30,
+  "punkte": 40,
+  "sachverhalt": [
+    "Dem 17-jährigen Daniel (D) wurden beim Zahnarzt alte Goldinlays entfernt; er durfte sie mitnehmen. Zu Hause schenkten ihm seine Eltern das Zahngold „als kleine Wiedergutmachung für die Schmerzen – mach damit, was du willst“.",
+    "D möchte sich möglichst schnell eine neue Spielkonsole kaufen. Er geht zum Goldankauf der Andrea Brunn (A) und verkauft ihr das Zahngold für 455 €, die sie ihm sofort bar auszahlt; das Gold übergibt er ihr. Als die Eltern davon erfahren, sind sie unglücklich – sie hatten gehofft, D lege das Gold für sein Studium zurück, hatten ihm das aber nie gesagt. Sie erklären gegenüber A, den Verkauf „im Nachhinein abzulehnen“.",
+    "Als A erfährt, dass D minderjährig ist, will sie ihre 455 € zurück, zumal der Goldpreis inzwischen gesunken ist und sie das Gold nur noch für 400 € weiterverkaufen könnte."
+  ],
+  "fallfragen": [
+    "Kann A von D die Rückzahlung der 455 € verlangen?",
+    "Bearbeitungshinweis: Prüfen Sie nur bereicherungsrechtliche Ansprüche; eine Anfechtung ist nicht zu prüfen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "Anspruch A gegen D auf 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "I. Etwas erlangt (Geld) durch Leistung der A (+)" },
+    { "ebene": 2, "text": "II. Ohne Rechtsgrund? Kaufvertrag (§ 433 BGB): Einigung (+); D beschränkt geschäftsfähig (§§ 2, 106 BGB); rechtlich nachteilig (§ 107 BGB: Pflicht zur Übereignung); keine Einwilligung zum Verkauf; Ablehnung = Verweigerung (§ 108 Abs. 1 BGB)?" },
+    { "ebene": 2, "text": "§ 110 BGB: Zahngold zur freien Verfügung überlassen (Schenkung, lediglich vorteilhaft, § 107 BGB), Leistung (Übergabe und Übereignung) vollständig bewirkt → Vertrag von Anfang an wirksam; spätere „Reue“ der Eltern unbeachtlich" },
+    { "ebene": 2, "text": "III. Ergebnis: Rechtsgrund besteht → kein Anspruch" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "Anspruch A gegen D auf Rückzahlung von 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB",
+      "text": "A könnte gegen D einen Anspruch auf Rückzahlung von 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (Leistungskondiktion) haben. Ein vertraglicher Rückzahlungsanspruch besteht nicht; als Anspruchsgrundlage kommt daher nur das Bereicherungsrecht in Betracht. Voraussetzung ist, dass D etwas durch Leistung der A ohne rechtlichen Grund erlangt hat.\n\n**I. Etwas erlangt durch Leistung**\nD hat 455 € in bar erhalten, also Besitz und – als lediglich rechtlich vorteilhafter Erwerb (§ 107 BGB) – Eigentum an dem Geld. A hat bewusst und zweckgerichtet gezahlt, um ihre Kaufpreisschuld zu erfüllen.\n\n**II. Ohne rechtlichen Grund**\nRechtsgrund könnte ein wirksamer Kaufvertrag über das Zahngold sein (§ 433 BGB). D und A haben sich über den Verkauf zu 455 € geeinigt (§§ 145 ff. BGB).\nD ist 17 Jahre alt und beschränkt geschäftsfähig (§§ 2, 106 BGB). Der Kaufvertrag verpflichtet ihn, das Gold zu übergeben und zu übereignen, und ist daher nicht lediglich rechtlich vorteilhaft (§ 107 BGB). In den Verkauf haben die Eltern nicht vorher eingewilligt. Ohne Einwilligung wäre der Vertrag schwebend unwirksam (§ 108 Abs. 1 BGB), und die nachträgliche „Ablehnung“ der Eltern wäre als Verweigerung der Genehmigung zu werten.\nDer Vertrag könnte aber nach **§ 110 BGB** von Anfang an wirksam sein. Danach gilt ein ohne Zustimmung geschlossener Vertrag als wirksam, wenn der Minderjährige die vertragsmäßige Leistung mit Mitteln bewirkt, die ihm vom gesetzlichen Vertreter zu diesem Zweck oder zur **freien Verfügung** überlassen worden sind. Die Eltern haben D das Zahngold geschenkt mit den Worten „mach damit, was du willst“ – das Gold wurde ihm zur freien Verfügung überlassen (der Erwerb durch Schenkung war für D lediglich rechtlich vorteilhaft, § 107 BGB). D hat seine vertragsmäßige Leistung, die Übergabe und Übereignung des Goldes, mit eben diesem Mittel vollständig **bewirkt**. Der Vertrag gilt daher als von Anfang an wirksam.\nDass die Eltern ihre Entscheidung im Nachhinein bereuen, ändert daran nichts: Ihre Hoffnung, D werde das Gold aufheben, haben sie ihm nie mitgeteilt; eine Zweckbindung bestand nicht. Einer Genehmigung bedurfte es nicht, sodass auch ihre Verweigerung ins Leere geht. Der gesunkene Goldpreis ist das Risiko der Käuferin.\n\n**III. Ergebnis**\nDer Kaufvertrag ist wirksam und bildet den Rechtsgrund für die Zahlung. A hat gegen D keinen Anspruch auf Rückzahlung der 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB."
+    }
+  ],
+  "raster": [
+    { "id": "r1", "abschnitt": "A", "kriterium": "Anspruchsgrundlage als erforderlich erkannt (kein vertraglicher Rückzahlungsanspruch)", "punkte": 3 },
+    { "id": "r2", "abschnitt": "A", "kriterium": "Eine passende Anspruchsgrundlage gefunden", "punkte": 3 },
+    { "id": "r3", "abschnitt": "A", "kriterium": "§ 812 Abs. 1 S. 1 Alt. 1 BGB mit seinen Merkmalen richtig geprüft", "punkte": 4 },
+    { "id": "r4", "abschnitt": "A", "kriterium": "Prüfung Kaufvertrag: Einigung, §§ 2, 106, 107, 108 BGB", "punkte": 7 },
+    { "id": "r5", "abschnitt": "A", "kriterium": "Prüfung § 110 BGB: freie Verfügung über das geschenkte Gold, vollständig bewirkt, spätere Reue unbeachtlich", "punkte": 8 },
+    { "id": "r6", "abschnitt": "A", "kriterium": "Formulierung des Ergebnisses", "punkte": 5 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Juristische Methode verstanden (ggf. definiert)", "punkte": 5 },
+    { "id": "g2", "kriterium": "Juristische Methode umgesetzt (Obersatz → Definition → Subsumtion → Ergebnis)", "punkte": 5 }
+  ],
+  "erwarteteNormen": ["§ 812 Abs. 1 BGB", "§ 433 BGB", "§ 106 BGB", "§ 107 BGB", "§ 108 Abs. 1 BGB", "§ 110 BGB"],
+  "schluesselbegriffe": ["Leistungskondiktion|ohne Rechtsgrund", "beschränkt geschäftsfähig", "rechtlich nachteilig|lediglich rechtlicher Vorteil", "freien Verfügung", "bewirkt", "Rechtsgrund"],
+  "typischeFehler": [
+    "Keine Anspruchsgrundlage nennen, sondern nur „Wirksamkeit des Vertrags“ prüfen (Schema des Dozenten: 3 + 3 Punkte für die Anspruchsgrundlage!).",
+    "Die Ablehnung der Eltern für maßgeblich halten, obwohl § 110 BGB den Vertrag von Anfang an wirksam macht.",
+    "Den gesunkenen Goldpreis als Argument für die Rückforderung verwenden."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: Die Eltern hatten D das Gold mit den Worten übergeben: „Das ist für dein Studium – nicht verkaufen!“", "kurzloesung": "Keine Überlassung zur freien Verfügung; § 110 BGB greift nicht. Der Vertrag ist schwebend unwirksam und nach der Verweigerung endgültig unwirksam (§ 108 Abs. 1 BGB). A kann die 455 € nach § 812 Abs. 1 S. 1 Alt. 1 BGB zurückverlangen; D kann das Gold zurückverlangen (Übereignung durch D war rechtlich nachteilig und nicht gedeckt → D blieb Eigentümer, § 985 BGB)." }
+  ],
+  "gefuehrt": {
+    "einstieg": "A will ihr Geld zurück. Woraus?",
+    "anspruchsgrundlagen": [
+      { "text": "A gegen D auf 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB", "richtig": true, "feedback": "Richtig – Wirksamkeit des Kaufvertrags inzident beim Rechtsgrund." },
+      { "text": "A gegen D auf 455 € aus § 433 Abs. 2 BGB", "richtig": false, "feedback": "Falsch – § 433 Abs. 2 BGB gibt dem Verkäufer den Kaufpreisanspruch, nicht dem Käufer einen Rückzahlungsanspruch." },
+      { "text": "A gegen die Eltern aus § 179 BGB", "richtig": false, "feedback": "Falsch – D handelte im eigenen Namen." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz.",
+    "obersatzMuster": "A könnte gegen D einen Anspruch auf Rückzahlung von 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung.",
+    "reihenfolge": ["Etwas erlangt", "Durch Leistung", "Ohne Rechtsgrund: Kaufvertrag und §§ 106–108 BGB", "Taschengeldparagraph § 110 BGB", "Ergebnis"],
+    "punkte": [
+      { "titel": "§ 110 BGB beim Verkauf durch den Minderjährigen", "aufgabe": "Warum ist der Verkauf des Zahngoldes wirksam?", "tipps": ["Norm: § 110 BGB", "Schema: Mittel zur freien Verfügung überlassen? → Leistung vollständig bewirkt? → Rechtsfolge", "Mustersatz: „Die Eltern haben D das Zahngold zur freien Verfügung überlassen …“"], "muster": "Die Eltern haben D das Zahngold mit den Worten „mach damit, was du willst“ zur freien Verfügung überlassen. Seine Leistung – Übergabe und Übereignung des Goldes – hat D mit diesem Mittel vollständig bewirkt. Nach § 110 BGB gilt der Vertrag als von Anfang an wirksam; die spätere Reue der Eltern ist unbeachtlich." }
+    ]
+  },
+  "quelle": "material:faelle-7",
+  "geprueft": false
+}

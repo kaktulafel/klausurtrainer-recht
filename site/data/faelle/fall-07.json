@@ -1,0 +1,86 @@
+{
+  "id": "fall-07",
+  "titel": "Ein Winken zu viel",
+  "kurz": "Winken in der Weinauktion (fehlendes Erklärungsbewusstsein) und eine vom Partner abgeschickte Kündigung (abhanden gekommene Willenserklärung).",
+  "themen": ["willenserklaerung", "vertragsschluss", "anfechtung"],
+  "schwierigkeit": 2,
+  "minuten": 25,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Weinhändler Olaf Brandt (O) besucht eine Weinversteigerung in Trier, weil er dort seinen Freund Sven treffen will. Als er den Saal betritt, sieht er Sven und winkt ihm freudig zu. Der Auktionator Tobias Reich (T), der im eigenen Namen versteigert, hält das Winken für ein Gebot und erteilt O den Zuschlag für zehn Fässer Riesling zu 45.400 €. O ist entsetzt; er wollte nichts ersteigern und erklärt dies dem T sofort.",
+    "Teil 2: Lena Pohl (L) hat eine neue Wohnung in Aussicht, der Mietvertrag ist aber noch nicht unterschrieben. Sie bereitet schon einmal die Kündigung ihrer bisherigen Wohnung vor, steckt sie in einen adressierten Umschlag und legt ihn auf den Schreibtisch, um später zu entscheiden. Ihr Lebensgefährte Jan sieht den Umschlag, frankiert ihn und wirft ihn ein. Das neue Mietverhältnis kommt nicht zustande."
+  ],
+  "fallfragen": [
+    "1. Kann T von O Zahlung von 45.400 € verlangen?",
+    "2. Ist die Kündigung der L wirksam? Stellen Sie die Lösung der h. M. und die Lösung der Vorlesung dar."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch T gegen O auf 45.400 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "Vertragsschluss durch Gebot und Zuschlag (§ 156 S. 1 BGB) – Gebot = WE? Handlungswille (+), Erklärungsbewusstsein (−) → nach h. M. WE, wenn zurechenbar (objektiver Empfängerhorizont, §§ 133, 157 BGB; Sorgfalt in einer Auktion)" },
+    { "ebene": 2, "text": "Anfechtung analog § 119 Abs. 1 BGB, unverzüglich (§ 121 BGB), gegenüber T (§ 143 BGB) → nichtig ex tunc; Vertrauensschaden § 122 BGB" },
+    { "ebene": 1, "text": "B. Wirksamkeit der Kündigung" },
+    { "ebene": 2, "text": "Abgabe fehlt (Entäußerung ohne Willen der L) – h. M.: keine WE, ggf. Vertrauensschaden analog § 122 BGB; Vorlesung: Zurechnung nach Empfängerhorizont → wirksam, aber anfechtbar" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch T gegen O auf Zahlung von 45.400 € aus § 433 Abs. 2 BGB",
+      "text": "T könnte gegen O einen Anspruch auf Zahlung von 45.400 € aus § 433 Abs. 2 BGB haben. Dies setzt einen wirksamen Kaufvertrag voraus.\n**Vertragsschluss:** Bei einer Versteigerung kommt der Vertrag durch Gebot und Zuschlag zustande (§ 156 S. 1 BGB). Fraglich ist, ob das Winken des O ein Gebot, also eine Willenserklärung war.\nObjektiv durfte T das Handzeichen eines Besuchers während der laufenden Versteigerung nach §§ 133, 157 BGB als Gebot verstehen. Subjektiv lag Handlungswille vor; O wollte aber nichts rechtlich Erhebliches erklären – es fehlte ihm das **Erklärungsbewusstsein**. Nach h. M. ist das unschädlich, wenn der Erklärende bei Anwendung der im Verkehr erforderlichen Sorgfalt hätte erkennen können, dass sein Verhalten als Willenserklärung aufgefasst wird, und der Empfänger es so verstehen durfte. Wer in einem Auktionssaal winkt, muss damit rechnen. Eine Willenserklärung liegt vor; mit dem Zuschlag ist der Vertrag zustande gekommen.\n**Anfechtung:** O kann seine Erklärung jedoch analog **§ 119 Abs. 1 BGB** anfechten, weil er – vergleichbar einem Erklärungsirrtum – eine Erklärung dieses Inhalts gar nicht abgeben wollte. Indem er T sofort erklärte, nichts ersteigern zu wollen, hat er unverzüglich (§ 121 Abs. 1 S. 1 BGB) gegenüber dem Vertragspartner (§ 143 Abs. 1, 2 BGB) angefochten. Der Vertrag ist von Anfang an nichtig (§ 142 Abs. 1 BGB).\n**Ergebnis zu A:** T hat keinen Anspruch auf 45.400 €. Er kann aber Ersatz seines Vertrauensschadens verlangen (§ 122 Abs. 1 BGB), etwa wenn ein anderer Bieter inzwischen gegangen ist."
+    },
+    {
+      "id": "B",
+      "titel": "B. Wirksamkeit der Kündigung der L",
+      "text": "Die Kündigung ist eine einseitige, empfangsbedürftige Willenserklärung. Sie müsste von L **abgegeben** worden und dem Vermieter zugegangen sein (§ 130 Abs. 1 S. 1 BGB).\nAbgegeben ist eine Erklärung, wenn der Erklärende sie willentlich so in Richtung des Empfängers in den Verkehr gebracht hat, dass mit ihrem Zugang zu rechnen ist. L wollte erst später entscheiden; abgeschickt hat Jan ohne ihren Willen. Es handelt sich um eine **abhanden gekommene Willenserklärung**.\n**H. M.:** Mangels willentlicher Abgabe liegt keine wirksame Willenserklärung vor; die Kündigung ist unwirksam. Hat L durch Fahrlässigkeit (offen liegender, adressierter Umschlag) den Rechtsschein gesetzt, haftet sie dem Vermieter allenfalls auf den Vertrauensschaden analog § 122 BGB.\n**Lösung der Vorlesung (a. A.):** Wie beim fehlenden Erklärungsbewusstsein wird die Erklärung der L zugerechnet, weil sie vom objektiven Empfängerhorizont aus als ihre Kündigung erscheint und L das Abschicken hätte verhindern können; die Kündigung ist wirksam, L kann sie aber analog § 119 Abs. 1 BGB unverzüglich anfechten (Folge § 122 BGB).\n**Ergebnis zu B:** Nach h. M. ist die Kündigung unwirksam; nach der Vorlesungslösung zunächst wirksam, aber anfechtbar. Im Ergebnis kann L ihre Wohnung in beiden Fällen behalten."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz und Vertragsschluss durch Zuschlag (§ 156 BGB)", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Tatbestand der WE: Handlungswille (+), Erklärungsbewusstsein (−); Zurechnung nach h. M. (Sorgfalt, Empfängerhorizont §§ 133, 157 BGB)", "punkte": 4 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Anfechtung analog § 119 Abs. 1 BGB, unverzüglich, gegenüber T; § 142 Abs. 1 BGB", "punkte": 3 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Ergebnis und Hinweis auf § 122 BGB", "punkte": 1 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Abgabe definiert; abhanden gekommene WE erkannt", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "H. M. (keine WE, § 122 analog) und Vorlesungslösung (Zurechnung, Anfechtung) dargestellt", "punkte": 3 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Ergebnis", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Willenserklärung, Erklärungsbewusstsein, Abgabe)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze; Streit fair dargestellt", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 433 Abs. 2 BGB", "§ 156 BGB", "§ 133 BGB", "§ 157 BGB", "§ 119 Abs. 1 BGB", "§ 121 BGB", "§ 143 BGB", "§ 142 Abs. 1 BGB", "§ 122 BGB", "§ 130 Abs. 1 BGB"],
+  "schluesselbegriffe": ["Handlungswille", "Erklärungsbewusstsein", "Empfängerhorizont", "Zuschlag", "abhanden gekommen|Abgabe", "Vertrauensschaden"],
+  "typischeFehler": [
+    "Mangels Erklärungsbewusstsein sofort „keine WE“ annehmen, ohne die Zurechnung nach h. M. zu prüfen.",
+    "Die Anfechtung (analog § 119 BGB) und die Ersatzpflicht nach § 122 BGB vergessen.",
+    "Bei der abhanden gekommenen Erklärung Zugang prüfen, aber die Abgabe übersehen."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung: O wusste, dass Handzeichen in dieser Versteigerung als Gebot gelten, winkte aber trotzdem, weil er glaubte, der Auktionator schaue gerade nicht hin.",
+      "kurzloesung": "Erklärungsbewusstsein lag zwar nicht vor, das Verhalten ist O aber erst recht zurechenbar. Er kann allenfalls analog § 119 Abs. 1 BGB anfechten; ob ihm das hilft, hängt von der Unverzüglichkeit ab; jedenfalls schuldet er den Vertrauensschaden (§ 122 BGB)."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "Zwei Teile: Was ist jeweils das Kernproblem?",
+    "anspruchsgrundlagen": [
+      { "text": "T gegen O auf 45.400 € aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – Kern: fehlendes Erklärungsbewusstsein." },
+      { "text": "Wirksamkeit der Kündigung der L (Abgabe?)", "richtig": true, "feedback": "Richtig – Kern: abhanden gekommene Willenserklärung." },
+      { "text": "T gegen O aus § 179 BGB", "richtig": false, "feedback": "Falsch – O handelte nicht als Vertreter." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Teil 1.",
+    "obersatzMuster": "T könnte gegen O einen Anspruch auf Zahlung von 45.400 € aus § 433 Abs. 2 BGB haben.",
+    "reihenfolgeTitel": "Ordne den subjektiven Tatbestand der Willenserklärung.",
+    "reihenfolge": ["Handlungswille", "Erklärungsbewusstsein", "Geschäftswille"],
+    "punkte": [
+      {
+        "titel": "Fehlendes Erklärungsbewusstsein",
+        "aufgabe": "Liegt trotz fehlenden Erklärungsbewusstseins eine Willenserklärung vor?",
+        "tipps": ["Norm: §§ 133, 157 BGB; § 119 Abs. 1 BGB analog", "Schema: objektiver Tatbestand → Zurechenbarkeit (Sorgfalt) → Anfechtung → § 122", "Mustersatz: „Nach h. M. ist fehlendes Erklärungsbewusstsein unschädlich, wenn …“"],
+        "muster": "Nach h. M. ist fehlendes Erklärungsbewusstsein unschädlich, wenn der Erklärende bei verkehrsüblicher Sorgfalt hätte erkennen können, dass sein Verhalten als Willenserklärung verstanden wird, und der Empfänger es so verstehen durfte. Wer im Auktionssaal winkt, muss damit rechnen. Eine WE liegt vor; O kann sie analog § 119 Abs. 1 BGB anfechten und schuldet dann den Vertrauensschaden (§ 122 BGB)."
+      }
+    ]
+  },
+  "quelle": "material:faelle-1",
+  "geprueft": false
+}

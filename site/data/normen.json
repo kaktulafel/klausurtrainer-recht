@@ -3094,5 +3094,53 @@
   "wortlaut": "wortlaut/wortlaut-5.json",
   "quelleWortlaut": "gesetze-im-internet.de",
   "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "bgb-274",
+  "zitat": "§ 274 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Wirkungen des Zurückbehaltungsrechts",
+  "kurz": "Wirkung des Zurückbehaltungsrechts: Verurteilung zur Leistung Zug um Zug.",
+  "lage": "BGB › Buch 2 – Recht der Schuldverhältnisse › Abschnitt 1 – Inhalt der Schuldverhältnisse › Titel 1 – Verpflichtung zur Leistung",
+  "link": "https://www.gesetze-im-internet.de/bgb/__274.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "bgb-327",
+  "zitat": "§ 327 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Anwendungsbereich",
+  "kurz": "Verbraucherverträge über digitale Produkte (digitale Inhalte und Dienstleistungen): Anwendungsbereich der §§ 327–327u BGB.",
+  "lage": "BGB › Buch 2 – Recht der Schuldverhältnisse › Abschnitt 3 – Schuldverhältnisse aus Verträgen › Titel 2a – Verträge über digitale Produkte › Untertitel 1 – Verbraucherverträge über digitale Produkte",
+  "link": "https://www.gesetze-im-internet.de/bgb/__327.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "bgb-446",
+  "zitat": "§ 446 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Gefahr- und Lastenübergang",
+  "kurz": "Gefahrübergang beim Kauf mit Übergabe der Sache.",
+  "lage": "BGB › Buch 2 – Recht der Schuldverhältnisse › Abschnitt 8 – Einzelne Schuldverhältnisse › Titel 1 – Kauf, Tausch › Untertitel 1 – Allgemeine Vorschriften",
+  "link": "https://www.gesetze-im-internet.de/bgb/__446.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "bgb-648",
+  "zitat": "§ 648 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Kündigungsrecht des Bestellers",
+  "kurz": "Kündigungsrecht des Bestellers beim Werkvertrag jederzeit bis zur Vollendung; Unternehmer behält Vergütung abzüglich ersparter Aufwendungen.",
+  "lage": "BGB › Buch 2 – Recht der Schuldverhältnisse › Abschnitt 8 – Einzelne Schuldverhältnisse › Titel 9 – Werkvertrag und ähnliche Verträge › Untertitel 1 – Werkvertrag › Kapitel 1 – Allgemeine Vorschriften",
+  "link": "https://www.gesetze-im-internet.de/bgb/__648.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
  }
 ]

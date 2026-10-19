@@ -1,0 +1,86 @@
+{
+  "id": "fall-08",
+  "titel": "Späte E-Mails und falsche Boten",
+  "kurz": "Angebot per E-Mail um 21 Uhr, Widerruf um 22 Uhr; Kündigung über Mitbewohner bzw. Nachbarin – Zugang unter Abwesenden, Widerruf nach § 130 Abs. 1 S. 2, Empfangs- und Erklärungsbote.",
+  "themen": ["zugang", "vertragsschluss"],
+  "schwierigkeit": 2,
+  "minuten": 25,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Marie (M) möchte ihre gebrauchte Spielkonsole an ihren Bekannten Daniel (D) verkaufen. Sie schreibt ihm am Dienstag um 21:00 Uhr eine private E-Mail: „Du kannst meine Konsole für 230 € haben.“ Um 22:00 Uhr bietet ihre Freundin 250 €; M verkauft ihr die Konsole sofort und schreibt D um 22:05 Uhr: „Sorry, mein Angebot von vorhin gilt nicht mehr.“ D öffnet sein Postfach erst am Mittwoch um 8:00 Uhr, liest nur die erste E-Mail und antwortet sofort: „Angenommen!“ Danach liest er die zweite.",
+    "Teil 2: Vermieterin V will einem Mieter fristgerecht kündigen; die Kündigung muss ihm spätestens am 30. April zugehen. V gibt das unterschriebene Schreiben am 30. April um 18:00 Uhr ihrer Angestellten A mit, die es persönlich überbringen soll. Der Mieter ist nicht da. (a) A übergibt das Schreiben seiner Mitbewohnerin, die es ihm erst am 2. Mai gibt. (b) A gibt es stattdessen der Nachbarin, die es dem Mieter erst am 3. Mai überreicht."
+  ],
+  "fallfragen": [
+    "1. Ist zwischen M und D ein Kaufvertrag zustande gekommen?",
+    "2. Ist die Kündigung in den Varianten (a) und (b) rechtzeitig zugegangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Kaufvertrag M – D (§§ 145 ff. BGB)" },
+    { "ebene": 2, "text": "Angebot der M: WE unter Abwesenden, wirksam mit Zugang (§ 130 Abs. 1 S. 1 BGB) – Machtbereich Dienstag 21 Uhr, übliche Kenntnisnahme erst Mittwoch früh" },
+    { "ebene": 2, "text": "Widerruf um 22:05 Uhr ebenfalls Zugang Mittwoch früh → gleichzeitig → Angebot nicht wirksam (§ 130 Abs. 1 S. 2 BGB) → Annahme geht ins Leere → kein Vertrag" },
+    { "ebene": 1, "text": "B. Zugang der Kündigung (§ 130 Abs. 1 S. 1 BGB)" },
+    { "ebene": 2, "text": "A ist Erklärungsbotin der V; (a) Mitbewohnerin = Empfangsbotin → Zugang, wenn Weitergabe zu erwarten (30. April abends) → rechtzeitig; (b) Nachbarin keine Empfangsbotin → Zugang erst bei Übergabe am 3. Mai → verspätet (Risiko bei V)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Kaufvertrag zwischen M und D",
+      "text": "Ein Kaufvertrag (§ 433 BGB) setzt zwei übereinstimmende Willenserklärungen, Antrag und Annahme, voraus (§§ 145 ff. BGB).\n**Angebot der M:** Die E-Mail enthält Gegenstand, Preis und Vertragspartner – ein Antrag. Als Erklärung unter Abwesenden wird er erst mit **Zugang** wirksam (§ 130 Abs. 1 S. 1 BGB). Zugegangen ist eine Erklärung, wenn sie so in den Machtbereich des Empfängers gelangt, dass dieser unter gewöhnlichen Umständen von ihr Kenntnis nehmen kann und mit der Kenntnisnahme zu rechnen ist. Die E-Mail gelangte am Dienstag um 21 Uhr in das Postfach des D. Bei privaten E-Mails ist am späten Abend aber nicht mehr mit einer Kenntnisnahme zu rechnen, sondern erst am nächsten Morgen.\n**Widerruf:** Die Erklärung wird nicht wirksam, wenn dem Empfänger vorher oder gleichzeitig ein Widerruf zugeht (§ 130 Abs. 1 S. 2 BGB). Die zweite E-Mail gelangte um 22:05 Uhr in den Machtbereich; auch für sie war Kenntnisnahme erst am Mittwochmorgen zu erwarten. Beide Erklärungen gingen daher **gleichzeitig** zu. Dass D die zweite E-Mail später las, ist unerheblich, weil es auf die tatsächliche Kenntnisnahme nicht ankommt. Das Angebot ist nicht wirksam geworden.\n**Annahme:** Die Antwort „Angenommen!“ geht ins Leere; sie ist allenfalls ein neuer Antrag (§ 150 BGB analog), den M nicht angenommen hat.\n**Ergebnis zu A:** Zwischen M und D ist kein Kaufvertrag zustande gekommen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Zugang der Kündigung",
+      "text": "Die Kündigung ist eine empfangsbedürftige Willenserklärung unter Abwesenden; sie wird mit Zugang wirksam (§ 130 Abs. 1 S. 1 BGB).\nA steht im Lager der V und übermittelt ihre Erklärung; sie ist **Erklärungsbotin**. Mit der bloßen Übergabe an A ist noch nichts zugegangen; Verzögerungen auf dem Weg trägt V.\n**Variante (a):** Die Mitbewohnerin ist nach der Verkehrsanschauung zur Entgegennahme von Erklärungen für den Mieter geeignet; sie ist **Empfangsbotin**. Mit der Übergabe an sie ist die Erklärung in den Machtbereich des Mieters gelangt; zugegangen ist sie, sobald unter gewöhnlichen Umständen mit der Weitergabe zu rechnen ist – bei einer Mitbewohnerin noch am selben Abend. Dass sie das Schreiben erst am 2. Mai weitergab, geht zulasten des Mieters. Die Kündigung ist am 30. April rechtzeitig zugegangen.\n**Variante (b):** Eine Nachbarin ist nach der Verkehrsanschauung nicht zur Entgegennahme bestimmt und daher keine Empfangsbotin; sie wird als (weitere) Erklärungsbotin der V tätig. Die Erklärung gelangt erst mit der Übergabe am 3. Mai in den Machtbereich des Mieters.\n**Ergebnis zu B:** In Variante (a) ist die Kündigung rechtzeitig, in Variante (b) verspätet zugegangen."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Antrag und Wirksamwerden mit Zugang (§ 130 Abs. 1 S. 1 BGB) definiert", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Machtbereich vs. übliche Kenntnisnahme bei E-Mails am Abend", "punkte": 2 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Widerruf gleichzeitig zugegangen → § 130 Abs. 1 S. 2 BGB; tatsächliche Kenntnis unerheblich", "punkte": 3 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Annahme geht ins Leere; Ergebnis", "punkte": 1 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "A als Erklärungsbotin; Risiko bei V", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "(a) Mitbewohnerin als Empfangsbotin → Zugang bei zu erwartender Weitergabe", "punkte": 3 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "(b) Nachbarin keine Empfangsbotin → Zugang erst am 3. Mai; Ergebnis", "punkte": 3 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze/Fragestellungen im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definition des Zugangs vor der Subsumtion", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion mit Uhrzeiten und Personen", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 145 BGB", "§ 130 Abs. 1 BGB", "§ 150 BGB"],
+  "schluesselbegriffe": ["Machtbereich", "Kenntnisnahme", "gleichzeitig", "Widerruf", "Erklärungsbote|Erklärungsbotin", "Empfangsbote|Empfangsbotin"],
+  "typischeFehler": [
+    "Auf die tatsächliche Kenntnisnahme abstellen (D las die erste E-Mail zuerst).",
+    "Den Zugang schon mit Eingang im Postfach am Abend annehmen.",
+    "Mitbewohnerin und Nachbarin gleich behandeln."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung: M ruft D an und bietet ihm die Konsole für 230 € an. D sagt, er überlege noch, und ruft zwei Stunden später an: „Ich nehme sie.“ M hat sie inzwischen verkauft.",
+      "kurzloesung": "Ein Antrag am Telefon kann nur sofort angenommen werden (§ 147 Abs. 1 S. 2 BGB). Mit dem Zögern des D ist der Antrag erloschen (§ 146 BGB). Die spätere Annahme ist ein neuer Antrag (§ 150 Abs. 1 BGB), den M nicht annimmt → kein Vertrag."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "Zwei Zugangsprobleme – was ist jeweils zu klären?",
+    "anspruchsgrundlagen": [
+      { "text": "Kaufvertrag M – D: Wirksamwerden des Angebots (§ 130 BGB)", "richtig": true, "feedback": "Richtig – Kern: gleichzeitiger Widerruf." },
+      { "text": "Rechtzeitiger Zugang der Kündigung (§ 130 BGB, Boten)", "richtig": true, "feedback": "Richtig – Kern: Empfangs- vs. Erklärungsbote." },
+      { "text": "Widerruf des Verbrauchers nach § 355 BGB", "richtig": false, "feedback": "Falsch – M und D sind Privatpersonen; gemeint ist der Widerruf nach § 130 Abs. 1 S. 2 BGB." }
+    ],
+    "obersatzAufgabe": "Formuliere die Ausgangsfrage für Teil 1 im Gutachtenstil.",
+    "obersatzMuster": "Zwischen M und D könnte ein Kaufvertrag über die Konsole zustande gekommen sein. Dies setzt Antrag und Annahme voraus (§§ 145 ff. BGB).",
+    "reihenfolgeTitel": "Ordne die Zugangsprüfung.",
+    "reihenfolge": ["Empfangsbedürftige Willenserklärung", "Gelangen in den Machtbereich", "Kenntnisnahme unter gewöhnlichen Umständen zu erwarten", "Kein vorheriger oder gleichzeitiger Widerruf"],
+    "punkte": [
+      {
+        "titel": "Gleichzeitiger Zugang",
+        "aufgabe": "Wann gehen die beiden E-Mails zu, und welche Folge hat das?",
+        "tipps": ["Norm: § 130 Abs. 1 S. 1, 2 BGB", "Schema: Machtbereich → übliche Kenntnisnahme → Vergleich der Zeitpunkte", "Mustersatz: „Bei privaten E-Mails ist am späten Abend nicht mehr mit einer Kenntnisnahme zu rechnen …“"],
+        "muster": "Beide E-Mails gelangten am Abend in den Machtbereich des D. Bei privaten E-Mails ist abends nicht mehr mit Kenntnisnahme zu rechnen, sondern erst am nächsten Morgen. Beide gingen daher gleichzeitig zu; nach § 130 Abs. 1 S. 2 BGB wurde das Angebot nicht wirksam."
+      }
+    ]
+  },
+  "quelle": "material:faelle-2",
+  "geprueft": false
+}

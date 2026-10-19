@@ -1,0 +1,78 @@
+{
+  "id": "fall-16",
+  "titel": "Falsche Zeitung und vergessene Nachbestellung",
+  "kurz": "Bote oder Vertreter (falsche Übermittlung, § 120) beim Bargeschäft des täglichen Lebens; Anscheinsvollmacht der aushelfenden Tochter.",
+  "themen": ["stellvertretung", "anfechtung"],
+  "schwierigkeit": 2,
+  "minuten": 25,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Jan (J) bittet seinen Mitbewohner Dennis (D): „Wenn du einkaufst, bring mir bitte die FAZ mit.“ D sagt am Kiosk der Anke (A) versehentlich „Bitte eine Rundschau“, zahlt mit dem Geld des J und bringt die Rundschau nach Hause. J will die Rundschau nicht und möchte das Geschäft rückgängig machen.",
+    "Teil 2: Die volljährige Studentin Nele (N) hilft seit drei Jahren in den Semesterferien in der Buchhaltung des Kosmetikstudios ihrer Mutter Martina (M). Jedes Jahr kontrolliert sie dabei den Bestand und bestellt telefonisch im Namen des Studios fehlenden Nagellack bei der Gloss-GmbH (G); die Rechnungen bezahlt die Buchhaltung, ohne dass M sich je darum kümmerte. Eine Vollmacht hat M nie erteilt. Diesmal bestellt N, obwohl M kurz zuvor selbst nachbestellt hatte. M verweigert die Annahme und Zahlung: Sie habe N nie bevollmächtigt; die früheren Bestellungen seien „an ihr vorbeigegangen“."
+  ],
+  "fallfragen": [
+    "1. Zwischen wem ist der Kaufvertrag über die Zeitung zustande gekommen, und kann J sich davon lösen?",
+    "2. Kann G von M Zahlung des Kaufpreises verlangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Teil 1" },
+    { "ebene": 2, "text": "D als Bote (übermittelt fremde Erklärung, kein Entscheidungsspielraum) → Erklärung des J, so wie sie ankommt („Rundschau“) · Vertragspartner A – J (Geschäft für den, den es angeht, wäre bei Vertretung einschlägig) · Anfechtung nach § 120 BGB (falsche Übermittlung), unverzüglich (§ 121 BGB), Folge § 122 BGB" },
+    { "ebene": 1, "text": "B. Anspruch G gegen M auf Kaufpreis aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "Vertrag durch N als Vertreterin (§ 164 Abs. 1 BGB): eigene WE, im Namen des Studios (+); Vertretungsmacht: keine Vollmacht, Aushilfe in Buchhaltung umfasst keinen Einkauf · Anscheinsvollmacht: wiederholtes Auftreten über Jahre, G gutgläubig, M hätte es bei Sorgfalt erkennen und verhindern können → (+) → Anspruch (+)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Kaufvertrag über die Zeitung und Lösung davon",
+      "text": "Fraglich ist zunächst, ob D als Bote oder als Vertreter des J gehandelt hat. **Vertreter** ist, wer eine eigene Willenserklärung mit eigenem Entscheidungsspielraum abgibt (§ 164 Abs. 1 BGB); **Bote**, wer eine fremde Erklärung lediglich übermittelt. D sollte genau „die FAZ“ besorgen und hatte keinerlei Entscheidungsspielraum; er war Bote des J. (Eine andere Ansicht ist vertretbar, wenn man auf das Auftreten nach außen abstellt; dann käme es als Bargeschäft des täglichen Lebens zum „Geschäft für den, den es angeht“.)\nDie Erklärung des J wurde durch den Boten verfälscht. Sie ist so wirksam, wie sie bei A angekommen ist: Zwischen A und J ist ein Kaufvertrag über eine Rundschau zustande gekommen.\nJ kann seine Erklärung jedoch nach **§ 120 BGB** anfechten: Eine Willenserklärung, die durch eine zur Übermittlung verwendete Person unrichtig übermittelt worden ist, kann unter derselben Voraussetzung angefochten werden wie eine irrtümlich abgegebene (§ 119 BGB). J wollte keine Rundschau kaufen. Er muss die Anfechtung **unverzüglich** gegenüber A erklären (§ 121 Abs. 1 S. 1, § 143 Abs. 2 BGB). Folge: Nichtigkeit von Anfang an (§ 142 Abs. 1 BGB); J muss A den Vertrauensschaden ersetzen (§ 122 Abs. 1 BGB), etwa wenn die Zeitung unverkäuflich geworden ist; im Gegenzug erhält er den Kaufpreis gegen Rückgabe der Zeitung zurück (§ 812 Abs. 1 S. 1 Alt. 1 BGB).\n**Ergebnis zu A:** Vertrag zwischen A und J über eine Rundschau; J kann nach § 120 BGB anfechten."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch G gegen M auf Zahlung des Kaufpreises aus § 433 Abs. 2 BGB",
+      "text": "G könnte gegen M einen Anspruch auf Kaufpreiszahlung aus § 433 Abs. 2 BGB haben. Dann müsste N die M beim Kauf wirksam vertreten haben (§ 164 Abs. 1 BGB).\nN hat eine **eigene Willenserklärung** (Auswahl und Menge des Nagellacks) **im Namen** des Studios der M abgegeben; G hat konkludent durch Lieferung angenommen.\n**Vertretungsmacht:** Eine Vollmacht (§ 166 Abs. 2 S. 1, § 167 BGB) hat M nie erteilt. Aus dem Aushilfsverhältnis in der Buchhaltung folgt sie nicht, weil Einkäufe nicht zu dieser Tätigkeit gehören (a. A. vertretbar).\nIn Betracht kommt eine **Anscheinsvollmacht** (Rechtsgedanke der §§ 170 ff. BGB): Der Vertretene muss sich so behandeln lassen, als habe er Vollmacht erteilt, wenn (1) jemand wiederholt und über eine gewisse Dauer als Vertreter auftritt, (2) der Vertretene dies nicht kennt, es aber bei pflichtgemäßer Sorgfalt hätte erkennen und verhindern können, und (3) der Geschäftspartner gutgläubig und im Vertrauen darauf handelt. N bestellte seit drei Jahren regelmäßig im Namen des Studios; die Rechnungen wurden aus der Buchhaltung der M bezahlt. M hätte das bei ordnungsgemäßer Organisation ihres Betriebs erkennen müssen. G durfte nach dieser langjährigen Praxis auf eine Bevollmächtigung vertrauen.\nN handelte daher mit Vertretungsmacht kraft Rechtsscheins; dass die Bestellung überflüssig war, betrifft nur das Innenverhältnis.\n**Ergebnis zu B:** G kann von M den Kaufpreis verlangen (Zug um Zug gegen Lieferung)."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Abgrenzung Bote/Vertreter mit Kriterium (Entscheidungsspielraum, Auftreten)", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Vertrag A – J über die Rundschau (Erklärung wirkt wie übermittelt)", "punkte": 2 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Anfechtung § 120 BGB, unverzüglich (§ 121 BGB), gegenüber A; Folgen §§ 142, 122 BGB", "punkte": 4 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz § 433 Abs. 2 BGB; eigene WE im fremden Namen", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Keine Vollmacht; Aushilfsverhältnis deckt keinen Einkauf", "punkte": 1 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Anscheinsvollmacht: Voraussetzungen definiert und subsumiert", "punkte": 4 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "Ergebnis", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze/Fragestellungen im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Bote, Vertreter, Anscheinsvollmacht)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 164 Abs. 1 BGB", "§ 120 BGB", "§ 121 BGB", "§ 142 Abs. 1 BGB", "§ 122 BGB", "§ 433 Abs. 2 BGB", "§ 167 BGB", "§ 170 BGB"],
+  "schluesselbegriffe": ["Bote", "eigene Willenserklärung", "falsche Übermittlung|unrichtig übermittelt", "Anscheinsvollmacht", "Rechtsschein", "gutgläubig"],
+  "typischeFehler": [
+    "D als Vertreter einordnen, obwohl er keinen Entscheidungsspielraum hatte (oder umgekehrt ohne Begründung).",
+    "Bei falscher Übermittlung § 119 statt § 120 BGB zitieren.",
+    "Anscheins- und Duldungsvollmacht verwechseln (M kannte das Auftreten nicht)."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: D bringt bewusst die Rundschau mit, weil er die FAZ „langweilig“ findet.", "kurzloesung": "Bewusste Falschübermittlung durch den Boten ist dem Geschäftsherrn nicht zuzurechnen; J ist nicht gebunden (§§ 177, 179 BGB analog: D haftet ggf. selbst)." },
+    { "frage": "Abwandlung: M wusste von den Bestellungen und ließ N gewähren.", "kurzloesung": "Duldungsvollmacht: M kennt das Auftreten und schreitet nicht ein → M ist gebunden." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Was ist jeweils das Kernproblem?",
+    "anspruchsgrundlagen": [
+      { "text": "Teil 1: Bote oder Vertreter? Anfechtung nach § 120 BGB", "richtig": true, "feedback": "Richtig." },
+      { "text": "Teil 2: G gegen M aus § 433 Abs. 2 BGB (Anscheinsvollmacht)", "richtig": true, "feedback": "Richtig." },
+      { "text": "Teil 2: G gegen N aus § 179 BGB", "richtig": false, "feedback": "Falsch – nur zu prüfen, wenn N ohne Vertretungsmacht handelte; wegen der Anscheinsvollmacht ist das nicht der Fall." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Teil 2.",
+    "obersatzMuster": "G könnte gegen M einen Anspruch auf Zahlung des Kaufpreises aus § 433 Abs. 2 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung der Anscheinsvollmacht.",
+    "reihenfolge": ["Wiederholtes Auftreten als Vertreter über gewisse Dauer", "Vertretener hätte es erkennen und verhindern können", "Gutgläubigkeit des Geschäftspartners", "Ursächliches Vertrauen beim Abschluss", "Rechtsfolge: Bindung des Vertretenen"],
+    "punkte": [
+      { "titel": "Bote oder Vertreter?", "aufgabe": "Ordne D ein und begründe.", "tipps": ["Norm: § 164 Abs. 1 BGB, § 120 BGB", "Schema: eigene vs. fremde Erklärung → Entscheidungsspielraum → Auftreten", "Mustersatz: „Vertreter ist, wer eine eigene Willenserklärung mit eigenem Entscheidungsspielraum abgibt …“"], "muster": "Vertreter ist, wer eine eigene Willenserklärung mit eigenem Entscheidungsspielraum abgibt; Bote, wer eine fremde Erklärung übermittelt. D sollte genau die FAZ besorgen und hatte keinen Spielraum – er war Bote. Seine falsche Übermittlung berechtigt J zur Anfechtung nach § 120 BGB." }
+    ]
+  },
+  "quelle": "material:faelle-6",
+  "geprueft": false
+}

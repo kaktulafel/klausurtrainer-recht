@@ -1,0 +1,78 @@
+{
+  "id": "fall-09",
+  "titel": "Fahrrad und Probekiste",
+  "kurz": "Verspätete und geänderte Annahme (§§ 147, 150), Annahme durch Zustimmung; unbestellte Obstkiste eines Händlers (§ 241a).",
+  "themen": ["vertragsschluss", "willenserklaerung"],
+  "schwierigkeit": 1,
+  "minuten": 20,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Anna (A) fragt ihren Nachbarn Dennis (D): „Ich möchte dein Fahrrad kaufen.“ D antwortet: „Gern, für 50 € ist es deins.“ A sagt: „Das muss ich mir noch überlegen.“ Drei Stunden später ruft sie D an: „Ja – allerdings möchte ich, dass du es vorher noch putzt.“ D: „Na gut, mach ich. Hol es morgen ab und bring das Geld bar mit.“",
+    "Teil 2: Obst- und Gemüsehändler Klaus (K) schickt seiner Stammkundin Anna ohne Bestellung „zur Probe“ eine Kiste gemischter Früchte mit einer Rechnung über 15 € und dem Vermerk: „Das kann ich jede Woche liefern.“ Anna isst die Erdbeeren und bringt den Rest zurück. K verlangt 15 €, mindestens aber 5 € für die Erdbeeren."
+  ],
+  "fallfragen": [
+    "1. Ist zwischen A und D ein Kaufvertrag über das Fahrrad zustande gekommen? Wenn ja, durch welche Erklärungen?",
+    "2. Kann K von A 15 € oder jedenfalls 5 € verlangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Kaufvertrag A – D" },
+    { "ebene": 2, "text": "„Ich möchte dein Fahrrad kaufen“: kein Antrag (essentialia, Preis fehlt) · „für 50 € ist es deins“: Antrag des D (§ 145 BGB) · unter Anwesenden nur sofort annehmbar (§ 147 Abs. 1 BGB) → erloschen (§ 146 BGB)" },
+    { "ebene": 2, "text": "Anruf der A: verspätete und geänderte Annahme = neuer Antrag (§ 150 Abs. 1, 2 BGB) · „Na gut, mach ich“: Annahme durch D → Vertrag (+)" },
+    { "ebene": 1, "text": "B. Anspruch K gegen A auf 15 € bzw. 5 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "Zusendung = Antrag; Verzehr als Annahme? § 241a Abs. 1 BGB: unbestellte Ware Unternehmer → Verbraucher → kein Anspruch, auch nicht auf 5 €; keine Ausnahme nach § 241a Abs. 2 BGB" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Kaufvertrag zwischen A und D",
+      "text": "Ein Kaufvertrag (§ 433 BGB) setzt Antrag und Annahme voraus (§§ 145 ff. BGB).\n**Erste Äußerung der A:** Ein Antrag muss die wesentlichen Vertragsbestandteile (essentialia negotii) so enthalten, dass der andere nur noch „ja“ sagen muss. „Ich möchte dein Fahrrad kaufen“ nennt keinen Preis; es ist kein Antrag, sondern eine Anfrage.\n**Erklärung des D:** „Für 50 € ist es deins“ enthält Gegenstand, Preis und Parteien – ein Antrag (§ 145 BGB). Unter Anwesenden kann ein Antrag nur **sofort** angenommen werden (§ 147 Abs. 1 S. 1 BGB). A nahm nicht sofort an, sondern wollte überlegen; der Antrag erlosch (§ 146 BGB).\n**Anruf der A:** Ihre Erklärung drei Stunden später ist eine verspätete Annahme und enthält zudem eine Änderung (Putzen). Beides gilt als **neuer Antrag** (§ 150 Abs. 1, 2 BGB).\n**Antwort des D:** „Na gut, mach ich“ ist die vorbehaltlose Annahme dieses neuen Antrags. Am Telefon (§ 147 Abs. 1 S. 2 BGB) erfolgte sie sofort.\n**Ergebnis zu A:** Ein Kaufvertrag über das Fahrrad zu 50 € einschließlich der Pflicht, es zu putzen, ist durch den Antrag der A (Anruf) und die Annahme des D zustande gekommen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch K gegen A auf Zahlung von 15 € bzw. 5 € aus § 433 Abs. 2 BGB",
+      "text": "K könnte gegen A einen Anspruch auf Zahlung von 15 €, jedenfalls 5 €, aus § 433 Abs. 2 BGB haben. Dies setzt einen Kaufvertrag voraus.\nIn der Zusendung der Kiste mit Rechnung liegt ein Antrag des K. Eine Annahme durch A könnte im Verzehr der Erdbeeren liegen; eine teilweise Annahme wäre als neuer Antrag zu werten (§ 150 Abs. 2 BGB).\nDem steht aber **§ 241a Abs. 1 BGB** entgegen: Durch die Lieferung unbestellter Waren durch einen **Unternehmer** an einen **Verbraucher** wird ein Anspruch gegen diesen nicht begründet. K handelt als Händler gewerblich (§ 14 BGB); A kauft privat ein und ist Verbraucherin (§ 13 BGB). A hatte nichts bestellt. Nach der Wertung des § 241a BGB soll der Verbraucher die Ware sogar nutzen oder verbrauchen dürfen, ohne zahlen zu müssen; im Verzehr liegt daher keine zur Zahlung verpflichtende Annahme. Eine Ausnahme nach § 241a Abs. 2 BGB (Ware erkennbar für einen anderen bestimmt oder irrtümlich geliefert) liegt nicht vor.\n**Ergebnis zu B:** K hat keinen Anspruch – weder auf 15 € noch auf 5 €."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Anfrage ohne essentialia ist kein Antrag", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Antrag des D; nur sofort annehmbar (§ 147 Abs. 1 BGB), Erlöschen (§ 146 BGB)", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Verspätete und geänderte Annahme als neuer Antrag (§ 150 Abs. 1, 2 BGB)", "punkte": 3 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Annahme durch D; Ergebnis", "punkte": 1 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz und Antrag durch Zusendung", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "§ 241a Abs. 1 BGB: Unternehmer/Verbraucher (§§ 13, 14 BGB), unbestellt, auch bei Verbrauch", "punkte": 4 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Keine Ausnahme nach Abs. 2; Ergebnis", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Antrag, essentialia negotii)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Chronologische Subsumtion der Erklärungen", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 145 BGB", "§ 146 BGB", "§ 147 Abs. 1 BGB", "§ 150 BGB", "§ 433 Abs. 2 BGB", "§ 241a BGB", "§ 13 BGB", "§ 14 BGB"],
+  "schluesselbegriffe": ["essentialia negotii", "sofort", "neuer Antrag", "unbestellt", "Verbraucher", "Unternehmer"],
+  "typischeFehler": [
+    "Schon die erste Äußerung der A als Angebot werten.",
+    "Den Antrag des D trotz Bedenkzeit drei Stunden später noch annehmen lassen.",
+    "Bei § 241a BGB einen Anspruch auf Wertersatz für verzehrte Ware bejahen."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: Anna ist selbst Gastronomin und hatte die Kiste für ihr Restaurant geliefert bekommen.", "kurzloesung": "Dann ist sie Unternehmerin (§ 14 BGB); § 241a BGB greift nicht. Im Verbrauch der Ware kann eine konkludente Annahme liegen (Annahme ohne Zugang nach § 151 BGB) – K hat dann einen Anspruch aus § 433 Abs. 2 BGB." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Welche Fragen sind zu prüfen?",
+    "anspruchsgrundlagen": [
+      { "text": "Vertragsschluss A – D (§§ 145 ff. BGB)", "richtig": true, "feedback": "Richtig – chronologisch alle Erklärungen prüfen." },
+      { "text": "K gegen A auf 15 € aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – Kern: § 241a BGB." },
+      { "text": "K gegen A auf 5 € aus § 823 Abs. 1 BGB", "richtig": false, "feedback": "Falsch – A hat kein Recht des K rechtswidrig verletzt; § 241a BGB erlaubt Nutzung und Verbrauch." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Teil 2.",
+    "obersatzMuster": "K könnte gegen A einen Anspruch auf Zahlung von 15 € aus § 433 Abs. 2 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Erklärungen in Teil 1 chronologisch.",
+    "reihenfolge": ["Anfrage der A (kein Antrag)", "Antrag des D (50 €)", "Erlöschen des Antrags (§§ 146, 147 BGB)", "Neuer Antrag der A (§ 150 BGB)", "Annahme durch D"],
+    "punkte": [
+      { "titel": "§ 241a BGB", "aufgabe": "Warum muss Anna nicht einmal die verzehrten Erdbeeren bezahlen?", "tipps": ["Norm: § 241a Abs. 1 BGB", "Schema: Unternehmer → Verbraucher → unbestellt → kein Anspruch (auch bei Verbrauch)", "Mustersatz: „Durch die Lieferung unbestellter Waren durch einen Unternehmer an einen Verbraucher wird ein Anspruch … nicht begründet.“"], "muster": "Nach § 241a Abs. 1 BGB begründet die Lieferung unbestellter Waren durch einen Unternehmer (§ 14 BGB) an einen Verbraucher (§ 13 BGB) keinen Anspruch gegen diesen. K handelt gewerblich, A privat, bestellt hatte sie nichts. Auch der Verzehr führt zu keinem Zahlungsanspruch." }
+    ]
+  },
+  "quelle": "material:faelle-5",
+  "geprueft": false
+}

@@ -1,0 +1,78 @@
+{
+  "id": "fall-11",
+  "titel": "Ohne Rechnung und mit Zwangslage",
+  "kurz": "Schwarzarbeitsabrede (§ 134 BGB, Rückforderung und § 817 S. 2) und Moped-Verkauf unter Wert in Geldnot (Wucher, § 138 Abs. 2 BGB, Rückabwicklung).",
+  "themen": ["unwirksamkeit", "gesetzliche-schuldverhaeltnisse", "abstraktionsprinzip"],
+  "schwierigkeit": 3,
+  "minuten": 30,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Kim (K) beauftragt den Fliesenleger Hannes (H), ihr Bad für 2.000 € zu fliesen. Auf Vorschlag des H vereinbaren beide, dass „ohne Rechnung“ gearbeitet wird, damit H keine Umsatzsteuer und Einkommensteuer abführen muss; beiden ist das klar. K zahlt 1.000 € an. H fliest nur eine Wand und erscheint dann nicht mehr. K verlangt die 1.000 € zurück.",
+    "Teil 2: Jonas (J) ist in akuter Geldnot: Morgen muss er eine Mietschuld von 300 € begleichen, sonst droht die fristlose Kündigung. Seine Bekannte Alina (A) weiß das. Sie erklärt sich bereit, ihm 300 € zu geben, wenn er ihr dafür sein Moped überträgt, das – wie beide wissen – 750 € wert ist. J willigt notgedrungen ein und übergibt das Moped mit den Worten „Es gehört jetzt dir“. Wenig später gewinnt J im Lotto und verlangt das Moped gegen Rückzahlung der 300 € zurück."
+  ],
+  "fallfragen": [
+    "1. Kann K von H die 1.000 € zurückverlangen?",
+    "2. Kann J von A die Rückgabe und Rückübereignung des Mopeds verlangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch K gegen H auf 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "Erlangt durch Leistung (+); ohne Rechtsgrund: Werkvertrag nach § 134 BGB i. V. m. dem Schwarzarbeitsbekämpfungsgesetz nichtig (beiderseitiger Verstoß) (+)" },
+    { "ebene": 2, "text": "Ausschluss nach § 817 S. 2 BGB: auch K hat gegen das Verbot verstoßen → kein Anspruch (BGH)" },
+    { "ebene": 1, "text": "B. Anspruch J gegen A auf Rückübertragung aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "Erlangt: Besitz (und Eigentum?) durch Leistung; ohne Rechtsgrund: Kaufvertrag nach § 138 Abs. 2 BGB nichtig (auffälliges Missverhältnis 300 € / 750 €, Zwangslage, Ausbeutung) → (+); Wucher erfasst auch die Übereignung durch den Bewucherten („gewähren lässt“) → J ist Eigentümer geblieben (auch § 985 BGB)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch K gegen H auf Rückzahlung von 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB",
+      "text": "K könnte gegen H einen Anspruch auf Rückzahlung von 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.\n**Etwas erlangt durch Leistung:** H hat 1.000 € erlangt, die K bewusst zur Erfüllung des Werkvertrags gezahlt hat.\n**Ohne rechtlichen Grund:** Rechtsgrund wäre ein wirksamer Werkvertrag (§ 631 BGB). Ein Rechtsgeschäft, das gegen ein gesetzliches Verbot verstößt, ist nichtig, wenn sich aus dem Gesetz nichts anderes ergibt (§ 134 BGB). Das Schwarzarbeitsbekämpfungsgesetz verbietet die Erbringung von Werkleistungen unter Verletzung steuerlicher Pflichten. K und H haben bewusst vereinbart, dass H die Umsätze nicht versteuert. Weil beide Seiten den Verstoß kannten und zu ihrem Vorteil nutzten, ist der gesamte Vertrag nach § 134 BGB nichtig. Die Zahlung erfolgte ohne Rechtsgrund.\n**Ausschluss nach § 817 S. 2 BGB:** Die Rückforderung ist ausgeschlossen, wenn dem Leistenden gleichfalls ein Verstoß gegen ein gesetzliches Verbot zur Last fällt. K hat sich bewusst an der Schwarzarbeitsabrede beteiligt, um Geld zu sparen. Nach dem Zweck des Verbots soll Schwarzarbeit gerade dadurch unattraktiv werden, dass keine Seite Hilfe der Rechtsordnung erhält.\n**Ergebnis zu A:** K kann die 1.000 € nicht zurückverlangen. (Auch H hätte für die geflieste Wand keinen Anspruch auf Vergütung oder Wertersatz.)"
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch J gegen A auf Rückübertragung des Mopeds",
+      "text": "J könnte gegen A einen Anspruch auf Rückgabe und Rückübereignung des Mopeds aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.\n**Etwas erlangt durch Leistung:** A hat jedenfalls den Besitz am Moped durch Leistung des J erlangt.\n**Ohne rechtlichen Grund:** Rechtsgrund könnte ein Kaufvertrag (§ 433 BGB) sein. Er könnte als Wucher nichtig sein (**§ 138 Abs. 2 BGB**). Wucher liegt vor, wenn jemand unter Ausbeutung der Zwangslage, der Unerfahrenheit, des Mangels an Urteilsvermögen oder einer erheblichen Willensschwäche eines anderen sich Vermögensvorteile versprechen oder gewähren lässt, die in einem **auffälligen Missverhältnis** zur Leistung stehen.\nDas Moped ist 750 € wert, A zahlt 300 € – sie erhält mehr als das Doppelte ihrer Leistung; ein auffälliges Missverhältnis liegt vor. J befand sich wegen der drohenden Wohnungskündigung in einer **Zwangslage**. A kannte die Notlage und machte sie sich bewusst zunutze, um das Moped billig zu bekommen (**Ausbeutung**). Der Vertrag ist nichtig. (Vertretbar ist auch, wegen der Vorgeschichte – A hatte J schon oft Geld geliehen und es nicht vollständig zurückbekommen – ein bewusstes Ausnutzen zu verneinen; dann bliebe der Vertrag wirksam.)\n**Folge für die Übereignung:** Nach § 138 Abs. 2 BGB ist auch das Rechtsgeschäft nichtig, durch das sich der Wucherer die Vorteile **gewähren lässt** – also die Übereignung des Mopeds durch J. J ist daher Eigentümer geblieben; neben § 812 BGB kann er auch Herausgabe nach § 985 BGB verlangen.\n**Ergebnis zu B:** J kann von A das Moped herausverlangen. Die 300 € bietet er ohnehin zurück; ob A sie zurückfordern könnte, ist hier nicht gefragt."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz § 812 Abs. 1 S. 1 Alt. 1 BGB; erlangt durch Leistung", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "§ 134 BGB: Verstoß gegen Schwarzarbeitsverbot, beiderseitig → Vertrag nichtig", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "§ 817 S. 2 BGB: Kondiktionssperre wegen eigenen Verstoßes der K; Ergebnis", "punkte": 3 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz und erlangt durch Leistung", "punkte": 1 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "§ 138 Abs. 2 BGB: auffälliges Missverhältnis, Zwangslage, Ausbeutung subsumiert (Gegenansicht vertretbar)", "punkte": 4 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Nichtigkeit auch der Übereignung („gewähren lässt“) → Eigentum bei J, § 985 BGB", "punkte": 2 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "Ergebnis", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Wucher, Leistung)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion mit Wertangaben und Motiven", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 812 Abs. 1 BGB", "§ 134 BGB", "§ 817 BGB", "§ 138 Abs. 2 BGB", "§ 985 BGB"],
+  "schluesselbegriffe": ["gesetzliches Verbot", "nichtig", "Kondiktionssperre|§ 817", "auffälliges Missverhältnis", "Zwangslage", "Ausbeutung|ausnutzen"],
+  "typischeFehler": [
+    "Bei der Schwarzarbeit die Rückforderung ohne Blick auf § 817 S. 2 BGB zusprechen.",
+    "§ 138 Abs. 1 BGB vor § 138 Abs. 2 BGB prüfen.",
+    "Übersehen, dass der Wucher auch das Verfügungsgeschäft des Bewucherten erfasst (Ausnahme vom Abstraktionsprinzip)."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: Die Abrede „ohne Rechnung“ wurde erst nachträglich getroffen, nachdem der Vertrag ordnungsgemäß geschlossen war.", "kurzloesung": "Auch eine nachträgliche Schwarzgeldabrede führt nach der Rechtsprechung zur Nichtigkeit des gesamten Vertrags nach § 134 BGB, wenn sie den Vertrag insgesamt umgestaltet – mit denselben Folgen." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Zwei Rückforderungen – welche Anspruchsgrundlagen?",
+    "anspruchsgrundlagen": [
+      { "text": "K gegen H auf 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB", "richtig": true, "feedback": "Richtig – denke an § 817 S. 2 BGB." },
+      { "text": "J gegen A aus § 812 Abs. 1 S. 1 Alt. 1 BGB (und § 985 BGB)", "richtig": true, "feedback": "Richtig – Kern: § 138 Abs. 2 BGB." },
+      { "text": "K gegen H auf Schadensersatz aus §§ 280, 281 BGB", "richtig": false, "feedback": "Falsch – setzt einen wirksamen Vertrag voraus; der ist nach § 134 BGB nichtig." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Teil 2.",
+    "obersatzMuster": "J könnte gegen A einen Anspruch auf Rückgabe und Rückübereignung des Mopeds aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung des Wuchers.",
+    "reihenfolge": ["Auffälliges Missverhältnis", "Schwächelage (Zwangslage)", "Ausbeutung durch den Wucherer", "Rechtsfolge: Nichtigkeit (auch der Verfügung)"],
+    "punkte": [
+      { "titel": "§ 817 S. 2 BGB", "aufgabe": "Warum bekommt K ihr Geld nicht zurück?", "tipps": ["Norm: § 817 S. 2 BGB", "Schema: eigener Verstoß des Leistenden → Rückforderung ausgeschlossen; Zweck des Verbots", "Mustersatz: „Die Rückforderung ist ausgeschlossen, wenn dem Leistenden gleichfalls ein Verstoß … zur Last fällt.“"], "muster": "Nach § 817 S. 2 BGB ist die Rückforderung ausgeschlossen, wenn auch dem Leistenden ein Gesetzesverstoß zur Last fällt. K hat sich bewusst an der Schwarzarbeitsabrede beteiligt. Der Zweck des Verbots spricht dafür, keiner Seite zu helfen. K kann die 1.000 € nicht zurückverlangen." }
+    ]
+  },
+  "quelle": "material:faelle-4",
+  "geprueft": false
+}

@@ -1,0 +1,81 @@
+{
+  "id": "fall-10",
+  "titel": "Die letzte Konsole und die Gerichtsstandsklauseln",
+  "kurz": "Gattungsschuld, Konkretisierung und Unmöglichkeit (§§ 243, 275, 326) beim Versand an einen Verbraucher; kollidierende AGB als versteckter Dissens (§ 155).",
+  "themen": ["vertragsschluss", "anspruchsaufbau"],
+  "schwierigkeit": 3,
+  "minuten": 30,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Elektronikhändler Jonas (J) verkauft dem Gamer David (D, privat) im Laden seine letzte vorrätige Konsole eines gängigen Modells für 500 €; D zahlt sofort. J soll die Konsole verpacken und an D schicken. Vor dem Versand stürzt bei einem Unwetter ein Balken im Lager auf die Konsole; sie ist zerstört. J erklärt, er sei nach § 275 BGB frei geworden, weil er keine Konsole mehr habe; das Geld behalte er. Das Modell ist bei anderen Großhändlern ohne Weiteres erhältlich.",
+    "Teil 2: J bestellt bei der Großhändlerin N-GmbH (N) eine neue Konsole auf seinem Bestellformular. Darin heißt es: „Unsere umseitigen AGB sind Vertragsbestandteil“; Ziff. 9: „Gerichtsstand ist München (Sitz des Bestellers).“ N liefert und legt einen Lieferschein bei: „Gerichtsstand für alle Streitigkeiten ist Frankfurt am Main (Sitz der N).“ Beide Seiten gehen davon aus, dass ein Vertrag besteht."
+  ],
+  "fallfragen": [
+    "1. Kann D von J Lieferung einer Konsole verlangen? Wie wäre es, wenn D die Konsole selbst abholen wollte und J sie bereits mit Namensschild für D zurückgelegt und ihm dies mitgeteilt hätte?",
+    "2. Ist zwischen J und N ein Kaufvertrag zustande gekommen, und gilt eine der Gerichtsstandsklauseln?",
+    "Bearbeitungshinweis: Zuständigkeitsregeln der ZPO sind nicht zu prüfen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch D gegen J auf Lieferung aus § 433 Abs. 1 S. 1 BGB" },
+    { "ebene": 2, "text": "I. Entstanden: Kaufvertrag (+); Gattungsschuld (Auslegung §§ 133, 157 BGB; Modell, nicht ein bestimmtes Stück) – mittlere Art und Güte (§ 243 Abs. 1 BGB)" },
+    { "ebene": 2, "text": "II. Erloschen nach § 275 Abs. 1 BGB? Konkretisierung (§ 243 Abs. 2 BGB) nur, wenn J das seinerseits Erforderliche getan hat – bei Versendung erst mit Übergabe an die Transportperson; Gattung noch lieferbar → (−); kein Gefahrübergang (§ 447 BGB gilt beim Verbrauchsgüterkauf nicht, § 475 Abs. 2 BGB)" },
+    { "ebene": 2, "text": "III. Abwandlung Holschuld: Aussonderung + Mitteilung → Konkretisierung → Untergang → § 275 Abs. 1 BGB (+); Gegenleistung entfällt (§ 326 Abs. 1 BGB), Rückzahlung (§ 326 Abs. 4, § 346 BGB)" },
+    { "ebene": 1, "text": "B. Vertrag J – N" },
+    { "ebene": 2, "text": "Bestellung = Antrag mit AGB; Lieferung mit abweichenden Bedingungen = (konkludente) Annahme unter Erweiterung (§ 150 Abs. 2 BGB)? Beide behandeln den Vertrag als geschlossen → versteckter Dissens nur im Gerichtsstand (§ 155 BGB) → Vertrag im Übrigen; keine der Klauseln gilt, es gilt das Gesetz (§ 306 Abs. 2 BGB)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch D gegen J auf Lieferung einer Konsole aus § 433 Abs. 1 S. 1 BGB",
+      "text": "D könnte gegen J einen Anspruch auf Übergabe und Übereignung einer Konsole aus § 433 Abs. 1 S. 1 BGB haben.\n**I. Anspruch entstanden:** J und D haben einen Kaufvertrag geschlossen. Fraglich ist, was geschuldet ist. Nach §§ 133, 157 BGB war aus Sicht des D eine Konsole des gängigen Modells geschuldet; dass J nur noch ein Stück vorrätig hatte, war für D weder erkennbar noch wichtig. Es handelt sich um eine **Gattungsschuld**: J schuldet eine Sache mittlerer Art und Güte (§ 243 Abs. 1 BGB).\n**II. Anspruch erloschen (§ 275 Abs. 1 BGB)?** Der Anspruch ist ausgeschlossen, soweit die Leistung für den Schuldner oder für jedermann unmöglich ist. Bei einer Gattungsschuld ist das erst der Fall, wenn die ganze Gattung untergegangen ist oder sich die Schuld auf ein bestimmtes Stück **konkretisiert** hat (§ 243 Abs. 2 BGB). Konkretisierung tritt ein, wenn der Schuldner das zur Leistung **seinerseits Erforderliche** getan hat. Bei einer Versendung (Schickschuld) gehört dazu, die Sache auszusondern und der Transportperson zu übergeben. Die Konsole wurde vor dem Versand zerstört; konkretisiert war die Schuld daher nicht. Das Modell ist bei anderen Händlern erhältlich, also nicht für jedermann unmöglich. Auch die Preisgefahr ist nicht übergegangen: § 447 BGB gilt beim Verkauf an einen Verbraucher nicht (§ 475 Abs. 2 BGB) und setzt ohnehin die Übergabe an den Transporteur voraus. J ist nicht frei geworden.\n**Abwandlung (Holschuld):** Soll D die Konsole abholen, hat J das seinerseits Erforderliche getan, wenn er ein Stück aussondert und D mitteilt, es liege zur Abholung bereit. Dann hat sich die Schuld auf diese Konsole konkretisiert (§ 243 Abs. 2 BGB); mit ihrer Zerstörung wird die Leistung unmöglich, und J wird nach § 275 Abs. 1 BGB frei. Der Anspruch auf die Gegenleistung entfällt dann aber ebenfalls (§ 326 Abs. 1 S. 1 BGB); D kann die gezahlten 500 € zurückverlangen (§ 326 Abs. 4 i. V. m. § 346 Abs. 1 BGB).\n**Ergebnis zu A:** Im Ausgangsfall muss J eine andere Konsole beschaffen und liefern. In der Abwandlung ist er frei, muss aber den Kaufpreis zurückzahlen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Vertrag zwischen J und N und Gerichtsstand",
+      "text": "Ein Kaufvertrag setzt Antrag und Annahme voraus (§§ 145 ff. BGB). Die Bestellung des J auf seinem Formular einschließlich seiner AGB ist ein Antrag. N hat durch die Lieferung konkludent angenommen, dabei aber eigene, abweichende Bedingungen beigefügt. Eine Annahme unter Änderungen gilt grundsätzlich als neuer Antrag (§ 150 Abs. 2 BGB).\nBeide Parteien haben den Vertrag aber durchgeführt und gehen übereinstimmend von seinem Bestehen aus. Uneinig sind sie sich nur über den Gerichtsstand, ohne dass ihnen dies bewusst war. Ein solcher **versteckter Einigungsmangel** führt nach **§ 155 BGB** dazu, dass das Vereinbarte gilt, wenn anzunehmen ist, dass der Vertrag auch ohne eine Bestimmung über diesen Punkt geschlossen worden wäre. Die Auslegung (§§ 133, 157 BGB) ergibt, dass die Parteien den Kauf nicht an der Frage des Gerichtsstands scheitern lassen wollten.\n**Ergebnis zu B:** Ein Kaufvertrag ist geschlossen. Die widersprechenden Gerichtsstandsklauseln heben sich gegenseitig auf und werden nicht Vertragsinhalt; insoweit gilt das Gesetz (vgl. § 306 Abs. 2 BGB) – im Streitfall ist am allgemeinen Gerichtsstand des Beklagten zu klagen."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz § 433 Abs. 1 S. 1 BGB; Gattungsschuld durch Auslegung, § 243 Abs. 1 BGB", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "§ 275 Abs. 1 BGB: Konkretisierung nach § 243 Abs. 2 BGB (das seinerseits Erforderliche) bei Schickschuld verneint", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Gattung noch lieferbar; § 447 BGB nicht anwendbar (§ 475 Abs. 2 BGB)", "punkte": 2 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Abwandlung Holschuld: Konkretisierung, § 275 (+), § 326 Abs. 1, 4 BGB, Rückzahlung", "punkte": 3 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Antrag mit AGB, Annahme durch Lieferung mit abweichenden Bedingungen (§ 150 Abs. 2 BGB)", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Versteckter Dissens § 155 BGB; Auslegung: Vertrag im Übrigen gewollt", "punkte": 3 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Klauseln gelten nicht, gesetzliche Regel; Ergebnis", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Gattungsschuld, Konkretisierung, Dissens)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt", "punkte": 2 },
+    { "id": "g4", "kriterium": "Aufbau entstanden/erloschen; Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 433 Abs. 1 BGB", "§ 243 BGB", "§ 275 Abs. 1 BGB", "§ 447 BGB", "§ 475 BGB", "§ 326 BGB", "§ 150 Abs. 2 BGB", "§ 155 BGB", "§ 306 BGB"],
+  "schluesselbegriffe": ["Gattungsschuld", "mittlerer Art und Güte", "Konkretisierung", "seinerseits Erforderliche", "Unmöglichkeit", "versteckter Dissens|Einigungsmangel"],
+  "typischeFehler": [
+    "Stückschuld annehmen, weil J nur noch ein Exemplar hatte.",
+    "§ 447 BGB beim Verkauf an einen Verbraucher anwenden.",
+    "Bei der Abwandlung vergessen, dass auch der Anspruch auf den Kaufpreis entfällt (§ 326 BGB).",
+    "Wegen der abweichenden AGB den ganzen Vertrag scheitern lassen."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: J hatte die Konsole bereits einem Paketdienst übergeben, als sie beim Transport zerstört wurde.", "kurzloesung": "Konkretisierung (+), Leistung unmöglich (§ 275 Abs. 1 BGB). Beim Verbrauchsgüterkauf geht die Preisgefahr aber erst mit Übergabe an den Käufer über (§ 475 Abs. 2 BGB, § 446 BGB) – J verliert den Anspruch auf den Kaufpreis (§ 326 Abs. 1 BGB) und muss die 500 € zurückzahlen." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Was will D, und welches Problem stellt sich?",
+    "anspruchsgrundlagen": [
+      { "text": "D gegen J auf Lieferung aus § 433 Abs. 1 S. 1 BGB", "richtig": true, "feedback": "Richtig – erloschen nach § 275 BGB?" },
+      { "text": "D gegen J auf 500 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB", "richtig": false, "feedback": "Falsch – der Kaufvertrag ist wirksam; Rückzahlung käme allenfalls über § 326 Abs. 4 BGB in Betracht." },
+      { "text": "Vertragsschluss J – N und Gerichtsstand (§ 155 BGB)", "richtig": true, "feedback": "Richtig – Fallfrage 2." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Fallfrage 1.",
+    "obersatzMuster": "D könnte gegen J einen Anspruch auf Übergabe und Übereignung einer Konsole aus § 433 Abs. 1 S. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung in Fallfrage 1.",
+    "reihenfolge": ["Kaufvertrag (Anspruch entstanden)", "Gattungsschuld (§ 243 Abs. 1 BGB)", "Konkretisierung? (§ 243 Abs. 2 BGB)", "Unmöglichkeit (§ 275 Abs. 1 BGB)", "Ergebnis"],
+    "punkte": [
+      { "titel": "Konkretisierung", "aufgabe": "Hat sich die Schuld auf die zerstörte Konsole konkretisiert?", "tipps": ["Norm: § 243 Abs. 2 BGB", "Schema: Schick-, Hol- oder Bringschuld → was ist das „seinerseits Erforderliche“?", "Mustersatz: „Bei einer Schickschuld hat der Schuldner das seinerseits Erforderliche erst getan, wenn er die Sache … der Transportperson übergeben hat.“"], "muster": "Konkretisierung tritt ein, wenn der Schuldner das seinerseits Erforderliche getan hat (§ 243 Abs. 2 BGB). Bei einer Schickschuld gehört dazu die Übergabe an die Transportperson. Die Konsole wurde vorher zerstört; die Schuld war nicht konkretisiert. J muss aus der Gattung leisten." }
+    ]
+  },
+  "quelle": "material:faelle-5",
+  "geprueft": false
+}

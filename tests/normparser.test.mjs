@@ -105,3 +105,8 @@ test('Fortsetzung „S. 2, 3“ und „Abs. 1, 2“ bei einfachem §', () => {
   assert.deepEqual(kurz('§§ 280 I 2, 276 BGB'), ['§ 280 Abs. 1 S. 2 BGB', '§ 276 BGB']);
   assert.deepEqual(kurz('§ 171 Abs. 2, § 173 BGB'), ['§ 171 Abs. 2 BGB', '§ 173 BGB']);
 });
+
+test('„§§ 280 Abs. 1, 3, 281 BGB“ = Abs. 1 und 3 von § 280 plus § 281', () => {
+  assert.deepEqual(kurz('§§ 280 Abs. 1, 3, 281 BGB'), ['§ 280 Abs. 1 BGB', '§ 281 BGB']);
+  assert.deepEqual(kurz('§§ 119, 123 BGB'), ['§ 119 BGB', '§ 123 BGB']);
+});

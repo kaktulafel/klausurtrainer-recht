@@ -1,0 +1,78 @@
+{
+  "id": "fall-17",
+  "titel": "Schuhe für die Kita",
+  "kurz": "Geschäftsunfähiges Kind als Bote, falsch übermittelter Preis, neues Angebot nach § 150 BGB; dieselbe Szene am 7. Geburtstag (§ 187 Abs. 2 S. 2, §§ 106, 108).",
+  "themen": ["geschaeftsfaehigkeit", "zugang", "vertragsschluss"],
+  "schwierigkeit": 2,
+  "minuten": 25,
+  "punkte": 24,
+  "sachverhalt": [
+    "Annika (A) gibt ihrem 6-jährigen Sohn Ben (B) dessen zu klein gewordene Schuhe mit in die Kita, wo gut erhaltene Kleidung für den Kita-Fundus angekauft wird; üblich sind 3 €. A sagt zu B: „Sag dem Erzieher, die Schuhe kosten drei Euro.“",
+    "B gibt die Schuhe beim Erzieher Jonas (J), der für die Kita einkauft und dazu befugt ist, ab und sagt: „Zwei Euro.“ J gibt ihm zwei 1-€-Münzen, die B in seinen Rucksack steckt und nachmittags A gibt. A nimmt das Geld wortlos entgegen."
+  ],
+  "fallfragen": [
+    "1. Ist ein Kaufvertrag über die Schuhe zustande gekommen? Wenn ja, zwischen wem und zu welchem Preis?",
+    "2. Wie wäre es, wenn sich das Geschehen am 7. Geburtstag des B abgespielt und B die Schuhe auf eigene Faust (ohne Auftrag der A) verkauft hätte?",
+    "Bearbeitungshinweis: Gehen Sie davon aus, dass J die Kita wirksam vertritt; vereinfachend ist von einem Vertrag mit „J“ auszugehen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "Frage 1" },
+    { "ebene": 2, "text": "Vertrag B – J? B geschäftsunfähig (§ 104 Nr. 1 BGB) → eigene WE nichtig (§ 105 Abs. 1 BGB)" },
+    { "ebene": 2, "text": "Vertrag A – J? Antrag „3 €“ der A über B als Erklärungsboten: Boten können auch Geschäftsunfähige sein; B übermittelte nicht (sondern „2 €“) → Antrag über 3 € nicht zugegangen (§ 130 Abs. 1 BGB) · Zahlung von 2 € durch J = Antrag über 2 € (Auslegung §§ 133, 157 BGB; § 150 BGB), B als Bote des J · Annahme durch A konkludent (Entgegennahme des Geldes) → Vertrag A – J zu 2 €" },
+    { "ebene": 1, "text": "Frage 2: B mit Vollendung des 7. Lebensjahres beschränkt geschäftsfähig (§ 187 Abs. 2 S. 2, § 106 BGB) → eigenes Angebot über 2 €; rechtlich nachteilig (§ 107 BGB) → schwebend unwirksam, Genehmigung der A (§§ 108, 1629, 184 BGB)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Frage 1: Kaufvertrag über die Schuhe",
+      "text": "**Vertrag zwischen B und J:** B ist 6 Jahre alt und damit geschäftsunfähig (§ 104 Nr. 1 BGB). Eine eigene Willenserklärung des B wäre nichtig (§ 105 Abs. 1 BGB). Ein Vertrag zwischen B und J scheidet aus.\n**Vertrag zwischen A und J:** A wollte die Schuhe für 3 € verkaufen und hat B mit der Übermittlung beauftragt. B war **Erklärungsbote** der A – auch ein Geschäftsunfähiger kann Bote sein, weil er keine eigene Willenserklärung abgibt. Übermittelt hat B aber nicht „3 €“, sondern „2 €“. Ob in der falschen Übermittlung des Kindes eine Erklärung der A über 2 € liegt, ist zweifelhaft; jedenfalls ist der Antrag über 3 € dem J nie zugegangen (§ 130 Abs. 1 S. 1 BGB) und daher nicht wirksam geworden.\nIndem J zwei Euro für die Schuhe hingab, hat er nach §§ 133, 157 BGB seinerseits einen **Antrag** auf Kauf der Schuhe für 2 € gemacht (vgl. § 150 BGB). Diesen hat B als Bote des J an A übermittelt (Übergabe des Geldes). A hat das Geld wortlos entgegengenommen und behalten; darin liegt eine konkludente **Annahme**.\n**Ergebnis zu Frage 1:** Zwischen A und J ist ein Kaufvertrag über die Schuhe zum Preis von 2 € zustande gekommen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Frage 2: Verkauf am 7. Geburtstag",
+      "text": "Bei der Berechnung des Lebensalters wird der Tag der Geburt mitgerechnet (§ 187 Abs. 2 S. 2 BGB). Mit Beginn seines 7. Geburtstags hat B das siebente Lebensjahr vollendet und ist **beschränkt geschäftsfähig** (§ 106 BGB).\nB hat eine eigene Willenserklärung abgegeben: Er bot J die Schuhe für 2 € an, J nahm an. Der Kaufvertrag verpflichtet B, die Schuhe zu übereignen, und ist daher nicht lediglich rechtlich vorteilhaft (§ 107 BGB). Eine Einwilligung der A liegt nicht vor; § 110 BGB greift nicht, weil B keine Leistung mit überlassenen Mitteln bewirkt, sondern Eigentum veräußert, das ihm nicht zur freien Verfügung überlassen war.\nDer Vertrag ist **schwebend unwirksam** (§ 108 Abs. 1 BGB). Er wird wirksam, wenn A als gesetzliche Vertreterin (§ 1629 Abs. 1 BGB) ihn genehmigt; die Genehmigung wirkt zurück (§ 184 Abs. 1 BGB). Nimmt A das Geld in Kenntnis der Umstände an, kann darin eine konkludente Genehmigung liegen.\n**Ergebnis zu Frage 2:** Vertrag zwischen B und J, zunächst schwebend unwirksam, mit Genehmigung der A wirksam."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "B geschäftsunfähig → keine eigene WE (§§ 104 Nr. 1, 105 BGB)", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "B als Erklärungsbote (auch Geschäftsunfähige können Boten sein); Antrag über 3 € nicht zugegangen (§ 130 BGB)", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Neuer Antrag des J über 2 € durch Auslegung (§§ 133, 157, 150 BGB); B als Bote des J", "punkte": 3 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Konkludente Annahme durch A; Ergebnis", "punkte": 2 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "§ 187 Abs. 2 S. 2 BGB: Geburtstag mitgerechnet → beschränkt geschäftsfähig (§ 106 BGB)", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "§ 107 BGB nachteilig, keine Einwilligung, § 110 BGB nicht einschlägig", "punkte": 2 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "§ 108 Abs. 1 BGB, Genehmigung durch A (§§ 1629, 184 BGB)", "punkte": 2 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Fragestellungen im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Bote, Antrag, Geschäftsfähigkeit)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion der einzelnen Erklärungen", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 104 BGB", "§ 105 Abs. 1 BGB", "§ 130 Abs. 1 BGB", "§ 133 BGB", "§ 150 BGB", "§ 187 Abs. 2 BGB", "§ 106 BGB", "§ 107 BGB", "§ 108 Abs. 1 BGB", "§ 1629 BGB", "§ 184 BGB"],
+  "schluesselbegriffe": ["geschäftsunfähig", "Erklärungsbote|Bote", "nicht zugegangen", "neuer Antrag|neues Angebot", "konkludent", "beschränkt geschäftsfähig", "schwebend unwirksam"],
+  "typischeFehler": [
+    "Annehmen, ein Geschäftsunfähiger könne nicht Bote sein.",
+    "Den Vertrag zu 3 € annehmen, obwohl dieser Antrag nie zuging.",
+    "Am 7. Geburtstag noch Geschäftsunfähigkeit annehmen (§ 187 Abs. 2 S. 2 BGB)."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: B übermittelt korrekt „drei Euro“, J zahlt 3 €.", "kurzloesung": "Antrag der A über 3 € durch B als Erklärungsboten zugegangen, Annahme durch J (§§ 145 ff. BGB) → Vertrag A – J über 3 €; Übereignung der Schuhe durch B als Boten der A, des Geldes durch B als Boten des J." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Wer kommt als Vertragspartner in Betracht?",
+    "anspruchsgrundlagen": [
+      { "text": "Vertrag B – J", "richtig": true, "feedback": "Richtig – kurz prüfen und wegen § 105 BGB verneinen." },
+      { "text": "Vertrag A – J", "richtig": true, "feedback": "Richtig – Kern: B als Bote, Zugang, neuer Antrag." },
+      { "text": "Vertrag A – B", "richtig": false, "feedback": "Falsch – zwischen Mutter und Kind wurde kein Rechtsgeschäft geschlossen." }
+    ],
+    "obersatzAufgabe": "Formuliere die Ausgangsfrage für den Vertrag A – J.",
+    "obersatzMuster": "Zwischen A und J könnte ein Kaufvertrag über die Schuhe zustande gekommen sein. Dies setzt Antrag und Annahme voraus (§§ 145 ff. BGB).",
+    "reihenfolgeTitel": "Ordne die Prüfung von Frage 1.",
+    "reihenfolge": ["Vertrag B – J (§ 105 BGB)", "Antrag der A über 3 € (Zugang über Boten?)", "Antrag des J über 2 € (Auslegung)", "Annahme durch A", "Ergebnis"],
+    "punkte": [
+      { "titel": "Kind als Bote", "aufgabe": "Kann ein 6-Jähriger Erklärungen übermitteln, und was folgt aus der falschen Übermittlung?", "tipps": ["Norm: § 105 BGB, § 130 BGB", "Schema: Bote gibt keine eigene WE ab → Geschäftsfähigkeit unerheblich → Zugang des Antrags?", "Mustersatz: „Bote ist, wer eine fremde Willenserklärung übermittelt; …“"], "muster": "Bote ist, wer eine fremde Erklärung übermittelt; er gibt keine eigene Willenserklärung ab, sodass auch ein Geschäftsunfähiger Bote sein kann. B hat den Antrag der A über 3 € aber nicht übermittelt; dieser ist J nicht zugegangen (§ 130 Abs. 1 BGB) und nicht wirksam geworden." }
+    ]
+  },
+  "quelle": "material:faelle-3",
+  "geprueft": false
+}

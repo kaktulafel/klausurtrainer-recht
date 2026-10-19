@@ -1,0 +1,78 @@
+{
+  "id": "fall-12",
+  "titel": "Malware im Webshop und gekaufte Bewertungen",
+  "kurz": "Culpa in contrahendo: Schutzpflichten des Webshop-Betreibers (Malware) und Aufklärungspflichten eines Buchungsportals (Fake-Bewertungen) – §§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB.",
+  "themen": ["gesetzliche-schuldverhaeltnisse", "schuldverhaeltnisse"],
+  "schwierigkeit": 2,
+  "minuten": 25,
+  "punkte": 24,
+  "sachverhalt": [
+    "Teil 1: Nora (N) sucht eine neue Spielkonsole und ruft auf ihrem Tablet den Onlineshop des Einzelhändlers Jan Recker (J) auf. Bevor sie etwas bestellt, wird sie abgelenkt. Später ist ihr Tablet durch Schadsoftware gesperrt; sie zahlt 500 € „Lösegeld“, danach funktioniert das Gerät wieder. Fest steht, dass die Schadsoftware von J’s Website stammt, weil J seit über einem Jahr keine Sicherheitsupdates eingespielt hatte. J meint, er habe mit N gar keinen Vertrag gehabt.",
+    "Teil 2: David (D) will über das Buchungsportal „Checking“ der C-GmbH (C) ein Hotel für ein Wochenende in Wernigerode buchen; das Portal verkauft Zimmer aus eigenem Kontingent. Das Hotel hat dort 9,5/10 Punkte. Im Vertrauen darauf kauft D schon einmal Karten für eine Freilichtaufführung (50 €). Dann stellt er fest, dass die Bewertungen von C selbst verfasst wurden; das Hotel ist in Wahrheit schlecht bewertet. D bucht nicht und fährt stattdessen zu seiner Tante an die Ostsee. Er verlangt von C die 50 €."
+  ],
+  "fallfragen": [
+    "1. Kann N von J Ersatz der 500 € verlangen?",
+    "2. Kann D von C Ersatz der 50 € verlangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch N gegen J auf 500 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB" },
+    { "ebene": 2, "text": "Vorvertragliches Schuldverhältnis durch Aufruf des Shops (Anbahnung) · Pflichtverletzung: fehlender IT-Schutz · Vertretenmüssen vermutet (§ 280 Abs. 1 S. 2, § 276 BGB) · kausaler Schaden 500 € · Ersatz (§ 249 BGB)" },
+    { "ebene": 1, "text": "B. Anspruch D gegen C auf 50 € aus §§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB" },
+    { "ebene": 2, "text": "Vertragsanbahnung über das Portal · Pflichtverletzung: gefälschte Bewertungen (Rücksicht auf Entscheidungsfreiheit/Interessen) · Vorsatz · adäquat kausaler Schaden: nutzlose Aufwendungen 50 € (negatives Interesse)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch N gegen J auf 500 € aus § 280 Abs. 1 i. V. m. § 311 Abs. 2 Nr. 2, § 241 Abs. 2 BGB",
+      "text": "N könnte gegen J einen Anspruch auf Ersatz von 500 € aus § 280 Abs. 1 i. V. m. § 311 Abs. 2, § 241 Abs. 2 BGB (culpa in contrahendo) haben.\n**Schuldverhältnis:** Ein Vertrag bestand nicht. Ein Schuldverhältnis mit Pflichten nach § 241 Abs. 2 BGB entsteht aber auch durch die **Anbahnung eines Vertrags**, bei der ein Teil dem anderen die Möglichkeit zur Einwirkung auf seine Rechtsgüter gewährt (§ 311 Abs. 2 Nr. 2 BGB). N besuchte J’s Onlineshop, um eine Konsole zu kaufen. Damit ist ein vorvertragliches Schuldverhältnis entstanden.\n**Pflichtverletzung:** Daraus folgt die Pflicht, auf die Rechtsgüter des anderen Rücksicht zu nehmen (§ 241 Abs. 2 BGB). Wer einen Onlineshop betreibt, muss ihn so absichern, dass Besucher nicht mit Schadsoftware infiziert werden. J hat über ein Jahr keine Sicherheitsupdates eingespielt und diese Pflicht verletzt.\n**Vertretenmüssen:** Es wird vermutet (§ 280 Abs. 1 S. 2 BGB). J hat jedenfalls die im Verkehr erforderliche Sorgfalt außer Acht gelassen (§ 276 Abs. 2 BGB).\n**Kausaler Schaden:** Ohne die Infektion hätte N kein Lösegeld gezahlt (conditio sine qua non); dass Erpresser Lösegeld verlangen, liegt nicht außerhalb jeder Lebenserfahrung (Adäquanz). Der Schaden beträgt 500 € (§ 249 Abs. 1 BGB).\n**Ergebnis zu A:** N kann von J 500 € verlangen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch D gegen C auf 50 € aus § 280 Abs. 1 i. V. m. § 311 Abs. 2, § 241 Abs. 2 BGB",
+      "text": "D könnte gegen C einen Anspruch auf Ersatz von 50 € aus c.i.c. haben.\n**Schuldverhältnis:** D wollte über das Portal der C ein Zimmer aus deren Kontingent buchen; ein vorvertragliches Schuldverhältnis durch Vertragsanbahnung (§ 311 Abs. 2 Nr. 2 BGB) besteht.\n**Pflichtverletzung:** Die Rücksichtnahmepflicht (§ 241 Abs. 2 BGB) schützt auch die Interessen und die Entscheidungsfreiheit des Verhandlungspartners. C hat durch selbst verfasste Bewertungen über die Qualität des Hotels getäuscht und damit diese Pflicht verletzt.\n**Vertretenmüssen:** C handelte vorsätzlich (§ 276 Abs. 1 BGB).\n**Schaden und Kausalität:** Ersatzfähig ist das negative Interesse: D ist so zu stellen, als hätte er nicht auf die Angaben vertraut. Dann hätte er keine Karten gekauft; die 50 € sind ein Vertrauensschaden. Dass D sich daraufhin entschied, gar nicht nach Wernigerode zu fahren, ist eine naheliegende Reaktion auf die Täuschung und unterbricht den Zurechnungszusammenhang nicht (adäquate Kausalität).\n**Ergebnis zu B:** D kann von C 50 € verlangen."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Anspruchsgrundlage c.i.c. richtig zitiert", "punkte": 1 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Vorvertragliches Schuldverhältnis durch Anbahnung (§ 311 Abs. 2 Nr. 2 BGB)", "punkte": 2 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Pflichtverletzung § 241 Abs. 2 BGB (IT-Sicherheit)", "punkte": 2 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Vertretenmüssen vermutet (§ 280 Abs. 1 S. 2, § 276 BGB); Kausalität und Schaden", "punkte": 3 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Schuldverhältnis durch Buchungsanbahnung", "punkte": 1 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Pflichtverletzung: Täuschung durch Fake-Bewertungen; Vorsatz", "punkte": 3 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Negatives Interesse; adäquate Kausalität trotz eigenem Entschluss des D", "punkte": 3 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "Ergebnis", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv mit vollständiger Normkette", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Anbahnung, Rücksichtnahmepflicht)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 280 Abs. 1 BGB", "§ 311 Abs. 2 BGB", "§ 241 Abs. 2 BGB", "§ 276 BGB", "§ 249 BGB"],
+  "schluesselbegriffe": ["culpa in contrahendo|c.i.c", "vorvertraglich|Anbahnung", "Rücksichtnahme", "vermutet", "negatives Interesse|Vertrauensschaden", "adäquat"],
+  "typischeFehler": [
+    "Mangels Vertrags jeden Anspruch verneinen.",
+    "Die Normkette unvollständig zitieren (nur § 280 BGB).",
+    "Die Vermutung des Vertretenmüssens (§ 280 Abs. 1 S. 2 BGB) übersehen."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: J hatte einen IT-Dienstleister mit der Wartung beauftragt, der die Updates vergaß.", "kurzloesung": "J haftet für das Verschulden seines Erfüllungsgehilfen wie für eigenes (§ 278 S. 1 BGB) – Ergebnis unverändert." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Es gibt keine Verträge – woraus könnten Ansprüche folgen?",
+    "anspruchsgrundlagen": [
+      { "text": "N gegen J aus §§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – c.i.c." },
+      { "text": "D gegen C aus §§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – c.i.c. wegen Täuschung." },
+      { "text": "N gegen J aus § 433 BGB", "richtig": false, "feedback": "Falsch – ein Kaufvertrag kam nicht zustande." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Teil 1.",
+    "obersatzMuster": "N könnte gegen J einen Anspruch auf Ersatz von 500 € aus § 280 Abs. 1 i. V. m. § 311 Abs. 2 Nr. 2, § 241 Abs. 2 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung der c.i.c.",
+    "reihenfolge": ["Vorvertragliches Schuldverhältnis (§ 311 Abs. 2 BGB)", "Pflichtverletzung (§ 241 Abs. 2 BGB)", "Vertretenmüssen (§ 280 Abs. 1 S. 2 BGB)", "Kausaler Schaden"],
+    "punkte": [
+      { "titel": "Schuldverhältnis ohne Vertrag", "aufgabe": "Begründe, warum zwischen N und J ein Schuldverhältnis besteht.", "tipps": ["Norm: § 311 Abs. 2 Nr. 2 BGB", "Schema: Vertragsanbahnung → Einwirkungsmöglichkeit auf Rechtsgüter → Pflichten nach § 241 Abs. 2 BGB", "Mustersatz: „Ein Schuldverhältnis mit Pflichten nach § 241 Abs. 2 BGB entsteht auch durch die Anbahnung eines Vertrags …“"], "muster": "Ein Schuldverhältnis mit Pflichten nach § 241 Abs. 2 BGB entsteht auch durch die Anbahnung eines Vertrags (§ 311 Abs. 2 Nr. 2 BGB). N besuchte J’s Shop, um zu kaufen, und gab ihm damit die Möglichkeit, auf ihre Rechtsgüter (Tablet) einzuwirken. Ein vorvertragliches Schuldverhältnis liegt vor." }
+    ]
+  },
+  "quelle": "material:faelle-7",
+  "geprueft": false
+}

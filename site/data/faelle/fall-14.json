@@ -1,0 +1,72 @@
+{
+  "id": "fall-14",
+  "titel": "Vorfahrt übersehen – welche Schäden?",
+  "kurz": "Verkehrsunfall: Haftung nach § 823 Abs. 1 BGB (und § 7 StVG) und die einzelnen Schadensposten (§§ 249, 251, 252, 253 BGB).",
+  "themen": ["gesetzliche-schuldverhaeltnisse"],
+  "schwierigkeit": 2,
+  "minuten": 30,
+  "punkte": 24,
+  "sachverhalt": [
+    "Johann (J) fährt innerorts zu schnell und übersieht an einer Kreuzung ohne Verkehrszeichen die von rechts kommende Anja (A). Er fährt ihr in die Seitentür. Ihr Auto wird beschädigt, A erleidet eine erhebliche Knieprellung und kann zwei Wochen nicht arbeiten.",
+    "A macht folgende Posten geltend: (1) Reparaturkosten 3.500 € – ihr Auto ist vor dem Unfall aber nur 2.500 € wert gewesen; A hängt an dem Wagen, Restwert spielt keine Rolle; (2) Heilbehandlung 1.500 €; (3) weitere Physiotherapie 1.800 € wegen einer bei der Untersuchung entdeckten, schon lange bestehenden Arthrose; (4) Schmerzensgeld 800 €; (5) Mietwagen für zwei Wochen: Sie mietete einen Porsche für 2.400 €, ein Wagen ihrer Klasse hätte 600 € gekostet; (6) 2.800 € Lohn – ihr Arbeitgeber hat das Gehalt fortgezahlt."
+  ],
+  "fallfragen": [
+    "Welche Posten kann A von J nach § 823 Abs. 1 BGB ersetzt verlangen?",
+    "Bearbeitungshinweis: Die Haftung nach dem StVG und Ansprüche gegen die Versicherung sind nur kurz zu erwähnen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "Anspruch A gegen J aus § 823 Abs. 1 BGB" },
+    { "ebene": 2, "text": "Haftungsbegründung: Verletzungshandlung (Vorfahrtsverstoß) · Rechtsgutsverletzung Eigentum und Körper/Gesundheit · Kausalität · Rechtswidrigkeit · Verschulden (fahrlässig, § 276 Abs. 2 BGB)" },
+    { "ebene": 2, "text": "Haftungsausfüllung: (1) Wirtschaftlicher Totalschaden – Reparatur > 130 % des Wiederbeschaffungswerts → nur 2.500 € (§ 251 Abs. 2 BGB) · (2) 1.500 € (+) · (3) Arthrose nicht unfallbedingt (−) · (4) Schmerzensgeld § 253 Abs. 2 BGB (+, Höhe angemessen) · (5) nur vergleichbarer Wagen 600 € · (6) kein Schaden der A (Arbeitgeber zahlte; Anspruch geht auf ihn über)" },
+    { "ebene": 2, "text": "Daneben Halterhaftung § 7 Abs. 1 StVG (verschuldensunabhängig)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "Anspruch A gegen J aus § 823 Abs. 1 BGB",
+      "text": "A könnte gegen J einen Anspruch auf Schadensersatz aus § 823 Abs. 1 BGB haben.\n**Haftungsbegründender Tatbestand:** J hat durch den Zusammenstoß das **Eigentum** der A am Auto und ihren **Körper/ihre Gesundheit** verletzt. Seine Verletzungshandlung – Missachtung der Vorfahrt „rechts vor links“ bei überhöhter Geschwindigkeit – war ursächlich (conditio sine qua non) und adäquat. Die Rechtswidrigkeit ist indiziert; Rechtfertigungsgründe fehlen. J handelte **fahrlässig**, weil er die im Verkehr erforderliche Sorgfalt außer Acht ließ (§ 276 Abs. 2 BGB).\n**Rechtsfolge – Umfang des Schadensersatzes:** Herzustellen ist der Zustand ohne das schädigende Ereignis (§ 249 Abs. 1 BGB); bei Sach- und Personenschäden kann Geld verlangt werden (§ 249 Abs. 2 S. 1 BGB).\n(1) **Reparaturkosten:** Übersteigen sie den Wiederbeschaffungswert, ist die Herstellung unverhältnismäßig; dann ist nur Wertersatz geschuldet (§ 251 Abs. 2 S. 1 BGB). Wegen des Integritätsinteresses werden Reparaturkosten bis 130 % des Wiederbeschaffungswerts (hier 3.250 €) anerkannt. 3.500 € liegen darüber → nur **2.500 €**.\n(2) **Heilbehandlung 1.500 €:** unfallbedingt → ersatzfähig.\n(3) **Physiotherapie 1.800 €:** Die Arthrose bestand schon vorher; ihre Behandlung beruht nicht auf dem Unfall (keine haftungsausfüllende Kausalität) → nicht ersatzfähig.\n(4) **Schmerzensgeld:** Immaterieller Schaden ist nur in gesetzlich bestimmten Fällen zu ersetzen (§ 253 Abs. 1 BGB), u. a. bei Verletzung von Körper und Gesundheit (§ 253 Abs. 2 BGB). Für eine erhebliche Prellung mit zwei Wochen Arbeitsunfähigkeit ist eine billige Entschädigung geschuldet; 800 € liegen am oberen Rand, sind aber vertretbar.\n(5) **Mietwagen:** Ersatzfähig sind nur die erforderlichen Kosten für ein Fahrzeug der bisherigen Klasse (Wirtschaftlichkeitsgebot, § 249 Abs. 2 BGB) → **600 €**.\n(6) **Lohn:** A hat ihr Gehalt erhalten; ihr ist kein Vermögensschaden entstanden. Den Schaden hat der Arbeitgeber; sein Ersatzanspruch geht ihm kraft Gesetzes über (Entgeltfortzahlungsrecht). A selbst kann nichts verlangen.\n**Ergebnis:** A kann 2.500 € + 1.500 € + 800 € + 600 € = **5.400 €** verlangen. Daneben haftet J als Halter verschuldensunabhängig nach § 7 Abs. 1 StVG."
+    }
+  ],
+  "raster": [
+    { "id": "r1", "abschnitt": "A", "kriterium": "Haftungsbegründender Tatbestand vollständig (Rechtsgüter, Handlung, Kausalität, Rechtswidrigkeit, Fahrlässigkeit § 276 Abs. 2 BGB)", "punkte": 4 },
+    { "id": "r2", "abschnitt": "A", "kriterium": "§ 249 BGB als Maßstab; (1) 130 %-Grenze, § 251 Abs. 2 BGB → 2.500 €", "punkte": 3 },
+    { "id": "r3", "abschnitt": "A", "kriterium": "(2) Heilbehandlung (+); (3) Arthrose mangels Kausalität (−)", "punkte": 2 },
+    { "id": "r4", "abschnitt": "A", "kriterium": "(4) Schmerzensgeld § 253 Abs. 2 BGB", "punkte": 2 },
+    { "id": "r5", "abschnitt": "A", "kriterium": "(5) Mietwagen nur vergleichbare Klasse; (6) kein Schaden der A wegen Lohnfortzahlung", "punkte": 3 },
+    { "id": "r6", "abschnitt": "A", "kriterium": "Ergebnis 5.400 €; § 7 StVG erwähnt", "punkte": 2 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersatz im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Fahrlässigkeit, Schaden)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion je Schadensposten", "punkte": 2 },
+    { "id": "g4", "kriterium": "Übersichtlicher Aufbau und Endergebnis", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 823 Abs. 1 BGB", "§ 276 Abs. 2 BGB", "§ 249 BGB", "§ 251 Abs. 2 BGB", "§ 253 Abs. 2 BGB", "§ 7 StVG"],
+  "schluesselbegriffe": ["Rechtsgutsverletzung", "fahrlässig", "Kausalität", "Wiederbeschaffungswert|130", "Schmerzensgeld", "vergleichbar|Klasse"],
+  "typischeFehler": [
+    "Reparaturkosten über 130 % des Wiederbeschaffungswerts voll zusprechen.",
+    "Vorerkrankungen ohne Kausalitätsprüfung mit ersetzen.",
+    "Den fortgezahlten Lohn als Schaden der A behandeln.",
+    "Schmerzensgeld auf § 252 BGB stützen (richtig § 253 Abs. 2 BGB)."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: A war als Außendienstlerin auf dem Weg zu einem Kunden; ihrem Arbeitgeber entgeht ein Geschäft mit 5.000 € Gewinn.", "kurzloesung": "A selbst hat keinen Gewinnausfall (§ 252 BGB). Der Arbeitgeber ist nur mittelbar geschädigt: reines Vermögen ist von § 823 Abs. 1 BGB nicht geschützt; ein eigener Anspruch des Arbeitgebers scheidet insoweit aus." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Welche Anspruchsgrundlagen kommen gegen J in Betracht?",
+    "anspruchsgrundlagen": [
+      { "text": "A gegen J aus § 823 Abs. 1 BGB", "richtig": true, "feedback": "Richtig – Hauptprüfung." },
+      { "text": "A gegen J aus § 7 Abs. 1 StVG", "richtig": true, "feedback": "Richtig – kurz zu erwähnen (Gefährdungshaftung)." },
+      { "text": "A gegen J aus § 280 Abs. 1 BGB", "richtig": false, "feedback": "Falsch – zwischen A und J bestand kein Schuldverhältnis vor dem Unfall." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz.",
+    "obersatzMuster": "A könnte gegen J einen Anspruch auf Schadensersatz aus § 823 Abs. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne das Deliktsschema (wie in der Vorlesung).",
+    "reihenfolge": ["Verletzungshandlung", "Haftungsbegründende Kausalität", "Rechtsgutsverletzung", "Rechtswidrigkeit", "Verschulden", "Schaden und haftungsausfüllende Kausalität"],
+    "punkte": [
+      { "titel": "Reparatur über Wiederbeschaffungswert", "aufgabe": "Welchen Betrag kann A für ihr Auto verlangen?", "tipps": ["Norm: § 249 Abs. 2, § 251 Abs. 2 BGB", "Schema: Reparaturkosten vs. Wiederbeschaffungswert → 130 %-Grenze", "Mustersatz: „Übersteigen die Reparaturkosten den Wiederbeschaffungswert um mehr als 30 %, …“"], "muster": "Übersteigen die Reparaturkosten den Wiederbeschaffungswert um mehr als 30 %, ist die Herstellung unverhältnismäßig; geschuldet ist nur Wertersatz (§ 251 Abs. 2 S. 1 BGB). 3.500 € liegen über 3.250 € (130 % von 2.500 €). A erhält 2.500 €." }
+    ]
+  },
+  "quelle": "material:faelle-7",
+  "geprueft": false
+}

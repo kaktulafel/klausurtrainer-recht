@@ -1,0 +1,79 @@
+{
+  "id": "fall-15",
+  "titel": "Die Inspektion vor dem Urlaub",
+  "kurz": "Werkstatt verzögert die Inspektion; Kunde setzt eine Frist, holt das Auto ab und lässt es anderswo inspizieren – Rücktritt (§§ 323, 349, 346) und Schadensersatz statt der Leistung (§§ 280 Abs. 1, 3, 281, 325).",
+  "themen": ["widerruf-ruecktritt", "anspruchsaufbau"],
+  "schwierigkeit": 2,
+  "minuten": 30,
+  "punkte": 24,
+  "sachverhalt": [
+    "Jakob (J) bringt am Montag, 14 Tage vor seinem Urlaub, seinen SUV zur Inspektion in die Werkstatt der Nina Hofer (N). Ein Termin wird nicht vereinbart; N sagt, sie rufe an, sobald der Wagen fertig ist – üblich sind zwei bis drei Werktage.",
+    "Als sich bis Mittwoch nichts tut, ruft J an. N verweist auf Notfälle, die sie vorziehe. J erklärt: „Wenn der Wagen bis nächsten Montag, 12 Uhr, nicht fertig ist, gehe ich zur Konkurrenz.“ Am Montagnachmittag ist noch nichts geschehen. J holt den Wagen ab und erklärt N, er wolle mit ihr nichts mehr zu tun haben. N verlangt ihren Werklohn von 400 €, weil sie für diesen Nachmittag Mechaniker eingeplant habe.",
+    "J lässt die Inspektion sofort in einer anderen Werkstatt durchführen und zahlt dort 400 € zuzüglich 200 € Expresszuschlag. Die 200 € verlangt er von N."
+  ],
+  "fallfragen": [
+    "1. Kann N von J Zahlung des Werklohns verlangen?",
+    "2. Kann J von N Ersatz der 200 € verlangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch N gegen J auf 400 € aus § 631 Abs. 1 BGB" },
+    { "ebene": 2, "text": "I. Entstanden: Werkvertrag (+) · II. Erloschen durch Rücktritt? Rücktrittserklärung (§ 349 BGB) durch Abholen + Erklärung (Auslegung) · Rücktrittsgrund § 323 Abs. 1 BGB: gegenseitiger Vertrag, fällige Leistung (§ 271 BGB: angemessene Zeit verstrichen), nicht erbracht, angemessene Frist gesetzt und erfolglos · kein Ausschluss · Rechtsfolge § 346 Abs. 1 BGB → Werklohnanspruch entfällt" },
+    { "ebene": 1, "text": "B. Anspruch J gegen N auf 200 € aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB" },
+    { "ebene": 2, "text": "Schuldverhältnis, fällige Leistung nicht erbracht, erfolglose Frist, Vertretenmüssen (vermutet; N zog andere Kunden vor), Schaden: Mehrkosten des Deckungsgeschäfts 200 € (positives Interesse) · neben dem Rücktritt möglich (§ 325 BGB)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch N gegen J auf Zahlung von 400 € aus § 631 Abs. 1 BGB",
+      "text": "N könnte gegen J einen Anspruch auf Werklohn von 400 € aus § 631 Abs. 1 BGB haben.\n**I. Anspruch entstanden:** J und N haben einen Werkvertrag über die Inspektion geschlossen (§ 631 BGB). Der Anspruch ist entstanden.\n**II. Anspruch erloschen durch Rücktritt:** Der Anspruch könnte durch Rücktritt erloschen sein; dann wandelt sich der Vertrag in ein Rückgewährschuldverhältnis (§ 346 Abs. 1 BGB), und die noch nicht erbrachten Leistungspflichten entfallen.\n1. **Rücktrittserklärung** (§ 349 BGB): J holte den Wagen ab und erklärte, mit N nichts mehr zu tun haben zu wollen. Nach §§ 133, 157 BGB liegt darin die Erklärung des Rücktritts.\n2. **Rücktrittsgrund** (§ 323 Abs. 1 BGB): Ein gegenseitiger Vertrag liegt vor. Die Leistung muss **fällig** sein. Ist keine Zeit bestimmt, kann der Gläubiger die Leistung sofort verlangen (§ 271 Abs. 1 BGB); bei einer Inspektion ist jedenfalls nach der üblichen Bearbeitungszeit von zwei bis drei Werktagen Fälligkeit eingetreten. N hat **nicht geleistet**. J hat ihr am Mittwoch eine **Frist** bis Montag 12 Uhr gesetzt; das waren mehrere Werktage und damit angemessen. Die Frist ist erfolglos abgelaufen. Dass N Mechaniker für den Nachmittag eingeplant hatte, ändert nichts – maßgeblich ist der Fristablauf.\n3. **Kein Ausschluss:** J ist für die Verzögerung nicht verantwortlich (§ 323 Abs. 6 BGB).\n4. **Rechtsfolge:** Der Werklohnanspruch ist erloschen. Ein Vertretenmüssen der N ist für den Rücktritt nicht erforderlich.\n**Ergebnis zu A:** N hat keinen Anspruch auf Werklohn."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch J gegen N auf 200 € aus § 280 Abs. 1, Abs. 3 BGB i. V. m. § 281 Abs. 1 BGB",
+      "text": "J könnte gegen N einen Anspruch auf Schadensersatz statt der Leistung in Höhe von 200 € aus § 280 Abs. 1, Abs. 3 BGB i. V. m. § 281 Abs. 1 BGB haben.\n**Schuldverhältnis und Pflichtverletzung:** Aus dem Werkvertrag war N zur fristgerechten Inspektion verpflichtet; sie hat die fällige Leistung nicht erbracht.\n**Erfolglose Fristsetzung:** J hat eine angemessene Frist gesetzt, die ergebnislos verstrichen ist (§ 281 Abs. 1 S. 1 BGB).\n**Vertretenmüssen:** Es wird vermutet (§ 280 Abs. 1 S. 2 BGB). N hat andere Kunden bewusst vorgezogen; sie hat die Verzögerung zu vertreten (§ 276 Abs. 1 BGB).\n**Rücktritt schadet nicht:** Das Recht, Schadensersatz zu verlangen, wird durch den Rücktritt nicht ausgeschlossen (§ 325 BGB).\n**Schaden:** J ist so zu stellen, wie er bei ordnungsgemäßer Erfüllung stünde (positives Interesse, § 249 Abs. 1 BGB). Dann hätte er 400 € gezahlt; tatsächlich musste er für das Deckungsgeschäft 600 € aufwenden. Die Mehrkosten von 200 € sind sein Schaden.\n**Ergebnis zu B:** J kann von N 200 € verlangen."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz § 631 Abs. 1 BGB; Aufbau entstanden – erloschen", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Rücktrittserklärung durch Auslegung (§ 349 BGB)", "punkte": 2 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "§ 323 Abs. 1 BGB: Fälligkeit (§ 271 BGB), Nichtleistung, angemessene Frist, erfolglos", "punkte": 4 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Rechtsfolge § 346 BGB; kein Vertretenmüssen nötig; Ergebnis", "punkte": 2 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Richtige Anspruchsgrundlage §§ 280 Abs. 1, 3, 281 BGB", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Pflichtverletzung, Fristsetzung, Vertretenmüssen (vermutet, Vorsatz)", "punkte": 2 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "§ 325 BGB; positives Interesse: Mehrkosten 200 €; Ergebnis", "punkte": 2 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Fälligkeit, angemessene Frist, positives Interesse)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion mit Daten/Fristen", "punkte": 2 },
+    { "id": "g4", "kriterium": "Ergebnissätze", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 631 Abs. 1 BGB", "§ 349 BGB", "§ 323 Abs. 1 BGB", "§ 271 BGB", "§ 346 Abs. 1 BGB", "§ 280 Abs. 1 BGB", "§ 281 BGB", "§ 325 BGB", "§ 249 BGB"],
+  "schluesselbegriffe": ["Rücktritt", "fällig", "angemessene Frist", "Rückgewährschuldverhältnis", "Schadensersatz statt der Leistung", "positives Interesse|Erfüllungsinteresse"],
+  "typischeFehler": [
+    "Für den Rücktritt ein Vertretenmüssen verlangen.",
+    "Die Fälligkeit ohne Blick auf § 271 BGB annehmen oder verneinen.",
+    "Annehmen, nach dem Rücktritt sei Schadensersatz ausgeschlossen (§ 325 BGB).",
+    "Die 200 € als negatives Interesse einordnen."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung: J hatte gar keine Frist gesetzt, sondern am Mittwoch sofort den Wagen abgeholt.", "kurzloesung": "Ohne Fristsetzung kein Rücktrittsrecht nach § 323 Abs. 1 BGB, sofern die Frist nicht entbehrlich ist (§ 323 Abs. 2 BGB) – etwa bei ernsthafter und endgültiger Verweigerung oder einem vereinbarten Fixtermin, was hier nicht vorliegt. J bliebe zur Zahlung verpflichtet bzw. haftete ggf. nach § 648 BGB." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Zwei Fragen – wer will was?",
+    "anspruchsgrundlagen": [
+      { "text": "N gegen J auf 400 € aus § 631 Abs. 1 BGB", "richtig": true, "feedback": "Richtig – erloschen durch Rücktritt?" },
+      { "text": "J gegen N auf 200 € aus §§ 280 Abs. 1, 3, 281 BGB", "richtig": true, "feedback": "Richtig – Schadensersatz statt der Leistung, neben Rücktritt (§ 325 BGB)." },
+      { "text": "J gegen N auf 200 € aus § 122 BGB", "richtig": false, "feedback": "Falsch – keine Anfechtung; § 122 BGB passt nicht." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Fallfrage 2.",
+    "obersatzMuster": "J könnte gegen N einen Anspruch auf Schadensersatz statt der Leistung in Höhe von 200 € aus § 280 Abs. 1, Abs. 3 BGB i. V. m. § 281 Abs. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Rücktrittsprüfung (wie in der Vorlesung).",
+    "reihenfolge": ["Gegenseitiger Vertrag", "Fällige Leistung (§ 271 BGB)", "Nicht oder nicht vertragsgemäß erbracht", "Erfolglose angemessene Frist", "Rücktrittserklärung (§ 349 BGB)", "Rechtsfolge (§ 346 BGB)"],
+    "punkte": [
+      { "titel": "Fälligkeit und Frist", "aufgabe": "War die Leistung fällig und die Frist angemessen?", "tipps": ["Norm: § 271 Abs. 1, § 323 Abs. 1 BGB", "Schema: keine Zeit bestimmt → sofort/übliche Zeit → Frist angemessen?", "Mustersatz: „Ist eine Zeit für die Leistung weder bestimmt noch aus den Umständen zu entnehmen, …“"], "muster": "Ist eine Leistungszeit weder bestimmt noch aus den Umständen zu entnehmen, ist die Leistung sofort fällig (§ 271 Abs. 1 BGB); bei einer Inspektion jedenfalls nach der üblichen Bearbeitungszeit. Am Mittwoch war die Leistung fällig. Die Frist bis Montag 12 Uhr umfasste mehrere Werktage und war angemessen; sie verstrich erfolglos." }
+    ]
+  },
+  "quelle": "material:faelle-9",
+  "geprueft": false
+}

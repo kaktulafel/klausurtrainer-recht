@@ -1,0 +1,117 @@
+{
+  "id": "fall-06",
+  "titel": "Die Lithografie vom Telefon",
+  "kurz": "Telefonkauf einer angeblichen Original-Lithografie – Verbraucherwiderruf verfristet, Anfechtung wegen arglistiger Täuschung, Rückabwicklung, hilfsweise Eigenschaftsirrtum mit § 122.",
+  "themen": ["anfechtung", "widerruf-ruecktritt", "gesetzliche-schuldverhaeltnisse"],
+  "schwierigkeit": 3,
+  "minuten": 60,
+  "punkte": 48,
+  "sachverhalt": [
+    "Paul Kaiser (K), angestellter Ingenieur, möchte privat in Kunst investieren. Am 2. März ruft er bei der Galerie Sommer GmbH (G) an, die Kunst ausschließlich per Telefon und Online-Shop verkauft. Die Mitarbeiterin der G beschreibt ein Blatt als „Original-Lithografie, vom Künstler selbst auf den Stein gezeichnet und signiert, Auflage 199/500“, Preis 2.000 €. K bestellt am Telefon; G bestätigt den Kauf noch am selben Tag per E-Mail mit einer ordnungsgemäßen Widerrufsbelehrung.",
+    "Tatsächlich ist das Blatt ein Offsetdruck nach einer Vorlage des Künstlers, den dieser nur signiert hat; solche Drucke sind etwa 400 € wert. Das ist der Mitarbeiterin der G bekannt; sie wollte den Verkauf aber nicht gefährden.",
+    "K erhält das Blatt am 6. März und zahlt den Kaufpreis. Am 9. April bemerkt ein befreundeter Kunsthändler den Druck. K schreibt der G noch am selben Tag: „Ich wurde über die Lithografie getäuscht. Ich widerrufe den Kauf und verlange mein Geld zurück.“ G hält den Widerruf für verspätet und verweigert die Rückzahlung."
+  ],
+  "fallfragen": [
+    "1. Kann K von G Rückzahlung der 2.000 € verlangen?",
+    "2. Abwandlung: Die Mitarbeiterin der G wusste selbst nicht, dass es sich um einen Druck handelt, und hatte das Blatt nur „Lithografie, signiert, 199/500“ genannt; K hatte es für eine vom Künstler selbst gefertigte Lithografie gehalten. Kann K sich vom Vertrag lösen, und welche Folge hätte das für ihn?",
+    "Bearbeitungshinweis: Gewährleistungsrechte (§§ 434 ff. BGB) sind nicht zu prüfen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "Frage 1" },
+    { "ebene": 1, "text": "A. Anspruch K gegen G auf 2.000 € aus § 355 Abs. 3 S. 1 BGB (Widerruf)" },
+    { "ebene": 2, "text": "Verbrauchervertrag (§§ 13, 14 BGB), Fernabsatz per Telefon (§ 312c BGB) → Widerrufsrecht § 312g Abs. 1 BGB; Frist 14 Tage ab Erhalt der Ware (§ 355 Abs. 2, § 356 Abs. 2 BGB) → am 9. April abgelaufen → (−)" },
+    { "ebene": 1, "text": "B. Anspruch K gegen G auf 2.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "I. Erlangt durch Leistung (+)" },
+    { "ebene": 2, "text": "II. Ohne Rechtsgrund: Kaufvertrag durch Anfechtung nichtig (§ 142 Abs. 1 BGB)?" },
+    { "ebene": 3, "text": "Anfechtungsgrund § 123 Abs. 1 Alt. 1 BGB (Täuschung, Irrtum, Kausalität, Arglist; Mitarbeiterin kein Dritter) · Erklärung § 143 Abs. 1, 2 BGB (Auslegung: „widerrufe“ + Täuschung) · Frist § 124 BGB · kein Ausschluss § 144 BGB" },
+    { "ebene": 2, "text": "III. Ergebnis: Rückzahlung Zug um Zug gegen Rückgabe des Blattes" },
+    { "ebene": 1, "text": "Frage 2: Anfechtung nach § 119 Abs. 2 BGB (verkehrswesentliche Eigenschaft) – unverzüglich (§ 121 BGB) – Folge: Ersatz des Vertrauensschadens an G (§ 122 Abs. 1 BGB)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch K gegen G auf Rückzahlung von 2.000 € aus § 355 Abs. 3 S. 1 BGB",
+      "text": "K könnte gegen G einen Anspruch auf Rückzahlung von 2.000 € aus § 355 Abs. 3 S. 1 BGB haben. Dies setzt einen wirksamen Widerruf eines Vertrags voraus, für den dem Verbraucher ein Widerrufsrecht zusteht.\n**Widerrufsrecht:** Nach § 312g Abs. 1 BGB steht einem Verbraucher bei Fernabsatzverträgen ein Widerrufsrecht nach § 355 BGB zu. K kaufte privat und ist Verbraucher (§ 13 BGB); G handelt gewerblich und ist Unternehmerin (§ 14 BGB). Der Vertrag wurde ausschließlich per Telefon und E-Mail, also mit Fernkommunikationsmitteln, im Rahmen eines für den Fernabsatz organisierten Vertriebs geschlossen (§ 312c Abs. 1 BGB). Ein Widerrufsrecht bestand.\n**Widerrufserklärung:** K hat gegenüber G erklärt, er widerrufe den Kauf (§ 355 Abs. 1 S. 2 BGB).\n**Frist:** Die Widerrufsfrist beträgt 14 Tage (§ 355 Abs. 2 S. 1 BGB). Bei einem Verbrauchsgüterkauf beginnt sie, sobald der Verbraucher die Ware erhalten hat (§ 356 Abs. 2 Nr. 1 lit. a BGB), und nicht vor ordnungsgemäßer Belehrung (§ 356 Abs. 3 BGB), die hier vorlag. K erhielt das Blatt am 6. März; die Frist endete mit Ablauf des 20. März. Der Widerruf am 9. April war verspätet.\n**Ergebnis zu A:** K hat keinen Anspruch aus § 355 Abs. 3 S. 1 BGB."
+    },
+    {
+      "id": "B",
+      "titel": "B. Anspruch K gegen G auf Rückzahlung von 2.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB",
+      "text": "K könnte gegen G einen Anspruch auf Rückzahlung der 2.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.\n\n**I. Etwas erlangt durch Leistung**\nG hat 2.000 € erlangt; K hat bewusst und zweckgerichtet zur Erfüllung des Kaufvertrags gezahlt.\n\n**II. Ohne rechtlichen Grund**\nRechtsgrund ist der Kaufvertrag (§ 433 BGB). Er könnte jedoch durch Anfechtung von Anfang an nichtig sein (§ 142 Abs. 1 BGB).\n1. **Anfechtungsgrund:** In Betracht kommt eine arglistige Täuschung (§ 123 Abs. 1 Alt. 1 BGB). Täuschung ist das Vorspiegeln oder Entstellen von Tatsachen, das einen Irrtum hervorruft. Die Mitarbeiterin der G hat behauptet, das Blatt sei vom Künstler selbst auf den Stein gezeichnet – eine nachprüfbare und unwahre Tatsache. K hielt das Blatt deshalb für eine Original-Lithografie (Irrtum) und hat nur deshalb 2.000 € geboten (Kausalität). Die Mitarbeiterin kannte die Unwahrheit und wollte den Verkauf nicht gefährden, nahm also in Kauf, K dadurch zum Kauf zu bewegen (Arglist). Als Angestellte der G, die für diese die Verhandlungen führte, steht sie im Lager der G und ist keine „Dritte“ im Sinne des § 123 Abs. 2 BGB; ihre Täuschung wird G zugerechnet. Ein Anfechtungsgrund liegt vor.\n2. **Anfechtungserklärung:** Die Anfechtung erfolgt durch Erklärung gegenüber dem Vertragspartner (§ 143 Abs. 1, 2 BGB). K hat zwar das Wort „widerrufen“ benutzt. Nach §§ 133, 157 BGB ist aber maßgeblich, dass er sich ausdrücklich auf die Täuschung beruft und erkennbar den Vertrag deshalb nicht gelten lassen will. Seine Erklärung ist (auch) als Anfechtung auszulegen.\n3. **Anfechtungsfrist:** Bei arglistiger Täuschung beträgt die Frist ein Jahr ab Entdeckung (§ 124 Abs. 1, 2 BGB). K entdeckte die Täuschung am 9. April und focht am selben Tag an.\n4. **Kein Ausschluss:** Eine Bestätigung (§ 144 BGB) liegt nicht vor.\n5. **Rechtsfolge:** Der Kaufvertrag ist von Anfang an nichtig (§ 142 Abs. 1 BGB). Die Zahlung erfolgte ohne Rechtsgrund. Einen Ersatzanspruch nach § 122 BGB hat G nicht, weil wegen Täuschung angefochten wurde.\n\n**III. Ergebnis zu B:** K kann von G Rückzahlung der 2.000 € verlangen. G kann ihrerseits die Rückgabe und Rückübereignung des Blattes verlangen (§ 812 Abs. 1 S. 1 Alt. 1 BGB); beide Ansprüche sind Zug um Zug zu erfüllen (§§ 273, 274 BGB)."
+    },
+    {
+      "id": "C",
+      "titel": "C. Frage 2: Lösung vom Vertrag bei bloßem Irrtum des K",
+      "text": "K könnte seine Willenserklärung nach § 142 Abs. 1 BGB rückwirkend beseitigt haben. Eine Täuschung (§ 123 BGB) scheidet aus, weil die Mitarbeiterin nichts Unwahres wusste und das Blatt zutreffend als signierte Lithografie bezeichnete.\nIn Betracht kommt ein **Eigenschaftsirrtum** (§ 119 Abs. 2 BGB). Eigenschaften sind alle wertbildenden Faktoren, die einer Sache dauerhaft anhaften – nicht aber der Wert oder Preis selbst. Ob ein Blatt vom Künstler selbst gefertigt oder nur nachträglich signiert wurde, bestimmt seinen Wert maßgeblich und ist im Kunsthandel verkehrswesentlich. K irrte darüber; bei Kenntnis hätte er nicht 2.000 € bezahlt. Ein Anfechtungsgrund liegt vor.\nK muss die Anfechtung **unverzüglich** nach Entdeckung erklären (§ 121 Abs. 1 S. 1 BGB) – hier am 9. April – gegenüber G (§ 143 Abs. 2 BGB).\n**Folge:** Der Vertrag ist nichtig (§ 142 Abs. 1 BGB); K erhält sein Geld nach § 812 Abs. 1 S. 1 Alt. 1 BGB zurück. Er muss G aber den **Vertrauensschaden** ersetzen (§ 122 Abs. 1 BGB), z. B. Versandkosten, begrenzt auf das Erfüllungsinteresse; § 122 Abs. 2 BGB greift nicht, weil G den Irrtum nicht kannte und nicht kennen musste.\n**Ergebnis zu Frage 2:** K kann sich durch Anfechtung nach § 119 Abs. 2 BGB lösen, schuldet G aber den Vertrauensschaden."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz § 355 Abs. 3 S. 1 BGB", "punkte": 1 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Verbraucher/Unternehmer (§§ 13, 14 BGB) und Fernabsatz (§ 312c BGB) → § 312g Abs. 1 BGB", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Frist 14 Tage ab Erhalt (§ 355 Abs. 2, § 356 Abs. 2 BGB), Belehrung; Fristberechnung → verspätet", "punkte": 3 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "Ergebnis zu A", "punkte": 1 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz § 812 Abs. 1 S. 1 Alt. 1 BGB; erlangt durch Leistung", "punkte": 2 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Arglistige Täuschung vollständig subsumiert (Täuschung, Irrtum, Kausalität, Arglist)", "punkte": 4 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "Mitarbeiterin keine Dritte (§ 123 Abs. 2 BGB) – Zurechnung", "punkte": 2 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "„Widerruf“ als Anfechtungserklärung ausgelegt (§§ 133, 157, 143 BGB)", "punkte": 2 },
+    { "id": "b5", "abschnitt": "B", "kriterium": "Frist § 124 BGB, kein Ausschluss § 144 BGB", "punkte": 2 },
+    { "id": "b6", "abschnitt": "B", "kriterium": "Rechtsfolge § 142 Abs. 1 BGB, kein § 122 BGB; Zug um Zug", "punkte": 2 },
+    { "id": "c1", "abschnitt": "C", "kriterium": "§ 123 BGB abgelehnt; Eigenschaftsirrtum § 119 Abs. 2 BGB definiert (wertbildend, nicht Wert selbst) und subsumiert", "punkte": 4 },
+    { "id": "c2", "abschnitt": "C", "kriterium": "Frist unverzüglich (§ 121 BGB), Erklärung (§ 143 BGB)", "punkte": 2 },
+    { "id": "c3", "abschnitt": "C", "kriterium": "Folge: Vertrauensschaden nach § 122 Abs. 1 BGB, kein Ausschluss nach Abs. 2", "punkte": 2 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze vollständig und im Konjunktiv", "punkte": 4 },
+    { "id": "g2", "kriterium": "Definitionen (Fernabsatz, Täuschung, Arglist, Eigenschaft) vor der Subsumtion", "punkte": 4 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt (Daten, Wortlaut der Erklärungen)", "punkte": 4 },
+    { "id": "g4", "kriterium": "Ergebnissätze je Prüfung", "punkte": 3 },
+    { "id": "g5", "kriterium": "Aufbau: Widerruf und Anfechtung sauber getrennt; Schwerpunkt Anfechtung", "punkte": 3 }
+  ],
+  "erwarteteNormen": ["§ 355 Abs. 3 BGB", "§ 312g Abs. 1 BGB", "§ 312c BGB", "§ 13 BGB", "§ 14 BGB", "§ 356 Abs. 2 BGB", "§ 812 Abs. 1 BGB", "§ 142 Abs. 1 BGB", "§ 123 Abs. 1 BGB", "§ 123 Abs. 2 BGB", "§ 143 BGB", "§ 124 BGB", "§ 119 Abs. 2 BGB", "§ 121 BGB", "§ 122 Abs. 1 BGB"],
+  "schluesselbegriffe": ["Fernabsatz", "Widerrufsfrist|14 Tage", "arglistige Täuschung", "Dritter|Lager", "Auslegung", "ex tunc|von Anfang an", "Leistungskondiktion|ohne Rechtsgrund", "verkehrswesentliche Eigenschaft", "Vertrauensschaden"],
+  "typischeFehler": [
+    "Nur den Widerruf prüfen und nach Fristablauf aufhören – die Anfechtung (§ 124 BGB: ein Jahr) bleibt möglich.",
+    "Die Mitarbeiterin als „Dritte“ behandeln (§ 123 Abs. 2 BGB) – sie steht im Lager der G.",
+    "Die Erklärung „ich widerrufe“ nicht als Anfechtung auslegen.",
+    "Bei Frage 2 den bloßen Wertirrtum mit dem Eigenschaftsirrtum verwechseln.",
+    "Bei § 119 BGB die Ersatzpflicht nach § 122 BGB vergessen – bzw. sie bei § 123 BGB fälschlich bejahen."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung: K hatte schon am 15. März widerrufen.",
+      "kurzloesung": "Dann wäre der Widerruf innerhalb von 14 Tagen nach Erhalt erfolgt (§ 355 Abs. 2, § 356 Abs. 2 BGB) – ohne Begründung möglich. Rückzahlung binnen 14 Tagen (§ 357 Abs. 1 BGB), K muss das Blatt zurücksenden."
+    },
+    {
+      "frage": "Abwandlung: Nicht die Mitarbeiterin der G, sondern ein unabhängiger Kunstberater, den K selbst angerufen hatte, hatte ihm die falsche Auskunft gegeben; G wusste davon nichts.",
+      "kurzloesung": "Täuschung durch einen Dritten: Anfechtung nach § 123 Abs. 1 BGB nur, wenn G die Täuschung kannte oder kennen musste (§ 123 Abs. 2 S. 1 BGB) – hier nicht. K bleibt § 119 Abs. 2 BGB mit der Folge des § 122 BGB."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "K will sein Geld zurück. Welche Wege kommen in Betracht?",
+    "anspruchsgrundlagen": [
+      { "text": "K gegen G auf 2.000 € aus § 355 Abs. 3 S. 1 BGB (Widerruf)", "richtig": true, "feedback": "Richtig – zuerst prüfen; scheitert an der Frist." },
+      { "text": "K gegen G auf 2.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (nach Anfechtung)", "richtig": true, "feedback": "Richtig – Anfechtung inzident beim Rechtsgrund." },
+      { "text": "K gegen G auf 2.000 € aus § 122 BGB", "richtig": false, "feedback": "Falsch – § 122 BGB verpflichtet den Anfechtenden selbst und gilt nicht bei § 123 BGB." },
+      { "text": "K gegen die Mitarbeiterin aus § 179 BGB", "richtig": false, "feedback": "Falsch – die Mitarbeiterin hatte Vertretungsmacht; § 179 BGB passt nicht." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Prüfung B.",
+    "obersatzMuster": "K könnte gegen G einen Anspruch auf Rückzahlung von 2.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne die inzidente Anfechtungsprüfung in Prüfung B.",
+    "reihenfolge": [
+      "Anfechtungsgrund (§ 123 Abs. 1 Alt. 1 BGB)",
+      "Anfechtungserklärung (§ 143 BGB)",
+      "Anfechtungsfrist (§ 124 BGB)",
+      "Kein Ausschluss (§ 144 BGB)",
+      "Rechtsfolge (§ 142 Abs. 1 BGB)"
+    ],
+    "punkte": [
+      {
+        "titel": "„Ich widerrufe“ als Anfechtung?",
+        "aufgabe": "Begründe, warum die Erklärung des K als Anfechtung wirkt.",
+        "tipps": ["Norm: §§ 133, 157, 143 BGB", "Schema: Wortlaut nicht entscheidend → erkennbarer Wille, wegen des Willensmangels nicht gebunden zu sein", "Mustersatz: „Das Wort ‚anfechten‘ muss nicht fallen; maßgeblich ist …“"],
+        "muster": "Das Wort „anfechten“ muss nicht fallen. Nach §§ 133, 157 BGB genügt, dass der Erklärende erkennbar den Vertrag wegen eines Willensmangels nicht gelten lassen will. K beruft sich ausdrücklich auf die Täuschung und verlangt sein Geld zurück. Seine Erklärung ist als Anfechtung gegenüber G (§ 143 Abs. 1, 2 BGB) auszulegen."
+      }
+    ]
+  },
+  "quelle": "material:faelle-8",
+  "geprueft": false
+}

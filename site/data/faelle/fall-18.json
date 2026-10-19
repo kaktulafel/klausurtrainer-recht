@@ -1,0 +1,107 @@
+{
+  "id": "fall-18",
+  "titel": "Das E-Bike für die Nachbarin",
+  "kurz": "Klausurgroße Kombination: minderjähriger Vertreter (§ 165), Anfechtung wegen Vertippens beim Preis mit § 122 und Zurechnung nach § 166 Abs. 1, Überschreitung der Vollmacht (§ 177) und Haftung des Minderjährigen nach § 179 Abs. 3 S. 2.",
+  "themen": ["stellvertretung", "geschaeftsfaehigkeit", "anfechtung"],
+  "schwierigkeit": 3,
+  "minuten": 75,
+  "punkte": 48,
+  "sachverhalt": [
+    "Die 64-jährige Petra (P) möchte ein gebrauchtes E-Bike, traut sich Online-Käufe aber nicht zu. Sie bittet ihren 17-jährigen Nachbarn Tim (T): „Kauf mir in meinem Namen ein gutes gebrauchtes E-Bike, aber nicht teurer als 800 €.“ Die Eltern des T erfahren davon nichts.",
+    "T findet auf einem Kleinanzeigenportal ein Angebot der Vera (V) für ein zwei Jahre altes E-Bike; vergleichbare Räder kosten rund 1.700 €. Im Chat schreibt V: „Für 750 € gehört es Ihnen.“ Gemeint hatte sie 1.750 €; die „1“ hatte sie beim Tippen vergessen. T antwortet: „Deal! Ich kaufe es im Namen von Frau Petra P., Abholung nächsten Samstag“, und nennt P’s E-Mail-Adresse. T hält den Preis für ein Schnäppchen, weil V „umziehen“ müsse. P kauft daraufhin für 60 € einen Fahrradträger, um das Rad abzuholen.",
+    "Am Freitag liest V den Chat noch einmal, bemerkt ihren Fehler und schreibt P sofort per E-Mail: „Ich fechte den Kauf an, ich habe mich vertippt – der Preis war 1.750 €.“",
+    "T will P nicht enttäuschen und kauft noch am selben Tag im Fahrradladen des Wilhelm (W) ausdrücklich im Namen der P ein neues E-Bike für 1.100 €; Lieferung in einer Woche. Als P davon erfährt, erklärt sie W gegenüber: „Das genehmige ich nicht.“ W verlangt nun von T Zahlung der 1.100 €."
+  ],
+  "fallfragen": [
+    "1. Kann P von V Übergabe und Übereignung des E-Bikes gegen Zahlung von 750 € verlangen? Was kann P gegebenenfalls sonst von V verlangen?",
+    "2. Kann W von P Zahlung von 1.100 € verlangen?",
+    "3. Kann W von T Zahlung von 1.100 € verlangen?"
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "Frage 1: Anspruch P gegen V aus § 433 Abs. 1 S. 1 BGB" },
+    { "ebene": 2, "text": "I. Anspruch entstanden: Antrag V „750 €“ (objektiver Erklärungsinhalt, §§ 133, 157 BGB) · Annahme durch T als Vertreter der P (§ 164 Abs. 1 BGB): eigene WE (+), im Namen der P (+), Vollmacht § 167 BGB bis 800 € (+) · § 165 BGB: beschränkte Geschäftsfähigkeit des T unschädlich → Vertrag P – V über 750 €" },
+    { "ebene": 2, "text": "II. Anspruch erloschen durch Anfechtung (§ 142 Abs. 1 BGB): Erklärung gegenüber P (§ 143 Abs. 1, 2 BGB) · Grund: Erklärungsirrtum (Vertippen, § 119 Abs. 1 Alt. 2 BGB), kein bloßer Kalkulations-/Motivirrtum · Kausalität · Frist: unverzüglich ab Kenntnis (§ 121 Abs. 1 S. 1 BGB) (+) → Vertrag nichtig" },
+    { "ebene": 2, "text": "III. Ersatz des Vertrauensschadens (§ 122 Abs. 1 BGB): 60 € Fahrradträger · Ausschluss § 122 Abs. 2 BGB: Kennenmüssen des T wird P zugerechnet (§ 166 Abs. 1 BGB) → Schnäppchenpreis + Begründung „Umzug“ → (−), a. A. vertretbar" },
+    { "ebene": 1, "text": "Frage 2: Anspruch W gegen P aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "WE des T im Namen der P (+) · Vollmacht bis 800 € überschritten, kein Rechtsschein → Vertreter ohne Vertretungsmacht · § 177 Abs. 1 BGB schwebend unwirksam · Verweigerung der Genehmigung gegenüber W (§ 182 Abs. 1 BGB) → endgültig unwirksam → (−)" },
+    { "ebene": 1, "text": "Frage 3: Anspruch W gegen T aus § 179 Abs. 1 BGB" },
+    { "ebene": 2, "text": "Vertreter ohne Vertretungsmacht, Genehmigung verweigert (+) · W kannte Mangel nicht (§ 179 Abs. 3 S. 1 BGB) · aber T beschränkt geschäftsfähig, Eltern stimmten nicht zu (§ 179 Abs. 3 S. 2 BGB) → keine Haftung (−)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Frage 1: Anspruch P gegen V aus § 433 Abs. 1 S. 1 BGB",
+      "text": "P könnte gegen V einen Anspruch auf Übergabe und Übereignung des E-Bikes aus § 433 Abs. 1 S. 1 BGB haben. Dann müsste ein wirksamer Kaufvertrag zwischen P und V bestehen.\n**I. Anspruch entstanden**\n**1. Antrag der V:** Nach dem objektiven Empfängerhorizont (§§ 133, 157 BGB) bot V das Rad für 750 € an; ihr innerer Wille (1.750 €) ist für den Inhalt der Erklärung unerheblich.\n**2. Annahme durch T als Vertreter der P:** P selbst hat nichts erklärt. Die Annahmeerklärung des T wirkt nach § 164 Abs. 1 S. 1 BGB für und gegen P, wenn T eine eigene Willenserklärung im Namen der P innerhalb seiner Vertretungsmacht abgegeben hat.\n(a) T suchte das Rad selbst aus und entschied über den Kauf; er gab eine **eigene Willenserklärung** ab und war nicht bloß Bote.\n(b) Er handelte ausdrücklich **im Namen der P** (Offenkundigkeit).\n(c) **Vertretungsmacht:** P hat T eine Vollmacht erteilt (§ 167 Abs. 1 Alt. 1 BGB, Innenvollmacht). Sie umfasste den Kauf eines gebrauchten E-Bikes bis 800 €; der Kauf für 750 € liegt innerhalb dieses Umfangs.\n(d) **Minderjährigkeit des T:** T ist 17 Jahre alt und damit beschränkt geschäftsfähig (§§ 2, 106 BGB). Nach **§ 165 BGB** wird die Wirksamkeit einer von oder gegenüber einem Vertreter abgegebenen Willenserklärung dadurch nicht beeinträchtigt, dass der Vertreter in der Geschäftsfähigkeit beschränkt ist. Der Grund: Die Rechtsfolgen treffen allein den Vertretenen; für T ist das Geschäft rechtlich neutral. Auf die Zustimmung seiner Eltern kommt es nicht an.\n**Zwischenergebnis:** Zwischen P und V ist ein Kaufvertrag über das E-Bike zu 750 € zustande gekommen.\n**II. Anspruch erloschen durch Anfechtung (§ 142 Abs. 1 BGB)**\nDer Vertrag könnte durch Anfechtung von Anfang an nichtig sein.\n**1. Anfechtungserklärung:** V hat ausdrücklich erklärt, sie fechte den Kauf an (§ 143 Abs. 1 BGB). Anfechtungsgegner ist beim Vertrag der andere Teil, also P (§ 143 Abs. 2 BGB); ihr ist die E-Mail zugegangen.\n**2. Anfechtungsgrund:** In Betracht kommt ein **Erklärungsirrtum** (§ 119 Abs. 1 Alt. 2 BGB). Ein solcher liegt vor, wenn der Erklärende eine Erklärung dieses Inhalts überhaupt nicht abgeben wollte, etwa weil er sich verschreibt oder vertippt. V wollte „1.750 €“ schreiben und hat „750 €“ geschrieben; Erklärtes und Gewolltes fallen auseinander. Es handelt sich nicht um einen unbeachtlichen Kalkulations- oder Motivirrtum, denn V hat sich nicht bei der Preisbildung verrechnet, sondern bei der Äußerung vertan.\n**Kausalität:** Bei Kenntnis der Sachlage und verständiger Würdigung hätte V das Rad nicht für 750 € angeboten, da es rund 1.700 € wert ist.\n**3. Anfechtungsfrist:** Die Anfechtung muss ohne schuldhaftes Zögern (unverzüglich) erfolgen, nachdem der Berechtigte vom Anfechtungsgrund Kenntnis erlangt hat (§ 121 Abs. 1 S. 1 BGB). V focht sofort nach Entdeckung des Fehlers an; dass seit Vertragsschluss einige Tage vergangen waren, ist unerheblich.\n**4. Kein Ausschluss:** Eine Bestätigung (§ 144 BGB) liegt nicht vor.\n**Zwischenergebnis:** Der Vertrag ist von Anfang an nichtig (§ 142 Abs. 1 BGB). P kann das Rad nicht verlangen.\n**III. Anspruch auf Ersatz des Vertrauensschadens (§ 122 Abs. 1 BGB)**\nFicht der Erklärende nach § 119 BGB an, muss er dem Anfechtungsgegner den Schaden ersetzen, den dieser dadurch erleidet, dass er auf die Gültigkeit der Erklärung vertraut hat, höchstens bis zum Erfüllungsinteresse. P hat im Vertrauen auf den Vertrag für 60 € einen Fahrradträger gekauft; das wäre ein ersatzfähiger Vertrauensschaden.\nDie Ersatzpflicht entfällt jedoch, wenn der Geschädigte den Grund der Anfechtung kannte oder infolge von Fahrlässigkeit nicht kannte (kennen musste, **§ 122 Abs. 2 BGB**). P selbst hatte keine Kenntnis. Beim Vertragsschluss durch einen Vertreter kommt es aber, soweit Kenntnis oder Kennenmüssen bestimmter Umstände rechtlich von Bedeutung ist, auf die Person des Vertreters an (**§ 166 Abs. 1 BGB**). T wusste, dass vergleichbare Räder etwa 1.700 € kosten; ein Preis von weniger als der Hälfte ohne nachvollziehbaren Grund hätte ihn an einen Tippfehler denken lassen müssen. Ihm ist Fahrlässigkeit vorzuwerfen, die P sich zurechnen lassen muss. (A. A. vertretbar: Ein Umzug kann einen schnellen, günstigen Verkauf erklären; dann bestünde der Anspruch auf 60 €.)\n**Ergebnis zu Frage 1:** P kann von V weder das E-Bike noch – nach hier vertretener Ansicht – Ersatz der 60 € verlangen."
+    },
+    {
+      "id": "B",
+      "titel": "B. Frage 2: Anspruch W gegen P aus § 433 Abs. 2 BGB",
+      "text": "W könnte gegen P einen Anspruch auf Zahlung von 1.100 € aus § 433 Abs. 2 BGB haben. P hat selbst nichts erklärt; in Betracht kommt eine Zurechnung der Erklärung des T nach § 164 Abs. 1 BGB.\nT hat eine eigene Willenserklärung ausdrücklich im Namen der P abgegeben; seine beschränkte Geschäftsfähigkeit schadet nicht (§ 165 BGB).\n**Vertretungsmacht:** Die Vollmacht beschränkte sich auf ein gebrauchtes E-Bike bis 800 €. Der Kauf eines neuen Rades für 1.100 € liegt außerhalb ihres Umfangs. Anhaltspunkte für eine Duldungs- oder Anscheinsvollmacht fehlen: T ist nie zuvor für P aufgetreten, und W kannte P nicht. T handelte daher als **Vertreter ohne Vertretungsmacht**.\nDer Vertrag ist nach **§ 177 Abs. 1 BGB** schwebend unwirksam; seine Wirksamkeit hängt von der Genehmigung der P ab. P hat die Genehmigung gegenüber W verweigert; die Verweigerung kann gegenüber jedem Teil erklärt werden (§ 182 Abs. 1 BGB). Damit ist der Vertrag endgültig unwirksam.\n**Ergebnis zu Frage 2:** W hat gegen P keinen Anspruch auf Zahlung."
+    },
+    {
+      "id": "C",
+      "titel": "C. Frage 3: Anspruch W gegen T aus § 179 Abs. 1 BGB",
+      "text": "W könnte gegen T einen Anspruch auf Zahlung von 1.100 € aus § 179 Abs. 1 BGB haben. Danach ist, wer als Vertreter einen Vertrag geschlossen hat, dem anderen Teil nach dessen Wahl zur Erfüllung oder zum Schadensersatz verpflichtet, wenn er seine Vertretungsmacht nicht nachweist und der Vertretene die Genehmigung verweigert.\nT hat als Vertreter ohne Vertretungsmacht gehandelt; P hat die Genehmigung verweigert (s. o.). W wählt Erfüllung. Da T den Mangel der Vertretungsmacht kannte, käme die volle Haftung nach Abs. 1 in Betracht (nicht nur das negative Interesse nach Abs. 2).\nDie Haftung ist nicht nach § 179 Abs. 3 S. 1 BGB ausgeschlossen, denn W kannte den Mangel der Vertretungsmacht weder noch musste er ihn kennen.\nAllerdings haftet nach **§ 179 Abs. 3 S. 2 BGB** der Vertreter nicht, wenn er in der Geschäftsfähigkeit beschränkt war, es sei denn, dass er mit Zustimmung seines gesetzlichen Vertreters gehandelt hat. T ist 17 Jahre alt; seine Eltern wussten von alldem nichts und haben nicht zugestimmt. Der Minderjährigenschutz geht hier dem Vertrauensschutz des W vor.\n**Ergebnis zu Frage 3:** W hat gegen T keinen Anspruch. W trägt das Risiko, dass er mit einem minderjährigen Vertreter ohne Vertretungsmacht abgeschlossen hat."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz § 433 Abs. 1 S. 1 BGB; Antrag der V über 750 € nach objektivem Empfängerhorizont (§§ 133, 157 BGB)", "punkte": 2 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Stellvertretung § 164 Abs. 1 BGB: eigene WE (Abgrenzung Bote), im Namen der P (Offenkundigkeit)", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Vollmacht § 167 BGB, Umfang bis 800 € gewahrt", "punkte": 2 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "§ 165 BGB: beschränkte Geschäftsfähigkeit des Vertreters unschädlich, mit Begründung (Geschäft für T neutral)", "punkte": 3 },
+    { "id": "a5", "abschnitt": "A", "kriterium": "Zwischenergebnis: Vertrag P – V über 750 €", "punkte": 1 },
+    { "id": "a6", "abschnitt": "A", "kriterium": "Anfechtungserklärung gegenüber P als Anfechtungsgegnerin (§ 143 Abs. 1, 2 BGB)", "punkte": 2 },
+    { "id": "a7", "abschnitt": "A", "kriterium": "Erklärungsirrtum § 119 Abs. 1 Alt. 2 BGB definiert und subsumiert; Abgrenzung Kalkulations-/Motivirrtum; Kausalität", "punkte": 5 },
+    { "id": "a8", "abschnitt": "A", "kriterium": "Frist § 121 Abs. 1 S. 1 BGB: unverzüglich ab Kenntnis", "punkte": 3 },
+    { "id": "a9", "abschnitt": "A", "kriterium": "Rechtsfolge § 142 Abs. 1 BGB: Nichtigkeit ex tunc", "punkte": 1 },
+    { "id": "a10", "abschnitt": "A", "kriterium": "§ 122 Abs. 1 BGB Vertrauensschaden (60 €); Ausschluss § 122 Abs. 2 BGB mit Zurechnung des Kennenmüssens des T nach § 166 Abs. 1 BGB", "punkte": 4 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz § 433 Abs. 2 BGB; WE des T im Namen der P", "punkte": 1 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "Überschreitung der Vollmacht; keine Rechtsscheinvollmacht", "punkte": 3 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "§ 177 Abs. 1 BGB schwebend unwirksam; Verweigerung (§ 182 Abs. 1 BGB) → endgültig unwirksam; Ergebnis", "punkte": 3 },
+    { "id": "c1", "abschnitt": "C", "kriterium": "§ 179 Abs. 1 BGB: Voraussetzungen und Wahlrecht des W; § 179 Abs. 3 S. 1 BGB nicht einschlägig", "punkte": 3 },
+    { "id": "c2", "abschnitt": "C", "kriterium": "§ 179 Abs. 3 S. 2 BGB: keine Haftung des beschränkt Geschäftsfähigen ohne Zustimmung der Eltern", "punkte": 3 },
+    { "id": "c3", "abschnitt": "C", "kriterium": "Ergebnis mit Wertung (Minderjährigenschutz vor Verkehrsschutz)", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze im Konjunktiv mit vollständiger Norm", "punkte": 2 },
+    { "id": "g2", "kriterium": "Definitionen (Stellvertretung, Erklärungsirrtum, unverzüglich, Vertrauensschaden)", "punkte": 2 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt statt bloßer Behauptung", "punkte": 2 },
+    { "id": "g4", "kriterium": "Klarer Aufbau (entstanden – erloschen) und Ergebnissätze je Frage", "punkte": 2 }
+  ],
+  "erwarteteNormen": ["§ 433 Abs. 1 BGB", "§ 164 Abs. 1 BGB", "§ 167 BGB", "§ 165 BGB", "§ 106 BGB", "§ 142 Abs. 1 BGB", "§ 143 BGB", "§ 119 Abs. 1 BGB", "§ 121 Abs. 1 BGB", "§ 122 BGB", "§ 166 Abs. 1 BGB", "§ 433 Abs. 2 BGB", "§ 177 Abs. 1 BGB", "§ 182 Abs. 1 BGB", "§ 179 BGB"],
+  "schluesselbegriffe": ["eigene Willenserklärung", "im Namen", "Vollmacht", "beschränkt geschäftsfähig", "Erklärungsirrtum|vertippt|verschrieben", "unverzüglich", "Vertrauensschaden", "kennen musste|Kennenmüssen", "ohne Vertretungsmacht", "schwebend unwirksam", "Zustimmung"],
+  "typischeFehler": [
+    "Den Vertrag mit V an der Minderjährigkeit des T scheitern lassen – § 165 BGB übersehen.",
+    "Beim Vertippen einen Inhaltsirrtum (§ 119 Abs. 1 Alt. 1 BGB) oder einen unbeachtlichen Kalkulationsirrtum annehmen.",
+    "Die Anfechtungsfrist ab Vertragsschluss statt ab Kenntnis berechnen.",
+    "Bei § 122 Abs. 2 BGB auf P statt (über § 166 Abs. 1 BGB) auf den Vertreter T abstellen.",
+    "T nach § 179 Abs. 1 BGB haften lassen und § 179 Abs. 3 S. 2 BGB übersehen.",
+    "Aufbaufehler: Anfechtung prüfen, bevor feststeht, dass überhaupt ein Vertrag mit P besteht."
+  ],
+  "abwandlungen": [
+    { "frage": "Abwandlung 1: Die Eltern des T wussten, dass er für P ein Rad kaufen sollte, und waren einverstanden.", "kurzloesung": "Dann griffe die Ausnahme des § 179 Abs. 3 S. 2 a. E. BGB: T hätte mit Zustimmung seines gesetzlichen Vertreters gehandelt und haftet nach § 179 Abs. 1 BGB auf Erfüllung oder Schadensersatz (nach Wahl des W)." },
+    { "frage": "Abwandlung 2: Nicht V, sondern T vertippt sich und schreibt „Ich biete 7.500 €“ statt 750 €.", "kurzloesung": "Für den Irrtum kommt es auf den Vertreter an (§ 166 Abs. 1 BGB). P kann nach § 119 Abs. 1 Alt. 2 BGB anfechten; das Anfechtungsrecht steht dem Vertretenen zu." },
+    { "frage": "Abwandlung 3: W fordert P zur Erklärung über die Genehmigung auf, P schweigt drei Wochen.", "kurzloesung": "Die Genehmigung gilt als verweigert, wenn sie nicht bis zum Ablauf von zwei Wochen nach Empfang der Aufforderung erklärt wird (§ 177 Abs. 2 S. 2 BGB)." }
+  ],
+  "gefuehrt": {
+    "einstieg": "Welche Ansprüche sind zu prüfen, und in welcher Reihenfolge?",
+    "anspruchsgrundlagen": [
+      { "text": "P gegen V aus § 433 Abs. 1 S. 1 BGB", "richtig": true, "feedback": "Richtig – Frage 1, mit Stellvertretung und Anfechtung." },
+      { "text": "P gegen V aus § 122 Abs. 1 BGB", "richtig": true, "feedback": "Richtig – „was kann P sonst verlangen“ zielt auf den Vertrauensschaden." },
+      { "text": "W gegen P aus § 433 Abs. 2 BGB", "richtig": true, "feedback": "Richtig – Frage 2." },
+      { "text": "W gegen T aus § 179 Abs. 1 BGB", "richtig": true, "feedback": "Richtig – Frage 3." },
+      { "text": "W gegen T aus § 433 Abs. 2 BGB", "richtig": false, "feedback": "Falsch – T hat im Namen der P gehandelt, nicht im eigenen; ein Vertrag mit T ist nicht zustande gekommen." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Frage 1.",
+    "obersatzMuster": "P könnte gegen V einen Anspruch auf Übergabe und Übereignung des E-Bikes aus § 433 Abs. 1 S. 1 BGB haben. Dazu müsste zwischen P und V ein wirksamer Kaufvertrag bestehen.",
+    "reihenfolgeTitel": "Ordne die Prüfung von Frage 1.",
+    "reihenfolge": ["Antrag der V (objektiver Empfängerhorizont)", "Annahme durch T als Vertreter (§ 164 Abs. 1 BGB)", "Vollmacht und § 165 BGB", "Anfechtungserklärung und -gegner", "Anfechtungsgrund § 119 Abs. 1 Alt. 2 BGB", "Anfechtungsfrist § 121 BGB", "Rechtsfolge § 142 Abs. 1 BGB", "§ 122 BGB mit § 166 Abs. 1 BGB"],
+    "punkte": [
+      { "titel": "Minderjähriger Vertreter", "aufgabe": "Scheitert der Vertrag P – V daran, dass T erst 17 ist?", "tipps": ["Norm: § 165 BGB", "Schema: Wen treffen die Rechtsfolgen? → Vertretenen → für Vertreter neutral", "Mustersatz: „Nach § 165 BGB wird die Wirksamkeit einer von einem Vertreter abgegebenen Willenserklärung nicht dadurch beeinträchtigt, dass …“"], "muster": "T ist 17 Jahre alt und beschränkt geschäftsfähig (§ 106 BGB). Nach § 165 BGB wird die Wirksamkeit einer von einem Vertreter abgegebenen Willenserklärung nicht dadurch beeinträchtigt, dass der Vertreter in der Geschäftsfähigkeit beschränkt ist. Die Rechtsfolgen treffen allein P; für T ist das Geschäft rechtlich neutral. Der Vertrag ist wirksam zwischen P und V geschlossen." },
+      { "titel": "Vertippen beim Preis", "aufgabe": "Welcher Anfechtungsgrund liegt vor, und ist die Frist gewahrt?", "tipps": ["Norm: § 119 Abs. 1 Alt. 2, § 121 Abs. 1 S. 1 BGB", "Schema: Gewollt ≠ erklärt durch Fehler beim Äußern → Erklärungsirrtum → unverzüglich ab Kenntnis", "Mustersatz: „Ein Erklärungsirrtum liegt vor, wenn der Erklärende eine Erklärung dieses Inhalts überhaupt nicht abgeben wollte …“"], "muster": "Ein Erklärungsirrtum liegt vor, wenn der Erklärende eine Erklärung dieses Inhalts überhaupt nicht abgeben wollte, etwa weil er sich vertippt. V wollte 1.750 € schreiben und schrieb 750 €. Sie focht unmittelbar nach Entdeckung an und damit unverzüglich im Sinne des § 121 Abs. 1 S. 1 BGB." },
+      { "titel": "Vertreter ohne Vertretungsmacht – minderjährig", "aufgabe": "Haftet T dem W?", "tipps": ["Norm: § 179 Abs. 1, Abs. 3 S. 2 BGB", "Schema: § 179 Abs. 1 (+) → Ausschluss Abs. 3 S. 1? → Abs. 3 S. 2 Minderjährigkeit, Zustimmung der Eltern?", "Mustersatz: „Nach § 179 Abs. 3 S. 2 BGB haftet der Vertreter nicht, wenn er in der Geschäftsfähigkeit beschränkt war, …“"], "muster": "Die Voraussetzungen des § 179 Abs. 1 BGB liegen vor. Nach § 179 Abs. 3 S. 2 BGB haftet der Vertreter aber nicht, wenn er in der Geschäftsfähigkeit beschränkt war, es sei denn, er handelte mit Zustimmung seines gesetzlichen Vertreters. Die Eltern des T wussten nichts. T haftet nicht." }
+    ]
+  },
+  "quelle": "neu",
+  "geprueft": false
+}

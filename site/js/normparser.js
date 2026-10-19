@@ -55,7 +55,7 @@ export function parseNormen(text, opts = {}) {
       if ((t = /^\s*(?:Abs\.?|Absatz)\s*(\d+)/.exec(rest))) { cur.abs = +t[1]; cur._letzte = 'abs'; pos += t[0].length; continue; }
       if ((t = /^\s*(?:S\.|Satz)\s*(\d+)/.exec(rest))) { cur.satz = +t[1]; cur._letzte = 'satz'; pos += t[0].length; continue; }
       // "§ 168 S. 2, 3" bzw. "§ 119 Abs. 1, 2" (einfaches §): Fortsetzung von Satz/Absatz, kein neuer Paragraph
-      if (!mehrfach && cur._letzte && (t = /^\s*(?:,|und)\s*(\d)(?![\d.a-z])(?!\s*(?:Abs|Absatz|S\.|Satz))/.exec(rest))) { pos += t[0].length; continue; }
+      if (cur._letzte && (t = /^\s*(?:,|und)\s*(\d)(?![\d.a-z])(?!\s*(?:Abs|Absatz|S\.|Satz))/.exec(rest))) { pos += t[0].length; continue; }
       if ((t = /^\s*(?:Nr\.?|Nummer)\s*(\d+)/.exec(rest))) { cur.nummer = +t[1]; pos += t[0].length; continue; }
       if ((t = /^\s*(?:Alt\.?|Alternative|Var\.?|Fall)\s*(\d+)/.exec(rest))) { cur.alt = +t[1]; pos += t[0].length; continue; }
       if ((t = /^,?\s*(\d+)\.\s*(?:Alt\.?|Alternative|Var\.?|Variante|Fall)(?![a-zäöü])/.exec(rest))) { cur.alt = +t[1]; pos += t[0].length; continue; }

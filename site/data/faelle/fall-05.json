@@ -1,0 +1,115 @@
+{
+  "id": "fall-05",
+  "titel": "Spielwährung und Monats-Abo (Übungsklausur)",
+  "kurz": "17-Jähriger kauft Spielwährung mit Nachhilfelohn und schließt ein 6-Monats-Abo ab – § 110 bei Einmalkauf und Dauerschuldverhältnis, § 113, § 108, § 812, § 818 Abs. 3.",
+  "themen": ["geschaeftsfaehigkeit", "gesetzliche-schuldverhaeltnisse"],
+  "schwierigkeit": 2,
+  "minuten": 60,
+  "punkte": 48,
+  "sachverhalt": [
+    "Der 17-jährige Finn Weber (F) gibt Nachhilfe. Seine Eltern haben ihm erlaubt, ein PayPal-Konto zu führen, auf das seine Nachhilfeschüler das Honorar überweisen; über das Guthaben darf F nach Absprache mit den Eltern frei verfügen. Das Guthaben beträgt 35 €.",
+    "F spielt gern das Online-Fußballspiel der PixelPlay GmbH (P). Er kauft im Spiel ein Paket mit 2.000 Spielpunkten für 19,99 € und bezahlt sofort vollständig über PayPal. Einige Wochen später sind die Punkte verbraucht. F schließt nun ein „Spar-Abo“ ab: Für sechs Monate erhält er monatlich 1.500 Punkte für 9,99 €, die jeweils zum Monatsersten per PayPal eingezogen werden. Nach zwei Monaten sind 19,98 € bezahlt und die Punkte verbraucht.",
+    "Als die Eltern davon erfahren, erklären sie gegenüber P, mit den Käufen ihres Sohnes nicht einverstanden zu sein; sie wollen das Abo beenden und das Geld zurück. P meint, F habe alles aus eigenem Geld bezahlt, und verlangt die vier ausstehenden Monatsbeiträge."
+  ],
+  "fallfragen": [
+    "1. Kann F, vertreten durch seine Eltern, von P die 19,99 € für das Punkte-Paket zurückverlangen?",
+    "2. Muss F die weiteren Abo-Beiträge zahlen, und kann er die bereits gezahlten 19,98 € zurückverlangen?",
+    "Bearbeitungshinweis: Ein Verbraucherwiderrufsrecht und die Sondervorschriften über digitale Produkte (§§ 327 ff. BGB) sind nicht zu prüfen."
+  ],
+  "skizze": [
+    { "ebene": 1, "text": "A. Anspruch F gegen P auf 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "I. Etwas erlangt (Zahlung) durch Leistung des F (+)" },
+    { "ebene": 2, "text": "II. Ohne Rechtsgrund? Vertrag über das Punkte-Paket wirksam?" },
+    { "ebene": 3, "text": "§§ 2, 106 BGB beschränkt geschäftsfähig; § 107 BGB rechtlich nachteilig; keine Einwilligung zum konkreten Kauf; § 113 BGB deckt Verwendung des Lohns nicht" },
+    { "ebene": 3, "text": "§ 110 BGB: Mittel mit Zustimmung der Eltern von Dritten (Nachhilfeschüler) zur freien Verfügung überlassen (+), Leistung vollständig bewirkt (+) → Vertrag wirksam" },
+    { "ebene": 2, "text": "III. Ergebnis: Rechtsgrund vorhanden → kein Anspruch" },
+    { "ebene": 1, "text": "B. Abo" },
+    { "ebene": 2, "text": "I. Anspruch P gegen F auf weitere Beiträge aus dem Abo-Vertrag: § 110 (−) bei Dauerschuldverhältnis/Raten – nicht vollständig bewirkt; § 108 Abs. 1 BGB schwebend unwirksam; Verweigerung der Genehmigung gegenüber P → endgültig unwirksam → (−)" },
+    { "ebene": 2, "text": "II. Anspruch F gegen P auf 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (+); Gegenanspruch P auf Wertersatz scheitert an § 818 Abs. 3 BGB (Minderjährigenschutz)" }
+  ],
+  "musterloesung": [
+    {
+      "id": "A",
+      "titel": "A. Anspruch F gegen P auf Rückzahlung von 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB",
+      "text": "F könnte gegen P einen Anspruch auf Rückzahlung von 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben. Dann müsste P etwas durch Leistung des F ohne rechtlichen Grund erlangt haben.\n\n**I. Etwas erlangt durch Leistung**\nP hat eine Zahlung von 19,99 € und damit einen vermögenswerten Vorteil erlangt. F hat bewusst und zweckgerichtet gezahlt, um seine Verbindlichkeit aus dem Kauf des Punkte-Pakets zu erfüllen. Eine Leistung liegt vor.\n\n**II. Ohne rechtlichen Grund**\nRechtsgrund wäre ein wirksamer Vertrag über das Punkte-Paket.\nF ist 17 Jahre alt und damit beschränkt geschäftsfähig (§§ 2, 106 BGB). Seine Willenserklärung bedarf der Einwilligung der Eltern, weil der Vertrag ihn zur Zahlung verpflichtet und damit nicht lediglich rechtlich vorteilhaft ist (§ 107 BGB). In den konkreten Kauf haben die Eltern nicht eingewilligt.\nAuch § 113 BGB hilft nicht: Selbst wenn die Eltern F zur Nachhilfetätigkeit ermächtigt haben, erfasst die Teilgeschäftsfähigkeit nur Geschäfte, die das Dienstverhältnis selbst betreffen, nicht die Verwendung des verdienten Geldes.\nDer Vertrag könnte aber nach **§ 110 BGB** von Anfang an wirksam sein. Danach gilt ein ohne Zustimmung geschlossener Vertrag als wirksam, wenn der Minderjährige die vertragsmäßige Leistung mit Mitteln bewirkt, die ihm zu diesem Zweck oder zur freien Verfügung vom gesetzlichen Vertreter oder **mit dessen Zustimmung von einem Dritten** überlassen worden sind. Das Nachhilfehonorar stammt von Dritten (den Nachhilfeschülern) und wurde mit Zustimmung der Eltern auf das PayPal-Konto gezahlt, über das F frei verfügen durfte. Es handelt sich um Mittel zur freien Verfügung.\nF hat den Kaufpreis von 19,99 € sofort **vollständig** gezahlt; die Leistung ist bewirkt. Langfristige Bindungen entstehen nicht. Der Vertrag ist daher nach § 110 BGB von Anfang an wirksam.\n\n**III. Ergebnis zu A:** P hat die 19,99 € mit Rechtsgrund erlangt. F hat keinen Anspruch aus § 812 Abs. 1 S. 1 Alt. 1 BGB."
+    },
+    {
+      "id": "B",
+      "titel": "B. Das Abo: weitere Beiträge und Rückzahlung",
+      "text": "**I. Anspruch P gegen F auf Zahlung der weiteren Abo-Beiträge**\nP könnte gegen F einen Anspruch auf Zahlung der vier weiteren Monatsbeiträge aus dem Abo-Vertrag haben. Dies setzt einen wirksamen Vertrag voraus.\nAuch dieser Vertrag ist für F rechtlich nachteilig (§ 107 BGB); eine Einwilligung der Eltern liegt nicht vor.\nFraglich ist, ob § 110 BGB greift. Bewirkt ist die Leistung erst, wenn sie **vollständig** erbracht ist. Beim Abo schuldet F sechs Monatsbeiträge; bezahlt sind erst zwei. Nach Sinn und Zweck soll § 110 BGB dem Minderjährigen nur Geschäfte im Rahmen der ihm tatsächlich überlassenen Mittel ermöglichen und ihn **nicht in längerfristige Verbindlichkeiten** führen. Dass F die Beiträge aus Taschengeld und Nachhilfelohn bezahlen könnte, ändert daran nichts. § 110 BGB greift nicht.\nDer Vertrag ist daher **schwebend unwirksam** (§ 108 Abs. 1 BGB). Die Eltern haben gegenüber P erklärt, mit den Käufen nicht einverstanden zu sein; darin liegt die Verweigerung der Genehmigung, die auch gegenüber dem Vertragspartner erklärt werden kann (§ 182 Abs. 1 BGB). Der Abo-Vertrag ist endgültig unwirksam.\n**Ergebnis:** F muss die weiteren Beiträge nicht zahlen.\n\n**II. Anspruch F gegen P auf Rückzahlung von 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB**\nP hat die beiden Monatsbeiträge durch Leistung des F erlangt. Da der Abo-Vertrag endgültig unwirksam ist, fehlt der Rechtsgrund. P muss die 19,98 € herausgeben.\nP könnte dem einen Gegenanspruch auf Wertersatz für die bereits genutzten Punkte entgegenhalten (§ 818 Abs. 2 BGB). Ein solcher Anspruch scheitert jedoch an der **Entreicherung** des F (§ 818 Abs. 3 BGB): Die Punkte sind verbraucht, und F hat keine Aufwendungen erspart, die er sonst gehabt hätte. Der Schutz des Minderjährigen darf nicht dadurch unterlaufen werden, dass er über das Bereicherungsrecht doch den Gegenwert zahlen muss.\n**Ergebnis zu B:** F kann von P die 19,98 € zurückverlangen; weitere Beiträge schuldet er nicht."
+    }
+  ],
+  "raster": [
+    { "id": "a1", "abschnitt": "A", "kriterium": "Obersatz § 812 Abs. 1 S. 1 Alt. 1 BGB", "punkte": 1 },
+    { "id": "a2", "abschnitt": "A", "kriterium": "Etwas erlangt, durch Leistung (Definitionen)", "punkte": 2 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Rechtsgrund: beschränkte Geschäftsfähigkeit, § 107 BGB nachteilig, keine Einwilligung", "punkte": 2 },
+    { "id": "a4", "abschnitt": "A", "kriterium": "§ 113 BGB gesehen und abgelehnt (Verwendung des Lohns nicht erfasst)", "punkte": 2 },
+    { "id": "a5", "abschnitt": "A", "kriterium": "§ 110 BGB: Mittel mit Zustimmung der Eltern von Dritten zur freien Verfügung überlassen", "punkte": 3 },
+    { "id": "a6", "abschnitt": "A", "kriterium": "§ 110 BGB: vollständig bewirkt → Vertrag wirksam", "punkte": 2 },
+    { "id": "a7", "abschnitt": "A", "kriterium": "Ergebnis zu A", "punkte": 1 },
+    { "id": "b1", "abschnitt": "B", "kriterium": "Obersatz Zahlungsanspruch P aus dem Abo-Vertrag", "punkte": 1 },
+    { "id": "b2", "abschnitt": "B", "kriterium": "§ 107 BGB und fehlende Einwilligung knapp", "punkte": 1 },
+    { "id": "b3", "abschnitt": "B", "kriterium": "§ 110 BGB beim Dauerschuldverhältnis: nicht vollständig bewirkt, einschränkende Auslegung (keine langfristige Bindung)", "punkte": 4 },
+    { "id": "b4", "abschnitt": "B", "kriterium": "§ 108 Abs. 1 BGB: schwebend unwirksam; Verweigerung gegenüber P (§ 182 Abs. 1 BGB) → endgültig unwirksam", "punkte": 3 },
+    { "id": "b5", "abschnitt": "B", "kriterium": "Ergebnis: keine weiteren Beiträge", "punkte": 1 },
+    { "id": "b6", "abschnitt": "B", "kriterium": "§ 812 Abs. 1 S. 1 Alt. 1 BGB für 19,98 € subsumiert", "punkte": 3 },
+    { "id": "b7", "abschnitt": "B", "kriterium": "Gegenanspruch auf Wertersatz und Entreicherung (§ 818 Abs. 2, 3 BGB), Minderjährigenschutz", "punkte": 3 },
+    { "id": "b8", "abschnitt": "B", "kriterium": "Ergebnis zu B", "punkte": 1 }
+  ],
+  "gutachtenstil": [
+    { "id": "g1", "kriterium": "Obersätze vollständig und im Konjunktiv", "punkte": 4 },
+    { "id": "g2", "kriterium": "Definitionen (Leistung, rechtlicher Vorteil, bewirken) vor der Subsumtion", "punkte": 4 },
+    { "id": "g3", "kriterium": "Subsumtion am Sachverhalt (Einmalzahlung vs. Abo, Herkunft des Geldes)", "punkte": 4 },
+    { "id": "g4", "kriterium": "Ergebnissätze je Prüfung", "punkte": 3 },
+    { "id": "g5", "kriterium": "Aufbau (Rechtsgrund inzident in § 812) und Schwerpunkt § 110 BGB", "punkte": 3 }
+  ],
+  "erwarteteNormen": ["§ 812 Abs. 1 BGB", "§ 106 BGB", "§ 107 BGB", "§ 110 BGB", "§ 113 BGB", "§ 108 Abs. 1 BGB", "§ 182 Abs. 1 BGB", "§ 818 Abs. 3 BGB"],
+  "schluesselbegriffe": ["beschränkt geschäftsfähig", "lediglich rechtlicher Vorteil", "Taschengeld|§ 110", "freien Verfügung", "bewirkt", "Dauerschuldverhältnis|langfristig", "schwebend unwirksam", "ohne Rechtsgrund", "Entreicherung"],
+  "typischeFehler": [
+    "§ 110 BGB beim Abo bejahen, weil F die Beiträge „problemlos“ zahlen kann – entscheidend ist die vollständige Bewirkung.",
+    "Den Einmalkauf ebenso unwirksam behandeln wie das Abo.",
+    "§ 113 BGB auf die Verwendung des Nachhilfelohns erstrecken.",
+    "Die Rückforderung ohne Anspruchsgrundlage oder über § 433 BGB begründen.",
+    "Bereicherungsrechtliche Rückabwicklung so durchführen, dass der Minderjährige doch den Gegenwert zahlt (Entreicherung übersehen)."
+  ],
+  "abwandlungen": [
+    {
+      "frage": "Abwandlung 1: F hatte das Abo „für sechs Monate im Voraus“ sofort vollständig mit 59,94 € aus seinem PayPal-Guthaben bezahlt.",
+      "kurzloesung": "Dann ist die Leistung vollständig bewirkt; nach § 110 BGB ist der Vertrag von Anfang an wirksam. Die Eltern können ihn nicht über § 108 BGB beseitigen; ein Rückzahlungsanspruch aus § 812 BGB scheitert am Rechtsgrund."
+    },
+    {
+      "frage": "Abwandlung 2: Die Eltern hatten F das PayPal-Konto nur unter der Bedingung erlaubt, keine In-Game-Käufe zu tätigen.",
+      "kurzloesung": "Die Mittel waren dann nicht zur freien Verfügung, sondern mit einer Zweckbeschränkung überlassen; § 110 BGB greift auch für den Einmalkauf nicht. Der Vertrag ist schwebend unwirksam (§ 108 BGB), nach Verweigerung endgültig; F kann die 19,99 € nach § 812 Abs. 1 S. 1 Alt. 1 BGB zurückverlangen."
+    }
+  ],
+  "gefuehrt": {
+    "einstieg": "Zwei Geschäfte, zwei Fallfragen. Welche Prüfungen brauchst du?",
+    "anspruchsgrundlagen": [
+      { "text": "F gegen P auf 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB", "richtig": true, "feedback": "Richtig – Rückforderung beim Einmalkauf; Rechtsgrund inzident prüfen." },
+      { "text": "P gegen F auf weitere Abo-Beiträge aus dem Abo-Vertrag", "richtig": true, "feedback": "Richtig – Schwerpunkt § 110 BGB beim Dauerschuldverhältnis." },
+      { "text": "F gegen P auf 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB", "richtig": true, "feedback": "Richtig – Rückabwicklung des unwirksamen Abos." },
+      { "text": "Eltern gegen P auf Rückzahlung aus eigenem Recht", "richtig": false, "feedback": "Falsch – geleistet hat F; die Eltern handeln nur als gesetzliche Vertreter (§ 1629 BGB)." },
+      { "text": "P gegen die Eltern aus § 179 BGB", "richtig": false, "feedback": "Falsch – F hat im eigenen Namen gehandelt, nicht als Vertreter seiner Eltern." }
+    ],
+    "obersatzAufgabe": "Formuliere den Obersatz für Fallfrage 1.",
+    "obersatzMuster": "F könnte gegen P einen Anspruch auf Rückzahlung von 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben.",
+    "reihenfolgeTitel": "Ordne die Prüfung der Leistungskondiktion in Prüfung A.",
+    "reihenfolge": [
+      "Etwas erlangt",
+      "Durch Leistung",
+      "Ohne Rechtsgrund: Wirksamkeit des Vertrags (§§ 106 ff. BGB)",
+      "Taschengeldparagraph (§ 110 BGB)",
+      "Ergebnis"
+    ],
+    "punkte": [
+      {
+        "titel": "§ 110 BGB beim Abo",
+        "aufgabe": "Greift § 110 BGB für das 6-Monats-Abo? Begründe mit dem Schutzzweck.",
+        "tipps": ["Norm: § 110 BGB", "Schema: Mittel überlassen? → vollständig bewirkt? → Schutzzweck bei Dauerschuldverhältnissen", "Mustersatz: „Bewirkt ist die Leistung erst, wenn sie vollständig erbracht ist. Beim Abo sind erst zwei von sechs Beiträgen gezahlt …“"],
+        "muster": "Bewirkt ist die Leistung erst, wenn sie vollständig erbracht ist. Beim Abo schuldet F sechs Beiträge, gezahlt sind zwei. § 110 BGB soll den Minderjährigen nicht in längerfristige Verbindlichkeiten führen; dass er die Raten zahlen könnte, genügt nicht. § 110 BGB greift nicht; der Vertrag ist schwebend unwirksam (§ 108 Abs. 1 BGB)."
+      }
+    ]
+  },
+  "quelle": "material:faelle-3",
+  "geprueft": false
+}
