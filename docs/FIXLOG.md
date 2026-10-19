@@ -44,3 +44,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Befund (Abschluss-QA):** Die Namensprüfung in `scripts/validate.mjs` enthielt die zu verhindernden Namen als Klartext-Regex – damit standen sie im öffentlichen Repo.
 - **Fix:** Prüfung über SHA-256-Hashes der (klein geschriebenen) Namen; jedes Wort jeder getrackten Datei wird gehasht und verglichen. Erkennung manuell verifiziert.
 - **Hinweis:** In früheren Commits steht die alte Regex noch in der Git-Historie. Laut Auftrag wird die Historie nicht eigenmächtig umgeschrieben → im Abschlussbericht gemeldet.
+
+## 19.10.2026 – Unnötiger Reload beim ersten Besuch
+- **Symptom:** CI-Job „live“ (Offline-Check) brach mit „Execution context was destroyed“ ab.
+- **Ursache:** Beim allerersten Besuch übernimmt der frisch installierte Service Worker per `clients.claim()` die Seite → `controllerchange` → die App lud sich neu. Für Nutzer:innen ein unnötiger Seitensprung kurz nach dem Öffnen.
+- **Fix:** Neu laden nur, wenn vorher schon ein Controller aktiv war (= echtes Update). Offline-Check wartet robust auf den Controller.

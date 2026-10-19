@@ -17,8 +17,8 @@ page.on('pageerror', e => fehler.push('Seite: ' + e.message));
 
 await page.goto(basis, { waitUntil: 'networkidle' });
 // Warten, bis der Service Worker installiert (inkl. Daten-Precache) und aktiv ist
+await page.waitForFunction(() => !!navigator.serviceWorker && !!navigator.serviceWorker.controller, null, { timeout: 30000 });
 await page.evaluate(async () => { await navigator.serviceWorker.ready; });
-if (!(await page.evaluate(() => !!navigator.serviceWorker.controller))) await page.reload({ waitUntil: 'networkidle' });
 const cacheInfo = await page.evaluate(async () => {
   const namen = (await caches.keys()).filter(k => k.startsWith('nk-recht-'));
   let anzahl = 0;

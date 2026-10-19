@@ -82,8 +82,11 @@ function registriereSW() {
     // regelmäßig nach Updates suchen
     setInterval(() => reg.update().catch(() => {}), 30 * 60 * 1000);
   }).catch(() => {});
+  // Neu laden nur bei einem Update (es gab schon einen Controller) – nicht beim allerersten Besuch,
+  // wenn der frisch installierte SW per clients.claim() die Seite übernimmt.
+  const hatteController = !!navigator.serviceWorker.controller;
   let neuGeladen = false;
-  navigator.serviceWorker.addEventListener('controllerchange', () => { if (!neuGeladen) { neuGeladen = true; location.reload(); } });
+  navigator.serviceWorker.addEventListener('controllerchange', () => { if (hatteController && !neuGeladen) { neuGeladen = true; location.reload(); } });
 }
 
 // ---------- Views (lazy) ----------
