@@ -7,7 +7,7 @@
   "minuten": 30,
   "punkte": 24,
   "sachverhalt": [
-    "Johann (J) fährt innerorts zu schnell und übersieht an einer Kreuzung ohne Verkehrszeichen die von rechts kommende Anja (A). Er fährt ihr in die Seitentür. Ihr Auto wird beschädigt, A erleidet eine erhebliche Knieprellung und kann zwei Wochen nicht arbeiten.",
+    "Johann (J) fährt mit seinem Auto innerorts zu schnell und übersieht an einer Kreuzung ohne Verkehrszeichen die von rechts kommende Anja (A). Er fährt ihr in die Seitentür. Ihr Auto wird beschädigt, A erleidet eine erhebliche Knieprellung und kann zwei Wochen nicht arbeiten.",
     "A macht folgende Posten geltend: (1) Reparaturkosten 3.500 € – ihr Auto ist vor dem Unfall aber nur 2.500 € wert gewesen; A hängt an dem Wagen, Restwert spielt keine Rolle; (2) Heilbehandlung 1.500 €; (3) weitere Physiotherapie 1.800 € wegen einer bei der Untersuchung entdeckten, schon lange bestehenden Arthrose; (4) Schmerzensgeld 800 €; (5) Mietwagen für zwei Wochen: Sie mietete einen Porsche für 2.400 €, ein Wagen ihrer Klasse hätte 600 € gekostet; (6) 2.800 € Lohn – ihr Arbeitgeber hat das Gehalt fortgezahlt."
   ],
   "fallfragen": [
@@ -17,14 +17,14 @@
   "skizze": [
     { "ebene": 1, "text": "Anspruch A gegen J aus § 823 Abs. 1 BGB" },
     { "ebene": 2, "text": "Haftungsbegründung: Verletzungshandlung (Vorfahrtsverstoß) · Rechtsgutsverletzung Eigentum und Körper/Gesundheit · Kausalität · Rechtswidrigkeit · Verschulden (fahrlässig, § 276 Abs. 2 BGB)" },
-    { "ebene": 2, "text": "Haftungsausfüllung: (1) Wirtschaftlicher Totalschaden – Reparatur > 130 % des Wiederbeschaffungswerts → nur 2.500 € (§ 251 Abs. 2 BGB) · (2) 1.500 € (+) · (3) Arthrose nicht unfallbedingt (−) · (4) Schmerzensgeld § 253 Abs. 2 BGB (+, Höhe angemessen) · (5) nur vergleichbarer Wagen 600 € · (6) kein Schaden der A (Arbeitgeber zahlte; Anspruch geht auf ihn über)" },
+    { "ebene": 2, "text": "Haftungsausfüllung: (1) Wirtschaftlicher Totalschaden – Reparatur > 130 % des Wiederbeschaffungswerts → nur 2.500 € (§ 251 Abs. 2 BGB) · (2) 1.500 € (+) · (3) Arthrose nicht unfallbedingt (−) · (4) Schmerzensgeld § 253 Abs. 2 BGB (+, Höhe angemessen) · (5) nur vergleichbarer Wagen 600 € · (6) Anspruch auf Verdienstausfall geht auf den Arbeitgeber über (§ 6 Abs. 1 EFZG)" },
     { "ebene": 2, "text": "Daneben Halterhaftung § 7 Abs. 1 StVG (verschuldensunabhängig)" }
   ],
   "musterloesung": [
     {
       "id": "A",
       "titel": "Anspruch A gegen J aus § 823 Abs. 1 BGB",
-      "text": "A könnte gegen J einen Anspruch auf Schadensersatz aus § 823 Abs. 1 BGB haben.\n**Haftungsbegründender Tatbestand:** J hat durch den Zusammenstoß das **Eigentum** der A am Auto und ihren **Körper/ihre Gesundheit** verletzt. Seine Verletzungshandlung – Missachtung der Vorfahrt „rechts vor links“ bei überhöhter Geschwindigkeit – war ursächlich (conditio sine qua non) und adäquat. Die Rechtswidrigkeit ist indiziert; Rechtfertigungsgründe fehlen. J handelte **fahrlässig**, weil er die im Verkehr erforderliche Sorgfalt außer Acht ließ (§ 276 Abs. 2 BGB).\n**Rechtsfolge – Umfang des Schadensersatzes:** Herzustellen ist der Zustand ohne das schädigende Ereignis (§ 249 Abs. 1 BGB); bei Sach- und Personenschäden kann Geld verlangt werden (§ 249 Abs. 2 S. 1 BGB).\n(1) **Reparaturkosten:** Übersteigen sie den Wiederbeschaffungswert, ist die Herstellung unverhältnismäßig; dann ist nur Wertersatz geschuldet (§ 251 Abs. 2 S. 1 BGB). Wegen des Integritätsinteresses werden Reparaturkosten bis 130 % des Wiederbeschaffungswerts (hier 3.250 €) anerkannt. 3.500 € liegen darüber → nur **2.500 €**.\n(2) **Heilbehandlung 1.500 €:** unfallbedingt → ersatzfähig.\n(3) **Physiotherapie 1.800 €:** Die Arthrose bestand schon vorher; ihre Behandlung beruht nicht auf dem Unfall (keine haftungsausfüllende Kausalität) → nicht ersatzfähig.\n(4) **Schmerzensgeld:** Immaterieller Schaden ist nur in gesetzlich bestimmten Fällen zu ersetzen (§ 253 Abs. 1 BGB), u. a. bei Verletzung von Körper und Gesundheit (§ 253 Abs. 2 BGB). Für eine erhebliche Prellung mit zwei Wochen Arbeitsunfähigkeit ist eine billige Entschädigung geschuldet; 800 € liegen am oberen Rand, sind aber vertretbar.\n(5) **Mietwagen:** Ersatzfähig sind nur die erforderlichen Kosten für ein Fahrzeug der bisherigen Klasse (Wirtschaftlichkeitsgebot, § 249 Abs. 2 BGB) → **600 €**.\n(6) **Lohn:** A hat ihr Gehalt erhalten; ihr ist kein Vermögensschaden entstanden. Den Schaden hat der Arbeitgeber; sein Ersatzanspruch geht ihm kraft Gesetzes über (Entgeltfortzahlungsrecht). A selbst kann nichts verlangen.\n**Ergebnis:** A kann 2.500 € + 1.500 € + 800 € + 600 € = **5.400 €** verlangen. Daneben haftet J als Halter verschuldensunabhängig nach § 7 Abs. 1 StVG."
+      "text": "A könnte gegen J einen Anspruch auf Schadensersatz aus § 823 Abs. 1 BGB haben.\n**Haftungsbegründender Tatbestand:** J hat durch den Zusammenstoß das **Eigentum** der A am Auto und ihren **Körper/ihre Gesundheit** verletzt. Seine Verletzungshandlung – Missachtung der Vorfahrt „rechts vor links“ bei überhöhter Geschwindigkeit – war ursächlich (conditio sine qua non) und adäquat. Die Rechtswidrigkeit ist indiziert; Rechtfertigungsgründe fehlen. J handelte **fahrlässig**, weil er die im Verkehr erforderliche Sorgfalt außer Acht ließ (§ 276 Abs. 2 BGB).\n**Rechtsfolge – Umfang des Schadensersatzes:** Herzustellen ist der Zustand ohne das schädigende Ereignis (§ 249 Abs. 1 BGB); bei Sach- und Personenschäden kann Geld verlangt werden (§ 249 Abs. 2 S. 1 BGB).\n(1) **Reparaturkosten:** Wegen des Integritätsinteresses werden Reparaturkosten bis 130 % des Wiederbeschaffungswerts (hier 3.250 €) ersetzt. 3.500 € liegen darüber; die Reparatur ist wirtschaftlich unvernünftig. A erhält dann nur den Wiederbeschaffungsaufwand (§ 249 Abs. 2 S. 1 BGB; vgl. § 251 Abs. 2 S. 1 BGB), also **2.500 €**; eine Aufspaltung in einen ersatzfähigen 130 %-Teil und einen Rest ist unzulässig.\n(2) **Heilbehandlung 1.500 €:** Die Kosten sind unfallbedingt und daher ersatzfähig.\n(3) **Physiotherapie 1.800 €:** Die Arthrose bestand schon vorher; ihre Behandlung beruht nicht auf dem Unfall (keine haftungsausfüllende Kausalität); sie sind nicht ersatzfähig.\n(4) **Schmerzensgeld:** Immaterieller Schaden ist nur in gesetzlich bestimmten Fällen zu ersetzen (§ 253 Abs. 1 BGB), u. a. bei Verletzung von Körper und Gesundheit (§ 253 Abs. 2 BGB). Für eine erhebliche Prellung mit zwei Wochen Arbeitsunfähigkeit ist eine billige Entschädigung geschuldet; 800 € liegen am oberen Rand, sind aber vertretbar.\n(5) **Mietwagen:** Ersatzfähig sind nur die erforderlichen Kosten für ein Fahrzeug der bisherigen Klasse (Wirtschaftlichkeitsgebot, § 249 Abs. 2 BGB), also **600 €**.\n(6) **Lohn:** A hat ihr Gehalt erhalten. Die Lohnfortzahlung soll den Schädiger aber nicht entlasten; der Verdienstausfall ist daher ein (normativer) Schaden der A. Ihr Anspruch geht jedoch in Höhe der Fortzahlung kraft Gesetzes auf den Arbeitgeber über (§ 6 Abs. 1 EFZG). A selbst kann insoweit nichts mehr verlangen.\n**Ergebnis:** A kann 2.500 € + 1.500 € + 800 € + 600 € = **5.400 €** verlangen. Daneben haftet J als Halter verschuldensunabhängig nach § 7 Abs. 1 StVG (als Fahrer zudem nach § 18 Abs. 1 StVG). Die Betriebsgefahr des Autos der A (§ 17 StVG, § 254 BGB) tritt hinter dem groben Verstoß des J zurück. A kann auch direkt gegen dessen Haftpflichtversicherer vorgehen (§ 115 Abs. 1 S. 1 Nr. 1 VVG)."
     }
   ],
   "raster": [
@@ -32,7 +32,7 @@
     { "id": "r2", "abschnitt": "A", "kriterium": "§ 249 BGB als Maßstab; (1) 130 %-Grenze, § 251 Abs. 2 BGB → 2.500 €", "punkte": 3 },
     { "id": "r3", "abschnitt": "A", "kriterium": "(2) Heilbehandlung (+); (3) Arthrose mangels Kausalität (−)", "punkte": 2 },
     { "id": "r4", "abschnitt": "A", "kriterium": "(4) Schmerzensgeld § 253 Abs. 2 BGB", "punkte": 2 },
-    { "id": "r5", "abschnitt": "A", "kriterium": "(5) Mietwagen nur vergleichbare Klasse; (6) kein Schaden der A wegen Lohnfortzahlung", "punkte": 3 },
+    { "id": "r5", "abschnitt": "A", "kriterium": "(5) Mietwagen nur vergleichbare Klasse; (6) Verdienstausfall: Anspruch geht auf den Arbeitgeber über (§ 6 Abs. 1 EFZG)", "punkte": 3 },
     { "id": "r6", "abschnitt": "A", "kriterium": "Ergebnis 5.400 €; § 7 StVG erwähnt", "punkte": 2 }
   ],
   "gutachtenstil": [
@@ -46,7 +46,7 @@
   "typischeFehler": [
     "Reparaturkosten über 130 % des Wiederbeschaffungswerts voll zusprechen.",
     "Vorerkrankungen ohne Kausalitätsprüfung mit ersetzen.",
-    "Den fortgezahlten Lohn als Schaden der A behandeln.",
+    "Den fortgezahlten Lohn A selbst zusprechen und den Anspruchsübergang auf den Arbeitgeber (§ 6 Abs. 1 EFZG) übersehen.",
     "Schmerzensgeld auf § 252 BGB stützen (richtig § 253 Abs. 2 BGB)."
   ],
   "abwandlungen": [
@@ -68,5 +68,5 @@
     ]
   },
   "quelle": "material:faelle-7",
-  "geprueft": false
+  "geprueft": true
 }

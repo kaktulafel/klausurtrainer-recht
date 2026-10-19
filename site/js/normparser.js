@@ -7,9 +7,9 @@ const GESETZE = {
   'BGB': 'BGB', 'DSGVO': 'DSGVO', 'DS-GVO': 'DSGVO', 'BDSG': 'BDSG', 'TDDDG': 'TDDDG', 'TTDSG': 'TDDDG',
   'HGB': 'HGB', 'STVG': 'StVG', 'GMBHG': 'GmbHG', 'AKTG': 'AktG', 'KI-VO': 'KI-VO', 'KIVO': 'KI-VO',
   'GG': 'GG', 'NACHWG': 'NachwG', 'EFZG': 'EFZG', 'STGB': 'StGB', 'JUSCHG': 'JuSchG', 'KCANG': 'KCanG',
-  'UWG': 'UWG', 'ZPO': 'ZPO', 'EGBGB': 'EGBGB'
+  'UWG': 'UWG', 'ZPO': 'ZPO', 'EGBGB': 'EGBGB', 'VVG': 'VVG', 'SCHWARZARBG': 'SchwarzArbG'
 };
-const GESETZ_RE = '(?:BGB|DS-GVO|DSGVO|BDSG|TDDDG|TTDSG|HGB|StVG|GmbHG|AktG|KI-VO|GG|NachwG|EFZG|StGB|JuSchG|KCanG|UWG|ZPO|EGBGB)';
+const GESETZ_RE = '(?:BGB|DS-GVO|DSGVO|BDSG|TDDDG|TTDSG|HGB|StVG|GmbHG|AktG|KI-VO|GG|NachwG|EFZG|StGB|JuSchG|KCanG|UWG|ZPO|EGBGB|VVG|SchwarzArbG)';
 const ROEMISCH = { I: 1, II: 2, III: 3, IV: 4, V: 5, VI: 6, VII: 7, VIII: 8, IX: 9, X: 10 };
 
 /** Normalisiert die Gesetzesabkürzung (z. B. "DS-GVO" → "DSGVO"). */
@@ -92,6 +92,12 @@ export function parseNormen(text, opts = {}) {
         cur._closed = true;
         pos += t[0].length;
         continue;
+      }
+      // Unbekannte Gesetzesabkürzung (z. B. "EStG", "BetrVG"): nicht still als BGB deuten
+      if ((t = /^\s+([A-ZÄÖÜ][a-zäöü]*[A-ZÄÖÜ][A-Za-zÄÖÜäöü]*)(?![A-Za-zÄÖÜäöü])/.exec(rest))) {
+        for (const p of pending) p.gesetz = t[1];
+        pending = [];
+        pos += t[0].length;
       }
       break;
     }

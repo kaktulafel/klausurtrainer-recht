@@ -7,8 +7,8 @@
   "minuten": 25,
   "punkte": 24,
   "sachverhalt": [
-    "Teil 1: Weinhändler Olaf Brandt (O) besucht eine Weinversteigerung in Trier, weil er dort seinen Freund Sven treffen will. Als er den Saal betritt, sieht er Sven und winkt ihm freudig zu. Der Auktionator Tobias Reich (T), der im eigenen Namen versteigert, hält das Winken für ein Gebot und erteilt O den Zuschlag für zehn Fässer Riesling zu 45.400 €. O ist entsetzt; er wollte nichts ersteigern und erklärt dies dem T sofort.",
-    "Teil 2: Lena Pohl (L) hat eine neue Wohnung in Aussicht, der Mietvertrag ist aber noch nicht unterschrieben. Sie bereitet schon einmal die Kündigung ihrer bisherigen Wohnung vor, steckt sie in einen adressierten Umschlag und legt ihn auf den Schreibtisch, um später zu entscheiden. Ihr Lebensgefährte Jan sieht den Umschlag, frankiert ihn und wirft ihn ein. Das neue Mietverhältnis kommt nicht zustande."
+    "Teil 1: Weinhändler Olaf Brandt (O) besucht eine Weinversteigerung an der Mosel, weil er dort seinen Freund Sven treffen will. Als er den Saal betritt, sieht er Sven und winkt ihm freudig zu. Der Auktionator Tobias Reich (T), der im eigenen Namen versteigert, hält das Winken für ein Gebot und erteilt O den Zuschlag für zehn Fässer Riesling zu 45.400 €. O ist entsetzt; er wollte nichts ersteigern und erklärt dies dem T sofort.",
+    "Teil 2: Lena Pohl (L) hat eine neue Wohnung in Aussicht, der Mietvertrag ist aber noch nicht unterschrieben. Sie bereitet schon einmal die unterschriebene Kündigung ihrer bisherigen Wohnung vor, steckt sie in einen adressierten Umschlag und legt ihn auf den Schreibtisch, um später zu entscheiden. Ihr Lebensgefährte Jan sieht den Umschlag, frankiert ihn und wirft ihn ein. Das neue Mietverhältnis kommt nicht zustande."
   ],
   "fallfragen": [
     "1. Kann T von O Zahlung von 45.400 € verlangen?",
@@ -30,7 +30,7 @@
     {
       "id": "B",
       "titel": "B. Wirksamkeit der Kündigung der L",
-      "text": "Die Kündigung ist eine einseitige, empfangsbedürftige Willenserklärung. Sie müsste von L **abgegeben** worden und dem Vermieter zugegangen sein (§ 130 Abs. 1 S. 1 BGB).\nAbgegeben ist eine Erklärung, wenn der Erklärende sie willentlich so in Richtung des Empfängers in den Verkehr gebracht hat, dass mit ihrem Zugang zu rechnen ist. L wollte erst später entscheiden; abgeschickt hat Jan ohne ihren Willen. Es handelt sich um eine **abhanden gekommene Willenserklärung**.\n**H. M.:** Mangels willentlicher Abgabe liegt keine wirksame Willenserklärung vor; die Kündigung ist unwirksam. Hat L durch Fahrlässigkeit (offen liegender, adressierter Umschlag) den Rechtsschein gesetzt, haftet sie dem Vermieter allenfalls auf den Vertrauensschaden analog § 122 BGB.\n**Lösung der Vorlesung (a. A.):** Wie beim fehlenden Erklärungsbewusstsein wird die Erklärung der L zugerechnet, weil sie vom objektiven Empfängerhorizont aus als ihre Kündigung erscheint und L das Abschicken hätte verhindern können; die Kündigung ist wirksam, L kann sie aber analog § 119 Abs. 1 BGB unverzüglich anfechten (Folge § 122 BGB).\n**Ergebnis zu B:** Nach h. M. ist die Kündigung unwirksam; nach der Vorlesungslösung zunächst wirksam, aber anfechtbar. Im Ergebnis kann L ihre Wohnung in beiden Fällen behalten."
+      "text": "Die Kündigung der L könnte wirksam sein. Als einseitige, empfangsbedürftige Willenserklärung müsste sie von L **abgegeben** worden und dem Vermieter zugegangen sein (§ 130 Abs. 1 S. 1 BGB).\nAbgegeben ist eine Erklärung, wenn der Erklärende sie willentlich so in Richtung des Empfängers in den Verkehr gebracht hat, dass mit ihrem Zugang zu rechnen ist. L wollte erst später entscheiden; abgeschickt hat Jan ohne ihren Willen. Es handelt sich um eine **abhanden gekommene Willenserklärung**.\n**H. M.:** Mangels willentlicher Abgabe liegt keine wirksame Willenserklärung vor; die Kündigung ist unwirksam. Hat L durch Fahrlässigkeit (offen liegender, adressierter Umschlag) den Rechtsschein gesetzt, haftet sie dem Vermieter allenfalls auf den Vertrauensschaden analog § 122 BGB.\n**Lösung der Vorlesung (a. A.):** Wie beim fehlenden Erklärungsbewusstsein wird die Erklärung der L zugerechnet, weil sie vom objektiven Empfängerhorizont aus als ihre Kündigung erscheint und L das Abschicken hätte verhindern können; die Kündigung ist wirksam, L kann sie aber analog § 119 Abs. 1 BGB unverzüglich anfechten (Folge § 122 BGB).\n**Ergebnis zu B:** Nach h. M. ist die Kündigung unwirksam; nach der Vorlesungslösung zunächst wirksam, aber anfechtbar. Im Ergebnis kann L ihre Wohnung in beiden Fällen behalten – nach der Vorlesungslösung allerdings nur, wenn sie unverzüglich nach Kenntnis anficht (§ 121 Abs. 1 S. 1 BGB)."
     }
   ],
   "raster": [
@@ -58,7 +58,7 @@
   "abwandlungen": [
     {
       "frage": "Abwandlung: O wusste, dass Handzeichen in dieser Versteigerung als Gebot gelten, winkte aber trotzdem, weil er glaubte, der Auktionator schaue gerade nicht hin.",
-      "kurzloesung": "Erklärungsbewusstsein lag zwar nicht vor, das Verhalten ist O aber erst recht zurechenbar. Er kann allenfalls analog § 119 Abs. 1 BGB anfechten; ob ihm das hilft, hängt von der Unverzüglichkeit ab; jedenfalls schuldet er den Vertrauensschaden (§ 122 BGB)."
+      "kurzloesung": "O kannte die Bedeutung des Handzeichens; er hatte Erklärungsbewusstsein und irrte weder über die Erklärungshandlung noch über ihren Inhalt. Seine Hoffnung, nicht gesehen zu werden, ist ein unbeachtlicher innerer Vorbehalt (vgl. § 116 S. 1 BGB). Eine Anfechtung nach § 119 Abs. 1 BGB scheidet mangels Irrtums aus; T hat einen Anspruch aus § 433 Abs. 2 BGB."
     }
   ],
   "gefuehrt": {
@@ -82,5 +82,5 @@
     ]
   },
   "quelle": "material:faelle-1",
-  "geprueft": false
+  "geprueft": true
 }

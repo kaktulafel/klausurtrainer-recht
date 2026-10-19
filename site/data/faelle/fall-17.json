@@ -1,7 +1,7 @@
 {
   "id": "fall-17",
   "titel": "Schuhe für die Kita",
-  "kurz": "Geschäftsunfähiges Kind als Bote, falsch übermittelter Preis, neues Angebot nach § 150 BGB; dieselbe Szene am 7. Geburtstag (§ 187 Abs. 2 S. 2, §§ 106, 108).",
+  "kurz": "Geschäftsunfähiges Kind als Bote, falsch übermittelter Preis, neues Angebot durch Auslegung; dieselbe Szene am 7. Geburtstag (§ 187 Abs. 2 S. 2, §§ 106, 108).",
   "themen": ["geschaeftsfaehigkeit", "zugang", "vertragsschluss"],
   "schwierigkeit": 2,
   "minuten": 25,
@@ -18,14 +18,14 @@
   "skizze": [
     { "ebene": 1, "text": "Frage 1" },
     { "ebene": 2, "text": "Vertrag B – J? B geschäftsunfähig (§ 104 Nr. 1 BGB) → eigene WE nichtig (§ 105 Abs. 1 BGB)" },
-    { "ebene": 2, "text": "Vertrag A – J? Antrag „3 €“ der A über B als Erklärungsboten: Boten können auch Geschäftsunfähige sein; B übermittelte nicht (sondern „2 €“) → Antrag über 3 € nicht zugegangen (§ 130 Abs. 1 BGB) · Zahlung von 2 € durch J = Antrag über 2 € (Auslegung §§ 133, 157 BGB; § 150 BGB), B als Bote des J · Annahme durch A konkludent (Entgegennahme des Geldes) → Vertrag A – J zu 2 €" },
+    { "ebene": 2, "text": "Vertrag A – J? Antrag „3 €“ der A über B als Erklärungsboten: Boten können auch Geschäftsunfähige sein; B übermittelte nicht (sondern „2 €“) → Antrag über 3 € nicht zugegangen (§ 130 Abs. 1 BGB) · Zahlung von 2 € durch J = Antrag über 2 € (Auslegung §§ 133, 157 BGB), B als Bote des J · Annahme durch A konkludent (Entgegennahme des Geldes) → Vertrag A – J zu 2 €" },
     { "ebene": 1, "text": "Frage 2: B mit Vollendung des 7. Lebensjahres beschränkt geschäftsfähig (§ 187 Abs. 2 S. 2, § 106 BGB) → eigenes Angebot über 2 €; rechtlich nachteilig (§ 107 BGB) → schwebend unwirksam, Genehmigung der A (§§ 108, 1629, 184 BGB)" }
   ],
   "musterloesung": [
     {
       "id": "A",
       "titel": "A. Frage 1: Kaufvertrag über die Schuhe",
-      "text": "**Vertrag zwischen B und J:** B ist 6 Jahre alt und damit geschäftsunfähig (§ 104 Nr. 1 BGB). Eine eigene Willenserklärung des B wäre nichtig (§ 105 Abs. 1 BGB). Ein Vertrag zwischen B und J scheidet aus.\n**Vertrag zwischen A und J:** A wollte die Schuhe für 3 € verkaufen und hat B mit der Übermittlung beauftragt. B war **Erklärungsbote** der A – auch ein Geschäftsunfähiger kann Bote sein, weil er keine eigene Willenserklärung abgibt. Übermittelt hat B aber nicht „3 €“, sondern „2 €“. Ob in der falschen Übermittlung des Kindes eine Erklärung der A über 2 € liegt, ist zweifelhaft; jedenfalls ist der Antrag über 3 € dem J nie zugegangen (§ 130 Abs. 1 S. 1 BGB) und daher nicht wirksam geworden.\nIndem J zwei Euro für die Schuhe hingab, hat er nach §§ 133, 157 BGB seinerseits einen **Antrag** auf Kauf der Schuhe für 2 € gemacht (vgl. § 150 BGB). Diesen hat B als Bote des J an A übermittelt (Übergabe des Geldes). A hat das Geld wortlos entgegengenommen und behalten; darin liegt eine konkludente **Annahme**.\n**Ergebnis zu Frage 1:** Zwischen A und J ist ein Kaufvertrag über die Schuhe zum Preis von 2 € zustande gekommen."
+      "text": "**Vertrag zwischen B und J:** B ist 6 Jahre alt und damit geschäftsunfähig (§ 104 Nr. 1 BGB). Eine eigene Willenserklärung des B wäre nichtig (§ 105 Abs. 1 BGB). Ein Vertrag zwischen B und J scheidet aus.\n**Vertrag zwischen A und J:** A wollte die Schuhe für 3 € verkaufen und hat B mit der Übermittlung beauftragt. B war **Erklärungsbote** der A – auch ein Geschäftsunfähiger kann Bote sein, weil er keine eigene Willenserklärung abgibt. Übermittelt hat B aber nicht „3 €“, sondern „2 €“. Ob in der falschen Übermittlung des Kindes eine Erklärung der A über 2 € liegt, ist zweifelhaft; jedenfalls ist der Antrag über 3 € dem J nie zugegangen (§ 130 Abs. 1 S. 1 BGB) und daher nicht wirksam geworden.\nIndem J zwei Euro für die Schuhe hingab, hat er nach §§ 133, 157 BGB seinerseits einen **Antrag** auf Kauf der Schuhe für 2 € gemacht. (Nach anderer Ansicht ist A die unbewusst falsch übermittelte Erklärung über 2 € zuzurechnen, § 120 BGB; auch dann besteht ein Vertrag zu 2 €, den A mangels Anfechtung gegen sich gelten lässt.) Diesen hat B als Bote des J an A übermittelt (Übergabe des Geldes). A hat das Geld wortlos entgegengenommen und behalten; darin liegt eine konkludente **Annahme**. Einer Erklärung gegenüber J bedurfte es nach der Verkehrssitte nicht (§ 151 S. 1 BGB).\n**Ergebnis zu Frage 1:** Zwischen A und J ist ein Kaufvertrag über die Schuhe zum Preis von 2 € zustande gekommen."
     },
     {
       "id": "B",
@@ -36,7 +36,7 @@
   "raster": [
     { "id": "a1", "abschnitt": "A", "kriterium": "B geschäftsunfähig → keine eigene WE (§§ 104 Nr. 1, 105 BGB)", "punkte": 2 },
     { "id": "a2", "abschnitt": "A", "kriterium": "B als Erklärungsbote (auch Geschäftsunfähige können Boten sein); Antrag über 3 € nicht zugegangen (§ 130 BGB)", "punkte": 3 },
-    { "id": "a3", "abschnitt": "A", "kriterium": "Neuer Antrag des J über 2 € durch Auslegung (§§ 133, 157, 150 BGB); B als Bote des J", "punkte": 3 },
+    { "id": "a3", "abschnitt": "A", "kriterium": "Neuer Antrag des J über 2 € durch Auslegung (§§ 133, 157 BGB) oder Zurechnung nach § 120 BGB; B als Bote des J", "punkte": 3 },
     { "id": "a4", "abschnitt": "A", "kriterium": "Konkludente Annahme durch A; Ergebnis", "punkte": 2 },
     { "id": "b1", "abschnitt": "B", "kriterium": "§ 187 Abs. 2 S. 2 BGB: Geburtstag mitgerechnet → beschränkt geschäftsfähig (§ 106 BGB)", "punkte": 2 },
     { "id": "b2", "abschnitt": "B", "kriterium": "§ 107 BGB nachteilig, keine Einwilligung, § 110 BGB nicht einschlägig", "punkte": 2 },
@@ -56,7 +56,7 @@
     "Am 7. Geburtstag noch Geschäftsunfähigkeit annehmen (§ 187 Abs. 2 S. 2 BGB)."
   ],
   "abwandlungen": [
-    { "frage": "Abwandlung: B übermittelt korrekt „drei Euro“, J zahlt 3 €.", "kurzloesung": "Antrag der A über 3 € durch B als Erklärungsboten zugegangen, Annahme durch J (§§ 145 ff. BGB) → Vertrag A – J über 3 €; Übereignung der Schuhe durch B als Boten der A, des Geldes durch B als Boten des J." }
+    { "frage": "Abwandlung: B übermittelt korrekt „drei Euro“, J zahlt 3 €.", "kurzloesung": "Antrag der A über 3 € durch B als Erklärungsboten zugegangen, Annahme durch J (§§ 145 ff. BGB) → Vertrag A – J über 3 €; Übereignung der Schuhe durch A als gesetzliche Vertreterin des B (§ 1629 Abs. 1 BGB), B als Bote/Übergabeperson; des Geldes durch B als Boten des J." }
   ],
   "gefuehrt": {
     "einstieg": "Wer kommt als Vertragspartner in Betracht?",
@@ -74,5 +74,5 @@
     ]
   },
   "quelle": "material:faelle-3",
-  "geprueft": false
+  "geprueft": true
 }

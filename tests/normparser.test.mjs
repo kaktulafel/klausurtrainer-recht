@@ -110,3 +110,15 @@ test('„§§ 280 Abs. 1, 3, 281 BGB“ = Abs. 1 und 3 von § 280 plus § 281', 
   assert.deepEqual(kurz('§§ 280 Abs. 1, 3, 281 BGB'), ['§ 280 Abs. 1 BGB', '§ 281 BGB']);
   assert.deepEqual(kurz('§§ 119, 123 BGB'), ['§ 119 BGB', '§ 123 BGB']);
 });
+
+test('Unbekannte Gesetze werden nicht als BGB gedeutet', async () => {
+  const { parseNormen } = await import('../site/js/normparser.js');
+  const [a] = parseNormen('§ 115 Abs. 1 S. 1 Nr. 1 VVG');
+  assert.equal(a.gesetz, 'VVG');
+  const [b] = parseNormen('§ 1 Abs. 2 Nr. 2 SchwarzArbG');
+  assert.equal(b.gesetz, 'SchwarzArbG');
+  const [c] = parseNormen('§ 32 EStG regelt');
+  assert.equal(c.gesetz, 'EStG');
+  const [d] = parseNormen('§ 433 Abs. 2 Der Käufer');
+  assert.equal(d.gesetz, 'BGB');
+});

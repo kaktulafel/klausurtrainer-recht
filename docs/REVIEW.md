@@ -50,8 +50,30 @@ Gesamturteil: Fall 01 setzt alle vier Korrekturhinweise korrekt um; Nachbesserun
 - [x] Wissen: wi-047 (Erstklausur-Frage!) Bewertung auf drei Kernpunkte; § 123 Abs. 2 vollständig; § 121 Abs. 1 S. 2; § 611a statt § 611; positives Interesse §§ 280 Abs. 1, 3, 281; § 356 Abs. 3 und **§ 356a BGB (elektronische Widerrufsfunktion, seit Juni 2026 – am amtlichen Text verifiziert)**; Rücktritt ohne Vertretenmüssen; Zugangsvereitelung (BGH-Linie); B2B bei AGB; Gegenansichten (Erklärungsbewusstsein, § 110 bei Dauerschuld).
 - [x] Stichwort-Prüfung strenger: Zahlen/kurze Wörter exakt, bei zwei Gruppen müssen beide passen (≥ 60 %); Regressionstests.
 
-### Drills (22)
-- Selbst geprüft gegen die Checkliste (identische Rechtsaussagen wie Fall 01/Wissen, bereits zweitkorrigiert). Zweitkorrektur durch Subagent folgt mit dem nächsten Batch.
+## Batch 3 (19.10.2026) – Fälle 05–18 und Drills (drei unabhängige Zweitkorrektoren)
+
+### Fälle 05–09
+- [x] fall-06 (kritisch): Abwandlung – „zutreffend als Lithografie bezeichnet“ war falsch (Offsetdruck ist keine Lithografie) → Arglist fehlt, nicht die Unwahrheit.
+- [x] fall-06 (mittel): Vorrang der §§ 434 ff. vor § 119 Abs. 2 nach Gefahrübergang (h. M.) – Bearbeitungshinweis ergänzt, Hinweis in Lösung und Abwandlung; Fehleridentität (§ 985) bei der Rückabwicklung; §§ 187, 188 bei der Frist.
+- [x] fall-05 (mittel): Gegenansicht zu § 110 bei teilbaren Dauerschuldverhältnissen ergänzt, im Raster als gleichwertig anerkannt; Guthaben im Sachverhalt plausibel; „Taschengeld“ entfernt.
+- [x] fall-07 (mittel): Abwandlung (O kennt Bedeutung des Handzeichens) neu gelöst – kein Irrtum, innerer Vorbehalt, Vertrag wirksam; Anfechtungsfrist im Ergebnis; Obersatz Teil B; „unterschriebene“ Kündigung; Ortsangabe verfremdet.
+- [x] fall-08 (gering): § 150 analog → Auslegung §§ 133, 157; a. A. zum Zugang am Abend; Uhrzeit der Übergabe; Konjunktiv-Obersätze.
+- [x] fall-09 (mittel): Zusätze „abholen/bar“ keine Änderung i. S. d. § 150 Abs. 2 (§ 269); § 241a sperrt auch gesetzliche Ansprüche (Wertersatz); Abwandlung B2B differenziert (Teilannahme, Wertersatz).
+
+### Fälle 10–14
+- [x] fall-11 (kritisch): Lösung nutzte eine Vorgeschichte, die im Sachverhalt fehlte → Klausel gestrichen. Teil B neu aufgebaut: zuerst § 985 (Wucher erfasst die Übereignung), § 986, daneben § 812 auf den Besitz; § 1 Abs. 2 Nr. 2 SchwarzArbG und BGH VII ZR 6/13 bzw. VII ZR 216/14 (§ 817 S. 2 auf alle Leistungskondiktionen).
+- [x] fall-10 (mittel): Theorie des letzten Wortes vs. Kongruenzgeltung bei kollidierenden AGB; Sachverhalt „keiner liest die AGB“; ZPO-Aussage entfernt; § 447 Abs. 1 i. V. m. § 475 Abs. 2 präzise; § 269 Abs. 1, 3.
+- [x] fall-12 (mittel): Zurechnung trotz eigenen Entschlusses (Herausforderung, Schutzzweck, § 254) in A und B; § 311 Abs. 2 Nr. 2 einheitlich.
+- [x] fall-13 (mittel): Eigentumslage am Zahngold offengelassen, freie Verfügung durch Eltern als gesetzliche Vertreter; § 818 Abs. 3 in der Abwandlung; „Dozent“ → „Bewertungsschema der Übung“.
+- [x] fall-14 (mittel): Halter im Sachverhalt; Lohnfortzahlung als normativer Schaden mit Übergang nach § 6 Abs. 1 EFZG; 130 %-Grenze über § 249 Abs. 2 S. 1 (keine Aufspaltung); §§ 17, 18 StVG, § 115 VVG; Telegrammstil ausformuliert.
+
+### Fälle 15–18 und Drills
+- [x] fall-15 (gering): Fälligkeit Mittwoch/Donnerstag abgesichert; § 254 Abs. 2 beim Expressservice; Abwandlung § 648 präzise.
+- [x] fall-16: ohne Befund.
+- [x] fall-17 (mittel): „vgl. § 150“ ersetzt; Gegenansicht (Zurechnung nach § 120); § 151 S. 1 bei der Annahme; Abwandlung: Schuhe gehören B → Übereignung durch A als gesetzliche Vertreterin.
+- [x] fall-18 (mittel): Abwandlung 2 neu (790 € innerhalb der Vollmacht, § 166 Abs. 1, Anfechtungsrecht bei P); Abwandlung 1 – Zustimmung der Eltern gerade zu diesem Vertreterhandeln; Spannung Auslegung ↔ § 122 Abs. 2 aufgelöst; Herkunft „Umzug“ im Sachverhalt.
+- [x] Drills: dr-12 (10 Tage → 4 Wochen, Überlegungsfrist), dr-13 (Vorrang Mängelrecht), dr-10 (Außenvollmacht § 143 Abs. 3), dr-21 („kennen musste“ als Pflicht), dr-03/dr-14 (genauere Zitate als richtig), dr-16 (Vergleichsfall), dr-05 (Nichtigkeit des ganzen Vertrags).
+- [x] **Parser-Fehler gefunden:** unbekannte Gesetzesabkürzungen (VVG, SchwarzArbG) wurden still als BGB gedeutet → behoben (+ Test); VVG, EFZG, SchwarzArbG im Register mit amtlichem Wortlaut.
 
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |

@@ -1,6 +1,6 @@
 {
   "version": 1,
-  "abdeckungPflicht": false,
+  "abdeckungPflicht": true,
   "dateien": {
     "faelle": [
       "faelle/fall-01.json",

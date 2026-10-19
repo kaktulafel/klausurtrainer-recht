@@ -3142,5 +3142,89 @@
   "wortlaut": "wortlaut/wortlaut-5.json",
   "quelleWortlaut": "gesetze-im-internet.de",
   "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "bgb-188",
+  "zitat": "§ 188 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Fristende",
+  "kurz": "Fristende: Eine nach Tagen bestimmte Frist endet mit dem Ablauf des letzten Tages der Frist.",
+  "lage": "BGB › Buch 1 – Allgemeiner Teil › Abschnitt 4 – Fristen, Termine",
+  "link": "https://www.gesetze-im-internet.de/bgb/__188.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "bgb-987",
+  "zitat": "§ 987 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Nutzungen nach Rechtshängigkeit",
+  "kurz": "Herausgabe von Nutzungen durch den Besitzer nach Rechtshängigkeit (Eigentümer-Besitzer-Verhältnis, §§ 987 ff.).",
+  "lage": "BGB › Buch 3 – Sachenrecht › Abschnitt 3 – Eigentum › Titel 4 – Ansprüche aus dem Eigentum",
+  "link": "https://www.gesetze-im-internet.de/bgb/__987.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "schwarzarbg-1",
+  "zitat": "§ 1 SchwarzArbG",
+  "gesetz": "SchwarzArbG",
+  "ueberschrift": "Zweck des Gesetzes",
+  "kurz": "Zweck des Gesetzes und Begriff der Schwarzarbeit (u. a. Werk-/Dienstleistungen unter Verletzung steuerlicher Pflichten).",
+  "lage": "SchwarzArbG › Abschnitt 1 – Zweck",
+  "link": "https://www.gesetze-im-internet.de/schwarzarbg_2004/__1.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "efzg-6",
+  "zitat": "§ 6 EFZG",
+  "gesetz": "EFZG",
+  "ueberschrift": "Forderungsübergang bei Dritthaftung",
+  "kurz": "Forderungsübergang: Der Schadensersatzanspruch des Arbeitnehmers wegen Verdienstausfalls geht auf den Arbeitgeber über, soweit er Entgelt fortgezahlt hat.",
+  "lage": "EFZG",
+  "link": "https://www.gesetze-im-internet.de/entgfg/__6.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "stvg-17",
+  "zitat": "§ 17 StVG",
+  "gesetz": "StVG",
+  "ueberschrift": "Schadensverursachung durch mehrere Kraftfahrzeuge",
+  "kurz": "Haftungsverteilung bei mehreren beteiligten Kraftfahrzeugen nach den Verursachungsbeiträgen (Betriebsgefahr).",
+  "lage": "StVG › II. – Haftpflicht",
+  "link": "https://www.gesetze-im-internet.de/stvg/__17.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "stvg-18",
+  "zitat": "§ 18 StVG",
+  "gesetz": "StVG",
+  "ueberschrift": "Ersatzpflicht des Fahrzeugführers",
+  "kurz": "Haftung des Fahrzeugführers – Verschulden wird vermutet.",
+  "lage": "StVG › II. – Haftpflicht",
+  "link": "https://www.gesetze-im-internet.de/stvg/__18.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
+ },
+ {
+  "id": "vvg-115",
+  "zitat": "§ 115 VVG",
+  "gesetz": "VVG",
+  "ueberschrift": "Direktanspruch",
+  "kurz": "Direktanspruch des Geschädigten gegen den Haftpflichtversicherer (u. a. Kfz-Pflichtversicherung).",
+  "lage": "VVG › Teil 2 – Einzelne Versicherungszweige › Kapitel 1 – Haftpflichtversicherung › Abschnitt 2 – Pflichtversicherung",
+  "link": "https://www.gesetze-im-internet.de/vvg_2008/__115.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-10-19"
  }
 ]

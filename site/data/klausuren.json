@@ -106,12 +106,12 @@
   {
     "id": "klausur-3",
     "titel": "Probeklausur 3 – Kombination",
-    "beschreibung": "Erlöschen der Vollmacht, Rechtsschein und Vertreter ohne Vertretungsmacht; Wissensfragen quer durch den BGB AT.",
+    "beschreibung": "Minderjähriger Vertreter, Anfechtung wegen Vertippens und Vertreter ohne Vertretungsmacht in einem Fall; Wissensfragen quer durch den BGB AT.",
     "minuten": 90,
     "teile": {
       "A": {
         "titel": "Teil A – Fallbearbeitung",
-        "fall": "fall-04",
+        "fall": "fall-18",
         "punkte": 48,
         "empfohleneMinuten": 55
       },

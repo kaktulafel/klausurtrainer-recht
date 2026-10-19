@@ -13,7 +13,7 @@ const ROOT = join(dirname(fileURLToPath(import.meta.url)), '..');
 const DATEI = join(ROOT, 'site/data/normen.json');
 const HEUTE = new Date().toISOString().slice(0, 10);
 
-const GII = { BGB: 'bgb', BDSG: 'bdsg_2018', TDDDG: 'ttdsg', HGB: 'hgb', StVG: 'stvg', GG: 'gg', GmbHG: 'gmbhg', AktG: 'aktg' };
+const GII = { BGB: 'bgb', BDSG: 'bdsg_2018', TDDDG: 'ttdsg', HGB: 'hgb', StVG: 'stvg', GG: 'gg', GmbHG: 'gmbhg', AktG: 'aktg', EFZG: 'entgfg', VVG: 'vvg_2008', SchwarzArbG: 'schwarzarbg_2004' };
 const EURLEX = {
   DSGVO: { celex: '32016R0679', name: 'Verordnung (EU) 2016/679 (DSGVO)' },
   'KI-VO': { celex: '02024R1689-20260727', name: 'Verordnung (EU) 2024/1689 (KI-VO), konsolidiert 27.07.2026' }
@@ -182,7 +182,7 @@ mkdirSync(join(ROOT, 'site/data/wortlaut'), { recursive: true });
 for (const f of readdirSync(join(ROOT, 'site/data/wortlaut'))) unlinkSync(join(ROOT, 'site/data/wortlaut', f));
 for (const t of teile) writeFileSync(join(ROOT, 'site/data', t.name), JSON.stringify(t.daten) + '\n');
 // Feldreihenfolge vereinheitlichen
-const sortiert = register.map(n => ({ id: n.id, zitat: n.zitat, gesetz: n.gesetz, ueberschrift: n.ueberschrift || '', kurz: n.kurz, lage: n.lage || '', link: n.link, wortlaut: n.wortlautDatei ? n.wortlautDatei.name : null, quelleWortlaut: n.quelleWortlaut, geprueftAm: n.geprueftAm }));
+const sortiert = register.map(n => ({ id: n.id, zitat: n.zitat, gesetz: n.gesetz, ueberschrift: n.ueberschrift || '', kurz: n.kurz, lage: n.lage || n.gesetz, link: n.link, wortlaut: n.wortlautDatei ? n.wortlautDatei.name : null, quelleWortlaut: n.quelleWortlaut, geprueftAm: n.geprueftAm }));
 writeFileSync(DATEI, JSON.stringify(sortiert, null, 1) + '\n');
 // index.json aktualisieren
 const IDX = join(ROOT, 'site/data/index.json');

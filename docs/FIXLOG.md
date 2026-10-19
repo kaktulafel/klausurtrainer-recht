@@ -14,3 +14,14 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 | 19.10.2026 | „§ 168 S. 2, 3 BGB“ als § 3 BGB erkannt | Komma-Zahl nach Satz/Absatz als neuer Paragraph gelesen | bei einfachem „§“ Fortsetzung von Satz/Absatz; „§§ 280 I 2, 276“ bleibt Liste; Regressionstest |
 | 19.10.2026 | KI-VO-Wortlaut veraltet (Art. 4, 113) | Abruf der Ursprungsfassung statt konsolidierter Fassung | Skript lädt konsolidierte Fassung 02024R1689-20260727, entfernt Änderungsmarker |
 | 19.10.2026 | Wortlaut ohne Zeilenumbrüche im Register | `white-space` nur im Popover gesetzt | `.wortlaut { white-space: pre-wrap }` |
+
+## 19.10.2026 – Normparser deutet unbekannte Gesetze als BGB
+- **Symptom:** Validator meldete „§ 115 Abs. 1 S. 1 Nr. 1 BGB nicht im Register“, obwohl im Text „… VVG“ stand.
+- **Ursache:** Nach einer Normnummer ohne bekannte Gesetzesabkürzung griff der Fallback „BGB“ – auch wenn eine fremde Abkürzung folgte (VVG, SchwarzArbG, EStG …).
+- **Fix:** VVG/SchwarzArbG ergänzt; zusätzlich übernimmt der Parser jede abkürzungsartige Folgezeichenkette (mind. zwei Großbuchstaben, z. B. „EStG“) als Gesetz statt BGB. Regressionstest in `tests/normparser.test.mjs`.
+
+## 19.10.2026 – Register: leeres Feld „lage“ bei Gesetzen ohne Gliederung (EFZG)
+- **Fix:** `fetch-normen.mjs` setzt `lage` auf den Gesetzesnamen, wenn die amtliche Quelle keine Gliederung liefert.
+
+## 19.10.2026 – E2E: Locator traf versteckten Norm-Knopf
+- Im MC-Aussagenblock wählte `li.aussage button` zuerst den (versteckten) Norm-Link in der Erklärung → Locator auf `.rf button` präzisiert.
