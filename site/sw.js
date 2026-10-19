@@ -6,7 +6,7 @@ const SHELL = [
   'css/app.css', 'css/print.css',
   'icons/icon.svg', 'icons/icon-192.png', 'icons/icon-512.png',
   'js/app.js', 'js/router.js', 'js/store.js', 'js/data.js', 'js/storage-core.js', 'js/srs.js', 'js/grading.js',
-  'js/normparser.js', 'js/ai.js', 'js/plan.js', 'js/textcheck.js', 'js/inhalte.js', 'js/ui/dom.js', 'js/ui/widgets.js',
+  'js/normparser.js', 'js/ai.js', 'js/plan.js', 'js/textcheck.js', 'js/inhalte.js', 'js/klausur-core.js', 'js/ui/dom.js', 'js/ui/widgets.js',
   'js/views/dashboard.js', 'js/views/faelle.js', 'js/views/mc.js', 'js/views/normen.js', 'js/views/schemata.js',
   'js/views/wissen.js', 'js/views/klausur.js', 'js/views/schwachstellen.js', 'js/views/wiederholen.js',
   'js/views/statistik.js', 'js/views/einstellungen.js', 'js/views/mehr.js', 'js/views/info.js', 'js/views/nichtgefunden.js'

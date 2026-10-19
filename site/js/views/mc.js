@@ -160,7 +160,8 @@ function session(main, daten, themen, query) {
 
 /** Baut die UI einer Frage. Optionen werden pro Aufruf gemischt (Reihenfolge bleibt innerhalb der Sitzung stabil). */
 const reihenfolgen = new Map();
-function frageUI(q, vorauswahl, gesperrt = false) {
+export function neueReihenfolgen() { reihenfolgen.clear(); }
+export function frageUI(q, vorauswahl, gesperrt = false) {
   if (q.typ === 'zuordnung') return zuordnungUI(q, vorauswahl || {}, gesperrt);
   if (!reihenfolgen.has(q.id)) reihenfolgen.set(q.id, q.typ === 'aussagen' ? q.optionen : mische(q.optionen));
   const opts = reihenfolgen.get(q.id);

@@ -1,1 +1,158 @@
-[]
+[
+  {
+    "id": "klausur-1",
+    "titel": "Probeklausur 1 – nah an der Erstklausur",
+    "beschreibung": "Falsches Gebot bei der Versteigerung, Taschengeldparagraph, Arten von Schuldverhältnissen – die Themen, die laut Erstklausur gefragt waren.",
+    "minuten": 90,
+    "teile": {
+      "A": {
+        "titel": "Teil A – Fallbearbeitung",
+        "fall": "fall-02",
+        "punkte": 48,
+        "empfohleneMinuten": 55
+      },
+      "B": {
+        "titel": "Teil B – Wissensfragen",
+        "wissen": [
+          "wi-016",
+          "wi-047",
+          "wi-012",
+          "wi-032"
+        ],
+        "punkteJe": 3,
+        "empfohleneMinuten": 15
+      },
+      "C": {
+        "titel": "Teil C – Datenschutz (Multiple Choice)",
+        "mc": [
+          "ds-mc-059",
+          "ds-mc-018",
+          "ds-mc-046",
+          "ds-mc-010",
+          "ds-mc-047",
+          "ds-mc-104",
+          "ds-mc-123",
+          "ds-mc-039",
+          "ds-mc-067",
+          "ds-mc-022",
+          "ds-mc-031",
+          "ds-mc-083",
+          "ds-mc-120",
+          "ds-mc-094",
+          "ds-mc-004",
+          "ds-mc-056",
+          "ds-mc-082",
+          "ds-mc-097",
+          "ds-mc-107",
+          "ds-mc-129"
+        ],
+        "punkteJe": 1,
+        "empfohleneMinuten": 20
+      }
+    }
+  },
+  {
+    "id": "klausur-2",
+    "titel": "Probeklausur 2 – Vertretung und Anfechtung",
+    "beschreibung": "Der Probeklausur-Fall mit täuschender Vertreterin und angefochtener Vollmacht; Wissensfragen zu Irrtum, Geschäftsfähigkeit, Abstraktionsprinzip, Widerruf.",
+    "minuten": 90,
+    "teile": {
+      "A": {
+        "titel": "Teil A – Fallbearbeitung",
+        "fall": "fall-01",
+        "punkte": 48,
+        "empfohleneMinuten": 55
+      },
+      "B": {
+        "titel": "Teil B – Wissensfragen",
+        "wissen": [
+          "wi-042",
+          "wi-017",
+          "wi-030",
+          "wi-057"
+        ],
+        "punkteJe": 3,
+        "empfohleneMinuten": 15
+      },
+      "C": {
+        "titel": "Teil C – Datenschutz (Multiple Choice)",
+        "mc": [
+          "ds-mc-041",
+          "ds-mc-006",
+          "ds-mc-095",
+          "ds-mc-081",
+          "ds-mc-048",
+          "ds-mc-019",
+          "ds-mc-092",
+          "ds-mc-140",
+          "ds-mc-078",
+          "ds-mc-089",
+          "ds-mc-016",
+          "ds-mc-050",
+          "ds-mc-116",
+          "ds-mc-114",
+          "ds-mc-126",
+          "ds-mc-030",
+          "ds-mc-106",
+          "ds-mc-003",
+          "ds-mc-113",
+          "ds-mc-124"
+        ],
+        "punkteJe": 1,
+        "empfohleneMinuten": 20
+      }
+    }
+  },
+  {
+    "id": "klausur-3",
+    "titel": "Probeklausur 3 – Kombination",
+    "beschreibung": "Erlöschen der Vollmacht, Rechtsschein und Vertreter ohne Vertretungsmacht; Wissensfragen quer durch den BGB AT.",
+    "minuten": 90,
+    "teile": {
+      "A": {
+        "titel": "Teil A – Fallbearbeitung",
+        "fall": "fall-04",
+        "punkte": 48,
+        "empfohleneMinuten": 55
+      },
+      "B": {
+        "titel": "Teil B – Wissensfragen",
+        "wissen": [
+          "wi-023",
+          "wi-039",
+          "wi-045",
+          "wi-022"
+        ],
+        "punkteJe": 3,
+        "empfohleneMinuten": 15
+      },
+      "C": {
+        "titel": "Teil C – Datenschutz (Multiple Choice)",
+        "mc": [
+          "ds-mc-100",
+          "ds-mc-062",
+          "ds-mc-051",
+          "ds-mc-084",
+          "ds-mc-101",
+          "ds-mc-040",
+          "ds-mc-109",
+          "ds-mc-103",
+          "ds-mc-014",
+          "ds-mc-042",
+          "ds-mc-058",
+          "ds-mc-077",
+          "ds-mc-093",
+          "ds-mc-119",
+          "ds-mc-117",
+          "ds-mc-055",
+          "ds-mc-073",
+          "ds-mc-118",
+          "ds-mc-068",
+          "ds-mc-029"
+        ],
+        "punkteJe": 1,
+        "empfohleneMinuten": 20
+      }
+    }
+  }
+]
