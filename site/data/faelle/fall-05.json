@@ -34,16 +34,25 @@
     "Die Eltern erklären P, sie seien nicht einverstanden, und wollen Abo-Ende und Geld zurück; P verlangt die vier restlichen Beiträge."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. F gegen P auf 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (−)" },
-    { "ebene": 2, "text": "Etwas erlangt durch Leistung: Zahlung zur Erfüllung des Punkte-Kaufs (+)" },
-    { "ebene": 2, "text": "Rechtsgrund = wirksamer Kaufvertrag? F ist beschränkt geschäftsfähig (§ 106 BGB), Zahlungspflicht ist rechtlich nachteilig (§ 107 BGB), keine Einwilligung in diesen Kauf." },
-    { "ebene": 2, "text": "§ 113 BGB (−): erfasst nur Geschäfte rund um das Dienstverhältnis selbst, nicht die Verwendung des Lohns." },
-    { "ebene": 2, "text": "§ 110 BGB (+): Honorar stammt von Dritten und wurde mit Zustimmung der Eltern zur freien Verfügung überlassen; 19,99 € sofort vollständig bezahlt = bewirkt → Vertrag von Anfang an wirksam → Rechtsgrund besteht." },
-    { "ebene": 1, "text": "B. Abo: keine weiteren Beiträge, Rückzahlung der 19,98 €" },
-    { "ebene": 2, "text": "P gegen F auf weitere Beiträge (−): Abo rechtlich nachteilig, keine Einwilligung; § 110 BGB (−), weil erst 2 von 6 Beiträgen gezahlt – § 110 BGB soll nicht in längerfristige Bindungen führen (a. A.: für bezahlte Monate wirksam; dagegen: feste Sechs-Monats-Bindung als Einheit)." },
-    { "ebene": 2, "text": "Schwebend unwirksam, § 108 Abs. 1 BGB; Eltern verweigern gegenüber P die Genehmigung (§ 182 Abs. 1 BGB) → endgültig unwirksam." },
-    { "ebene": 2, "text": "F gegen P auf 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (+): Leistung ohne Rechtsgrund." },
-    { "ebene": 2, "text": "Gegenanspruch auf Wertersatz für die Punkte (§ 818 Abs. 2 BGB) scheitert an Entreicherung, § 818 Abs. 3 BGB: Punkte verbraucht, keine ersparten Aufwendungen; Minderjährigenschutz darf nicht unterlaufen werden." }
+    { "ebene": 1, "text": "A. F gegen P auf 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** F könnte gegen P einen Anspruch auf Rückzahlung von 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** etwas erlangt, durch Leistung, ohne Rechtsgrund." },
+    { "ebene": 2, "text": "**Etwas erlangt durch Leistung:** Zahlung von 19,99 €, bewusst zur Erfüllung des Punkte-Kaufs → (+)" },
+    { "ebene": 2, "text": "**Fraglich:** Rechtsgrund = wirksamer Kaufvertrag? F ist beschränkt geschäftsfähig (§ 106 BGB); die Zahlungspflicht ist rechtlich nachteilig (§ 107 BGB); keine Einwilligung in diesen Kauf." },
+    { "ebene": 3, "text": "§ 113 BGB (−): erfasst nur Geschäfte rund um das Dienstverhältnis selbst, nicht die Verwendung des Lohns." },
+    { "ebene": 3, "text": "§ 110 BGB: Mittel, die mit Zustimmung der Eltern von Dritten zur freien Verfügung überlassen wurden = Nachhilfehonorar auf dem PayPal-Konto (+); bewirkt = vollständig erbracht: 19,99 € sofort ganz bezahlt (+) → Vertrag von Anfang an wirksam." },
+    { "ebene": 2, "text": "**Erg.:** Folglich besteht ein Rechtsgrund; F hat keinen Anspruch." },
+    { "ebene": 1, "text": "B. P gegen F auf weitere Abo-Beiträge aus dem Abo-Vertrag" },
+    { "ebene": 2, "text": "**OS:** P könnte gegen F einen Anspruch auf Zahlung der vier weiteren Monatsbeiträge aus dem Abo-Vertrag haben." },
+    { "ebene": 2, "text": "**Voraussetzung:** wirksamer Vertrag. Abo rechtlich nachteilig (§ 107 BGB), keine Einwilligung." },
+    { "ebene": 2, "text": "**Fraglich:** § 110 BGB? Bewirkt erst bei vollständiger Leistung; gezahlt sind 2 von 6 Beiträgen → (−). § 110 BGB soll nicht in längerfristige Bindungen führen (a. A.: für bezahlte Monate wirksam; dagegen: feste Sechs-Monats-Bindung als Einheit)." },
+    { "ebene": 2, "text": "**Rechtsfolge:** schwebend unwirksam (§ 108 Abs. 1 BGB); die Eltern verweigern gegenüber P die Genehmigung (§ 182 Abs. 1 BGB) → endgültig unwirksam." },
+    { "ebene": 2, "text": "**Erg.:** Folglich muss F keine weiteren Beiträge zahlen." },
+    { "ebene": 1, "text": "C. F gegen P auf 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** F könnte gegen P einen Anspruch auf Rückzahlung der gezahlten 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben." },
+    { "ebene": 2, "text": "**Subsumtion:** P hat die Beiträge durch Leistung des F erlangt; der Abo-Vertrag ist endgültig unwirksam → ohne Rechtsgrund (+)" },
+    { "ebene": 2, "text": "**Fraglich:** Gegenanspruch der P auf Wertersatz für die Punkte (§ 818 Abs. 2 BGB)? Scheitert an der Entreicherung des F, § 818 Abs. 3 BGB: Punkte verbraucht, keine ersparten Aufwendungen; der Minderjährigenschutz darf nicht unterlaufen werden." },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann F die 19,98 € zurückverlangen." }
   ],
   "musterloesung": [
     {

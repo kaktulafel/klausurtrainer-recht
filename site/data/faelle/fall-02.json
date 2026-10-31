@@ -82,18 +82,25 @@
     "Neue Versteigerung: nur 3.400 € Erlös, 300 € Kosten; ohne K hätte X den Zuschlag zu 4.000 € bekommen."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. V gegen K auf 42.000 € aus § 433 Abs. 2 BGB (−)" },
-    { "ebene": 2, "text": "Entstanden: Gebot = Antrag, Zuschlag = Annahme, § 156 S. 1 BGB. Inhalt nach §§ 133, 157 BGB (objektiver Empfängerhorizont): laut und deutlich „42.000“, Sprunggebote kommen vor, Katalog nennt über 40.000 € → Gebot über 42.000 € → Vertrag zu 42.000 € (+)" },
-    { "ebene": 2, "text": "Untergegangen durch Anfechtung, § 142 Abs. 1 BGB:" },
-    { "ebene": 3, "text": "Grund: Erklärungsirrtum, § 119 Abs. 1 Alt. 2 BGB – K wollte „4.200“ sagen, hat sich versprochen (Erklärungszeichen geht fehl; kein Inhaltsirrtum, der die Bedeutung des Gesagten verkennt). Kausal und bei verständiger Würdigung erheblich (+)" },
-    { "ebene": 3, "text": "Erklärung: „bin nicht gebunden“ noch im Saal gegenüber V = Anfechtung (Auslegung, § 133 BGB), richtiger Gegner nach § 143 Abs. 1, 2 BGB (+)" },
-    { "ebene": 3, "text": "Frist: sofort nach Bemerken = unverzüglich, § 121 Abs. 1 S. 1 BGB (+); keine Bestätigung, § 144 BGB (+)" },
-    { "ebene": 3, "text": "Folge: Gebot und Kaufvertrag von Anfang an nichtig." },
-    { "ebene": 2, "text": "Ergebnis: kein Anspruch auf 42.000 €." },
-    { "ebene": 1, "text": "B. V gegen K auf 900 € aus § 122 Abs. 1 BGB (+)" },
-    { "ebene": 2, "text": "Anfechtung nach § 119 BGB (nicht § 123 BGB) (+); V ist „der andere“." },
-    { "ebene": 2, "text": "Vertrauensschaden (negatives Interesse, Differenzhypothese § 249 Abs. 1 BGB): Gebot des X erlosch durch das Übergebot (§ 156 S. 2 BGB) → Mindererlös 4.000 € − 3.400 € = 600 € + Kosten der Neuversteigerung 300 € = 900 €; Obergrenze Erfüllungsinteresse nicht erreicht." },
-    { "ebene": 2, "text": "Kein Ausschluss, § 122 Abs. 2 BGB: V musste den Versprecher nicht erkennen (Sprunggebote üblich, Katalogpreise, deutliches Gebot)." }
+    { "ebene": 1, "text": "A. V gegen K auf 42.000 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "**OS:** V könnte gegen K einen Anspruch auf Zahlung von 42.000 € aus § 433 Abs. 2 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** Anspruch entstanden (wirksamer Kaufvertrag) und nicht untergegangen." },
+    { "ebene": 2, "text": "**Entstanden:** Gebot = Antrag, Zuschlag = Annahme, § 156 S. 1 BGB." },
+    { "ebene": 3, "text": "**Fraglich:** mit welchem Inhalt? Auslegung nach §§ 133, 157 BGB (objektiver Empfängerhorizont). K ruft laut und deutlich „42.000“; Sprunggebote kommen vor, der Katalog nennt über 40.000 € → Gebot über 42.000 €." },
+    { "ebene": 3, "text": "Durch den Zuschlag hat V angenommen → Kaufvertrag zu 42.000 € (+)" },
+    { "ebene": 2, "text": "**Untergegangen** durch Anfechtung, § 142 Abs. 1 BGB?" },
+    { "ebene": 3, "text": "Grund: Erklärungsirrtum, § 119 Abs. 1 Alt. 2 BGB = der Erklärende wollte eine Erklärung dieses Inhalts gar nicht abgeben (Versprechen, Verschreiben). K wollte „4.200“ sagen → (+). Abgrenzung: kein Inhaltsirrtum, K irrt nicht über die Bedeutung des Gesagten. Kausal und bei verständiger Würdigung erheblich → (+)" },
+    { "ebene": 3, "text": "Erklärung: „Ich habe mich versprochen … bin nicht gebunden“ noch im Saal gegenüber V; das Wort „anfechten“ ist nicht nötig (§ 133 BGB); richtiger Gegner nach § 143 Abs. 1, 2 BGB → (+)" },
+    { "ebene": 3, "text": "Frist: sofort nach Bemerken = unverzüglich, § 121 Abs. 1 S. 1 BGB → (+). Kein Ausschluss, § 144 BGB → (+)" },
+    { "ebene": 3, "text": "Somit ist der Vertrag von Anfang an nichtig." },
+    { "ebene": 2, "text": "**Erg.:** Folglich hat V gegen K keinen Anspruch auf 42.000 €." },
+    { "ebene": 1, "text": "B. V gegen K auf 900 € aus § 122 Abs. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** V könnte gegen K einen Anspruch auf Ersatz von 900 € aus § 122 Abs. 1 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** Anfechtung nach §§ 119, 120 BGB (nicht § 123 BGB), Vertrauensschaden, kein Ausschluss nach Abs. 2." },
+    { "ebene": 2, "text": "**Anfechtung:** K hat nach § 119 Abs. 1 Alt. 2 BGB angefochten (A) → (+)" },
+    { "ebene": 2, "text": "**Vertrauensschaden** (negatives Interesse, § 249 Abs. 1 BGB): V ist so zu stellen, als hätte sie nie auf das Gebot vertraut. Das Gebot des X erlosch durch das Übergebot (§ 156 S. 2 BGB) → Mindererlös 4.000 € − 3.400 € = 600 € + Kosten der Neuversteigerung 300 € = 900 €. Obergrenze Erfüllungsinteresse nicht erreicht → (+)" },
+    { "ebene": 2, "text": "**Kein Ausschluss, § 122 Abs. 2 BGB:** V musste den Versprecher nicht erkennen (Sprunggebote üblich, Katalogpreise, deutliches Gebot) → (+)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann V von K 900 € verlangen." }
   ],
   "musterloesung": [
     {

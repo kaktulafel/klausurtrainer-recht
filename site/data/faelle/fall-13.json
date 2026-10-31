@@ -29,13 +29,15 @@
     "Als A von D’s Minderjährigkeit erfährt, will sie die 455 € zurück, zumal der Goldpreis gefallen ist (Weiterverkauf nur noch für 400 €)."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A gegen D auf 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (−)" },
-    { "ebene": 2, "text": "Etwas erlangt durch Leistung: Besitz und Eigentum an 455 € (Eigentumserwerb lediglich vorteilhaft, § 107 BGB); A zahlt zur Erfüllung des Kaufs (+)" },
-    { "ebene": 2, "text": "Ohne Rechtsgrund? Rechtsgrund wäre der Kaufvertrag (§ 433 BGB):" },
-    { "ebene": 3, "text": "D beschränkt geschäftsfähig (§ 106 BGB); Pflicht zur Übereignung des Goldes ist rechtlich nachteilig (§ 107 BGB); keine vorherige Einwilligung → an sich schwebend unwirksam (§ 108 Abs. 1 BGB)." },
-    { "ebene": 3, "text": "§ 110 BGB (+): Eltern als gesetzliche Vertreter (§ 1629 Abs. 1 BGB) überlassen das Gold „mach damit, was du willst“ zur freien Verfügung; D hat seine Leistung (Übergabe und Übereignung) mit genau diesem Mittel vollständig bewirkt → Vertrag von Anfang an wirksam." },
-    { "ebene": 3, "text": "Unausgesprochene Hoffnung der Eltern = keine Zweckbindung; Genehmigung war nicht nötig, ihre Verweigerung geht ins Leere. Gesunkener Goldpreis = Risiko der Käuferin." },
-    { "ebene": 2, "text": "Ergebnis: Rechtsgrund besteht → kein Rückzahlungsanspruch." }
+    { "ebene": 1, "text": "A gegen D auf 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** A könnte gegen D einen Anspruch auf Rückzahlung von 455 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** etwas erlangt, durch Leistung, ohne Rechtsgrund." },
+    { "ebene": 2, "text": "**Etwas erlangt durch Leistung:** Besitz und Eigentum an 455 € (Eigentumserwerb lediglich vorteilhaft, § 107 BGB); A zahlt zur Erfüllung des Kaufs → (+)" },
+    { "ebene": 2, "text": "**Fraglich: ohne Rechtsgrund?** Rechtsgrund wäre der Kaufvertrag (§ 433 BGB)." },
+    { "ebene": 3, "text": "D ist beschränkt geschäftsfähig (§ 106 BGB); die Pflicht zur Übereignung des Goldes ist rechtlich nachteilig (§ 107 BGB); keine vorherige Einwilligung → an sich schwebend unwirksam (§ 108 Abs. 1 BGB)." },
+    { "ebene": 3, "text": "§ 110 BGB: Die Eltern als gesetzliche Vertreter (§ 1629 Abs. 1 BGB) überlassen das Gold „mach damit, was du willst“ zur freien Verfügung; D hat seine Leistung (Übergabe und Übereignung) mit genau diesem Mittel vollständig bewirkt → Vertrag von Anfang an wirksam (+)" },
+    { "ebene": 3, "text": "Die unausgesprochene Hoffnung der Eltern ist keine Zweckbindung; einer Genehmigung bedurfte es nicht, ihre Verweigerung geht ins Leere. Der gesunkene Goldpreis ist das Risiko der Käuferin." },
+    { "ebene": 2, "text": "**Erg.:** Folglich besteht ein Rechtsgrund; A hat keinen Anspruch auf Rückzahlung." }
   ],
   "musterloesung": [
     {

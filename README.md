@@ -14,7 +14,7 @@ Statische Lern-Website für die Nachklausur „Recht & Datenschutz“. Sie train
   - Skizzen-Sprint
   - Bewertung (Punkteraster, Normen-, Begriffs- und Stil-Check)
   - Musterlösung
-- **Fälle kompakt:** alle Fälle mit Sachverhalt in Stichpunkten und Stichpunktlösung (wer gegen wen woraus, jedes Tatbestandsmerkmal mit den entscheidenden Fakten, Ergebnis), umschaltbar auf die reine Gliederung, mit Suche und Themenfilter; dazu ein Index aller Ansprüche nach Anspruchsgrundlage und alle Schemata auf einer Seite. Druckbar.
+- **Fälle kompakt:** alle Fälle mit Sachverhalt in Stichpunkten und Stichpunktlösung im Gutachtenstil (Obersatz, Voraussetzungen, Definition und Subsumtion mit den Fakten, Ergebnis), umschaltbar auf die reine Gliederung, mit Suche und Themenfilter; dazu ein Index aller Ansprüche nach Anspruchsgrundlage und alle Schemata auf einer Seite. Druckbar.
 - **Datenschutz-MC:** 141 Fragen (Single, Multi, Aussagenblöcke, Zuordnung). Modi: Üben, Prüfung, Nur Fehler, Heute fällig. Vier Bewertungsregeln stehen zur Wahl.
 - **Normen-Kompass:** 132 Normkarten (beide Richtungen), Zitier-Trainer, Register mit 269 Normen und amtlichem Wortlaut (offline), Gliederung. Jedes Normzitat im Text ist anklickbar.
 - **Schemata:** 19 Prüfungsschemata, jeweils mit Puzzle und Lückenschema.

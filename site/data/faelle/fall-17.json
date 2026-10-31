@@ -27,14 +27,18 @@
     "Frage 2: dasselbe am 7. Geburtstag des B, der die Schuhe auf eigene Faust verkauft."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "Frage 1: Kaufvertrag A – J zu 2 €" },
-    { "ebene": 2, "text": "Vertrag B – J (−): B ist mit 6 geschäftsunfähig (§ 104 Nr. 1 BGB), eigene WE nichtig (§ 105 Abs. 1 BGB)." },
-    { "ebene": 2, "text": "B als Erklärungsbote der A – auch ein Geschäftsunfähiger kann Bote sein. Der Antrag über 3 € ist J nie zugegangen (§ 130 Abs. 1 S. 1 BGB)." },
-    { "ebene": 2, "text": "Hingabe der 2 € = Antrag des J auf Kauf zu 2 € (§§ 133, 157 BGB), von B als Bote des J zu A gebracht; A nimmt das Geld wortlos an und behält es = konkludente Annahme ohne Erklärung gegenüber J (§ 151 S. 1 BGB). (A. A.: falsch übermittelte Erklärung der A über 2 € zuzurechnen, § 120 BGB – ohne Anfechtung ebenfalls 2 €.)" },
-    { "ebene": 1, "text": "Frage 2: Vertrag B – J, schwebend unwirksam bis zur Genehmigung der A" },
-    { "ebene": 2, "text": "Geburtstag wird mitgerechnet (§ 187 Abs. 2 S. 2 BGB) → B hat das 7. Lebensjahr vollendet → beschränkt geschäftsfähig (§ 106 BGB) → eigene WE, Angebot über 2 €, J nimmt an." },
-    { "ebene": 2, "text": "Pflicht zur Übereignung = rechtlich nachteilig (§ 107 BGB); keine Einwilligung; § 110 BGB (−), B bewirkt keine Leistung mit überlassenen Mitteln, sondern veräußert eigenes Eigentum." },
-    { "ebene": 2, "text": "Schwebend unwirksam (§ 108 Abs. 1 BGB); Genehmigung der A (§ 1629 Abs. 1 BGB) wirkt zurück (§ 184 Abs. 1 BGB) – ggf. konkludent durch Annahme des Geldes in Kenntnis der Umstände." }
+    { "ebene": 1, "text": "Frage 1: Kaufvertrag über die Schuhe" },
+    { "ebene": 2, "text": "**OS:** Über die Schuhe könnte ein Kaufvertrag zustande gekommen sein – zwischen B oder A und J." },
+    { "ebene": 2, "text": "**B – J:** B ist mit 6 Jahren geschäftsunfähig (§ 104 Nr. 1 BGB); eigene WE nichtig (§ 105 Abs. 1 BGB) → (−)" },
+    { "ebene": 2, "text": "**A – J:** B ist Erklärungsbote der A – auch ein Geschäftsunfähiger kann Bote sein, er gibt keine eigene WE ab." },
+    { "ebene": 3, "text": "Fraglich: zu welchem Preis? Der Antrag der A über 3 € ist J nie zugegangen (§ 130 Abs. 1 S. 1 BGB) → nicht wirksam geworden." },
+    { "ebene": 3, "text": "Die Hingabe der 2 € ist ein Antrag des J auf Kauf zu 2 € (§§ 133, 157 BGB), von B als Bote des J zu A gebracht. A nimmt das Geld wortlos an und behält es = konkludente Annahme, eine Erklärung gegenüber J ist nach der Verkehrssitte entbehrlich (§ 151 S. 1 BGB). (A. A.: falsch übermittelte Erklärung der A über 2 € zuzurechnen, § 120 BGB – ohne Anfechtung ebenfalls 2 €.)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich besteht ein Kaufvertrag zwischen A und J zum Preis von 2 €." },
+    { "ebene": 1, "text": "Frage 2: Verkauf am 7. Geburtstag" },
+    { "ebene": 2, "text": "**OS:** Zwischen B und J könnte ein wirksamer Kaufvertrag über die Schuhe zustande gekommen sein." },
+    { "ebene": 2, "text": "**Geschäftsfähigkeit:** Der Geburtstag wird mitgerechnet (§ 187 Abs. 2 S. 2 BGB) → B hat das 7. Lebensjahr vollendet → beschränkt geschäftsfähig (§ 106 BGB) → eigene WE; Angebot über 2 €, J nimmt an." },
+    { "ebene": 2, "text": "**Fraglich: Zustimmung nötig?** Die Pflicht zur Übereignung ist rechtlich nachteilig (§ 107 BGB); keine Einwilligung; § 110 BGB (−): Die Schuhe waren B nicht zu diesem Zweck oder zur freien Verfügung überlassen; er verkauft auf eigene Faust." },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist der Vertrag schwebend unwirksam (§ 108 Abs. 1 BGB) und wird mit Genehmigung der A (§ 1629 Abs. 1 BGB) rückwirkend wirksam (§ 184 Abs. 1 BGB) – ggf. konkludent durch Annahme des Geldes in Kenntnis der Umstände." }
   ],
   "musterloesung": [
     {

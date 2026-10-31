@@ -92,6 +92,20 @@ Neue Felder `kurzSachverhalt` und `stichpunkte` aller 18 Fälle, geprüft gegen 
 - [x] fall-18 (mittel): gebrauchtes Rad (Umfang der Vollmacht) und „Schnäppchen“ (Kennenmüssen des T, § 166 Abs. 1) im Kurz-Sachverhalt; § 179 Abs. 3 S. 1 eindeutig als „kein Ausschluss“.
 - fall-02, 05, 08, 11, 17: ohne Befund.
 
+### Stichpunktlösungen im Gutachtenstil (01.11.2026, zwei frische Zweitkorrektoren, je 9 Fälle)
+`stichpunkte` aller 18 Fälle neu im Stichpunkt-Gutachtenstil (OS im Konjunktiv → Voraussetzungen → Definition/Fraglich → Subsumtion mit Fakten → Erg.). Geprüft auf Fachrichtigkeit, exakte Zitate (amtlicher Wortlaut) und Gutachtenstil. **Kein kritischer Befund**; Ergebnisse decken sich mit den Musterlösungen. Übernommen:
+- [x] fall-01 (gering): Arglist-Definition vollständig (Vorsatz auch bzgl. Ursächlichkeit).
+- [x] fall-04 (gering): Voraussetzung von § 433 Abs. 2 = Kaufvertrag (Vertretung nur Zurechnung); Gegenstand im OS zu § 179; „Ausschluss (+)“ eindeutig.
+- [x] fall-06 (mittel): Frage 2 – Frist/Erklärung mit Subsumtion; neutrale Überschrift; § 985 vs. § 812 über Fehleridentität begründet.
+- [x] fall-10 (mittel/gering): Holschuld-Abwandlung als eigener Anspruch aus § 326 Abs. 4 i. V. m. § 346 Abs. 1 mit „Fraglich: Konkretisierung“; „Nein“ nicht mehr vor der Begründung.
+- [x] fall-12 (gering): § 311 Abs. 2 Nr. 2 vollständig definiert und subsumiert.
+- [x] fall-14 (gering): Ergebnissatz auf § 823 Abs. 1 beschränkt; StVG/VVG als eigener kurzer Punkt mit Begründung zur Betriebsgefahr.
+- [x] fall-15 (gering): Schwerpunkt („Fraglich“) beim Expresszuschlag statt bei § 325.
+- [x] fall-17 (mittel): § 110 scheitert, weil die Schuhe nicht zur freien Verfügung überlassen waren (nicht „eigenes Eigentum“ – sonst Widerspruch zu fall-13).
+- [x] fall-18 (gering): Brücke Auslegung ↔ § 122 Abs. 2; § 122 Abs. 1 als eigene Prüfung mit eigenem OS.
+- Nicht übernommen: fall-15 Abgrenzung Rücktritt ↔ freie Kündigung (§ 648 BGB) – die geprüfte Musterlösung behandelt sie nicht, § 648 steht nicht im Register; als mögliche Ergänzung offen (nicht kritisch).
+- fall-02, 03, 05, 07, 08, 09, 11, 13, 16: ohne Befund.
+
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |
 |---|---|---|

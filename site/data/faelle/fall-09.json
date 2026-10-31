@@ -27,15 +27,20 @@
     "Teil 2: Händler K schickt Stammkundin A unbestellt eine Probekiste Obst mit Rechnung über 15 €; A isst die Erdbeeren und bringt den Rest zurück. K verlangt 15 €, mindestens 5 €."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. Kaufvertrag A – D über das Fahrrad (+)" },
-    { "ebene": 2, "text": "„Ich möchte dein Fahrrad kaufen“: kein Preis, keine essentialia negotii → bloße Anfrage, kein Antrag." },
-    { "ebene": 2, "text": "„Für 50 € ist es deins“ = Antrag des D (§ 145 BGB); unter Anwesenden nur sofort annehmbar (§ 147 Abs. 1 S. 1 BGB) → A will überlegen → erloschen (§ 146 BGB)." },
-    { "ebene": 2, "text": "Anruf der A: verspätet und mit Änderung (Putzen) → neuer Antrag, § 150 Abs. 1, 2 BGB." },
-    { "ebene": 2, "text": "„Na gut, mach ich“ = vorbehaltlose, sofortige Annahme am Telefon (§ 147 Abs. 1 S. 2 BGB); Abholung (Leistungsort beim Schuldner, § 269 Abs. 1 BGB) und Barzahlung (Regelfall) sind ohnehin geltende Abwicklung, keine Änderung i. S. d. § 150 Abs. 2 BGB → Vertrag über 50 € inkl. Putzen." },
-    { "ebene": 1, "text": "B. K gegen A auf 15 € bzw. 5 € aus § 433 Abs. 2 BGB (−)" },
-    { "ebene": 2, "text": "Zusendung mit Rechnung = Antrag; Verzehr der Erdbeeren als (Teil-)Annahme?" },
-    { "ebene": 2, "text": "§ 241a Abs. 1 BGB: unbestellte Ware vom Unternehmer (K, Händler, § 14 BGB) an Verbraucherin (A, privat, § 13 BGB) begründet keinen Anspruch – A darf sogar verbrauchen; Verzehr ist keine zahlungspflichtige Annahme." },
-    { "ebene": 2, "text": "Auch gesetzliche Wertersatzansprüche (§ 812 Abs. 1 S. 1 Alt. 2, § 818 Abs. 2 BGB; § 823 Abs. 1 BGB; §§ 987 ff. BGB) ausgeschlossen; Ausnahme des § 241a Abs. 2 BGB (Fehllieferung/irrige Bestellung erkennbar) liegt nicht vor." }
+    { "ebene": 1, "text": "A. Kaufvertrag A – D über das Fahrrad" },
+    { "ebene": 2, "text": "**OS:** Zwischen A und D könnte ein Kaufvertrag über das Fahrrad zustande gekommen sein." },
+    { "ebene": 2, "text": "**Voraussetzungen:** Antrag und Annahme (§§ 145 ff. BGB)." },
+    { "ebene": 2, "text": "„Ich möchte dein Fahrrad kaufen“: Ein Antrag muss die essentialia negotii enthalten, sodass ein „Ja“ genügt. Kein Preis → bloße Anfrage (−)" },
+    { "ebene": 2, "text": "„Für 50 € ist es deins“ = Antrag des D (§ 145 BGB). Unter Anwesenden nur sofort annehmbar (§ 147 Abs. 1 S. 1 BGB); A will überlegen → erloschen (§ 146 BGB)." },
+    { "ebene": 2, "text": "Anruf der A: verspätet und mit Änderung (Putzen) → gilt als neuer Antrag, § 150 Abs. 1, 2 BGB." },
+    { "ebene": 2, "text": "**Fraglich:** Ist „Na gut, mach ich. Hol es morgen ab und bring das Geld bar mit“ eine vorbehaltlose Annahme? Abholung (Leistungsort beim Schuldner, § 269 Abs. 1 BGB) und Barzahlung (Regelfall) sind ohnehin geltende Abwicklung, keine Änderung i. S. d. § 150 Abs. 2 BGB; am Telefon sofort erklärt (§ 147 Abs. 1 S. 2 BGB) → Annahme (+)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist ein Kaufvertrag über 50 € einschließlich der Pflicht zum Putzen zustande gekommen (Antrag A per Anruf, Annahme D)." },
+    { "ebene": 1, "text": "B. K gegen A auf 15 € bzw. 5 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "**OS:** K könnte gegen A einen Anspruch auf Zahlung von 15 €, jedenfalls 5 €, aus § 433 Abs. 2 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzung:** Kaufvertrag. Zusendung mit Rechnung = Antrag; der Verzehr der Erdbeeren könnte eine (Teil-)Annahme sein." },
+    { "ebene": 2, "text": "**Fraglich:** Sperre nach § 241a Abs. 1 BGB – bei unbestellter Ware vom Unternehmer an einen Verbraucher wird kein Anspruch begründet. K ist Händler (§ 14 BGB), A kauft privat (§ 13 BGB), nichts bestellt → (+). A darf die Ware sogar verbrauchen; der Verzehr ist keine zahlungspflichtige Annahme." },
+    { "ebene": 2, "text": "Auch gesetzliche Ansprüche auf Wertersatz (§ 812 Abs. 1 S. 1 Alt. 2, § 818 Abs. 2 BGB; § 823 Abs. 1 BGB; §§ 987 ff. BGB) sind ausgeschlossen; die Ausnahme des § 241a Abs. 2 BGB (Fehllieferung bzw. irrige Annahme einer Bestellung, erkennbar) liegt nicht vor." },
+    { "ebene": 2, "text": "**Erg.:** Folglich hat K weder einen Anspruch auf 15 € noch auf 5 €." }
   ],
   "musterloesung": [
     {

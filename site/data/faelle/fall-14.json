@@ -26,16 +26,21 @@
     "Posten: (1) Reparatur 3.500 € bei Wiederbeschaffungswert 2.500 € – A hängt am Wagen, Restwert unerheblich; (2) Heilbehandlung 1.500 €; (3) Physiotherapie 1.800 € wegen alter Arthrose; (4) Schmerzensgeld 800 €; (5) Porsche als Mietwagen 2.400 € statt 600 € für die eigene Klasse; (6) 2.800 € Lohn, den der Arbeitgeber fortgezahlt hat."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A gegen J auf 5.400 € aus § 823 Abs. 1 BGB (+)" },
-    { "ebene": 2, "text": "Haftungsbegründung: Rechtsgutsverletzung Eigentum (Auto) sowie Körper/Gesundheit (Prellung); Handlung: Vorfahrtsverstoß bei überhöhter Geschwindigkeit; kausal und adäquat; Rechtswidrigkeit indiziert; Fahrlässigkeit, § 276 Abs. 2 BGB (+)" },
-    { "ebene": 2, "text": "Haftungsausfüllung: Naturalrestitution bzw. Geld, § 249 Abs. 1, Abs. 2 S. 1 BGB:" },
-    { "ebene": 3, "text": "(1) Integritätsinteresse (A will den Wagen behalten) → Reparatur bis 130 % des Wiederbeschaffungswerts (3.250 €) ersatzfähig; 3.500 € liegen darüber → wirtschaftlicher Totalschaden → nur 2.500 € (vgl. § 251 Abs. 2 S. 1 BGB); keine Aufspaltung." },
-    { "ebene": 3, "text": "(2) Heilbehandlung unfallbedingt → 1.500 € (+). (3) Arthrose bestand vorher → keine haftungsausfüllende Kausalität (−)." },
+    { "ebene": 1, "text": "A gegen J auf Schadensersatz aus § 823 Abs. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** A könnte gegen J einen Anspruch auf Schadensersatz aus § 823 Abs. 1 BGB haben." },
+    { "ebene": 2, "text": "**Haftungsbegründung:** Rechtsgutsverletzung, Handlung, Kausalität, Rechtswidrigkeit, Verschulden." },
+    { "ebene": 3, "text": "Eigentum (Auto) und Körper/Gesundheit (Knieprellung) verletzt; Handlung: Vorfahrtsverstoß „rechts vor links“ bei überhöhter Geschwindigkeit; kausal und adäquat; Rechtswidrigkeit indiziert; Fahrlässigkeit = Außerachtlassen der verkehrserforderlichen Sorgfalt, § 276 Abs. 2 BGB → (+)" },
+    { "ebene": 2, "text": "**Haftungsausfüllung:** Herstellung bzw. Geldersatz, § 249 Abs. 1, Abs. 2 S. 1 BGB. Fraglich ist der Umfang der einzelnen Posten:" },
+    { "ebene": 3, "text": "(1) Integritätsinteresse (A will den Wagen behalten) → Reparatur bis 130 % des Wiederbeschaffungswerts (3.250 €) ersatzfähig; 3.500 € liegen darüber → wirtschaftlicher Totalschaden → nur 2.500 € (vgl. § 251 Abs. 2 S. 1 BGB), keine Aufspaltung." },
+    { "ebene": 3, "text": "(2) Heilbehandlung unfallbedingt → 1.500 € (+). (3) Die Arthrose bestand vorher → keine haftungsausfüllende Kausalität (−)." },
     { "ebene": 3, "text": "(4) Schmerzensgeld bei Körper-/Gesundheitsverletzung, § 253 Abs. 2 BGB → 800 € vertretbar (+)." },
     { "ebene": 3, "text": "(5) Mietwagen nur in der eigenen Klasse erforderlich (Wirtschaftlichkeitsgebot) → 600 €." },
-    { "ebene": 3, "text": "(6) Verdienstausfall ist trotz Lohnfortzahlung ein Schaden der A, geht aber auf den Arbeitgeber über, § 6 Abs. 1 EFZG → A selbst (−)." },
-    { "ebene": 2, "text": "Summe 2.500 + 1.500 + 800 + 600 = 5.400 €." },
-    { "ebene": 1, "text": "Daneben: Halterhaftung § 7 Abs. 1 StVG (verschuldensunabhängig), Fahrerhaftung § 18 Abs. 1 StVG; Betriebsgefahr der A (§ 17 StVG, § 254 BGB) tritt zurück; Direktanspruch gegen den Versicherer, § 115 Abs. 1 S. 1 Nr. 1 VVG." }
+    { "ebene": 3, "text": "(6) Verdienstausfall ist trotz Lohnfortzahlung ein Schaden der A, der Anspruch geht aber auf den Arbeitgeber über, § 6 Abs. 1 EFZG → A selbst (−)." },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann A von J aus § 823 Abs. 1 BGB 2.500 + 1.500 + 800 + 600 = 5.400 € verlangen." },
+    { "ebene": 1, "text": "Daneben: StVG und Direktanspruch (nur kurz)" },
+    { "ebene": 2, "text": "**OS:** A könnte gegen J außerdem Ansprüche aus dem StVG und gegen dessen Haftpflichtversicherer haben." },
+    { "ebene": 2, "text": "§ 7 Abs. 1 StVG (Halter, verschuldensunabhängig) und § 18 Abs. 1 StVG (Fahrer, vermutetes Verschulden) → (+). Die Betriebsgefahr des Autos der A (§ 17 StVG, § 254 BGB) tritt hinter dem groben Vorfahrts- und Geschwindigkeitsverstoß des J zurück." },
+    { "ebene": 2, "text": "**Erg.:** Folglich haftet J auch nach §§ 7 Abs. 1, 18 Abs. 1 StVG; A kann zudem direkt gegen den Versicherer vorgehen, § 115 Abs. 1 S. 1 Nr. 1 VVG." }
   ],
   "musterloesung": [
     {

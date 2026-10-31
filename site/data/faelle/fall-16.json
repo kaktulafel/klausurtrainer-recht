@@ -26,15 +26,19 @@
     "Diesmal bestellt N doppelt; M verweigert Annahme und Zahlung, weil sie N nie bevollmächtigt habe."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. Vertrag über die Zeitung: A – J über eine Rundschau; Lösung durch Anfechtung nach § 120 BGB" },
-    { "ebene": 2, "text": "Bote oder Vertreter? D sollte genau „die FAZ“ holen, kein Entscheidungsspielraum → Bote, gibt keine eigene WE ab (a. A. vertretbar: Vertreter, dann Geschäft für den, den es angeht)." },
-    { "ebene": 2, "text": "Verfälschte Botenerklärung gilt so, wie sie ankommt → Kaufvertrag A – J über eine Rundschau." },
-    { "ebene": 2, "text": "Anfechtung wegen falscher Übermittlung, § 120 BGB (wie § 119 BGB): J wollte keine Rundschau; unverzüglich gegenüber A (§ 121 Abs. 1 S. 1, § 143 Abs. 2 BGB) → nichtig (§ 142 Abs. 1 BGB); J schuldet Vertrauensschaden (§ 122 Abs. 1 BGB); Geld gegen Zeitung zurück (§ 812 Abs. 1 S. 1 Alt. 1 BGB)." },
-    { "ebene": 1, "text": "B. G gegen M auf Kaufpreis aus § 433 Abs. 2 BGB (+)" },
-    { "ebene": 2, "text": "Eigene WE der N (Auswahl, Menge) im Namen des Studios; Annahme durch Lieferung (+)" },
-    { "ebene": 2, "text": "Vollmacht (§ 166 Abs. 2 S. 1, § 167 BGB) (−): nie erteilt; Einkauf gehört nicht zur Buchhaltungsaushilfe (a. A. vertretbar)." },
-    { "ebene": 2, "text": "Anscheinsvollmacht (Rechtsgedanke §§ 170 ff. BGB) (+): N trat drei Jahre lang regelmäßig als Vertreterin auf; M kannte es nicht, hätte es bei ordnungsgemäßer Organisation aber erkennen und verhindern können (Rechnungen aus ihrer Buchhaltung bezahlt); G vertraute gutgläubig auf diese Praxis." },
-    { "ebene": 2, "text": "Überflüssige Doppelbestellung betrifft nur das Innenverhältnis → Kaufpreis Zug um Zug gegen Lieferung." }
+    { "ebene": 1, "text": "A. Kaufvertrag über die Zeitung und Lösung davon" },
+    { "ebene": 2, "text": "**OS:** Zwischen A und J könnte ein Kaufvertrag über eine Rundschau zustande gekommen sein, von dem J sich durch Anfechtung lösen könnte." },
+    { "ebene": 2, "text": "**Fraglich: Bote oder Vertreter?** Vertreter gibt eine eigene WE mit Entscheidungsspielraum ab (§ 164 Abs. 1 BGB), der Bote übermittelt eine fremde. D sollte genau „die FAZ“ holen, kein Spielraum → Bote (a. A. vertretbar: Vertreter, dann Geschäft für den, den es angeht)." },
+    { "ebene": 2, "text": "Die verfälschte Botenerklärung gilt so, wie sie ankommt → Kaufvertrag A – J über eine Rundschau (+)" },
+    { "ebene": 2, "text": "**Anfechtung wegen falscher Übermittlung,** § 120 BGB (unter den Voraussetzungen des § 119 BGB): J wollte keine Rundschau → Grund (+); unverzüglich gegenüber A (§ 121 Abs. 1 S. 1, § 143 Abs. 2 BGB)." },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist der Vertrag nach Anfechtung von Anfang an nichtig (§ 142 Abs. 1 BGB); J schuldet A den Vertrauensschaden (§ 122 Abs. 1 BGB) und erhält Geld gegen Zeitung zurück (§ 812 Abs. 1 S. 1 Alt. 1 BGB)." },
+    { "ebene": 1, "text": "B. G gegen M auf Kaufpreis aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "**OS:** G könnte gegen M einen Anspruch auf Zahlung des Kaufpreises aus § 433 Abs. 2 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzung:** wirksame Vertretung durch N, § 164 Abs. 1 BGB. Eigene WE (Auswahl, Menge) im Namen des Studios; Annahme durch Lieferung → (+)" },
+    { "ebene": 2, "text": "**Vollmacht** (§ 166 Abs. 2 S. 1, § 167 BGB): nie erteilt; Einkauf gehört nicht zur Buchhaltungsaushilfe (a. A. vertretbar) → (−)" },
+    { "ebene": 2, "text": "**Fraglich: Anscheinsvollmacht** (Rechtsgedanke §§ 170 ff. BGB) = wiederholtes Auftreten als Vertreter über längere Zeit; der Vertretene kennt es nicht, hätte es aber bei pflichtgemäßer Sorgfalt erkennen und verhindern können; der Geschäftspartner vertraut gutgläubig darauf." },
+    { "ebene": 3, "text": "N bestellt seit drei Jahren regelmäßig im Namen des Studios; M wusste nichts, die Rechnungen wurden aber aus ihrer Buchhaltung bezahlt → bei ordnungsgemäßer Organisation erkennbar; G durfte auf die Praxis vertrauen → (+)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann G von M den Kaufpreis verlangen, Zug um Zug gegen Lieferung; die überflüssige Doppelbestellung betrifft nur das Innenverhältnis." }
   ],
   "musterloesung": [
     {

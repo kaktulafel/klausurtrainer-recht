@@ -24,6 +24,16 @@ export function zeilen(f) {
   return f.stichpunkte?.length ? f.stichpunkte : (f.skizze || []);
 }
 
+/** Ergebnissatz („**Erg.:** …“) der Prüfung, die in Zeile i beginnt – ohne Kennzeichnung; sonst null. */
+export function ergebnisVon(zz, i) {
+  for (const z of zz.slice(i + 1)) {
+    if (z.ebene === 1) break;
+    const m = String(z.text).match(/^\*\*Erg\.:\*\*\s*(.+)$/);
+    if (m) return m[1];
+  }
+  return null;
+}
+
 function ersteNr(grundlage) {
   const n = parseNormen(grundlage)[0];
   return n ? parseFloat(n.nr) || 0 : 0;
@@ -37,10 +47,11 @@ export function gruppiereAnsprueche(faelle) {
   const gruppen = new Map();
   const sonstige = [];
   for (const f of faelle) {
-    for (const z of zeilen(f)) {
+    const zz = zeilen(f);
+    for (const [i, z] of zz.entries()) {
       if (z.ebene !== 1) continue;
       const a = anspruchAus(z.text);
-      const eintrag = { fallId: f.id, fallTitel: f.titel, text: ohneGliederung(z.text) };
+      const eintrag = { fallId: f.id, fallTitel: f.titel, text: ohneGliederung(z.text), ergebnis: ergebnisVon(zz, i) };
       if (!a) { if (!NUR_UEBERSCHRIFT.test(eintrag.text)) sonstige.push(eintrag); continue; }
       if (!gruppen.has(a.grundlage)) gruppen.set(a.grundlage, { grundlage: a.grundlage, eintraege: [] });
       gruppen.get(a.grundlage).eintraege.push({ ...eintrag, wer: a.wer, gegen: a.gegen });

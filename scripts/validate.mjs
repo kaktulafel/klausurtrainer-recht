@@ -179,6 +179,14 @@ for (const [datei, inhalt] of Object.entries(json)) {
     for (const s of f.skizze || []) if (!typ.num(s.ebene) || !typ.str(s.text)) F(datei, f.id, 'Skizzenzeile braucht ebene + text');
     for (const s of f.stichpunkte || []) if (![1, 2, 3].includes(s.ebene) || !typ.str(s.text)) F(datei, f.id, 'Stichpunkt braucht ebene (1–3) + text');
     if (!(f.stichpunkte || []).some(s => s.ebene === 1)) F(datei, f.id, 'Stichpunktlösung braucht mindestens eine Prüfung (ebene 1)');
+    // Gutachtenstil: jede Prüfung beginnt mit Obersatz im Konjunktiv und endet mit einem Ergebnissatz
+    for (const [i, s] of (f.stichpunkte || []).entries()) {
+      if (s.ebene !== 1) continue;
+      const block = [];
+      for (const z of f.stichpunkte.slice(i + 1)) { if (z.ebene === 1) break; block.push(z.text || ''); }
+      if (!/^\*\*OS:\*\* .*\bkönnten?\b/.test(block[0] || '')) F(datei, f.id, `Stichpunkte „${s.text}“: erste Zeile muss „**OS:** … könnte …“ sein`);
+      if (!/^\*\*Erg\.:\*\* /.test(block[block.length - 1] || '')) F(datei, f.id, `Stichpunkte „${s.text}“: letzte Zeile muss „**Erg.:** …“ sein`);
+    }
     for (const a of f.abwandlungen || []) if (!typ.str(a.frage) || !typ.str(a.kurzloesung)) F(datei, f.id, 'Abwandlung braucht frage + kurzloesung');
     if (f.minuten >= 60 && !(f.abwandlungen || []).length) F(datei, f.id, 'klausurgroßer Fall braucht mindestens eine Abwandlung');
     if (f.gefuehrt) {

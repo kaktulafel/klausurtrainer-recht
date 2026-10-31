@@ -26,17 +26,22 @@
     "Teil 2: L legt eine unterschriebene, adressierte Kündigung ihrer Wohnung auf den Schreibtisch, um später zu entscheiden; ihr Partner Jan schickt sie ohne ihr Wissen ab. Die neue Wohnung klappt nicht."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. T gegen O auf 45.400 € aus § 433 Abs. 2 BGB (−)" },
-    { "ebene": 2, "text": "Vertragsschluss durch Gebot und Zuschlag, § 156 S. 1 BGB – war das Winken ein Gebot (WE)?" },
-    { "ebene": 2, "text": "Objektiv: Handzeichen im laufenden Auktionssaal durfte T als Gebot verstehen (§§ 133, 157 BGB). Subjektiv: Handlungswille (+), Erklärungsbewusstsein (−)." },
-    { "ebene": 2, "text": "h. M.: trotzdem WE, wenn O bei verkehrsüblicher Sorgfalt erkennen konnte, dass Winken als Gebot gilt, und T es so verstehen durfte – wer in einer Auktion winkt, muss damit rechnen → Vertrag (+)" },
-    { "ebene": 2, "text": "Anfechtung analog § 119 Abs. 1 BGB (wie Erklärungsirrtum): sofortige Erklärung gegenüber T = unverzüglich (§ 121 Abs. 1 S. 1 BGB), richtiger Gegner (§ 143 Abs. 1, 2 BGB) → nichtig, § 142 Abs. 1 BGB." },
-    { "ebene": 2, "text": "Folge: kein Kaufpreis; T kann aber den Vertrauensschaden verlangen, § 122 Abs. 1 BGB." },
+    { "ebene": 1, "text": "A. T gegen O auf 45.400 € aus § 433 Abs. 2 BGB" },
+    { "ebene": 2, "text": "**OS:** T könnte gegen O einen Anspruch auf Zahlung von 45.400 € aus § 433 Abs. 2 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzung:** wirksamer Kaufvertrag durch Gebot und Zuschlag, § 156 S. 1 BGB." },
+    { "ebene": 2, "text": "**Fraglich:** War das Winken ein Gebot, also eine Willenserklärung?" },
+    { "ebene": 3, "text": "Objektiv: Ein Handzeichen im laufenden Auktionssaal durfte T als Gebot verstehen (§§ 133, 157 BGB) → (+)" },
+    { "ebene": 3, "text": "Subjektiv: Handlungswille (+), Erklärungsbewusstsein (−) – O wollte nur grüßen." },
+    { "ebene": 3, "text": "h. M.: trotzdem WE, wenn O bei verkehrsüblicher Sorgfalt erkennen konnte, dass sein Verhalten als Gebot gilt, und T es so verstehen durfte. Wer in einer Auktion winkt, muss damit rechnen → WE (+) → Vertrag (+)" },
+    { "ebene": 2, "text": "**Untergegangen** durch Anfechtung analog § 119 Abs. 1 BGB (wie ein Erklärungsirrtum): O erklärt T sofort, nichts ersteigern zu wollen = unverzüglich (§ 121 Abs. 1 S. 1 BGB), richtiger Gegner (§ 143 Abs. 1, 2 BGB) → nichtig, § 142 Abs. 1 BGB." },
+    { "ebene": 2, "text": "**Erg.:** Folglich hat T keinen Anspruch auf 45.400 €; er kann aber Ersatz des Vertrauensschadens nach § 122 Abs. 1 BGB verlangen." },
     { "ebene": 1, "text": "B. Wirksamkeit der Kündigung der L" },
-    { "ebene": 2, "text": "Empfangsbedürftige WE: Abgabe und Zugang nötig, § 130 Abs. 1 S. 1 BGB. Abgabe = willentliches Inverkehrbringen in Richtung Empfänger – L wollte noch warten, Jan schickte ohne ihren Willen ab → abhandengekommene WE." },
-    { "ebene": 2, "text": "h. M.: keine WE → Kündigung unwirksam; bei Fahrlässigkeit (offen liegender Umschlag) allenfalls Vertrauensschaden analog § 122 BGB." },
-    { "ebene": 2, "text": "Vorlesung: Zurechnung wie beim fehlenden Erklärungsbewusstsein (objektiver Empfängerhorizont, L hätte es verhindern können) → wirksam, aber unverzüglich anfechtbar analog § 119 Abs. 1 BGB (§ 121 Abs. 1 S. 1 BGB), Folge § 122 BGB." },
-    { "ebene": 2, "text": "Ergebnis: Nach beiden Lösungen behält L die Wohnung – nach der Vorlesung nur bei unverzüglicher Anfechtung nach Kenntnis." }
+    { "ebene": 2, "text": "**OS:** Die Kündigung der L könnte wirksam sein." },
+    { "ebene": 2, "text": "**Voraussetzungen:** Als empfangsbedürftige WE muss sie abgegeben und zugegangen sein, § 130 Abs. 1 S. 1 BGB." },
+    { "ebene": 2, "text": "**Fraglich: Abgabe** = willentliches Inverkehrbringen in Richtung des Empfängers. L wollte noch warten; Jan schickte ohne ihren Willen ab → abhandengekommene WE." },
+    { "ebene": 3, "text": "h. M.: keine Abgabe → keine WE → unwirksam; bei Fahrlässigkeit (offen liegender, adressierter Umschlag) allenfalls Vertrauensschaden analog § 122 BGB." },
+    { "ebene": 3, "text": "Vorlesung: Zurechnung wie beim fehlenden Erklärungsbewusstsein (objektiver Empfängerhorizont, L hätte es verhindern können) → wirksam, aber unverzüglich anfechtbar analog § 119 Abs. 1 BGB (§ 121 Abs. 1 S. 1 BGB), Folge § 122 BGB." },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist die Kündigung nach h. M. unwirksam, nach der Vorlesung wirksam, aber anfechtbar. L behält die Wohnung in beiden Fällen – nach der Vorlesung nur bei unverzüglicher Anfechtung nach Kenntnis." }
   ],
   "musterloesung": [
     {

@@ -26,18 +26,22 @@
     "Teil 2: J braucht morgen 300 € für die Miete, sonst droht die fristlose Kündigung. A weiß das und gibt ihm 300 € nur gegen sein Moped (Wert 750 €, beiden bekannt). J übergibt: „Es gehört jetzt dir.“ Nach einem Lottogewinn will er es gegen Rückzahlung zurück."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. K gegen H auf 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (−)" },
-    { "ebene": 2, "text": "Etwas erlangt durch Leistung: Anzahlung zur Erfüllung des Werkvertrags (+)" },
-    { "ebene": 2, "text": "Ohne Rechtsgrund: Werkvertrag (§ 631 BGB) nichtig nach § 134 BGB i. V. m. § 1 Abs. 2 Nr. 2 SchwarzArbG – beide vereinbarten bewusst, dass H nicht versteuert (BGH VII ZR 6/13) (+)" },
-    { "ebene": 2, "text": "Ausschluss nach § 817 S. 2 BGB: gilt für alle Leistungskondiktionen; K hat sich bewusst beteiligt, um Geld zu sparen → Rückforderung ausgeschlossen (BGH VII ZR 216/14); Schwarzarbeit soll für keine Seite durchsetzbar sein." },
-    { "ebene": 2, "text": "Ergebnis: K bekommt nichts zurück (umgekehrt hat H keinen Werklohn- oder Wertersatzanspruch)." },
-    { "ebene": 1, "text": "B. J gegen A auf Herausgabe aus § 985 BGB (+)" },
-    { "ebene": 2, "text": "A ist Besitzerin (Übergabe) (+)" },
-    { "ebene": 2, "text": "J noch Eigentümer? Übereignung nach § 929 S. 1 BGB („Es gehört jetzt dir“ + Übergabe), aber nichtig nach § 138 Abs. 2 BGB (Wucher):" },
-    { "ebene": 3, "text": "Auffälliges Missverhältnis: 750 € Wert gegen 300 € (mehr als das Doppelte) (+)" },
-    { "ebene": 3, "text": "Zwangslage: drohende fristlose Kündigung der Wohnung (+); Ausbeutung: A kannte die Not und nutzte sie bewusst (+)" },
-    { "ebene": 3, "text": "Folge: Kaufvertrag nichtig und – Ausnahme vom Abstraktionsprinzip – auch das „Gewährenlassen“, also die Übereignung durch J → J bleibt Eigentümer." },
-    { "ebene": 2, "text": "Kein Recht zum Besitz, § 986 Abs. 1 BGB: Kaufvertrag nichtig. Daneben Herausgabe des Besitzes aus § 812 Abs. 1 S. 1 Alt. 1 BGB." }
+    { "ebene": 1, "text": "A. K gegen H auf 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** K könnte gegen H einen Anspruch auf Rückzahlung von 1.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben." },
+    { "ebene": 2, "text": "**Etwas erlangt durch Leistung:** Anzahlung zur Erfüllung des Werkvertrags → (+)" },
+    { "ebene": 2, "text": "**Ohne Rechtsgrund:** Der Werkvertrag (§ 631 BGB) ist nichtig nach § 134 BGB i. V. m. § 1 Abs. 2 Nr. 2 SchwarzArbG – beide vereinbarten bewusst, dass H die Umsätze nicht versteuert (BGH VII ZR 6/13) → (+)" },
+    { "ebene": 2, "text": "**Fraglich: Ausschluss nach § 817 S. 2 BGB,** wenn auch dem Leistenden ein Gesetzesverstoß zur Last fällt. Gilt für alle Leistungskondiktionen (BGH VII ZR 216/14). K hat sich bewusst beteiligt, um Geld zu sparen → (+). Zweck: Schwarzarbeit soll für keine Seite durchsetzbar sein." },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann K die 1.000 € nicht zurückverlangen (umgekehrt hat H keinen Werklohn- oder Wertersatzanspruch)." },
+    { "ebene": 1, "text": "B. J gegen A auf Herausgabe des Mopeds aus § 985 BGB" },
+    { "ebene": 2, "text": "**OS:** J könnte gegen A einen Anspruch auf Herausgabe des Mopeds aus § 985 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** J Eigentümer, A Besitzerin, kein Recht zum Besitz (§ 986 Abs. 1 BGB)." },
+    { "ebene": 2, "text": "**Besitz der A** durch Übergabe → (+)" },
+    { "ebene": 2, "text": "**Fraglich: Eigentum des J.** Übereignung nach § 929 S. 1 BGB („Es gehört jetzt dir“ + Übergabe) – aber nichtig nach § 138 Abs. 2 BGB (Wucher)?" },
+    { "ebene": 3, "text": "Auffälliges Missverhältnis: 750 € Wert gegen 300 € – mehr als das Doppelte → (+)" },
+    { "ebene": 3, "text": "Zwangslage: drohende fristlose Kündigung der Wohnung → (+). Ausbeutung: A kannte die Not und nutzte sie bewusst → (+)" },
+    { "ebene": 3, "text": "Folge: nichtig ist der Kaufvertrag und – Ausnahme vom Abstraktionsprinzip – auch das Gewährenlassen, also die Übereignung durch J → J bleibt Eigentümer (+)" },
+    { "ebene": 2, "text": "**Kein Recht zum Besitz:** Der Kaufvertrag ist nichtig → (+). Daneben Herausgabe des Besitzes aus § 812 Abs. 1 S. 1 Alt. 1 BGB." },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann J das Moped herausverlangen." }
   ],
   "musterloesung": [
     {

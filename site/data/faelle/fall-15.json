@@ -28,18 +28,22 @@
     "J lässt sofort anderswo inspizieren: 400 € + 200 € Expresszuschlag; die 200 € verlangt er von N."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. N gegen J auf 400 € aus § 631 Abs. 1 BGB (−)" },
-    { "ebene": 2, "text": "Entstanden: Werkvertrag über die Inspektion (+)" },
-    { "ebene": 2, "text": "Erloschen durch Rücktritt (§ 346 Abs. 1 BGB – Leistungspflichten entfallen):" },
-    { "ebene": 3, "text": "Erklärung, § 349 BGB: „will nichts mehr mit ihr zu tun haben“ + Abholen = Rücktritt (§§ 133, 157 BGB)." },
-    { "ebene": 3, "text": "Grund, § 323 Abs. 1 BGB: gegenseitiger Vertrag; fällig spätestens nach üblichen zwei bis drei Werktagen (§ 271 Abs. 1 BGB); nicht geleistet; angemessene Frist bis Montag 12 Uhr erfolglos abgelaufen. Selbst wenn Fälligkeit erst am Donnerstag eintrat: die Frist bis Montag reicht, jedenfalls lief nach Fälligkeit eine angemessene Frist ab. Eingeplante Mechaniker am Nachmittag ändern nichts." },
-    { "ebene": 3, "text": "Kein Ausschluss nach § 323 Abs. 6 BGB; Vertretenmüssen der N für den Rücktritt nicht nötig." },
-    { "ebene": 1, "text": "B. J gegen N auf 200 € aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB (+)" },
-    { "ebene": 2, "text": "Schuldverhältnis (Werkvertrag) und Pflichtverletzung: fällige Inspektion nicht erbracht (+)" },
-    { "ebene": 2, "text": "Angemessene Frist erfolglos, § 281 Abs. 1 S. 1 BGB (+)" },
-    { "ebene": 2, "text": "Vertretenmüssen vermutet (§ 280 Abs. 1 S. 2 BGB); N zog andere Kunden bewusst vor (§ 276 Abs. 1 BGB) (+)" },
-    { "ebene": 2, "text": "Rücktritt schließt Schadensersatz nicht aus, § 325 BGB." },
-    { "ebene": 2, "text": "Schaden (positives Interesse, § 249 Abs. 1 BGB): Deckungsgeschäft 600 € statt 400 € → 200 €; kein Verstoß gegen § 254 Abs. 2 S. 1 BGB, wenn kurzfristig nur Express möglich war." }
+    { "ebene": 1, "text": "A. N gegen J auf 400 € aus § 631 Abs. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** N könnte gegen J einen Anspruch auf Werklohn von 400 € aus § 631 Abs. 1 BGB haben." },
+    { "ebene": 2, "text": "**Entstanden:** Werkvertrag über die Inspektion → (+)" },
+    { "ebene": 2, "text": "**Fraglich: erloschen durch Rücktritt?** Dann entfallen die noch nicht erbrachten Leistungspflichten (§ 346 Abs. 1 BGB)." },
+    { "ebene": 3, "text": "Erklärung, § 349 BGB: Abholen + „will mit ihr nichts mehr zu tun haben“ = Rücktritt (§§ 133, 157 BGB) → (+)" },
+    { "ebene": 3, "text": "Grund, § 323 Abs. 1 BGB: gegenseitiger Vertrag; fällig – ohne Termin sofort (§ 271 Abs. 1 BGB), jedenfalls nach üblichen zwei bis drei Werktagen; nicht geleistet; angemessene Frist bis Montag 12 Uhr erfolglos abgelaufen. Selbst wenn Fälligkeit erst am Donnerstag eintrat: die Frist bis Montag reicht, jedenfalls lief nach Fälligkeit eine angemessene Frist ab. Eingeplante Mechaniker am Nachmittag ändern nichts → (+)" },
+    { "ebene": 3, "text": "Kein Ausschluss nach § 323 Abs. 6 BGB; Vertretenmüssen der N ist für den Rücktritt nicht nötig → (+)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist der Werklohnanspruch erloschen; N hat keinen Anspruch." },
+    { "ebene": 1, "text": "B. J gegen N auf 200 € aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB" },
+    { "ebene": 2, "text": "**OS:** J könnte gegen N einen Anspruch auf Schadensersatz statt der Leistung von 200 € aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** Schuldverhältnis, Pflichtverletzung, erfolglose Fristsetzung, Vertretenmüssen, Schaden." },
+    { "ebene": 2, "text": "**Schuldverhältnis und Pflichtverletzung:** Werkvertrag; die fällige Inspektion wurde nicht erbracht → (+). **Frist** angemessen und erfolglos, § 281 Abs. 1 S. 1 BGB → (+)" },
+    { "ebene": 2, "text": "**Vertretenmüssen:** vermutet (§ 280 Abs. 1 S. 2 BGB); N zog andere Kunden bewusst vor (§ 276 Abs. 1 BGB) → (+)" },
+    { "ebene": 2, "text": "**Rücktritt unschädlich,** § 325 BGB → (+)" },
+    { "ebene": 2, "text": "**Fraglich: Schaden in Höhe des Expresszuschlags?** Positives Interesse (§ 249 Abs. 1 BGB): Deckungsgeschäft 600 € statt 400 € → 200 €; kein Verstoß gegen § 254 Abs. 2 S. 1 BGB, wenn kurzfristig nur Express möglich war (sonst Kürzung) → (+)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann J von N 200 € verlangen." }
   ],
   "musterloesung": [
     {

@@ -28,15 +28,21 @@
     "(a) A gibt sie um 18:30 Uhr der Mitbewohnerin (Weitergabe erst am 2. Mai); (b) A gibt sie der Nachbarin (Weitergabe am 3. Mai)."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. Kaufvertrag M – D (§§ 145 ff. BGB) (−)" },
-    { "ebene": 2, "text": "Angebot: E-Mail mit Ware, Preis, Partner = Antrag; unter Abwesenden wirksam erst mit Zugang, § 130 Abs. 1 S. 1 BGB." },
-    { "ebene": 2, "text": "Zugang = Machtbereich + unter gewöhnlichen Umständen Kenntnisnahme zu erwarten: private Mail um 21 Uhr → erst Mittwochmorgen (a. A. vertretbar: noch am Abend → dann Widerruf verspätet)." },
-    { "ebene": 2, "text": "Widerruf, § 130 Abs. 1 S. 2 BGB: Mail von 22:05 Uhr geht ebenfalls Mittwochmorgen zu → gleichzeitig mit dem Angebot → Angebot wird nicht wirksam; dass D sie später liest, ist egal." },
-    { "ebene": 2, "text": "„Angenommen!“ geht ins Leere – allenfalls neuer Antrag des D (§§ 133, 157 BGB), den M nicht angenommen hat." },
-    { "ebene": 1, "text": "B. Zugang der Kündigung (§ 130 Abs. 1 S. 1 BGB)" },
-    { "ebene": 2, "text": "A gehört zum Lager der V = Erklärungsbotin → Übergabe an A ist noch kein Zugang; Verzögerungen trägt V." },
-    { "ebene": 2, "text": "(a) Mitbewohnerin ist nach Verkehrsanschauung zur Entgegennahme geeignet = Empfangsbotin → Zugang, sobald Weitergabe zu erwarten ist (noch am Abend) → 30. April, rechtzeitig; die späte Weitergabe trägt der Mieter." },
-    { "ebene": 2, "text": "(b) Nachbarin ist keine Empfangsbotin, sondern weitere Erklärungsbotin der V → Zugang erst mit Übergabe am 3. Mai → verspätet." }
+    { "ebene": 1, "text": "A. Kaufvertrag M – D (§§ 145 ff. BGB)" },
+    { "ebene": 2, "text": "**OS:** Zwischen M und D könnte ein Kaufvertrag über die Konsole zustande gekommen sein." },
+    { "ebene": 2, "text": "**Voraussetzungen:** zwei übereinstimmende WE, Antrag und Annahme." },
+    { "ebene": 2, "text": "**Antrag der M:** Die E-Mail nennt Ware, Preis und Partner → Antrag. Unter Abwesenden wird er erst mit Zugang wirksam, § 130 Abs. 1 S. 1 BGB." },
+    { "ebene": 3, "text": "Zugang = in den Machtbereich gelangt, sodass unter gewöhnlichen Umständen mit Kenntnisnahme zu rechnen ist. Private Mail um 21 Uhr → Kenntnisnahme erst Mittwochmorgen zu erwarten (a. A. vertretbar: noch am Abend → dann Widerruf verspätet)." },
+    { "ebene": 2, "text": "**Fraglich: Widerruf,** § 130 Abs. 1 S. 2 BGB – wirksam, wenn er vorher oder gleichzeitig zugeht. Die Mail von 22:05 Uhr geht ebenfalls Mittwochmorgen zu → gleichzeitig → das Angebot wird nicht wirksam. Dass D sie später liest, ist unerheblich." },
+    { "ebene": 2, "text": "**Annahme:** „Angenommen!“ geht ins Leere; allenfalls neuer Antrag des D (§§ 133, 157 BGB), den M nicht angenommen hat." },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist kein Kaufvertrag zustande gekommen." },
+    { "ebene": 1, "text": "B. Rechtzeitiger Zugang der Kündigung (§ 130 Abs. 1 S. 1 BGB)" },
+    { "ebene": 2, "text": "**OS:** Die Kündigung könnte dem Mieter am 30. April zugegangen sein." },
+    { "ebene": 2, "text": "**Voraussetzung:** Zugang = Machtbereich des Empfängers + zu erwartende Kenntnisnahme." },
+    { "ebene": 2, "text": "A gehört zum Lager der V = Erklärungsbotin → mit der Übergabe an A ist noch nichts zugegangen; Verzögerungen trägt V." },
+    { "ebene": 2, "text": "**(a)** Die Mitbewohnerin ist nach der Verkehrsanschauung zur Entgegennahme geeignet = Empfangsbotin → Zugang, sobald die Weitergabe zu erwarten ist (noch am Abend des 30. April). Die späte Weitergabe am 2. Mai trägt der Mieter." },
+    { "ebene": 2, "text": "**(b)** Die Nachbarin ist keine Empfangsbotin, sondern weitere Erklärungsbotin der V → Zugang erst mit der Übergabe am 3. Mai." },
+    { "ebene": 2, "text": "**Erg.:** Folglich ist die Kündigung in (a) rechtzeitig, in (b) verspätet zugegangen." }
   ],
   "musterloesung": [
     {

@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { NUR_UEBERSCHRIFT, zeilen, anspruchAus, ohneGliederung, gruppiereAnsprueche, schemaFuer, SCHEMA_IDS, fallPasst } from '../site/js/kompakt.js';
+import { NUR_UEBERSCHRIFT, zeilen, ergebnisVon, anspruchAus, ohneGliederung, gruppiereAnsprueche, schemaFuer, SCHEMA_IDS, fallPasst } from '../site/js/kompakt.js';
 
 const json = (p) => JSON.parse(readFileSync(new URL('../site/data/' + p, import.meta.url), 'utf8'));
 const faelle = json('index.json').dateien.faelle.map(json);
@@ -22,6 +22,15 @@ test('anspruchAus: Stichpunkt-Form ohne das Wort „Anspruch“, mit Ergebnis', 
   assert.equal(anspruchAus('Frage 2: Anfechtung wegen Eigenschaftsirrtums, § 119 Abs. 2 BGB (+), aber Ersatz des Vertrauensschadens'), null);
 });
 
+test('ergebnisVon: Ergebnissatz der Prüfung, nicht der nächsten', () => {
+  const zz = [
+    { ebene: 1, text: 'A. X gegen Y aus § 433 Abs. 2 BGB' }, { ebene: 2, text: '**OS:** X könnte …' }, { ebene: 2, text: '**Erg.:** Folglich hat X keinen Anspruch.' },
+    { ebene: 1, text: 'B. Y gegen X aus § 122 Abs. 1 BGB' }, { ebene: 2, text: '**OS:** Y könnte …' }
+  ];
+  assert.equal(ergebnisVon(zz, 0), 'Folglich hat X keinen Anspruch.');
+  assert.equal(ergebnisVon(zz, 3), null);
+});
+
 test('ohneGliederung entfernt nur das Gliederungszeichen', () => {
   assert.equal(ohneGliederung('B. Anspruch V gegen K'), 'Anspruch V gegen K');
   assert.equal(ohneGliederung('II. Vertretungsmacht'), 'Vertretungsmacht');
@@ -34,6 +43,7 @@ test('gruppiereAnsprueche: jede Prüfung der obersten Ebene genau einmal, sortie
   const ebene1 = faelle.reduce((s, f) => s + zeilen(f).filter(z => z.ebene === 1 && !NUR_UEBERSCHRIFT.test(ohneGliederung(z.text))).length, 0);
   assert.ok(!sonstige.some(e => /^(Frage|Teil) \d+$/.test(e.text)), 'keine reinen Überschriften');
   assert.equal(gruppen.reduce((s, g) => s + g.eintraege.length, 0) + sonstige.length, ebene1);
+  assert.ok(gruppen.every(g => g.eintraege.every(e => /^Folglich\b/.test(e.ergebnis || ''))), 'jeder Anspruch hat einen Ergebnissatz „Folglich …“');
   const kauf = gruppen.find(g => g.grundlage === '§ 433 Abs. 2 BGB');
   assert.ok(kauf && kauf.eintraege.some(e => e.fallId === 'fall-01' && e.wer === 'MK' && e.gegen === 'J'));
   assert.equal(gruppen.filter(g => g.grundlage.startsWith('§§ 280 Abs. 1, 311')).length, 1, 'c.i.c. mit und ohne „Nr. 2“ in einer Gruppe');

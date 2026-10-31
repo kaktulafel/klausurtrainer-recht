@@ -14,7 +14,7 @@ export async function render(main, { pfad, query }) {
   const faelle = [...daten].sort((a, b) => a.id.localeCompare(b.id));
   main.append(
     h('h1', null, 'Fälle kompakt'),
-    h('p', { class: 'leise lese' }, 'Alle Fälle in Kurzform: der Sachverhalt in Stichpunkten und die Stichpunktlösung – wer gegen wen woraus, jedes Tatbestandsmerkmal mit den entscheidenden Fakten aus dem Fall und das Ergebnis. Umschaltbar auf die reine Gliederung. Zum Wiederholen vor der Klausur und zum Ausdrucken.'),
+    h('p', { class: 'leise lese' }, 'Alle Fälle in Kurzform: der Sachverhalt in Stichpunkten und die Stichpunktlösung im Gutachtenstil – Obersatz (OS), Voraussetzungen, Definition und Subsumtion mit den Fakten aus dem Fall, Ergebnis (Erg.). Umschaltbar auf die reine Gliederung. Zum Wiederholen vor der Klausur und zum Ausdrucken.'),
     h('div', { class: 'btn-reihe' }, ANSICHTEN.map(([k, v]) => h('a', { class: 'btn klein ' + (k === ansicht ? '' : 'leise'), href: '#/uebersicht' + (k ? '/' + k : ''), 'aria-current': k === ansicht ? 'page' : null }, v))));
   if (ansicht === 'ansprueche') return ansprueche(main, faelle, schemata);
   if (ansicht === 'schemata') return schemataKompakt(main, schemata);
@@ -28,7 +28,7 @@ function fallListe(main, faelle, tm, sprungZiel) {
   const anzahl = h('p', { class: 'klein leise', 'aria-live': 'polite' });
   const liste = h('div', { class: 'ue-faelle' });
   const umschalter = h('div', { class: 'btn-reihe nicht-drucken', role: 'group', 'aria-label': 'Darstellung' },
-    [['stichpunkte', 'Stichpunktlösung mit Kontext'], ['gliederung', 'Nur Gliederung']].map(([k, label], i) =>
+    [['stichpunkte', 'Stichpunktlösung (Gutachtenstil)'], ['gliederung', 'Nur Gliederung']].map(([k, label], i) =>
       h('button', { type: 'button', class: 'btn klein ' + (i ? 'leise' : ''), 'aria-pressed': String(!i), onclick: (e) => {
         liste.classList.toggle('nur-gliederung', k === 'gliederung');
         for (const b of umschalter.querySelectorAll('button')) { const an = b === e.currentTarget; b.setAttribute('aria-pressed', String(an)); b.classList.toggle('leise', !an); }
@@ -61,7 +61,7 @@ function fallKarte(f, tm) {
     f.kurz ? h('p', { class: 'ue-kurz' }, inline(f.kurz)) : null,
     f.kurzSachverhalt?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Sachverhalt in Stichpunkten'), h('ul', { class: 'ue-sv' }, f.kurzSachverhalt.map(s => h('li', null, inline(s))))) : null,
     h('details', null, h('summary', null, 'Fallfragen'), h('ul', null, f.fallfragen.map(q => h('li', null, inline(q))))),
-    f.stichpunkte?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Stichpunktlösung'), gliederung(f.stichpunkte)) : null,
+    f.stichpunkte?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Stichpunktlösung im Gutachtenstil'), gliederung(f.stichpunkte)) : null,
     h('div', { class: f.stichpunkte?.length ? 'ue-sk' : null }, h('p', { class: 'ue-label' }, 'Gliederung'), gliederung(f.skizze)),
     h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/faelle/' + f.id }, 'Fall bearbeiten →')));
 }
@@ -90,7 +90,8 @@ function ansprueche(main, faelle, schemata) {
 function eintragsListe(eintraege) {
   return h('ul', { class: 'ue-liste' }, eintraege.map(e => h('li', null,
     h('a', { href: '#/uebersicht?fall=' + e.fallId }, nummer({ id: e.fallId })), ' ', inline(e.text),
-    h('span', { class: 'klein leise' }, ` (${e.fallTitel})`))));
+    h('span', { class: 'klein leise' }, ` (${e.fallTitel})`),
+    e.ergebnis ? h('span', { class: 'ue-erg' }, inline(e.ergebnis)) : null)));
 }
 
 function schemataKompakt(main, schemata) {

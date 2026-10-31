@@ -25,16 +25,21 @@
     "Teil 2: D will über das Portal der C (eigenes Zimmerkontingent) ein Hotel buchen, das dort 9,5/10 Punkte hat; im Vertrauen darauf kauft er Theaterkarten für 50 €. Die Bewertungen hat C selbst verfasst; D bucht nicht und fährt woandershin."
   ],
   "stichpunkte": [
-    { "ebene": 1, "text": "A. N gegen J auf 500 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB (c. i. c.) (+)" },
-    { "ebene": 2, "text": "Schuldverhältnis: kein Vertrag, aber Vertragsanbahnung mit Einwirkungsmöglichkeit auf die Rechtsgüter (§ 311 Abs. 2 Nr. 2 BGB) – N besucht den Shop, um zu kaufen (+)" },
-    { "ebene": 2, "text": "Pflichtverletzung, § 241 Abs. 2 BGB: Shopbetreiber muss Besucher vor Schadsoftware schützen; über ein Jahr keine Updates (+)" },
-    { "ebene": 2, "text": "Vertretenmüssen vermutet (§ 280 Abs. 1 S. 2 BGB), jedenfalls Fahrlässigkeit (§ 276 Abs. 2 BGB) (+)" },
-    { "ebene": 2, "text": "Kausaler Schaden: ohne Infektion kein Lösegeld; Erpressung nicht lebensfremd; Zahlung durch die Erpressung herausgefordert; kein Mitverschulden (§ 254 BGB) → 500 € (§ 249 Abs. 1 BGB)." },
-    { "ebene": 1, "text": "B. D gegen C auf 50 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB (c. i. c.) (+)" },
-    { "ebene": 2, "text": "Schuldverhältnis: Buchungsanbahnung über das Portal mit eigenem Kontingent (§ 311 Abs. 2 Nr. 2 BGB) (+)" },
-    { "ebene": 2, "text": "Pflichtverletzung: § 241 Abs. 2 BGB schützt auch die Entscheidungsfreiheit – selbst verfasste Bewertungen täuschen über die Hotelqualität (+)" },
-    { "ebene": 2, "text": "Vertretenmüssen: Vorsatz, § 276 Abs. 1 BGB (+)" },
-    { "ebene": 2, "text": "Schaden: negatives Interesse – ohne Vertrauen keine Karten → 50 €; D’s Entschluss, nicht zu fahren, wurde durch die Täuschung herausgefordert und liegt im Schutzbereich; kein Mitverschulden." }
+    { "ebene": 1, "text": "A. N gegen J auf 500 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB (c. i. c.)" },
+    { "ebene": 2, "text": "**OS:** N könnte gegen J einen Anspruch auf Ersatz von 500 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB haben." },
+    { "ebene": 2, "text": "**Voraussetzungen:** Schuldverhältnis, Pflichtverletzung, Vertretenmüssen, kausaler Schaden." },
+    { "ebene": 2, "text": "**Fraglich: Schuldverhältnis** ohne Vertrag? Es genügt die Anbahnung eines Vertrags, bei der ein Teil dem anderen im Hinblick auf ein Geschäft die Möglichkeit zur Einwirkung auf seine Rechte, Rechtsgüter und Interessen gewährt (§ 311 Abs. 2 Nr. 2 BGB). N ruft J’s Shop auf, um zu kaufen, und setzt dabei ihr Gerät dessen Inhalten aus → (+)" },
+    { "ebene": 2, "text": "**Pflichtverletzung,** § 241 Abs. 2 BGB: Ein Shopbetreiber muss Besucher vor Schadsoftware schützen; J spielte über ein Jahr keine Updates ein → (+)" },
+    { "ebene": 2, "text": "**Vertretenmüssen:** vermutet (§ 280 Abs. 1 S. 2 BGB), jedenfalls Fahrlässigkeit (§ 276 Abs. 2 BGB) → (+)" },
+    { "ebene": 2, "text": "**Kausaler Schaden:** Ohne Infektion kein Lösegeld; Erpressung nicht lebensfremd; die Zahlung war durch die Erpressung herausgefordert; kein Mitverschulden (§ 254 BGB) → 500 € (§ 249 Abs. 1 BGB)." },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann N von J 500 € verlangen." },
+    { "ebene": 1, "text": "B. D gegen C auf 50 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB (c. i. c.)" },
+    { "ebene": 2, "text": "**OS:** D könnte gegen C einen Anspruch auf Ersatz von 50 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB haben." },
+    { "ebene": 2, "text": "**Schuldverhältnis:** Buchungsanbahnung über das Portal mit eigenem Zimmerkontingent (§ 311 Abs. 2 Nr. 2 BGB) → (+)" },
+    { "ebene": 2, "text": "**Pflichtverletzung:** § 241 Abs. 2 BGB schützt auch die Entscheidungsfreiheit; selbst verfasste Bewertungen täuschen über die Hotelqualität → (+)" },
+    { "ebene": 2, "text": "**Vertretenmüssen:** Vorsatz, § 276 Abs. 1 BGB → (+)" },
+    { "ebene": 2, "text": "**Fraglich: Schaden und Zurechnung.** Ersatzfähig ist das negative Interesse: Ohne Vertrauen keine Karten → 50 €. D’s Entschluss, nicht zu fahren, wurde durch die Täuschung herausgefordert und liegt im Schutzbereich der Pflicht; kein Mitverschulden → (+)" },
+    { "ebene": 2, "text": "**Erg.:** Folglich kann D von C 50 € verlangen." }
   ],
   "musterloesung": [
     {
