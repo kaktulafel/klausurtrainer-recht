@@ -25,6 +25,8 @@
 - M4: A11y-Scan (axe, WCAG 2.1 AA, hell/dunkel, 375 px) in CI, Fixes; KI: Zeitlimit für ganze Anfrage, Prompt-Injection-Schutz, E2E mit gemockter API (Ergebnis, 401, Key nie im DOM)
 - M5: README, CLAUDE.md/AGENTS.md, docs/DATENFORMATE.md, docs/THEMENKARTE.md (generiert, `npm run docs`), Namensprüfung ohne Klartextnamen
 
+- 31.10.2026: Bereich **„Fälle kompakt“** (`#/uebersicht`, `views/uebersicht.js`, Logik `js/kompakt.js` + Tests): Kurzgliederung aller Fälle, Index nach Anspruchsgrundlage, Schemata kompakt; erreichbar über „Mehr“ und den Gutachten-Trainer. Dabei Fehler „[object HTMLDetailsElement]“ auf `#/wissen` behoben (FIXLOG).
+
 ## Offen / Ideen für später
 - § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen
 - Git-Historie enthält in alten Commits die Klartext-Namensregex des Validators (nicht umgeschrieben, siehe FIXLOG)

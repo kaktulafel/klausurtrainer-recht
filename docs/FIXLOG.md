@@ -49,3 +49,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Symptom:** CI-Job „live“ (Offline-Check) brach mit „Execution context was destroyed“ ab.
 - **Ursache:** Beim allerersten Besuch übernimmt der frisch installierte Service Worker per `clients.claim()` die Seite → `controllerchange` → die App lud sich neu. Für Nutzer:innen ein unnötiger Seitensprung kurz nach dem Öffnen.
 - **Fix:** Neu laden nur, wenn vorher schon ein Controller aktiv war (= echtes Update). Offline-Check wartet robust auf den Controller.
+
+## 31.10.2026 – „[object HTMLDetailsElement]“ auf der Wissensfragen-Seite
+- **Symptom:** Die Themenliste unter `#/wissen` erschien als Kette „[object HTMLDetailsElement],…“ (auch live).
+- **Ursache:** Der null-sichere `append`/`prepend`/`replaceChildren` aus `ui/dom.js` reichte Arrays unverändert weiter; das native `append` macht daraus Text. `h()` entfaltet Arrays, `append` nicht – leicht zu verwechseln.
+- **Fix:** Der Wrapper entfaltet Arrays jetzt wie `h()` (`flat(Infinity)`). E2E prüft zusätzlich auf sichtbares „[object …]“ (vorher nur „[object Object]“, daher unentdeckt).

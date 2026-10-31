@@ -23,14 +23,14 @@ async function schritt(name, fn) {
 const sichtbarerText = () => page.evaluate(() => document.querySelector('main')?.innerText || '');
 async function keinMuell(route) {
   const t = await sichtbarerText();
-  if (/\b(null|undefined|NaN|\[object Object\])\b/.test(t)) throw new Error(`${route}: null/undefined/NaN sichtbar`);
+  if (/\b(null|undefined|NaN)\b|\[object \w+\]/.test(t)) throw new Error(`${route}: null/undefined/NaN/[object …] sichtbar`);
   const breite = await page.evaluate(() => document.documentElement.scrollWidth);
   if (breite > 376) throw new Error(`${route}: horizontales Scrollen (${breite}px)`);
 }
 
 await schritt('Alle Bereiche laden ohne Konsolenfehler, ohne Überlauf, ohne null/undefined', async () => {
   for (const r of ['#/', '#/faelle', '#/faelle/fall-01', '#/mc', '#/normen', '#/normen/karten', '#/normen/zitieren', '#/normen/register', '#/wissen',
-    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/mehr', '#/info', '#/gibtsnicht']) {
+    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/mehr', '#/info', '#/gibtsnicht']) {
     await page.goto(basis + r, { waitUntil: 'networkidle' });
     await page.waitForSelector('main h1');
     await keinMuell(r);

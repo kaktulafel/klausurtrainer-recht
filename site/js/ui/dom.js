@@ -3,12 +3,12 @@ import { parseNormen, registerId, formatNorm } from '../normparser.js';
 import { lade } from '../data.js';
 
 // Null-sichere append/prepend/replaceChildren: optionale Bausteine (null/undefined/false) werden übersprungen,
-// statt als Text „null“ eingefügt zu werden.
+// statt als Text „null“ eingefügt zu werden; Arrays werden wie bei h() entfaltet (sonst „[object HTML…]“).
 for (const proto of [Element.prototype, DocumentFragment.prototype]) {
   for (const name of ['append', 'prepend', 'replaceChildren']) {
     const orig = proto[name];
     if (!orig || orig.__nullsicher) continue;
-    const neu = function (...kinder) { return orig.apply(this, kinder.filter(k => k !== null && k !== undefined && k !== false)); };
+    const neu = function (...kinder) { return orig.apply(this, kinder.flat(Infinity).filter(k => k !== null && k !== undefined && k !== false)); };
     neu.__nullsicher = true;
     proto[name] = neu;
   }

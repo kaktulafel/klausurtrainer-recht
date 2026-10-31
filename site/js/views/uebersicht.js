@@ -1,0 +1,110 @@
+// Fälle kompakt: alle Fälle als Kurzgliederung (Ansprüche, Tatbestandsmerkmale, Ergebnis), Index nach
+// Anspruchsgrundlage und alle Schemata auf einer Seite. Quelle sind die geprüften Lösungsskizzen und Schemata.
+import { h, karte, inline } from '../ui/dom.js';
+import { themenBadges, ungeprueftBadge } from '../ui/widgets.js';
+import { lade, ladeKategorie } from '../data.js';
+import { gruppiereAnsprueche, schemaFuer, fallPasst } from '../kompakt.js';
+
+const ANSICHTEN = [['', 'Fälle'], ['ansprueche', 'Nach Anspruchsgrundlage'], ['schemata', 'Schemata kompakt']];
+
+export async function render(main, { pfad, query }) {
+  const ansicht = ANSICHTEN.some(([k]) => k === (pfad[1] || '')) ? (pfad[1] || '') : '';
+  const [{ daten }, t, schemata] = await Promise.all([ladeKategorie('faelle'), lade('themen.json'), lade('schemata.json')]);
+  const tm = new Map(t.themen.map(x => [x.id, x]));
+  const faelle = [...daten].sort((a, b) => a.id.localeCompare(b.id));
+  main.append(
+    h('h1', null, 'Fälle kompakt'),
+    h('p', { class: 'leise lese' }, 'Alle Fälle in Kurzform: wer gegen wen woraus, die Tatbestandsmerkmale und das Ergebnis, so wie in der Lösungsskizze. Zum Wiederholen vor der Klausur und zum Ausdrucken.'),
+    h('div', { class: 'btn-reihe' }, ANSICHTEN.map(([k, v]) => h('a', { class: 'btn klein ' + (k === ansicht ? '' : 'leise'), href: '#/uebersicht' + (k ? '/' + k : ''), 'aria-current': k === ansicht ? 'page' : null }, v))));
+  if (ansicht === 'ansprueche') return ansprueche(main, faelle, schemata);
+  if (ansicht === 'schemata') return schemataKompakt(main, schemata);
+  return fallListe(main, faelle, tm, query.fall);
+}
+
+function fallListe(main, faelle, tm, sprungZiel) {
+  const themen = [...tm.values()].filter(x => faelle.some(f => f.themen.includes(x.id)));
+  const suche = h('input', { type: 'search', placeholder: 'Suchen, z. B. „§ 179“ oder „Taschengeld“', 'aria-label': 'Fälle durchsuchen' });
+  const thema = h('select', { 'aria-label': 'Nach Thema filtern' }, h('option', { value: '' }, 'Alle Themen'), themen.map(x => h('option', { value: x.id }, x.titel)));
+  const anzahl = h('p', { class: 'klein leise', 'aria-live': 'polite' });
+  const karten = faelle.map(f => ({ f, el: fallKarte(f, tm) }));
+  const filtern = () => {
+    let n = 0;
+    for (const { f, el } of karten) {
+      const sichtbar = (!thema.value || f.themen.includes(thema.value)) && fallPasst(f, suche.value);
+      el.hidden = !sichtbar;
+      if (sichtbar) n++;
+    }
+    anzahl.textContent = `${n} von ${faelle.length} Fällen`;
+  };
+  suche.addEventListener('input', filtern);
+  thema.addEventListener('change', filtern);
+  main.append(h('div', { class: 'suchfeld' }, suche, thema), anzahl,
+    h('nav', { class: 'ue-inhalt nicht-drucken', 'aria-label': 'Fälle' }, h('ol', null, faelle.map(f => h('li', null, h('a', { href: '#/uebersicht', onclick: (e) => springe(e, f.id) }, `${nummer(f)} ${f.titel}`))))),
+    ...karten.map(k => k.el),
+    druckKnopf());
+  filtern();
+  if (sprungZiel) requestAnimationFrame(() => springe(null, sprungZiel));
+}
+
+function fallKarte(f, tm) {
+  return h('section', { class: 'karte ue-fall', id: 'ue-' + f.id },
+    h('h2', null, `${nummer(f)} · ${f.titel} `, ungeprueftBadge(f)),
+    h('p', { class: 'klein leise' }, `${f.minuten} min · ${f.punkte} P. · `, themenBadges(f.themen, tm)),
+    f.kurz ? h('p', { class: 'ue-kurz' }, inline(f.kurz)) : null,
+    h('details', null, h('summary', null, 'Fallfragen'), h('ul', null, f.fallfragen.map(q => h('li', null, inline(q))))),
+    gliederung(f.skizze),
+    h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/faelle/' + f.id }, 'Fall bearbeiten →')));
+}
+
+function gliederung(skizze) {
+  return h('div', { class: 'ue-gliederung' }, skizze.map(z =>
+    h(z.ebene === 1 ? 'h3' : 'p', { class: `ue-z ue-e${Math.min(z.ebene, 3)}` }, inline(z.text))));
+}
+
+function ansprueche(main, faelle, schemata) {
+  const { gruppen, sonstige } = gruppiereAnsprueche(faelle);
+  const titel = new Map(schemata.map(s => [s.id, s.titel]));
+  const n = gruppen.reduce((s, g) => s + g.eintraege.length, 0);
+  main.append(
+    h('p', { class: 'leise lese' }, `${n} Ansprüche aus ${faelle.length} Fällen, sortiert nach Anspruchsgrundlage. Dazu weitere Prüfungen ohne eigenen Anspruch (Anfechtung, Wirksamkeit, Vertragsschluss).`),
+    ...gruppen.map(g => {
+      const sid = schemaFuer(g.grundlage);
+      return karte(h('h2', null, inline(g.grundlage)),
+        sid && titel.has(sid) ? h('p', { class: 'klein' }, 'Schema: ', h('a', { href: '#/schemata/' + sid }, titel.get(sid))) : null,
+        eintragsListe(g.eintraege));
+    }),
+    sonstige.length ? karte(h('h2', null, 'Weitere Prüfungen'), eintragsListe(sonstige)) : null,
+    druckKnopf());
+}
+
+function eintragsListe(eintraege) {
+  return h('ul', { class: 'ue-liste' }, eintraege.map(e => h('li', null,
+    h('a', { href: '#/uebersicht?fall=' + e.fallId }, nummer({ id: e.fallId })), ' ', inline(e.text),
+    h('span', { class: 'klein leise' }, ` (${e.fallTitel})`))));
+}
+
+function schemataKompakt(main, schemata) {
+  main.append(
+    h('p', { class: 'leise lese' }, 'Alle Prüfungsschemata mit ihren Prüfungspunkten und Normen auf einer Seite, ohne Erläuterungen. Ausführlich mit Hinweisen und Übungen unter „Prüfungsschemata“.'),
+    ...schemata.map(s => karte(h('h2', null, s.titel, ' ', ungeprueftBadge(s)), punkte(s.knoten),
+      h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/schemata/' + s.id }, 'Ausführlich →')))),
+    druckKnopf());
+}
+
+function punkte(knoten) {
+  return h('ol', { class: 'ue-schema' }, knoten.map(k => h('li', null, inline(k.text), k.norm ? [' – ', inline(k.norm)] : null, k.kinder ? punkte(k.kinder) : null)));
+}
+
+function nummer(f) { return 'Fall ' + f.id.replace(/^fall-/, ''); }
+
+// Sprung innerhalb der Seite, ohne das Hash-Routing zu verlassen.
+function springe(e, fallId) {
+  if (e) e.preventDefault();
+  const ziel = document.getElementById('ue-' + fallId);
+  if (ziel) { ziel.hidden = false; ziel.scrollIntoView({ block: 'start' }); ziel.tabIndex = -1; ziel.focus({ preventScroll: true }); }
+  else location.hash = '#/uebersicht';
+}
+
+function druckKnopf() {
+  return h('div', { class: 'btn-reihe nicht-drucken' }, h('button', { type: 'button', class: 'btn leise', onclick: () => window.print() }, 'Drucken'));
+}

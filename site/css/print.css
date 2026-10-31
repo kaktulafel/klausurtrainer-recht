@@ -8,3 +8,6 @@ details.knoten > * { display: block; }
 .norm { color: #000; text-decoration: none; }
 a { color: #000; text-decoration: none; }
 .lese { font-size: 11pt; max-width: none; }
+h3.ue-z { background: none; border-bottom: 1px solid #999; border-radius: 0; }
+.ue-e2, .ue-e3 { border-left-color: #999; }
+.ue-fall[hidden] { display: none; }

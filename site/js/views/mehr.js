@@ -1,5 +1,6 @@
 import { h } from '../ui/dom.js';
 const EINTRAEGE = [
+  ['#/uebersicht', 'Fälle kompakt', 'Alle Fälle mit Ansprüchen und Tatbestandsmerkmalen auf einen Blick'],
   ['#/schemata', 'Prüfungsschemata', 'Aufklappbar, mit Puzzle und Lückenschema'],
   ['#/wissen', 'Wissensfragen', 'Klausurstil, mit Selbstbewertung und Wiederholung'],
   ['#/klausur', 'Probeklausur-Simulator', 'Komplette Klausuren mit Timer und Note'],

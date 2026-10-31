@@ -13,4 +13,5 @@
 | 19.10.2026 | Lehrstuhl-Fehler in den Folien (z. B. Erfüllung „§ 346“) werden in den Inhalten **korrigiert** zitiert (§ 362) und in `REVIEW.md` vermerkt | Gesetz ist erlaubt; die Klausur wird am Gesetz korrigiert. |
 | 19.10.2026 | KI-VO-Wortlaut aus der konsolidierten EUR-Lex-Fassung (Stand 27.07.2026) | VO (EU) 2026/1744 hat Art. 4 und Art. 113 geändert; Ursprungsfassung wäre irreführend. |
 | 19.10.2026 | Fiktive Personen in Fällen erhalten eigene Namen (nicht die Namen aus den Übungsblättern) | Vorgabe: Übungsfälle in eigenen Worten mit eigenen Namen. |
+| 31.10.2026 | „Fälle kompakt“ (`#/uebersicht`) wird zur Laufzeit aus den geprüften Lösungsskizzen und Schemata erzeugt, ohne eigene Datendatei | Keine neuen Rechtsinhalte, die ein eigenes Fach-Review bräuchten; die Übersicht bleibt automatisch aktuell, wenn Fälle ergänzt werden. Anspruchsgrundlagen werden per Muster „Anspruch X gegen Y … aus § …“ aus der obersten Skizzenebene gelesen (`js/kompakt.js`, getestet). |
 | 19.10.2026 | Datenschutz-Themen ohne Materialbeleg (Cookies § 25 TDDDG, Drittland) als „zusatz“ (Gewicht C) | Stoffumfang = Materialien; Zusatz nur ergänzend. |
