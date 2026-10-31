@@ -63,6 +63,27 @@
       "text": "Vertrag als Vertreter, ohne Vertretungsmacht, Genehmigung verweigert (+); B kannte den Mangel → Abs. 1; aber Ausschluss § 179 Abs. 3 S. 1 BGB: G kannte die Grenze von 3.000 € → (−)"
     }
   ],
+  "kurzSachverhalt": [
+    "H ermächtigt ihren Angestellten B im Arbeitsvertrag zum Einkauf bis 3.000 € je Auftrag und schreibt dem Lieferanten G: „Herr Krüger ist für mich einkaufsberechtigt, bis 3.000 € je Auftrag.“",
+    "H kündigt B fristlos und sagt ihm, die Einkaufsberechtigung sei weg; G informiert sie nicht.",
+    "B bestellt aus Ärger im Namen der H bei G (1) Obstbäume für 2.400 € und (2) gesondert einen Folientunnel für 4.500 €; G weiß nichts von der Kündigung und musste davon auch nichts wissen; den Brief der H hat er im Ordner.",
+    "H verweigert Annahme und Genehmigung; G verlangt beide Preise von H, hilfsweise 4.500 € von B."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. G gegen H auf 2.400 € aus § 433 Abs. 2 BGB (+)" },
+    { "ebene": 2, "text": "Einigung: Bestellung des B, Annahme durch G (+); Zurechnung an H über § 164 Abs. 1 BGB." },
+    { "ebene": 2, "text": "Eigene WE (B wählt Ware und Preis selbst) und im fremden Namen („Herr Krüger von der Gärtnerei Roth“) (+)" },
+    { "ebene": 2, "text": "Vollmacht: Innenvollmacht im Arbeitsvertrag, § 167 Abs. 1 Alt. 1 BGB – aber erloschen mit der fristlosen Kündigung (§ 168 S. 1 BGB) und durch den ausdrücklichen Widerruf gegenüber B (§ 168 S. 2, 3 BGB)." },
+    { "ebene": 2, "text": "Rechtsschein, §§ 171, 173 BGB: der Brief an G ist eine besondere Mitteilung der Innenvollmacht (§ 171 Abs. 1 BGB) → wirkt fort, bis die Kundgebung in derselben Weise (Mitteilung an G) widerrufen wird (Abs. 2) – nicht geschehen. G kannte das Erlöschen nicht und musste es nicht kennen (§ 173 BGB); 2.400 € liegen im kundgegebenen Rahmen von 3.000 €." },
+    { "ebene": 2, "text": "Ärger des B betrifft nur das Innenverhältnis; kein Missbrauch der Vertretungsmacht, G konnte nichts erkennen." },
+    { "ebene": 2, "text": "Ergebnis: wirksamer Kaufvertrag → 2.400 € Zug um Zug gegen Lieferung, § 320 BGB." },
+    { "ebene": 1, "text": "B. G gegen H auf 4.500 € aus § 433 Abs. 2 BGB (−)" },
+    { "ebene": 2, "text": "Rechtsschein nach § 171 BGB reicht nur so weit wie die Kundgabe: 3.000 € je Auftrag; der gesonderte Auftrag über 4.500 € liegt darüber → keine Vertretungsmacht (hätte schon die ursprüngliche Vollmacht nicht gedeckt)." },
+    { "ebene": 2, "text": "§ 177 Abs. 1 BGB: H verweigert gegenüber G die Genehmigung → endgültig unwirksam." },
+    { "ebene": 1, "text": "C. G gegen B aus § 179 Abs. 1 BGB (−)" },
+    { "ebene": 2, "text": "Voraussetzungen (+): B schloss als Vertreter ohne Vertretungsmacht, H verweigert die Genehmigung; B kannte den Mangel → keine Beschränkung nach § 179 Abs. 2 BGB." },
+    { "ebene": 2, "text": "Ausschluss, § 179 Abs. 3 S. 1 BGB: G hatte die schriftliche Grenze von 3.000 € je Auftrag vorliegen → er musste erkennen, dass 4.500 € nicht gedeckt sind (Kennenmüssen = fahrlässige Unkenntnis, vgl. § 122 Abs. 2 BGB) → nicht schutzwürdig." }
+  ],
   "musterloesung": [
     {
       "id": "A",

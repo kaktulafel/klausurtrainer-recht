@@ -26,6 +26,7 @@
 - M5: README, CLAUDE.md/AGENTS.md, docs/DATENFORMATE.md, docs/THEMENKARTE.md (generiert, `npm run docs`), Namensprüfung ohne Klartextnamen
 
 - 31.10.2026: Bereich **„Fälle kompakt“** (`#/uebersicht`, `views/uebersicht.js`, Logik `js/kompakt.js` + Tests): Kurzgliederung aller Fälle, Index nach Anspruchsgrundlage, Schemata kompakt; erreichbar über „Mehr“ und den Gutachten-Trainer. Dabei Fehler „[object HTMLDetailsElement]“ auf `#/wissen` behoben (FIXLOG).
+- 01.11.2026: Alle 18 Fälle haben neue Felder `kurzSachverhalt` und `stichpunkte` (Stichpunktlösung mit Kontext), zweitgeprüft durch zwei Review-Subagenten (REVIEW.md, kein kritischer Befund); „Fälle kompakt“ zeigt sie standardmäßig, Anspruchs-Index nutzt sie (mit Ergebnis (+)/(−)). Flaky MC-Schritt im E2E behoben (FIXLOG).
 
 ## Offen / Ideen für später
 - § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen

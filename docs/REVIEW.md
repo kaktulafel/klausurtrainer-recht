@@ -75,6 +75,23 @@ Gesamturteil: Fall 01 setzt alle vier Korrekturhinweise korrekt um; Nachbesserun
 - [x] Drills: dr-12 (10 Tage → 4 Wochen, Überlegungsfrist), dr-13 (Vorrang Mängelrecht), dr-10 (Außenvollmacht § 143 Abs. 3), dr-21 („kennen musste“ als Pflicht), dr-03/dr-14 (genauere Zitate als richtig), dr-16 (Vergleichsfall), dr-05 (Nichtigkeit des ganzen Vertrags).
 - [x] **Parser-Fehler gefunden:** unbekannte Gesetzesabkürzungen (VVG, SchwarzArbG) wurden still als BGB gedeutet → behoben (+ Test); VVG, EFZG, SchwarzArbG im Register mit amtlichem Wortlaut.
 
+### Stichpunktlösungen und Kurz-Sachverhalte (31.10.2026, zwei frische Zweitkorrektoren, je 9 Fälle)
+Neue Felder `kurzSachverhalt` und `stichpunkte` aller 18 Fälle, geprüft gegen Sachverhalt und Musterlösung sowie den amtlichen Wortlaut. **Kein kritischer Befund**; alle Ergebnisse (+)/(−) stimmen mit den Musterlösungen überein. Alle mittleren und geringen Befunde übernommen:
+- [x] fall-01 (mittel): Alter der N und „kein Anlass zu Zweifeln“ (Grundlage für § 179 Abs. 3 S. 1, 2) im Kurz-Sachverhalt; „Auftrag“ → entgeltliches Geschäftsbesorgungsverhältnis (§ 662 setzt Unentgeltlichkeit voraus).
+- [x] fall-03 (gering): Rückübereignung statt bloßer Rückgabe der Kamera (L ist Eigentümerin).
+- [x] fall-04 (mittel): „musste nichts wissen“ (§ 173) im Kurz-Sachverhalt; Widerruf der Kundgebung „in derselben Weise“ (§ 171 Abs. 2).
+- [x] fall-06 (mittel): § 122 Abs. 2 auch „kennen musste“; § 356 Abs. 3 für die Belehrung.
+- [x] fall-07 (gering): Ergebnis zu Teil B ergänzt.
+- [x] fall-09 (gering/mittel): § 269 Abs. 1 nur für die Abholung, Barzahlung als Regelfall; § 812 Abs. 1 S. 1 Alt. 2 präzise.
+- [x] fall-10 (mittel): Auslegung statt unbelegter Tatsache („für D weder erkennbar noch wichtig“); § 475 Abs. 2 mit beiden Voraussetzungen.
+- [x] fall-12 (gering): § 311 Abs. 2 Nr. 2 in Teil B; Vertretenmüssen als eigener Punkt.
+- [x] fall-13 (gering): Erklärung der Eltern gegenüber A und Anlass der Rückforderung im Kurz-Sachverhalt.
+- [x] fall-14 (mittel): Integritätsinteresse (A hängt am Wagen) im Kurz-Sachverhalt und als Grund der 130-%-Prüfung.
+- [x] fall-15 (mittel): Fristsetzung vor Fälligkeit abgesichert; eingeplante Mechaniker im Kurz-Sachverhalt.
+- [x] fall-16 (mittel): Unkenntnis der M („an ihr vorbeigegangen“) – trennt Anscheins- von Duldungsvollmacht.
+- [x] fall-18 (mittel): gebrauchtes Rad (Umfang der Vollmacht) und „Schnäppchen“ (Kennenmüssen des T, § 166 Abs. 1) im Kurz-Sachverhalt; § 179 Abs. 3 S. 1 eindeutig als „kein Ausschluss“.
+- fall-02, 05, 08, 11, 17: ohne Befund.
+
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |
 |---|---|---|

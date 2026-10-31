@@ -20,6 +20,23 @@
     { "ebene": 2, "text": "Haftungsausfüllung: (1) Wirtschaftlicher Totalschaden – Reparatur > 130 % des Wiederbeschaffungswerts → nur 2.500 € (§ 251 Abs. 2 BGB) · (2) 1.500 € (+) · (3) Arthrose nicht unfallbedingt (−) · (4) Schmerzensgeld § 253 Abs. 2 BGB (+, Höhe angemessen) · (5) nur vergleichbarer Wagen 600 € · (6) Anspruch auf Verdienstausfall geht auf den Arbeitgeber über (§ 6 Abs. 1 EFZG)" },
     { "ebene": 2, "text": "Daneben Halterhaftung § 7 Abs. 1 StVG (verschuldensunabhängig)" }
   ],
+  "kurzSachverhalt": [
+    "J fährt innerorts zu schnell, missachtet an einer Kreuzung ohne Verkehrszeichen „rechts vor links“ und fährt A in die Seitentür.",
+    "A: Auto beschädigt, erhebliche Knieprellung, zwei Wochen arbeitsunfähig.",
+    "Posten: (1) Reparatur 3.500 € bei Wiederbeschaffungswert 2.500 € – A hängt am Wagen, Restwert unerheblich; (2) Heilbehandlung 1.500 €; (3) Physiotherapie 1.800 € wegen alter Arthrose; (4) Schmerzensgeld 800 €; (5) Porsche als Mietwagen 2.400 € statt 600 € für die eigene Klasse; (6) 2.800 € Lohn, den der Arbeitgeber fortgezahlt hat."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A gegen J auf 5.400 € aus § 823 Abs. 1 BGB (+)" },
+    { "ebene": 2, "text": "Haftungsbegründung: Rechtsgutsverletzung Eigentum (Auto) sowie Körper/Gesundheit (Prellung); Handlung: Vorfahrtsverstoß bei überhöhter Geschwindigkeit; kausal und adäquat; Rechtswidrigkeit indiziert; Fahrlässigkeit, § 276 Abs. 2 BGB (+)" },
+    { "ebene": 2, "text": "Haftungsausfüllung: Naturalrestitution bzw. Geld, § 249 Abs. 1, Abs. 2 S. 1 BGB:" },
+    { "ebene": 3, "text": "(1) Integritätsinteresse (A will den Wagen behalten) → Reparatur bis 130 % des Wiederbeschaffungswerts (3.250 €) ersatzfähig; 3.500 € liegen darüber → wirtschaftlicher Totalschaden → nur 2.500 € (vgl. § 251 Abs. 2 S. 1 BGB); keine Aufspaltung." },
+    { "ebene": 3, "text": "(2) Heilbehandlung unfallbedingt → 1.500 € (+). (3) Arthrose bestand vorher → keine haftungsausfüllende Kausalität (−)." },
+    { "ebene": 3, "text": "(4) Schmerzensgeld bei Körper-/Gesundheitsverletzung, § 253 Abs. 2 BGB → 800 € vertretbar (+)." },
+    { "ebene": 3, "text": "(5) Mietwagen nur in der eigenen Klasse erforderlich (Wirtschaftlichkeitsgebot) → 600 €." },
+    { "ebene": 3, "text": "(6) Verdienstausfall ist trotz Lohnfortzahlung ein Schaden der A, geht aber auf den Arbeitgeber über, § 6 Abs. 1 EFZG → A selbst (−)." },
+    { "ebene": 2, "text": "Summe 2.500 + 1.500 + 800 + 600 = 5.400 €." },
+    { "ebene": 1, "text": "Daneben: Halterhaftung § 7 Abs. 1 StVG (verschuldensunabhängig), Fahrerhaftung § 18 Abs. 1 StVG; Betriebsgefahr der A (§ 17 StVG, § 254 BGB) tritt zurück; Direktanspruch gegen den Versicherer, § 115 Abs. 1 S. 1 Nr. 1 VVG." }
+  ],
   "musterloesung": [
     {
       "id": "A",

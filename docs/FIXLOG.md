@@ -54,3 +54,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Symptom:** Die Themenliste unter `#/wissen` erschien als Kette „[object HTMLDetailsElement],…“ (auch live).
 - **Ursache:** Der null-sichere `append`/`prepend`/`replaceChildren` aus `ui/dom.js` reichte Arrays unverändert weiter; das native `append` macht daraus Text. `h()` entfaltet Arrays, `append` nicht – leicht zu verwechseln.
 - **Fix:** Der Wrapper entfaltet Arrays jetzt wie `h()` (`flat(Infinity)`). E2E prüft zusätzlich auf sichtbares „[object …]“ (vorher nur „[object Object]“, daher unentdeckt).
+
+## 01.11.2026 – E2E: MC-Schritt flaky bei Optionen mit Normzitat
+- **Symptom:** „MC beantworten → Feedback sichtbar“ scheiterte gelegentlich mit Timeout bei „Antwort prüfen“ (ca. 3 von 40 Läufen nachgestellt).
+- **Ursache:** Der Test klickte die Mitte von `label.option`. Enthält der Optionstext ein Normzitat (z. B. „Art. 13 DSGVO“), traf der Klick den Norm-Knopf; dessen Popover überdeckte danach „Antwort prüfen“.
+- **Fix:** Der Test klickt das Eingabefeld (`label.option input`) statt der Label-Mitte (an beiden Stellen). 60 nachgestellte Läufe ohne Fehler. Kein App-Fehler: Für Nutzer:innen ist das Popover gewollt.

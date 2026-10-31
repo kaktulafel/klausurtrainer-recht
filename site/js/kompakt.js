@@ -1,11 +1,12 @@
-// Fälle kompakt: Ansprüche aus den Lösungsskizzen herauslösen und nach Anspruchsgrundlage gruppieren (ohne DOM).
+// Fälle kompakt: Ansprüche aus Stichpunktlösung bzw. Lösungsskizze herauslösen und nach Anspruchsgrundlage gruppieren (ohne DOM).
 import { parseNormen } from './normparser.js';
 
-const ANSPRUCH = /Anspruch\s+(\S+)\s+gegen\s+(\S+)\b.*?\baus\s+((?:§§?|Art\.)\s.*?\b(?:BGB|StVG|EFZG|DSGVO|BDSG))/;
+// „(Anspruch) V gegen K … aus § …“ – das Wort „Anspruch“ fehlt in der Stichpunktlösung meist.
+const ANSPRUCH = /(?:Anspruch\s+)?(\S+)\s+gegen\s+(\S+)\b.*?\baus\s+((?:§§?|Art\.)\s.*?\b(?:BGB|StVG|EFZG|DSGVO|BDSG))/;
 
-/** Liest „A. Anspruch V gegen K auf … aus § 433 Abs. 2 BGB“ → { wer, gegen, grundlage } oder null. */
+/** Liest „A. (Anspruch) V gegen K auf … aus § 433 Abs. 2 BGB (+)“ → { wer, gegen, grundlage } oder null. */
 export function anspruchAus(text) {
-  const m = String(text ?? '').match(ANSPRUCH);
+  const m = ohneGliederung(text).match(ANSPRUCH);
   if (!m) return null;
   return { wer: m[1], gegen: m[2], grundlage: m[3].replace(/\s+Nr\.\s*\d+/g, '').trim() };
 }
@@ -18,20 +19,25 @@ export function ohneGliederung(text) {
   return String(text ?? '').replace(/^(?:[A-Z]|[IVX]+|\d+)\.\s+/, '');
 }
 
+/** Stichpunktlösung (mit Ergebnis und Kontext), ersatzweise die Lösungsskizze. */
+export function zeilen(f) {
+  return f.stichpunkte?.length ? f.stichpunkte : (f.skizze || []);
+}
+
 function ersteNr(grundlage) {
   const n = parseNormen(grundlage)[0];
   return n ? parseFloat(n.nr) || 0 : 0;
 }
 
 /**
- * Alle Prüfungen der obersten Ebene aus den Skizzen: Ansprüche gruppiert nach Anspruchsgrundlage
- * (aufsteigend nach Paragraph), übrige Prüfungen (Gestaltungsrechte, Wirksamkeit …) separat.
+ * Alle Prüfungen der obersten Ebene aus der Stichpunktlösung (sonst der Skizze): Ansprüche gruppiert nach
+ * Anspruchsgrundlage (aufsteigend nach Paragraph), übrige Prüfungen (Gestaltungsrechte, Wirksamkeit …) separat.
  */
 export function gruppiereAnsprueche(faelle) {
   const gruppen = new Map();
   const sonstige = [];
   for (const f of faelle) {
-    for (const z of f.skizze || []) {
+    for (const z of zeilen(f)) {
       if (z.ebene !== 1) continue;
       const a = anspruchAus(z.text);
       const eintrag = { fallId: f.id, fallTitel: f.titel, text: ohneGliederung(z.text) };
@@ -60,10 +66,11 @@ export function schemaFuer(grundlage) {
 }
 export const SCHEMA_IDS = SCHEMA_ZU.map(([, id]) => id);
 
-/** Volltextsuche über Titel, Kurzbeschreibung, Fallfragen und Skizze (Groß-/Kleinschreibung egal, alle Wörter). */
+/** Volltextsuche über Titel, Kurzbeschreibung, Sachverhalt in Stichpunkten, Fallfragen, Skizze und Stichpunktlösung. */
 export function fallPasst(fall, suche) {
   const woerter = String(suche ?? '').toLowerCase().split(/\s+/).filter(Boolean);
   if (!woerter.length) return true;
-  const text = [fall.id, fall.titel, fall.kurz, ...(fall.fallfragen || []), ...(fall.skizze || []).map(z => z.text)].join(' ').toLowerCase();
+  const teile = [fall.id, fall.titel, fall.kurz, ...(fall.kurzSachverhalt || []), ...(fall.fallfragen || []), ...(fall.skizze || []), ...(fall.stichpunkte || [])];
+  const text = teile.map(x => (typeof x === 'string' ? x : x?.text ?? '')).join(' ').toLowerCase();
   return woerter.every(w => text.includes(w));
 }

@@ -71,6 +71,30 @@
       "text": "Etwas erlangt (Geld), durch Leistung der L, ohne Rechtsgrund (Kaufvertrag unwirksam) → (+); T kann seinerseits Rückübereignung der Kamera verlangen"
     }
   ],
+  "kurzSachverhalt": [
+    "L (16) bekommt 40 € Taschengeld pro Woche zur freien Verfügung und hat 350 € gespart.",
+    "Sie kauft bei T eine Kamera für 600 €: 350 € sofort bar, Rest in zwei Raten zu 125 € aus dem Taschengeld.",
+    "T nimmt die 350 € und übergibt die Kamera: „Die gehört jetzt dir.“",
+    "Die Eltern erklären T, sie seien nicht einverstanden; T verlangt die restlichen 250 € und hält sich weiter für den Eigentümer."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. T gegen L auf 250 € aus § 433 Abs. 2 BGB (−)" },
+    { "ebene": 2, "text": "Einigung über Kauf zu 600 € mit Raten (+)" },
+    { "ebene": 2, "text": "L ist mit 16 beschränkt geschäftsfähig, § 106 BGB → Einwilligung nötig, § 107 BGB, außer bei lediglich rechtlichem Vorteil." },
+    { "ebene": 3, "text": "Rechtlicher Vorteil (−): Kaufvertrag verpflichtet zur Zahlung von 600 €; ein günstiger Preis ändert daran nichts." },
+    { "ebene": 3, "text": "Einwilligung der Eltern (§§ 183 S. 1, 1629 Abs. 1 BGB) in diesen Kauf (−)" },
+    { "ebene": 3, "text": "§ 110 BGB (−): Mittel zur freien Verfügung (+), aber „bewirkt“ erst mit vollständiger Leistung – beim Ratenkauf erst mit der letzten Rate; L hat erst 350 € von 600 € gezahlt." },
+    { "ebene": 2, "text": "Folge: schwebend unwirksam, § 108 Abs. 1 BGB; Eltern verweigern am Telefon gegenüber T die Genehmigung (§ 182 Abs. 1 BGB) → endgültig unwirksam." },
+    { "ebene": 1, "text": "B. Eigentum an der Kamera: L ist Eigentümerin" },
+    { "ebene": 2, "text": "Übereignung § 929 S. 1 BGB: Einigung („Die gehört jetzt dir“, kein Eigentumsvorbehalt) und Übergabe (+); Zugang an L nach § 131 Abs. 2 S. 2 BGB, da lediglich vorteilhaft." },
+    { "ebene": 2, "text": "Einigungserklärung der L wirksam: Eigentumserwerb ist lediglich rechtlich vorteilhaft, § 107 BGB (+). Die Unwirksamkeit des Kaufs schadet wegen des Abstraktionsprinzips nicht." },
+    { "ebene": 2, "text": "T kann aber Rückübereignung nach § 812 Abs. 1 S. 1 Alt. 1 BGB verlangen (kein Rechtsgrund)." },
+    { "ebene": 1, "text": "C. L gegen T auf 350 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (+)" },
+    { "ebene": 2, "text": "Etwas erlangt: Eigentum und Besitz an 350 €. Die Übereignung des Geldes ist wirksam, weil das Taschengeld zur freien Verfügung überlassen und diese Zahlung vollständig erbracht ist (Rechtsgedanke § 110 BGB)." },
+    { "ebene": 2, "text": "Durch Leistung: L zahlt bewusst zur Tilgung der Kaufpreisschuld (+)" },
+    { "ebene": 2, "text": "Ohne Rechtsgrund: Kaufvertrag endgültig unwirksam (+)" },
+    { "ebene": 2, "text": "Folge: Rückzahlung der 350 € Zug um Zug gegen Rückübereignung und Rückgabe der Kamera (§ 812 Abs. 1 S. 1 Alt. 1 BGB), ggf. Zurückbehaltungsrecht, § 273 BGB." }
+  ],
   "musterloesung": [
     {
       "id": "A",

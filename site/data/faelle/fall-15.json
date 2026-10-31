@@ -21,6 +21,26 @@
     { "ebene": 1, "text": "B. Anspruch J gegen N auf 200 € aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB" },
     { "ebene": 2, "text": "Schuldverhältnis, fällige Leistung nicht erbracht, erfolglose Frist, Vertretenmüssen (vermutet; N zog andere Kunden vor), Schaden: Mehrkosten des Deckungsgeschäfts 200 € (positives Interesse) · neben dem Rücktritt möglich (§ 325 BGB)" }
   ],
+  "kurzSachverhalt": [
+    "J bringt seinen SUV zur Inspektion zu N; kein Termin vereinbart, üblich sind zwei bis drei Werktage.",
+    "Am Mittwoch zieht N Notfälle vor; J: „Wenn der Wagen bis nächsten Montag, 12 Uhr, nicht fertig ist, gehe ich zur Konkurrenz.“",
+    "Montagnachmittag ist nichts geschehen; J holt den Wagen und erklärt, er wolle mit N nichts mehr zu tun haben. N verlangt 400 € Werklohn, weil sie für den Nachmittag Mechaniker eingeplant habe.",
+    "J lässt sofort anderswo inspizieren: 400 € + 200 € Expresszuschlag; die 200 € verlangt er von N."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. N gegen J auf 400 € aus § 631 Abs. 1 BGB (−)" },
+    { "ebene": 2, "text": "Entstanden: Werkvertrag über die Inspektion (+)" },
+    { "ebene": 2, "text": "Erloschen durch Rücktritt (§ 346 Abs. 1 BGB – Leistungspflichten entfallen):" },
+    { "ebene": 3, "text": "Erklärung, § 349 BGB: „will nichts mehr mit ihr zu tun haben“ + Abholen = Rücktritt (§§ 133, 157 BGB)." },
+    { "ebene": 3, "text": "Grund, § 323 Abs. 1 BGB: gegenseitiger Vertrag; fällig spätestens nach üblichen zwei bis drei Werktagen (§ 271 Abs. 1 BGB); nicht geleistet; angemessene Frist bis Montag 12 Uhr erfolglos abgelaufen. Selbst wenn Fälligkeit erst am Donnerstag eintrat: die Frist bis Montag reicht, jedenfalls lief nach Fälligkeit eine angemessene Frist ab. Eingeplante Mechaniker am Nachmittag ändern nichts." },
+    { "ebene": 3, "text": "Kein Ausschluss nach § 323 Abs. 6 BGB; Vertretenmüssen der N für den Rücktritt nicht nötig." },
+    { "ebene": 1, "text": "B. J gegen N auf 200 € aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB (+)" },
+    { "ebene": 2, "text": "Schuldverhältnis (Werkvertrag) und Pflichtverletzung: fällige Inspektion nicht erbracht (+)" },
+    { "ebene": 2, "text": "Angemessene Frist erfolglos, § 281 Abs. 1 S. 1 BGB (+)" },
+    { "ebene": 2, "text": "Vertretenmüssen vermutet (§ 280 Abs. 1 S. 2 BGB); N zog andere Kunden bewusst vor (§ 276 Abs. 1 BGB) (+)" },
+    { "ebene": 2, "text": "Rücktritt schließt Schadensersatz nicht aus, § 325 BGB." },
+    { "ebene": 2, "text": "Schaden (positives Interesse, § 249 Abs. 1 BGB): Deckungsgeschäft 600 € statt 400 € → 200 €; kein Verstoß gegen § 254 Abs. 2 S. 1 BGB, wenn kurzfristig nur Express möglich war." }
+  ],
   "musterloesung": [
     {
       "id": "A",

@@ -39,7 +39,7 @@ await schritt('Alle Bereiche laden ohne Konsolenfehler, ohne Überlauf, ohne nul
 
 await schritt('MC beantworten → Feedback sichtbar', async () => {
   await page.goto(basis + '#/mc?start=1&modus=ueben&n=3', { waitUntil: 'networkidle' });
-  await page.locator('label.option, li.aussage .rf button, li.aussage > select').first().click();
+  await page.locator('label.option input, li.aussage .rf button, li.aussage > select').first().click();
   await page.getByRole('button', { name: 'Antwort prüfen' }).click();
   await page.waitForSelector('.erklaerung:not([hidden])');
   const t = await sichtbarerText();
@@ -64,7 +64,7 @@ await schritt('Probeklausur: starten, bearbeiten, abgeben, auswerten, speichern'
   await page.locator('textarea').first().fill('Der Taschengeldparagraph ist § 110 BGB.');
   await page.getByRole('tab', { name: 'Teil C' }).click();
   await page.locator('.optionen').first().waitFor();
-  const erste = page.locator('.optionen').first().locator('label.option, li.aussage .rf button, li.aussage > select').first();
+  const erste = page.locator('.optionen').first().locator('label.option input, li.aussage .rf button, li.aussage > select').first();
   await erste.click();
   await keinMuell('#/klausur (Sitzung)');
   // Reload: Antworten müssen erhalten bleiben
@@ -95,7 +95,7 @@ await schritt('Wiederholen: fällige Karten werden angezeigt', async () => {
   const vorher = await page.evaluate(() => Object.values(JSON.parse(localStorage.getItem('nk-recht:state')).srs).reduce((s, k) => s + k.anzahl, 0));
   const karteTyp = await page.locator('.karte .badge').first().innerText();
   if (karteTyp === 'Datenschutz-MC') {
-    await page.locator('label.option, li.aussage .rf button, li.aussage > select').first().click();
+    await page.locator('label.option input, li.aussage .rf button, li.aussage > select').first().click();
     await page.getByRole('button', { name: 'Antwort prüfen' }).click();
     await page.getByRole('button', { name: 'Weiter' }).click();
   } else {

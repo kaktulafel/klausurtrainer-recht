@@ -27,6 +27,32 @@
     { "ebene": 2, "text": "III. Ergebnis: Rückzahlung Zug um Zug gegen Rückgabe des Blattes" },
     { "ebene": 1, "text": "Frage 2: Anfechtung nach § 119 Abs. 2 BGB (verkehrswesentliche Eigenschaft) – unverzüglich (§ 121 BGB) – Folge: Ersatz des Vertrauensschadens an G (§ 122 Abs. 1 BGB)" }
   ],
+  "kurzSachverhalt": [
+    "K kauft privat per Telefon bei der Galerie G (nur Telefon- und Onlinevertrieb) ein Blatt, das die Mitarbeiterin als „Original-Lithografie, vom Künstler selbst auf den Stein gezeichnet“ beschreibt, für 2.000 €; ordnungsgemäße Widerrufsbelehrung per E-Mail.",
+    "Tatsächlich ist es ein nur signierter Offsetdruck (Wert ca. 400 €); die Mitarbeiterin weiß das und will den Verkauf nicht gefährden.",
+    "K erhält das Blatt am 6. März und zahlt; am 9. April erfährt er die Wahrheit und schreibt G: „Ich wurde getäuscht. Ich widerrufe den Kauf und verlange mein Geld zurück.“",
+    "Frage 2 (Abwandlung): Die Mitarbeiterin wusste selbst nichts; K hielt das Blatt für eine vom Künstler gefertigte Lithografie."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "Frage 1: Rückzahlung der 2.000 €" },
+    { "ebene": 1, "text": "A. K gegen G auf 2.000 € aus § 355 Abs. 3 S. 1 BGB (Widerruf) (−)" },
+    { "ebene": 2, "text": "Widerrufsrecht, § 312g Abs. 1 BGB (+): K Verbraucher (§ 13 BGB), G Unternehmerin (§ 14 BGB), Fernabsatz über Telefon/E-Mail in organisiertem Fernvertrieb (§ 312c Abs. 1 BGB)." },
+    { "ebene": 2, "text": "Erklärung gegenüber G, § 355 Abs. 1 S. 2 BGB (+)" },
+    { "ebene": 2, "text": "Frist 14 Tage, § 355 Abs. 2 S. 1 BGB, ab Erhalt der Ware (§ 356 Abs. 2 Nr. 1 lit. a BGB), Belehrung lag vor (§ 356 Abs. 3 BGB): Erhalt 6. März → Ende 20. März (§§ 187 Abs. 1, 188 Abs. 1 BGB); Widerruf am 9. April verspätet." },
+    { "ebene": 1, "text": "B. K gegen G auf 2.000 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (+)" },
+    { "ebene": 2, "text": "Etwas erlangt durch Leistung: Kaufpreiszahlung (+)" },
+    { "ebene": 2, "text": "Ohne Rechtsgrund, wenn der Kaufvertrag angefochten ist (§ 142 Abs. 1 BGB):" },
+    { "ebene": 3, "text": "Grund: arglistige Täuschung, § 123 Abs. 1 Alt. 1 BGB – „vom Künstler selbst auf den Stein gezeichnet“ ist eine unwahre Tatsache → K irrt → zahlt deshalb 2.000 € → Mitarbeiterin weiß es und nimmt es in Kauf. Sie verhandelt für G, ist keine Dritte i. S. d. § 123 Abs. 2 BGB → Zurechnung an G." },
+    { "ebene": 3, "text": "Erklärung: „widerrufe“, beruft sich aber ausdrücklich auf die Täuschung → nach §§ 133, 157 BGB auch Anfechtung gegenüber G (§ 143 Abs. 1, 2 BGB)." },
+    { "ebene": 3, "text": "Frist: ein Jahr ab Entdeckung, § 124 Abs. 1, 2 BGB – am Tag der Entdeckung (+); keine Bestätigung, § 144 BGB." },
+    { "ebene": 3, "text": "Folge: Vertrag nichtig; kein Anspruch der G aus § 122 BGB, da Anfechtung nach § 123 BGB." },
+    { "ebene": 2, "text": "Ergebnis: 2.000 € zurück, Zug um Zug gegen Rückgabe des Blattes (§ 985 BGB bzw. § 812 BGB; §§ 273, 274 BGB)." },
+    { "ebene": 1, "text": "Frage 2: Anfechtung wegen Eigenschaftsirrtums, § 119 Abs. 2 BGB (+), aber Ersatz des Vertrauensschadens" },
+    { "ebene": 2, "text": "§ 123 BGB (−): Mitarbeiterin kannte die Unrichtigkeit nicht → keine Arglist." },
+    { "ebene": 2, "text": "Eigenschaft = dauerhaft anhaftender wertbildender Faktor (nicht der Preis selbst): ob das Blatt vom Künstler selbst gefertigt ist, ist im Kunsthandel verkehrswesentlich; K irrte darüber und hätte sonst nicht 2.000 € gezahlt." },
+    { "ebene": 2, "text": "Anfechtung unverzüglich nach Entdeckung, § 121 Abs. 1 S. 1 BGB, gegenüber G, § 143 Abs. 2 BGB." },
+    { "ebene": 2, "text": "Folge: Vertrag nichtig, Geld zurück über § 812 Abs. 1 S. 1 Alt. 1 BGB; K schuldet G den Vertrauensschaden (z. B. Versandkosten), § 122 Abs. 1 BGB – kein Ausschluss nach § 122 Abs. 2 BGB, G kannte den Anfechtungsgrund nicht und musste ihn nicht kennen." }
+  ],
   "musterloesung": [
     {
       "id": "A",

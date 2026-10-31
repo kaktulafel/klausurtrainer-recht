@@ -20,6 +20,22 @@
     { "ebene": 1, "text": "B. Anspruch G gegen M auf Kaufpreis aus § 433 Abs. 2 BGB" },
     { "ebene": 2, "text": "Vertrag durch N als Vertreterin (§ 164 Abs. 1 BGB): eigene WE, im Namen des Studios (+); Vertretungsmacht: keine Vollmacht, Aushilfe in Buchhaltung umfasst keinen Einkauf · Anscheinsvollmacht: wiederholtes Auftreten über Jahre, G gutgläubig, M hätte es bei Sorgfalt erkennen und verhindern können → (+) → Anspruch (+)" }
   ],
+  "kurzSachverhalt": [
+    "Teil 1: J bittet Mitbewohner D: „Bring mir die FAZ mit.“ D sagt am Kiosk der A versehentlich „Bitte eine Rundschau“, zahlt mit J’s Geld; J will die Rundschau nicht.",
+    "Teil 2: Die volljährige N hilft seit drei Jahren in den Semesterferien in der Buchhaltung des Studios ihrer Mutter M und bestellt jedes Jahr telefonisch im Namen des Studios Nagellack bei G; die Buchhaltung zahlt, M kümmerte sich nie darum – die früheren Bestellungen seien „an ihr vorbeigegangen“ (keine Kenntnis). Eine Vollmacht gab es nie.",
+    "Diesmal bestellt N doppelt; M verweigert Annahme und Zahlung, weil sie N nie bevollmächtigt habe."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. Vertrag über die Zeitung: A – J über eine Rundschau; Lösung durch Anfechtung nach § 120 BGB" },
+    { "ebene": 2, "text": "Bote oder Vertreter? D sollte genau „die FAZ“ holen, kein Entscheidungsspielraum → Bote, gibt keine eigene WE ab (a. A. vertretbar: Vertreter, dann Geschäft für den, den es angeht)." },
+    { "ebene": 2, "text": "Verfälschte Botenerklärung gilt so, wie sie ankommt → Kaufvertrag A – J über eine Rundschau." },
+    { "ebene": 2, "text": "Anfechtung wegen falscher Übermittlung, § 120 BGB (wie § 119 BGB): J wollte keine Rundschau; unverzüglich gegenüber A (§ 121 Abs. 1 S. 1, § 143 Abs. 2 BGB) → nichtig (§ 142 Abs. 1 BGB); J schuldet Vertrauensschaden (§ 122 Abs. 1 BGB); Geld gegen Zeitung zurück (§ 812 Abs. 1 S. 1 Alt. 1 BGB)." },
+    { "ebene": 1, "text": "B. G gegen M auf Kaufpreis aus § 433 Abs. 2 BGB (+)" },
+    { "ebene": 2, "text": "Eigene WE der N (Auswahl, Menge) im Namen des Studios; Annahme durch Lieferung (+)" },
+    { "ebene": 2, "text": "Vollmacht (§ 166 Abs. 2 S. 1, § 167 BGB) (−): nie erteilt; Einkauf gehört nicht zur Buchhaltungsaushilfe (a. A. vertretbar)." },
+    { "ebene": 2, "text": "Anscheinsvollmacht (Rechtsgedanke §§ 170 ff. BGB) (+): N trat drei Jahre lang regelmäßig als Vertreterin auf; M kannte es nicht, hätte es bei ordnungsgemäßer Organisation aber erkennen und verhindern können (Rechnungen aus ihrer Buchhaltung bezahlt); G vertraute gutgläubig auf diese Praxis." },
+    { "ebene": 2, "text": "Überflüssige Doppelbestellung betrifft nur das Innenverhältnis → Kaufpreis Zug um Zug gegen Lieferung." }
+  ],
   "musterloesung": [
     {
       "id": "A",

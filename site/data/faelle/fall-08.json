@@ -21,6 +21,23 @@
     { "ebene": 1, "text": "B. Zugang der Kündigung (§ 130 Abs. 1 S. 1 BGB)" },
     { "ebene": 2, "text": "A ist Erklärungsbotin der V; (a) Mitbewohnerin = Empfangsbotin → Zugang, wenn Weitergabe zu erwarten (30. April abends) → rechtzeitig; (b) Nachbarin keine Empfangsbotin → Zugang erst bei Übergabe am 3. Mai → verspätet (Risiko bei V)" }
   ],
+  "kurzSachverhalt": [
+    "Teil 1: M bietet D am Dienstag um 21:00 Uhr per privater E-Mail ihre Konsole für 230 € an; um 22:05 Uhr widerruft sie per E-Mail, weil sie anderweitig verkauft hat.",
+    "D öffnet sein Postfach am Mittwoch um 8:00 Uhr, liest nur die erste Mail und antwortet „Angenommen!“.",
+    "Teil 2: Vermieterin V lässt eine Kündigung, die am 30. April zugehen muss, um 18:00 Uhr durch ihre Angestellte A überbringen; der Mieter ist nicht da.",
+    "(a) A gibt sie um 18:30 Uhr der Mitbewohnerin (Weitergabe erst am 2. Mai); (b) A gibt sie der Nachbarin (Weitergabe am 3. Mai)."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. Kaufvertrag M – D (§§ 145 ff. BGB) (−)" },
+    { "ebene": 2, "text": "Angebot: E-Mail mit Ware, Preis, Partner = Antrag; unter Abwesenden wirksam erst mit Zugang, § 130 Abs. 1 S. 1 BGB." },
+    { "ebene": 2, "text": "Zugang = Machtbereich + unter gewöhnlichen Umständen Kenntnisnahme zu erwarten: private Mail um 21 Uhr → erst Mittwochmorgen (a. A. vertretbar: noch am Abend → dann Widerruf verspätet)." },
+    { "ebene": 2, "text": "Widerruf, § 130 Abs. 1 S. 2 BGB: Mail von 22:05 Uhr geht ebenfalls Mittwochmorgen zu → gleichzeitig mit dem Angebot → Angebot wird nicht wirksam; dass D sie später liest, ist egal." },
+    { "ebene": 2, "text": "„Angenommen!“ geht ins Leere – allenfalls neuer Antrag des D (§§ 133, 157 BGB), den M nicht angenommen hat." },
+    { "ebene": 1, "text": "B. Zugang der Kündigung (§ 130 Abs. 1 S. 1 BGB)" },
+    { "ebene": 2, "text": "A gehört zum Lager der V = Erklärungsbotin → Übergabe an A ist noch kein Zugang; Verzögerungen trägt V." },
+    { "ebene": 2, "text": "(a) Mitbewohnerin ist nach Verkehrsanschauung zur Entgegennahme geeignet = Empfangsbotin → Zugang, sobald Weitergabe zu erwarten ist (noch am Abend) → 30. April, rechtzeitig; die späte Weitergabe trägt der Mieter." },
+    { "ebene": 2, "text": "(b) Nachbarin ist keine Empfangsbotin, sondern weitere Erklärungsbotin der V → Zugang erst mit Übergabe am 3. Mai → verspätet." }
+  ],
   "musterloesung": [
     {
       "id": "A",

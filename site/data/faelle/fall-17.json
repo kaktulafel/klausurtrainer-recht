@@ -21,6 +21,21 @@
     { "ebene": 2, "text": "Vertrag A – J? Antrag „3 €“ der A über B als Erklärungsboten: Boten können auch Geschäftsunfähige sein; B übermittelte nicht (sondern „2 €“) → Antrag über 3 € nicht zugegangen (§ 130 Abs. 1 BGB) · Zahlung von 2 € durch J = Antrag über 2 € (Auslegung §§ 133, 157 BGB), B als Bote des J · Annahme durch A konkludent (Entgegennahme des Geldes) → Vertrag A – J zu 2 €" },
     { "ebene": 1, "text": "Frage 2: B mit Vollendung des 7. Lebensjahres beschränkt geschäftsfähig (§ 187 Abs. 2 S. 2, § 106 BGB) → eigenes Angebot über 2 €; rechtlich nachteilig (§ 107 BGB) → schwebend unwirksam, Genehmigung der A (§§ 108, 1629, 184 BGB)" }
   ],
+  "kurzSachverhalt": [
+    "A gibt ihrem 6-jährigen Sohn B zu klein gewordene Schuhe für den Kita-Ankauf mit (üblich 3 €): „Sag dem Erzieher, die Schuhe kosten drei Euro.“",
+    "B sagt dem einkaufsbefugten Erzieher J „Zwei Euro“; J gibt ihm 2 €, B gibt sie nachmittags A, die sie wortlos annimmt.",
+    "Frage 2: dasselbe am 7. Geburtstag des B, der die Schuhe auf eigene Faust verkauft."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "Frage 1: Kaufvertrag A – J zu 2 €" },
+    { "ebene": 2, "text": "Vertrag B – J (−): B ist mit 6 geschäftsunfähig (§ 104 Nr. 1 BGB), eigene WE nichtig (§ 105 Abs. 1 BGB)." },
+    { "ebene": 2, "text": "B als Erklärungsbote der A – auch ein Geschäftsunfähiger kann Bote sein. Der Antrag über 3 € ist J nie zugegangen (§ 130 Abs. 1 S. 1 BGB)." },
+    { "ebene": 2, "text": "Hingabe der 2 € = Antrag des J auf Kauf zu 2 € (§§ 133, 157 BGB), von B als Bote des J zu A gebracht; A nimmt das Geld wortlos an und behält es = konkludente Annahme ohne Erklärung gegenüber J (§ 151 S. 1 BGB). (A. A.: falsch übermittelte Erklärung der A über 2 € zuzurechnen, § 120 BGB – ohne Anfechtung ebenfalls 2 €.)" },
+    { "ebene": 1, "text": "Frage 2: Vertrag B – J, schwebend unwirksam bis zur Genehmigung der A" },
+    { "ebene": 2, "text": "Geburtstag wird mitgerechnet (§ 187 Abs. 2 S. 2 BGB) → B hat das 7. Lebensjahr vollendet → beschränkt geschäftsfähig (§ 106 BGB) → eigene WE, Angebot über 2 €, J nimmt an." },
+    { "ebene": 2, "text": "Pflicht zur Übereignung = rechtlich nachteilig (§ 107 BGB); keine Einwilligung; § 110 BGB (−), B bewirkt keine Leistung mit überlassenen Mitteln, sondern veräußert eigenes Eigentum." },
+    { "ebene": 2, "text": "Schwebend unwirksam (§ 108 Abs. 1 BGB); Genehmigung der A (§ 1629 Abs. 1 BGB) wirkt zurück (§ 184 Abs. 1 BGB) – ggf. konkludent durch Annahme des Geldes in Kenntnis der Umstände." }
+  ],
   "musterloesung": [
     {
       "id": "A",

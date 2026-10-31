@@ -157,7 +157,7 @@ for (const [datei, inhalt] of Object.entries(json)) {
     const f = inhalt;
     id(datei, f);
     if (datei !== `faelle/${f.id}.json`) F(datei, f.id, 'Dateiname muss der ID entsprechen');
-    pflicht(datei, f, { titel: 'str', themen: 'strArr', schwierigkeit: 'num', minuten: 'num', punkte: 'num', sachverhalt: 'strArr', fallfragen: 'strArr', skizze: 'arr', musterloesung: 'arr', raster: 'arr', gutachtenstil: 'arr', erwarteteNormen: 'strArr', schluesselbegriffe: 'strArr', typischeFehler: 'strArr', abwandlungen: 'arr' });
+    pflicht(datei, f, { titel: 'str', themen: 'strArr', schwierigkeit: 'num', minuten: 'num', punkte: 'num', sachverhalt: 'strArr', fallfragen: 'strArr', skizze: 'arr', kurzSachverhalt: 'strArr', stichpunkte: 'arr', musterloesung: 'arr', raster: 'arr', gutachtenstil: 'arr', erwarteteNormen: 'strArr', schluesselbegriffe: 'strArr', typischeFehler: 'strArr', abwandlungen: 'arr' });
     quelle(datei, f); thema(datei, f, 'themen');
     const abschnitte = new Set();
     for (const a of f.musterloesung || []) { pflicht(datei, { id: f.id + '/' + a.id, ...a }, { titel: 'str', text: 'str' }); abschnitte.add(a.id); }
@@ -177,6 +177,8 @@ for (const [datei, inhalt] of Object.entries(json)) {
     if (Math.abs(summe - f.punkte) > 1e-6) F(datei, f.id, `Raster + Gutachtenstil = ${summe} ≠ punkte ${f.punkte}`);
     for (const a of abschnitte) if (!(f.raster || []).some(r => r.abschnitt === a)) F(datei, f.id, `Abschnitt ${a} der Musterlösung hat keinen Rasterpunkt`);
     for (const s of f.skizze || []) if (!typ.num(s.ebene) || !typ.str(s.text)) F(datei, f.id, 'Skizzenzeile braucht ebene + text');
+    for (const s of f.stichpunkte || []) if (![1, 2, 3].includes(s.ebene) || !typ.str(s.text)) F(datei, f.id, 'Stichpunkt braucht ebene (1–3) + text');
+    if (!(f.stichpunkte || []).some(s => s.ebene === 1)) F(datei, f.id, 'Stichpunktlösung braucht mindestens eine Prüfung (ebene 1)');
     for (const a of f.abwandlungen || []) if (!typ.str(a.frage) || !typ.str(a.kurzloesung)) F(datei, f.id, 'Abwandlung braucht frage + kurzloesung');
     if (f.minuten >= 60 && !(f.abwandlungen || []).length) F(datei, f.id, 'klausurgroßer Fall braucht mindestens eine Abwandlung');
     if (f.gefuehrt) {

@@ -63,6 +63,8 @@ Wird von `node scripts/index-aktualisieren.mjs` aus den vorhandenen Dateien erze
 | `punkte` | num | = Summe `raster` + Summe `gutachtenstil` (geprüft) |
 | `sachverhalt`, `fallfragen` | str[] | Absätze; Bearbeitungshinweise als letzte Fallfrage |
 | `skizze` | `[{ebene: 1–3, text}]` | Lösungsskizze |
+| `kurzSachverhalt` | `string[]` | Sachverhalt in Stichpunkten (wer, was, welche entscheidenden Fakten) für „Fälle kompakt“ |
+| `stichpunkte` | `[{ebene: 1–3, text}]` | Stichpunktlösung mit Kontext: Ebene 1 = Prüfung mit Ergebnis (+)/(−), Ebene 2/3 = Merkmal → Definition/Norm → Fakten aus dem Sachverhalt → Ergebnis |
 | `musterloesung` | `[{id, titel, text}]` | Abschnitte im Gutachtenstil; jeder Abschnitt braucht ≥ 1 Rasterpunkt |
 | `raster` | `[{id, abschnitt, kriterium, punkte}]` | `abschnitt` = `musterloesung[].id` |
 | `gutachtenstil` | `[{id, kriterium, punkte}]` | eigener Punkteblock für den Stil |

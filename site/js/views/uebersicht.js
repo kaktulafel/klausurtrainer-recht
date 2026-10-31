@@ -1,5 +1,5 @@
-// Fälle kompakt: alle Fälle als Kurzgliederung (Ansprüche, Tatbestandsmerkmale, Ergebnis), Index nach
-// Anspruchsgrundlage und alle Schemata auf einer Seite. Quelle sind die geprüften Lösungsskizzen und Schemata.
+// Fälle kompakt: alle Fälle mit Sachverhalt in Stichpunkten und Stichpunktlösung (Ansprüche, Tatbestandsmerkmale,
+// Fakten, Ergebnis) bzw. als reine Gliederung, Index nach Anspruchsgrundlage und alle Schemata auf einer Seite.
 import { h, karte, inline } from '../ui/dom.js';
 import { themenBadges, ungeprueftBadge } from '../ui/widgets.js';
 import { lade, ladeKategorie } from '../data.js';
@@ -14,7 +14,7 @@ export async function render(main, { pfad, query }) {
   const faelle = [...daten].sort((a, b) => a.id.localeCompare(b.id));
   main.append(
     h('h1', null, 'Fälle kompakt'),
-    h('p', { class: 'leise lese' }, 'Alle Fälle in Kurzform: wer gegen wen woraus, die Tatbestandsmerkmale und das Ergebnis, so wie in der Lösungsskizze. Zum Wiederholen vor der Klausur und zum Ausdrucken.'),
+    h('p', { class: 'leise lese' }, 'Alle Fälle in Kurzform: der Sachverhalt in Stichpunkten und die Stichpunktlösung – wer gegen wen woraus, jedes Tatbestandsmerkmal mit den entscheidenden Fakten aus dem Fall und das Ergebnis. Umschaltbar auf die reine Gliederung. Zum Wiederholen vor der Klausur und zum Ausdrucken.'),
     h('div', { class: 'btn-reihe' }, ANSICHTEN.map(([k, v]) => h('a', { class: 'btn klein ' + (k === ansicht ? '' : 'leise'), href: '#/uebersicht' + (k ? '/' + k : ''), 'aria-current': k === ansicht ? 'page' : null }, v))));
   if (ansicht === 'ansprueche') return ansprueche(main, faelle, schemata);
   if (ansicht === 'schemata') return schemataKompakt(main, schemata);
@@ -26,6 +26,13 @@ function fallListe(main, faelle, tm, sprungZiel) {
   const suche = h('input', { type: 'search', placeholder: 'Suchen, z. B. „§ 179“ oder „Taschengeld“', 'aria-label': 'Fälle durchsuchen' });
   const thema = h('select', { 'aria-label': 'Nach Thema filtern' }, h('option', { value: '' }, 'Alle Themen'), themen.map(x => h('option', { value: x.id }, x.titel)));
   const anzahl = h('p', { class: 'klein leise', 'aria-live': 'polite' });
+  const liste = h('div', { class: 'ue-faelle' });
+  const umschalter = h('div', { class: 'btn-reihe nicht-drucken', role: 'group', 'aria-label': 'Darstellung' },
+    [['stichpunkte', 'Stichpunktlösung mit Kontext'], ['gliederung', 'Nur Gliederung']].map(([k, label], i) =>
+      h('button', { type: 'button', class: 'btn klein ' + (i ? 'leise' : ''), 'aria-pressed': String(!i), onclick: (e) => {
+        liste.classList.toggle('nur-gliederung', k === 'gliederung');
+        for (const b of umschalter.querySelectorAll('button')) { const an = b === e.currentTarget; b.setAttribute('aria-pressed', String(an)); b.classList.toggle('leise', !an); }
+      } }, label)));
   const karten = faelle.map(f => ({ f, el: fallKarte(f, tm) }));
   const filtern = () => {
     let n = 0;
@@ -38,9 +45,10 @@ function fallListe(main, faelle, tm, sprungZiel) {
   };
   suche.addEventListener('input', filtern);
   thema.addEventListener('change', filtern);
-  main.append(h('div', { class: 'suchfeld' }, suche, thema), anzahl,
+  liste.append(...karten.map(k => k.el));
+  main.append(h('div', { class: 'suchfeld' }, suche, thema), umschalter, anzahl,
     h('nav', { class: 'ue-inhalt nicht-drucken', 'aria-label': 'Fälle' }, h('ol', null, faelle.map(f => h('li', null, h('a', { href: '#/uebersicht', onclick: (e) => springe(e, f.id) }, `${nummer(f)} ${f.titel}`))))),
-    ...karten.map(k => k.el),
+    liste,
     druckKnopf());
   filtern();
   if (sprungZiel) requestAnimationFrame(() => springe(null, sprungZiel));
@@ -51,8 +59,10 @@ function fallKarte(f, tm) {
     h('h2', null, `${nummer(f)} · ${f.titel} `, ungeprueftBadge(f)),
     h('p', { class: 'klein leise' }, `${f.minuten} min · ${f.punkte} P. · `, themenBadges(f.themen, tm)),
     f.kurz ? h('p', { class: 'ue-kurz' }, inline(f.kurz)) : null,
+    f.kurzSachverhalt?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Sachverhalt in Stichpunkten'), h('ul', { class: 'ue-sv' }, f.kurzSachverhalt.map(s => h('li', null, inline(s))))) : null,
     h('details', null, h('summary', null, 'Fallfragen'), h('ul', null, f.fallfragen.map(q => h('li', null, inline(q))))),
-    gliederung(f.skizze),
+    f.stichpunkte?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Stichpunktlösung'), gliederung(f.stichpunkte)) : null,
+    h('div', { class: f.stichpunkte?.length ? 'ue-sk' : null }, h('p', { class: 'ue-label' }, 'Gliederung'), gliederung(f.skizze)),
     h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/faelle/' + f.id }, 'Fall bearbeiten →')));
 }
 

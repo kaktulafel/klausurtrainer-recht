@@ -221,3 +221,9 @@ h3.ue-z { font-size: 1rem; margin-top: 12px; padding: 4px 8px; background: var(-
 .ue-e3 { padding-left: 28px; border-left: 3px solid var(--akzent-hell); margin-left: 8px; font-size: 0.95em; }
 .ue-liste li, .ue-schema li { margin: 4px 0; overflow-wrap: anywhere; }
 .ue-schema .ue-schema { list-style: lower-alpha; }
+.ue-label { font-weight: 700; font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.04em; color: var(--text2); margin: 14px 0 4px; }
+.ue-sv { margin: 0; padding-left: 1.3em; }
+.ue-sv li { margin: 3px 0; }
+.ue-sk { display: none; }
+.nur-gliederung .ue-sp { display: none; }
+.nur-gliederung .ue-sk { display: block; }

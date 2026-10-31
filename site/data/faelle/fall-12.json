@@ -20,6 +20,22 @@
     { "ebene": 1, "text": "B. Anspruch D gegen C auf 50 € aus §§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB" },
     { "ebene": 2, "text": "Vertragsanbahnung über das Portal · Pflichtverletzung: gefälschte Bewertungen (Rücksicht auf Entscheidungsfreiheit/Interessen) · Vorsatz · adäquat kausaler Schaden: nutzlose Aufwendungen 50 € (negatives Interesse)" }
   ],
+  "kurzSachverhalt": [
+    "Teil 1: N ruft den Onlineshop des Händlers J auf, um eine Konsole zu kaufen, bestellt aber nichts. Über J’s Website, auf der seit über einem Jahr keine Sicherheitsupdates eingespielt wurden, fängt sie sich Schadsoftware ein und zahlt 500 € Lösegeld.",
+    "Teil 2: D will über das Portal der C (eigenes Zimmerkontingent) ein Hotel buchen, das dort 9,5/10 Punkte hat; im Vertrauen darauf kauft er Theaterkarten für 50 €. Die Bewertungen hat C selbst verfasst; D bucht nicht und fährt woandershin."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. N gegen J auf 500 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB (c. i. c.) (+)" },
+    { "ebene": 2, "text": "Schuldverhältnis: kein Vertrag, aber Vertragsanbahnung mit Einwirkungsmöglichkeit auf die Rechtsgüter (§ 311 Abs. 2 Nr. 2 BGB) – N besucht den Shop, um zu kaufen (+)" },
+    { "ebene": 2, "text": "Pflichtverletzung, § 241 Abs. 2 BGB: Shopbetreiber muss Besucher vor Schadsoftware schützen; über ein Jahr keine Updates (+)" },
+    { "ebene": 2, "text": "Vertretenmüssen vermutet (§ 280 Abs. 1 S. 2 BGB), jedenfalls Fahrlässigkeit (§ 276 Abs. 2 BGB) (+)" },
+    { "ebene": 2, "text": "Kausaler Schaden: ohne Infektion kein Lösegeld; Erpressung nicht lebensfremd; Zahlung durch die Erpressung herausgefordert; kein Mitverschulden (§ 254 BGB) → 500 € (§ 249 Abs. 1 BGB)." },
+    { "ebene": 1, "text": "B. D gegen C auf 50 € aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB (c. i. c.) (+)" },
+    { "ebene": 2, "text": "Schuldverhältnis: Buchungsanbahnung über das Portal mit eigenem Kontingent (§ 311 Abs. 2 Nr. 2 BGB) (+)" },
+    { "ebene": 2, "text": "Pflichtverletzung: § 241 Abs. 2 BGB schützt auch die Entscheidungsfreiheit – selbst verfasste Bewertungen täuschen über die Hotelqualität (+)" },
+    { "ebene": 2, "text": "Vertretenmüssen: Vorsatz, § 276 Abs. 1 BGB (+)" },
+    { "ebene": 2, "text": "Schaden: negatives Interesse – ohne Vertrauen keine Karten → 50 €; D’s Entschluss, nicht zu fahren, wurde durch die Täuschung herausgefordert und liegt im Schutzbereich; kein Mitverschulden." }
+  ],
   "musterloesung": [
     {
       "id": "A",

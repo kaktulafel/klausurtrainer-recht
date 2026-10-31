@@ -21,6 +21,23 @@
     { "ebene": 1, "text": "B. Wirksamkeit der Kündigung" },
     { "ebene": 2, "text": "Abgabe fehlt (Entäußerung ohne Willen der L) – h. M.: keine WE, ggf. Vertrauensschaden analog § 122 BGB; Vorlesung: Zurechnung nach Empfängerhorizont → wirksam, aber anfechtbar" }
   ],
+  "kurzSachverhalt": [
+    "Teil 1: O winkt in einer Weinversteigerung seinem Freund zu; Auktionator T hält das für ein Gebot und erteilt den Zuschlag für 45.400 €. O erklärt sofort, er wolle nichts ersteigern.",
+    "Teil 2: L legt eine unterschriebene, adressierte Kündigung ihrer Wohnung auf den Schreibtisch, um später zu entscheiden; ihr Partner Jan schickt sie ohne ihr Wissen ab. Die neue Wohnung klappt nicht."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. T gegen O auf 45.400 € aus § 433 Abs. 2 BGB (−)" },
+    { "ebene": 2, "text": "Vertragsschluss durch Gebot und Zuschlag, § 156 S. 1 BGB – war das Winken ein Gebot (WE)?" },
+    { "ebene": 2, "text": "Objektiv: Handzeichen im laufenden Auktionssaal durfte T als Gebot verstehen (§§ 133, 157 BGB). Subjektiv: Handlungswille (+), Erklärungsbewusstsein (−)." },
+    { "ebene": 2, "text": "h. M.: trotzdem WE, wenn O bei verkehrsüblicher Sorgfalt erkennen konnte, dass Winken als Gebot gilt, und T es so verstehen durfte – wer in einer Auktion winkt, muss damit rechnen → Vertrag (+)" },
+    { "ebene": 2, "text": "Anfechtung analog § 119 Abs. 1 BGB (wie Erklärungsirrtum): sofortige Erklärung gegenüber T = unverzüglich (§ 121 Abs. 1 S. 1 BGB), richtiger Gegner (§ 143 Abs. 1, 2 BGB) → nichtig, § 142 Abs. 1 BGB." },
+    { "ebene": 2, "text": "Folge: kein Kaufpreis; T kann aber den Vertrauensschaden verlangen, § 122 Abs. 1 BGB." },
+    { "ebene": 1, "text": "B. Wirksamkeit der Kündigung der L" },
+    { "ebene": 2, "text": "Empfangsbedürftige WE: Abgabe und Zugang nötig, § 130 Abs. 1 S. 1 BGB. Abgabe = willentliches Inverkehrbringen in Richtung Empfänger – L wollte noch warten, Jan schickte ohne ihren Willen ab → abhandengekommene WE." },
+    { "ebene": 2, "text": "h. M.: keine WE → Kündigung unwirksam; bei Fahrlässigkeit (offen liegender Umschlag) allenfalls Vertrauensschaden analog § 122 BGB." },
+    { "ebene": 2, "text": "Vorlesung: Zurechnung wie beim fehlenden Erklärungsbewusstsein (objektiver Empfängerhorizont, L hätte es verhindern können) → wirksam, aber unverzüglich anfechtbar analog § 119 Abs. 1 BGB (§ 121 Abs. 1 S. 1 BGB), Folge § 122 BGB." },
+    { "ebene": 2, "text": "Ergebnis: Nach beiden Lösungen behält L die Wohnung – nach der Vorlesung nur bei unverzüglicher Anfechtung nach Kenntnis." }
+  ],
   "musterloesung": [
     {
       "id": "A",

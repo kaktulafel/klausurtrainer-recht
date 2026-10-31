@@ -27,6 +27,24 @@
     { "ebene": 2, "text": "I. Anspruch P gegen F auf weitere Beiträge aus dem Abo-Vertrag: § 110 (−) bei Dauerschuldverhältnis/Raten – nicht vollständig bewirkt; § 108 Abs. 1 BGB schwebend unwirksam; Verweigerung der Genehmigung gegenüber P → endgültig unwirksam → (−)" },
     { "ebene": 2, "text": "II. Anspruch F gegen P auf 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (+); Gegenanspruch P auf Wertersatz scheitert an § 818 Abs. 3 BGB (Minderjährigenschutz)" }
   ],
+  "kurzSachverhalt": [
+    "F (17) gibt Nachhilfe; das Honorar geht mit Erlaubnis der Eltern auf sein PayPal-Konto, über das er frei verfügen darf (meist 40–80 € Guthaben).",
+    "Er kauft bei P Spielpunkte für 19,99 € und zahlt sofort vollständig.",
+    "Später schließt er ein 6-Monats-Abo für monatlich 9,99 € ab; nach zwei Monaten sind 19,98 € bezahlt und die Punkte verbraucht.",
+    "Die Eltern erklären P, sie seien nicht einverstanden, und wollen Abo-Ende und Geld zurück; P verlangt die vier restlichen Beiträge."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. F gegen P auf 19,99 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (−)" },
+    { "ebene": 2, "text": "Etwas erlangt durch Leistung: Zahlung zur Erfüllung des Punkte-Kaufs (+)" },
+    { "ebene": 2, "text": "Rechtsgrund = wirksamer Kaufvertrag? F ist beschränkt geschäftsfähig (§ 106 BGB), Zahlungspflicht ist rechtlich nachteilig (§ 107 BGB), keine Einwilligung in diesen Kauf." },
+    { "ebene": 2, "text": "§ 113 BGB (−): erfasst nur Geschäfte rund um das Dienstverhältnis selbst, nicht die Verwendung des Lohns." },
+    { "ebene": 2, "text": "§ 110 BGB (+): Honorar stammt von Dritten und wurde mit Zustimmung der Eltern zur freien Verfügung überlassen; 19,99 € sofort vollständig bezahlt = bewirkt → Vertrag von Anfang an wirksam → Rechtsgrund besteht." },
+    { "ebene": 1, "text": "B. Abo: keine weiteren Beiträge, Rückzahlung der 19,98 €" },
+    { "ebene": 2, "text": "P gegen F auf weitere Beiträge (−): Abo rechtlich nachteilig, keine Einwilligung; § 110 BGB (−), weil erst 2 von 6 Beiträgen gezahlt – § 110 BGB soll nicht in längerfristige Bindungen führen (a. A.: für bezahlte Monate wirksam; dagegen: feste Sechs-Monats-Bindung als Einheit)." },
+    { "ebene": 2, "text": "Schwebend unwirksam, § 108 Abs. 1 BGB; Eltern verweigern gegenüber P die Genehmigung (§ 182 Abs. 1 BGB) → endgültig unwirksam." },
+    { "ebene": 2, "text": "F gegen P auf 19,98 € aus § 812 Abs. 1 S. 1 Alt. 1 BGB (+): Leistung ohne Rechtsgrund." },
+    { "ebene": 2, "text": "Gegenanspruch auf Wertersatz für die Punkte (§ 818 Abs. 2 BGB) scheitert an Entreicherung, § 818 Abs. 3 BGB: Punkte verbraucht, keine ersparten Aufwendungen; Minderjährigenschutz darf nicht unterlaufen werden." }
+  ],
   "musterloesung": [
     {
       "id": "A",

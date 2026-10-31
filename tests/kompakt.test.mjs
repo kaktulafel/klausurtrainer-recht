@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { readFileSync } from 'node:fs';
-import { NUR_UEBERSCHRIFT, anspruchAus, ohneGliederung, gruppiereAnsprueche, schemaFuer, SCHEMA_IDS, fallPasst } from '../site/js/kompakt.js';
+import { NUR_UEBERSCHRIFT, zeilen, anspruchAus, ohneGliederung, gruppiereAnsprueche, schemaFuer, SCHEMA_IDS, fallPasst } from '../site/js/kompakt.js';
 
 const json = (p) => JSON.parse(readFileSync(new URL('../site/data/' + p, import.meta.url), 'utf8'));
 const faelle = json('index.json').dateien.faelle.map(json);
@@ -16,6 +16,12 @@ test('anspruchAus: Anspruchsteller, Gegner und Grundlage', () => {
   assert.equal(anspruchAus(undefined), null);
 });
 
+test('anspruchAus: Stichpunkt-Form ohne das Wort „Anspruch“, mit Ergebnis', () => {
+  assert.deepEqual(anspruchAus('B. MK gegen J auf 4.500 € aus § 433 Abs. 2 BGB (−)'), { wer: 'MK', gegen: 'J', grundlage: '§ 433 Abs. 2 BGB' });
+  assert.deepEqual(anspruchAus('Frage 1: P gegen V aus § 433 Abs. 1 S. 1 BGB (−); Vertrauensschaden 60 € (−, a. A. vertretbar)'), { wer: 'P', gegen: 'V', grundlage: '§ 433 Abs. 1 S. 1 BGB' });
+  assert.equal(anspruchAus('Frage 2: Anfechtung wegen Eigenschaftsirrtums, § 119 Abs. 2 BGB (+), aber Ersatz des Vertrauensschadens'), null);
+});
+
 test('ohneGliederung entfernt nur das Gliederungszeichen', () => {
   assert.equal(ohneGliederung('B. Anspruch V gegen K'), 'Anspruch V gegen K');
   assert.equal(ohneGliederung('II. Vertretungsmacht'), 'Vertretungsmacht');
@@ -24,7 +30,8 @@ test('ohneGliederung entfernt nur das Gliederungszeichen', () => {
 
 test('gruppiereAnsprueche: jede Prüfung der obersten Ebene genau einmal, sortiert nach Paragraph', () => {
   const { gruppen, sonstige } = gruppiereAnsprueche(faelle);
-  const ebene1 = faelle.reduce((s, f) => s + f.skizze.filter(z => z.ebene === 1 && !NUR_UEBERSCHRIFT.test(ohneGliederung(z.text))).length, 0);
+  assert.ok(faelle.every(f => f.stichpunkte?.length && f.kurzSachverhalt?.length), 'jeder Fall hat Stichpunktlösung und Kurz-Sachverhalt');
+  const ebene1 = faelle.reduce((s, f) => s + zeilen(f).filter(z => z.ebene === 1 && !NUR_UEBERSCHRIFT.test(ohneGliederung(z.text))).length, 0);
   assert.ok(!sonstige.some(e => /^(Frage|Teil) \d+$/.test(e.text)), 'keine reinen Überschriften');
   assert.equal(gruppen.reduce((s, g) => s + g.eintraege.length, 0) + sonstige.length, ebene1);
   const kauf = gruppen.find(g => g.grundlage === '§ 433 Abs. 2 BGB');

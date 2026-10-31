@@ -107,6 +107,37 @@
       "text": "Aufwendungsersatz §§ 675 Abs. 1, 670 BGB (−): Auftrag ebenfalls angefochten; Täuschungskosten nicht erforderlich"
     }
   ],
+  "kurzSachverhalt": [
+    "J will ein Dampfermodell ersteigern, das MK im eigenen Namen versteigert; J ist verreist.",
+    "N (34) gibt sich wahrheitswidrig als Gutachterin aus, um den bezahlten Auftrag zu bekommen; J sagt ihr am Telefon: „Ersteigere das Modell für mich, höchstens 5.000 €.“",
+    "N bietet bei MK ausdrücklich im Namen des J 4.500 € und erhält den Zuschlag; MK ahnt nichts von der Täuschung und hatte keinen Anlass, an der Vollmacht zu zweifeln.",
+    "J erfährt von der Lüge, ficht noch am selben Tag gegenüber N die Vollmacht an und verweigert MK gegenüber die Genehmigung.",
+    "MK verlangt 4.500 € von N; N will höchstens die 80 € für die Verpackung zahlen und diese von J ersetzt haben."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. Anfechtung der Vollmacht durch J – Gestaltungsrecht, kein Anspruch; Rechtsfolge § 142 Abs. 1 BGB (+)" },
+    { "ebene": 2, "text": "Anfechtbare WE: Telefonat „ersteigere für mich“ = Innenvollmacht an N, § 167 Abs. 1 Alt. 1 BGB (Vollmacht = rechtsgeschäftliche Vertretungsmacht, § 166 Abs. 2 S. 1 BGB). Nicht § 166 Abs. 1 BGB – der betrifft das Vertretergeschäft mit MK, angefochten wird aber die Vollmachtserteilung." },
+    { "ebene": 2, "text": "Bereits ausgeübte Vollmacht anfechtbar? h. M. ja – MK wird über § 179 BGB geschützt." },
+    { "ebene": 2, "text": "Grund: arglistige Täuschung, § 123 Abs. 1 Alt. 1 BGB – N spiegelt eine Gutachtertätigkeit vor (Tatsache, unwahr) → J irrt und erteilt nur deshalb die Vollmacht (Kausalität) → N weiß, dass alles erfunden ist, und will so den Auftrag (Arglist). N ist Erklärungsempfängerin, keine Dritte i. S. d. § 123 Abs. 2 BGB." },
+    { "ebene": 2, "text": "Erklärung: „Ich fechte die Vollmacht an“ gegenüber N = richtiger Gegner bei der Innenvollmacht, § 143 Abs. 1, Abs. 3 S. 1 BGB (+)" },
+    { "ebene": 2, "text": "Frist: ein Jahr ab Entdeckung, § 124 Abs. 1, Abs. 2 S. 1 BGB – J ficht am Tag der Entdeckung an (+). Kein Ausschluss durch Bestätigung, § 144 BGB (+)" },
+    { "ebene": 2, "text": "Folge: Vollmacht von Anfang an nichtig, § 142 Abs. 1 BGB – N gilt auch beim Zuschlag als ohne Vertretungsmacht." },
+    { "ebene": 1, "text": "B. MK gegen J auf 4.500 € aus § 433 Abs. 2 BGB (−)" },
+    { "ebene": 2, "text": "Vertragsschluss: Gebot der N = Antrag, Zuschlag des MK = Annahme, § 156 S. 1 BGB (+); fraglich ist die Zurechnung an J." },
+    { "ebene": 2, "text": "Stellvertretung, § 164 Abs. 1 BGB: eigene WE (N entscheidet bis 5.000 € selbst → Vertreterin, keine Botin) (+); im fremden Namen (Anmeldung „im Auftrag von Herrn Jakob Albers“, Offenkundigkeit) (+); Vertretungsmacht (−), weil die Vollmacht rückwirkend nichtig ist." },
+    { "ebene": 2, "text": "Kein Rechtsschein nach §§ 170–173 BGB: J hat MK gegenüber nichts erklärt, keine Urkunde; den Schein setzte allein N." },
+    { "ebene": 2, "text": "§ 177 Abs. 1 BGB: Vertrag schwebend unwirksam; J verweigert gegenüber MK die Genehmigung → endgültig unwirksam." },
+    { "ebene": 2, "text": "Ergebnis: kein wirksamer Kaufvertrag, kein Anspruch gegen J." },
+    { "ebene": 1, "text": "C. MK gegen N auf 4.500 € (Zug um Zug gegen Übereignung) aus § 179 Abs. 1 BGB (+)" },
+    { "ebene": 2, "text": "Voraussetzungen: N schloss als Vertreterin den Vertrag, ohne Vertretungsmacht (Anfechtung), Genehmigung verweigert (+)" },
+    { "ebene": 2, "text": "Nur Vertrauensschaden nach § 179 Abs. 2 BGB? Nur bei Unkenntnis des Mangels. N kannte die Anfechtbarkeit, weil sie den Grund durch ihre Täuschung selbst gesetzt hat → § 142 Abs. 2 BGB: sie wird behandelt, als hätte sie die Nichtigkeit gekannt → volle Haftung nach Abs. 1." },
+    { "ebene": 2, "text": "Kein Ausschluss, § 179 Abs. 3 BGB: MK wusste nichts und musste nichts ahnen (S. 1); N ist volljährig (S. 2)." },
+    { "ebene": 2, "text": "Folge: MK wählt Erfüllung → N zahlt 4.500 € Zug um Zug gegen das Modell; ihr Einwand „nur 80 €“ greift nicht." },
+    { "ebene": 1, "text": "D. N gegen J auf Ersatz aus § 122 Abs. 1 BGB (analog) (−)" },
+    { "ebene": 2, "text": "§ 122 BGB gilt nur bei § 118 BGB und Anfechtung nach §§ 119, 120 BGB – J hat nach § 123 BGB angefochten; der Getäuschte haftet dem Täuschenden nicht, keine Analogie." },
+    { "ebene": 2, "text": "Jedenfalls ausgeschlossen nach § 122 Abs. 2 BGB: N kannte den Anfechtungsgrund, sie hat ihn selbst geschaffen." },
+    { "ebene": 2, "text": "Auch kein Aufwendungsersatz, §§ 675 Abs. 1, 670 BGB: entgeltliches Geschäftsbesorgungsverhältnis (200 €) mit angefochten; Kosten der eigenen Täuschung nicht „erforderlich“." }
+  ],
   "musterloesung": [
     {
       "id": "A",

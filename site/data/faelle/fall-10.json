@@ -23,6 +23,26 @@
     { "ebene": 1, "text": "B. Vertrag J – N" },
     { "ebene": 2, "text": "Bestellung = Antrag mit AGB; Lieferung mit abweichenden Bedingungen = (konkludente) Annahme unter Erweiterung (§ 150 Abs. 2 BGB)? Beide behandeln den Vertrag als geschlossen → versteckter Dissens nur im Gerichtsstand (§ 155 BGB) → Vertrag im Übrigen; keine der Klauseln gilt, es gilt das Gesetz (§ 306 Abs. 2 BGB)" }
   ],
+  "kurzSachverhalt": [
+    "Teil 1: Händler J verkauft Privatkunde D seine letzte vorrätige Konsole eines gängigen Modells für 500 € und soll sie verschicken; D zahlt sofort.",
+    "Vor dem Versand zerstört ein Unwetter die Konsole im Lager; J beruft sich auf § 275 BGB und behält das Geld. Das Modell ist bei Großhändlern leicht erhältlich.",
+    "Abwandlung: D wollte abholen; J hatte die Konsole mit Namensschild zurückgelegt und D das mitgeteilt.",
+    "Teil 2: J bestellt bei N mit eigenen AGB (Gerichtsstand München); N liefert mit Lieferschein „Gerichtsstand Frankfurt“. Keiner liest die Bedingungen des anderen; beide halten den Vertrag für geschlossen."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. D gegen J auf Lieferung aus § 433 Abs. 1 S. 1 BGB (+)" },
+    { "ebene": 2, "text": "Entstanden: Kaufvertrag; geschuldet ist nach §§ 133, 157 BGB irgendeine Konsole des Modells (dass nur noch ein Stück vorrätig war, war für D weder erkennbar noch wichtig) → Gattungsschuld, mittlere Art und Güte, § 243 Abs. 1 BGB." },
+    { "ebene": 2, "text": "Erloschen nach § 275 Abs. 1 BGB? Bei Gattungsschuld erst bei Untergang der ganzen Gattung oder nach Konkretisierung (§ 243 Abs. 2 BGB)." },
+    { "ebene": 3, "text": "Schickschuld (§ 269 Abs. 1, 3 BGB): das Erforderliche ist Aussondern und Übergabe an die Transportperson – Zerstörung vor Versand → keine Konkretisierung; Modell anderswo erhältlich → nicht unmöglich." },
+    { "ebene": 3, "text": "Kein Gefahrübergang: § 447 Abs. 1 BGB beim Verbrauchsgüterkauf nur, wenn der Verbraucher den Transporteur selbst beauftragt und der Unternehmer ihn nicht zuvor benannt hat (§ 475 Abs. 2 BGB), und ohnehin erst ab Übergabe." },
+    { "ebene": 2, "text": "Ergebnis: J muss eine andere Konsole beschaffen und liefern." },
+    { "ebene": 2, "text": "Abwandlung (Holschuld): Aussondern + Mitteilung = das Erforderliche → Konkretisierung → Untergang macht unmöglich → J frei (§ 275 Abs. 1 BGB), aber Kaufpreisanspruch entfällt (§ 326 Abs. 1 S. 1 BGB) → D erhält 500 € zurück (§ 326 Abs. 4 i. V. m. § 346 Abs. 1 BGB)." },
+    { "ebene": 1, "text": "B. Vertrag J – N und Gerichtsstand" },
+    { "ebene": 2, "text": "Bestellung mit AGB = Antrag; Lieferung mit abweichenden Bedingungen = Annahme unter Änderung → neuer Antrag, § 150 Abs. 2 BGB." },
+    { "ebene": 2, "text": "Widerspruchslose Entgegennahme = Annahme der N-AGB („letztes Wort“)? Nein: jede Seite wollte nur zu eigenen Bedingungen; h. M. Kongruenzgeltung, im Übrigen § 306 Abs. 2 BGB entsprechend." },
+    { "ebene": 2, "text": "Beide führen den Vertrag durch und halten ihn für geschlossen; Uneinigkeit nur über den Gerichtsstand, unbemerkt → versteckter Dissens, § 155 BGB: Vertrag gilt, weil er auch ohne Gerichtsstandsregel geschlossen worden wäre." },
+    { "ebene": 2, "text": "Ergebnis: Kaufvertrag (+); beide Gerichtsstandsklauseln heben sich auf → gesetzliche Regeln." }
+  ],
   "musterloesung": [
     {
       "id": "A",

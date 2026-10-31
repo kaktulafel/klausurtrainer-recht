@@ -75,6 +75,26 @@
       "text": "IV. Ergebnis: 900 €"
     }
   ],
+  "kurzSachverhalt": [
+    "V versteigert im eigenen Namen einen seltenen Roller (Schätzpreis 3.800 €, laut Katalog wurden für vergleichbare Stücke schon über 40.000 € erzielt); geboten wird in 100-€-Schritten, letztes Gebot X 4.000 €.",
+    "K will 4.200 € bieten, verspricht sich und ruft laut „42.000!“; V hält das für ein ernstes Sprunggebot und erteilt den Zuschlag.",
+    "K ruft sofort: „Ich habe mich versprochen … an die 42.000 bin ich nicht gebunden!“ X ist schon gegangen.",
+    "Neue Versteigerung: nur 3.400 € Erlös, 300 € Kosten; ohne K hätte X den Zuschlag zu 4.000 € bekommen."
+  ],
+  "stichpunkte": [
+    { "ebene": 1, "text": "A. V gegen K auf 42.000 € aus § 433 Abs. 2 BGB (−)" },
+    { "ebene": 2, "text": "Entstanden: Gebot = Antrag, Zuschlag = Annahme, § 156 S. 1 BGB. Inhalt nach §§ 133, 157 BGB (objektiver Empfängerhorizont): laut und deutlich „42.000“, Sprunggebote kommen vor, Katalog nennt über 40.000 € → Gebot über 42.000 € → Vertrag zu 42.000 € (+)" },
+    { "ebene": 2, "text": "Untergegangen durch Anfechtung, § 142 Abs. 1 BGB:" },
+    { "ebene": 3, "text": "Grund: Erklärungsirrtum, § 119 Abs. 1 Alt. 2 BGB – K wollte „4.200“ sagen, hat sich versprochen (Erklärungszeichen geht fehl; kein Inhaltsirrtum, der die Bedeutung des Gesagten verkennt). Kausal und bei verständiger Würdigung erheblich (+)" },
+    { "ebene": 3, "text": "Erklärung: „bin nicht gebunden“ noch im Saal gegenüber V = Anfechtung (Auslegung, § 133 BGB), richtiger Gegner nach § 143 Abs. 1, 2 BGB (+)" },
+    { "ebene": 3, "text": "Frist: sofort nach Bemerken = unverzüglich, § 121 Abs. 1 S. 1 BGB (+); keine Bestätigung, § 144 BGB (+)" },
+    { "ebene": 3, "text": "Folge: Gebot und Kaufvertrag von Anfang an nichtig." },
+    { "ebene": 2, "text": "Ergebnis: kein Anspruch auf 42.000 €." },
+    { "ebene": 1, "text": "B. V gegen K auf 900 € aus § 122 Abs. 1 BGB (+)" },
+    { "ebene": 2, "text": "Anfechtung nach § 119 BGB (nicht § 123 BGB) (+); V ist „der andere“." },
+    { "ebene": 2, "text": "Vertrauensschaden (negatives Interesse, Differenzhypothese § 249 Abs. 1 BGB): Gebot des X erlosch durch das Übergebot (§ 156 S. 2 BGB) → Mindererlös 4.000 € − 3.400 € = 600 € + Kosten der Neuversteigerung 300 € = 900 €; Obergrenze Erfüllungsinteresse nicht erreicht." },
+    { "ebene": 2, "text": "Kein Ausschluss, § 122 Abs. 2 BGB: V musste den Versprecher nicht erkennen (Sprunggebote üblich, Katalogpreise, deutliches Gebot)." }
+  ],
   "musterloesung": [
     {
       "id": "A",
