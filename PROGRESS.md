@@ -30,12 +30,11 @@
 - 01.11.2026: `stichpunkte` aller Fälle auf Stichpunkt-Gutachtenstil umgestellt (OS → Voraussetzungen → Fraglich → Subsumtion → Erg.), zweitgeprüft (REVIEW.md); Validator erzwingt OS-/Erg.-Zeile je Prüfung; Anspruchs-Index zeigt den Ergebnissatz.
 - 01.11.2026: **Prüfungspfade** (`data/pruefpfade.json`, `#/uebersicht/pfade`): 12 Anspruchsschemata + 6 Bausteine im Stichpunkt-Gutachtenstil mit allen Weichen aus den 18 Fällen, Wegweiser „Wer will was? → Anspruch“, Fall- und Pfadverweise; zweitgeprüft (REVIEW.md); Validator + Tests erzwingen Format und Abdeckung.
 - 01.11.2026: **DS-MC pur inhaltlich** (98 Fragen geändert, 62 neu gefasst; Validator verbietet Normen in Frage/Antwort), **Cheatsheets** (`#/cheatsheets`, `data/cheatsheets.json`), **Karteikarten Recht** (`#/karteikarten`, `data/karteikarten/recht.json`, SRS `karte:`), Lernstand-Schema 3; zweitgeprüft (REVIEW.md). **Podcast-PDFs** Recht und Datenschutz: `npm run podcast` → `podcast/` (aus `docs/podcast/`).
+- 01.11.2026: Offene Punkte erledigt: DSGVO-Wortlaut auf konsolidierte, berichtigte Fassung umgestellt (16 Artikel korrigiert), fall-10 § 326 Abs. 2, fall-15 § 648, MC-Schwierigkeit 39/45/16 %, kk-157 geprüft; `npm run normen` läuft wieder vollständig.
 
 ## Offen / Ideen für später
 - § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen
 - Git-Historie enthält in alten Commits die Klartext-Namensregex des Validators (nicht umgeschrieben, siehe FIXLOG)
-- Musterlösungen fall-10 (§ 326 Abs. 2 in der Holschuld-Abwandlung) und fall-15 (Abgrenzung § 648) optional ergänzen (REVIEW.md, nicht kritisch)
-- dsgvo-art-83 am amtlichen Text prüfen, wenn EUR-Lex wieder abrufbar ist; Karte kk-157 im nächsten Review ansehen (REVIEW.md)
 - Optional: weitere Fälle (z. B. zweite Erstklausur-Variante), KI-Check auch für Teil B der Probeklausur
 
 ## Nächste Schritte (exakt)

@@ -41,7 +41,7 @@
   "id": "ds-mc-109",
   "thema": "ds-auftragsverarbeitung",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Wer bleibt bei der Auftragsverarbeitung gegenüber den Betroffenen für die Verarbeitung verantwortlich?",
   "optionen": [
    {
@@ -498,7 +498,7 @@
   "id": "ds-mc-120",
   "thema": "ds-sanktionen",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 3,
   "frage": "Durch einen Datenschutzverstoß werden Gesundheitsdaten einer Kundin im Kollegenkreis bekannt. Sie fühlt sich nachweislich bloßgestellt, ein Vermögensschaden fehlt. Kann sie Schadensersatz verlangen?",
   "optionen": [
    {

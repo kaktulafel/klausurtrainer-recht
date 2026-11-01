@@ -116,7 +116,7 @@ Neue Datei `pruefpfade.json`: 12 Anspruchsschemata und 6 Bausteine im Stichpunkt
 - [x] pfad-823 (mittel): Vorschaden nur bei unfallunabhängiger Erkrankung nicht ersatzfähig; Ausschluss über § 241a Abs. 1.
 - [x] Gering: § 447 nur Preisgefahr (pfad-433-1), Durchsetzbarkeit (433-1, 433-2, 281), Fälligkeit (281), § 156 S. 1, 2, § 147 Abs. 1 S. 1, 2, § 124 Abs. 1, 2 S. 1, Annahme eines nie wirksamen Antrags, versehentliche Botenverfälschung, Erklärungsbewusstsein (Empfänger hat so verstanden), Anfechtungsgegner beim Vertretergeschäft, Kausalität beim Erklärungsirrtum, Ergebnis der Anfechtung bedingt, § 131 Abs. 2 S. 2 nur beschränkt Geschäftsfähige, minderjähriger Veräußerer, Fehleridentität, Berechtigung, Reihenfolge bei § 985, § 312g Abs. 2, § 122-Ergebnis (§ 118 nichtig), fehlende Fallverweise und `weiter`-Verweise.
 - Nicht übernommen: Fälligkeit des Werklohns (§ 641 BGB) – nicht im Register, in keinem Fall relevant.
-- Offen (nicht kritisch, für ein späteres Fall-Review): Musterlösung fall-10 (Abwandlung Holschuld) prüft § 326 Abs. 2 nicht; Hauptlösung fall-15 erwähnt die Abgrenzung zu § 648 nicht.
+- Erledigt 01.11.2026: fall-10 prüft § 326 Abs. 2 S. 1 BGB, fall-15 grenzt zu § 648 BGB ab (siehe „Offene Punkte erledigt“).
 
 ### DS-MC „pur inhaltlich“, Cheatsheets, Karteikarten (01.11.2026, vier frische Zweitkorrektoren)
 Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefasst: Fälle statt Fundstellen, keine Normen mehr in Frage und Antwort. Neu: `cheatsheets.json` und `karteikarten/recht.json`. **Bei MC und Karten keine falsche Lösung.**
@@ -126,8 +126,14 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 - [x] Karteikarten (mittel): kk-015, 026, 030, 035, 041, 072, 081, 082, 092, 107, 120, 135, 005, 098, 128, 038; geringe Befunde; 15 Karten vom Zweitkorrektor ergänzt (u. a. § 433-Pflichten, Kondiktionsarten, § 985, § 324, Verjährung, Deliktsfähigkeit), Quelle je Thema statt pauschal.
 - [x] Beifang: wi-057 zitierte die Höchstfrist mit § 356 Abs. 3, richtig § 356 Abs. 4 S. 1 BGB; pfad-326-4 (Untergang der konkretisierten Sache); pfad-631 (Fälligkeit, § 641 Abs. 1 BGB).
 - [x] Wortlaut-Dateien: technische Reste entfernt (kivo-art-113 „<div“, kivo-art-4 enthielt Art. 4a, fehlender Umbruch in bdsg-26).
-- Eigenständig ohne Zweitkorrektor formuliert und daher im nächsten Review ansehen: Karte „Normenhierarchie“ (kk-157).
-- Offen, nicht kritisch: dsgvo-art-83 lautet im Register „Absätzen 5 und 6“ und „a bis h und i“; der Zweitkorrektor erinnert andere Fassungen. Am amtlichen Text prüfen, sobald EUR-Lex wieder abrufbar ist (am 01.11.2026 lieferte der Abruf keine Texte). Art. 2 Abs. 7 KI-VO und § 7 UWG fehlen im Register; ds-mc-141 und ds-mc-051 kommen ohne dieses Zitat aus.
+- Art. 2 Abs. 7 KI-VO und § 7 UWG fehlen im Register; ds-mc-141 und ds-mc-051 kommen ohne dieses Zitat aus.
+
+### Offene Punkte erledigt (01.11.2026, frischer Zweitkorrektor)
+- [x] **DSGVO-Wortlaut (mittel, Altfehler):** Das Register enthielt die unberichtigte Fassung von 2016. Jetzt konsolidierte Fassung 02016R0679-20160504 aus dem Amt für Veröffentlichungen; Art. 83 Abs. 1 zusätzlich am Berichtigungsblatt gegengeprüft. Geändert u. a. Art. 83 Abs. 1 („Absätzen 4, 5 und 6“), Art. 15 Abs. 4 („Absatz 3“), Art. 20 Abs. 4 („Absatz 1“), Art. 33 Abs. 1 („Artikel 55“), Art. 32 Abs. 1 („gegebenenfalls“), Art. 37 Abs. 1 lit. a, Art. 26 (Überschrift). 16 DSGVO-Artikel betroffen; alle 270 Normen neu abgerufen, BGB, BDSG und übrige Gesetze ohne inhaltliche Änderung, nur Leerzeichen/Umbrüche.
+- [x] kk-157 (gering): Anwendungsvorrang und Landesrecht ergänzt.
+- [x] fall-10 (mittel): § 326 Abs. 2 S. 1 BGB mit Annahmeverzug subsumiert; Gegenfall versäumter Abholtermin. Hinweis: §§ 295, 299, 300 BGB stehen nicht im Register und werden nicht zitiert.
+- [x] fall-15 (gering): Abgrenzung zu § 648 BGB in Lösung und Stichpunkten; § 648 S. 2 mit anderweitigem Erwerb; wackelige Hilfserwägung zur Frist vor Fälligkeit ersetzt.
+- [x] MC-Schwierigkeit neu eingestuft (Zweitkorrektor: 6 von 22 Vorschlägen korrigiert): 55 leicht / 63 mittel / 23 schwer = 39/45/16 %.
 
 ### Podcast-Texte (01.11.2026)
 `docs/podcast/*.md` als Grundlage für die PDFs, geprüft von einem frischen Zweitkorrektor. **Kein kritischer Befund.** Übernommen: 13 mittlere Befunde (u. a. Beispiel zu fall-12 korrigiert, AGB gegenüber Unternehmern, sonstige Rechte in § 823 Abs. 1, 130-Prozent-Grenze verständlich, Eigentumsvorbehalt, fraglicher Punkt der ausgeübten Vollmacht, Vertretenmüssen beim Schadensersatz, wirtschaftliches Interesse und Abwägung, Art. 22 Abs. 2, zeitliche Geltung der KI-VO, Abschnitt „Wo steht was?“), die geringen Befunde und alle 8 vorgeschlagenen Ergänzungen (§ 181, §§ 177 Abs. 2, 178, Drohung, § 147 Abs. 2, § 151, § 241, AGB-Kontrolle, KI-Rollen, DSB nach Art. 37, 38). Zusätzlich § 142 Abs. 2 mit „kennen musste“. Keine echten Personennamen (Hash-Prüfung und Lesen).
@@ -146,7 +152,7 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
-## Rechtsstand / Reformen (Stand 19.10.2026)
+## Rechtsstand / Reformen (Stand 01.11.2026)
 - **KI-Teil des Digital Omnibus: in Kraft** (VO (EU) 2026/1744, seit 27.7.2026) – in Inhalten und Register umgesetzt. Die Vorlesung (16.6.2026) kannte nur den Entwurf.
 - **DSGVO-Teil des Digital Omnibus** (Verfahren 2025/0360(COD), u. a. Art. 33 mit 96 Stunden): laut Recherche des Zweitkorrektors nicht verabschiedet → Fragen bleiben beim geltenden Recht (72 Stunden). Nur Info-Hinweis.
 - **§ 38 Abs. 1 BDSG:** Bundesregierung will Aufhebung bis Ende 2026 einbringen; kein Gesetzesbeschluss gefunden → 20-Personen-Schwelle gilt. **Zum Jahreswechsel erneut prüfen** (betrifft ds-mc-101, 104, 107, nk-125).

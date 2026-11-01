@@ -69,3 +69,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Symptom:** „Suche filtert nicht (0 → 1)“ im neuen E2E-Schritt; davor „Karteikarte nicht gespeichert“.
 - **Ursache:** Der Test zählte, bevor die Ansicht gerendert war, und las den Lernstand vor dem verzögerten Speichern.
 - **Fix:** Der Test wartet auf `.cs-e` und auf den gespeicherten Stand. Kein App-Fehler.
+
+## 01.11.2026 – Register: unberichtigter DSGVO-Text und Abrufreste
+- **Symptom:** Art. 83 Abs. 1 lautete „Absätzen 5 und 6“, Art. 15 Abs. 4 verwies auf „Absatz 1b“; kivo-art-113 endete mit „<div“; kivo-art-4 enthielt Art. 4a; Wörter klebten aneinander („Zivildienstleistende.Bewerberinnen“).
+- **Ursache:** Abruf der Ursprungsfassung statt der konsolidierten; Artikel-Regex ohne Buchstaben; Schnitt mitten im Tag; `</DL>` ohne Umbruch.
+- **Fix:** `fetch-normen.mjs` lädt die konsolidierte Fassung, erkennt `art_4a`, schneidet sauber, entfernt Änderungsmarker und Fußnoten und setzt Umbrüche. Die vorherigen Handkorrekturen sind damit überflüssig; ein neuer Abruf reproduziert das saubere Ergebnis.

@@ -123,7 +123,7 @@
   "id": "ds-mc-019",
   "thema": "ds-begriffe",
   "typ": "multi",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Kundenberater erledigt an einem Tag Folgendes. Was davon ist eine Verarbeitung personenbezogener Daten? (mehrere richtig)",
   "optionen": [
    {
@@ -239,7 +239,7 @@
   "id": "ds-mc-022",
   "thema": "ds-begriffe",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Lohnbüro rechnet für eine Bäckerei weisungsgebunden die Gehälter ab und nutzt die Daten zu keinem eigenen Zweck. Welche Rolle hat das Lohnbüro?",
   "optionen": [
    {

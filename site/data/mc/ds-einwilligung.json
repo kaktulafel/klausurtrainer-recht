@@ -124,7 +124,7 @@
   "id": "ds-mc-057",
   "thema": "ds-einwilligung",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Eine App kann nur genutzt werden, wenn man der Weitergabe aller Kontaktdaten an Werbepartner zustimmt – obwohl dies für den Dienst nicht nötig ist. Was ist das Problem?",
   "optionen": [
    {
@@ -163,7 +163,7 @@
   "id": "ds-mc-058",
   "thema": "ds-einwilligung",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Kunde bestreitet, jemals in Werbeanrufe eingewilligt zu haben. Das Unternehmen behauptet das Gegenteil, hat aber keine Aufzeichnung. Wie ist die Lage?",
   "optionen": [
    {

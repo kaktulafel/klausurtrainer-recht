@@ -15,7 +15,8 @@ const HEUTE = new Date().toISOString().slice(0, 10);
 
 const GII = { BGB: 'bgb', BDSG: 'bdsg_2018', TDDDG: 'ttdsg', HGB: 'hgb', StVG: 'stvg', GG: 'gg', GmbHG: 'gmbhg', AktG: 'aktg', EFZG: 'entgfg', VVG: 'vvg_2008', SchwarzArbG: 'schwarzarbg_2004' };
 const EURLEX = {
-  DSGVO: { celex: '32016R0679', name: 'Verordnung (EU) 2016/679 (DSGVO)' },
+  // Konsolidiert: enthält die Berichtigungen, z. B. Art. 83 Abs. 1 „Absätzen 4, 5 und 6“
+  DSGVO: { celex: '02016R0679-20160504', linkCelex: '32016R0679', name: 'Verordnung (EU) 2016/679 (DSGVO)' },
   'KI-VO': { celex: '02024R1689-20260727', name: 'Verordnung (EU) 2024/1689 (KI-VO), konsolidiert 27.07.2026' }
 };
 
@@ -51,7 +52,7 @@ function textAusXml(xml) {
   return entities(xml
     .replace(/<FnR[^>]*\/>/g, '')
     .replace(/<DT>(.*?)<\/DT>/g, '\n$1 ')
-    .replace(/<\/P>/g, '\n').replace(/<BR\s*\/?>/g, '\n')
+    .replace(/<\/P>/g, '\n').replace(/<\/DL>/g, '\n').replace(/<BR\s*\/?>/g, '\n')
     .replace(/<[^>]+>/g, ''))
     .replace(/[ \t ]+/g, ' ').replace(/ *\n */g, '\n').replace(/\n{2,}/g, '\n').trim();
 }
@@ -96,20 +97,21 @@ function textAusHtml(html) {
 }
 async function ladeEurLex(gesetz) {
   const { celex } = EURLEX[gesetz];
-  const res = await fetch(`https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:${celex}`);
+  // Server des Amts für Veröffentlichungen: gleicher amtlicher Text, EUR-Lex selbst sperrt Skripte (HTTP 202 ohne Inhalt)
+  const res = await fetch(`https://publications.europa.eu/resource/celex/${celex}`, { headers: { accept: 'application/xhtml+xml, text/html', 'accept-language': 'de', 'user-agent': 'Mozilla/5.0' } });
   if (!res.ok) throw new Error(`${gesetz}: HTTP ${res.status}`);
   const html = await res.text();
   const normen = new Map();
   // Kapitel/Abschnitte in Reihenfolge erfassen
   const marken = [];
-  for (const m of html.matchAll(/<div[^>]*id="(cpt_[A-Z]+(?:\.sct_\d+)?|art_\d+)"[^>]*>/g)) marken.push({ id: m[1], pos: m.index });
+  for (const m of html.matchAll(/<div[^>]*id="(cpt_[A-Z]+(?:\.sct_\d+)?|art_\d+[a-z]?)"[^>]*>/g)) marken.push({ id: m[1], pos: m.index });
   let kapitel = '', abschnitt = '';
   for (let i = 0; i < marken.length; i++) {
     const { id, pos } = marken[i];
     const ende = i + 1 < marken.length ? marken[i + 1].pos : html.length;
     let stueck = html.slice(pos, ende);
     const schluss = ['Geschehen zu', 'class="oj-note"', 'id="anx_', 'class="oj-signatory"'].map(x => stueck.indexOf(x)).filter(x => x > 0);
-    if (schluss.length) stueck = stueck.slice(0, Math.min(...schluss));
+    if (schluss.length) stueck = stueck.slice(0, Math.min(...schluss)).replace(/<[^>]*$/, '');
     if (id.startsWith('cpt_')) {
       const titel = [...stueck.matchAll(/<p[^>]*class="oj-ti-section-[12]"[^>]*>([\s\S]*?)<\/p>/g)].map(x => entities(x[1].replace(/<[^>]+>/g, '')).trim().replace(/\s+/g, ' '));
       if (id.includes('.sct_')) abschnitt = titel.join(' – ');
@@ -120,7 +122,10 @@ async function ladeEurLex(gesetz) {
     const ueber = entities(((/<p[^>]*class="oj-sti-art"[^>]*>([\s\S]*?)<\/p>/.exec(stueck) || [])[1] || '').replace(/<[^>]+>/g, '')).trim();
     const koerper = stueck.replace(/<p[^>]*class="oj-ti-art"[^>]*>[\s\S]*?<\/p>/, '').replace(/<p[^>]*class="oj-sti-art"[^>]*>[\s\S]*?<\/p>/, '');
     // Konsolidierte Fassungen: Änderungsmarker (▼M1, ▼B, ▲) entfernen, Überschrift steht im Text
-    let zeilen = textAusHtml(koerper).split('\n').filter(z => !/^[▼▲►◄][A-Z]?\d*$/.test(z.trim()) && z.trim());
+    let zeilen = textAusHtml(koerper).split('\n').filter(z => !/^[▼▲►◄][A-Z]?\d*$/.test(z.trim()) && z.trim()).map(z => z.replace(/[▼►][A-Z]?\d*\s*/g, '').replace(/\s*[◄▲]/g, '').replace(/\s+,/g, ','));
+    // Fußnoten beginnen mit „(“, Nummer und „)“ auf je eigener Zeile
+    const fussnote = zeilen.findIndex((z, j) => z.trim() === '(' && /^\d+$/.test((zeilen[j + 1] || '').trim()) && /^\)/.test((zeilen[j + 2] || '').trim()));
+    if (fussnote >= 0) zeilen = zeilen.slice(0, fussnote);
     let titel = ueber;
     if (zeilen[0] && new RegExp('^Artikel\\s*' + nr + '$').test(zeilen[0].trim())) { zeilen.shift(); if (!titel) titel = (zeilen.shift() || '').trim(); }
     normen.set(nr, { titel, wortlaut: zeilen.join('\n'), lage: [kapitel, abschnitt].filter(Boolean).join(' › ') });
@@ -131,7 +136,7 @@ async function ladeEurLex(gesetz) {
 function link(n) {
   const p = parseEine(n.zitat);
   if (GII[p.gesetz]) return p.zeichen === 'Art.' ? `https://www.gesetze-im-internet.de/${GII[p.gesetz]}/art_${p.nr}.html` : `https://www.gesetze-im-internet.de/${GII[p.gesetz]}/__${p.nr}.html`;
-  if (EURLEX[p.gesetz]) return `https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:${EURLEX[p.gesetz].celex}#art_${p.nr}`;
+  if (EURLEX[p.gesetz]) return `https://eur-lex.europa.eu/legal-content/DE/TXT/HTML/?uri=CELEX:${EURLEX[p.gesetz].linkCelex || EURLEX[p.gesetz].celex}#art_${p.nr}`;
   return n.link;
 }
 

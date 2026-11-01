@@ -51,7 +51,7 @@ Wird von `node scripts/index-aktualisieren.mjs` aus den vorhandenen Dateien erze
   - `zuordnung`: statt `optionen` gibt es `ziele: [{id, text}]` und `paare: [{id, text, loesung: <ziel-id>, erklaerung}]`.
 - Jede Option braucht eine `erklaerung`. Optionstexte dürfen sich nicht wiederholen.
 - **Pur inhaltlich:** Das Gesetz darf in die Klausur. Frage, Optionen, Ziele und Paare nennen keine Normen, Fundstellenfragen sind verboten (Validator). Normen stehen in der `erklaerung`.
-- `schwierigkeit`: 1 leicht · 2 mittel · 3 schwer (Ziel ≈ 40/40/20 %).
+- `schwierigkeit`: 1 leicht · 2 mittel · 3 schwer (Ziel ≈ 40/40/20 %, aktuell 39/45/16 %).
 - Bewertung von `multi`/`aussagen` nach der eingestellten Regel (`site/js/grading.js`, `MC_REGELN`).
 
 ## `faelle/fall-NN.json` – Fälle (ein Objekt je Datei)

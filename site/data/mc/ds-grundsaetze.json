@@ -124,7 +124,7 @@
   "id": "ds-mc-033",
   "thema": "ds-grundsaetze",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Fitnessstudio erhebt für den Mitgliedsvertrag neben Name, Adresse und Bankverbindung auch Religion und Familienstand, „falls man das mal braucht“. Welcher Grundsatz ist vor allem verletzt?",
   "optionen": [
    {
@@ -163,7 +163,7 @@
   "id": "ds-mc-034",
   "thema": "ds-grundsaetze",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Händler nutzt die für die Lieferung erhobene Adresse, um sie an einen Adresshändler zu verkaufen. Gegen welchen Grundsatz verstößt er in erster Linie?",
   "optionen": [
    {
@@ -202,7 +202,7 @@
   "id": "ds-mc-035",
   "thema": "ds-grundsaetze",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 3,
   "frage": "Ein Unternehmen anonymisiert Kundendaten nach Ablauf aller Fristen wirksam und behält sie für Statistiken dauerhaft. Verstößt es gegen die Speicherbegrenzung?",
   "optionen": [
    {
@@ -720,7 +720,7 @@
   "id": "ds-mc-047",
   "thema": "ds-rechtsgrundlagen",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Eine Bank muss Kundendaten über das Vertragsende hinaus aufbewahren, weil handels- und steuerrechtliche Aufbewahrungsfristen das verlangen. Rechtsgrundlage?",
   "optionen": [
    {

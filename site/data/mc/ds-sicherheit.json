@@ -175,7 +175,7 @@
   "id": "ds-mc-088",
   "thema": "ds-sicherheit",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Softwarehaus berücksichtigt schon bei der Entwicklung einer App Pseudonymisierung und Datensparsamkeit. Welches Prinzip setzt es um?",
   "optionen": [
    {
@@ -486,7 +486,7 @@
   "id": "ds-mc-096",
   "thema": "ds-datenpannen",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Mitarbeiter schickt versehentlich eine Excel-Liste mit Namen und Gehältern aller Kollegen an einen externen Empfänger. Liegt eine meldepflichtige Datenpanne vor?",
   "optionen": [
    {
@@ -564,7 +564,7 @@
   "id": "ds-mc-098",
   "thema": "ds-datenpannen",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Ein Auftragsverarbeiter bemerkt eine Datenpanne. Was muss er tun?",
   "optionen": [
    {
@@ -680,7 +680,7 @@
   "id": "ds-mc-101",
   "thema": "ds-dsb",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 3,
   "frage": "Ein Handwerksbetrieb hat 25 Beschäftigte. Nur 5 arbeiten ständig am Computer mit Kundendaten; die übrigen arbeiten auf Baustellen und verarbeiten dort keine personenbezogenen Daten elektronisch. Die Verarbeitung ist einfache Kundenverwaltung ohne besondere Risiken. Muss er einen Datenschutzbeauftragten benennen?",
   "optionen": [
    {
@@ -762,7 +762,7 @@
   "id": "ds-mc-103",
   "thema": "ds-dsb",
   "typ": "single",
-  "schwierigkeit": 2,
+  "schwierigkeit": 1,
   "frage": "Darf der Datenschutzbeauftragte ein externer Dienstleister sein?",
   "optionen": [
    {
