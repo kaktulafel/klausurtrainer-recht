@@ -1,5 +1,7 @@
 # Klausurformat (Nachklausur Recht & Datenschutz)
 
+**Termin: 09.11.2026** (Angabe des Nutzers; in der App vorbelegt).
+
 ## Was aus den Materialien sicher ableitbar ist
 | Punkt | Beleg |
 |---|---|

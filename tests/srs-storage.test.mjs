@@ -53,6 +53,18 @@ test('Storage: falscher Typ / neuere Version → defekt', () => {
   assert.equal(ladeZustand(JSON.stringify({ foo: 1 })).status, 'defekt');
 });
 
+test('Tagesplan: neue Karteikarten verteilt auf die Lerntage bis zur Klausur', () => {
+  const p = tagesplan({ heute: '2026-11-02', klausurdatum: '2026-11-09', ungeseheneKarten: 174 });
+  assert.equal(p.tageBis, 7);
+  assert.equal(p.ziele.find(z => z.art === 'karten').anzahl, 35);
+});
+
+test('Storage: Klausurtermin ist Standard, füllt leeres Datum, überschreibt gesetztes nicht', () => {
+  assert.equal(leererZustand().einstellungen.klausurdatum, '2026-11-09');
+  assert.equal(ladeZustand(JSON.stringify({ schema: 3, einstellungen: { klausurdatum: null } })).zustand.einstellungen.klausurdatum, '2026-11-09');
+  assert.equal(ladeZustand(JSON.stringify({ schema: 3, einstellungen: { klausurdatum: '2026-12-01' } })).zustand.einstellungen.klausurdatum, '2026-12-01');
+});
+
 test('Storage: Migration v2 → v3 setzt nur neu gefasste MC-Fragen zurück', () => {
   const karte = { anzahl: 2, richtig: 1, fach: 1 };
   const neu = MC_NEU_GEFASST[0];

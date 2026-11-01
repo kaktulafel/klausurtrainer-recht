@@ -19,4 +19,5 @@
 | 01.11.2026 | DSGVO-Wortlaut aus der konsolidierten Fassung, Abruf über publications.europa.eu statt eur-lex.europa.eu | Die Ursprungsfassung enthält Fehler, die später berichtigt wurden (z. B. Art. 83 Abs. 1). EUR-Lex selbst sperrt Skripte (HTTP 202 ohne Inhalt). Der Link in der App zeigt weiter auf die Verordnung bei EUR-Lex. |
 | 01.11.2026 | „Karteikarten für alle Rechtsdinge“ = BGB-Teil, nicht Datenschutz; Schemata kommen als automatisch erzeugte Karten dazu | Der Datenschutzteil ist MC und hat den Trainer dort. Generierte Schemakarten bleiben mit den geprüften Schemata synchron. |
 | 01.11.2026 | Podcast-PDFs liegen unter `podcast/` und sind nicht im Repo; die Quelltexte in `docs/podcast/` schon (`npm run podcast`) | PDFs sind per `.gitignore` ausgeschlossen; so lassen sie sich jederzeit neu erzeugen. |
+| 02.11.2026 | Klausurdatum 09.11.2026 als Standard; Migration füllt nur ein leeres Datum | Termin vom Nutzer genannt. Ein selbst gesetztes Datum im Browser wird nicht überschrieben. |
 | 19.10.2026 | Datenschutz-Themen ohne Materialbeleg (Cookies § 25 TDDDG, Drittland) als „zusatz“ (Gewicht C) | Stoffumfang = Materialien; Zusatz nur ergänzend. |

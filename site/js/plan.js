@@ -52,7 +52,7 @@ export function schwachstellen(statistik, n = 5) {
  * Tagesplan aus Klausurdatum, offenen Inhalten und Ergebnissen.
  * @returns {{tageBis:number|null, phase:string, ziele:Array<{art:string, text:string, anzahl?:number, link?:string}>}}
  */
-export function tagesplan({ heute, klausurdatum, faellig = 0, ungeseheneMC = 0, ungeseheneWissen = 0, ungeseheneNormkarten = 0, faelleOffen = [], schwach = [], tagesminuten = 60 }) {
+export function tagesplan({ heute, klausurdatum, faellig = 0, ungeseheneMC = 0, ungeseheneWissen = 0, ungeseheneNormkarten = 0, ungeseheneKarten = 0, faelleOffen = [], schwach = [], tagesminuten = 60 }) {
   const ziele = [];
   const tageBis = klausurdatum ? tageZwischen(heute, klausurdatum) : null;
   if (tageBis !== null && tageBis < 0) {
@@ -70,9 +70,11 @@ export function tagesplan({ heute, klausurdatum, faellig = 0, ungeseheneMC = 0, 
   const neuMC = Math.min(30, Math.ceil((ungeseheneMC / lerntage) * 1.0) || 0);
   const neuW = Math.min(12, Math.ceil(ungeseheneWissen / lerntage) || 0);
   const neuN = Math.min(20, Math.ceil(ungeseheneNormkarten / lerntage) || 0);
+  const neuK = Math.min(40, Math.ceil(ungeseheneKarten / lerntage) || 0);
   if (faellig) ziele.push({ art: 'wiederholung', text: `${faellig} fällige Karten wiederholen`, anzahl: faellig, link: '#/wiederholen' });
   if (faelleOffen.length) ziele.push({ art: 'fall', text: `Fall lösen: ${faelleOffen[0].titel}`, link: `#/faelle/${faelleOffen[0].id}` });
   if (schwach.length) ziele.push({ art: 'drill', text: `Schwachstellen-Drill: ${schwach[0].titel}`, link: '#/schwachstellen' });
+  if (neuK) ziele.push({ art: 'karten', text: `${Math.round(neuK * faktor) || 1} neue Karteikarten Recht`, anzahl: neuK, link: '#/karteikarten' });
   if (neuW) ziele.push({ art: 'wissen', text: `${Math.round(neuW * faktor) || 1} neue Wissensfragen`, anzahl: neuW, link: '#/wissen' });
   if (neuMC) ziele.push({ art: 'mc', text: `${Math.round(neuMC * faktor) || 1} neue Datenschutz-Fragen`, anzahl: neuMC, link: '#/mc' });
   if (neuN) ziele.push({ art: 'normen', text: `${Math.round(neuN * faktor) || 1} neue Normkarten`, anzahl: neuN, link: '#/normen/karten' });

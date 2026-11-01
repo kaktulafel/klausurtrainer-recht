@@ -21,7 +21,7 @@ export async function render(main) {
   });
   const plan = tagesplan({
     heute: tag, klausurdatum: z.einstellungen.klausurdatum, faellig,
-    ungeseheneMC: ungesehen('mc:', inh.mc), ungeseheneWissen: ungesehen('wissen:', inh.wissen), ungeseheneNormkarten: ungesehen('nk:', inh.normkarten),
+    ungeseheneMC: ungesehen('mc:', inh.mc), ungeseheneWissen: ungesehen('wissen:', inh.wissen), ungeseheneNormkarten: ungesehen('nk:', inh.normkarten), ungeseheneKarten: ungesehen('karte:', inh.karteikarten),
     faelleOffen, schwach, tagesminuten: z.einstellungen.tagesminuten
   });
   const serie = serieLaenge(z.serie, tag, addTage);

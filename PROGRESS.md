@@ -3,6 +3,7 @@
 > Gedächtnis für Folgesitzungen. Neue Sitzung: „Lies AUFTRAG.md und PROGRESS.md und mach weiter.“
 
 ## Stand
+- **Klausur:** 09.11.2026 (in der App vorbelegt, Lernplan rechnet damit).
 - **Meilenstein:** M0–M5 abgeschlossen, Definition of Done erfüllt (Stand 19.10.2026). Weitere Arbeit = Pflege/Erweiterung.
 - **Live-URL:** https://kaktulafel.github.io/klausurtrainer-recht/
 - **Repo:** https://github.com/kaktulafel/klausurtrainer-recht (öffentlich, Pages via Actions; CI: test → deploy → live inkl. Offline-Test)
