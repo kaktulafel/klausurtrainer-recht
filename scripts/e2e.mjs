@@ -122,6 +122,24 @@ await schritt('Karteikarte: umdrehen, bewerten, Lernstand speichern; Cheatsheet:
   if (!(treffer > 0 && treffer < alle)) throw new Error(`Suche filtert nicht (${alle} → ${treffer})`);
 });
 
+await schritt('Neue Bereiche sind per Klick erreichbar: Handy und Desktop', async () => {
+  const klick = async (seite, ziel) => {
+    await seite.goto(basis + '#/', { waitUntil: 'networkidle' });
+    await seite.waitForSelector('main h1');
+    await seite.locator(`a[href="#/${ziel}"]:visible`).first().click();
+    await seite.waitForSelector(`main h1:has-text("${ziel === 'cheatsheets' ? 'Cheatsheets' : 'Karteikarten'}")`);
+  };
+  const desktop = await browser.newContext({ viewport: { width: 1000, height: 800 } });
+  const d = await desktop.newPage();
+  for (const ziel of ['cheatsheets', 'karteikarten']) {
+    await klick(page, ziel); await klick(d, ziel);
+    if (!await d.locator(`.kopf-nav a[href="#/${ziel}"]`).isVisible()) throw new Error(`Desktop-Navigation ohne ${ziel}`);
+  }
+  const breite = await d.evaluate(() => document.documentElement.scrollWidth - innerWidth);
+  await desktop.close();
+  if (breite > 0) throw new Error(`Desktop läuft über (${breite}px)`);
+});
+
 await schritt('Statistik: Themen-Tabelle', async () => {
   await page.goto(basis + '#/statistik', { waitUntil: 'networkidle' });
   await page.waitForSelector('h1');

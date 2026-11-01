@@ -63,6 +63,9 @@ export async function render(main) {
           return h('li', null, h('span', { class: 'ampel ' + s.ampel, role: 'img', 'aria-label': ampelText(s.ampel) }), h('span', null, t.titel, ' ', h('span', { class: 'badge' + (t.gewicht === 'A' ? ' a' : t.gewicht === 'B' ? ' b' : '') }, t.gewicht)), h('span', { class: 'q' }, s.quote === null ? '–' : `${Math.round(s.quote * 100)} %`));
         }))))),
     h('div', { class: 'raster drei' },
+      kachel('#/karteikarten', 'Karteikarten Recht', 'Alles Rechtswissen als Frage und Antwort'),
+      kachel('#/cheatsheets', 'Cheatsheets', 'Ansprüche, Merkmale, Schemata, Definitionen, Fristen'),
+      kachel('#/uebersicht', 'Fälle kompakt', 'Stichpunktlösungen und Prüfungspfade'),
       kachel('#/faelle', 'Gutachten-Trainer', 'Fälle im Gutachtenstil – geführt, Klausurmodus, Skizze'),
       kachel('#/mc', 'Datenschutz-MC', `${gesamt.mc} Fragen, Übungs- und Prüfungsmodus`),
       kachel('#/normen', 'Normen-Kompass', 'Normkarten, Zitier-Trainer, Register'),

@@ -55,7 +55,7 @@ export async function render(main, { pfad, query }) {
   main.append(
     h('h1', null, 'Gutachten-Trainer'),
     h('p', { class: 'leise' }, `${daten.length} Fälle · klausurgroß (≥ 60 min) und Kurzfälle. Modi: geführt, Klausurmodus mit Timer, Skizzen-Sprint.`),
-    h('p', { class: 'klein' }, h('a', { href: '#/uebersicht' }, 'Alle Fälle kompakt: Ansprüche und Tatbestandsmerkmale auf einen Blick →')),
+    h('p', { class: 'klein' }, h('a', { href: '#/uebersicht' }, 'Alle Fälle kompakt: Ansprüche und Tatbestandsmerkmale auf einen Blick →'), ' · ', h('a', { href: '#/cheatsheets' }, 'Cheatsheets →'), ' · ', h('a', { href: '#/karteikarten' }, 'Karteikarten →')),
     h('div', { class: 'suchfeld' }, auswahl),
     h('div', { class: 'raster zwei' }, liste.map(f => {
       const vs = versuche.filter(v => v.fallId === f.id);
