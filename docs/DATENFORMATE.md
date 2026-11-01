@@ -120,6 +120,17 @@ Wird von `node scripts/index-aktualisieren.mjs` aus den vorhandenen Dateien erze
 ```
 Die oberste Ebene von `knoten` ist die Puzzle-Reihenfolge. Sie muss eindeutig sein; Alternativen gehören als `kinder` darunter. Das Lückenschema fragt `norm` ab.
 
+## `pruefpfade.json` – Prüfungspfade (Array)
+Schemata im Stichpunkt-Gutachtenstil, abgeleitet aus den Fällen: je Anspruchsgrundlage (`art: "anspruch"`) bzw. inzidenter Prüfung (`art: "baustein"`) alle Weichen, die in den Fällen vorkommen. Angezeigt unter „Fälle kompakt → Prüfungspfade“ (`#/uebersicht/pfade`).
+```json
+{ "id": "pfad-433-2", "art": "anspruch", "titel": "Kaufpreis – § 433 Abs. 2 BGB",
+  "ausgangspunkt": "Der Verkäufer will den Kaufpreis.", "grundlagen": ["§ 433 Abs. 2 BGB"], "themen": ["vertragsschluss"],
+  "zeilen": [ { "ebene": 1, "text": "**OS:** V könnte …", "faelle": ["fall-02"], "verweis": "pfad-anfechtung" } ],
+  "weiter": ["pfad-179"], "quelle": "neu", "geprueft": true }
+```
+- `zeilen`: Ebene 1–3; erste Zeile `**OS:** … könnte …`, letzte `**Erg.:** Folglich …`. `faelle` = Fälle, in denen diese Weiche vorkommt; `verweis` = anderer Pfad (z. B. Baustein); `weiter` = Anschlussprüfungen.
+- `grundlagen` (nur Ansprüche) müssen die Anspruchsgrundlagen aus den Stichpunktlösungen abdecken; jeder Fall muss in mindestens einem Pfad vorkommen (Validator und `tests/kompakt.test.mjs`).
+
 ## `drills.json` – Klausurtechnik-Drills (Array)
 `{ "id": "dr-12", "korrekturhinweis": 1–4, "typ": "fehlersuche|lueckentext|minifall|anfechtung|p179", "thema", "titel", "aufgabe", "antwort", "kernpunkte", "stichwoerter"?, "normen", "quelle", "geprueft" }`
 - In einem Lückentext steht jede Lücke als `{{Lösung|Alternative}}` in `aufgabe`.

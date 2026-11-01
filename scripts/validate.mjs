@@ -51,7 +51,7 @@ for (const p of alleDateien(DATA).filter(p => p.endsWith('.json'))) {
 const idx = json['index.json'];
 if (!idx) F('site/data/index.json', null, 'fehlt');
 const KATS = ['faelle', 'mc', 'wissen', 'normkarten'];
-const EINZEL = ['themen.json', 'normen.json', 'schemata.json', 'drills.json', 'klausuren.json'];
+const EINZEL = ['themen.json', 'normen.json', 'schemata.json', 'drills.json', 'klausuren.json', 'pruefpfade.json'];
 
 // index.json ↔ tatsächliche Dateien
 if (idx) {
@@ -321,6 +321,38 @@ if (klausuren) {
     else if (!alleFaelle.get(A.fall).geprueft) F('klausuren.json', k.id, `Teil A: Fall ${A.fall} ist ungeprüft`);
     for (const w of B?.wissen || []) { if (!alleWissen.has(w)) F('klausuren.json', k.id, `Teil B: Wissensfrage ${w} unbekannt`); else if (!alleWissen.get(w).geprueft) F('klausuren.json', k.id, `Teil B: ${w} ungeprüft`); }
     for (const m of C?.mc || []) { if (!alleMC.has(m)) F('klausuren.json', k.id, `Teil C: MC ${m} unbekannt`); else if (!alleMC.get(m).geprueft) F('klausuren.json', k.id, `Teil C: ${m} ungeprüft`); }
+  }
+}
+
+// Prüfungspfade (Schemata im Stichpunkt-Gutachtenstil, aus den Fällen abgeleitet)
+const pfade = json['pruefpfade.json'];
+if (pfade) {
+  const D = 'pruefpfade.json';
+  if (!Array.isArray(pfade)) F(D, null, 'muss ein Array sein');
+  else {
+    const pfadIds = new Set(pfade.map(p => p.id));
+    for (const p of pfade) {
+      id(D, p, 'pfad:');
+      if (!/^pfad-/.test(p.id || '')) F(D, p.id, 'id muss mit „pfad-“ beginnen');
+      pflicht(D, p, { titel: 'str', art: 'str', ausgangspunkt: 'str', themen: 'strArr', zeilen: 'arr' });
+      quelle(D, p); thema(D, p, 'themen');
+      if (!['anspruch', 'baustein'].includes(p.art)) F(D, p.id, 'art muss anspruch oder baustein sein');
+      if (p.art === 'anspruch' && !typ.strArr(p.grundlagen)) F(D, p.id, 'Anspruch braucht grundlagen (Liste)');
+      const zz = p.zeilen || [];
+      for (const z of zz) {
+        if (![1, 2, 3].includes(z.ebene) || !typ.str(z.text)) F(D, p.id, 'Zeile braucht ebene (1–3) + text');
+        for (const fid of z.faelle || []) if (!alleFaelle.has(fid)) F(D, p.id, `unbekannter Fall ${fid}`);
+        if (z.verweis && (!pfadIds.has(z.verweis) || z.verweis === p.id)) F(D, p.id, `Verweis ${z.verweis} ungültig`);
+      }
+      for (const w of p.weiter || []) if (!pfadIds.has(w) || w === p.id) F(D, p.id, `weiter: ${w} ungültig`);
+      if (!/^\*\*OS:\*\* .*\bkönnten?\b/.test(zz[0]?.text || '')) F(D, p.id, 'erste Zeile muss „**OS:** … könnte …“ sein');
+      if (!/^\*\*Erg\.:\*\* Folglich /.test(zz[zz.length - 1]?.text || '')) F(D, p.id, 'letzte Zeile muss „**Erg.:** Folglich …“ sein');
+      if (!zz.some(z => (z.faelle || []).length)) F(D, p.id, 'mindestens eine Zeile braucht einen Fallbezug (faelle)');
+      normenImText(D, p.id, p);
+      if (!p.geprueft) ungeprueft.push(p.id);
+    }
+    const genutzt = new Set(pfade.flatMap(p => (p.zeilen || []).flatMap(z => z.faelle || [])));
+    for (const fid of alleFaelle.keys()) if (!genutzt.has(fid)) F(D, null, `Fall ${fid} kommt in keinem Prüfungspfad vor`);
   }
 }
 

@@ -5,7 +5,7 @@ import { themenBadges, ungeprueftBadge } from '../ui/widgets.js';
 import { lade, ladeKategorie } from '../data.js';
 import { gruppiereAnsprueche, schemaFuer, fallPasst } from '../kompakt.js';
 
-const ANSICHTEN = [['', 'Fälle'], ['ansprueche', 'Nach Anspruchsgrundlage'], ['schemata', 'Schemata kompakt']];
+const ANSICHTEN = [['', 'Fälle'], ['pfade', 'Prüfungspfade'], ['ansprueche', 'Nach Anspruchsgrundlage'], ['schemata', 'Schemata kompakt']];
 
 export async function render(main, { pfad, query }) {
   const ansicht = ANSICHTEN.some(([k]) => k === (pfad[1] || '')) ? (pfad[1] || '') : '';
@@ -18,6 +18,7 @@ export async function render(main, { pfad, query }) {
     h('div', { class: 'btn-reihe' }, ANSICHTEN.map(([k, v]) => h('a', { class: 'btn klein ' + (k === ansicht ? '' : 'leise'), href: '#/uebersicht' + (k ? '/' + k : ''), 'aria-current': k === ansicht ? 'page' : null }, v))));
   if (ansicht === 'ansprueche') return ansprueche(main, faelle, schemata);
   if (ansicht === 'schemata') return schemataKompakt(main, schemata);
+  if (ansicht === 'pfade') return pruefpfade(main, await lade('pruefpfade.json'), query.pfad);
   return fallListe(main, faelle, tm, query.fall);
 }
 
@@ -106,14 +107,47 @@ function punkte(knoten) {
   return h('ol', { class: 'ue-schema' }, knoten.map(k => h('li', null, inline(k.text), k.norm ? [' – ', inline(k.norm)] : null, k.kinder ? punkte(k.kinder) : null)));
 }
 
+// Prüfungspfade: je Anspruchsgrundlage bzw. inzidenter Prüfung ein Schema im Stichpunkt-Gutachtenstil, das alle
+// in den Fällen vorkommenden Abzweigungen zeigt (mit Fall- und Pfadverweisen).
+function pruefpfade(main, pfade, sprungZiel) {
+  const titel = new Map(pfade.map(p => [p.id, p.titel]));
+  const link = (id) => h('a', { href: '#/uebersicht/pfade', onclick: (e) => springe(e, id, '#/uebersicht/pfade') }, titel.get(id));
+  const wegweiser = (art, ueberschrift) => karte(h('h2', null, ueberschrift),
+    h('ul', { class: 'ue-liste' }, pfade.filter(p => p.art === art).map(p => h('li', null, inline(p.ausgangspunkt), ' → ', link(p.id)))));
+  main.append(
+    h('p', { class: 'leise lese' }, 'Alle Prüfungen aus den 18 Fällen als Schema im Stichpunkt-Gutachtenstil: Ausgangspunkt ist der Obersatz (OS), danach folgen die Voraussetzungen und an jeder Weiche die Pfade, die in den Fällen vorkommen – mit Verweis auf den Fall. „Bausteine“ sind Prüfungen, die innerhalb eines Anspruchs inzident anfallen.'),
+    h('nav', { class: 'nicht-drucken', 'aria-label': 'Ausgangspunkte' },
+      wegweiser('anspruch', 'Ausgangspunkte: Wer will was? → Anspruch'),
+      wegweiser('baustein', 'Bausteine: inzidente Prüfungen')),
+    ...pfade.map(p => pfadKarte(p, link)),
+    druckKnopf());
+  if (sprungZiel) requestAnimationFrame(() => springe(null, sprungZiel, '#/uebersicht/pfade'));
+}
+
+function pfadKarte(p, link) {
+  const faelle = [...new Set(p.zeilen.flatMap(z => z.faelle || []))].sort();
+  return h('section', { class: 'karte ue-fall', id: 'ue-' + p.id },
+    h('h2', null, p.titel, ' ', ungeprueftBadge(p)),
+    h('p', { class: 'ue-kurz' }, (p.art === 'anspruch' ? 'Ausgangspunkt: ' : 'Baustein: ') + p.ausgangspunkt),
+    h('div', { class: 'ue-gliederung' }, p.zeilen.map(z => h('p', { class: `ue-z ue-e${z.ebene}` }, inline(z.text),
+      z.verweis ? [' ', h('span', { class: 'ue-ref' }, '→ ', link(z.verweis))] : null,
+      z.faelle?.length ? [' ', h('span', { class: 'ue-ref klein' }, fallLinks(z.faelle))] : null))),
+    p.weiter?.length ? h('p', { class: 'klein' }, 'Weiter mit: ', p.weiter.map((w, i) => [i ? ' · ' : '', link(w)])) : null,
+    h('p', { class: 'klein leise' }, 'Vorkommen: ', fallLinks(faelle)));
+}
+
+function fallLinks(ids) {
+  return ids.map((id, i) => [i ? ', ' : '', h('a', { href: '#/uebersicht?fall=' + id }, nummer({ id }))]);
+}
+
 function nummer(f) { return 'Fall ' + f.id.replace(/^fall-/, ''); }
 
 // Sprung innerhalb der Seite, ohne das Hash-Routing zu verlassen.
-function springe(e, fallId) {
+function springe(e, zielId, zurueck = '#/uebersicht') {
   if (e) e.preventDefault();
-  const ziel = document.getElementById('ue-' + fallId);
+  const ziel = document.getElementById('ue-' + zielId);
   if (ziel) { ziel.hidden = false; ziel.scrollIntoView({ block: 'start' }); ziel.tabIndex = -1; ziel.focus({ preventScroll: true }); }
-  else location.hash = '#/uebersicht';
+  else location.hash = zurueck;
 }
 
 function druckKnopf() {

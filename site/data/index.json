@@ -45,7 +45,8 @@
       "normen.json",
       "schemata.json",
       "drills.json",
-      "klausuren.json"
+      "klausuren.json",
+      "pruefpfade.json"
     ],
     "wortlaut": [
       "wortlaut/wortlaut-1.json",

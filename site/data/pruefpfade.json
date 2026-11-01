@@ -1,0 +1,355 @@
+[
+{
+  "id": "pfad-433-2", "art": "anspruch", "titel": "Kaufpreis – § 433 Abs. 2 BGB",
+  "ausgangspunkt": "Der Verkäufer will den Kaufpreis.",
+  "grundlagen": ["§ 433 Abs. 2 BGB"], "themen": ["vertragsschluss", "stellvertretung", "anfechtung"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** V könnte gegen K einen Anspruch auf Zahlung des Kaufpreises aus § 433 Abs. 2 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Anspruch entstanden (wirksamer Kaufvertrag V – K), nicht untergegangen, durchsetzbar." },
+    { "ebene": 1, "text": "**Entstanden – Einigung:** Antrag und Annahme (§§ 145 ff. BGB).", "verweis": "pfad-vertragsschluss" },
+    { "ebene": 2, "text": "Versteigerung: Gebot = Antrag, Zuschlag = Annahme (§ 156 S. 1 BGB).", "faelle": ["fall-01", "fall-02", "fall-07"] },
+    { "ebene": 2, "text": "**Fraglich: Inhalt der Erklärung?** Auslegung nach §§ 133, 157 BGB (objektiver Empfängerhorizont). Ein Versprecher ändert den objektiven Inhalt nicht → Vertrag zum erklärten Betrag; der Irrtum ist erst bei der Anfechtung zu prüfen.", "faelle": ["fall-02"] },
+    { "ebene": 2, "text": "**Fraglich: überhaupt eine Willenserklärung?** Fehlt das Erklärungsbewusstsein, genügt nach h. M., dass der Erklärende bei verkehrsüblicher Sorgfalt erkennen konnte, wie sein Verhalten verstanden wird → WE (+), aber anfechtbar.", "faelle": ["fall-07"], "verweis": "pfad-we" },
+    { "ebene": 2, "text": "**Fraglich: unbestellte Ware?** Liefert ein Unternehmer einem Verbraucher unbestellt, wird kein Anspruch begründet (§ 241a Abs. 1 BGB); der Verbrauch ist keine zahlungspflichtige Annahme → (−).", "faelle": ["fall-09"] },
+    { "ebene": 1, "text": "**Entstanden – Zurechnung:** Hat ein Dritter für K gehandelt? Bote oder Vertreter; beim Vertreter eigene WE im fremden Namen mit Vertretungsmacht (§ 164 Abs. 1 BGB). Ein minderjähriger Vertreter genügt (§ 165 BGB).", "faelle": ["fall-18"], "verweis": "pfad-vertretung" },
+    { "ebene": 2, "text": "Vertretungsmacht (+) – Vollmacht, Rechtsschein (§§ 170–173 BGB) oder Anscheinsvollmacht → Vertrag mit K (+).", "faelle": ["fall-04", "fall-16"] },
+    { "ebene": 2, "text": "Vertretungsmacht (−) → schwebend unwirksam (§ 177 Abs. 1 BGB); Genehmigung verweigert → endgültig unwirksam → Anspruch (−); weiter mit § 179 Abs. 1 BGB gegen den Vertreter.", "faelle": ["fall-01", "fall-04", "fall-18"], "verweis": "pfad-179" },
+    { "ebene": 1, "text": "**Entstanden – Wirksamkeit der WE des K:** Ist K minderjährig (§§ 104 ff. BGB)?", "verweis": "pfad-geschaeftsfaehigkeit" },
+    { "ebene": 2, "text": "Der Kauf ist rechtlich nachteilig (§ 107 BGB); ohne Einwilligung und ohne § 110 BGB schwebend unwirksam (§ 108 Abs. 1 BGB); Genehmigung verweigert → (−). Typisch: Ratenkauf mit offener Rate; entsprechend für andere Entgeltansprüche, z. B. ein Abo mit fester Laufzeit.", "faelle": ["fall-03", "fall-05"] },
+    { "ebene": 1, "text": "**Untergegangen durch Anfechtung?** Folge: Vertrag von Anfang an nichtig (§ 142 Abs. 1 BGB).", "verweis": "pfad-anfechtung" },
+    { "ebene": 2, "text": "Versprecher = Erklärungsirrtum (§ 119 Abs. 1 Alt. 2 BGB); fehlendes Erklärungsbewusstsein = analog § 119 Abs. 1 BGB.", "faelle": ["fall-02", "fall-07"] },
+    { "ebene": 2, "text": "Angefochten nach §§ 119, 120 BGB → der Verkäufer hat ggf. einen Anspruch auf den Vertrauensschaden (§ 122 Abs. 1 BGB).", "faelle": ["fall-02", "fall-07"], "verweis": "pfad-122" },
+    { "ebene": 1, "text": "**Durchsetzbar:** Zug um Zug gegen Lieferung (§ 320 BGB).", "faelle": ["fall-04", "fall-16"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich hat V gegen K einen Anspruch auf den Kaufpreis, wenn ein wirksamer Vertrag gerade mit K besteht und nicht durch Anfechtung beseitigt ist; sonst (−)." }
+  ],
+  "weiter": ["pfad-179", "pfad-122", "pfad-812"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-433-1", "art": "anspruch", "titel": "Lieferung – § 433 Abs. 1 S. 1 BGB",
+  "ausgangspunkt": "Der Käufer will die Kaufsache.",
+  "grundlagen": ["§ 433 Abs. 1 S. 1 BGB"], "themen": ["anspruchsaufbau", "vertragsschluss", "anfechtung"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** K könnte gegen V einen Anspruch auf Übergabe und Übereignung der Kaufsache aus § 433 Abs. 1 S. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Anspruch entstanden (wirksamer Kaufvertrag), nicht untergegangen, durchsetzbar." },
+    { "ebene": 1, "text": "**Entstanden:** Antrag und Annahme.", "verweis": "pfad-vertragsschluss" },
+    { "ebene": 2, "text": "**Fraglich: Inhalt des Antrags?** Objektiver Empfängerhorizont (§§ 133, 157 BGB): Ist ein Tippfehler nicht eindeutig erkennbar, gilt der erklärte Preis.", "faelle": ["fall-18"] },
+    { "ebene": 2, "text": "Annahme durch einen Vertreter (§ 164 Abs. 1 S. 1 BGB); ein minderjähriger Vertreter genügt, § 165 BGB.", "faelle": ["fall-18"], "verweis": "pfad-vertretung" },
+    { "ebene": 2, "text": "Gattungs- oder Stückschuld? Auslegung (§§ 133, 157 BGB); bei der Gattungsschuld ist eine Sache mittlerer Art und Güte geschuldet (§ 243 Abs. 1 BGB).", "faelle": ["fall-10"] },
+    { "ebene": 1, "text": "**Untergegangen durch Anfechtung?** (§ 142 Abs. 1 BGB)", "verweis": "pfad-anfechtung" },
+    { "ebene": 2, "text": "Vertippen = Erklärungsirrtum (§ 119 Abs. 1 Alt. 2 BGB), unverzüglich (§ 121 Abs. 1 S. 1 BGB) gegenüber dem Vertragspartner (§ 143 Abs. 1, 2 BGB) → nichtig; der Käufer hat ggf. einen Anspruch auf den Vertrauensschaden.", "faelle": ["fall-18"], "verweis": "pfad-122" },
+    { "ebene": 1, "text": "**Fraglich: untergegangen durch Unmöglichkeit (§ 275 Abs. 1 BGB)?** Bei der Gattungsschuld erst, wenn die ganze Gattung untergeht oder die Schuld konkretisiert ist (§ 243 Abs. 2 BGB)." },
+    { "ebene": 2, "text": "Konkretisierung = der Schuldner hat das seinerseits Erforderliche getan. Schickschuld (§ 269 Abs. 1, 3 BGB): Aussondern und Übergabe an die Transportperson. Holschuld: Aussondern, Bereitstellen, Mitteilung.", "faelle": ["fall-10"] },
+    { "ebene": 3, "text": "Nicht konkretisiert und die Gattung noch erhältlich → nicht unmöglich → V muss eine andere Sache liefern.", "faelle": ["fall-10"] },
+    { "ebene": 3, "text": "Konkretisiert und untergegangen → V ist frei; der Kaufpreisanspruch entfällt (§ 326 Abs. 1 S. 1 BGB) → Gezahltes zurück.", "faelle": ["fall-10"], "verweis": "pfad-326-4" },
+    { "ebene": 2, "text": "Nur für den Kaufpreis (Preisgefahr) von Bedeutung, nicht für die Lieferpflicht: § 447 Abs. 1 BGB gilt beim Verbrauchsgüterkauf nur eingeschränkt (§ 475 Abs. 2 BGB) und ohnehin erst ab Übergabe an die Transportperson.", "faelle": ["fall-10"] },
+    { "ebene": 1, "text": "**Durchsetzbar:** Zug um Zug gegen Zahlung (§ 320 BGB).", "faelle": ["fall-18"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich hat K gegen V einen Anspruch auf Lieferung, wenn der Vertrag wirksam ist und weder durch Anfechtung noch durch Unmöglichkeit untergegangen ist." }
+  ],
+  "weiter": ["pfad-122", "pfad-326-4"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-631", "art": "anspruch", "titel": "Werklohn – § 631 Abs. 1 BGB",
+  "ausgangspunkt": "Der Unternehmer will den Werklohn.",
+  "grundlagen": ["§ 631 Abs. 1 BGB"], "themen": ["widerruf-ruecktritt", "unwirksamkeit"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** U könnte gegen B einen Anspruch auf Werklohn aus § 631 Abs. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Anspruch entstanden (wirksamer Werkvertrag), nicht erloschen." },
+    { "ebene": 1, "text": "**Entstanden:** Einigung über das Werk und die Vergütung (+)." },
+    { "ebene": 2, "text": "**Fraglich: nichtig nach § 134 BGB?** Vereinbaren beide bewusst „ohne Rechnung“, damit U die Umsätze nicht versteuert, verstößt der Vertrag gegen § 1 Abs. 2 Nr. 2 SchwarzArbG → Werkvertrag nichtig; U hat weder Werklohn noch Wertersatz.", "faelle": ["fall-11"], "verweis": "pfad-812" },
+    { "ebene": 1, "text": "**Fraglich: erloschen durch Rücktritt?** Dann entfallen die noch nicht erbrachten Leistungspflichten (§ 346 Abs. 1 BGB).", "faelle": ["fall-15"] },
+    { "ebene": 2, "text": "Rücktrittserklärung (§ 349 BGB), auch konkludent; Auslegung nach §§ 133, 157 BGB.", "faelle": ["fall-15"] },
+    { "ebene": 2, "text": "Abgrenzung zur freien Kündigung: Kündigt B frei (§ 648 S. 1 BGB), behält U die Vergütung abzüglich ersparter Aufwendungen (§ 648 S. 2 BGB). Liegen die Voraussetzungen des § 323 Abs. 1 BGB vor, ist die Erklärung interessengerecht als Rücktritt auszulegen (§§ 133, 157 BGB).", "faelle": ["fall-15"] },
+    { "ebene": 2, "text": "Rücktrittsgrund (§ 323 Abs. 1 BGB): gegenseitiger Vertrag, fällige Leistung (§ 271 Abs. 1 BGB), nicht erbracht, angemessene Frist erfolglos abgelaufen.", "faelle": ["fall-15"] },
+    { "ebene": 2, "text": "Kein Ausschluss (§ 323 Abs. 6 BGB); Vertretenmüssen ist für den Rücktritt nicht nötig.", "faelle": ["fall-15"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich hat U einen Anspruch auf Werklohn, wenn der Werkvertrag wirksam ist und nicht durch Rücktritt erloschen ist." }
+  ],
+  "weiter": ["pfad-281", "pfad-812"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-179", "art": "anspruch", "titel": "Vertreter ohne Vertretungsmacht – § 179 Abs. 1 BGB",
+  "ausgangspunkt": "Der Vertrag mit dem Vertretenen ist gescheitert – der Geschäftsgegner hält sich an den Vertreter.",
+  "grundlagen": ["§ 179 Abs. 1 BGB"], "themen": ["vertreter-ohne-vertretungsmacht"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** G könnte gegen V nach seiner Wahl einen Anspruch auf Erfüllung oder Schadensersatz aus § 179 Abs. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Vertrag im fremden Namen geschlossen, ohne Vertretungsmacht, Genehmigung verweigert, kein Ausschluss." },
+    { "ebene": 1, "text": "**Vertragsschluss als Vertreter ohne Vertretungsmacht:** wie in der Prüfung gegen den Vertretenen (§ 164 Abs. 1 BGB); dorthin verweisen.", "verweis": "pfad-vertretung" },
+    { "ebene": 2, "text": "Vollmacht nach Anfechtung von Anfang an nichtig (§ 142 Abs. 1 BGB) bzw. Umfang der Vollmacht überschritten.", "faelle": ["fall-01", "fall-04", "fall-18"] },
+    { "ebene": 1, "text": "**Genehmigung verweigert** (§ 177 Abs. 1, § 182 Abs. 1 BGB) → (+).", "faelle": ["fall-01", "fall-04", "fall-18"] },
+    { "ebene": 1, "text": "**Fraglich: voller Umfang (Abs. 1) oder nur Vertrauensschaden (Abs. 2)?** Abs. 2 gilt nur, wenn der Vertreter den Mangel nicht kannte." },
+    { "ebene": 2, "text": "Wer die Anfechtbarkeit kannte, wird behandelt, als hätte er die Nichtigkeit gekannt (§ 142 Abs. 2 BGB). Wer selbst getäuscht hat, kennt den Anfechtungsgrund → Abs. 1.", "faelle": ["fall-01"] },
+    { "ebene": 2, "text": "Der Vertreter wusste, dass er die Grenze seiner Vollmacht überschreitet → Abs. 1.", "faelle": ["fall-04", "fall-18"] },
+    { "ebene": 1, "text": "**Fraglich: Ausschluss nach § 179 Abs. 3 BGB?**" },
+    { "ebene": 2, "text": "S. 1: Der Geschäftsgegner kannte den Mangel oder musste ihn kennen (fahrlässige Unkenntnis). Lag ihm die schriftliche Grenze vor → Ausschluss (+); ohne Anhaltspunkte → (−).", "faelle": ["fall-04", "fall-01", "fall-18"] },
+    { "ebene": 2, "text": "S. 2: Der Vertreter ist beschränkt geschäftsfähig und handelte ohne Zustimmung seines gesetzlichen Vertreters → Ausschluss (+); volljähriger Vertreter → (−).", "faelle": ["fall-18", "fall-01"] },
+    { "ebene": 1, "text": "**Inhalt der Erfüllung:** beim Kauf Zahlung Zug um Zug gegen Übereignung der Sache.", "faelle": ["fall-01"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich haftet der Vertreter nach Wahl des Geschäftsgegners auf Erfüllung oder Schadensersatz (Abs. 1) bzw. nur auf den Vertrauensschaden (Abs. 2), es sei denn, Abs. 3 schließt die Haftung aus." }
+  ],
+  "weiter": ["pfad-122"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-122", "art": "anspruch", "titel": "Vertrauensschaden nach Anfechtung – § 122 Abs. 1 BGB",
+  "ausgangspunkt": "Eine Erklärung wurde angefochten – der Gegner will seinen Vertrauensschaden ersetzt.",
+  "grundlagen": ["§ 122 Abs. 1 BGB"], "themen": ["anfechtung"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** G könnte gegen A einen Anspruch auf Ersatz des Vertrauensschadens aus § 122 Abs. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Nichtigkeit nach § 118 BGB oder Anfechtung nach §§ 119, 120 BGB, Vertrauensschaden, kein Ausschluss nach § 122 Abs. 2 BGB." },
+    { "ebene": 1, "text": "**Fraglich: erfasster Grund?**", "verweis": "pfad-anfechtung" },
+    { "ebene": 2, "text": "Anfechtung nach §§ 119, 120 BGB → (+): Versprecher, Vertippen, Eigenschaftsirrtum, falsche Übermittlung durch einen Boten.", "faelle": ["fall-02", "fall-18", "fall-06", "fall-16"] },
+    { "ebene": 2, "text": "Fehlendes Erklärungsbewusstsein (Anfechtung analog § 119 Abs. 1 BGB) → (+); abhandengekommene Erklärung: nach h. M. keine WE, bei fahrlässigem Inverkehrgelangen aber Vertrauensschaden analog § 122 BGB.", "faelle": ["fall-07"] },
+    { "ebene": 2, "text": "Anfechtung nach § 123 BGB → (−): Der Getäuschte haftet dem Täuschenden nicht; keine vergleichbare Interessenlage, keine Analogie.", "faelle": ["fall-01", "fall-06"] },
+    { "ebene": 1, "text": "**Vertrauensschaden** (negatives Interesse, § 249 Abs. 1 BGB): G ist so zu stellen, als hätte er nie auf die Erklärung vertraut, z. B. Mindererlös und Kosten einer Neuversteigerung, Versandkosten, nutzlose Anschaffungen; höchstens bis zum Erfüllungsinteresse.", "faelle": ["fall-02", "fall-18", "fall-06"] },
+    { "ebene": 1, "text": "**Fraglich: Ausschluss nach § 122 Abs. 2 BGB?** Der Geschädigte kannte den Grund oder musste ihn kennen (fahrlässige Unkenntnis)." },
+    { "ebene": 2, "text": "Wer den Grund selbst gesetzt hat, kennt ihn → Ausschluss (+).", "faelle": ["fall-01"] },
+    { "ebene": 2, "text": "Beim Vertreter kommt es auf dessen Kennenmüssen an (§ 166 Abs. 1 BGB): Marktpreis bekannt, Preis für ein Schnäppchen gehalten → Ausschluss (+).", "faelle": ["fall-18"] },
+    { "ebene": 2, "text": "Versprecher bei üblichen Sprunggeboten nicht erkennbar → kein Ausschluss.", "faelle": ["fall-02"] },
+    { "ebene": 2, "text": "Eigenschaftsirrtum für den Gegner nicht erkennbar → kein Ausschluss.", "faelle": ["fall-06"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann G seinen Vertrauensschaden verlangen, wenn die Erklärung nach § 118 BGB nichtig oder nach §§ 119, 120 BGB (auch analog) angefochten ist und er den Grund weder kannte noch kennen musste." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-812", "art": "anspruch", "titel": "Leistungskondiktion – § 812 Abs. 1 S. 1 Alt. 1 BGB",
+  "ausgangspunkt": "Geleistet wurde auf einen unwirksamen Vertrag – das Geleistete soll zurück.",
+  "grundlagen": ["§ 812 Abs. 1 S. 1 Alt. 1 BGB"], "themen": ["gesetzliche-schuldverhaeltnisse", "geschaeftsfaehigkeit"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** L könnte gegen E einen Anspruch auf Herausgabe des Erlangten aus § 812 Abs. 1 S. 1 Alt. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** etwas erlangt, durch Leistung, ohne Rechtsgrund; kein Ausschluss." },
+    { "ebene": 1, "text": "**Etwas erlangt** = jeder Vermögensvorteil, z. B. Eigentum und Besitz am gezahlten Geld." },
+    { "ebene": 2, "text": "Zahlt ein Minderjähriger, ist die Übereignung des Geldes wirksam, wenn es zur freien Verfügung überlassen und die Zahlung vollständig erbracht ist (Rechtsgedanke § 110 BGB). Empfängt ein Minderjähriger Geld, ist der Erwerb lediglich vorteilhaft (§ 107 BGB).", "faelle": ["fall-03", "fall-13"] },
+    { "ebene": 1, "text": "**Durch Leistung** = bewusste, zweckgerichtete Mehrung fremden Vermögens, z. B. Zahlung zur Erfüllung des Vertrags.", "faelle": ["fall-03", "fall-05", "fall-06", "fall-11", "fall-13"] },
+    { "ebene": 1, "text": "**Fraglich: ohne Rechtsgrund?** Rechtsgrund ist der Vertrag – ist er unwirksam?" },
+    { "ebene": 2, "text": "Minderjährigkeit: schwebend unwirksam (§ 108 Abs. 1 BGB), Genehmigung verweigert → ohne Rechtsgrund (+). Aber § 110 BGB bei vollständiger Leistung mit überlassenen Mitteln → Vertrag wirksam → (−).", "faelle": ["fall-03", "fall-05", "fall-13"], "verweis": "pfad-geschaeftsfaehigkeit" },
+    { "ebene": 3, "text": "§ 113 BGB (−): erfasst nur Geschäfte rund um das Dienst- oder Arbeitsverhältnis, nicht die Verwendung des Verdienstes.", "faelle": ["fall-05"] },
+    { "ebene": 2, "text": "Anfechtung → von Anfang an nichtig (§ 142 Abs. 1 BGB) → (+).", "faelle": ["fall-06", "fall-16"], "verweis": "pfad-anfechtung" },
+    { "ebene": 2, "text": "Erklärung „Widerruf“, aber Widerrufsfrist abgelaufen: Auslegung als Anfechtung (§§ 133, 157 BGB), wenn sich der Erklärende auf die Täuschung beruft.", "faelle": ["fall-06"], "verweis": "pfad-355" },
+    { "ebene": 2, "text": "Gesetzesverstoß (§ 134 BGB), z. B. Schwarzarbeit → nichtig → (+).", "faelle": ["fall-11"] },
+    { "ebene": 2, "text": "Wucher (§ 138 Abs. 2 BGB): Kaufvertrag und Übereignung nichtig → erlangt ist nur der Besitz; daneben Herausgabe nach § 985 BGB.", "faelle": ["fall-11"], "verweis": "pfad-985" },
+    { "ebene": 1, "text": "**Fraglich: Ausschluss nach § 817 S. 2 BGB?** Fällt auch dem Leistenden bewusst ein Gesetzes- oder Sittenverstoß zur Last, ist die Rückforderung ausgeschlossen; das gilt für alle Leistungskondiktionen.", "faelle": ["fall-11"] },
+    { "ebene": 1, "text": "**Gegenrechte:** Hat E seinerseits geleistet, kann er die Rückgabe Zug um Zug verlangen (§ 273 BGB; eigener Anspruch aus § 812 Abs. 1 S. 1 Alt. 1 BGB). Ist das Erlangte verbraucht, schuldet der Empfänger Wertersatz (§ 818 Abs. 2 BGB), es sei denn, er ist entreichert (§ 818 Abs. 3 BGB) – beim Minderjährigen der Regelfall, sein Schutz darf nicht unterlaufen werden.", "faelle": ["fall-03", "fall-05", "fall-06"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann L das Geleistete herausverlangen, wenn kein wirksamer Vertrag als Rechtsgrund besteht und § 817 S. 2 BGB nicht eingreift." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-355", "art": "anspruch", "titel": "Rückzahlung nach Widerruf – § 355 Abs. 3 S. 1 BGB",
+  "ausgangspunkt": "Der Verbraucher hat widerrufen und will sein Geld zurück.",
+  "grundlagen": ["§ 355 Abs. 3 S. 1 BGB"], "themen": ["widerruf-ruecktritt"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** K könnte gegen U einen Anspruch auf Rückzahlung des Kaufpreises aus § 355 Abs. 3 S. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Widerrufsrecht, Widerrufserklärung, Frist." },
+    { "ebene": 1, "text": "**Widerrufsrecht** (§ 312g Abs. 1 BGB): Fernabsatzvertrag (§ 312c Abs. 1 BGB) zwischen Verbraucher (§ 13 BGB) und Unternehmer (§ 14 BGB); keine Ausnahme nach § 312g Abs. 2 BGB.", "faelle": ["fall-06"] },
+    { "ebene": 1, "text": "**Erklärung** gegenüber dem Unternehmer (§ 355 Abs. 1 S. 2 BGB).", "faelle": ["fall-06"] },
+    { "ebene": 1, "text": "**Fraglich: Frist.** 14 Tage (§ 355 Abs. 2 S. 1 BGB) ab Erhalt der Ware (§ 356 Abs. 2 Nr. 1 lit. a BGB), nicht vor ordnungsgemäßer Belehrung (§ 356 Abs. 3 BGB); Berechnung nach §§ 187 Abs. 1, 188 Abs. 1 BGB.", "faelle": ["fall-06"] },
+    { "ebene": 2, "text": "Verspätet → (−); dann prüfen, ob die Erklärung zugleich eine Anfechtung ist und § 812 Abs. 1 S. 1 Alt. 1 BGB greift.", "faelle": ["fall-06"], "verweis": "pfad-812" },
+    { "ebene": 1, "text": "**Erg.:** Folglich hat K einen Anspruch auf Rückzahlung, wenn ihm ein Widerrufsrecht zustand und er fristgerecht widerrufen hat." }
+  ],
+  "weiter": ["pfad-812"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-326-4", "art": "anspruch", "titel": "Rückzahlung bei Unmöglichkeit – § 326 Abs. 4 i. V. m. § 346 Abs. 1 BGB",
+  "ausgangspunkt": "Die Leistung ist unmöglich geworden – der schon gezahlte Preis soll zurück.",
+  "grundlagen": ["§ 326 Abs. 4 i. V. m. § 346 Abs. 1 BGB"], "themen": ["anspruchsaufbau", "widerruf-ruecktritt"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** K könnte gegen V einen Anspruch auf Rückzahlung des Kaufpreises aus § 326 Abs. 4 i. V. m. § 346 Abs. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** V ist nach § 275 Abs. 1 BGB frei geworden, der Kaufpreisanspruch ist deshalb entfallen (§ 326 Abs. 1 S. 1 BGB), K hat trotzdem schon gezahlt." },
+    { "ebene": 1, "text": "**Fraglich: Leistungsbefreiung nach § 275 Abs. 1 BGB?** Bei der Stückschuld mit dem Untergang; bei der Gattungsschuld erst, wenn die ganze Gattung untergeht oder die Schuld konkretisiert ist (§ 243 Abs. 2 BGB); bei der Holschuld genügen Aussondern, Bereitstellen und Mitteilung.", "faelle": ["fall-10"], "verweis": "pfad-433-1" },
+    { "ebene": 1, "text": "**Gegenleistung entfallen** (§ 326 Abs. 1 S. 1 BGB) → das Gezahlte ist nach Rücktrittsrecht zurückzugewähren (§ 346 Abs. 1 BGB).", "faelle": ["fall-10"] },
+    { "ebene": 1, "text": "**Kein Ausschluss nach § 326 Abs. 2 S. 1 BGB:** K ist für den Untergang nicht allein oder weit überwiegend verantwortlich und war nicht im Annahmeverzug (§ 293 BGB); sonst behält V den Anspruch auf die Gegenleistung." },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann K den gezahlten Kaufpreis zurückverlangen, wenn V nach § 275 Abs. 1 BGB frei geworden ist." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-985", "art": "anspruch", "titel": "Herausgabe – § 985 BGB",
+  "ausgangspunkt": "Der Eigentümer will seine Sache zurück.",
+  "grundlagen": ["§ 985 BGB"], "themen": ["abstraktionsprinzip", "unwirksamkeit"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** E könnte gegen B einen Anspruch auf Herausgabe der Sache aus § 985 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** E ist Eigentümer, B Besitzer, B hat kein Recht zum Besitz (§ 986 Abs. 1 BGB)." },
+    { "ebene": 1, "text": "**Fraglich: Eigentum noch bei E?** Hat E die Sache wirksam übereignet (§ 929 S. 1 BGB)?", "verweis": "pfad-uebereignung" },
+    { "ebene": 2, "text": "Abstraktionsprinzip: Die Unwirksamkeit des Kaufs berührt die Übereignung grundsätzlich nicht (beim minderjährigen Erwerber ist der Erwerb lediglich vorteilhaft, § 107 BGB) → E hat das Eigentum verloren → (−); nur Rückübereignung nach § 812 Abs. 1 S. 1 Alt. 1 BGB.", "faelle": ["fall-03"] },
+    { "ebene": 2, "text": "Ausnahme Wucher (§ 138 Abs. 2 BGB): Die Nichtigkeit erfasst auch die Übereignung durch den Bewucherten → E bleibt Eigentümer.", "faelle": ["fall-11"] },
+    { "ebene": 2, "text": "Fehleridentität: Erfasst die Anfechtung wegen Täuschung auch die Übereignung → Herausgabe nach § 985 BGB.", "faelle": ["fall-06"] },
+    { "ebene": 1, "text": "**Besitz** durch Übergabe (+).", "faelle": ["fall-11"] },
+    { "ebene": 1, "text": "**Kein Recht zum Besitz:** Der Kaufvertrag ist nichtig → (+). Daneben Herausgabe des Besitzes aus § 812 Abs. 1 S. 1 Alt. 1 BGB.", "faelle": ["fall-11"], "verweis": "pfad-812" },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann E die Sache herausverlangen, wenn er Eigentümer geblieben ist und B kein Recht zum Besitz hat." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-cic", "art": "anspruch", "titel": "Culpa in contrahendo – §§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB",
+  "ausgangspunkt": "Schon bei der Anbahnung eines Vertrags ist ein Schaden entstanden.",
+  "grundlagen": ["§§ 280 Abs. 1, 311 Abs. 2, 241 Abs. 2 BGB"], "themen": ["gesetzliche-schuldverhaeltnisse", "schuldverhaeltnisse"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** N könnte gegen J einen Anspruch auf Schadensersatz aus §§ 280 Abs. 1, 311 Abs. 2 Nr. 2, 241 Abs. 2 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Schuldverhältnis, Pflichtverletzung, Vertretenmüssen, kausaler und zurechenbarer Schaden." },
+    { "ebene": 1, "text": "**Fraglich: Schuldverhältnis ohne Vertrag?** Es genügt die Anbahnung eines Vertrags, bei der ein Teil dem anderen die Einwirkung auf seine Rechte, Rechtsgüter und Interessen ermöglicht (§ 311 Abs. 2 Nr. 2 BGB), z. B. Besuch eines Webshops, Buchungsanbahnung über ein Portal.", "faelle": ["fall-12"] },
+    { "ebene": 1, "text": "**Pflichtverletzung** (§ 241 Abs. 2 BGB): Schutz vor Schadsoftware; Schutz der Entscheidungsfreiheit (keine selbst verfassten Bewertungen).", "faelle": ["fall-12"] },
+    { "ebene": 1, "text": "**Vertretenmüssen:** vermutet (§ 280 Abs. 1 S. 2 BGB); Vorsatz oder Fahrlässigkeit (§ 276 Abs. 1, 2 BGB).", "faelle": ["fall-12"] },
+    { "ebene": 1, "text": "**Fraglich: Schaden und Zurechnung.** Ein eigener Entschluss des Geschädigten unterbricht die Zurechnung nicht, wenn er herausgefordert war und im Schutzbereich der Pflicht liegt; Mitverschulden (§ 254 BGB); ersatzfähig nach § 249 Abs. 1 BGB, bei Täuschung das negative Interesse.", "faelle": ["fall-12"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann N Ersatz verlangen, wenn J eine vorvertragliche Pflicht schuldhaft verletzt und den Schaden zurechenbar verursacht hat." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-281", "art": "anspruch", "titel": "Schadensersatz statt der Leistung – §§ 280 Abs. 1, 3, 281 Abs. 1 BGB",
+  "ausgangspunkt": "Die Leistung kam trotz Frist nicht – die Mehrkosten des Deckungsgeschäfts sollen ersetzt werden.",
+  "grundlagen": ["§§ 280 Abs. 1, 3, 281 Abs. 1 BGB"], "themen": ["widerruf-ruecktritt"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** B könnte gegen U einen Anspruch auf Schadensersatz statt der Leistung aus §§ 280 Abs. 1, 3, 281 Abs. 1 BGB haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Schuldverhältnis, Pflichtverletzung (fällige und durchsetzbare Leistung nicht erbracht), angemessene Frist erfolglos abgelaufen (§ 281 Abs. 1 S. 1 BGB), Vertretenmüssen, Schaden.", "faelle": ["fall-15"] },
+    { "ebene": 1, "text": "**Fraglich: fällig?** Ohne vereinbarten Termin sofort (§ 271 Abs. 1 BGB), jedenfalls nach der üblichen Bearbeitungszeit; danach muss eine angemessene Frist erfolglos ablaufen (§ 281 Abs. 1 S. 1 BGB).", "faelle": ["fall-15"], "verweis": "pfad-631" },
+    { "ebene": 1, "text": "**Vertretenmüssen:** vermutet (§ 280 Abs. 1 S. 2 BGB); wer andere Kunden bewusst vorzieht, handelt vorsätzlich (§ 276 Abs. 1 BGB).", "faelle": ["fall-15"] },
+    { "ebene": 1, "text": "**Rücktritt schadet nicht** (§ 325 BGB).", "faelle": ["fall-15"], "verweis": "pfad-631" },
+    { "ebene": 1, "text": "**Fraglich: Schaden?** Positives Interesse (§ 249 Abs. 1 BGB): Mehrkosten des Deckungsgeschäfts; Kürzung bei Verstoß gegen die Schadensminderungspflicht (§ 254 Abs. 2 S. 1 BGB).", "faelle": ["fall-15"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann B die Mehrkosten verlangen, wenn U die fällige Leistung trotz Frist schuldhaft nicht erbracht hat." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-823", "art": "anspruch", "titel": "Unerlaubte Handlung – § 823 Abs. 1 BGB",
+  "ausgangspunkt": "Ein Rechtsgut wie Eigentum oder Körper wurde verletzt.",
+  "grundlagen": ["§ 823 Abs. 1 BGB"], "themen": ["gesetzliche-schuldverhaeltnisse"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** G könnte gegen S einen Anspruch auf Schadensersatz aus § 823 Abs. 1 BGB haben." },
+    { "ebene": 1, "text": "**Haftungsbegründung:** Rechtsgutsverletzung (Eigentum, Körper, Gesundheit), Handlung, haftungsbegründende Kausalität, Rechtswidrigkeit (indiziert), Verschulden (Fahrlässigkeit = Außerachtlassen der im Verkehr erforderlichen Sorgfalt, § 276 Abs. 2 BGB).", "faelle": ["fall-14"] },
+    { "ebene": 1, "text": "**Haftungsausfüllung:** Schaden, haftungsausfüllende Kausalität, Umfang nach §§ 249 ff. BGB. Fraglich ist meist der Umfang der einzelnen Posten:", "faelle": ["fall-14"] },
+    { "ebene": 2, "text": "Fahrzeug: Reparatur bis 130 % des Wiederbeschaffungswerts bei Integritätsinteresse (§ 249 Abs. 2 S. 1 BGB); darüber wirtschaftlicher Totalschaden → nur der Wiederbeschaffungsaufwand (vgl. § 251 Abs. 2 S. 1 BGB), keine Aufspaltung.", "faelle": ["fall-14"] },
+    { "ebene": 2, "text": "Heilbehandlung (+); die Behandlung einer schon bestehenden, unfallunabhängigen Erkrankung (nur bei der Untersuchung entdeckt) ist mangels haftungsausfüllender Kausalität nicht zu ersetzen.", "faelle": ["fall-14"] },
+    { "ebene": 2, "text": "Schmerzensgeld bei Verletzung von Körper oder Gesundheit (§ 253 Abs. 2 BGB).", "faelle": ["fall-14"] },
+    { "ebene": 2, "text": "Mietwagen nur in der eigenen Klasse (Wirtschaftlichkeitsgebot).", "faelle": ["fall-14"] },
+    { "ebene": 2, "text": "Verdienstausfall trotz Lohnfortzahlung: Schaden des Verletzten, der Anspruch geht aber auf den Arbeitgeber über (§ 6 Abs. 1 EFZG).", "faelle": ["fall-14"] },
+    { "ebene": 1, "text": "**Daneben:** Halterhaftung (§ 7 Abs. 1 StVG), Fahrerhaftung (§ 18 Abs. 1 StVG), Abwägung der Betriebsgefahr (§ 17 StVG, § 254 BGB), Direktanspruch gegen den Versicherer (§ 115 Abs. 1 S. 1 Nr. 1 VVG).", "faelle": ["fall-14"] },
+    { "ebene": 1, "text": "**Ausschluss:** Bei unbestellt gelieferter Ware an einen Verbraucher sind auch deliktische Ansprüche ausgeschlossen (§ 241a Abs. 1 BGB).", "faelle": ["fall-09"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich kann G Ersatz der ersatzfähigen Posten verlangen, wenn S ein Rechtsgut rechtswidrig und schuldhaft verletzt hat." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-vertragsschluss", "art": "baustein", "titel": "Vertragsschluss – §§ 145 ff. BGB",
+  "ausgangspunkt": "Ist überhaupt ein Vertrag zustande gekommen – und mit wem?",
+  "themen": ["vertragsschluss"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** Zwischen A und B könnte ein Vertrag zustande gekommen sein." },
+    { "ebene": 1, "text": "**Voraussetzungen:** zwei übereinstimmende Willenserklärungen, Antrag und Annahme (§§ 145 ff. BGB)." },
+    { "ebene": 1, "text": "**Antrag:** enthält die essentialia negotii, sodass ein bloßes „Ja“ genügt; sonst nur eine Anfrage (z. B. ohne Preis).", "faelle": ["fall-09"] },
+    { "ebene": 2, "text": "Inhalt nach objektivem Empfängerhorizont (§§ 133, 157 BGB); ein nicht erkennbarer Versprecher oder Tippfehler ändert den Inhalt nicht.", "faelle": ["fall-02", "fall-18"], "verweis": "pfad-433-2" },
+    { "ebene": 2, "text": "Unter Abwesenden wirksam erst mit Zugang (§ 130 Abs. 1 S. 1 BGB); ein Widerruf, der vorher oder gleichzeitig zugeht, verhindert das Wirksamwerden (§ 130 Abs. 1 S. 2 BGB).", "faelle": ["fall-08", "fall-17"], "verweis": "pfad-we" },
+    { "ebene": 2, "text": "Versteigerung: Gebot = Antrag, Zuschlag = Annahme; ein Gebot erlischt durch ein Übergebot (§ 156 S. 1, 2 BGB).", "faelle": ["fall-01", "fall-02", "fall-07"] },
+    { "ebene": 1, "text": "**Annahme:**" },
+    { "ebene": 2, "text": "Ist der Antrag nie wirksam geworden (z. B. Widerruf, § 130 Abs. 1 S. 2 BGB), geht die Annahme ins Leere; allenfalls ein neuer Antrag (§§ 133, 157 BGB).", "faelle": ["fall-08"] },
+    { "ebene": 2, "text": "Unter Anwesenden und am Telefon nur sofort (§ 147 Abs. 1 S. 1, 2 BGB); sonst erlischt der Antrag (§ 146 BGB).", "faelle": ["fall-09"] },
+    { "ebene": 2, "text": "Verspätete oder geänderte Annahme = neuer Antrag (§ 150 Abs. 1, 2 BGB); Abwicklungsmodalitäten, die ohnehin gelten, sind keine Änderung.", "faelle": ["fall-09", "fall-10"] },
+    { "ebene": 2, "text": "Annahme ohne Erklärung gegenüber dem Antragenden, wenn die Verkehrssitte sie entbehrlich macht (§ 151 S. 1 BGB), z. B. wortloses Behalten des Geldes.", "faelle": ["fall-17"] },
+    { "ebene": 2, "text": "Unbestellte Ware an einen Verbraucher: Der Verbrauch ist keine Annahme, ein Anspruch entsteht nicht (§ 241a Abs. 1 BGB).", "faelle": ["fall-09"] },
+    { "ebene": 1, "text": "**Fraglich: Wer ist Vertragspartner?** Handelt ein Dritter: Bote (übermittelt eine fremde WE) oder Vertreter (eigene WE mit Entscheidungsspielraum, § 164 Abs. 1 BGB)? Auch ein Geschäftsunfähiger kann Bote sein.", "faelle": ["fall-16", "fall-17"], "verweis": "pfad-vertretung" },
+    { "ebene": 2, "text": "Eine versehentlich falsch übermittelte Botenerklärung gilt so, wie sie ankommt → Anfechtung nach § 120 BGB.", "faelle": ["fall-16"], "verweis": "pfad-anfechtung" },
+    { "ebene": 1, "text": "**Fraglich: Einigung trotz Abweichungen?** Kollidierende AGB: Kongruenzgeltung, im Übrigen die gesetzlichen Regeln (§ 306 Abs. 2 BGB entsprechend). Versteckter Dissens (§ 155 BGB) schadet nicht, wenn der Vertrag auch ohne den offenen Punkt geschlossen worden wäre.", "faelle": ["fall-10"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich ist ein Vertrag zustande gekommen, wenn ein wirksamer Antrag rechtzeitig und ohne Änderung angenommen wurde." }
+  ],
+  "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-we", "art": "baustein", "titel": "Willenserklärung – Tatbestand, Abgabe, Zugang",
+  "ausgangspunkt": "Liegt überhaupt eine wirksame Willenserklärung vor (Erklärungsbewusstsein, Abgabe, Zugang)?",
+  "themen": ["willenserklaerung", "zugang"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** Die Erklärung des E könnte eine wirksame Willenserklärung sein." },
+    { "ebene": 1, "text": "**Voraussetzungen:** objektiver und subjektiver Tatbestand, Abgabe und – bei empfangsbedürftigen Erklärungen – Zugang (§ 130 Abs. 1 S. 1 BGB)." },
+    { "ebene": 1, "text": "**Objektiver Tatbestand:** Durfte der Empfänger das Verhalten als Erklärung verstehen (§§ 133, 157 BGB)? Handzeichen im Auktionssaal → (+); Hingabe von Geld als konkludenter Antrag → (+).", "faelle": ["fall-07", "fall-17"] },
+    { "ebene": 1, "text": "**Fraglich: Erklärungsbewusstsein fehlt?** Nach h. M. trotzdem WE, wenn der Erklärende bei verkehrsüblicher Sorgfalt erkennen konnte, dass sein Verhalten als Erklärung verstanden werden durfte, und der Empfänger es auch so verstanden hat; dann anfechtbar analog § 119 Abs. 1 BGB mit Folge § 122 BGB.", "faelle": ["fall-07"], "verweis": "pfad-anfechtung" },
+    { "ebene": 1, "text": "**Fraglich: Abgabe** = willentliches Inverkehrbringen in Richtung des Empfängers. Abhandengekommene Erklärung: nach h. M. keine WE (allenfalls § 122 BGB analog); nach der Vorlesung zurechenbar, aber anfechtbar.", "faelle": ["fall-07"] },
+    { "ebene": 1, "text": "**Zugang** = in den Machtbereich des Empfängers gelangt, sodass unter gewöhnlichen Umständen mit Kenntnisnahme zu rechnen ist.", "faelle": ["fall-08"] },
+    { "ebene": 2, "text": "Private E-Mail spät abends → Zugang erst am nächsten Morgen (a. A. vertretbar).", "faelle": ["fall-08"] },
+    { "ebene": 2, "text": "Widerruf wirkt, wenn er vorher oder gleichzeitig zugeht (§ 130 Abs. 1 S. 2 BGB).", "faelle": ["fall-08"] },
+    { "ebene": 2, "text": "Empfangsbote (z. B. Mitbewohnerin): Zugang, sobald die Weitergabe zu erwarten ist. Erklärungsbote des Absenders: Zugang erst bei Ankunft beim Empfänger.", "faelle": ["fall-08"] },
+    { "ebene": 2, "text": "Ist eine Erklärung nie zugegangen, ist sie nicht wirksam geworden.", "faelle": ["fall-17"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich liegt eine wirksame Willenserklärung vor, wenn sie dem Erklärenden zurechenbar ist, willentlich abgegeben wurde und dem Empfänger zugegangen ist." }
+  ],
+  "weiter": ["pfad-vertragsschluss", "pfad-anfechtung", "pfad-122"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-geschaeftsfaehigkeit", "art": "baustein", "titel": "Geschäftsfähigkeit – §§ 104 ff. BGB",
+  "ausgangspunkt": "Ein Minderjähriger hat gehandelt.",
+  "themen": ["geschaeftsfaehigkeit"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** Die Willenserklärung des minderjährigen M könnte wirksam sein." },
+    { "ebene": 1, "text": "**Geschäftsfähigkeit:** Unter sieben Jahren geschäftsunfähig (§ 104 Nr. 1 BGB) → WE nichtig (§ 105 Abs. 1 BGB). Ab sieben beschränkt geschäftsfähig (§ 106 BGB); der Geburtstag wird mitgerechnet (§ 187 Abs. 2 S. 2 BGB).", "faelle": ["fall-17", "fall-03"] },
+    { "ebene": 1, "text": "**Lediglich rechtlicher Vorteil** (§ 107 BGB) = keine Pflicht, kein Rechtsverlust: Kauf (−), Erwerb von Eigentum (+).", "faelle": ["fall-03", "fall-13"] },
+    { "ebene": 2, "text": "Handelt der Minderjährige als Vertreter, trifft ihn das Geschäft nicht → wirksam (§ 165 BGB).", "faelle": ["fall-18"], "verweis": "pfad-vertretung" },
+    { "ebene": 1, "text": "**Einwilligung** = vorherige Zustimmung (§ 183 S. 1 BGB) der Eltern als gesetzliche Vertreter (§ 1629 Abs. 1 BGB) gerade zu diesem Geschäft.", "faelle": ["fall-03", "fall-05"] },
+    { "ebene": 1, "text": "**Fraglich: § 113 BGB?** Erfasst nur Geschäfte rund um das Dienst- oder Arbeitsverhältnis, nicht die Verwendung des Lohns.", "faelle": ["fall-05"] },
+    { "ebene": 1, "text": "**Fraglich: § 110 BGB?** Leistung mit Mitteln bewirkt, die zu diesem Zweck oder zur freien Verfügung überlassen wurden." },
+    { "ebene": 2, "text": "Bewirkt = vollständig erbracht: beim Ratenkauf erst mit der letzten Rate; beim Abo nicht nach zwei von sechs Monaten; Einmalzahlung (+).", "faelle": ["fall-03", "fall-05"] },
+    { "ebene": 2, "text": "Überlassen auch von Dritten mit Zustimmung der Eltern (Nachhilfehonorar) oder als Gegenstand „zur freien Verfügung“ (Zahngold); nicht bei eigenmächtigem Verkauf.", "faelle": ["fall-05", "fall-13", "fall-17"] },
+    { "ebene": 2, "text": "Greift § 110 BGB, ist der Vertrag von Anfang an wirksam; eine spätere Verweigerung der Genehmigung geht ins Leere.", "faelle": ["fall-13"] },
+    { "ebene": 1, "text": "**Rechtsfolge ohne Einwilligung:** schwebend unwirksam (§ 108 Abs. 1 BGB). Genehmigung (§ 182 Abs. 1 BGB) wirkt zurück (§ 184 Abs. 1 BGB); Verweigerung → endgültig unwirksam.", "faelle": ["fall-17", "fall-03", "fall-05"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich ist die WE eines Geschäftsunfähigen stets nichtig (§ 105 Abs. 1 BGB); die WE eines beschränkt Geschäftsfähigen ist wirksam, wenn sie lediglich rechtlich vorteilhaft oder (als Vertreter) neutral ist (§ 165 BGB), die Eltern eingewilligt haben, § 110 BGB greift oder die Eltern genehmigen." }
+  ],
+  "weiter": ["pfad-812", "pfad-uebereignung", "pfad-179"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-vertretung", "art": "baustein", "titel": "Stellvertretung – § 164 Abs. 1 BGB",
+  "ausgangspunkt": "Ein Dritter hat für jemand anderen gehandelt.",
+  "themen": ["stellvertretung", "vertreter-ohne-vertretungsmacht"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** Die Erklärung des V könnte dem Vertretenen nach § 164 Abs. 1 BGB zuzurechnen sein." },
+    { "ebene": 1, "text": "**Voraussetzungen:** eigene WE, im fremden Namen, mit Vertretungsmacht." },
+    { "ebene": 1, "text": "**Eigene WE:** Entscheidungsspielraum → Vertreter; bloße Übermittlung einer fremden WE → Bote.", "faelle": ["fall-01", "fall-16", "fall-17", "fall-04", "fall-18"] },
+    { "ebene": 1, "text": "**Beschränkt geschäftsfähiger Vertreter:** schadet nicht, das Geschäft ist für ihn rechtlich neutral (§ 165 BGB).", "faelle": ["fall-18"] },
+    { "ebene": 1, "text": "**Im fremden Namen** (Offenkundigkeit, § 164 Abs. 1 S. 2 BGB): ausdrücklich oder aus den Umständen.", "faelle": ["fall-01", "fall-04", "fall-16", "fall-18"] },
+    { "ebene": 1, "text": "**Fraglich: Vertretungsmacht.**" },
+    { "ebene": 2, "text": "Vollmacht = durch Rechtsgeschäft erteilte Vertretungsmacht (§ 166 Abs. 2 S. 1 BGB), Erteilung nach § 167 Abs. 1 BGB (innen oder außen); Umfang durch Auslegung.", "faelle": ["fall-01", "fall-04", "fall-18"] },
+    { "ebene": 2, "text": "Erloschen mit dem Grundverhältnis oder durch Widerruf (§ 168 S. 1, 2, 3 BGB).", "faelle": ["fall-04"] },
+    { "ebene": 2, "text": "Von Anfang an nichtig nach Anfechtung der Vollmacht (§ 142 Abs. 1 BGB).", "faelle": ["fall-01"], "verweis": "pfad-anfechtung" },
+    { "ebene": 2, "text": "Rechtsschein: Außenvollmacht bzw. Kundgabe wirkt fort bis zur Anzeige des Erlöschens bzw. bis zum Widerruf in derselben Weise (§§ 170, 171 Abs. 2, 172 Abs. 2 BGB), nur im kundgegebenen Umfang und nicht bei Kennen oder Kennenmüssen (§ 173 BGB); ohne Kundgabe durch den Vertretenen kein Rechtsschein.", "faelle": ["fall-04", "fall-01"] },
+    { "ebene": 2, "text": "Anscheinsvollmacht: wiederholtes Auftreten über längere Zeit, der Vertretene hätte es erkennen und verhindern können, der Partner vertraut darauf → (+); erstmaliges Auftreten → (−).", "faelle": ["fall-16", "fall-18"] },
+    { "ebene": 2, "text": "Duldungsvollmacht: Der Vertretene weiß vom Auftreten und duldet es → (+); fehlt jedes frühere Auftreten → (−).", "faelle": ["fall-18"] },
+    { "ebene": 2, "text": "Missbrauch der Vertretungsmacht nur bei Evidenz oder Kollusion; bloßer Ärger im Innenverhältnis genügt nicht.", "faelle": ["fall-04"] },
+    { "ebene": 1, "text": "**Ohne Vertretungsmacht:** schwebend unwirksam (§ 177 Abs. 1 BGB); Genehmigung verweigert → endgültig unwirksam.", "faelle": ["fall-01", "fall-04", "fall-18"], "verweis": "pfad-179" },
+    { "ebene": 1, "text": "**Erg.:** Folglich wirkt die Erklärung für und gegen den Vertretenen, wenn Vertretungsmacht bestand oder er genehmigt; sonst ist sie endgültig unwirksam, und eine Haftung des Vertreters nach § 179 BGB kommt in Betracht." }
+  ],
+  "weiter": ["pfad-179"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-anfechtung", "art": "baustein", "titel": "Anfechtung – § 142 Abs. 1 BGB",
+  "ausgangspunkt": "Jemand will sich von seiner Erklärung lösen.",
+  "themen": ["anfechtung"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** A könnte seine Willenserklärung durch Anfechtung mit Wirkung von Anfang an beseitigt haben (§ 142 Abs. 1 BGB) – ein Gestaltungsrecht, kein Anspruch." },
+    { "ebene": 1, "text": "**Voraussetzungen:** anfechtbare WE, Anfechtungsgrund, Erklärung gegenüber dem richtigen Gegner, Frist, kein Ausschluss." },
+    { "ebene": 1, "text": "**Anfechtbare WE:** auch die Vollmachtserteilung, nach h. M. selbst dann, wenn die Vollmacht schon ausgeübt ist.", "faelle": ["fall-01"] },
+    { "ebene": 1, "text": "**Fraglich: Anfechtungsgrund.**" },
+    { "ebene": 2, "text": "Erklärungsirrtum (§ 119 Abs. 1 Alt. 2 BGB): Versprechen, Vertippen; kausal und bei verständiger Würdigung erheblich. Kein Inhaltsirrtum, kein bloßer Kalkulationsirrtum.", "faelle": ["fall-02", "fall-18"] },
+    { "ebene": 2, "text": "Eigenschaftsirrtum (§ 119 Abs. 2 BGB): verkehrswesentliche, dauerhaft anhaftende wertbildende Faktoren, z. B. die Echtheit eines Kunstwerks; nicht der Preis selbst.", "faelle": ["fall-06"] },
+    { "ebene": 2, "text": "Falsche Übermittlung durch einen Boten (§ 120 BGB).", "faelle": ["fall-16"] },
+    { "ebene": 2, "text": "Fehlendes Erklärungsbewusstsein: analog § 119 Abs. 1 BGB.", "faelle": ["fall-07"] },
+    { "ebene": 2, "text": "Arglistige Täuschung (§ 123 Abs. 1 Alt. 1 BGB): Täuschung, Irrtum, Kausalität, Arglist. Der Erklärungsempfänger selbst und wer für ihn verhandelt, ist kein Dritter i. S. d. § 123 Abs. 2 BGB.", "faelle": ["fall-01", "fall-06"] },
+    { "ebene": 1, "text": "**Erklärung** (§ 143 Abs. 1 BGB): Das Wort „anfechten“ ist nicht nötig, auch „widerrufen“ kann genügen (§§ 133, 157 BGB). Gegner ist der Vertragspartner (§ 143 Abs. 2 BGB), beim Vertretergeschäft also der Vertretene; bei der Innenvollmacht der Bevollmächtigte (§ 143 Abs. 3 S. 1 BGB).", "faelle": ["fall-01", "fall-02", "fall-06", "fall-07", "fall-16", "fall-18"] },
+    { "ebene": 1, "text": "**Frist:** bei §§ 119, 120 BGB unverzüglich (§ 121 Abs. 1 S. 1 BGB); bei § 123 BGB ein Jahr ab Entdeckung (§ 124 Abs. 1, 2 S. 1 BGB).", "faelle": ["fall-01", "fall-02", "fall-06", "fall-18", "fall-07", "fall-16"] },
+    { "ebene": 1, "text": "**Kein Ausschluss:** keine Bestätigung (§ 144 BGB).", "faelle": ["fall-01", "fall-18", "fall-02", "fall-06"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich ist die Erklärung von Anfang an nichtig (§ 142 Abs. 1 BGB), wenn ein Anfechtungsgrund besteht und fristgerecht gegenüber dem richtigen Gegner angefochten wurde; wer die Anfechtbarkeit kannte, wird so behandelt, als hätte er die Nichtigkeit gekannt (§ 142 Abs. 2 BGB)." }
+  ],
+  "weiter": ["pfad-122", "pfad-812", "pfad-179"], "quelle": "neu", "geprueft": true
+},
+{
+  "id": "pfad-uebereignung", "art": "baustein", "titel": "Übereignung – § 929 S. 1 BGB",
+  "ausgangspunkt": "Wem gehört die Sache?",
+  "themen": ["abstraktionsprinzip"],
+  "zeilen": [
+    { "ebene": 1, "text": "**OS:** E könnte das Eigentum an der Sache durch Übereignung an B nach § 929 S. 1 BGB verloren haben." },
+    { "ebene": 1, "text": "**Voraussetzungen:** Einigung und Übergabe durch den Berechtigten." },
+    { "ebene": 1, "text": "**Einigung:** z. B. „Die gehört jetzt dir“. An einen beschränkt geschäftsfähigen Minderjährigen geht sie zu, weil sie ihm lediglich einen rechtlichen Vorteil bringt (§ 131 Abs. 2 S. 2 BGB).", "faelle": ["fall-03", "fall-11"] },
+    { "ebene": 1, "text": "**Fraglich: Ist die Einigung wirksam?**" },
+    { "ebene": 2, "text": "Minderjähriger Erwerber: Der Eigentumserwerb ist lediglich rechtlich vorteilhaft (§ 107 BGB) → (+).", "faelle": ["fall-03", "fall-13"], "verweis": "pfad-geschaeftsfaehigkeit" },
+    { "ebene": 2, "text": "Minderjähriger Veräußerer: Der Eigentumsverlust ist rechtlich nachteilig (§ 107 BGB); wirksam bei Einwilligung bzw. Überlassung zur freien Verfügung (Rechtsgedanke § 110 BGB).", "faelle": ["fall-03", "fall-13"], "verweis": "pfad-geschaeftsfaehigkeit" },
+    { "ebene": 2, "text": "Abstraktionsprinzip: Die Nichtigkeit des Kaufs schlägt nicht auf die Übereignung durch.", "faelle": ["fall-03"] },
+    { "ebene": 2, "text": "Ausnahme Wucher (§ 138 Abs. 2 BGB: auffälliges Missverhältnis, Zwangslage, Ausbeutung): Auch die Übereignung des Bewucherten ist nichtig.", "faelle": ["fall-11"] },
+    { "ebene": 2, "text": "Ausnahme Fehleridentität: Erfasst die Anfechtung wegen Täuschung auch die Übereignung, bleibt der Veräußerer Eigentümer.", "faelle": ["fall-06"], "verweis": "pfad-985" },
+    { "ebene": 1, "text": "**Übergabe** (+).", "faelle": ["fall-03", "fall-11"] },
+    { "ebene": 1, "text": "**Berechtigung:** Der Veräußerer ist Eigentümer (+).", "faelle": ["fall-03", "fall-11"] },
+    { "ebene": 1, "text": "**Erg.:** Folglich geht das Eigentum über, wenn die Einigung wirksam ist; ist nur der Kauf unwirksam, bleibt der Anspruch auf Rückübereignung aus § 812 Abs. 1 S. 1 Alt. 1 BGB." }
+  ],
+  "weiter": ["pfad-985", "pfad-812"], "quelle": "neu", "geprueft": true
+}
+]

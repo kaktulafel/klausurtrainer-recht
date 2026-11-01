@@ -66,3 +66,29 @@ test('fallPasst: alle Suchwörter, Groß-/Kleinschreibung egal', () => {
   assert.ok(fallPasst(f, '§ 110'));
   assert.ok(!fallPasst(f, 'taschengeld versteigerung-gibt-es-nicht'));
 });
+
+const pfade = json('pruefpfade.json');
+
+test('Prüfungspfade: jede Anspruchsgrundlage aus den Fällen hat einen Pfad', () => {
+  const grundlagen = new Set(pfade.flatMap(p => p.grundlagen || []));
+  for (const g of gruppiereAnsprueche(faelle).gruppen) assert.ok(grundlagen.has(g.grundlage), `kein Prüfungspfad für ${g.grundlage}`);
+});
+
+test('Prüfungspfade: jeder Fall ist bei seinen Ansprüchen verwiesen, weitere Prüfungen bei einem Pfad', () => {
+  const alleBezuege = new Set(pfade.flatMap(p => p.zeilen.flatMap(z => z.faelle || [])));
+  for (const e of gruppiereAnsprueche(faelle).sonstige) assert.ok(alleBezuege.has(e.fallId), `${e.fallId}: „${e.text}“ ohne Pfad`);
+  for (const g of gruppiereAnsprueche(faelle).gruppen) {
+    const p = pfade.find(x => (x.grundlagen || []).includes(g.grundlage));
+    const bezug = new Set(p.zeilen.flatMap(z => z.faelle || []));
+    for (const e of g.eintraege) assert.ok(bezug.has(e.fallId), `${p.id}: Fall ${e.fallId} (${g.grundlage}) fehlt im Pfad`);
+  }
+});
+
+test('Prüfungspfade: Gutachtenstil – OS am Anfang, Erg. am Ende, Verweise gültig', () => {
+  const ids = new Set(pfade.map(p => p.id));
+  for (const p of pfade) {
+    assert.match(p.zeilen[0].text, /^\*\*OS:\*\* .*\bkönnte\b/, p.id);
+    assert.match(p.zeilen.at(-1).text, /^\*\*Erg\.:\*\* Folglich /, p.id);
+    for (const z of p.zeilen) if (z.verweis) assert.ok(ids.has(z.verweis), `${p.id} → ${z.verweis}`);
+  }
+});

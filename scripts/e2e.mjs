@@ -30,7 +30,7 @@ async function keinMuell(route) {
 
 await schritt('Alle Bereiche laden ohne Konsolenfehler, ohne Überlauf, ohne null/undefined', async () => {
   for (const r of ['#/', '#/faelle', '#/faelle/fall-01', '#/mc', '#/normen', '#/normen/karten', '#/normen/zitieren', '#/normen/register', '#/wissen',
-    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/mehr', '#/info', '#/gibtsnicht']) {
+    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/mehr', '#/info', '#/gibtsnicht']) {
     await page.goto(basis + r, { waitUntil: 'networkidle' });
     await page.waitForSelector('main h1');
     await keinMuell(r);

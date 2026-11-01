@@ -103,8 +103,20 @@ Neue Felder `kurzSachverhalt` und `stichpunkte` aller 18 Fälle, geprüft gegen 
 - [x] fall-15 (gering): Schwerpunkt („Fraglich“) beim Expresszuschlag statt bei § 325.
 - [x] fall-17 (mittel): § 110 scheitert, weil die Schuhe nicht zur freien Verfügung überlassen waren (nicht „eigenes Eigentum“ – sonst Widerspruch zu fall-13).
 - [x] fall-18 (gering): Brücke Auslegung ↔ § 122 Abs. 2; § 122 Abs. 1 als eigene Prüfung mit eigenem OS.
-- Nicht übernommen: fall-15 Abgrenzung Rücktritt ↔ freie Kündigung (§ 648 BGB) – die geprüfte Musterlösung behandelt sie nicht, § 648 steht nicht im Register; als mögliche Ergänzung offen (nicht kritisch).
+- Nicht übernommen: fall-15 Abgrenzung Rücktritt ↔ freie Kündigung (§ 648 BGB) in den Stichpunkten – die Hauptlösung der Musterlösung behandelt sie nicht (nur die Abwandlung); als mögliche Ergänzung offen (nicht kritisch). *Korrektur 01.11.2026:* § 648 steht entgegen der ersten Notiz im Register; die Abgrenzung steht jetzt im Prüfungspfad pfad-631.
 - fall-02, 03, 05, 07, 08, 09, 11, 13, 16: ohne Befund.
+
+### Prüfungspfade (01.11.2026, zwei frische Zweitkorrektoren, je 9 Pfade)
+Neue Datei `pruefpfade.json`: 12 Anspruchsschemata und 6 Bausteine im Stichpunkt-Gutachtenstil mit allen Weichen aus den 18 Fällen und Fallverweisen. Geprüft auf Fachrichtigkeit, Zitate (amtlicher Wortlaut), Fallverweise, Vollständigkeit der Weichen und Gutachtenstil. **Kein kritischer Befund.** Übernommen:
+- [x] pfad-326-4 (mittel): Ausschluss nach § 326 Abs. 2 S. 1 BGB (Verantwortlichkeit, Annahmeverzug § 293) ergänzt; Stückschuld bei der Befreiung.
+- [x] pfad-631 (mittel): Abgrenzung Rücktritt ↔ freie Kündigung (§ 648 S. 1, 2 BGB); § 134 mit beiderseitigem Bewusstsein.
+- [x] pfad-812 (mittel): Gegenrechte richtig zugeordnet (Wertersatz/Entreicherung betrifft den Gegenanspruch); § 817 S. 2 auch Sittenverstoß; Weichen § 113 und Wucher ergänzt.
+- [x] pfad-vertretung (mittel): Ergebnis berücksichtigt § 179 Abs. 3 („kommt in Betracht“); § 164 Abs. 1 S. 2; Rechtsschein nach §§ 170, 171 Abs. 2, 172 Abs. 2, 173 differenziert; § 165 als eigener Punkt; Duldungsvollmacht, Missbrauch.
+- [x] pfad-geschaeftsfaehigkeit (mittel): Ergebnis mit § 105 Abs. 1 (Geschäftsunfähige) und § 165; § 113 als eigene Weiche; § 110 macht spätere Verweigerung gegenstandslos.
+- [x] pfad-823 (mittel): Vorschaden nur bei unfallunabhängiger Erkrankung nicht ersatzfähig; Ausschluss über § 241a Abs. 1.
+- [x] Gering: § 447 nur Preisgefahr (pfad-433-1), Durchsetzbarkeit (433-1, 433-2, 281), Fälligkeit (281), § 156 S. 1, 2, § 147 Abs. 1 S. 1, 2, § 124 Abs. 1, 2 S. 1, Annahme eines nie wirksamen Antrags, versehentliche Botenverfälschung, Erklärungsbewusstsein (Empfänger hat so verstanden), Anfechtungsgegner beim Vertretergeschäft, Kausalität beim Erklärungsirrtum, Ergebnis der Anfechtung bedingt, § 131 Abs. 2 S. 2 nur beschränkt Geschäftsfähige, minderjähriger Veräußerer, Fehleridentität, Berechtigung, Reihenfolge bei § 985, § 312g Abs. 2, § 122-Ergebnis (§ 118 nichtig), fehlende Fallverweise und `weiter`-Verweise.
+- Nicht übernommen: Fälligkeit des Werklohns (§ 641 BGB) – nicht im Register, in keinem Fall relevant.
+- Offen (nicht kritisch, für ein späteres Fall-Review): Musterlösung fall-10 (Abwandlung Holschuld) prüft § 326 Abs. 2 nicht; Hauptlösung fall-15 erwähnt die Abgrenzung zu § 648 nicht.
 
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |
