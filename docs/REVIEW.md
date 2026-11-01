@@ -118,6 +118,20 @@ Neue Datei `pruefpfade.json`: 12 Anspruchsschemata und 6 Bausteine im Stichpunkt
 - Nicht übernommen: Fälligkeit des Werklohns (§ 641 BGB) – nicht im Register, in keinem Fall relevant.
 - Offen (nicht kritisch, für ein späteres Fall-Review): Musterlösung fall-10 (Abwandlung Holschuld) prüft § 326 Abs. 2 nicht; Hauptlösung fall-15 erwähnt die Abgrenzung zu § 648 nicht.
 
+### DS-MC „pur inhaltlich“, Cheatsheets, Karteikarten (01.11.2026, vier frische Zweitkorrektoren)
+Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefasst: Fälle statt Fundstellen, keine Normen mehr in Frage und Antwort. Neu: `cheatsheets.json` und `karteikarten/recht.json`. **Bei MC und Karten keine falsche Lösung.**
+- [x] Cheatsheets (kritisch): „§ 142 Abs. 2 BGB nur Kenntnis“ war falsch; die Norm erfasst auch „kennen musste“. Korrigiert, ebenso kk-107.
+- [x] Cheatsheets (mittel): Täuschung auch durch Verschweigen; Halterhaftung (§ 7 Abs. 2, § 18 Abs. 1 S. 2, § 17 StVG); Merkmale bei Rücktritt, Zweckverfehlung, Verzug (§ 286 Abs. 3), § 281 Abs. 2, Lieferung, Werklohn (§ 641 Abs. 1 neu im Register); § 447 nur eingeschränkt beim Verbrauchsgüterkauf. Dazu 18 geringe Befunde und 11 neue Einträge (Regelverjährung, Ende der Widerrufsfrist, Drohung, Wucher, § 280 Abs. 1 u. a.).
+- [x] MC (mittel): Reste vom Umschreiben (064, 047, 049, 083, 053), 051 (E-Mail-Werbung und Wettbewerbsrecht), 048 (Raummaße), Katalogabfragen in Fälle umgewandelt (062, 019, 077, 038, 066, 081), 094 (kein exaktes Fristende, das Wochenende unterbricht nicht), 095, 099, 101 (Sachverhalt vollständig), 125 (Art. 9 Abs. 2 lit. b, § 26 Abs. 3 S. 1 BDSG). Dazu die geringen Befunde und fehlende Normzitate in Erklärungen.
+- [x] Karteikarten (mittel): kk-015, 026, 030, 035, 041, 072, 081, 082, 092, 107, 120, 135, 005, 098, 128, 038; geringe Befunde; 15 Karten vom Zweitkorrektor ergänzt (u. a. § 433-Pflichten, Kondiktionsarten, § 985, § 324, Verjährung, Deliktsfähigkeit), Quelle je Thema statt pauschal.
+- [x] Beifang: wi-057 zitierte die Höchstfrist mit § 356 Abs. 3, richtig § 356 Abs. 4 S. 1 BGB; pfad-326-4 (Untergang der konkretisierten Sache); pfad-631 (Fälligkeit, § 641 Abs. 1 BGB).
+- [x] Wortlaut-Dateien: technische Reste entfernt (kivo-art-113 „<div“, kivo-art-4 enthielt Art. 4a, fehlender Umbruch in bdsg-26).
+- Eigenständig ohne Zweitkorrektor formuliert und daher im nächsten Review ansehen: Karte „Normenhierarchie“ (kk-157).
+- Offen, nicht kritisch: dsgvo-art-83 lautet im Register „Absätzen 5 und 6“ und „a bis h und i“; der Zweitkorrektor erinnert andere Fassungen. Am amtlichen Text prüfen, sobald EUR-Lex wieder abrufbar ist (am 01.11.2026 lieferte der Abruf keine Texte). Art. 2 Abs. 7 KI-VO und § 7 UWG fehlen im Register; ds-mc-141 und ds-mc-051 kommen ohne dieses Zitat aus.
+
+### Podcast-Texte (01.11.2026)
+`docs/podcast/*.md` als Grundlage für die PDFs, geprüft von einem frischen Zweitkorrektor. **Kein kritischer Befund.** Übernommen: 13 mittlere Befunde (u. a. Beispiel zu fall-12 korrigiert, AGB gegenüber Unternehmern, sonstige Rechte in § 823 Abs. 1, 130-Prozent-Grenze verständlich, Eigentumsvorbehalt, fraglicher Punkt der ausgeübten Vollmacht, Vertretenmüssen beim Schadensersatz, wirtschaftliches Interesse und Abwägung, Art. 22 Abs. 2, zeitliche Geltung der KI-VO, Abschnitt „Wo steht was?“), die geringen Befunde und alle 8 vorgeschlagenen Ergänzungen (§ 181, §§ 177 Abs. 2, 178, Drohung, § 147 Abs. 2, § 151, § 241, AGB-Kontrolle, KI-Rollen, DSB nach Art. 37, 38). Zusätzlich § 142 Abs. 2 mit „kennen musste“. Keine echten Personennamen (Hash-Prüfung und Lesen).
+
 ## Fehler im Material (Vorlesung) – in den Inhalten korrigiert
 | Stelle | Material | Richtig |
 |---|---|---|

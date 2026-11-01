@@ -8,7 +8,7 @@ import { bewerteMC } from '../grading.js';
 import { heute, faelligeIds } from '../srs.js';
 import { frageUI, neueReihenfolgen } from './mc.js';
 
-const TYPNAME = { mc: 'Datenschutz-MC', wissen: 'Wissensfrage', nk: 'Normkarte', zitat: 'Zitierübung', schema: 'Schema', 'schema-luecke': 'Lückenschema', 'schema-fall': 'Fall-Einstieg', skizze: 'Skizzen-Sprint', drill: 'Drill' };
+const TYPNAME = { mc: 'Datenschutz-MC', wissen: 'Wissensfrage', nk: 'Normkarte', karte: 'Karteikarte', zitat: 'Zitierübung', schema: 'Schema', 'schema-luecke': 'Lückenschema', 'schema-fall': 'Fall-Einstieg', skizze: 'Skizzen-Sprint', drill: 'Drill' };
 
 function link(typ, id) {
   switch (typ) {
@@ -24,7 +24,7 @@ function link(typ, id) {
 
 export async function render(main, { query }) {
   const inh = await alleInhalte();
-  const nach = { mc: new Map(inh.mc.map(x => [x.id, x])), wissen: new Map(inh.wissen.map(x => [x.id, x])), nk: new Map(inh.normkarten.map(x => [x.id, x])) };
+  const nach = { mc: new Map(inh.mc.map(x => [x.id, x])), wissen: new Map(inh.wissen.map(x => [x.id, x])), nk: new Map(inh.normkarten.map(x => [x.id, x])), karte: new Map(inh.karteikarten.map(x => [x.id, x])) };
   const titel = (typ, id) => ({
     schema: inh.schemata.find(s => s.id === id)?.titel, 'schema-luecke': inh.schemata.find(s => s.id === id)?.titel,
     drill: inh.drills.find(d => d.id === id)?.titel, skizze: inh.faelle.find(f => f.id === id)?.titel, 'schema-fall': inh.faelle.find(f => f.id === id)?.titel,
@@ -87,8 +87,8 @@ export async function render(main, { query }) {
       inhalt = [h('h3', { class: 'lese' }, inline(obj.frage)), ui.element, ziel, h('div', { class: 'btn-reihe' }, knopf)];
       tastatur = (e) => { if (e.target.matches('input[type=text], textarea, select')) return; if (/^[1-9]$/.test(e.key)) { ui.taste(+e.key - 1); e.preventDefault(); } };
     } else {
-      const vorne = x.typ === 'wissen' ? h('h3', { class: 'lese' }, inline(obj.frage)) : h('p', { class: 'lese' }, inline(obj.problem));
-      const rueck = x.typ === 'wissen' ? md(obj.antwort, { lese: true }) : h('div', null, h('p', { class: 'gross' }, inline(obj.norm)), h('p', { class: 'klein' }, inline(obj.erklaerung)));
+      const vorne = x.typ === 'wissen' ? h('h3', { class: 'lese' }, inline(obj.frage)) : x.typ === 'karte' ? h('h3', { class: 'lese' }, inline(obj.vorne)) : h('p', { class: 'lese' }, inline(obj.problem));
+      const rueck = x.typ === 'wissen' ? md(obj.antwort, { lese: true }) : x.typ === 'karte' ? md(obj.hinten, { lese: true }) : h('div', null, h('p', { class: 'gross' }, inline(obj.norm)), h('p', { class: 'klein' }, inline(obj.erklaerung)));
       const bew = selbstbewertung(bewerten);
       bew.hidden = true; rueck.hidden = true;
       const knopf = h('button', { type: 'button', class: 'btn' }, 'Aufdecken (Leertaste)');

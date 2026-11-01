@@ -177,6 +177,8 @@ for (const n of register) {
   aktuell.groesse += groesse;
   n.wortlautDatei = aktuell;
 }
+// Nie einen unvollständigen Abruf schreiben: Sonst ginge vorhandener Wortlaut verloren (FIXLOG 01.11.2026).
+if (fehlt.length) { console.error(`Abbruch, nichts geschrieben. Nicht gefunden: ${fehlt.join(', ')}`); process.exit(1); }
 teile.forEach((t, i) => { t.name = `wortlaut/wortlaut-${i + 1}.json`; });
 mkdirSync(join(ROOT, 'site/data/wortlaut'), { recursive: true });
 for (const f of readdirSync(join(ROOT, 'site/data/wortlaut'))) unlinkSync(join(ROOT, 'site/data/wortlaut', f));

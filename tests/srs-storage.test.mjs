@@ -1,7 +1,7 @@
 import { test } from 'node:test';
 import assert from 'node:assert/strict';
 import { bewerte, istFaellig, faelligeIds, addTage, tageZwischen, quote, neueKarte } from '../site/js/srs.js';
-import { ladeZustand, importiere, exportiere, leererZustand, SCHEMA, markiereLerntag, serieLaenge } from '../site/js/storage-core.js';
+import { ladeZustand, importiere, exportiere, leererZustand, SCHEMA, MC_NEU_GEFASST, markiereLerntag, serieLaenge } from '../site/js/storage-core.js';
 import { tagesplan, themenStatistik, schwachstellen } from '../site/js/plan.js';
 
 test('Datumshilfen', () => {
@@ -53,11 +53,23 @@ test('Storage: falscher Typ / neuere Version → defekt', () => {
   assert.equal(ladeZustand(JSON.stringify({ foo: 1 })).status, 'defekt');
 });
 
-test('Storage: Migration v1 → v2 behält Daten', () => {
+test('Storage: Migration v2 → v3 setzt nur neu gefasste MC-Fragen zurück', () => {
+  const karte = { anzahl: 2, richtig: 1, fach: 1 };
+  const neu = MC_NEU_GEFASST[0];
+  const r = ladeZustand(JSON.stringify({ schema: 2, srs: { ['mc:' + neu]: karte, 'mc:ds-mc-017': karte, 'wissen:wi-001': karte } }));
+  assert.equal(r.status, 'migriert');
+  assert.equal(r.zustand.schema, SCHEMA);
+  assert.equal(r.zustand.srs['mc:' + neu], undefined);
+  assert.deepEqual(r.zustand.srs['mc:ds-mc-017'], karte);
+  assert.deepEqual(r.zustand.srs['wissen:wi-001'], karte);
+  assert.ok(!MC_NEU_GEFASST.includes('ds-mc-017'));
+});
+
+test('Storage: Migration v1 → aktuell behält Daten', () => {
   const v1 = { version: 1, einstellungen: { klausurdatum: '2026-11-02' }, karten: { 'mc:x': { anzahl: 2, richtig: 1, fach: 1 } }, entwuerfe: { 'fall-01': { text: 'Hallo' } }, verlauf: [{ fallId: 'fall-01', punkte: 30, max: 48 }] };
   const r = ladeZustand(JSON.stringify(v1));
   assert.equal(r.status, 'migriert');
-  assert.equal(r.zustand.schema, 2);
+  assert.equal(r.zustand.schema, SCHEMA);
   assert.equal(r.zustand.einstellungen.klausurdatum, '2026-11-02');
   assert.equal(r.zustand.einstellungen.mcRegel, 'abzug');
   assert.equal(r.zustand.srs['mc:x'].richtig, 1);

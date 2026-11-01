@@ -29,11 +29,13 @@
 - 01.11.2026: Alle 18 Fälle haben neue Felder `kurzSachverhalt` und `stichpunkte` (Stichpunktlösung mit Kontext), zweitgeprüft durch zwei Review-Subagenten (REVIEW.md, kein kritischer Befund); „Fälle kompakt“ zeigt sie standardmäßig, Anspruchs-Index nutzt sie (mit Ergebnis (+)/(−)). Flaky MC-Schritt im E2E behoben (FIXLOG).
 - 01.11.2026: `stichpunkte` aller Fälle auf Stichpunkt-Gutachtenstil umgestellt (OS → Voraussetzungen → Fraglich → Subsumtion → Erg.), zweitgeprüft (REVIEW.md); Validator erzwingt OS-/Erg.-Zeile je Prüfung; Anspruchs-Index zeigt den Ergebnissatz.
 - 01.11.2026: **Prüfungspfade** (`data/pruefpfade.json`, `#/uebersicht/pfade`): 12 Anspruchsschemata + 6 Bausteine im Stichpunkt-Gutachtenstil mit allen Weichen aus den 18 Fällen, Wegweiser „Wer will was? → Anspruch“, Fall- und Pfadverweise; zweitgeprüft (REVIEW.md); Validator + Tests erzwingen Format und Abdeckung.
+- 01.11.2026: **DS-MC pur inhaltlich** (98 Fragen geändert, 62 neu gefasst; Validator verbietet Normen in Frage/Antwort), **Cheatsheets** (`#/cheatsheets`, `data/cheatsheets.json`), **Karteikarten Recht** (`#/karteikarten`, `data/karteikarten/recht.json`, SRS `karte:`), Lernstand-Schema 3; zweitgeprüft (REVIEW.md). **Podcast-PDFs** Recht und Datenschutz: `npm run podcast` → `podcast/` (aus `docs/podcast/`).
 
 ## Offen / Ideen für später
 - § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen
 - Git-Historie enthält in alten Commits die Klartext-Namensregex des Validators (nicht umgeschrieben, siehe FIXLOG)
 - Musterlösungen fall-10 (§ 326 Abs. 2 in der Holschuld-Abwandlung) und fall-15 (Abgrenzung § 648) optional ergänzen (REVIEW.md, nicht kritisch)
+- dsgvo-art-83 am amtlichen Text prüfen, wenn EUR-Lex wieder abrufbar ist; Karte kk-157 im nächsten Review ansehen (REVIEW.md)
 - Optional: weitere Fälle (z. B. zweite Erstklausur-Variante), KI-Check auch für Teil B der Probeklausur
 
 ## Nächste Schritte (exakt)

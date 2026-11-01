@@ -4,36 +4,35 @@
   "thema": "ds-einwilligung",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Ab welchem Alter kann ein Kind in Deutschland selbst in die Verarbeitung seiner Daten bei einem Online-Dienst (Dienst der Informationsgesellschaft) einwilligen?",
+  "frage": "Eine 14-Jährige registriert sich bei einem Social-Media-Dienst, der sich auf ihre Einwilligung stützt. Sie klickt selbst auf „Einwilligen“. Die Eltern wissen nichts davon. Ist die Einwilligung wirksam?",
   "optionen": [
    {
     "id": "a",
-    "text": "Ab 16 Jahren",
+    "text": "Nein: In Deutschland kann sie erst ab 16 allein einwilligen; vorher braucht es die Eltern",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 8 Abs. 1 DSGVO; Deutschland hat die Altersgrenze nicht abgesenkt."
+    "erklaerung": "Richtig: Art. 8 Abs. 1 DSGVO setzt 16 Jahre an; Deutschland hat die mögliche Absenkung nicht genutzt."
    },
    {
     "id": "b",
-    "text": "Ab 13 Jahren",
+    "text": "Ja: Mit 14 ist sie beschränkt geschäftsfähig, das reicht",
     "korrekt": false,
-    "erklaerung": "Falsch: 13 ist die Untergrenze, bis zu der Mitgliedstaaten absenken dürfen (Art. 8 Abs. 1 UAbs. 2 DSGVO) – Deutschland hat das nicht getan."
+    "erklaerung": "Falsch: Das BGB-Alter von 7 Jahren spielt hier keine Rolle; es gilt die besondere Altersgrenze (Art. 8 Abs. 1 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Ab 18 Jahren",
+    "text": "Ja: Der Dienst ist kostenlos und daher nur vorteilhaft",
     "korrekt": false,
-    "erklaerung": "Falsch: Die datenschutzrechtliche Einwilligungsfähigkeit beginnt nach Art. 8 Abs. 1 DSGVO mit 16."
+    "erklaerung": "Falsch: Das ist die Wertung des § 107 BGB, nicht des Datenschutzrechts. Auch bei kostenlosen Diensten gilt die Altersgrenze (Art. 8 Abs. 1 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Ab 7 Jahren wie bei der beschränkten Geschäftsfähigkeit",
+    "text": "Nein: Unter 18 ist eine Einwilligung nie möglich",
     "korrekt": false,
-    "erklaerung": "Falsch: § 106 BGB regelt die Geschäftsfähigkeit; für die Einwilligung bei Online-Diensten gilt Art. 8 DSGVO (16 Jahre)."
+    "erklaerung": "Falsch: Ab 16 kann sie selbst einwilligen (Art. 8 Abs. 1 DSGVO)."
    }
   ],
   "normen": [
-   "Art. 8 DSGVO",
-   "§ 106 BGB"
+   "Art. 8 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -43,37 +42,37 @@
   "thema": "ds-einwilligung",
   "typ": "multi",
   "schwierigkeit": 1,
-  "frage": "Welche Anforderungen stellt die DSGVO an Einwilligungen? (mehrere richtig)",
+  "frage": "Eine Website sammelt Einwilligungen für einen Newsletter. Welche Gestaltung ist in Ordnung? (mehrere richtig)",
   "optionen": [
    {
     "id": "a",
-    "text": "Sie muss freiwillig erteilt werden",
+    "text": "Ein nicht angekreuztes Kästchen, das die Person mit klarer Beschreibung des Zwecks selbst anklickt",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 4 Nr. 11, Art. 7 Abs. 4 DSGVO."
+    "erklaerung": "Richtig: Eindeutige bestätigende Handlung für den bestimmten Fall (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32)."
    },
    {
     "id": "b",
-    "text": "Sie muss für den bestimmten Fall, informiert und unmissverständlich sein",
+    "text": "Ein Abmeldelink in jeder Mail, mit dem sich der Widerruf in einem Klick erledigen lässt",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 4 Nr. 11 DSGVO."
+    "erklaerung": "Richtig: Der Widerruf muss so einfach sein wie die Erteilung (Art. 7 Abs. 3 S. 4 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Der Widerruf muss so einfach sein wie die Erteilung",
+    "text": "Eine Protokollierung, wer wann eingewilligt hat",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 7 Abs. 3 S. 4 DSGVO."
+    "erklaerung": "Richtig: Der Verantwortliche muss die Einwilligung nachweisen können (Art. 7 Abs. 1 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Sie muss immer eigenhändig unterschrieben werden",
+    "text": "Ein bereits angekreuztes Kästchen, das man abwählen kann",
     "korrekt": false,
-    "erklaerung": "Falsch: Keine Schriftform nötig; der Verantwortliche muss sie aber nachweisen können (Art. 7 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Vorangekreuzte Kästchen sind keine Einwilligung (Erwägungsgrund 32)."
    },
    {
     "id": "e",
-    "text": "Schweigen oder vorangekreuzte Kästchen genügen",
+    "text": "Der Hinweis „Wer weitersurft, willigt ein“",
     "korrekt": false,
-    "erklaerung": "Falsch: Es braucht eine eindeutige bestätigende Handlung; Stillschweigen, bereits angekreuzte Kästchen oder Untätigkeit genügen nicht (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32 S. 3)."
+    "erklaerung": "Falsch: Schweigen oder Untätigkeit ist keine unmissverständliche Einwilligung (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32)."
    }
   ],
   "normen": [
@@ -88,36 +87,35 @@
   "thema": "ds-einwilligung",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Wie wirkt der Widerruf einer Einwilligung?",
+  "frage": "Eine Kundin widerruft am 1. Juni ihre Einwilligung in einen Newsletter, den sie seit Januar erhalten hat. Was bedeutet das für die Versendungen?",
   "optionen": [
    {
     "id": "a",
-    "text": "Für die Zukunft; die bis dahin erfolgte Verarbeitung bleibt rechtmäßig",
+    "text": "Die Mails bis zum Widerruf bleiben rechtmäßig; ab jetzt dürfen keine mehr auf dieser Grundlage verschickt werden",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 7 Abs. 3 S. 2 DSGVO."
+    "erklaerung": "Richtig: Der Widerruf wirkt nur für die Zukunft (Art. 7 Abs. 3 S. 2 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Rückwirkend, alle bisherigen Verarbeitungen werden rechtswidrig",
+    "text": "Alle Mails seit Januar werden rückwirkend rechtswidrig",
     "korrekt": false,
-    "erklaerung": "Falsch: Der Widerruf berührt nicht die Rechtmäßigkeit der bis dahin erfolgten Verarbeitung (Art. 7 Abs. 3 S. 2 DSGVO)."
+    "erklaerung": "Falsch: Der Widerruf berührt die bisherige Verarbeitung nicht (Art. 7 Abs. 3 S. 2 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Erst nach einer Frist von 14 Tagen",
+    "text": "Der Händler darf noch 14 Tage weiterschicken",
     "korrekt": false,
-    "erklaerung": "Falsch: Der Widerruf ist jederzeit möglich und wirkt mit Zugang (Art. 7 Abs. 3 DSGVO); die 14 Tage gelten beim Verbraucherwiderruf (§ 355 Abs. 2 BGB)."
+    "erklaerung": "Falsch: Eine solche Auslauffrist gibt es nicht; das verwechselt den Widerruf mit dem Verbraucherwiderruf (§ 355 BGB)."
    },
    {
     "id": "d",
-    "text": "Gar nicht – eine Einwilligung ist unwiderruflich",
+    "text": "Der Widerruf ist unwirksam, weil sie einmal zugestimmt hat",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 7 Abs. 3 S. 1 DSGVO: jederzeit widerrufbar."
+    "erklaerung": "Falsch: Die Einwilligung kann jederzeit widerrufen werden (Art. 7 Abs. 3 S. 1 DSGVO)."
    }
   ],
   "normen": [
-   "Art. 7 DSGVO",
-   "§ 355 BGB"
+   "Art. 7 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -166,36 +164,35 @@
   "thema": "ds-einwilligung",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Wer muss nachweisen, dass eine Einwilligung erteilt wurde?",
+  "frage": "Ein Kunde bestreitet, jemals in Werbeanrufe eingewilligt zu haben. Das Unternehmen behauptet das Gegenteil, hat aber keine Aufzeichnung. Wie ist die Lage?",
   "optionen": [
    {
     "id": "a",
-    "text": "Der Verantwortliche",
+    "text": "Das geht zulasten des Unternehmens: Es muss die Einwilligung nachweisen können",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 7 Abs. 1 DSGVO."
    },
    {
     "id": "b",
-    "text": "Die betroffene Person",
+    "text": "Der Kunde muss beweisen, dass er nicht eingewilligt hat",
     "korrekt": false,
-    "erklaerung": "Falsch: Die Nachweislast trägt der Verantwortliche (Art. 7 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Die Nachweislast liegt beim Verantwortlichen (Art. 7 Abs. 1 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Der Datenschutzbeauftragte",
+    "text": "Die Aufsichtsbehörde muss den Vorgang rekonstruieren",
     "korrekt": false,
-    "erklaerung": "Falsch: Der DSB überwacht nur (Art. 39 DSGVO)."
+    "erklaerung": "Falsch: Sie kann ermitteln, nimmt dem Verantwortlichen aber nicht die Nachweispflicht ab (Art. 7 Abs. 1 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Die Aufsichtsbehörde",
+    "text": "Der Datenschutzbeauftragte muss die Einwilligung bezeugen",
     "korrekt": false,
-    "erklaerung": "Falsch: Die Behörde prüft, die Nachweislast trifft den Verantwortlichen (Art. 7 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Das ist nicht seine Aufgabe (Art. 39 DSGVO); nachweispflichtig ist der Verantwortliche."
    }
   ],
   "normen": [
-   "Art. 7 DSGVO",
-   "Art. 39 DSGVO"
+   "Art. 7 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -283,37 +280,36 @@
   "thema": "ds-einwilligung",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "In welcher Form muss eine Einwilligung nach der DSGVO grundsätzlich erteilt werden?",
+  "frage": "Eine Kundin sagt am Telefon klar und bewusst, dass sie in eine bestimmte Datennutzung einwilligt. Das Unternehmen vermerkt Datum, Inhalt und Mitarbeiter. Ist das wirksam, obwohl sie nichts unterschrieben hat?",
   "optionen": [
    {
     "id": "a",
-    "text": "Formfrei, aber unmissverständlich (z. B. Erklärung oder eindeutige bestätigende Handlung) und nachweisbar",
+    "text": "Grundsätzlich ja: Eine bestimmte Form ist nicht vorgeschrieben, die Einwilligung muss aber unmissverständlich und nachweisbar sein",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 4 Nr. 11, Art. 7 Abs. 1 DSGVO."
+    "erklaerung": "Richtig: Auch eine mündliche Erklärung kann genügen (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32); der Nachweis liegt beim Verantwortlichen (Art. 7 Abs. 1 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Nur schriftlich mit Unterschrift",
+    "text": "Nein: Einwilligungen brauchen stets eine Unterschrift",
     "korrekt": false,
-    "erklaerung": "Falsch: Die DSGVO verlangt keine Schriftform (Art. 7 DSGVO); anders im Beschäftigungsverhältnis grundsätzlich § 26 Abs. 2 S. 3 BDSG (Schriftform oder elektronisch)."
+    "erklaerung": "Falsch: Die DSGVO verlangt keine Schriftform (Erwägungsgrund 32) (Art. 4 Nr. 11 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Nur notariell beurkundet",
+    "text": "Nein: Einwilligungen müssen notariell beurkundet werden",
     "korrekt": false,
-    "erklaerung": "Falsch: Eine Beurkundung ist nicht vorgesehen (Art. 7 DSGVO)."
+    "erklaerung": "Falsch: Eine solche Form gibt es nicht (Art. 4 Nr. 11 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Stillschweigend durch Weitersurfen",
+    "text": "Ja, und das Unternehmen braucht die Einwilligung auch nicht zu belegen",
     "korrekt": false,
-    "erklaerung": "Falsch: Bloße Untätigkeit ist keine Einwilligung (Art. 4 Nr. 11 DSGVO, Erwägungsgrund 32 S. 3)."
+    "erklaerung": "Falsch: Der Verantwortliche muss sie nachweisen können (Art. 7 Abs. 1 DSGVO)."
    }
   ],
   "normen": [
    "Art. 4 DSGVO",
-   "Art. 7 DSGVO",
-   "§ 26 BDSG"
+   "Art. 7 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -323,23 +319,23 @@
   "thema": "ds-besondere-kategorien",
   "typ": "multi",
   "schwierigkeit": 1,
-  "frage": "Welche Daten gehören zu den besonderen Kategorien nach Art. 9 Abs. 1 DSGVO? (mehrere richtig)",
+  "frage": "Ein Arbeitgeber führt folgende Angaben zu seinen Beschäftigten. Für welche gelten die strengeren Regeln für besondere Kategorien? (mehrere richtig)",
   "optionen": [
    {
     "id": "a",
-    "text": "Gesundheitsdaten",
+    "text": "Krankschreibungen mit Diagnose",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
    },
    {
     "id": "b",
-    "text": "Gewerkschaftszugehörigkeit",
+    "text": "Mitgliedschaft in einer Gewerkschaft",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
    },
    {
     "id": "c",
-    "text": "Biometrische Daten zur eindeutigen Identifizierung",
+    "text": "Fingerabdruck-Template für die elektronische Zeiterfassung",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
    },
@@ -368,36 +364,36 @@
   "thema": "ds-besondere-kategorien",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Was gilt grundsätzlich für die Verarbeitung besonderer Kategorien personenbezogener Daten?",
+  "frage": "Eine Versandapotheke will die Gesundheitsdaten ihrer Kunden auswerten und beruft sich allein auf ihr berechtigtes wirtschaftliches Interesse. Reicht das?",
   "optionen": [
    {
     "id": "a",
-    "text": "Sie ist untersagt, außer eine Ausnahme nach Art. 9 Abs. 2 DSGVO greift (z. B. ausdrückliche Einwilligung)",
+    "text": "Nein: Gesundheitsdaten dürfen grundsätzlich nicht verarbeitet werden, außer eine besondere Ausnahme greift, z. B. eine ausdrückliche Einwilligung",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 9 Abs. 1 und 2 DSGVO."
+    "erklaerung": "Richtig: Verbot mit besonderen Ausnahmen (Art. 9 Abs. 1, 2 DSGVO); berechtigte Interessen gehören nicht dazu."
    },
    {
     "id": "b",
-    "text": "Sie ist wie jede andere Verarbeitung allein nach Art. 6 DSGVO zu beurteilen",
+    "text": "Ja: Es gelten dieselben Regeln wie für alle anderen Daten",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 9 DSGVO stellt zusätzliche, strengere Anforderungen."
+    "erklaerung": "Falsch: Art. 9 DSGVO stellt zusätzliche, strengere Anforderungen auf."
    },
    {
     "id": "c",
-    "text": "Sie ist ausnahmslos verboten",
+    "text": "Nein: Gesundheitsdaten dürfen ausnahmslos nie verarbeitet werden",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 9 Abs. 2 DSGVO enthält zahlreiche Ausnahmen."
+    "erklaerung": "Falsch: Es gibt Ausnahmen (Art. 9 Abs. 2 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Sie ist nur Behörden erlaubt",
+    "text": "Nein: Gesundheitsdaten dürfen nur Behörden verarbeiten",
     "korrekt": false,
-    "erklaerung": "Falsch: Auch Private können unter Art. 9 Abs. 2 DSGVO verarbeiten (z. B. Ärzte, lit. h)."
+    "erklaerung": "Falsch: Auch Private können sich auf Ausnahmen stützen, z. B. Ärzte (Art. 9 Abs. 2 lit. h, Abs. 3 DSGVO)."
    }
   ],
   "normen": [
-   "Art. 9 DSGVO",
-   "Art. 6 DSGVO"
+   "Art. 6 DSGVO",
+   "Art. 9 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -423,15 +419,15 @@
    },
    {
     "id": "c",
-    "text": "Es genügt das berechtigte Interesse nach Art. 6 Abs. 1 lit. f DSGVO",
+    "text": "Es genügt das berechtigte Interesse des Studios",
     "korrekt": false,
     "erklaerung": "Falsch: Bei besonderen Kategorien braucht es zusätzlich eine Ausnahme nach Art. 9 Abs. 2 DSGVO."
    },
    {
     "id": "d",
-    "text": "Nur eine Meldung an die Aufsichtsbehörde binnen 72 Stunden",
+    "text": "Es genügt, die Aufsichtsbehörde zu benachrichtigen",
     "korrekt": false,
-    "erklaerung": "Falsch: 72 Stunden betreffen Datenpannen (Art. 33 DSGVO)."
+    "erklaerung": "Falsch: Eine Benachrichtigung ersetzt weder Rechtsgrundlage noch Ausnahme nach Art. 9 Abs. 2 DSGVO. Meldungen an die Behörde sieht das Gesetz für Datenpannen vor (Art. 33 DSGVO)."
    }
   ],
   "normen": [
@@ -448,34 +444,35 @@
   "thema": "ds-besondere-kategorien",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Welche Form der Einwilligung verlangt Art. 9 Abs. 2 lit. a DSGVO für besondere Kategorien?",
+  "frage": "Eine Gesundheits-App lässt Nutzer nur „Ich akzeptiere die AGB“ anklicken. In den AGB steht weit hinten, dass auch Diagnosen ausgewertet werden. Genügt das als Einwilligung?",
   "optionen": [
    {
     "id": "a",
-    "text": "Eine ausdrückliche Einwilligung",
+    "text": "Nein: Für Gesundheitsdaten braucht es eine ausdrückliche, auf diese Daten bezogene Einwilligung",
     "korrekt": true,
-    "erklaerung": "Richtig: „ausdrücklich eingewilligt“ – konkludentes Verhalten genügt nicht (Art. 9 Abs. 2 lit. a DSGVO)."
+    "erklaerung": "Richtig: Art. 9 Abs. 2 lit. a DSGVO; zudem muss sie von anderen Sachverhalten klar unterscheidbar sein (Art. 7 Abs. 2 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Eine mutmaßliche Einwilligung",
+    "text": "Ja: Ein Klick auf die AGB ist immer eine ausdrückliche Einwilligung",
     "korrekt": false,
-    "erklaerung": "Falsch: Mutmaßungen genügen nicht (Art. 9 Abs. 2 lit. a DSGVO)."
+    "erklaerung": "Falsch: Eine pauschale AGB-Zustimmung bezieht sich nicht erkennbar auf diese Daten (Art. 7 Abs. 2, Art. 9 Abs. 2 lit. a DSGVO)."
    },
    {
     "id": "c",
-    "text": "Eine notarielle Einwilligung",
+    "text": "Ja: Bei Apps wird die Einwilligung vermutet",
     "korrekt": false,
-    "erklaerung": "Falsch: Eine Beurkundung ist nicht vorgeschrieben (Art. 9 Abs. 2 lit. a DSGVO)."
+    "erklaerung": "Falsch: Eine mutmaßliche Einwilligung reicht nicht (Art. 9 Abs. 2 lit. a DSGVO)."
    },
    {
     "id": "d",
-    "text": "Gar keine – Einwilligung ist bei Art. 9 nie möglich",
+    "text": "Nein: In die Verarbeitung von Gesundheitsdaten kann man nie einwilligen",
     "korrekt": false,
-    "erklaerung": "Falsch: Die ausdrückliche Einwilligung ist gerade die erste Ausnahme (Art. 9 Abs. 2 lit. a DSGVO)."
+    "erklaerung": "Falsch: Eine ausdrückliche Einwilligung ist möglich (Art. 9 Abs. 2 lit. a DSGVO)."
    }
   ],
   "normen": [
+   "Art. 7 DSGVO",
    "Art. 9 DSGVO"
   ],
   "quelle": "material:ds-schulung",
@@ -485,32 +482,32 @@
   "id": "ds-mc-066",
   "thema": "ds-besondere-kategorien",
   "typ": "aussagen",
-  "schwierigkeit": 3,
+  "schwierigkeit": 2,
   "frage": "Besondere Kategorien – richtig oder falsch?",
   "optionen": [
    {
     "id": "1",
-    "text": "Daten über die sexuelle Orientierung gehören zu den besonderen Kategorien.",
+    "text": "Speichert eine Partnerbörse, ob Nutzer gleichgeschlechtliche Partner suchen, gelten dafür die strengeren Regeln für besondere Kategorien.",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 9 Abs. 1 DSGVO."
    },
    {
     "id": "2",
-    "text": "Strafrechtliche Verurteilungen sind in Art. 9 DSGVO geregelt.",
+    "text": "Speichert eine Auskunftei eine Verurteilung wegen Betrugs, richtet sich die Zulässigkeit nach dem Ausnahmekatalog für besondere Kategorien.",
     "korrekt": false,
-    "erklaerung": "Falsch: Dafür gilt die Sondervorschrift Art. 10 DSGVO."
+    "erklaerung": "Falsch: Für sie gilt eine eigene Regelung (Art. 10 DSGVO); sie stehen nicht im Katalog des Art. 9 Abs. 1 DSGVO."
    },
    {
     "id": "3",
-    "text": "Ärzte dürfen Gesundheitsdaten zur Behandlung auf Grundlage von Art. 9 Abs. 2 lit. h DSGVO verarbeiten.",
+    "text": "Ärzte dürfen Gesundheitsdaten zur Behandlung auch ohne Einwilligung verarbeiten.",
     "korrekt": true,
-    "erklaerung": "Richtig: Gesundheitsvorsorge und Behandlung durch Berufsgeheimnisträger (Art. 9 Abs. 2 lit. h, Abs. 3 DSGVO; ergänzend § 22 BDSG)."
+    "erklaerung": "Richtig: Art. 9 Abs. 2 lit. h, Abs. 3 DSGVO (Gesundheitsversorgung, Berufsgeheimnis)."
    },
    {
     "id": "4",
-    "text": "Ein Lichtbild ist stets ein biometrisches Datum im Sinne von Art. 9 DSGVO.",
+    "text": "Jedes Foto einer Person ist automatisch ein besonders geschütztes biometrisches Datum.",
     "korrekt": false,
-    "erklaerung": "Falsch: Nur bei Verarbeitung mit speziellen technischen Mitteln zur eindeutigen Identifizierung (Erwägungsgrund 51; Art. 4 Nr. 14 DSGVO)."
+    "erklaerung": "Falsch: Nur bei spezieller technischer Verarbeitung zur eindeutigen Identifizierung (Art. 4 Nr. 14, Art. 9 Abs. 1 DSGVO, Erwägungsgrund 51)."
    }
   ],
   "normen": [
@@ -527,38 +524,35 @@
   "thema": "ds-informationspflichten",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Wann muss ein Verantwortlicher informieren, wenn er Daten direkt bei der betroffenen Person erhebt?",
+  "frage": "Ein Online-Shop erhebt bei der Registrierung Kundendaten. Die Datenschutzhinweise will er erst vier Wochen später mit der ersten Rechnung schicken. Ist das in Ordnung?",
   "optionen": [
    {
     "id": "a",
-    "text": "Zum Zeitpunkt der Erhebung",
+    "text": "Nein: Bei der Erhebung direkt bei der Person ist schon zum Zeitpunkt der Erhebung zu informieren",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 13 Abs. 1 DSGVO."
    },
    {
     "id": "b",
-    "text": "Innerhalb eines Monats nach der Erhebung",
+    "text": "Ja: Dafür hat er einen Monat Zeit",
     "korrekt": false,
-    "erklaerung": "Falsch: Die Monatsfrist gilt bei Dritterhebung (Art. 14 Abs. 3 lit. a DSGVO)."
+    "erklaerung": "Falsch: Die Monatsfrist betrifft Daten, die nicht bei der Person selbst erhoben wurden (Art. 14 Abs. 3 lit. a DSGVO)."
    },
    {
     "id": "c",
-    "text": "Nur auf Nachfrage",
+    "text": "Ja: Informiert werden muss nur auf Nachfrage",
     "korrekt": false,
-    "erklaerung": "Falsch: Die Information ist eine aktive Pflicht (Art. 13 DSGVO); auf Nachfrage greift zusätzlich das Auskunftsrecht (Art. 15 DSGVO)."
+    "erklaerung": "Falsch: Die Information ist von sich aus zu geben (Art. 13 Abs. 1 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Erst wenn eine Datenpanne passiert",
+    "text": "Nein: Informieren muss er erst nach einer Datenpanne",
     "korrekt": false,
-    "erklaerung": "Falsch: Das betrifft Art. 34 DSGVO."
+    "erklaerung": "Falsch: Das ist eine andere Pflicht (Art. 34 DSGVO); die Informationspflicht besteht unabhängig davon."
    }
   ],
   "normen": [
-   "Art. 13 DSGVO",
-   "Art. 14 DSGVO",
-   "Art. 15 DSGVO",
-   "Art. 34 DSGVO"
+   "Art. 13 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -568,38 +562,35 @@
   "thema": "ds-informationspflichten",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Eine Auskunftei erhält Daten über Frau B von einer Bank, nicht von Frau B selbst. Welche Vorschrift regelt die Informationspflicht?",
+  "frage": "Eine Auskunftei erhält Daten über Frau B von deren Bank, nicht von Frau B selbst. Frau B weiß davon nichts. Muss die Auskunftei Frau B informieren?",
   "optionen": [
    {
     "id": "a",
-    "text": "Art. 14 DSGVO",
+    "text": "Ja: Auch wer Daten nicht bei der Person selbst erhebt, muss informieren, und zwar auch über die Herkunft der Daten",
     "korrekt": true,
-    "erklaerung": "Richtig: Information, wenn die Daten nicht bei der betroffenen Person erhoben wurden."
+    "erklaerung": "Richtig: Art. 14 Abs. 1, Abs. 2 lit. f DSGVO."
    },
    {
     "id": "b",
-    "text": "Art. 13 DSGVO",
+    "text": "Nein: Das muss allein die Bank",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 13 DSGVO betrifft die Direkterhebung."
+    "erklaerung": "Falsch: Die Auskunftei ist selbst Verantwortliche und hat eine eigene Pflicht (Art. 14 Abs. 1 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Art. 33 DSGVO",
+    "text": "Nein: Bei Daten von Dritten besteht keine Informationspflicht",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 33 DSGVO betrifft die Meldung von Datenpannen an die Aufsicht."
+    "erklaerung": "Falsch: Gerade dafür gibt es eine eigene Pflicht (Art. 14 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Art. 20 DSGVO",
+    "text": "Nur, wenn Frau B danach fragt",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 20 DSGVO regelt die Datenübertragbarkeit."
+    "erklaerung": "Falsch: Das wäre das Auskunftsrecht (Art. 15 DSGVO); die Pflicht nach Art. 14 DSGVO besteht von sich aus."
    }
   ],
   "normen": [
-   "Art. 14 DSGVO",
-   "Art. 13 DSGVO",
-   "Art. 33 DSGVO",
-   "Art. 20 DSGVO"
+   "Art. 14 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -609,31 +600,31 @@
   "thema": "ds-informationspflichten",
   "typ": "multi",
   "schwierigkeit": 2,
-  "frage": "Welche Angaben gehören zu den Pflichtinformationen bei der Direkterhebung nach Art. 13 DSGVO? (mehrere richtig)",
+  "frage": "Die Datenschutzhinweise eines Shops lauten nur: „Wir nehmen Datenschutz ernst und verarbeiten Ihre Daten gesetzeskonform.“ Was fehlt den Kunden damit? (mehrere richtig)",
   "optionen": [
    {
     "id": "a",
-    "text": "Name und Kontaktdaten des Verantwortlichen",
+    "text": "Wer verantwortlich ist und wie man ihn erreicht",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 13 Abs. 1 lit. a DSGVO."
    },
    {
     "id": "b",
-    "text": "Zwecke und Rechtsgrundlage der Verarbeitung",
+    "text": "Wozu und auf welcher Rechtsgrundlage die Daten verarbeitet werden",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 13 Abs. 1 lit. c DSGVO."
    },
    {
     "id": "c",
-    "text": "Dauer der Speicherung bzw. Kriterien dafür",
+    "text": "Wie lange die Daten gespeichert werden oder nach welchen Kriterien",
     "korrekt": true,
     "erklaerung": "Richtig: Art. 13 Abs. 2 lit. a DSGVO."
    },
    {
     "id": "d",
-    "text": "Gehälter der Geschäftsführung",
+    "text": "Wie viel die Geschäftsführung verdient",
     "korrekt": false,
-    "erklaerung": "Falsch: Keine Pflichtangabe nach Art. 13 DSGVO."
+    "erklaerung": "Falsch: Das ist keine Information über die Datenverarbeitung und gehört nicht zu Art. 13 DSGVO."
    }
   ],
   "normen": [
@@ -647,31 +638,31 @@
   "thema": "ds-informationspflichten",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Wie müssen Informationen an betroffene Personen grundsätzlich gestaltet sein?",
+  "frage": "Ein deutscher Shop für Privatkunden stellt seine Datenschutzhinweise als 40 Seiten verschachteltes Juristen-Englisch bereit, versteckt im Impressum. Inhaltlich ist alles vollständig. Genügt das?",
   "optionen": [
    {
     "id": "a",
-    "text": "Präzise, transparent, verständlich, leicht zugänglich, in klarer und einfacher Sprache – und grundsätzlich unentgeltlich",
+    "text": "Nein: Die Information muss auch verständlich, leicht zugänglich und in klarer Sprache sein",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 12 Abs. 1, Abs. 5 DSGVO."
+    "erklaerung": "Richtig: Art. 12 Abs. 1 S. 1 DSGVO; Vollständigkeit allein genügt nicht."
    },
    {
     "id": "b",
-    "text": "Juristisch vollständig, auch wenn schwer verständlich",
+    "text": "Ja: Entscheidend ist allein die juristische Vollständigkeit",
     "korrekt": false,
-    "erklaerung": "Falsch: Klare und einfache Sprache ist Pflicht (Art. 12 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Art. 12 Abs. 1 S. 1 DSGVO verlangt zusätzlich Verständlichkeit und Zugänglichkeit."
    },
    {
     "id": "c",
-    "text": "Nur gegen eine Bearbeitungsgebühr",
+    "text": "Ja, wenn er zusätzlich eine Bearbeitungsgebühr für Übersetzungen anbietet",
     "korrekt": false,
-    "erklaerung": "Falsch: Grundsätzlich unentgeltlich (Art. 12 Abs. 5 DSGVO)."
+    "erklaerung": "Falsch: Die Informationen sind grundsätzlich unentgeltlich (Art. 12 Abs. 5 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Nur mündlich",
+    "text": "Nein: Solche Informationen dürfen nur mündlich erteilt werden",
     "korrekt": false,
-    "erklaerung": "Falsch: Schriftlich oder in anderer Form, auch elektronisch (Art. 12 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Sie sind in der Regel schriftlich oder elektronisch zu geben (Art. 12 Abs. 1 S. 2 DSGVO)."
    }
   ],
   "normen": [
@@ -685,36 +676,35 @@
   "thema": "ds-informationspflichten",
   "typ": "single",
   "schwierigkeit": 3,
-  "frage": "Spätestens wann muss bei Dritterhebung (Art. 14 DSGVO) informiert werden, wenn die Daten nicht zur Kommunikation genutzt oder offengelegt werden?",
+  "frage": "Ein Unternehmen kauft Daten über Frau K und will sie erst nächstes Jahr für eine Auswertung nutzen, ohne Frau K anzuschreiben oder die Daten weiterzugeben. Wann muss es Frau K informieren?",
   "optionen": [
    {
     "id": "a",
     "text": "Innerhalb einer angemessenen Frist, längstens innerhalb eines Monats nach Erlangung",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 14 Abs. 3 lit. a DSGVO."
+    "erklaerung": "Richtig: Art. 14 Abs. 3 lit. a DSGVO; auf die spätere Nutzung darf es nicht warten."
    },
    {
     "id": "b",
-    "text": "Innerhalb von 72 Stunden",
+    "text": "Erst bei der ersten Nutzung im nächsten Jahr",
     "korrekt": false,
-    "erklaerung": "Falsch: 72 Stunden gelten für die Meldung von Datenpannen (Art. 33 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Die Monatsfrist läuft ab Erlangung (Art. 14 Abs. 3 lit. a DSGVO)."
    },
    {
     "id": "c",
-    "text": "Innerhalb eines Jahres",
+    "text": "Innerhalb von 72 Stunden",
     "korrekt": false,
-    "erklaerung": "Falsch: Höchstens ein Monat (Art. 14 Abs. 3 lit. a DSGVO)."
+    "erklaerung": "Falsch: Das ist die Meldefrist bei Datenpannen (Art. 33 Abs. 1 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Gar nicht, Dritterhebung ist informationsfrei",
+    "text": "Gar nicht, weil die Daten nicht bei ihr erhoben wurden",
     "korrekt": false,
-    "erklaerung": "Falsch: Art. 14 DSGVO verpflichtet ausdrücklich zur Information."
+    "erklaerung": "Falsch: Auch dann besteht eine Informationspflicht (Art. 14 DSGVO)."
    }
   ],
   "normen": [
-   "Art. 14 DSGVO",
-   "Art. 33 DSGVO"
+   "Art. 14 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true

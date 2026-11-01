@@ -1,5 +1,7 @@
 import { h } from '../ui/dom.js';
 const EINTRAEGE = [
+  ['#/karteikarten', 'Karteikarten Recht', 'Alles Rechtswissen als Frage und Antwort, mit Wiederholung'],
+  ['#/cheatsheets', 'Cheatsheets', 'Anspruchsgrundlagen, Merkmale, Schemata, Definitionen, Fristen'],
   ['#/uebersicht', 'Fälle kompakt', 'Alle Fälle mit Ansprüchen und Tatbestandsmerkmalen auf einen Blick'],
   ['#/schemata', 'Prüfungsschemata', 'Aufklappbar, mit Puzzle und Lückenschema'],
   ['#/wissen', 'Wissensfragen', 'Klausurstil, mit Selbstbewertung und Wiederholung'],

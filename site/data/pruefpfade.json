@@ -61,6 +61,7 @@
     { "ebene": 2, "text": "Abgrenzung zur freien Kündigung: Kündigt B frei (§ 648 S. 1 BGB), behält U die Vergütung abzüglich ersparter Aufwendungen (§ 648 S. 2 BGB). Liegen die Voraussetzungen des § 323 Abs. 1 BGB vor, ist die Erklärung interessengerecht als Rücktritt auszulegen (§§ 133, 157 BGB).", "faelle": ["fall-15"] },
     { "ebene": 2, "text": "Rücktrittsgrund (§ 323 Abs. 1 BGB): gegenseitiger Vertrag, fällige Leistung (§ 271 Abs. 1 BGB), nicht erbracht, angemessene Frist erfolglos abgelaufen.", "faelle": ["fall-15"] },
     { "ebene": 2, "text": "Kein Ausschluss (§ 323 Abs. 6 BGB); Vertretenmüssen ist für den Rücktritt nicht nötig.", "faelle": ["fall-15"] },
+    { "ebene": 1, "text": "**Fällig:** grundsätzlich mit der Abnahme (§ 641 Abs. 1 BGB)." },
     { "ebene": 1, "text": "**Erg.:** Folglich hat U einen Anspruch auf Werklohn, wenn der Werkvertrag wirksam ist und nicht durch Rücktritt erloschen ist." }
   ],
   "weiter": ["pfad-281", "pfad-812"], "quelle": "neu", "geprueft": true
@@ -152,7 +153,7 @@
   "zeilen": [
     { "ebene": 1, "text": "**OS:** K könnte gegen V einen Anspruch auf Rückzahlung des Kaufpreises aus § 326 Abs. 4 i. V. m. § 346 Abs. 1 BGB haben." },
     { "ebene": 1, "text": "**Voraussetzungen:** V ist nach § 275 Abs. 1 BGB frei geworden, der Kaufpreisanspruch ist deshalb entfallen (§ 326 Abs. 1 S. 1 BGB), K hat trotzdem schon gezahlt." },
-    { "ebene": 1, "text": "**Fraglich: Leistungsbefreiung nach § 275 Abs. 1 BGB?** Bei der Stückschuld mit dem Untergang; bei der Gattungsschuld erst, wenn die ganze Gattung untergeht oder die Schuld konkretisiert ist (§ 243 Abs. 2 BGB); bei der Holschuld genügen Aussondern, Bereitstellen und Mitteilung.", "faelle": ["fall-10"], "verweis": "pfad-433-1" },
+    { "ebene": 1, "text": "**Fraglich: Leistungsbefreiung nach § 275 Abs. 1 BGB?** Bei der Stückschuld mit dem Untergang; bei der Gattungsschuld erst, wenn die ganze Gattung untergeht oder die Schuld konkretisiert ist (§ 243 Abs. 2 BGB) und die konkretisierte Sache untergeht; bei der Holschuld genügen Aussondern, Bereitstellen und Mitteilung.", "faelle": ["fall-10"], "verweis": "pfad-433-1" },
     { "ebene": 1, "text": "**Gegenleistung entfallen** (§ 326 Abs. 1 S. 1 BGB) → das Gezahlte ist nach Rücktrittsrecht zurückzugewähren (§ 346 Abs. 1 BGB).", "faelle": ["fall-10"] },
     { "ebene": 1, "text": "**Kein Ausschluss nach § 326 Abs. 2 S. 1 BGB:** K ist für den Untergang nicht allein oder weit überwiegend verantwortlich und war nicht im Annahmeverzug (§ 293 BGB); sonst behält V den Anspruch auf die Gegenleistung." },
     { "ebene": 1, "text": "**Erg.:** Folglich kann K den gezahlten Kaufpreis zurückverlangen, wenn V nach § 275 Abs. 1 BGB frei geworden ist." }

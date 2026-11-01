@@ -30,7 +30,7 @@ async function keinMuell(route) {
 
 await schritt('Alle Bereiche laden ohne Konsolenfehler, ohne Überlauf, ohne null/undefined', async () => {
   for (const r of ['#/', '#/faelle', '#/faelle/fall-01', '#/mc', '#/normen', '#/normen/karten', '#/normen/zitieren', '#/normen/register', '#/wissen',
-    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/mehr', '#/info', '#/gibtsnicht']) {
+    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/karteikarten', '#/cheatsheets', '#/cheatsheets/schemata', '#/cheatsheets/cs-definitionen', '#/mehr', '#/info', '#/gibtsnicht']) {
     await page.goto(basis + r, { waitUntil: 'networkidle' });
     await page.waitForSelector('main h1');
     await keinMuell(r);
@@ -105,6 +105,21 @@ await schritt('Wiederholen: fällige Karten werden angezeigt', async () => {
   await page.waitForTimeout(1000);
   const nachher = await page.evaluate(() => Object.values(JSON.parse(localStorage.getItem('nk-recht:state')).srs).reduce((s, k) => s + k.anzahl, 0));
   if (nachher !== vorher + 1) throw new Error(`SRS nicht aktualisiert (${vorher} → ${nachher})`);
+});
+
+await schritt('Karteikarte: umdrehen, bewerten, Lernstand speichern; Cheatsheet: Suche filtert', async () => {
+  await page.goto(basis + '#/karteikarten', { waitUntil: 'networkidle' });
+  await page.getByRole('button', { name: 'Starten' }).click();
+  await page.getByRole('button', { name: /Umdrehen/ }).click();
+  await page.getByRole('button', { name: /Gewusst/ }).click();
+  await page.waitForSelector('text=2 von');
+  await page.waitForFunction(() => Object.keys(JSON.parse(localStorage.getItem('nk-recht:state')).srs).filter(k => k.startsWith('karte:')).length === 1, null, { timeout: 5000 });
+  await page.goto(basis + '#/cheatsheets', { waitUntil: 'networkidle' });
+  await page.waitForSelector('.cs-e');
+  const alle = await page.locator('.cs-e:visible').count();
+  await page.getByRole('searchbox').fill('§ 179');
+  const treffer = await page.locator('.cs-e:visible').count();
+  if (!(treffer > 0 && treffer < alle)) throw new Error(`Suche filtert nicht (${alle} → ${treffer})`);
 });
 
 await schritt('Statistik: Themen-Tabelle', async () => {

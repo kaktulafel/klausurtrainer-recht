@@ -59,3 +59,13 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Symptom:** „MC beantworten → Feedback sichtbar“ scheiterte gelegentlich mit Timeout bei „Antwort prüfen“ (ca. 3 von 40 Läufen nachgestellt).
 - **Ursache:** Der Test klickte die Mitte von `label.option`. Enthält der Optionstext ein Normzitat (z. B. „Art. 13 DSGVO“), traf der Klick den Norm-Knopf; dessen Popover überdeckte danach „Antwort prüfen“.
 - **Fix:** Der Test klickt das Eingabefeld (`label.option input`) statt der Label-Mitte (an beiden Stellen). 60 nachgestellte Läufe ohne Fehler. Kein App-Fehler: Für Nutzer:innen ist das Popover gewollt.
+
+## 01.11.2026 – `npm run normen` löschte bei gescheitertem EUR-Lex-Abruf den Wortlaut
+- **Symptom:** Der Abruf meldete „Nicht gefunden: Art. 1 DSGVO …“ und schrieb trotzdem: Wortlaut-Dateien, `normen.json` und `index.json` verloren den DSGVO-Text.
+- **Ursache:** Das Skript prüfte fehlende Normen erst nach dem Schreiben und leerte vorher den Ordner `wortlaut/`.
+- **Fix:** Dateien per Git wiederhergestellt, nur `§ 641 BGB` (amtlicher Text aus demselben Abruf) übernommen. Das Skript bricht jetzt vor dem Schreiben ab, wenn eine Norm fehlt.
+
+## 01.11.2026 – Cheatsheet-Karte: E2E zählte vor dem Laden
+- **Symptom:** „Suche filtert nicht (0 → 1)“ im neuen E2E-Schritt; davor „Karteikarte nicht gespeichert“.
+- **Ursache:** Der Test zählte, bevor die Ansicht gerendert war, und las den Lernstand vor dem verzögerten Speichern.
+- **Fix:** Der Test wartet auf `.cs-e` und auf den gespeicherten Stand. Kein App-Fehler.

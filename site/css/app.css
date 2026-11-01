@@ -225,6 +225,15 @@ h3.ue-z { font-size: 1rem; margin-top: 12px; padding: 4px 8px; background: var(-
 .ue-sv { margin: 0; padding-left: 1.3em; }
 .ue-sv li { margin: 3px 0; }
 .ue-erg { display: block; font-size: 0.95em; padding-left: 10px; border-left: 3px solid var(--akzent-hell); margin-top: 2px; }
+.cs-raster { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 19rem), 1fr)); gap: 10px; margin-top: 10px; }
+.cs-e { border: 1px solid var(--akzent-hell); border-radius: 6px; padding: 10px 12px; overflow-wrap: anywhere; }
+.cs-e[hidden] { display: none; }
+.cs-e h3 { font-size: 1rem; margin: 0 0 2px; }
+.cs-e p { margin: 4px 0; }
+.cs-norm { font-weight: 600; font-size: 0.92em; }
+.cs-punkte { margin: 4px 0; padding-left: 1.4em; font-size: 0.95em; }
+.cs-punkte li { margin: 2px 0; }
+.kk-vorne { font-size: 1.15rem; margin: 10px 0; }
 .ue-sk { display: none; }
 p.ue-e1 { margin-top: 8px; }
 .ue-ref { color: var(--text2); overflow-wrap: anywhere; }

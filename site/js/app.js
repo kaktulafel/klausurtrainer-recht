@@ -93,7 +93,7 @@ function registriereSW() {
 const VIEWS = {
   start: 'dashboard', faelle: 'faelle', mc: 'mc', normen: 'normen', schemata: 'schemata', wissen: 'wissen',
   klausur: 'klausur', schwachstellen: 'schwachstellen', wiederholen: 'wiederholen', statistik: 'statistik',
-  einstellungen: 'einstellungen', uebersicht: 'uebersicht', mehr: 'mehr', info: 'info', '404': 'nichtgefunden'
+  einstellungen: 'einstellungen', uebersicht: 'uebersicht', karteikarten: 'karteikarten', cheatsheets: 'cheatsheets', mehr: 'mehr', info: 'info', '404': 'nichtgefunden'
 };
 const routen = Object.fromEntries(Object.entries(VIEWS).map(([k, v]) => [k, v]));
 

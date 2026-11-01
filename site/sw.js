@@ -9,7 +9,7 @@ const SHELL = [
   'js/normparser.js', 'js/ai.js', 'js/plan.js', 'js/textcheck.js', 'js/inhalte.js', 'js/klausur-core.js', 'js/kompakt.js', 'js/ui/dom.js', 'js/ui/widgets.js',
   'js/views/dashboard.js', 'js/views/faelle.js', 'js/views/mc.js', 'js/views/normen.js', 'js/views/schemata.js',
   'js/views/wissen.js', 'js/views/klausur.js', 'js/views/schwachstellen.js', 'js/views/wiederholen.js',
-  'js/views/statistik.js', 'js/views/einstellungen.js', 'js/views/mehr.js', 'js/views/uebersicht.js', 'js/views/info.js', 'js/views/nichtgefunden.js'
+  'js/views/statistik.js', 'js/views/einstellungen.js', 'js/views/mehr.js', 'js/views/uebersicht.js', 'js/views/karteikarten.js', 'js/views/cheatsheets.js', 'js/karteikarten.js', 'js/views/info.js', 'js/views/nichtgefunden.js'
 ];
 
 self.addEventListener('install', (e) => {

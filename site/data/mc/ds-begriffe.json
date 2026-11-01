@@ -4,31 +4,31 @@
   "thema": "ds-begriffe",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Was sind personenbezogene Daten im Sinne der DSGVO?",
+  "frage": "Eine Firma führt eine Liste mit Personalnummern und Fehltagen, aber ohne Namen. Die Personalabteilung kann jede Nummer einer Person zuordnen. Sind das personenbezogene Daten?",
   "optionen": [
    {
     "id": "a",
-    "text": "Alle Informationen, die sich auf eine identifizierte oder identifizierbare natürliche Person beziehen",
+    "text": "Ja: Die Personen sind über die Nummer identifizierbar",
     "korrekt": true,
-    "erklaerung": "Richtig: Legaldefinition in Art. 4 Nr. 1 DSGVO."
+    "erklaerung": "Richtig: Es genügt, dass eine natürliche Person identifizierbar ist, etwa über eine Kennnummer (Art. 4 Nr. 1 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Nur Name, Anschrift und Geburtsdatum",
+    "text": "Nein: Ohne Namen gibt es keinen Personenbezug",
     "korrekt": false,
-    "erklaerung": "Falsch: Erfasst sind „alle Informationen“, z. B. auch IP-Adresse oder Standortdaten (Art. 4 Nr. 1 DSGVO)."
+    "erklaerung": "Falsch: Der Name ist nicht nötig; auch eine Kennnummer kann identifizieren (Art. 4 Nr. 1 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Alle Daten über natürliche und juristische Personen",
+    "text": "Nein: Die Liste ist bereits anonym",
     "korrekt": false,
-    "erklaerung": "Falsch: Nur natürliche Personen (Art. 4 Nr. 1 DSGVO)."
+    "erklaerung": "Falsch: Anonym wäre sie nur, wenn sich die Personen auch mit den vernünftigerweise einsetzbaren Mitteln nicht mehr identifizieren lassen (Erwägungsgrund 26). Hier ist sie allenfalls pseudonymisiert (Art. 4 Nr. 5 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Nur Daten, die besonders sensibel sind",
+    "text": "Nur, wenn die Fehltage auf Krankheit beruhen",
     "korrekt": false,
-    "erklaerung": "Falsch: Sensible Daten sind eine Unterkategorie (Art. 9 DSGVO); personenbezogen sind alle Informationen über eine Person (Art. 4 Nr. 1 DSGVO)."
+    "erklaerung": "Falsch: Personenbezogen sind alle Informationen über eine Person, nicht nur sensible (Art. 4 Nr. 1 DSGVO)."
    }
   ],
   "normen": [
@@ -86,31 +86,31 @@
   "thema": "ds-begriffe",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Was ist nach der DSGVO eine „Verarbeitung“?",
+  "frage": "Eine Mitarbeiterin schlägt am Bildschirm nur kurz die Adresse eines Kunden nach, ohne etwas zu ändern oder zu speichern. Ist das eine Verarbeitung?",
   "optionen": [
    {
     "id": "a",
-    "text": "Jeder Vorgang im Zusammenhang mit personenbezogenen Daten, z. B. Erheben, Speichern, Abfragen, Übermitteln, Löschen",
+    "text": "Ja: Auch das bloße Abfragen ist eine Verarbeitung",
     "korrekt": true,
-    "erklaerung": "Richtig: Sehr weiter Begriff, Art. 4 Nr. 2 DSGVO."
+    "erklaerung": "Richtig: Verarbeitung ist jeder Vorgang im Zusammenhang mit personenbezogenen Daten, ausdrücklich auch das Abfragen (Art. 4 Nr. 2 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Nur das Verändern von Daten",
+    "text": "Nein: Es wurde nichts verändert",
     "korrekt": false,
-    "erklaerung": "Falsch: Verändern ist nur ein Beispiel; Art. 4 Nr. 2 DSGVO erfasst „jeden Vorgang“."
+    "erklaerung": "Falsch: Eine Veränderung ist nur eine von vielen Formen der Verarbeitung (Art. 4 Nr. 2 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Nur automatisierte Vorgänge",
+    "text": "Nein: Verarbeitung setzt die Weitergabe an Dritte voraus",
     "korrekt": false,
-    "erklaerung": "Falsch: „mit oder ohne Hilfe automatisierter Verfahren“ (Art. 4 Nr. 2 DSGVO)."
+    "erklaerung": "Falsch: Offenlegung ist nur ein Beispiel unter vielen (Art. 4 Nr. 2 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Nur die Weitergabe an Dritte",
+    "text": "Nur, wenn das Nachschlagen protokolliert wird",
     "korrekt": false,
-    "erklaerung": "Falsch: Auch das bloße Speichern oder Löschen ist Verarbeitung (Art. 4 Nr. 2 DSGVO)."
+    "erklaerung": "Falsch: Auf eine Protokollierung kommt es nicht an; der Vorgang selbst genügt (Art. 4 Nr. 2 DSGVO)."
    }
   ],
   "normen": [
@@ -124,29 +124,29 @@
   "thema": "ds-begriffe",
   "typ": "multi",
   "schwierigkeit": 2,
-  "frage": "Welche Vorgänge sind „Verarbeitung“ im Sinne von Art. 4 Nr. 2 DSGVO? (mehrere richtig)",
+  "frage": "Ein Kundenberater erledigt an einem Tag Folgendes. Was davon ist eine Verarbeitung personenbezogener Daten? (mehrere richtig)",
   "optionen": [
    {
     "id": "a",
-    "text": "Das Löschen einer Kundendatei",
+    "text": "Er löscht eine veraltete Kundendatei",
     "korrekt": true,
     "erklaerung": "Richtig: „Löschen oder die Vernichtung“ sind ausdrücklich genannt (Art. 4 Nr. 2 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Das bloße Ansehen (Abfragen) eines Datensatzes am Bildschirm",
+    "text": "Er sieht sich einen Kundendatensatz am Bildschirm an, ohne etwas zu ändern",
     "korrekt": true,
     "erklaerung": "Richtig: „Abfragen“ und „Verwendung“ sind Verarbeitung (Art. 4 Nr. 2 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Das Erheben von Daten über ein Kontaktformular",
+    "text": "Er nimmt Kundendaten über ein Kontaktformular entgegen",
     "korrekt": true,
     "erklaerung": "Richtig: „Erheben“ (Art. 4 Nr. 2 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Das Nachdenken über eine Person ohne jede Aufzeichnung",
+    "text": "Er denkt über einen Kunden nach, ohne etwas aufzuschreiben",
     "korrekt": false,
     "erklaerung": "Falsch: Ohne Datenverarbeitung im technischen bzw. Dateisystem-Sinn liegt keine Verarbeitung vor (Art. 2 Abs. 1, Art. 4 Nr. 2 DSGVO)."
    }
@@ -202,36 +202,35 @@
   "thema": "ds-begriffe",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Wer ist „Verantwortlicher“ im Sinne der DSGVO?",
+  "frage": "Eine Arztpraxis speichert ihre Patientenakten in der Software eines IT-Anbieters. Die Praxis entscheidet, welche Daten wozu erfasst werden; der Anbieter betreibt nur die Server nach ihren Vorgaben. Wer ist Verantwortlicher?",
   "optionen": [
    {
     "id": "a",
-    "text": "Wer allein oder gemeinsam mit anderen über Zwecke und Mittel der Verarbeitung entscheidet",
+    "text": "Die Arztpraxis",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 4 Nr. 7 DSGVO."
+    "erklaerung": "Richtig: Verantwortlich ist, wer über Zwecke und Mittel der Verarbeitung entscheidet (Art. 4 Nr. 7 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Der Datenschutzbeauftragte des Unternehmens",
+    "text": "Der IT-Anbieter, weil die Daten auf seinen Servern liegen",
     "korrekt": false,
-    "erklaerung": "Falsch: Der DSB berät und überwacht (Art. 39 DSGVO), verantwortlich ist das Unternehmen (Art. 4 Nr. 7 DSGVO)."
+    "erklaerung": "Falsch: Der Speicherort entscheidet nicht. Der Anbieter arbeitet weisungsgebunden und ist Auftragsverarbeiter (Art. 4 Nr. 8 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Der IT-Dienstleister, der die Server betreibt",
+    "text": "Der Datenschutzbeauftragte der Praxis",
     "korrekt": false,
-    "erklaerung": "Falsch: Wer nur weisungsgebunden im Auftrag verarbeitet, ist Auftragsverarbeiter (Art. 4 Nr. 8 DSGVO)."
+    "erklaerung": "Falsch: Der DSB berät und überwacht (Art. 39 DSGVO); er entscheidet nicht über die Verarbeitung."
    },
    {
     "id": "d",
-    "text": "Die betroffene Person",
+    "text": "Die Patienten, weil es um ihre Daten geht",
     "korrekt": false,
-    "erklaerung": "Falsch: Die betroffene Person ist die, deren Daten verarbeitet werden (Art. 4 Nr. 1 DSGVO)."
+    "erklaerung": "Falsch: Sie sind betroffene Personen (Art. 4 Nr. 1 DSGVO)."
    }
   ],
   "normen": [
-   "Art. 4 DSGVO",
-   "Art. 39 DSGVO"
+   "Art. 4 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -319,36 +318,35 @@
   "thema": "ds-begriffe",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Was ist eine „Verletzung des Schutzes personenbezogener Daten“ (Datenpanne)?",
+  "frage": "Welcher Vorgang ist eine Datenpanne (Verletzung des Schutzes personenbezogener Daten)?",
   "optionen": [
    {
     "id": "a",
-    "text": "Eine Sicherheitsverletzung, die zur Vernichtung, zum Verlust, zur Veränderung oder zur unbefugten Offenlegung von bzw. zum unbefugten Zugang zu personenbezogenen Daten führt",
+    "text": "Durch einen Fehler beim Update wird die Kundendatenbank unwiederbringlich gelöscht; kein Dritter sieht die Daten",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 4 Nr. 12 DSGVO."
+    "erklaerung": "Richtig: Auch der unbeabsichtigte Verlust oder die Vernichtung ist eine Verletzung, nicht nur der Zugriff Dritter (Art. 4 Nr. 12 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Nur ein Hackerangriff von außen",
+    "text": "Die Firewall wehrt einen Angriff vollständig ab; es werden keine Daten erreicht",
     "korrekt": false,
-    "erklaerung": "Falsch: Auch versehentliche Fehler (z. B. falsch adressierte E-Mail) zählen (Art. 4 Nr. 12 DSGVO: „unbeabsichtigt oder unrechtmäßig“)."
+    "erklaerung": "Falsch: Ohne Vernichtung, Verlust, Veränderung, Offenlegung oder Zugang ist der Schutz personenbezogener Daten nicht verletzt (Art. 4 Nr. 12 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Jede Verarbeitung ohne Einwilligung",
+    "text": "Ein Unternehmen hat für seinen Newsletter keine wirksame Einwilligung eingeholt",
     "korrekt": false,
-    "erklaerung": "Falsch: Eine Verarbeitung ohne Rechtsgrundlage verletzt Art. 6 DSGVO, ist aber nicht per se eine Datenpanne i. S. v. Art. 4 Nr. 12 DSGVO."
+    "erklaerung": "Falsch: Das ist eine rechtswidrige Verarbeitung (Art. 6 DSGVO), aber keine Sicherheitsverletzung (Art. 4 Nr. 12 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Nur Fälle, in denen ein Schaden nachgewiesen ist",
+    "text": "Eine Kundin verlangt erfolglos Auskunft über ihre Daten",
     "korrekt": false,
-    "erklaerung": "Falsch: Ein Schaden ist keine Voraussetzung der Definition (Art. 4 Nr. 12 DSGVO)."
+    "erklaerung": "Falsch: Das ist ein Verstoß gegen Betroffenenrechte (Art. 15 DSGVO), keine Sicherheitsverletzung."
    }
   ],
   "normen": [
-   "Art. 4 DSGVO",
-   "Art. 6 DSGVO"
+   "Art. 4 DSGVO"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true

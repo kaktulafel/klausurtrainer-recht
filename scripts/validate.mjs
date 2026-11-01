@@ -50,8 +50,8 @@ for (const p of alleDateien(DATA).filter(p => p.endsWith('.json'))) {
 
 const idx = json['index.json'];
 if (!idx) F('site/data/index.json', null, 'fehlt');
-const KATS = ['faelle', 'mc', 'wissen', 'normkarten'];
-const EINZEL = ['themen.json', 'normen.json', 'schemata.json', 'drills.json', 'klausuren.json', 'pruefpfade.json'];
+const KATS = ['faelle', 'mc', 'wissen', 'normkarten', 'karteikarten'];
+const EINZEL = ['themen.json', 'normen.json', 'schemata.json', 'drills.json', 'klausuren.json', 'pruefpfade.json', 'cheatsheets.json'];
 
 // index.json ↔ tatsächliche Dateien
 if (idx) {
@@ -234,6 +234,11 @@ for (const [datei, inhalt] of Object.entries(json)) {
           if (/^(alle|keine) (der )?(genannten|oben)/i.test(x.text || '')) F(datei, q.id, `„alle/keine der genannten“ vermeiden (${x.id})`);
         }
       }
+      // Gesetz darf in die Klausur: Frage und Antworten prüfen Inhalt; Normen gehören in die Erklärung
+      for (const t of [q.frage, ...(q.optionen || []).map(x => x.text), ...(q.ziele || []).map(x => x.text), ...(q.paare || []).map(x => x.text)]) {
+        if (/(?:\bArt\.|§§?)\s*\d|\blit\.\s*[a-f]\b/.test(t || '')) F(datei, q.id, `Norm in Frage/Antwort statt in der Erklärung: „${String(t).slice(0, 60)}“`);
+      }
+      if (/\b(wo|in welchem artikel|welche vorschrift|welche norm)\b.*\b(geregelt|regelt|steht)\b/i.test(q.frage || '')) F(datei, q.id, 'Fundstellenfrage: Frage muss inhaltlich sein');
       normListe(datei, q, 'normen');
       normenImText(datei, q.id, q);
       zaehle(q.thema, 'mc');
@@ -321,6 +326,49 @@ if (klausuren) {
     else if (!alleFaelle.get(A.fall).geprueft) F('klausuren.json', k.id, `Teil A: Fall ${A.fall} ist ungeprüft`);
     for (const w of B?.wissen || []) { if (!alleWissen.has(w)) F('klausuren.json', k.id, `Teil B: Wissensfrage ${w} unbekannt`); else if (!alleWissen.get(w).geprueft) F('klausuren.json', k.id, `Teil B: ${w} ungeprüft`); }
     for (const m of C?.mc || []) { if (!alleMC.has(m)) F('klausuren.json', k.id, `Teil C: MC ${m} unbekannt`); else if (!alleMC.get(m).geprueft) F('klausuren.json', k.id, `Teil C: ${m} ungeprüft`); }
+  }
+}
+
+// Karteikarten
+const KARTEN_TYPEN = ['definition', 'merkmale', 'schema', 'abgrenzung', 'rechtsfolge', 'falle', 'merksatz'];
+const kartenJe = {};
+for (const [datei, inhalt] of Object.entries(json)) {
+  if (!datei.startsWith('karteikarten/')) continue;
+  if (!Array.isArray(inhalt)) { F(datei, null, 'muss ein Array sein'); continue; }
+  for (const k of inhalt) {
+    id(datei, k);
+    pflicht(datei, k, { thema: 'str', typ: 'str', vorne: 'str', hinten: 'str', normen: 'strArr' });
+    quelle(datei, k); thema(datei, k);
+    if (!KARTEN_TYPEN.includes(k.typ)) F(datei, k.id, 'unbekannter typ');
+    normListe(datei, k, 'normen');
+    normenImText(datei, k.id, k);
+    kartenJe[k.thema] = (kartenJe[k.thema] || 0) + 1;
+    if (!k.geprueft) ungeprueft.push(k.id);
+  }
+}
+for (const t of themen) if (t.bereich === 'recht' && !kartenJe[t.id]) F('karteikarten', t.id, 'Rechtsthema ohne Karteikarte');
+
+// Cheatsheets
+const blaetter = json['cheatsheets.json'];
+if (blaetter) {
+  const D = 'cheatsheets.json';
+  if (!Array.isArray(blaetter)) F(D, null, 'muss ein Array sein');
+  else {
+    const schemaIds = new Set((schemata || []).map(s => s.id));
+    const pfadIds = new Set((json['pruefpfade.json'] || []).map(p => p.id));
+    for (const b of blaetter) {
+      id(D, b, 'cheatsheet:');
+      pflicht(D, b, { titel: 'str', einleitung: 'str', eintraege: 'arr' });
+      quelle(D, b);
+      for (const e of b.eintraege || []) {
+        if (!typ.str(e.titel)) F(D, b.id, 'Eintrag ohne titel');
+        if (!typ.str(e.text) && !typ.strArr(e.punkte)) F(D, b.id, `„${e.titel}“ braucht text oder punkte`);
+        if (e.schema && !schemaIds.has(e.schema)) F(D, b.id, `unbekanntes Schema ${e.schema}`);
+        if (e.pfad && !pfadIds.has(e.pfad)) F(D, b.id, `unbekannter Pfad ${e.pfad}`);
+      }
+      normenImText(D, b.id, b);
+      if (!b.geprueft) ungeprueft.push(b.id);
+    }
   }
 }
 

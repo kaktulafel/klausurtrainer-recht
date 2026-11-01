@@ -4,31 +4,31 @@
   "thema": "ds-grundlagen",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Aus welchen Bestimmungen hat das Bundesverfassungsgericht im Volkszählungsurteil (1983) das Recht auf informationelle Selbstbestimmung abgeleitet?",
+  "frage": "Eine Behörde sammelt ohne erkennbaren Anlass und für die Bürger nicht nachvollziehbar Daten über deren Alltag. Welchen Gedanken des Rechts auf informationelle Selbstbestimmung (Volkszählungsurteil 1983) verletzt das im Kern?",
   "optionen": [
    {
     "id": "a",
-    "text": "Aus dem allgemeinen Persönlichkeitsrecht, Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG",
+    "text": "Jeder soll grundsätzlich selbst über Preisgabe und Verwendung seiner persönlichen Daten bestimmen können",
     "korrekt": true,
-    "erklaerung": "Richtig: Das Gericht leitete das Grundrecht aus dem allgemeinen Persönlichkeitsrecht ab (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
+    "erklaerung": "Richtig: Das BVerfG leitete dieses Recht 1983 aus dem allgemeinen Persönlichkeitsrecht des Grundgesetzes ab. Wer nicht überblickt, was über ihn bekannt ist, wird in seiner Freiheit gehemmt (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
    },
    {
     "id": "b",
-    "text": "Aus der DSGVO",
+    "text": "Der Staat darf Daten nur speichern, wenn er dafür eine Gebühr erhebt",
     "korrekt": false,
-    "erklaerung": "Falsch: Die DSGVO stammt von 2016 und gilt seit 2018 (Art. 99 DSGVO) – das Urteil ist von 1983."
+    "erklaerung": "Falsch: Mit Gebühren hat das Grundrecht nichts zu tun; es schützt die Selbstbestimmung des Einzelnen (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
    },
    {
     "id": "c",
-    "text": "Aus dem Bundesdatenschutzgesetz",
+    "text": "Personenbezogene Daten sind Eigentum des Staates, der sie sorgfältig verwalten muss",
     "korrekt": false,
-    "erklaerung": "Falsch: Ein einfaches Gesetz kann kein Grundrecht begründen; Grundlage ist das Grundgesetz (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
+    "erklaerung": "Falsch: Das Volkszählungsurteil begründet kein Dateneigentum des Staates, sondern ein Persönlichkeitsrecht des Einzelnen (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
    },
    {
     "id": "d",
-    "text": "Aus dem Brief-, Post- und Fernmeldegeheimnis",
+    "text": "Nur Geheimnisse wie Briefe und Telefonate sind geschützt",
     "korrekt": false,
-    "erklaerung": "Falsch: Das Fernmeldegeheimnis (Art. 10 GG) schützt Kommunikation; das Volkszählungsurteil stützte sich auf das allgemeine Persönlichkeitsrecht (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
+    "erklaerung": "Falsch: Das Recht erfasst grundsätzlich alle persönlichen Daten, nicht nur Kommunikationsinhalte. Das BVerfG betont: Es gibt kein „belangloses“ Datum (Art. 2 Abs. 1 GG i. V. m. Art. 1 Abs. 1 GG)."
    }
   ],
   "normen": [
@@ -43,31 +43,31 @@
   "thema": "ds-grundlagen",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Seit wann ist die DSGVO in allen Mitgliedstaaten verbindlich anzuwenden?",
+  "frage": "Ein deutscher Händler meint: „Die DSGVO ist nur eine EU-Vorgabe. Für mich gilt sie erst, wenn der Bundestag sie umgesetzt hat.“ Stimmt das?",
   "optionen": [
    {
     "id": "a",
-    "text": "Seit dem 25. Mai 2018",
+    "text": "Nein: Als EU-Verordnung gilt sie unmittelbar, ohne Umsetzungsakt; seit Mai 2018 ist sie anzuwenden",
     "korrekt": true,
-    "erklaerung": "Richtig: In Kraft trat sie 2016, sie gilt ab dem 25. Mai 2018 (Art. 99 Abs. 2 DSGVO)."
+    "erklaerung": "Richtig: Verordnungen gelten in jedem Mitgliedstaat unmittelbar (Schlussformel der DSGVO); anzuwenden seit 25. Mai 2018 (Art. 99 Abs. 2 DSGVO). Das BDSG ergänzt sie nur."
    },
    {
     "id": "b",
-    "text": "Seit dem 25. Mai 2016",
+    "text": "Ja: Maßgeblich ist allein das deutsche BDSG",
     "korrekt": false,
-    "erklaerung": "Falsch: 2016 trat die DSGVO in Kraft; angewendet wird sie erst ab dem 25. Mai 2018 (Art. 99 DSGVO)."
+    "erklaerung": "Falsch: Das BDSG ergänzt die DSGVO lediglich, es ersetzt sie nicht (§ 1 Abs. 5 BDSG)."
    },
    {
     "id": "c",
-    "text": "Seit dem 1. Januar 2020",
+    "text": "Ja: Das gilt für jede EU-Regelung",
     "korrekt": false,
-    "erklaerung": "Falsch: Geltungsbeginn ist der 25. Mai 2018 (Art. 99 Abs. 2 DSGVO)."
+    "erklaerung": "Falsch: Das beschreibt Richtlinien. Die DSGVO ist eine Verordnung (Schlussformel, Art. 99 Abs. 2 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Erst nach Umsetzung durch ein deutsches Gesetz",
+    "text": "Nein: Aber sie gilt nur für Unternehmen ab 250 Beschäftigten",
     "korrekt": false,
-    "erklaerung": "Falsch: Eine Verordnung gilt unmittelbar in jedem Mitgliedstaat (Schlussformel der DSGVO; unmittelbare Geltung von EU-Verordnungen nach dem AEU-Vertrag); eine Umsetzung ist nicht nötig. Geltungsbeginn: Art. 99 Abs. 2 DSGVO."
+    "erklaerung": "Falsch: Die DSGVO kennt keine solche allgemeine Mindestgröße. Die Grenze von 250 Beschäftigten spielt nur als Erleichterung beim Verzeichnis eine Rolle (Art. 30 Abs. 5 DSGVO)."
    }
   ],
   "normen": [
@@ -81,31 +81,31 @@
   "thema": "ds-grundlagen",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Was ist nach Art. 1 DSGVO Gegenstand der Verordnung?",
+  "frage": "Ein Konkurrent kopiert die Kalkulation und die Kundenstrategie einer GmbH. Die GmbH will sich auf die DSGVO berufen. Hilft ihr das?",
   "optionen": [
    {
     "id": "a",
-    "text": "Der Schutz natürlicher Personen bei der Verarbeitung personenbezogener Daten und der freie Verkehr solcher Daten",
+    "text": "Nein: Die DSGVO schützt natürliche Personen, nicht Geschäftsgeheimnisse von Unternehmen",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 1 Abs. 1 DSGVO nennt beide Ziele – Schutz und freien Datenverkehr."
+    "erklaerung": "Richtig: Sie schützt natürliche Personen bei der Verarbeitung ihrer Daten (Art. 1 Abs. 1 DSGVO). Daten juristischer Personen sind nicht erfasst (Erwägungsgrund 14)."
    },
    {
     "id": "b",
-    "text": "Der Schutz von Betriebs- und Geschäftsgeheimnissen von Unternehmen",
+    "text": "Ja: Unternehmensdaten sind personenbezogene Daten der GmbH",
     "korrekt": false,
-    "erklaerung": "Falsch: Geschützt werden natürliche Personen (Art. 1 Abs. 1 DSGVO), nicht Unternehmensdaten."
+    "erklaerung": "Falsch: Personenbezogen sind nur Daten natürlicher Personen (Art. 4 Nr. 1 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Ausschließlich die IT-Sicherheit kritischer Infrastrukturen",
+    "text": "Ja: Die DSGVO schützt alle Daten vor unbefugtem Zugriff",
     "korrekt": false,
-    "erklaerung": "Falsch: IT-Sicherheit ist nur ein Mittel (Art. 32 DSGVO); Gegenstand ist der Schutz personenbezogener Daten (Art. 1 DSGVO)."
+    "erklaerung": "Falsch: Geschützt sind nur personenbezogene Daten, nicht jede Information (Art. 1 Abs. 1, Art. 4 Nr. 1 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Der Schutz juristischer Personen vor Datenmissbrauch",
+    "text": "Nein: Die DSGVO gilt nur für Behörden",
     "korrekt": false,
-    "erklaerung": "Falsch: Die DSGVO schützt natürliche Personen (Art. 1 Abs. 1 DSGVO)."
+    "erklaerung": "Falsch: Sie gilt auch und gerade für Unternehmen als Verantwortliche. Hier fehlt es nur an personenbezogenen Daten (Art. 4 Nr. 7 DSGVO)."
    }
   ],
   "normen": [
@@ -117,39 +117,33 @@
  {
   "id": "ds-mc-004",
   "thema": "ds-grundlagen",
-  "typ": "multi",
+  "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Welche der folgenden Ziele sind klassische Schutzziele der Informationssicherheit, die sich auch in Art. 32 DSGVO wiederfinden? (mehrere richtig)",
+  "frage": "Ein Erpressungstrojaner verschlüsselt alle Patientenakten einer Praxis. Es sind nachweislich keine Daten abgeflossen, aber die Praxis kommt zwei Tage nicht an die Akten heran. Welches Schutzziel ist verletzt?",
   "optionen": [
    {
     "id": "a",
-    "text": "Vertraulichkeit",
+    "text": "Verfügbarkeit",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 32 Abs. 1 lit. b DSGVO nennt Vertraulichkeit."
+    "erklaerung": "Richtig: Die Daten sind nicht mehr zugänglich. Auch das ist eine Sicherheitsverletzung (Art. 32 Abs. 1 lit. b, c, Art. 4 Nr. 12 DSGVO)."
    },
    {
     "id": "b",
-    "text": "Integrität",
-    "korrekt": true,
-    "erklaerung": "Richtig: Daten müssen vollständig und unverändert sein (Art. 32 Abs. 1 lit. b DSGVO)."
+    "text": "Vertraulichkeit",
+    "korrekt": false,
+    "erklaerung": "Falsch: Vertraulichkeit wäre betroffen, wenn Unbefugte Einsicht erhielten. Laut Sachverhalt ist nichts abgeflossen (vgl. Art. 32 Abs. 1 lit. b DSGVO)."
    },
    {
     "id": "c",
-    "text": "Verfügbarkeit",
-    "korrekt": true,
-    "erklaerung": "Richtig: Verfügbarkeit (und Belastbarkeit) der Systeme, Art. 32 Abs. 1 lit. b DSGVO."
+    "text": "Transparenz",
+    "korrekt": false,
+    "erklaerung": "Falsch: Transparenz ist ein Verarbeitungsgrundsatz (Art. 5 Abs. 1 lit. a DSGVO), kein Schutzziel der Informationssicherheit."
    },
    {
     "id": "d",
-    "text": "Profitabilität",
+    "text": "Zweckbindung",
     "korrekt": false,
-    "erklaerung": "Falsch: Wirtschaftlichkeit ist kein Schutzziel; Art. 32 DSGVO verlangt risikoangemessene Sicherheit."
-   },
-   {
-    "id": "e",
-    "text": "Öffentlichkeit",
-    "korrekt": false,
-    "erklaerung": "Falsch: Das Gegenteil – Vertraulichkeit – ist Schutzziel (Art. 32 Abs. 1 lit. b DSGVO)."
+    "erklaerung": "Falsch: Die Daten werden nicht zu einem anderen Zweck genutzt (vgl. Art. 5 Abs. 1 lit. b DSGVO)."
    }
   ],
   "normen": [
@@ -202,36 +196,38 @@
   "thema": "ds-grundlagen",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Welche Rechtsquellen bilden in Deutschland den Kern des allgemeinen Datenschutzrechts?",
+  "frage": "Eine Unternehmerin fragt: „Muss ich nun die DSGVO oder das BDSG beachten?“ Was ist die richtige Antwort?",
   "optionen": [
    {
     "id": "a",
-    "text": "DSGVO und ergänzend das BDSG",
+    "text": "Beide: Vorrangig gilt die DSGVO; das BDSG ergänzt sie dort, wo sie den Mitgliedstaaten Spielraum lässt",
     "korrekt": true,
-    "erklaerung": "Richtig: Die DSGVO gilt unmittelbar; das BDSG ergänzt sie, wo sie Öffnungsklauseln enthält (§ 1 BDSG)."
+    "erklaerung": "Richtig: Die DSGVO hat Anwendungsvorrang. Das BDSG füllt Öffnungsklauseln aus, z. B. beim Datenschutzbeauftragten (§ 38 BDSG) und bei besonderen Kategorien (§ 22 BDSG)."
    },
    {
     "id": "b",
-    "text": "Nur das BDSG",
+    "text": "Nur das BDSG, weil sie in Deutschland sitzt",
     "korrekt": false,
-    "erklaerung": "Falsch: Vorrang hat die unmittelbar geltende DSGVO; das BDSG ergänzt sie nur (§ 1 BDSG)."
+    "erklaerung": "Falsch: Die DSGVO gilt unmittelbar und geht dem BDSG vor (§ 1 Abs. 5 BDSG)."
    },
    {
     "id": "c",
-    "text": "Nur das BGB",
+    "text": "Nur die DSGVO, das BDSG wurde 2018 aufgehoben",
     "korrekt": false,
-    "erklaerung": "Falsch: Das BGB enthält kein allgemeines Datenschutzrecht; maßgeblich sind DSGVO und BDSG (§ 1 BDSG)."
+    "erklaerung": "Falsch: Das BDSG wurde 2018 neu gefasst und gilt ergänzend weiter (§ 1 Abs. 5 BDSG)."
    },
    {
     "id": "d",
-    "text": "Die KI-Verordnung",
+    "text": "Sie kann frei wählen, welches Gesetz sie anwendet",
     "korrekt": false,
-    "erklaerung": "Falsch: Die KI-VO regelt KI-Systeme; das allgemeine Datenschutzrecht steht in DSGVO und BDSG (§ 1 BDSG)."
+    "erklaerung": "Falsch: Beide gelten zwingend; ein Wahlrecht besteht nicht (Art. 99 DSGVO, § 1 Abs. 5 BDSG)."
    }
   ],
   "normen": [
+   "Art. 99 DSGVO",
    "§ 1 BDSG",
-   "Art. 1 DSGVO"
+   "§ 22 BDSG",
+   "§ 38 BDSG"
   ],
   "quelle": "material:ds-schulung",
   "geprueft": true
@@ -257,13 +253,13 @@
    },
    {
     "id": "3",
-    "text": "Datenminimierung ist ein Grundsatz der Verarbeitung.",
+    "text": "Erhebt ein Unternehmen mehr Daten, als es für seinen legitimen Zweck braucht, kann allein das gegen die Grundsätze verstoßen.",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 5 Abs. 1 lit. c DSGVO."
+    "erklaerung": "Richtig: Datenminimierung (Art. 5 Abs. 1 lit. c DSGVO)."
    },
    {
     "id": "4",
-    "text": "Die Wahrung von Vertraulichkeit, Integrität und Verfügbarkeit ist eine Frage der Rechtsgrundlage nach Art. 6 DSGVO.",
+    "text": "Ob Vertraulichkeit, Integrität und Verfügbarkeit gewahrt sind, entscheidet sich allein danach, ob eine Rechtsgrundlage besteht.",
     "korrekt": false,
     "erklaerung": "Falsch: Das ist Sicherheit der Verarbeitung (Art. 32 DSGVO), nicht Rechtsgrundlage."
    }
@@ -434,31 +430,31 @@
   "thema": "ds-anwendungsbereich",
   "typ": "single",
   "schwierigkeit": 2,
-  "frage": "Ein Analyseunternehmen in Kanada verfolgt mit Cookies das Surfverhalten von Personen in Österreich, um Profile zu erstellen. Welche Vorschrift begründet die Anwendbarkeit der DSGVO?",
+  "frage": "Ein Analyseunternehmen in Kanada ohne EU-Niederlassung verfolgt mit Cookies das Surfverhalten von Personen in Österreich, um Profile zu erstellen. Gilt die DSGVO?",
   "optionen": [
    {
     "id": "a",
-    "text": "Art. 3 Abs. 2 lit. b DSGVO (Beobachtung des Verhaltens in der Union)",
+    "text": "Ja: Das Beobachten des Verhaltens von Personen in der EU genügt, auch ohne EU-Niederlassung",
     "korrekt": true,
-    "erklaerung": "Richtig: Das Beobachten des Verhaltens betroffener Personen in der Union genügt."
+    "erklaerung": "Richtig: Marktortprinzip in der Variante „Verhaltensbeobachtung“ (Art. 3 Abs. 2 lit. b DSGVO)."
    },
    {
     "id": "b",
-    "text": "Art. 3 Abs. 1 DSGVO (Niederlassungsprinzip)",
+    "text": "Ja, aber nur wegen einer fiktiven Niederlassung in Österreich",
     "korrekt": false,
-    "erklaerung": "Falsch: Das Unternehmen hat keine Niederlassung in der Union; einschlägig ist Art. 3 Abs. 2 lit. b DSGVO."
+    "erklaerung": "Falsch: Eine Niederlassung (Art. 3 Abs. 1 DSGVO) gibt es nicht und wird auch nicht fingiert. Die Anwendbarkeit folgt aus dem Marktortprinzip."
    },
    {
     "id": "c",
-    "text": "Art. 2 Abs. 2 lit. c DSGVO",
+    "text": "Nein: Die Daten werden außerhalb der EU verarbeitet",
     "korrekt": false,
-    "erklaerung": "Falsch: Das ist die Haushaltsausnahme – sie schließt die Anwendung aus."
+    "erklaerung": "Falsch: Beim Marktortprinzip kommt es auf den Ort der Verarbeitung nicht an (Art. 3 Abs. 2 DSGVO)."
    },
    {
     "id": "d",
-    "text": "Gar keine – die DSGVO gilt nicht",
+    "text": "Nein: Es wird nichts verkauft, also fehlt der Marktbezug",
     "korrekt": false,
-    "erklaerung": "Falsch: Verhaltensbeobachtung in der Union fällt unter Art. 3 Abs. 2 lit. b DSGVO."
+    "erklaerung": "Falsch: Das Beobachten von Verhalten reicht selbstständig aus; ein Waren- oder Dienstleistungsangebot ist nicht nötig (Art. 3 Abs. 2 lit. b DSGVO)."
    }
   ],
   "normen": [
@@ -551,31 +547,31 @@
   "thema": "ds-anwendungsbereich",
   "typ": "single",
   "schwierigkeit": 1,
-  "frage": "Wie nennt man den Anknüpfungspunkt, nach dem die DSGVO für alle Verantwortlichen mit einer Niederlassung in der Union gilt?",
+  "frage": "Eine Softwarefirma mit Sitz in München verwaltet ausschließlich Kundendaten aus Brasilien. Gilt die DSGVO?",
   "optionen": [
    {
     "id": "a",
-    "text": "Niederlassungsprinzip",
+    "text": "Ja: Maßgeblich ist die Niederlassung in der EU, nicht die Herkunft der Kunden",
     "korrekt": true,
-    "erklaerung": "Richtig: Art. 3 Abs. 1 DSGVO."
+    "erklaerung": "Richtig: Niederlassungsprinzip (Art. 3 Abs. 1 DSGVO). Staatsangehörigkeit und Aufenthaltsort der Betroffenen spielen keine Rolle (Erwägungsgrund 14)."
    },
    {
     "id": "b",
-    "text": "Marktortprinzip",
+    "text": "Nein: Geschützt sind nur Personen in der EU",
     "korrekt": false,
-    "erklaerung": "Falsch: Das Marktortprinzip erfasst Anbieter ohne EU-Niederlassung (Art. 3 Abs. 2 DSGVO)."
+    "erklaerung": "Falsch: Das Marktortprinzip stellt auf Personen in der Union ab, das Niederlassungsprinzip nicht (Art. 3 Abs. 1 DSGVO)."
    },
    {
     "id": "c",
-    "text": "Territorialprinzip des Serverstandorts",
+    "text": "Nein: Geschützt sind nur EU-Bürger",
     "korrekt": false,
-    "erklaerung": "Falsch: Der Serverstandort ist nach Art. 3 Abs. 1 DSGVO gerade unerheblich."
+    "erklaerung": "Falsch: Die DSGVO knüpft nicht an die Staatsangehörigkeit an (Erwägungsgrund 14) (Art. 3 Abs. 1 DSGVO, Erwägungsgrund 14)."
    },
    {
     "id": "d",
-    "text": "Staatsangehörigkeitsprinzip",
+    "text": "Nur, wenn die Server in Deutschland stehen",
     "korrekt": false,
-    "erklaerung": "Falsch: Die Staatsangehörigkeit spielt für Art. 3 DSGVO keine Rolle."
+    "erklaerung": "Falsch: Der Serverstandort ist unerheblich (Art. 3 Abs. 1 DSGVO)."
    }
   ],
   "normen": [

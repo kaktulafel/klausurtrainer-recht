@@ -46,7 +46,8 @@
       "schemata.json",
       "drills.json",
       "klausuren.json",
-      "pruefpfade.json"
+      "pruefpfade.json",
+      "cheatsheets.json"
     ],
     "wortlaut": [
       "wortlaut/wortlaut-1.json",
@@ -54,6 +55,9 @@
       "wortlaut/wortlaut-3.json",
       "wortlaut/wortlaut-4.json",
       "wortlaut/wortlaut-5.json"
+    ],
+    "karteikarten": [
+      "karteikarten/recht.json"
     ]
   }
 }

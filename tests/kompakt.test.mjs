@@ -92,3 +92,34 @@ test('Prüfungspfade: Gutachtenstil – OS am Anfang, Erg. am Ende, Verweise gü
     for (const z of p.zeilen) if (z.verweis) assert.ok(ids.has(z.verweis), `${p.id} → ${z.verweis}`);
   }
 });
+
+const { schemaKarten, schemaPunkte, eintragPasst, stapelAuswaehlen } = await import('../site/js/karteikarten.js');
+
+test('Karteikarten: Schemakarten nur für gewählte Themen, mit allen Hauptpunkten', () => {
+  const schemata = json('schemata.json');
+  const recht = new Set(json('themen.json').themen.filter(x => x.bereich === 'recht').map(x => x.id));
+  const karten = schemaKarten(schemata, recht);
+  assert.equal(karten.length, schemata.filter(s => recht.has(s.thema)).length);
+  assert.ok(!karten.some(k => k.id === 'schema-dsgvo'));
+  const a = schemata.find(s => s.id === 'schema-anfechtung');
+  assert.equal(schemaPunkte(a).length, a.knoten.length);
+  assert.match(schemaPunkte(a)[1], /§ 119 Abs\. 1 Alt\. 2 BGB/);
+});
+
+test('Karteikarten: Auswahl nach Thema und Modus, Unbekanntes zuerst', () => {
+  const k = [{ id: 'a', thema: 'x' }, { id: 'b', thema: 'x' }, { id: 'c', thema: 'y' }];
+  const srs = { 'karte:a': { fach: 3, letzte: 'richtig', faellig: '2026-11-01' }, 'karte:b': { fach: 1, letzte: 'falsch', faellig: '2026-12-01' } };
+  assert.deepEqual(stapelAuswaehlen(k, srs, { themen: ['x'], n: 1 }).map(x => x.id), ['b']);
+  assert.equal(stapelAuswaehlen(k, srs, { n: 9 })[0].id, 'c');
+  assert.deepEqual(stapelAuswaehlen(k, srs, { modus: 'faellig', heute: '2026-11-02', n: 9 }).map(x => x.id), ['a']);
+  assert.deepEqual(stapelAuswaehlen(k, srs, { modus: 'schwach', n: 9 }).map(x => x.id), ['b']);
+});
+
+test('Cheatsheets: jede Anspruchsgrundlage aus den Fällen steht im Blatt, Suche greift', () => {
+  const blatt = json('cheatsheets.json').find(b => b.id === 'cs-ansprueche');
+  const pfade = new Set(blatt.eintraege.map(e => e.pfad).filter(Boolean));
+  for (const p of json('pruefpfade.json').filter(x => x.art === 'anspruch')) assert.ok(pfade.has(p.id), p.id);
+  const e = blatt.eintraege[0];
+  assert.ok(eintragPasst(e, '§ 433 zug'));
+  assert.ok(!eintragPasst(e, 'Täuschung'));
+});

@@ -27,6 +27,7 @@ function setup(main, daten, themen, query) {
   main.append(
     h('h1', null, 'Datenschutz – Multiple Choice'),
     h('p', { class: 'leise' }, `${daten.length} Fragen · ${fehlerAnz} zuletzt falsch/teilweise · ${faelligAnz} heute fällig.`),
+    h('p', { class: 'leise lese' }, 'Die Fragen prüfen Verständnis und Anwendung, nicht das Finden von Artikeln: Die DSGVO darfst du mitnehmen. Die passenden Normen stehen in der Erklärung nach dem Antworten.'),
     karte(
       h('label', { for: 'mc-modus' }, 'Modus'), modus,
       h('label', { for: 'mc-anzahl' }, 'Anzahl Fragen'), anzahl,

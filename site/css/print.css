@@ -10,4 +10,6 @@ a { color: #000; text-decoration: none; }
 .lese { font-size: 11pt; max-width: none; }
 h3.ue-z { background: none; border-bottom: 1px solid #999; border-radius: 0; }
 .ue-e2, .ue-e3 { border-left-color: #999; }
-.ue-fall[hidden] { display: none; }
+.ue-fall[hidden], .cs-e[hidden] { display: none; }
+.cs-raster { display: block; columns: 2; column-gap: 12px; }
+.cs-e { border: 1px solid #999; break-inside: avoid; margin-bottom: 6px; padding: 4px 6px; font-size: 0.85em; }

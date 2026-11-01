@@ -50,6 +50,7 @@ Wird von `node scripts/index-aktualisieren.mjs` aus den vorhandenen Dateien erze
   - `aussagen`: Aussagenblock, jede Aussage richtig/falsch; `korrekt` = Aussage stimmt.
   - `zuordnung`: statt `optionen` gibt es `ziele: [{id, text}]` und `paare: [{id, text, loesung: <ziel-id>, erklaerung}]`.
 - Jede Option braucht eine `erklaerung`. Optionstexte dürfen sich nicht wiederholen.
+- **Pur inhaltlich:** Das Gesetz darf in die Klausur. Frage, Optionen, Ziele und Paare nennen keine Normen, Fundstellenfragen sind verboten (Validator). Normen stehen in der `erklaerung`.
 - `schwierigkeit`: 1 leicht · 2 mittel · 3 schwer (Ziel ≈ 40/40/20 %).
 - Bewertung von `multi`/`aussagen` nach der eingestellten Regel (`site/js/grading.js`, `MC_REGELN`).
 
@@ -131,6 +132,14 @@ Schemata im Stichpunkt-Gutachtenstil, abgeleitet aus den Fällen: je Anspruchsgr
 - `zeilen`: Ebene 1–3; erste Zeile `**OS:** … könnte …`, letzte `**Erg.:** Folglich …`. `faelle` = Fälle, in denen diese Weiche vorkommt; `verweis` = anderer Pfad (z. B. Baustein); `weiter` = Anschlussprüfungen.
 - `grundlagen` (nur Ansprüche) müssen die Anspruchsgrundlagen aus den Stichpunktlösungen abdecken; jeder Fall muss in mindestens einem Pfad vorkommen (Validator und `tests/kompakt.test.mjs`).
 
+## `karteikarten/*.json` – Karteikarten Recht (Array)
+`{ "id": "kk-001", "thema": "…", "typ": "definition|merkmale|schema|abgrenzung|rechtsfolge|falle|merksatz", "vorne": "…", "hinten": "… (Zeilen mit \\n)", "normen": ["§ 110 BGB"], "quelle", "geprueft" }`
+Jedes Thema mit `bereich: recht` braucht mindestens eine Karte (Validator). Die App ergänzt zur Laufzeit je Rechts-Schema eine Karte (`js/karteikarten.js`). SRS-Schlüssel `karte:<id>`.
+
+## `cheatsheets.json` – Cheatsheets (Array)
+`{ "id": "cs-ansprueche", "titel": "…", "einleitung": "…", "eintraege": [{ "titel": "…", "norm": "…", "text": "…", "punkte": ["…"], "hinweis": "…", "schema": "schema-…", "pfad": "pfad-…" }], "quelle", "geprueft" }`
+Je Eintrag `text` oder `punkte`. Das Blatt „Schemata“ erzeugt die App aus `schemata.json`.
+
 ## `drills.json` – Klausurtechnik-Drills (Array)
 `{ "id": "dr-12", "korrekturhinweis": 1–4, "typ": "fehlersuche|lueckentext|minifall|anfechtung|p179", "thema", "titel", "aufgabe", "antwort", "kernpunkte", "stichwoerter"?, "normen", "quelle", "geprueft" }`
 - In einem Lückentext steht jede Lücke als `{{Lösung|Alternative}}` in `aufgabe`.
@@ -151,12 +160,12 @@ Schemata im Stichpunkt-Gutachtenstil, abgeleitet aus den Fällen: je Anspruchsgr
 Alle referenzierten Inhalte müssen existieren und geprüft sein. Die Zufallsklausur baut `site/js/klausur-core.js` zur Laufzeit im gleichen Format.
 
 ## Lernstand (Browser, `localStorage`)
-Schlüssel mit Präfix `nk-recht:`; Schema in `site/js/storage-core.js` (`SCHEMA = 2`, Migrationen in `MIGRATIONEN`):
+Schlüssel mit Präfix `nk-recht:`; Schema in `site/js/storage-core.js` (`SCHEMA = 3`, Migrationen in `MIGRATIONEN`; v2 → v3 setzt nur den Lernstand neu gefasster MC-Fragen zurück):
 ```json
-{ "schema": 2, "einstellungen": { "klausurdatum": "2026-11-20", "mcRegel": "abzug", "notenschluessel": null, "theme": "system", "kiModell": "…", "kiNurSitzung": false, "tagesminuten": 60 },
+{ "schema": 3, "einstellungen": { "klausurdatum": "2026-11-20", "mcRegel": "abzug", "notenschluessel": null, "theme": "system", "kiModell": "…", "kiNurSitzung": false, "tagesminuten": 60 },
   "srs": { "mc:ds-mc-001": { "fach": 2, "faellig": "2026-10-21", "anzahl": 3, "richtig": 2, "teilweise": 0, "falsch": 1, "zuletzt": "2026-10-19", "letzte": "richtig" } },
   "entwuerfe": { "fall:fall-01:klausur": { "text": "…", "aktualisiert": "…" } },
   "versuche": { "faelle": [], "klausuren": [], "mc": [] }, "serie": ["2026-10-19"] }
 ```
-- SRS-Schlüssel haben die Form `typ:id`. Typen: `mc`, `wissen`, `nk`, `zitat`, `schema`, `schema-luecke`, `schema-fall`, `skizze`, `drill`.
+- SRS-Schlüssel haben die Form `typ:id`. Typen: `mc`, `wissen`, `nk`, `karte`, `zitat`, `schema`, `schema-luecke`, `schema-fall`, `skizze`, `drill`.
 - Der API-Key liegt getrennt unter `nk-recht:ki-key` (bzw. in `sessionStorage`). Er ist nie Teil des Exports, und ein Import mit `sk-ant-` wird abgelehnt.

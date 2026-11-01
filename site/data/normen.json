@@ -3036,6 +3036,18 @@
   "geprueftAm": "2026-10-19"
  },
  {
+  "id": "bgb-641",
+  "zitat": "§ 641 BGB",
+  "gesetz": "BGB",
+  "ueberschrift": "Fälligkeit der Vergütung",
+  "kurz": "Fälligkeit der Vergütung beim Werkvertrag: grundsätzlich mit der Abnahme.",
+  "lage": "BGB › Buch 2 – Recht der Schuldverhältnisse › Abschnitt 8 – Einzelne Schuldverhältnisse › Titel 9 – Werkvertrag und ähnliche Verträge › Untertitel 1 – Werkvertrag › Kapitel 1 – Allgemeine Vorschriften",
+  "link": "https://www.gesetze-im-internet.de/bgb/__641.html",
+  "wortlaut": "wortlaut/wortlaut-5.json",
+  "quelleWortlaut": "gesetze-im-internet.de",
+  "geprueftAm": "2026-11-01"
+ },
+ {
   "id": "bgb-679",
   "zitat": "§ 679 BGB",
   "gesetz": "BGB",
