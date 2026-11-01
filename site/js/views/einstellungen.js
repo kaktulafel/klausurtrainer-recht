@@ -11,7 +11,7 @@ export function render(main) {
   // Lernplan
   const datum = h('input', { type: 'date', id: 'set-datum', value: e.klausurdatum || '' });
   datum.addEventListener('change', () => speichere(s => { s.klausurdatum = datum.value || null; }));
-  const minuten = h('select', { id: 'set-min' }, [30, 45, 60, 90, 120, 180].map(m => h('option', { value: String(m), selected: m === e.tagesminuten }, `${m} Minuten`)));
+  const minuten = h('select', { id: 'set-min' }, [30, 60, 90, 120, 180, 240, 300, 360].map(m => h('option', { value: String(m), selected: m === e.tagesminuten }, `${m} Minuten`)));
   minuten.addEventListener('change', () => speichere(s => { s.tagesminuten = parseInt(minuten.value, 10); }));
 
   // Bewertung

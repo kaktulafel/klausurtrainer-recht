@@ -1,6 +1,6 @@
 // Lernstand: Schema, Migrationen, Validierung, Export/Import – rein, ohne DOM/localStorage.
 
-export const SCHEMA = 4;
+export const SCHEMA = 5;
 export const KLAUSURTERMIN = '2026-11-09'; // Nachklausur; in den Einstellungen änderbar
 // MC-Fragen, die im November 2026 inhaltlich neu gefasst wurden: alter Lernfortschritt passt nicht mehr.
 export const MC_NEU_GEFASST = ["ds-mc-019","ds-mc-062","ds-mc-077","ds-mc-001","ds-mc-002","ds-mc-003","ds-mc-004","ds-mc-006","ds-mc-012","ds-mc-015","ds-mc-016","ds-mc-018","ds-mc-021","ds-mc-024","ds-mc-030","ds-mc-031","ds-mc-032","ds-mc-035","ds-mc-039","ds-mc-042","ds-mc-046","ds-mc-051","ds-mc-054","ds-mc-055","ds-mc-056","ds-mc-058","ds-mc-061","ds-mc-063","ds-mc-065","ds-mc-067","ds-mc-068","ds-mc-069","ds-mc-070","ds-mc-071","ds-mc-072","ds-mc-073","ds-mc-074","ds-mc-078","ds-mc-084","ds-mc-085","ds-mc-087","ds-mc-089","ds-mc-090","ds-mc-094","ds-mc-095","ds-mc-097","ds-mc-101","ds-mc-102","ds-mc-106","ds-mc-110","ds-mc-111","ds-mc-114","ds-mc-115","ds-mc-117","ds-mc-120","ds-mc-122","ds-mc-125","ds-mc-127","ds-mc-128","ds-mc-133","ds-mc-136","ds-mc-140"];
@@ -17,7 +17,7 @@ export function standardEinstellungen() {
     theme: 'system',             // system | hell | dunkel
     kiModell: 'claude-sonnet-5-5',
     kiNurSitzung: false,
-    tagesminuten: 60
+    tagesminuten: 240
   };
 }
 
@@ -50,7 +50,9 @@ const MIGRATIONEN = {
     return { ...alt, srs, schema: 3 };
   },
   // Klausurtermin steht fest: nur ein leeres Datum füllen, ein selbst gesetztes bleibt
-  3: (alt) => ({ ...alt, einstellungen: { ...(isObj(alt.einstellungen) ? alt.einstellungen : {}), klausurdatum: alt.einstellungen?.klausurdatum || KLAUSURTERMIN }, schema: 4 })
+  3: (alt) => ({ ...alt, einstellungen: { ...(isObj(alt.einstellungen) ? alt.einstellungen : {}), klausurdatum: alt.einstellungen?.klausurdatum || KLAUSURTERMIN }, schema: 4 }),
+  // Lernzeit: alter Standard von 60 Minuten wird zu 4 Stunden, eine selbst gewählte Zeit bleibt
+  4: (alt) => ({ ...alt, einstellungen: { ...(isObj(alt.einstellungen) ? alt.einstellungen : {}), tagesminuten: !alt.einstellungen?.tagesminuten || alt.einstellungen.tagesminuten === 60 ? 240 : alt.einstellungen.tagesminuten }, schema: 5 })
 };
 
 function isObj(x) { return x !== null && typeof x === 'object' && !Array.isArray(x); }

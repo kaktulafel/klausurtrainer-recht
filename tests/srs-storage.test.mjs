@@ -59,6 +59,33 @@ test('Tagesplan: neue Karteikarten verteilt auf die Lerntage bis zur Klausur', (
   assert.equal(p.ziele.find(z => z.art === 'karten').anzahl, 35);
 });
 
+test('Tagesplan: rechnet mit der Lernzeit, mehrere Fälle, Summe im Budget', () => {
+  const faelle = [60, 60, 60, 25, 30, 30].map((minuten, i) => ({ id: 'f' + i, titel: 'F' + i, minuten }));
+  const eingabe = { heute: '2026-11-02', klausurdatum: '2026-11-09', faellig: 30, ungeseheneMC: 141, ungeseheneWissen: 64, ungeseheneNormkarten: 132, ungeseheneKarten: 174, faelleOffen: faelle, faelleAlle: faelle, schwach: [{ titel: 'S' }] };
+  const vier = tagesplan({ ...eingabe, tagesminuten: 240 });
+  const fuenf = tagesplan({ ...eingabe, tagesminuten: 300 });
+  const n = (p, art) => p.ziele.filter(z => z.art === art).length;
+  assert.ok(n(vier, 'fall') >= 2, 'mehrere Fälle am Tag');
+  assert.ok(vier.minuten <= 240 && vier.minuten >= 200, 'Summe ' + vier.minuten);
+  assert.ok(fuenf.minuten <= 300 && fuenf.minuten > vier.minuten, 'mehr Zeit, mehr Plan');
+  assert.ok(n(fuenf, 'fall') >= n(vier, 'fall'));
+});
+
+test('Tagesplan: Endspurt nutzt die Lernzeit, am Klausurtag keine Probeklausur', () => {
+  const faelle = [1, 2, 3, 4].map(i => ({ id: 'f' + i, titel: 'F' + i, minuten: 60 }));
+  const p = tagesplan({ heute: '2026-11-08', klausurdatum: '2026-11-09', faellig: 40, faelleAlle: faelle, tagesminuten: 240 });
+  assert.equal(p.phase, 'endspurt');
+  assert.ok(p.ziele.some(z => z.art === 'klausur') && p.ziele.some(z => z.art === 'skizze'));
+  assert.ok(p.minuten <= 240);
+  assert.ok(!tagesplan({ heute: '2026-11-09', klausurdatum: '2026-11-09', tagesminuten: 240 }).ziele.some(z => z.art === 'klausur'));
+});
+
+test('Storage: alter Standard 60 Minuten wird zu 240, selbst gewählte Lernzeit bleibt', () => {
+  assert.equal(leererZustand().einstellungen.tagesminuten, 240);
+  assert.equal(ladeZustand(JSON.stringify({ schema: 4, einstellungen: { tagesminuten: 60 } })).zustand.einstellungen.tagesminuten, 240);
+  assert.equal(ladeZustand(JSON.stringify({ schema: 4, einstellungen: { tagesminuten: 180 } })).zustand.einstellungen.tagesminuten, 180);
+});
+
 test('Storage: Klausurtermin ist Standard, füllt leeres Datum, überschreibt gesetztes nicht', () => {
   assert.equal(leererZustand().einstellungen.klausurdatum, '2026-11-09');
   assert.equal(ladeZustand(JSON.stringify({ schema: 3, einstellungen: { klausurdatum: null } })).zustand.einstellungen.klausurdatum, '2026-11-09');

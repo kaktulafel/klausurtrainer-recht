@@ -160,9 +160,9 @@ Je Eintrag `text` oder `punkte`. Das Blatt „Schemata“ erzeugt die App aus `s
 Alle referenzierten Inhalte müssen existieren und geprüft sein. Die Zufallsklausur baut `site/js/klausur-core.js` zur Laufzeit im gleichen Format.
 
 ## Lernstand (Browser, `localStorage`)
-Schlüssel mit Präfix `nk-recht:`; Schema in `site/js/storage-core.js` (`SCHEMA = 4`, Migrationen in `MIGRATIONEN`; v2 → v3 setzt nur den Lernstand neu gefasster MC-Fragen zurück, v3 → v4 füllt ein leeres Klausurdatum):
+Schlüssel mit Präfix `nk-recht:`; Schema in `site/js/storage-core.js` (`SCHEMA = 5`, Migrationen in `MIGRATIONEN`; v2 → v3 setzt nur den Lernstand neu gefasster MC-Fragen zurück, v3 → v4 füllt ein leeres Klausurdatum, v4 → v5 hebt den alten Standard von 60 auf 240 Lernminuten):
 ```json
-{ "schema": 4, "einstellungen": { "klausurdatum": "2026-11-09", "mcRegel": "abzug", "notenschluessel": null, "theme": "system", "kiModell": "…", "kiNurSitzung": false, "tagesminuten": 60 },
+{ "schema": 5, "einstellungen": { "klausurdatum": "2026-11-09", "mcRegel": "abzug", "notenschluessel": null, "theme": "system", "kiModell": "…", "kiNurSitzung": false, "tagesminuten": 240 },
   "srs": { "mc:ds-mc-001": { "fach": 2, "faellig": "2026-10-21", "anzahl": 3, "richtig": 2, "teilweise": 0, "falsch": 1, "zuletzt": "2026-10-19", "letzte": "richtig" } },
   "entwuerfe": { "fall:fall-01:klausur": { "text": "…", "aktualisiert": "…" } },
   "versuche": { "faelle": [], "klausuren": [], "mc": [] }, "serie": ["2026-10-19"] }

@@ -22,7 +22,7 @@ export async function render(main) {
   const plan = tagesplan({
     heute: tag, klausurdatum: z.einstellungen.klausurdatum, faellig,
     ungeseheneMC: ungesehen('mc:', inh.mc), ungeseheneWissen: ungesehen('wissen:', inh.wissen), ungeseheneNormkarten: ungesehen('nk:', inh.normkarten), ungeseheneKarten: ungesehen('karte:', inh.karteikarten),
-    faelleOffen, schwach, tagesminuten: z.einstellungen.tagesminuten
+    faelleOffen, faelleAlle: inh.faelle, schwach, tagesminuten: z.einstellungen.tagesminuten
   });
   const serie = serieLaenge(z.serie, tag, addTage);
 
@@ -41,7 +41,8 @@ export async function render(main) {
       karte(h('p', { class: 'klein leise' }, 'Lernserie'), h('p', { class: 'gross' }, `${serie} ${serie === 1 ? 'Tag' : 'Tage'}`), h('p', { class: 'klein' }, serie ? 'Dranbleiben!' : 'Heute starten – jeder Tag zählt.')),
       karte(h('p', { class: 'klein leise' }, 'Heute fällig'), h('p', { class: 'gross' }, String(faellig)), h('a', { class: 'btn klein', href: '#/wiederholen' }, 'Wiederholen'))),
     karte(h('h2', null, plan.phase === 'endspurt' ? 'Endspurt: Wiederholung + Probeklausur' : 'Tagesplan'),
-      plan.ziele.length ? h('ul', { class: 'ziel-liste' }, plan.ziele.map(zl => h('li', null, zl.link ? h('a', { href: zl.link }, zl.text) : h('span', null, zl.text)))) : h('p', null, 'Alles erledigt – gönn dir eine Pause oder schreibe eine Probeklausur.')),
+      plan.minuten ? h('p', { class: 'klein leise' }, `Ca. ${dauer(plan.minuten)} von ${dauer(z.einstellungen.tagesminuten)} Lernzeit. Fälle stehen vorn, weil sie die meisten Punkte bringen. Lernzeit änderst du in den Einstellungen.`) : null,
+      plan.ziele.length ? h('ul', { class: 'ziel-liste' }, plan.ziele.map(zl => h('li', null, zl.link ? h('a', { href: zl.link }, zl.text) : h('span', null, zl.text), zl.minuten >= 1 ? h('span', { class: 'klein leise' }, ` · ${dauer(Math.round(zl.minuten))}`) : null))) : h('p', null, 'Alles erledigt – gönn dir eine Pause oder schreibe eine Probeklausur.')),
     h('div', { class: 'raster zwei' },
       karte(h('h2', null, 'Top-5-Schwachstellen'),
         h('ol', { class: 'themenliste' }, schwach.map(s => h('li', null, h('span', { class: 'ampel ' + s.ampel, 'aria-hidden': 'true' }), h('span', null, s.titel, ' ', h('span', { class: 'badge' + (s.gewicht === 'A' ? ' a' : '') }, s.gewicht)), h('span', { class: 'q' }, s.quote === null ? 'noch nicht geübt' : `${Math.round(s.quote * 100)} %`)))),
@@ -73,3 +74,9 @@ export async function render(main) {
 
 function ampelText(a) { return { gruen: 'gut', gelb: 'mittel', rot: 'schwach', grau: 'nicht geübt' }[a]; }
 function kachel(href, titel, text) { return h('a', { class: 'karte kachel', href }, h('h3', null, titel), h('p', { class: 'klein leise' }, text)); }
+
+function dauer(min) {
+  if (min < 60) return `${min} min`;
+  const h = Math.floor(min / 60), m = min % 60;
+  return m ? `${h} Std. ${m} min` : `${h} Std.`;
+}
