@@ -6,7 +6,8 @@
   <meta name="robots" content="noindex, nofollow">
   <meta http-equiv="Content-Security-Policy" content="default-src 'self'; script-src 'self'; style-src 'self'; img-src 'self' data:; connect-src 'self' https://api.anthropic.com; manifest-src 'self'; worker-src 'self'; base-uri 'self'; form-action 'none'; object-src 'none'">
   <meta name="app-version" content="__APP_VERSION__">
-  <meta name="theme-color" content="#1d3557">
+  <meta name="theme-color" content="#e9ece4" media="(prefers-color-scheme: light)">
+  <meta name="theme-color" content="#172220" media="(prefers-color-scheme: dark)">
   <meta name="description" content="Klausurtrainer Recht & Datenschutz – Gutachtenstil, Normen, Datenschutz-MC, Probeklausuren">
   <title>Klausurtrainer Recht &amp; Datenschutz</title>
   <link rel="manifest" href="manifest.webmanifest">
@@ -24,18 +25,19 @@
     </a>
     <nav class="kopf-nav" aria-label="Hauptnavigation (Desktop)">
       <a href="#/" data-nav="start">Start</a>
-      <a href="#/faelle" data-nav="faelle">Fälle</a>
-      <a href="#/mc" data-nav="mc">Datenschutz</a>
-      <a href="#/normen" data-nav="normen">Normen</a>
-      <a href="#/schemata" data-nav="schemata">Schemata</a>
-      <a href="#/wissen" data-nav="wissen">Wissen</a>
-      <a href="#/klausur" data-nav="klausur">Probeklausur</a>
       <a href="#/karteikarten" data-nav="karteikarten">Karteikarten</a>
       <a href="#/cheatsheets" data-nav="cheatsheets">Cheatsheets</a>
-      <a href="#/schwachstellen" data-nav="schwachstellen">Schwachstellen</a>
+      <a href="#/uebersicht" data-nav="uebersicht">Fälle kompakt</a>
+      <a href="#/mc" data-nav="mc">Datenschutz-MC</a>
+      <a href="#/schemata" data-nav="schemata">Schemata</a>
+      <a href="#/wissen" data-nav="wissen">Wissen</a>
+      <a href="#/normen" data-nav="normen">Normen</a>
+      <a href="#/klausur" data-nav="klausur">Probeklausur</a>
+      <a href="#/faelle" data-nav="faelle">Trainer</a>
       <a href="#/mehr" data-nav="mehr">Mehr</a>
     </nav>
     <div class="kopf-aktionen">
+      <a class="icon-btn kopf-mehr" href="#/mehr" data-nav="mehr">Mehr</a>
       <button type="button" class="icon-btn" id="theme-btn" aria-label="Farbschema wechseln" title="Hell/Dunkel">◐</button>
       <a class="icon-btn" href="#/einstellungen" aria-label="Einstellungen" title="Einstellungen">⚙</a>
     </div>
@@ -50,15 +52,15 @@
     <p class="laden" aria-live="polite">Lädt …</p>
   </main>
   <footer class="fuss">
-    <p>Rechtsstand: geltendes Recht, Stand 01.11.2026 (BGB, DSGVO, BDSG, TDDDG, KI-VO). Keine Rechtsberatung. ·
-      <a href="#/info">Info &amp; Quellen</a> · Version <span id="app-version">dev</span></p>
+    <p>Rechtsstand: geltendes Recht, Stand 01.11.2026 (BGB, DSGVO, BDSG, TDDDG, KI-VO). Keine Rechtsberatung.
+      <a href="#/info">Info &amp; Quellen</a>. Version <span id="app-version">dev</span></p>
   </footer>
   <nav class="unten-nav" aria-label="Hauptnavigation">
-    <a href="#/" data-nav="start"><span aria-hidden="true">⌂</span>Start</a>
-    <a href="#/faelle" data-nav="faelle"><span aria-hidden="true">§</span>Fälle</a>
-    <a href="#/mc" data-nav="mc"><span aria-hidden="true">☑</span>DSGVO</a>
-    <a href="#/normen" data-nav="normen"><span aria-hidden="true">⌕</span>Normen</a>
-    <a href="#/mehr" data-nav="mehr"><span aria-hidden="true">≡</span>Mehr</a>
+    <a href="#/" data-nav="start">Start</a>
+    <a href="#/karteikarten" data-nav="karteikarten">Karten</a>
+    <a href="#/cheatsheets" data-nav="cheatsheets">Cheatsheets</a>
+    <a href="#/uebersicht" data-nav="uebersicht">Kompakt</a>
+    <a href="#/mc" data-nav="mc">MC</a>
   </nav>
   <script type="module" src="js/app.js"></script>
 </body>

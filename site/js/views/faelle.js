@@ -54,8 +54,8 @@ export async function render(main, { pfad, query }) {
     [...tm.values()].filter(t => t.bereich === 'recht' && daten.some(f => f.themen.includes(t.id))).map(t => h('option', { value: t.id, selected: t.id === filter }, t.titel)));
   main.append(
     h('h1', null, 'Gutachten-Trainer'),
-    h('p', { class: 'leise' }, `${daten.length} Fälle · klausurgroß (≥ 60 min) und Kurzfälle. Modi: geführt, Klausurmodus mit Timer, Skizzen-Sprint.`),
-    h('p', { class: 'klein' }, h('a', { href: '#/uebersicht' }, 'Alle Fälle kompakt: Ansprüche und Tatbestandsmerkmale auf einen Blick →'), ' · ', h('a', { href: '#/cheatsheets' }, 'Cheatsheets →'), ' · ', h('a', { href: '#/karteikarten' }, 'Karteikarten →')),
+    h('p', { class: 'leise' }, `${daten.length} Fälle, klausurgroß (ab 60 min) und Kurzfälle. Modi: geführt, Klausurmodus mit Timer, Skizzen-Sprint.`),
+    h('p', { class: 'klein zeile' }, h('a', { href: '#/uebersicht' }, 'Alle Fälle kompakt'), h('a', { href: '#/cheatsheets' }, 'Cheatsheets'), h('a', { href: '#/karteikarten' }, 'Karteikarten')),
     h('div', { class: 'suchfeld' }, auswahl),
     h('div', { class: 'raster zwei' }, liste.map(f => {
       const vs = versuche.filter(v => v.fallId === f.id);
@@ -64,7 +64,7 @@ export async function render(main, { pfad, query }) {
         h('div', { class: 'zeile zwischen' }, h('span', { class: 'badge' }, f.minuten >= 60 ? 'Klausurfall' : 'Kurzfall'), ungeprueftBadge(f)),
         h('h3', null, f.titel),
         h('p', { class: 'klein leise' }, f.kurz || ''),
-        h('p', { class: 'klein' }, `⏱ ${f.minuten} min · ${f.punkte} P. · Schwierigkeit ${'●'.repeat(f.schwierigkeit)}${'○'.repeat(3 - f.schwierigkeit)}`),
+        h('p', { class: 'klein' }, `${f.minuten} min, ${f.punkte} P., Schwierigkeit ${'●'.repeat(f.schwierigkeit)}${'○'.repeat(3 - f.schwierigkeit)}`),
         letzter ? h('p', { class: 'klein' }, status(letzter.punkte / letzter.max >= 0.5 ? 'ok' : 'falsch', `Zuletzt ${letzter.punkte}/${letzter.max} P. (Note ${letzter.note})`)) : h('p', { class: 'klein leise' }, 'Noch nicht bearbeitet'),
         themenBadges(f.themen, tm));
     }))
@@ -79,7 +79,7 @@ async function renderFall(main, id, query, tm) {
   main.append(
     h('p', { class: 'klein' }, h('a', { href: '#/faelle' }, '← Alle Fälle')),
     h('h1', null, fall.titel, ' ', ungeprueftBadge(fall)),
-    h('p', { class: 'leise' }, `⏱ ${fall.minuten} min · ${fall.punkte} Punkte (davon Gutachtenstil ${fall.gutachtenstil.reduce((s, g) => s + g.punkte, 0)}) · `, themenBadges(fall.themen, tm))
+    h('p', { class: 'leise klein' }, `${fall.minuten} min, ${fall.punkte} Punkte, davon Gutachtenstil ${fall.gutachtenstil.reduce((s, g) => s + g.punkte, 0)}`), themenBadges(fall.themen, tm)
   );
   const t = tabs([
     { id: 'sachverhalt', label: 'Sachverhalt', render: (c) => renderSachverhalt(c, fall) },

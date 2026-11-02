@@ -1,10 +1,13 @@
-// Dashboard: Countdown, Tagesplan, Fortschritt je Thema (Ampel), Top-5-Schwachstellen, Lernserie.
+// Dashboard: Countdown, Tagesplan als Gliederung, direkte Einstiege, Top-5-Schwachstellen, Fortschritt je Thema, Lernserie.
 import { h, karte, status } from '../ui/dom.js';
 import * as store from '../store.js';
 import { alleInhalte } from '../inhalte.js';
 import { themenStatistik, schwachstellen, tagesplan } from '../plan.js';
 import { heute, addTage, faelligeIds, tageZwischen } from '../srs.js';
 import { serieLaenge } from '../storage-core.js';
+
+// Nur die Anzeige ist umsortiert (Karten und MC zuerst); plan.js rechnet unverändert.
+const RANG = { wiederholung: 0, karten: 1, mc: 2, wissen: 3, normen: 4, schemata: 5, drill: 6, taktik: 7, klausur: 8, fall: 9, skizze: 10 };
 
 export async function render(main) {
   const z = store.get();
@@ -26,26 +29,37 @@ export async function render(main) {
   });
   const serie = serieLaenge(z.serie, tag, addTage);
 
-  const countdown = z.einstellungen.klausurdatum
-    ? karte(h('p', { class: 'klein leise' }, 'Bis zur Nachklausur'), h('p', { class: 'gross' }, plan.tageBis > 0 ? `${plan.tageBis} Tage` : plan.tageBis === 0 ? 'Heute! Viel Erfolg 🍀' : 'vorbei'),
-        h('p', { class: 'klein' }, new Date(z.einstellungen.klausurdatum + 'T12:00:00').toLocaleDateString('de-DE', { weekday: 'long', day: 'numeric', month: 'long', year: 'numeric' })))
-    : karte(h('p', null, 'Trage dein Klausurdatum ein – dann rechnet die App Tagesziele aus.'), h('a', { class: 'btn', href: '#/einstellungen' }, 'Klausurdatum festlegen'));
+  const klausurTag = z.einstellungen.klausurdatum ? new Date(z.einstellungen.klausurdatum + 'T12:00:00').toLocaleDateString('de-DE', { day: 'numeric', month: 'long' }) : null;
+  const endspurt = plan.phase === 'endspurt';
+  // Der Endspurt behält seine Reihenfolge: Dort steht die Probeklausur bewusst an ihrer Stelle.
+  const ziele = endspurt ? plan.ziele : [...plan.ziele].sort((a, b) => (RANG[a.art] ?? 5) - (RANG[b.art] ?? 5));
 
   const gesamt = { mc: inh.mc.length, wissen: inh.wissen.length, nk: inh.normkarten.length, faelle: inh.faelle.length };
   const geuebt = { mc: gesamt.mc - ungesehen('mc:', inh.mc), wissen: gesamt.wissen - ungesehen('wissen:', inh.wissen), nk: gesamt.nk - ungesehen('nk:', inh.normkarten), faelle: bearbeitet.size };
 
   main.append(
-    h('h1', null, 'Dein Lernstand'),
-    h('div', { class: 'raster drei' },
-      countdown,
-      karte(h('p', { class: 'klein leise' }, 'Lernserie'), h('p', { class: 'gross' }, `${serie} ${serie === 1 ? 'Tag' : 'Tage'}`), h('p', { class: 'klein' }, serie ? 'Dranbleiben!' : 'Heute starten – jeder Tag zählt.')),
-      karte(h('p', { class: 'klein leise' }, 'Heute fällig'), h('p', { class: 'gross' }, String(faellig)), h('a', { class: 'btn klein', href: '#/wiederholen' }, 'Wiederholen'))),
-    karte(h('h2', null, plan.phase === 'endspurt' ? 'Endspurt: Wiederholung + Probeklausur' : 'Tagesplan'),
-      plan.minuten ? h('p', { class: 'klein leise' }, `Ca. ${dauer(plan.minuten)} von ${dauer(z.einstellungen.tagesminuten)} Lernzeit. Fälle stehen vorn, weil sie die meisten Punkte bringen. Lernzeit änderst du in den Einstellungen.`) : null,
-      plan.ziele.length ? h('ul', { class: 'ziel-liste' }, plan.ziele.map(zl => h('li', null, zl.link ? h('a', { href: zl.link }, zl.text) : h('span', null, zl.text), zl.minuten >= 1 ? h('span', { class: 'klein leise' }, ` · ${dauer(Math.round(zl.minuten))}`) : null))) : h('p', null, 'Alles erledigt – gönn dir eine Pause oder schreibe eine Probeklausur.')),
+    h('h1', null, ueberschrift(klausurTag, plan.tageBis)),
+    endspurt ? h('h2', null, 'Endspurt: Wiederholung + Probeklausur') : null,
+    klausurTag && plan.tageBis > 0 && !endspurt ? h('p', { class: 'obersatz' }, `Du könntest die Nachklausur am ${klausurTag} bestehen.`, ziele.length ? ' Dies setzt heute voraus:' : '') : null,
+    !klausurTag ? h('p', null, 'Trage dein Klausurdatum ein, dann rechnet die App Tagesziele aus. ', h('a', { href: '#/einstellungen' }, 'Klausurdatum festlegen')) : null,
+    ziele.length ? h('ol', { class: 'ziel-liste' }, ziele.map(zl => {
+      const inhalt = [h('span', { class: 'ziel-text' }, zl.text), zl.minuten >= 1 ? h('span', { class: 'ziel-zeit' }, dauer(Math.round(zl.minuten))) : null];
+      return h('li', null, zl.link ? h('a', { href: zl.link }, inhalt) : h('span', { class: 'ziel-ohne' }, inhalt));
+    })) : h('p', null, 'Alles erledigt – gönn dir eine Pause oder schreibe eine Probeklausur.'),
+    plan.minuten ? h('p', { class: 'klein leise' }, `Ergebnis: ca. ${dauer(plan.minuten)} von ${dauer(z.einstellungen.tagesminuten)} Lernzeit. Die Lernzeit änderst du in den Einstellungen.`) : null,
+    karte(h('h2', null, 'Direkt lernen'),
+      h('ul', { class: 'einstiege' },
+        einstieg('#/karteikarten', 'Karteikarten', `${ungesehen('karte:', inh.karteikarten)} neu`),
+        einstieg('#/cheatsheets', 'Cheatsheets', 'Ansprüche, Schemata, Fristen'),
+        einstieg('#/uebersicht', 'Fälle kompakt', `${gesamt.faelle} Fälle, Prüfungspfade`),
+        einstieg('#/mc', 'Datenschutz-MC', `${ungesehen('mc:', inh.mc)} neu von ${gesamt.mc}`))),
+    h('div', { class: 'stand' },
+      h('span', null, `Lernserie: ${serie} ${serie === 1 ? 'Tag' : 'Tage'}`),
+      h('span', null, `Heute fällig: ${faellig}`),
+      h('a', { class: 'btn klein sekundaer', href: '#/wiederholen' }, 'Wiederholen')),
     h('div', { class: 'raster zwei' },
       karte(h('h2', null, 'Top-5-Schwachstellen'),
-        h('ol', { class: 'themenliste' }, schwach.map(s => h('li', null, h('span', { class: 'ampel ' + s.ampel, 'aria-hidden': 'true' }), h('span', null, s.titel, ' ', h('span', { class: 'badge' + (s.gewicht === 'A' ? ' a' : '') }, s.gewicht)), h('span', { class: 'q' }, s.quote === null ? 'noch nicht geübt' : `${Math.round(s.quote * 100)} %`)))),
+        h('ol', { class: 'themenliste' }, schwach.map(s => h('li', null, h('span', { class: 'ampel ' + s.ampel, 'aria-hidden': 'true' }), h('span', null, s.titel, ' ', h('span', { class: 'badge' + gewichtKlasse(s.gewicht) }, s.gewicht)), h('span', { class: 'q' }, s.quote === null ? 'neu' : `${Math.round(s.quote * 100)} %`)))),
         h('a', { class: 'btn klein sekundaer', href: '#/schwachstellen' }, 'Zu den Drills')),
       karte(h('h2', null, 'Fortschritt'),
         h('ul', { class: 'themenliste' },
@@ -55,27 +69,33 @@ export async function render(main) {
           h('li', null, 'Normkarten gesehen', h('span', { class: 'q' }, `${geuebt.nk} / ${gesamt.nk}`)),
           h('li', null, 'Probeklausuren geschrieben', h('span', { class: 'q' }, String(z.versuche.klausuren.length)))),
         h('a', { class: 'btn klein leise', href: '#/statistik' }, 'Statistik je Thema'))),
-    karte(h('h2', null, 'Fortschritt je Thema'),
-      h('p', { class: 'klein leise' }, 'Ampel: ', status('ok', '≥ 80 %'), ' ', status('teil', '55–79 %'), ' ', status('falsch', '< 55 %'), ' · grau = noch nicht geübt'),
+    h('details', { class: 'klappe' }, h('summary', null, 'Fortschritt je Thema'),
+      h('p', { class: 'klein leise' }, 'Ampel: ', status('ok', 'ab 80 %'), ' ', status('teil', '55–79 %'), ' ', status('falsch', 'unter 55 %'), ' Leerer Kreis: noch nicht geübt.'),
       ['recht', 'datenschutz'].map(b => h('div', null, h('h3', null, b === 'recht' ? 'Recht (BGB)' : 'Datenschutz'),
         h('ul', { class: 'themenliste' }, inh.themen.filter(t => t.bereich === b).map(t => {
           const s = stat[t.id];
-          return h('li', null, h('span', { class: 'ampel ' + s.ampel, role: 'img', 'aria-label': ampelText(s.ampel) }), h('span', null, t.titel, ' ', h('span', { class: 'badge' + (t.gewicht === 'A' ? ' a' : t.gewicht === 'B' ? ' b' : '') }, t.gewicht)), h('span', { class: 'q' }, s.quote === null ? '–' : `${Math.round(s.quote * 100)} %`));
+          return h('li', null, h('span', { class: 'ampel ' + s.ampel, role: 'img', 'aria-label': ampelText(s.ampel) }), h('span', null, t.titel, ' ', h('span', { class: 'badge' + gewichtKlasse(t.gewicht) }, t.gewicht)), h('span', { class: 'q' }, s.quote === null ? '–' : `${Math.round(s.quote * 100)} %`));
         }))))),
-    h('div', { class: 'raster drei' },
-      kachel('#/karteikarten', 'Karteikarten Recht', 'Alles Rechtswissen als Frage und Antwort'),
-      kachel('#/cheatsheets', 'Cheatsheets', 'Ansprüche, Merkmale, Schemata, Definitionen, Fristen'),
-      kachel('#/uebersicht', 'Fälle kompakt', 'Stichpunktlösungen und Prüfungspfade'),
-      kachel('#/faelle', 'Gutachten-Trainer', 'Fälle im Gutachtenstil – geführt, Klausurmodus, Skizze'),
-      kachel('#/mc', 'Datenschutz-MC', `${gesamt.mc} Fragen, Übungs- und Prüfungsmodus`),
+    h('h2', null, 'Weitere Bereiche'),
+    h('div', { class: 'raster zwei' },
+      kachel('#/schemata', 'Prüfungsschemata', 'Aufklappbar, Puzzle, Lückenschema'),
+      kachel('#/wissen', 'Wissensfragen', 'Klausurstil mit Kernpunkt-Check'),
       kachel('#/normen', 'Normen-Kompass', 'Normkarten, Zitier-Trainer, Register'),
       kachel('#/klausur', 'Probeklausur', 'Komplette Klausur mit Timer und Note'),
-      kachel('#/schemata', 'Prüfungsschemata', 'Aufklappbar, Puzzle, Lückenschema'),
-      kachel('#/wissen', 'Wissensfragen', 'Klausurstil mit Kernpunkt-Check'))
+      kachel('#/faelle', 'Gutachten-Trainer', 'Fälle im Gutachtenstil: geführt, Klausurmodus, Skizze'),
+      kachel('#/mehr', 'Mehr', 'Schwachstellen, Statistik, Einstellungen'))
   );
 }
 
+function ueberschrift(klausurTag, tageBis) {
+  if (!klausurTag) return 'Dein Lernstand';
+  if (tageBis > 1) return `Noch ${tageBis} Tage`;
+  if (tageBis === 1) return 'Noch 1 Tag';
+  return tageBis === 0 ? 'Heute! Viel Erfolg 🍀' : 'Dein Lernstand';
+}
+function gewichtKlasse(g) { return g === 'A' ? ' a' : g === 'B' ? ' b' : ''; }
 function ampelText(a) { return { gruen: 'gut', gelb: 'mittel', rot: 'schwach', grau: 'nicht geübt' }[a]; }
+function einstieg(href, titel, text) { return h('li', null, h('a', { href }, h('strong', null, titel), h('span', null, text))); }
 function kachel(href, titel, text) { return h('a', { class: 'karte kachel', href }, h('h3', null, titel), h('p', { class: 'klein leise' }, text)); }
 
 function dauer(min) {

@@ -141,7 +141,7 @@ export function gestufteTipps(tipps) {
 /** Selbstbewertung richtig/teilweise/falsch (Tasten 1–3). */
 export function selbstbewertung(onWahl) {
   const mk = (art, text, taste) => h('button', { type: 'button', class: 'btn ' + (art === 'richtig' ? '' : 'sekundaer'), onclick: () => onWahl(art), dataset: { taste } }, status(art, text), h('span', { class: 'sr' }, ` (Taste ${taste})`));
-  return h('div', { class: 'btn-reihe', role: 'group', 'aria-label': 'Selbstbewertung' }, mk('richtig', 'Gewusst', '1'), mk('teilweise', 'Teilweise', '2'), mk('falsch', 'Nicht gewusst', '3'));
+  return h('div', { class: 'btn-reihe bew', role: 'group', 'aria-label': 'Selbstbewertung' }, mk('richtig', 'Gewusst', '1'), mk('teilweise', 'Teilweise', '2'), mk('falsch', 'Nicht gewusst', '3'));
 }
 
 /**
@@ -181,9 +181,27 @@ export function kiPanel({ titel = 'KI-Korrektur (optional)', baueRequest, normal
 }
 
 export function themenBadges(ids, themenMap) {
-  return h('span', { class: 'zeile' }, ids.map(id => h('span', { class: 'badge' + (themenMap?.get(id)?.gewicht === 'A' ? ' a' : '') }, themenMap?.get(id)?.titel || id)));
+  return h('span', { class: 'zeile' }, ids.map(id => h('span', { class: 'badge thema' }, themenMap?.get(id)?.titel || id)));
 }
 
 export function ungeprueftBadge(obj) {
   return obj && obj.geprueft === false ? h('span', { class: 'badge warn', title: 'Inhalt noch nicht fachlich zweitgeprüft' }, 'ungeprüft') : null;
+}
+
+/** Eingeklappte Themenauswahl der Startmasken; die Zusammenfassung nennt die aktuelle Auswahl. */
+export function themenWahl(boxen, zeilen) {
+  const titel = h('summary');
+  const aktualisiere = () => {
+    const n = boxen.filter(b => b.checked).length;
+    titel.textContent = n === boxen.length ? `Themen: alle ${n}` : `Themen: ${n} von ${boxen.length}`;
+  };
+  const setzeAlle = (an) => () => { boxen.forEach(b => { b.checked = an; }); aktualisiere(); };
+  boxen.forEach(b => b.addEventListener('change', aktualisiere));
+  aktualisiere();
+  return h('details', { class: 'themenwahl' }, titel,
+    h('fieldset', null, h('legend', { class: 'sr' }, 'Themen'),
+      h('div', { class: 'btn-reihe' },
+        h('button', { type: 'button', class: 'btn klein leise', onclick: setzeAlle(true) }, 'Alle'),
+        h('button', { type: 'button', class: 'btn klein leise', onclick: setzeAlle(false) }, 'Keine')),
+      zeilen));
 }

@@ -52,7 +52,7 @@ function uebersicht(main, daten) {
       const vs = versuche.filter(v => v.klausurId === k.id);
       const letzter = vs[vs.length - 1];
       return karte(h('h3', null, k.titel), h('p', { class: 'klein leise' }, k.beschreibung || ''),
-        h('p', { class: 'klein' }, `⏱ ${k.minuten} min · ${maxPunkte(k)} P. · Fall: ${fall?.titel || k.teile.A.fall}`),
+        h('p', { class: 'klein' }, `${k.minuten} min, ${maxPunkte(k)} P. Fall: ${fall?.titel || k.teile.A.fall}`),
         letzter ? h('p', { class: 'klein' }, status(letzter.bestanden ? 'ok' : 'falsch', `Zuletzt ${String(letzter.punkte).replace('.', ',')}/${letzter.max} P. · Note ${letzter.note}`)) : h('p', { class: 'klein leise' }, 'Noch nicht geschrieben'),
         h('button', { type: 'button', class: 'btn', onclick: () => starte(k) }, 'Starten'));
     })),

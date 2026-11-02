@@ -32,10 +32,10 @@ export function starte(r, rendern) {
 }
 
 export function markiereNav(name) {
-  const gruppe = { wiederholen: 'start', statistik: 'start', einstellungen: 'mehr', info: 'mehr', schemata: 'mehr', wissen: 'mehr', klausur: 'mehr', schwachstellen: 'mehr' };
+  const gruppe = { wiederholen: 'start', statistik: 'start', einstellungen: 'mehr', info: 'mehr', schemata: 'mehr', wissen: 'mehr', klausur: 'mehr', schwachstellen: 'mehr', faelle: 'mehr', normen: 'mehr' };
   document.querySelectorAll('[data-nav]').forEach(a => {
     const n = a.getAttribute('data-nav');
-    const aktiv = n === name || (a.closest('.unten-nav') && gruppe[name] === n);
+    const aktiv = n === name || (a.closest('.unten-nav, .kopf-aktionen') && gruppe[name] === n);
     if (aktiv) a.setAttribute('aria-current', 'page'); else a.removeAttribute('aria-current');
   });
 }

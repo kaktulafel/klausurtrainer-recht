@@ -1,15 +1,31 @@
-/* Druckansicht: Schemata, Musterlösungen, Sachverhalte */
-.kopf, .unten-nav, .fuss, .banner, .btn, .btn-reihe, .tabs, .icon-btn, .suchfeld, textarea, .nicht-drucken { display: none !important; }
-body { background: #fff; color: #000; padding: 0; font-size: 11pt; }
+/* Druckansicht: Schemata, Musterlösungen, Sachverhalte, Cheatsheets. Der Korrekturrand entfällt, die Gliederung bleibt. */
+.kopf, .unten-nav, .fuss, .banner, .btn, .btn-reihe, .tabs, .icon-btn, .suchfeld, .daumen, textarea, .nicht-drucken { display: none !important; }
+:root { --rail: 0px; --rail-luft: 0px; --auslauf: 0px; --lese: 11pt; }
+body { background: #fff; color: #000; padding: 0; font-size: 11pt; line-height: 1.45; hyphens: auto; }
 main { max-width: none; padding: 0; }
-.karte { border: 1px solid #999; box-shadow: none; break-inside: avoid; }
+main::before { display: none; }
+.karte { box-shadow: none; }
+.kk-karte { box-shadow: none; border: 1px solid #999; }
+h1, h2, h3, h3.ue-z { color: #000; }
 details.knoten { border-left: 2px solid #999; }
 details.knoten > * { display: block; }
 .norm { color: #000; text-decoration: none; }
 a { color: #000; text-decoration: none; }
-.lese { font-size: 11pt; max-width: none; }
-h3.ue-z { background: none; border-bottom: 1px solid #999; border-radius: 0; }
-.ue-e2, .ue-e3 { border-left-color: #999; }
+.lese, .md, .erklaerung, .ue-gliederung, .ue-liste, .ue-sv, .obersatz, p.leise:not(.klein) { font-size: 11pt; max-width: none; }
+.leise, .klein, .ue-ref, .badge { color: #333; }
+h3.ue-z { border-bottom: 1px solid #999; }
+.ue-e3 { border-left-color: #999; }
+.ue-fall { border-top: 1px solid #999; break-inside: auto; }
 .ue-fall[hidden], .cs-e[hidden] { display: none; }
+/* Randmarken wandern zurück in den Text */
+.ue-randlabel > strong:first-child { position: static; width: auto; font: inherit; font-weight: 700; color: #000; }
+.sachverhalt p::before { position: static; width: auto; margin-right: .5em; color: #333; font-size: 9pt; }
+.ziel-liste li::before, .ampel { position: static; margin: 0 .4em 0 0; color: #000; }
+.check input { position: static; margin: 0; }
+.option .erklaerung .status { position: static; width: auto; font-size: 10pt; color: #000; }
+.option .erklaerung .status > span { font-size: 10pt; }
+.option, .aussage { break-inside: avoid; border: 1px solid #999; background: none; }
 .cs-raster { display: block; columns: 2; column-gap: 12px; }
 .cs-e { border: 1px solid #999; break-inside: avoid; margin-bottom: 6px; padding: 4px 6px; font-size: 0.85em; }
+.cs-punkte { padding-left: 1.4em; }
+.cs-punkte li::before { left: -1.4em; width: 1.1em; color: #000; }

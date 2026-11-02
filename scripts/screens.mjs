@@ -19,7 +19,8 @@ const liste = routen.length ? routen : ['#/'];
 const varianten = [
   { name: 'handy', viewport: { width: 375, height: 800 }, colorScheme: 'light' },
   { name: 'handy-dunkel', viewport: { width: 375, height: 800 }, colorScheme: 'dark' },
-  { name: 'desktop', viewport: { width: 1280, height: 900 }, colorScheme: 'light' }
+  { name: 'desktop', viewport: { width: 1280, height: 900 }, colorScheme: 'light' },
+  { name: 'desktop-dunkel', viewport: { width: 1280, height: 900 }, colorScheme: 'dark' }
 ];
 let fehlerGesamt = 0;
 for (const v of varianten) {

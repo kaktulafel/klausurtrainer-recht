@@ -78,14 +78,21 @@ export function mitNormen(text) {
   for (const b of [...bloecke.values()].sort((a, c) => a.start - c.start)) {
     const start = text.indexOf(b.raw, b.start);
     if (start < pos || start < 0) continue;
-    if (start > pos) frag.append(document.createTextNode(text.slice(pos, start)));
+    const klammer = start > pos && text[start - 1] === '(';
+    if (start > pos) frag.append(document.createTextNode(text.slice(pos, klammer ? start - 1 : start)));
     const btn = document.createElement('button');
     btn.type = 'button';
     btn.className = 'norm';
     btn.textContent = b.raw;
     btn.dataset.normen = JSON.stringify(b.normen.map(n => ({ id: registerId(n), zitat: formatNorm(n) })));
     btn.setAttribute('aria-haspopup', 'dialog');
-    frag.append(btn);
+    if (klammer) {
+      // „(“ bleibt beim Zitat: Ein Button erlaubt sonst davor einen Zeilenumbruch.
+      const paar = document.createElement('span');
+      paar.className = 'norm-klammer';
+      paar.append('(', btn);
+      frag.append(paar);
+    } else frag.append(btn);
     pos = start + b.raw.length;
   }
   if (pos < text.length) frag.append(document.createTextNode(text.slice(pos)));

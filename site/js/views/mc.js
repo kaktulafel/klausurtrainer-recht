@@ -1,6 +1,6 @@
 // Datenschutz-MC: Üben (sofortiges Feedback), Prüfung (Timer, Auswertung am Ende), Nur Fehler, Heute fällig, Themenfilter.
 import { h, leere, karte, status, inline, toast } from '../ui/dom.js';
-import { timer, ungeprueftBadge } from '../ui/widgets.js';
+import { timer, ungeprueftBadge, themenWahl } from '../ui/widgets.js';
 import { lade, ladeKategorie, nurGeprueft } from '../data.js';
 import * as store from '../store.js';
 import { bewerteMC, mische, note, runde, MC_REGELN, STANDARD_NOTENSCHLUESSEL } from '../grading.js';
@@ -26,18 +26,14 @@ function setup(main, daten, themen, query) {
   const boxen = themen.map(t => h('input', { type: 'checkbox', value: t.id, checked: !query.thema || query.thema === t.id, id: 'th-' + t.id }));
   main.append(
     h('h1', null, 'Datenschutz – Multiple Choice'),
-    h('p', { class: 'leise' }, `${daten.length} Fragen · ${fehlerAnz} zuletzt falsch/teilweise · ${faelligAnz} heute fällig.`),
-    h('p', { class: 'leise lese' }, 'Die Fragen prüfen Verständnis und Anwendung, nicht das Finden von Artikeln: Die DSGVO darfst du mitnehmen. Die passenden Normen stehen in der Erklärung nach dem Antworten.'),
+    h('p', { class: 'leise klein' }, `${daten.length} Fragen, davon ${fehlerAnz} zuletzt falsch oder teilweise und ${faelligAnz} heute fällig.`),
+    h('p', { class: 'leise klein' }, 'Die Fragen prüfen Verständnis und Anwendung, nicht das Finden von Artikeln: Die DSGVO darfst du mitnehmen. Die passenden Normen stehen in der Erklärung nach dem Antworten.'),
     karte(
       h('label', { for: 'mc-modus' }, 'Modus'), modus,
       h('label', { for: 'mc-anzahl' }, 'Anzahl Fragen'), anzahl,
       h('label', { for: 'mc-regel' }, 'Bewertungsregel (Mehrfachauswahl)'), regel,
       h('p', { class: 'klein leise' }, 'Single Choice: nur die richtige Antwort zählt. Standardregel siehe Einstellungen.'),
-      h('fieldset', null, h('legend', null, 'Themen'),
-        h('div', { class: 'btn-reihe' },
-          h('button', { type: 'button', class: 'btn klein leise', onclick: () => boxen.forEach(b => { b.checked = true; }) }, 'Alle'),
-          h('button', { type: 'button', class: 'btn klein leise', onclick: () => boxen.forEach(b => { b.checked = false; }) }, 'Keine')),
-        themen.map((t, i) => h('label', { class: 'check', for: 'th-' + t.id }, boxen[i], h('span', null, t.titel, ' ', h('span', { class: 'badge' + (t.gewicht === 'A' ? ' a' : '') }, t.gewicht), ' ', h('span', { class: 'leise klein' }, `(${zaehl(t)})`))))),
+      themenWahl(boxen, themen.map((t, i) => h('label', { class: 'check', for: 'th-' + t.id }, boxen[i], h('span', null, t.titel, ' ', h('span', { class: 'badge' + (t.gewicht === 'A' ? ' a' : t.gewicht === 'B' ? ' b' : '') }, t.gewicht), ' ', h('span', { class: 'leise klein' }, `(${zaehl(t)})`))))),
       h('div', { class: 'btn-reihe' }, h('button', { type: 'button', class: 'btn', onclick: () => {
         const th = boxen.filter(b => b.checked).map(b => b.value);
         if (!th.length) { toast('Bitte mindestens ein Thema wählen.'); return; }
@@ -75,7 +71,7 @@ function session(main, daten, themen, query) {
   const buehne = h('div');
   const t = pruefung ? timer('mc-pruefung-' + (query.themen || '') + fragen.length, fragen.length, { onAblauf: () => abgeben() }) : null;
   if (t) { store.setzeEntwurf('timer:mc-pruefung-' + (query.themen || '') + fragen.length, ''); t.starte(); }
-  main.append(h('p', { class: 'klein' }, h('a', { href: '#/mc' }, '← Einstellungen')), kopf, fortschritt, buehne);
+  main.append(h('p', { class: 'klein' }, h('a', { href: '#/mc' }, '← Zurück zur Auswahl')), kopf, fortschritt, buehne);
   let tastatur;
 
   const zeige = () => {
@@ -84,7 +80,7 @@ function session(main, daten, themen, query) {
     fortschritt.firstChild.style.width = `${Math.round((i / fragen.length) * 100)}%`;
     fortschritt.setAttribute('aria-valuenow', String(i));
     const ui = frageUI(q, antworten.get(q.id)?.auswahl);
-    const feedback = h('div', { 'aria-live': 'polite' });
+    const feedback = h('div', { class: 'daumen-text', 'aria-live': 'polite' });
     const pruefen = h('button', { type: 'button', class: 'btn' }, pruefung ? (i < fragen.length - 1 ? 'Weiter' : 'Abgeben') : 'Antwort prüfen');
     const zurueck = h('button', { type: 'button', class: 'btn leise', disabled: i === 0, onclick: () => { speichern(); i--; zeige(); } }, 'Zurück');
     const speichern = () => { antworten.set(q.id, { auswahl: ui.auswahl() }); };
@@ -103,11 +99,11 @@ function session(main, daten, themen, query) {
       pruefen.focus();
     });
     leere(buehne).append(karte(
-      h('div', { class: 'zeile zwischen' }, h('span', { class: 'badge' }, themen.find(x => x.id === q.thema)?.titel || q.thema), h('span', null, ungeprueftBadge(q), ' ', h('span', { class: 'badge' }, 'Schwierigkeit ' + '●'.repeat(q.schwierigkeit)))),
-      h('h2', { class: 'lese' }, inline(q.frage)),
-      ui.element, feedback,
-      h('div', { class: 'btn-reihe' }, zurueck, pruefen),
-      h('p', { class: 'klein leise' }, 'Tasten: 1–6 Antwort wählen · Enter prüfen/weiter')));
+      h('div', { class: 'zeile zwischen' }, h('span', { class: 'badge thema' }, themen.find(x => x.id === q.thema)?.titel || q.thema), h('span', null, ungeprueftBadge(q), ' ', h('span', { class: 'badge' }, 'Schwierigkeit ' + '●'.repeat(q.schwierigkeit)))),
+      h('h2', { class: 'frage-stamm lese' }, inline(q.frage)),
+      ui.element,
+      h('div', { class: 'daumen' }, feedback, zurueck, pruefen),
+      h('p', { class: 'klein leise nur-tastatur' }, 'Tasten: 1–6 Antwort wählen, Enter prüfen und weiter')));
     if (beantwortet) { ui.zeigeLoesung(); pruefen.textContent = i < fragen.length - 1 ? 'Nächste Frage' : 'Auswertung'; }
     document.removeEventListener('keydown', tastatur);
     tastatur = (e) => {
@@ -142,7 +138,7 @@ function session(main, daten, themen, query) {
     leere(kopf).append(h('strong', null, 'Auswertung'));
     const falsche = ergebnisse.filter(x => x.e.status !== 'richtig').map(x => x.q.id);
     leere(buehne).append(
-      karte(h('p', { class: 'gross' }, `${String(punkte).replace('.', ',')} / ${fragen.length} P.`), h('p', null, `${n.prozent} % · Note ${n.note} · Regel: ${MC_REGELN[regel]}`),
+      karte(h('p', { class: 'gross' }, `${String(punkte).replace('.', ',')} / ${fragen.length} P.`), h('p', null, `${n.prozent} %, Note ${n.note}. Regel: ${MC_REGELN[regel]}`),
         h('p', null, status('richtig', `${ergebnisse.filter(x => x.e.status === 'richtig').length} richtig`), ' ', status('teilweise', `${ergebnisse.filter(x => x.e.status === 'teilweise').length} teilweise`), ' ', status('falsch', `${ergebnisse.filter(x => x.e.status === 'falsch').length} falsch`)),
         h('div', { class: 'btn-reihe' },
           falsche.length ? h('a', { class: 'btn', href: `#/mc?start=1&modus=ueben&ids=${falsche.join(',')}&n=999&regel=${regel}` }, 'Fehler wiederholen') : null,

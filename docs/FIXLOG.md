@@ -79,3 +79,9 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Symptom:** Kein Button führte zu den neuen Bereichen.
 - **Ursache:** Beide waren nur unter „Mehr“ eingehängt, und „Mehr“ gibt es nur in der Handy-Leiste. Die Desktop-Navigation und die Startseite kannten sie nicht. Die E2E-Tests riefen die Routen direkt auf und bemerkten das nicht.
 - **Fix:** Einträge in der Desktop-Navigation (auch „Mehr“), Kacheln auf der Startseite, Links im Gutachten-Trainer. Neuer E2E-Schritt klickt die Bereiche auf Handy und Desktop an.
+
+## 02.11.2026 – Redesign: Fehler aus der Screenshot-Kritik
+- **Trainer und Normen am Handy kaum erreichbar:** Beide flogen aus der unteren Leiste, standen aber nicht in „Mehr“ (Liste war unabhängig von der Navigation gepflegt). Fix: „Mehr“ führt jetzt alle Bereiche, die nicht in der Leiste stehen.
+- **Prüfungspfade ganz fett:** Eine neue Regel `p.ue-e1 { font-weight: 700 }` war für Gliederungspunkte gedacht, die Pfade nutzen Ebene 1 aber für ganze Sätze. Fix: Regel entfernt.
+- **Randlinie durch die Tab-Beschriftung:** `.tabs` läuft über den Rand, hatte aber keinen Hintergrund. Fix: Hintergrund gesetzt.
+- **Zeilenumbruch zwischen „(“ und Normzitat:** Das Zitat ist ein Button, davor erlaubt der Browser immer einen Umbruch (bestand schon vor dem Redesign). Fix: `mitNormen` fasst „(“ und Button in `.norm-klammer` zusammen.

@@ -1,11 +1,10 @@
 import { h } from '../ui/dom.js';
 const EINTRAEGE = [
-  ['#/karteikarten', 'Karteikarten Recht', 'Alles Rechtswissen als Frage und Antwort, mit Wiederholung'],
-  ['#/cheatsheets', 'Cheatsheets', 'Anspruchsgrundlagen, Merkmale, Schemata, Definitionen, Fristen'],
-  ['#/uebersicht', 'Fälle kompakt', 'Alle Fälle mit Ansprüchen und Tatbestandsmerkmalen auf einen Blick'],
   ['#/schemata', 'Prüfungsschemata', 'Aufklappbar, mit Puzzle und Lückenschema'],
   ['#/wissen', 'Wissensfragen', 'Klausurstil, mit Selbstbewertung und Wiederholung'],
+  ['#/normen', 'Normen-Kompass', 'Normkarten, Zitier-Trainer, Register'],
   ['#/klausur', 'Probeklausur-Simulator', 'Komplette Klausuren mit Timer und Note'],
+  ['#/faelle', 'Gutachten-Trainer', 'Fälle im Gutachtenstil: geführt, Klausurmodus, Skizze'],
   ['#/schwachstellen', 'Meine Schwachstellen', 'Drills, Gutachtenstil kompakt, Klausurtaktik'],
   ['#/wiederholen', 'Heute fällig', 'Spaced Repetition über alle Kartentypen'],
   ['#/statistik', 'Statistik', 'Trefferquoten je Thema, Verlauf'],

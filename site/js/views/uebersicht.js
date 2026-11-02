@@ -14,8 +14,8 @@ export async function render(main, { pfad, query }) {
   const faelle = [...daten].sort((a, b) => a.id.localeCompare(b.id));
   main.append(
     h('h1', null, 'Fälle kompakt'),
-    h('p', { class: 'leise lese' }, 'Alle Fälle in Kurzform: der Sachverhalt in Stichpunkten und die Stichpunktlösung im Gutachtenstil – Obersatz (OS), Voraussetzungen, Definition und Subsumtion mit den Fakten aus dem Fall, Ergebnis (Erg.). Umschaltbar auf die reine Gliederung. Zum Wiederholen vor der Klausur und zum Ausdrucken.'),
-    h('div', { class: 'btn-reihe' }, ANSICHTEN.map(([k, v]) => h('a', { class: 'btn klein ' + (k === ansicht ? '' : 'leise'), href: '#/uebersicht' + (k ? '/' + k : ''), 'aria-current': k === ansicht ? 'page' : null }, v))));
+    h('details', { class: 'blatt-info nicht-drucken' }, h('summary', { class: 'klein' }, 'So ist diese Übersicht aufgebaut'), h('p', { class: 'leise' }, 'Alle Fälle in Kurzform: der Sachverhalt in Stichpunkten und die Stichpunktlösung im Gutachtenstil – Obersatz (OS), Voraussetzungen, Definition und Subsumtion mit den Fakten aus dem Fall, Ergebnis (Erg.). Umschaltbar auf die reine Gliederung. Zum Wiederholen vor der Klausur und zum Ausdrucken.')),
+    h('nav', { class: 'btn-reihe reiter nicht-drucken', 'aria-label': 'Ansicht' }, ANSICHTEN.map(([k, v]) => h('a', { class: 'btn klein ' + (k === ansicht ? '' : 'leise'), href: '#/uebersicht' + (k ? '/' + k : ''), 'aria-current': k === ansicht ? 'page' : null }, v))));
   if (ansicht === 'ansprueche') return ansprueche(main, faelle, schemata);
   if (ansicht === 'schemata') return schemataKompakt(main, schemata);
   if (ansicht === 'pfade') return pruefpfade(main, await lade('pruefpfade.json'), query.pfad);
@@ -24,12 +24,12 @@ export async function render(main, { pfad, query }) {
 
 function fallListe(main, faelle, tm, sprungZiel) {
   const themen = [...tm.values()].filter(x => faelle.some(f => f.themen.includes(x.id)));
-  const suche = h('input', { type: 'search', placeholder: 'Suchen, z. B. „§ 179“ oder „Taschengeld“', 'aria-label': 'Fälle durchsuchen' });
+  const suche = h('input', { type: 'search', placeholder: 'Suchen, z. B. § 179', 'aria-label': 'Fälle durchsuchen' });
   const thema = h('select', { 'aria-label': 'Nach Thema filtern' }, h('option', { value: '' }, 'Alle Themen'), themen.map(x => h('option', { value: x.id }, x.titel)));
   const anzahl = h('p', { class: 'klein leise', 'aria-live': 'polite' });
   const liste = h('div', { class: 'ue-faelle' });
-  const umschalter = h('div', { class: 'btn-reihe nicht-drucken', role: 'group', 'aria-label': 'Darstellung' },
-    [['stichpunkte', 'Stichpunktlösung (Gutachtenstil)'], ['gliederung', 'Nur Gliederung']].map(([k, label], i) =>
+  const umschalter = h('div', { class: 'btn-reihe umschalter nicht-drucken', role: 'group', 'aria-label': 'Darstellung' },
+    [['stichpunkte', 'Stichpunkte'], ['gliederung', 'Nur Gliederung']].map(([k, label], i) =>
       h('button', { type: 'button', class: 'btn klein ' + (i ? 'leise' : ''), 'aria-pressed': String(!i), onclick: (e) => {
         liste.classList.toggle('nur-gliederung', k === 'gliederung');
         for (const b of umschalter.querySelectorAll('button')) { const an = b === e.currentTarget; b.setAttribute('aria-pressed', String(an)); b.classList.toggle('leise', !an); }
@@ -48,7 +48,7 @@ function fallListe(main, faelle, tm, sprungZiel) {
   thema.addEventListener('change', filtern);
   liste.append(...karten.map(k => k.el));
   main.append(h('div', { class: 'suchfeld' }, suche, thema), umschalter, anzahl,
-    h('nav', { class: 'ue-inhalt nicht-drucken', 'aria-label': 'Fälle' }, h('ol', null, faelle.map(f => h('li', null, h('a', { href: '#/uebersicht', onclick: (e) => springe(e, f.id) }, `${nummer(f)} ${f.titel}`))))),
+    h('details', { class: 'klappe ue-inhalt nicht-drucken' }, h('summary', null, `Zu einem Fall springen (${faelle.length})`), h('ol', null, faelle.map(f => h('li', null, h('a', { href: '#/uebersicht', onclick: (e) => springe(e, f.id) }, `${nummer(f)} ${f.titel}`))))),
     liste,
     druckKnopf());
   filtern();
@@ -57,19 +57,22 @@ function fallListe(main, faelle, tm, sprungZiel) {
 
 function fallKarte(f, tm) {
   return h('section', { class: 'karte ue-fall', id: 'ue-' + f.id },
-    h('h2', null, `${nummer(f)} · ${f.titel} `, ungeprueftBadge(f)),
-    h('p', { class: 'klein leise' }, `${f.minuten} min · ${f.punkte} P. · `, themenBadges(f.themen, tm)),
+    h('h2', null, `${nummer(f)}: ${f.titel} `, ungeprueftBadge(f)),
+    h('p', { class: 'klein leise' }, `${f.minuten} min, ${f.punkte} P.`), themenBadges(f.themen, tm),
     f.kurz ? h('p', { class: 'ue-kurz' }, inline(f.kurz)) : null,
     f.kurzSachverhalt?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Sachverhalt in Stichpunkten'), h('ul', { class: 'ue-sv' }, f.kurzSachverhalt.map(s => h('li', null, inline(s))))) : null,
     h('details', null, h('summary', null, 'Fallfragen'), h('ul', null, f.fallfragen.map(q => h('li', null, inline(q))))),
     f.stichpunkte?.length ? h('div', { class: 'ue-sp' }, h('p', { class: 'ue-label' }, 'Stichpunktlösung im Gutachtenstil'), gliederung(f.stichpunkte)) : null,
     h('div', { class: f.stichpunkte?.length ? 'ue-sk' : null }, h('p', { class: 'ue-label' }, 'Gliederung'), gliederung(f.skizze)),
-    h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/faelle/' + f.id }, 'Fall bearbeiten →')));
+    h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/faelle/' + f.id }, 'Fall im Trainer bearbeiten')));
 }
+
+// OS und Erg. hängen im Korrekturrand (nur Darstellung, der Text bleibt unverändert).
+function randKlasse(text) { return /^\*\*OS:\*\*/.test(text) ? ' ue-randlabel' : /^\*\*Erg\.:\*\*/.test(text) ? ' ue-randlabel ue-ergz' : ''; }
 
 function gliederung(skizze) {
   return h('div', { class: 'ue-gliederung' }, skizze.map(z =>
-    h(z.ebene === 1 ? 'h3' : 'p', { class: `ue-z ue-e${Math.min(z.ebene, 3)}` }, inline(z.text))));
+    h(z.ebene === 1 ? 'h3' : 'p', { class: `ue-z ue-e${Math.min(z.ebene, 3)}${randKlasse(z.text)}` }, inline(z.text))));
 }
 
 function ansprueche(main, faelle, schemata) {
@@ -99,7 +102,7 @@ function schemataKompakt(main, schemata) {
   main.append(
     h('p', { class: 'leise lese' }, 'Alle Prüfungsschemata mit ihren Prüfungspunkten und Normen auf einer Seite, ohne Erläuterungen. Ausführlich mit Hinweisen und Übungen unter „Prüfungsschemata“.'),
     ...schemata.map(s => karte(h('h2', null, s.titel, ' ', ungeprueftBadge(s)), punkte(s.knoten),
-      h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/schemata/' + s.id }, 'Ausführlich →')))),
+      h('p', { class: 'klein nicht-drucken' }, h('a', { href: '#/schemata/' + s.id }, 'Ausführlich')))),
     druckKnopf());
 }
 
@@ -115,7 +118,7 @@ function pruefpfade(main, pfade, sprungZiel) {
   const wegweiser = (art, ueberschrift) => karte(h('h2', null, ueberschrift),
     h('ul', { class: 'ue-liste' }, pfade.filter(p => p.art === art).map(p => h('li', null, inline(p.ausgangspunkt), ' → ', link(p.id)))));
   main.append(
-    h('p', { class: 'leise lese' }, 'Alle Prüfungen aus den 18 Fällen als Schema im Stichpunkt-Gutachtenstil: Ausgangspunkt ist der Obersatz (OS), danach folgen die Voraussetzungen und an jeder Weiche die Pfade, die in den Fällen vorkommen – mit Verweis auf den Fall. „Bausteine“ sind Prüfungen, die innerhalb eines Anspruchs inzident anfallen.'),
+    h('p', { class: 'leise klein' }, 'Alle Prüfungen aus den 18 Fällen als Schema im Stichpunkt-Gutachtenstil: Ausgangspunkt ist der Obersatz (OS), danach folgen die Voraussetzungen und an jeder Weiche die Pfade, die in den Fällen vorkommen – mit Verweis auf den Fall. „Bausteine“ sind Prüfungen, die innerhalb eines Anspruchs inzident anfallen.'),
     h('nav', { class: 'nicht-drucken', 'aria-label': 'Ausgangspunkte' },
       wegweiser('anspruch', 'Ausgangspunkte: Wer will was? → Anspruch'),
       wegweiser('baustein', 'Bausteine: inzidente Prüfungen')),
@@ -129,10 +132,10 @@ function pfadKarte(p, link) {
   return h('section', { class: 'karte ue-fall', id: 'ue-' + p.id },
     h('h2', null, p.titel, ' ', ungeprueftBadge(p)),
     h('p', { class: 'ue-kurz' }, (p.art === 'anspruch' ? 'Ausgangspunkt: ' : 'Baustein: ') + p.ausgangspunkt),
-    h('div', { class: 'ue-gliederung' }, p.zeilen.map(z => h('p', { class: `ue-z ue-e${z.ebene}` }, inline(z.text),
+    h('div', { class: 'ue-gliederung' }, p.zeilen.map(z => h('p', { class: `ue-z ue-e${z.ebene}${randKlasse(z.text)}` }, inline(z.text),
       z.verweis ? [' ', h('span', { class: 'ue-ref' }, '→ ', link(z.verweis))] : null,
       z.faelle?.length ? [' ', h('span', { class: 'ue-ref klein' }, fallLinks(z.faelle))] : null))),
-    p.weiter?.length ? h('p', { class: 'klein' }, 'Weiter mit: ', p.weiter.map((w, i) => [i ? ' · ' : '', link(w)])) : null,
+    p.weiter?.length ? h('p', { class: 'klein' }, 'Weiter mit: ', p.weiter.map((w, i) => [i ? ', ' : '', link(w)])) : null,
     h('p', { class: 'klein leise' }, 'Vorkommen: ', fallLinks(faelle)));
 }
 
