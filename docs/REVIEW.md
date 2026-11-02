@@ -152,6 +152,13 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
+### Karteikarten auf 60 gekürzt, einfache Sprache (02.11.2026, frischer Zweitkorrektor)
+Anlass: Wunsch des Nutzers eine Woche vor der Klausur. Aus 157 Karten plus 17 erzeugten Schemakarten wurden 60; verwandte Karten zusammengelegt und neu formuliert. Geprüft gegen die alte Fassung und den amtlichen Wortlaut. **Keine falsche Aussage.** 0 kritisch, 6 mittel, 36 gering, 10 Lücken; alles eingearbeitet.
+- [x] Mittel: kk-071 (bei Täuschung erst durch Anfechtung auch der Übereignung unwirksam), kk-088 (positives Interesse nur beim Schadensersatz), kk-099 (Hauptnorm fehlte), kk-102 (§ 143 Abs. 3 S. 1 BGB trägt auch die Innenvollmacht), kk-104 (`normen`: § 124 Abs. 1 hat keinen S. 1), kk-131 (Schadensersatz setzt Vertretenmüssen voraus).
+- [x] Lücken ergänzt: § 156 S. 2 (kk-047), objektiver Empfängerhorizont (kk-018), § 166 nicht für die Anfechtung der Vollmacht (kk-081), § 929 (kk-068), Gattungsschuld und Schuldarten (kk-017), Missbrauch der Vertretungsmacht (kk-079), Zugangsvereitelung (kk-029), § 151 (kk-050), Ohne-Rechnung-Abrede (kk-060), Kausalität (kk-121).
+- [x] Gering: Fachbegriffe erklärt, unklare Bezüge von „er“ und „sie“ aufgelöst, Zitate präzisiert.
+- Bewusst nicht mehr in Karten oder Cheatsheets (nachrangig): widersprechende AGB, § 305b, § 305c Abs. 2, wucherähnliches Geschäft, § 125 S. 2, § 278, Nichtleistungskondiktion, Details zu § 828, § 433 Abs. 1 S. 2, § 356a, Rechtssubjekt/Rechtsobjekt, § 26 BGB, § 35 GmbHG. Die alte Fassung liegt in der Git-Historie.
+
 ## Rechtsstand / Reformen (Stand 01.11.2026)
 - **KI-Teil des Digital Omnibus: in Kraft** (VO (EU) 2026/1744, seit 27.7.2026) – in Inhalten und Register umgesetzt. Die Vorlesung (16.6.2026) kannte nur den Entwurf.
 - **DSGVO-Teil des Digital Omnibus** (Verfahren 2025/0360(COD), u. a. Art. 33 mit 96 Stunden): laut Recherche des Zweitkorrektors nicht verabschiedet → Fragen bleiben beim geltenden Recht (72 Stunden). Nur Info-Hinweis.

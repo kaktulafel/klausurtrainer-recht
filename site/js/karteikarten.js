@@ -1,15 +1,5 @@
 // Karteikarten und Cheatsheets: reine Logik ohne DOM.
 
-/** Schema als Karte: Vorderseite fragt die Prüfungspunkte ab, Rückseite nennt sie mit Normen. */
-export function schemaKarten(schemata, themenIds) {
-  return schemata.filter(s => themenIds.has(s.thema)).map(s => ({
-    id: s.id, thema: s.thema, typ: 'schema',
-    vorne: `Prüfungsschema: ${s.titel}. Welche Punkte prüfst du?`,
-    hinten: schemaPunkte(s).map((p, i) => `${i + 1}. ${p}`).join('\n'),
-    normen: s.normen, quelle: s.quelle, geprueft: s.geprueft
-  }));
-}
-
 /** Oberste Ebene eines Schemas als Textzeilen: „Punkt (Norm): Unterpunkt, Unterpunkt“. */
 export function schemaPunkte(schema) {
   const mitNorm = (k) => k.text + (k.norm && !k.text.includes(k.norm) ? ` (${k.norm})` : '');

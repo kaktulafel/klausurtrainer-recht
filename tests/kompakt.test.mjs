@@ -93,15 +93,16 @@ test('Prüfungspfade: Gutachtenstil – OS am Anfang, Erg. am Ende, Verweise gü
   }
 });
 
-const { schemaKarten, schemaPunkte, eintragPasst, stapelAuswaehlen } = await import('../site/js/karteikarten.js');
+const { schemaPunkte, eintragPasst, stapelAuswaehlen } = await import('../site/js/karteikarten.js');
 
-test('Karteikarten: Schemakarten nur für gewählte Themen, mit allen Hauptpunkten', () => {
-  const schemata = json('schemata.json');
-  const recht = new Set(json('themen.json').themen.filter(x => x.bereich === 'recht').map(x => x.id));
-  const karten = schemaKarten(schemata, recht);
-  assert.equal(karten.length, schemata.filter(s => recht.has(s.thema)).length);
-  assert.ok(!karten.some(k => k.id === 'schema-dsgvo'));
-  const a = schemata.find(s => s.id === 'schema-anfechtung');
+test('Karteikarten: genau 60 Karten, jedes Rechtsthema dabei', () => {
+  const karten = json('karteikarten/recht.json');
+  assert.equal(karten.length, 60);
+  for (const t of json('themen.json').themen.filter(x => x.bereich === 'recht')) assert.ok(karten.some(k => k.thema === t.id), t.id);
+});
+
+test('Cheatsheets: Schemapunkte mit allen Hauptpunkten und Normen', () => {
+  const a = json('schemata.json').find(s => s.id === 'schema-anfechtung');
   assert.equal(schemaPunkte(a).length, a.knoten.length);
   assert.match(schemaPunkte(a)[1], /§ 119 Abs\. 1 Alt\. 2 BGB/);
 });

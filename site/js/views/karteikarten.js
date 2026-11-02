@@ -5,15 +5,14 @@ import { lade, ladeKategorie } from '../data.js';
 import * as store from '../store.js';
 import { mische } from '../grading.js';
 import { heute } from '../srs.js';
-import { schemaKarten, stapelAuswaehlen } from '../karteikarten.js';
+import { stapelAuswaehlen } from '../karteikarten.js';
 
 const MODI = { alle: 'Neue und schwache Karten zuerst', faellig: 'Heute fällig', schwach: 'Nur zuletzt nicht gewusst' };
 const TYP = { definition: 'Definition', merkmale: 'Merkmale', schema: 'Schema', abgrenzung: 'Abgrenzung', rechtsfolge: 'Rechtsfolge', falle: 'Falle', merksatz: 'Merksatz' };
 
 export async function render(main, { query }) {
-  const [{ daten }, t, schemata] = await Promise.all([ladeKategorie('karteikarten'), lade('themen.json'), lade('schemata.json')]);
+  const [{ daten: karten }, t] = await Promise.all([ladeKategorie('karteikarten'), lade('themen.json')]);
   const themen = t.themen.filter(x => x.bereich === 'recht');
-  const karten = [...daten, ...schemaKarten(schemata, new Set(themen.map(x => x.id)))];
   return query.start ? session(main, karten, themen, query) : setup(main, karten, themen);
 }
 

@@ -134,7 +134,7 @@ Schemata im Stichpunkt-Gutachtenstil, abgeleitet aus den Fällen: je Anspruchsgr
 
 ## `karteikarten/*.json` – Karteikarten Recht (Array)
 `{ "id": "kk-001", "thema": "…", "typ": "definition|merkmale|schema|abgrenzung|rechtsfolge|falle|merksatz", "vorne": "…", "hinten": "… (Zeilen mit \\n)", "normen": ["§ 110 BGB"], "quelle", "geprueft" }`
-Jedes Thema mit `bereich: recht` braucht mindestens eine Karte (Validator). Die App ergänzt zur Laufzeit je Rechts-Schema eine Karte (`js/karteikarten.js`). SRS-Schlüssel `karte:<id>`.
+Der Stapel umfasst genau 60 Karten (Test). Jedes Thema mit `bereich: recht` braucht mindestens eine Karte (Validator). SRS-Schlüssel `karte:<id>`.
 
 ## `cheatsheets.json` – Cheatsheets (Array)
 `{ "id": "cs-ansprueche", "titel": "…", "einleitung": "…", "eintraege": [{ "titel": "…", "norm": "…", "text": "…", "punkte": ["…"], "hinweis": "…", "schema": "schema-…", "pfad": "pfad-…" }], "quelle", "geprueft" }`

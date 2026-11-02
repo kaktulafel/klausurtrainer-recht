@@ -34,6 +34,8 @@
 - 01.11.2026: Offene Punkte erledigt: DSGVO-Wortlaut auf konsolidierte, berichtigte Fassung umgestellt (16 Artikel korrigiert), fall-10 § 326 Abs. 2, fall-15 § 648, MC-Schwierigkeit 39/45/16 %, kk-157 geprüft; `npm run normen` läuft wieder vollständig.
 - 02.11.2026: **Redesign „Der Korrekturrand“** (nur Darstellung, Entscheidungen in ENTSCHEIDUNGEN.md): Randlinie in `main`, Marken hängen über `--haenge` im Rand; Farben/Schriften als Tokens in `css/app.css`. Handy-Leiste: Start, Karten, Cheatsheets, Kompakt, MC; „Mehr“ in der Kopfzeile. Tagesplan als Gliederung mit Obersatz, nur die Anzeige sortiert Karten und MC nach vorn. Eigene Gestaltung für Karteikarten, Cheatsheets, Fälle kompakt, MC, Start; Trainer und übrige Bereiche erben Tokens. `screens.mjs` kann jetzt auch Desktop dunkel.
 
+- 02.11.2026: **Karteikarten auf 60 gekürzt** und in einfacherer Sprache neu gefasst (nach Klausurgewicht, erzeugte Schemakarten entfallen); zweitgeprüft (REVIEW.md), Test erzwingt die Zahl.
+
 ## Offen / Ideen für später
 - Design: Vereinzelt stehen noch „·“-Zeilen in Bereichen der zweiten Reihe (Klausur-Auswertung, Statistik, Wissen, Normen). Die Musterlösung im Trainer hat ihre Gliederung noch nicht im Rand. Auf einem echten Android-Gerät prüfen (Noto Serif und Roboto sind lokal nur mit Georgia/Arial simuliert).
 - § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen
