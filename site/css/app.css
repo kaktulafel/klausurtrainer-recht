@@ -169,7 +169,7 @@ legend { font-weight: 600; font-size: 15px; padding: 0; }
 .badge.b { color: var(--text); border-color: var(--rand-stark); }
 .badge.warn { background: var(--teil-bg); color: var(--teil); border-color: transparent; }
 .badge.thema { display: inline; border: 0; padding: 0; font-size: 14px; }
-.badge.thema:not(:last-child)::after { content: ", "; }
+.badge.thema:has(+ .badge.thema)::after { content: ", "; }
 .zeile:has(> .badge.thema) { display: block; margin-bottom: 8px; line-height: 1.4; }
 
 /* Daumenleiste: Antwortknöpfe bleiben über der Navigation sichtbar */

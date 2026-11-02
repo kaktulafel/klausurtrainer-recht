@@ -85,3 +85,4 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Prüfungspfade ganz fett:** Eine neue Regel `p.ue-e1 { font-weight: 700 }` war für Gliederungspunkte gedacht, die Pfade nutzen Ebene 1 aber für ganze Sätze. Fix: Regel entfernt.
 - **Randlinie durch die Tab-Beschriftung:** `.tabs` läuft über den Rand, hatte aber keinen Hintergrund. Fix: Hintergrund gesetzt.
 - **Zeilenumbruch zwischen „(“ und Normzitat:** Das Zitat ist ein Button, davor erlaubt der Browser immer einen Umbruch (bestand schon vor dem Redesign). Fix: `mitNormen` fasst „(“ und Button in `.norm-klammer` zusammen.
+- **Überzähliges Komma hinter dem Thema:** `.badge.thema:not(:last-child)` traf auch ein einzelnes Thema, wenn danach ein anderes Element folgt (Karteikarten, MC). Fix: Komma nur, wenn direkt ein weiteres Thema folgt.
