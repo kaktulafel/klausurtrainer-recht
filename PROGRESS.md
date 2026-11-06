@@ -38,6 +38,7 @@
 
 - 06.11.2026: **Karteikarten neu gefasst** (88 Karten, kurze Stichpunkte, Normen nur unten, decken Wissensfragen und Prüfpfade ab); zweitgeprüft (REVIEW.md), Test verbietet Paragraphen im Kartentext.
 - 06.11.2026: **Karteikarten aufs Minimum gekürzt** (gleiche 88 Karten, Rückseite Ø 36 statt 50 Wörter, Vorderseite Ø 5 statt 8); zweitgeprüft (REVIEW.md, keine falsche Aussage).
+- 06.11.2026: **Karteikarten auf 40 reduziert** (Auswahl nach den 18 Fällen, einfachere Sprache, Fallverweis auf jeder Karte, Test erzwingt die Zahl); zweitgeprüft (REVIEW.md, keine falsche Aussage, kein falscher Fallverweis).
 
 ## Offen / Ideen für später
 - Design: Vereinzelt stehen noch „·“-Zeilen in Bereichen der zweiten Reihe (Klausur-Auswertung, Statistik, Wissen, Normen). Die Musterlösung im Trainer hat ihre Gliederung noch nicht im Rand. Auf einem echten Android-Gerät prüfen (Noto Serif und Roboto sind lokal nur mit Georgia/Arial simuliert).

@@ -152,6 +152,30 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
+### Karteikarten auf 40 reduziert, die 18 Fälle als Maßstab (06.11.2026, frischer Zweitkorrektor)
+Anlass: Wunsch des Nutzers: 40 Karten, nur das Wichtige, einfacher erklärt, Hauptbezug die 18 Fälle. Aus 88 Karten wurden 40. Die IDs bleiben, verwandte Karten sind zusammengelegt, und jede Karte nennt den passenden Fall. Geprüft gegen die Stichpunktlösungen aller 18 Fälle, gegen die Vorfassung und den amtlichen Wortlaut (§§ 110, 124, 131, 138, 143, 151, 173, 177, 241a, 326, 447, 475 BGB). **Keine falsche Rechtsaussage, kein falscher Fallverweis.** 0 kritisch, 14 mittel, 21 gering, 10 Lücken; eingearbeitet wie folgt.
+- [x] Mittel:
+  - kk-092: Anfechtungsgegner bei der Innenvollmacht ist der Vertreter (Fall 1).
+  - kk-042: „Leistung vollständig erbracht“ statt „bezahlt“ (Fall 13), Mittel von Dritten mit Zustimmung (Fall 5).
+  - kk-123: über 130 % nur der Wiederbeschaffungswert.
+  - kk-079: Gutgläubigkeit nach § 173, Vertrauen des Partners.
+  - kk-106: Abgrenzung zur Auslegung, Kennenmüssen des Vertreters (Fall 18).
+  - kk-047: „meist“ nur Anfrage; den Antrag macht der Kunde.
+  - kk-050: Annahme durch Verhalten, nur der Zugang ist entbehrlich (§ 151).
+  - kk-059: Hol- und Schickschuld erklärt, Rückzahlung, beide Ergebnisse von Fall 10.
+  - kk-071: Bezug auf den Getäuschten bzw. das Opfer, Fehleridentität und „Recht zum Besitz“ erklärt.
+  - kk-072: „wird selbst Vertragspartner“, Innen- und Außenvollmacht, Erlöschen.
+  - kk-117: Fallverweise präzisiert, § 818 Abs. 2 und § 819 aus den Normen gestrichen (im Text nicht behandelt).
+  - kk-127: Fristberechnung (Fall 6) samt Normen.
+- [x] Lücken ergänzt:
+  - Hauptpflichten aus Kauf und Werkvertrag (kk-009)
+  - Vollmachtsbegriff und Erlöschen (kk-072)
+  - Anfechtungsgegner (kk-092)
+  - § 173 (kk-079)
+  - Fristberechnung (kk-127)
+- [x] Gering: Fachbegriffe erklärt (Gestaltungsrecht, Geschäftsfähigkeit, AGB, sittenwidrig, Geschäftsführung ohne Auftrag, c.i.c., Fahrlässigkeit, fällig), Bezüge präzisiert (kk-032 Nachbarin, kk-085 Vertretener), kk-104 Drohungsfrist ab Ende der Zwangslage, kk-138 „selbständig beruflich“, kk-134 Schadensminderung.
+- Bewusst weggelassen, weil kein Fall sie tragend braucht: Gefahrtragung beim Versand, Annahmeverzug, Missbrauch der Vertretungsmacht, Zugang an Minderjährige, Kausalitätslehren, Arbeitsmündigkeit, Insichgeschäft, Drohung im Detail, Deliktsfähigkeit, Verzug, Formvorschriften im Detail. Diese Punkte stehen weiter in Cheatsheets, Wissensfragen und Prüfpfaden; die Vorfassung liegt in der Git-Historie.
+
 ### Karteikarten aufs Minimum gekürzt (06.11.2026, frischer Zweitkorrektor)
 Anlass: Wunsch des Nutzers, Vorder- und Rückseiten auf das absolute Minimum zu kürzen, ohne relevanten Inhalt zu verlieren. 88 Karten bleiben (IDs, Themen, Normen unverändert); Rückseite im Schnitt 36 statt 50 Wörter, Vorderseite 5 statt 8. Geprüft Karte für Karte gegen die Vorfassung und den amtlichen Wortlaut (§§ 104, 109, 121, 126b, 155, 178, 326, 475, 648, 827 BGB). **Keine falsche Rechtsaussage.** 0 kritisch, 8 mittel, rund 30 gering; alles eingearbeitet außer einem Punkt.
 - [x] Mittel: kk-150 (nur Störung, die die freie Willensbestimmung ausschließt), kk-137 (Bezug „der Verbraucher“), kk-085 („sofern kein Ausschluss greift“, Adressat der Aufforderung, Kenntnis „bei Abschluss“), kk-058 (Dissens-Definition, „keiner merkt es“), kk-071/065 (Fehleridentität erklärt, Übereignung „durch“ den Ausgebeuteten), kk-037 (Maßstab „keine Pflicht, kein Rechtsverlust“), kk-026 (Definitionen Vorbehalt/Scheingeschäft), kk-121 (beide Kausalitäten erklärt).

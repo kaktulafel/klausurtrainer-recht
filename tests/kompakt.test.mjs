@@ -97,6 +97,7 @@ const { schemaPunkte, eintragPasst, stapelAuswaehlen } = await import('../site/j
 
 test('Karteikarten: jedes Rechtsthema dabei, Paragraphen nur in der Normenzeile', () => {
   const karten = json('karteikarten/recht.json');
+  assert.equal(karten.length, 40);
   for (const t of json('themen.json').themen.filter(x => x.bereich === 'recht')) assert.ok(karten.some(k => k.thema === t.id), t.id);
   // Zitate als Formulierungsbeispiel in „…“ sind erlaubt (Obersatz).
   const ohneZitate = (s) => s.replace(/„[^“]*“/g, '');
