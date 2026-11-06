@@ -152,6 +152,12 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
+### Karteikarten aufs Minimum gekürzt (06.11.2026, frischer Zweitkorrektor)
+Anlass: Wunsch des Nutzers, Vorder- und Rückseiten auf das absolute Minimum zu kürzen, ohne relevanten Inhalt zu verlieren. 88 Karten bleiben (IDs, Themen, Normen unverändert); Rückseite im Schnitt 36 statt 50 Wörter, Vorderseite 5 statt 8. Geprüft Karte für Karte gegen die Vorfassung und den amtlichen Wortlaut (§§ 104, 109, 121, 126b, 155, 178, 326, 475, 648, 827 BGB). **Keine falsche Rechtsaussage.** 0 kritisch, 8 mittel, rund 30 gering; alles eingearbeitet außer einem Punkt.
+- [x] Mittel: kk-150 (nur Störung, die die freie Willensbestimmung ausschließt), kk-137 (Bezug „der Verbraucher“), kk-085 („sofern kein Ausschluss greift“, Adressat der Aufforderung, Kenntnis „bei Abschluss“), kk-058 (Dissens-Definition, „keiner merkt es“), kk-071/065 (Fehleridentität erklärt, Übereignung „durch“ den Ausgebeuteten), kk-037 (Maßstab „keine Pflicht, kein Rechtsverlust“), kk-026 (Definitionen Vorbehalt/Scheingeschäft), kk-121 (beide Kausalitäten erklärt).
+- [x] Gering: kk-089 („oder kennen musste“), kk-021, 120, 041, 061 („dauerhafter Datenträger“, Heilung nur ausnahmsweise), 104 („ohne schuldhaftes Zögern“), 109, 097, 151, 035, 136, 116, 149, 027, 032, 087, 079, 080, 117, 131, 125, 127, 115, 072, 047, 068, 073, 029, 142, 001; „h. M.“/„a. A.“ ausgeschrieben; Dopplung in kk-070 entfernt.
+- Nicht übernommen: kk-138 – die Grenzen der BGB-Bücher („bis Paragraph 240“, „241 bis 853“) bleiben als Orientierung im Gesetz; sie standen so schon in der geprüften Vorfassung und sind kein Normzitat.
+
 ### Karteikarten neu gefasst: kurze Rückseiten, Normen nur unten (06.11.2026, frischer Zweitkorrektor)
 Anlass: Wunsch des Nutzers: Rückseiten kürzer und einfacher, Paragraphen nur noch unten, aber aller Stoff (Anspruchsvoraussetzungen, Definitionen, Schuldarten) enthalten. Geprüft gegen den amtlichen Wortlaut, alle Kernpunkte der Wissensfragen, alle Prüfpfade und beide Vorfassungen. 1 kritisch, 16 mittel, 30 gering; alles eingearbeitet.
 - [x] Kritisch: kk-109 „Zug um Zug nur beim gegenseitigen Vertrag“ war falsch (auch § 273, Rückabwicklung); jetzt: nur dort die Einrede des nicht erfüllten Vertrags.

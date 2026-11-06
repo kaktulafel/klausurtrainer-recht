@@ -3,8 +3,8 @@
     "id": "kk-001",
     "thema": "gutachtenstil",
     "typ": "schema",
-    "vorne": "Wie baust du eine Prüfung im Gutachtenstil auf?",
-    "hinten": "1. Obersatz: „A könnte …“\n2. Voraussetzung: „Dies setzt voraus, dass …“\n3. Definition: „Unter … versteht man …“\n4. Subsumtion: Fakten unter die Definition. Beim Problem: „Fraglich ist, ob …“\n5. Ergebnis: „Somit …“ / „Folglich …“",
+    "vorne": "Aufbau Gutachtenstil?",
+    "hinten": "1. Obersatz: „A könnte …“\n2. Voraussetzung: „Dies setzt voraus, dass …“\n3. Definition: „Unter … versteht man …“\n4. Subsumtion (Problem: „Fraglich ist, ob …“)\n5. Ergebnis: „Somit …“ / „Folglich …“",
     "normen": [],
     "quelle": "material:folien",
     "geprueft": true
@@ -13,8 +13,8 @@
     "id": "kk-002",
     "thema": "gutachtenstil",
     "typ": "schema",
-    "vorne": "Was gehört in jeden Anspruchs-Obersatz?",
-    "hinten": "- Wer will was von wem woraus?\n- Beispiel: „V könnte gegen K einen Anspruch auf Zahlung von 100 € aus § 433 Abs. 2 BGB haben.“\n- Jede Kombination aus Anspruchsteller, Gegner und Anspruchsgrundlage bekommt einen eigenen Obersatz und ein eigenes Ergebnis.",
+    "vorne": "Inhalt des Anspruchs-Obersatzes?",
+    "hinten": "- Wer will was von wem woraus?\n- „V könnte gegen K einen Anspruch auf Zahlung von 100 € aus § 433 Abs. 2 BGB haben.“\n- Je Anspruchsteller, Gegner und Grundlage: eigener Obersatz, eigenes Ergebnis.",
     "normen": [
       "§ 433 Abs. 2 BGB"
     ],
@@ -25,8 +25,8 @@
     "id": "kk-003",
     "thema": "gutachtenstil",
     "typ": "abgrenzung",
-    "vorne": "Gutachtenstil oder Urteilsstil?",
-    "hinten": "- Gutachtenstil: erst die Frage, am Ende das Ergebnis („könnte“, „somit“).\n- Urteilsstil: erst das Ergebnis, dann der Grund („denn“, „weil“).\n- Unproblematisches stellst du kurz fest. Echte Probleme prüfst du ausführlich im Gutachtenstil.",
+    "vorne": "Gutachten- oder Urteilsstil?",
+    "hinten": "- Gutachten: Frage zuerst, Ergebnis am Ende („könnte“, „somit“).\n- Urteil: Ergebnis zuerst, dann Grund („denn“, „weil“).\n- Unproblematisches kurz feststellen, Probleme ausführlich.",
     "normen": [],
     "quelle": "material:folien",
     "geprueft": true
@@ -35,8 +35,8 @@
     "id": "kk-005",
     "thema": "gutachtenstil",
     "typ": "falle",
-    "vorne": "J will die Vollmacht wegen einer Täuschung loswerden. Warum ist der Obersatz „J könnte einen Anspruch auf Entzug der Vollmacht aus § 167 BGB haben“ falsch?",
-    "hinten": "- Die Anfechtung ist kein Anspruch, sondern ein **Gestaltungsrecht**: J ändert die Rechtslage selbst durch eine Erklärung.\n- Die Norm zur Vollmacht regelt nur, wie sie erteilt wird.\n- Richtig: „J könnte die Vollmacht durch Anfechtung mit Wirkung von Anfang an beseitigt haben, § 142 Abs. 1 BGB.“\n- Im Anspruchsaufbau prüfst du die Anfechtung unter „Anspruch erloschen“.",
+    "vorne": "J will die Vollmacht wegen Täuschung loswerden. Warum ist „Anspruch auf Entzug der Vollmacht aus § 167 BGB“ falsch?",
+    "hinten": "- Anfechtung = **Gestaltungsrecht**, kein Anspruch.\n- Die Vollmachtsnorm regelt nur die Erteilung.\n- Richtig: „J könnte die Vollmacht durch Anfechtung mit Wirkung von Anfang an beseitigt haben, § 142 Abs. 1 BGB.“\n- Im Anspruchsaufbau: unter „Anspruch erloschen“.",
     "normen": [
       "§ 142 Abs. 1 BGB",
       "§ 167 Abs. 1 BGB",
@@ -49,8 +49,8 @@
     "id": "kk-009",
     "thema": "anspruchsaufbau",
     "typ": "schema",
-    "vorne": "Was ist ein Anspruch, und in welchen drei Stufen prüfst du ihn?",
-    "hinten": "Anspruch = das Recht, von einem anderen ein Tun oder Unterlassen zu verlangen.\n1. **Entstanden:** Anspruchsgrundlage erfüllt, keine rechtshindernde Einwendung (z. B. Nichtigkeit).\n2. **Nicht erloschen:** keine rechtsvernichtende Einwendung (z. B. Erfüllung, Anfechtung).\n3. **Durchsetzbar:** keine Einrede (z. B. Verjährung).",
+    "vorne": "Anspruch: Definition und Prüfstufen?",
+    "hinten": "Recht, von einem anderen ein Tun oder Unterlassen zu verlangen.\n1. **Entstanden:** Grundlage erfüllt, keine rechtshindernde Einwendung (Nichtigkeit)\n2. **Nicht erloschen:** keine rechtsvernichtende Einwendung (Erfüllung, Anfechtung)\n3. **Durchsetzbar:** keine Einrede (Verjährung)",
     "normen": [
       "§ 194 Abs. 1 BGB",
       "§ 362 Abs. 1 BGB",
@@ -64,8 +64,8 @@
     "id": "kk-010",
     "thema": "anspruchsaufbau",
     "typ": "abgrenzung",
-    "vorne": "Einwendung oder Einrede? Nenne Beispiele.",
-    "hinten": "- **Einwendung:** Der Anspruch ist nie entstanden oder wieder weg. Das Gericht beachtet das von selbst.\n- Rechtshindernd: Geschäftsunfähigkeit, Formmangel, Gesetzesverstoß, Sittenwidrigkeit, schwebende Unwirksamkeit.\n- Rechtsvernichtend: Erfüllung, Aufrechnung, Erlass, Unmöglichkeit, Anfechtung, Rücktritt.\n- **Einrede:** Der Anspruch besteht, aber der Schuldner darf verweigern. Er muss sich darauf berufen.\n- Beispiele: Verjährung, Zurückbehaltungsrecht, nicht erfüllter Vertrag (Leistung nur Zug um Zug gegen die Gegenleistung, außer man muss vorleisten).",
+    "vorne": "Einwendung oder Einrede?",
+    "hinten": "- **Einwendung:** Anspruch nie entstanden oder erloschen; das Gericht beachtet sie von selbst.\n- Rechtshindernd: Geschäftsunfähigkeit, Formmangel, Gesetzesverstoß, Sittenwidrigkeit, schwebende Unwirksamkeit.\n- Rechtsvernichtend: Erfüllung, Aufrechnung, Erlass, Unmöglichkeit, Anfechtung, Rücktritt.\n- **Einrede:** Anspruch besteht, Schuldner darf verweigern, muss sich darauf berufen: Verjährung, Zurückbehaltungsrecht, nicht erfüllter Vertrag (Zug um Zug, außer Vorleistungspflicht).",
     "normen": [
       "§ 105 Abs. 1 BGB",
       "§ 125 BGB",
@@ -88,8 +88,8 @@
     "id": "kk-151",
     "thema": "anspruchsaufbau",
     "typ": "merksatz",
-    "vorne": "Wann verjährt ein Anspruch regelmäßig, und was folgt daraus?",
-    "hinten": "- Frist: drei Jahre.\n- Beginn: am Ende des Jahres, in dem der Anspruch entstand und der Gläubiger die anspruchsbegründenden Umstände und den Schuldner kannte oder nur wegen grober Fahrlässigkeit nicht kannte.\n- Folge: Der Anspruch besteht weiter, aber der Schuldner darf die Leistung verweigern (Einrede).",
+    "vorne": "Regelverjährung: Frist, Beginn, Folge?",
+    "hinten": "- 3 Jahre.\n- Beginn: Ende des Jahres, in dem der Anspruch entstand und der Gläubiger die anspruchsbegründenden Umstände und den Schuldner kannte oder grob fahrlässig nicht kannte.\n- Folge: Schuldner darf verweigern (Einrede); der Anspruch besteht weiter.",
     "normen": [
       "§ 195 BGB",
       "§ 199 Abs. 1 BGB",
@@ -102,8 +102,8 @@
     "id": "kk-017",
     "thema": "anspruchsaufbau",
     "typ": "rechtsfolge",
-    "vorne": "Die Leistung ist unmöglich. Was gilt für beide Seiten?",
-    "hinten": "- Schuldner: muss nicht mehr leisten.\n- Gläubiger: muss nicht mehr zahlen. Schon Gezahltes bekommt er nach Rücktrittsregeln zurück.\n- Ausnahme: Der Gläubiger ist allein oder weit überwiegend verantwortlich, oder der Schuldner hat den Untergang nicht zu vertreten und er passiert, während der Gläubiger im Annahmeverzug ist (er hat die angebotene Leistung nicht angenommen). Dann muss der Gläubiger trotzdem zahlen; der Schuldner muss sich Erspartes anrechnen lassen.",
+    "vorne": "Leistung unmöglich: Folgen für beide Seiten?",
+    "hinten": "- Schuldner wird frei.\n- Gegenleistung entfällt; schon Gezahltes zurück nach Rücktrittsregeln.\n- Ausnahme: Gläubiger allein oder weit überwiegend verantwortlich, oder unverschuldeter Untergang im Annahmeverzug (Leistung angeboten, nicht angenommen) → Gläubiger zahlt, abzüglich Ersparnis des Schuldners.",
     "normen": [
       "§ 275 Abs. 1 BGB",
       "§ 326 Abs. 1 S. 1 BGB",
@@ -120,8 +120,8 @@
     "id": "kk-059",
     "thema": "anspruchsaufbau",
     "typ": "definition",
-    "vorne": "Stückschuld, Gattungsschuld, Konkretisierung: Was heißt das?",
-    "hinten": "- **Stückschuld:** genau diese eine Sache (z. B. ein bestimmtes Gemälde).\n- **Gattungsschuld:** nur nach Merkmalen bestimmt (z. B. 10 Sack Zement). Geschuldet ist mittlere Art und Güte.\n- Bei der Gattungsschuld wird der Schuldner erst frei, wenn die ganze Gattung untergeht oder wenn die Schuld konkretisiert ist und genau diese Sache untergeht.\n- **Konkretisierung** = der Schuldner hat das seinerseits Nötige getan. Holschuld: aussondern, bereitstellen, Bescheid geben. Schickschuld: aussondern, an die Transportperson übergeben. Bringschuld: beim Gläubiger anbieten.",
+    "vorne": "Stückschuld, Gattungsschuld, Konkretisierung?",
+    "hinten": "- **Stückschuld:** genau diese Sache.\n- **Gattungsschuld:** nach Merkmalen bestimmt; mittlere Art und Güte.\n- Gattungsschuldner frei erst bei Untergang der ganzen Gattung oder der konkretisierten Sache.\n- **Konkretisierung** = Schuldner tat das seinerseits Nötige. Holschuld: aussondern, bereitstellen, benachrichtigen. Schickschuld: aussondern, an Transportperson übergeben. Bringschuld: beim Gläubiger anbieten.",
     "normen": [
       "§ 243 Abs. 1 BGB",
       "§ 243 Abs. 2 BGB",
@@ -135,8 +135,8 @@
     "id": "kk-018",
     "thema": "willenserklaerung",
     "typ": "definition",
-    "vorne": "Was ist eine Willenserklärung, und woraus besteht sie?",
-    "hinten": "Eine Willensäußerung, die eine Rechtsfolge auslösen soll.\n- **Objektiv:** Das Verhalten wirkt auf einen vernünftigen Empfänger so, als wolle sich jemand rechtlich binden (Rechtsbindungswille).\n- **Subjektiv:**\n- Handlungswille: bewusst gesteuertes Verhalten.\n- Erklärungsbewusstsein: Bewusstsein, irgendetwas rechtlich Erhebliches zu erklären.\n- Geschäftswille: Wille, ein bestimmtes Geschäft zu schließen.",
+    "vorne": "Willenserklärung: Definition und Bestandteile?",
+    "hinten": "Willensäußerung, die eine Rechtsfolge auslösen soll.\n- **Objektiv:** Verhalten wirkt auf vernünftigen Empfänger wie Rechtsbindungswille.\n- **Subjektiv:** Handlungswille (bewusstes Verhalten), Erklärungsbewusstsein (irgendetwas rechtlich Erhebliches), Geschäftswille (bestimmtes Geschäft).",
     "normen": [
       "§ 133 BGB",
       "§ 157 BGB"
@@ -148,8 +148,8 @@
     "id": "kk-024",
     "thema": "willenserklaerung",
     "typ": "merkmale",
-    "vorne": "Wie legst du eine Erklärung an einen anderen aus?",
-    "hinten": "- Maßstab: **objektiver Empfängerhorizont.** Wie durfte ein vernünftiger Empfänger sie nach Treu und Glauben und Verkehrssitte verstehen?\n- Es zählt der wirkliche Wille, nicht der bloße Wortlaut, aber nur so weit, wie der Empfänger ihn erkennen konnte.\n- Ein nicht erkennbarer Versprecher oder Tippfehler ändert den Inhalt nicht. Dann hilft nur die Anfechtung.",
+    "vorne": "Auslegung einer Erklärung an einen anderen?",
+    "hinten": "- **Objektiver Empfängerhorizont:** wie ein vernünftiger Empfänger nach Treu und Glauben und Verkehrssitte verstehen durfte.\n- Wirklicher Wille vor Wortlaut, soweit für den Empfänger erkennbar.\n- Unerkennbarer Versprecher oder Tippfehler ändert den Inhalt nicht → nur Anfechtung.",
     "normen": [
       "§ 133 BGB",
       "§ 157 BGB"
@@ -161,8 +161,8 @@
     "id": "kk-021",
     "thema": "willenserklaerung",
     "typ": "rechtsfolge",
-    "vorne": "Handlungswille, Erklärungsbewusstsein oder Geschäftswille fehlt: Was gilt jeweils?",
-    "hinten": "- **Handlungswille fehlt** (Schlaf, Reflex): keine Willenserklärung.\n- **Erklärungsbewusstsein fehlt** (z. B. Winken im Auktionssaal): Nach herrschender Meinung trotzdem eine Willenserklärung, wenn man bei normaler Sorgfalt erkennen konnte, dass das Verhalten als Erklärung verstanden wird, und der Empfänger es auch so verstanden hat. Man kann dann anfechten wie beim Irrtum, muss aber den Vertrauensschaden ersetzen.\n- **Geschäftswille fehlt** (man wollte inhaltlich etwas anderes): wirksam, aber anfechtbar.",
+    "vorne": "Handlungswille, Erklärungsbewusstsein oder Geschäftswille fehlt: Folge?",
+    "hinten": "- **Handlungswille fehlt** (Schlaf, Reflex): keine Willenserklärung.\n- **Erklärungsbewusstsein fehlt** (Winken bei Auktion): nach herrschender Meinung trotzdem Willenserklärung, wenn der Erklärende bei Sorgfalt erkennen konnte, dass sein Verhalten als Erklärung verstanden wird, und der Empfänger es so verstand; anfechtbar wie Irrtum, dann Vertrauensschaden ersetzen.\n- **Geschäftswille fehlt** (inhaltlich etwas anderes gewollt): wirksam, anfechtbar.",
     "normen": [
       "§ 119 Abs. 1 BGB",
       "§ 122 Abs. 1 BGB",
@@ -176,8 +176,8 @@
     "id": "kk-025",
     "thema": "willenserklaerung",
     "typ": "definition",
-    "vorne": "Was ist eine invitatio ad offerendum, und ist sie rechtlich folgenlos?",
-    "hinten": "- Eine Einladung, selbst ein Angebot zu machen: Werbung, Plakat, Schaufenster, Website.\n- Wer einlädt, will sich noch nicht binden. Das Angebot kommt vom Kunden.\n- Nicht ganz folgenlos: Sie kann ein vorvertragliches Schuldverhältnis mit Rücksichtspflichten auslösen. Wer sie verletzt, haftet auf Schadensersatz.",
+    "vorne": "Invitatio ad offerendum: Was ist das, ist sie folgenlos?",
+    "hinten": "- Einladung zum Angebot (Werbung, Schaufenster, Website); kein Bindungswille, das Angebot kommt vom Kunden.\n- Nicht folgenlos: vorvertragliches Schuldverhältnis mit Rücksichtspflichten, bei Verletzung Schadensersatz.",
     "normen": [
       "§ 145 BGB",
       "§ 311 Abs. 2 BGB",
@@ -191,8 +191,8 @@
     "id": "kk-026",
     "thema": "willenserklaerung",
     "typ": "abgrenzung",
-    "vorne": "Geheimer Vorbehalt, Scheingeschäft, Scherz: Was gilt jeweils?",
-    "hinten": "- **Geheimer Vorbehalt:** Man meint es heimlich nicht ernst. Die Erklärung gilt trotzdem; nichtig nur, wenn der Empfänger den Vorbehalt kennt.\n- **Scheingeschäft:** Beide tun nur so. Nichtig. Ein dahinter verstecktes echtes Geschäft gilt nach seinen eigenen Regeln.\n- **Scherz:** Man erwartet, dass der Scherz erkannt wird. Nichtig; der Erklärende muss aber den Vertrauensschaden ersetzen.",
+    "vorne": "Geheimer Vorbehalt, Scheingeschäft, Scherz?",
+    "hinten": "- **Geheimer Vorbehalt** (heimlich nicht ernst gemeint): Erklärung gilt; nichtig nur, wenn der Empfänger ihn kennt.\n- **Scheingeschäft** (beide wollen es nur zum Schein): nichtig; ein verdecktes echtes Geschäft gilt nach eigenen Regeln.\n- **Scherz** (Erkennen erwartet): nichtig, Vertrauensschaden ersetzen.",
     "normen": [
       "§ 116 S. 1 BGB",
       "§ 116 S. 2 BGB",
@@ -208,8 +208,8 @@
     "id": "kk-027",
     "thema": "zugang",
     "typ": "definition",
-    "vorne": "Wann ist eine Erklärung abgegeben, und was gilt, wenn sie abhandenkommt?",
-    "hinten": "- **Abgegeben:** bewusst in Richtung des Empfängers auf den Weg gebracht, sodass ohne weiteres Zutun mit dem Zugang zu rechnen ist.\n- **Abhandengekommen** (z. B. jemand schickt den Brief ungefragt ab): nach herrschender Meinung keine Abgabe, also keine Willenserklärung. Hat der Erklärende das Abhandenkommen fahrlässig verursacht, schuldet er höchstens den Vertrauensschaden.\n- Vorlesung: Die Erklärung wird zugerechnet, ist aber anfechtbar wie beim Irrtum.",
+    "vorne": "Wann ist eine Erklärung abgegeben? Was, wenn sie abhandenkommt?",
+    "hinten": "- **Abgabe:** bewusst Richtung Empfänger auf den Weg gebracht, Zugang ohne weiteres Zutun zu erwarten.\n- **Abhandengekommen** (z. B. Brief ungefragt von anderem abgeschickt): nach herrschender Meinung keine Abgabe, keine Willenserklärung; bei Fahrlässigkeit höchstens Vertrauensschaden.\n- Vorlesung: zugerechnet, aber anfechtbar wie Irrtum.",
     "normen": [
       "§ 119 Abs. 1 BGB",
       "§ 122 Abs. 1 BGB"
@@ -221,8 +221,8 @@
     "id": "kk-029",
     "thema": "zugang",
     "typ": "definition",
-    "vorne": "Wann geht eine Erklärung unter Abwesenden zu?",
-    "hinten": "- Sie ist im Machtbereich des Empfängers, und normalerweise ist mit Kenntnisnahme zu rechnen. Ob gelesen wird, ist egal.\n- Briefkasten: Einwurf bis zur üblichen Leerung → am selben Tag; danach → am Folgetag.\n- Private E-Mail spätabends → am nächsten Morgen.\n- Geschäftspost → während der Geschäftszeit.",
+    "vorne": "Zugang unter Abwesenden?",
+    "hinten": "- Im Machtbereich des Empfängers, Kenntnisnahme normalerweise zu erwarten. Ob gelesen wird, ist egal.\n- Briefkasten: vor üblicher Leerung → am selben Tag, sonst am Folgetag.\n- Private E-Mail spätabends → nächster Morgen.\n- Geschäftspost → während der Geschäftszeit.",
     "normen": [
       "§ 130 Abs. 1 S. 1 BGB"
     ],
@@ -233,8 +233,8 @@
     "id": "kk-030",
     "thema": "zugang",
     "typ": "merksatz",
-    "vorne": "Wann wird eine Erklärung unter Anwesenden oder am Telefon wirksam?",
-    "hinten": "- Gesetzlich nicht geregelt: sobald der Empfänger sie richtig versteht. Es genügt, wenn der Erklärende davon ausgehen durfte, dass der Empfänger richtig verstanden hat. Hört der Empfänger nicht richtig zu, ist das sein Risiko.\n- Das Telefon gilt wie unter Anwesenden.\n- Ein Antrag kann dann nur sofort angenommen werden.",
+    "vorne": "Zugang unter Anwesenden und am Telefon?",
+    "hinten": "- Ungeregelt: wenn der Empfänger richtig versteht; es genügt, wenn der Erklärende davon ausgehen durfte. Weghören = Risiko des Empfängers.\n- Telefon = unter Anwesenden; ein Antrag ist nur sofort annehmbar.",
     "normen": [
       "§ 147 Abs. 1 BGB"
     ],
@@ -245,8 +245,8 @@
     "id": "kk-031",
     "thema": "zugang",
     "typ": "merksatz",
-    "vorne": "Bis wann kannst du eine abgeschickte Erklärung noch widerrufen?",
-    "hinten": "- Der Widerruf muss vorher oder gleichzeitig zugehen. Es zählt der Zugang, nicht wann gelesen wird.\n- Beispiel: Angebot per privater E-Mail um 21 Uhr, Widerruf um 22 Uhr. Beides geht am Morgen gleichzeitig zu → Angebot nie wirksam.",
+    "vorne": "Widerruf einer abgeschickten Erklärung: bis wann?",
+    "hinten": "- Widerruf muss vorher oder gleichzeitig zugehen (Zugang zählt, nicht Lesen).\n- Bsp.: Angebot per privater E-Mail 21 Uhr, Widerruf 22 Uhr → beides morgens zugegangen → Angebot nie wirksam.",
     "normen": [
       "§ 130 Abs. 1 S. 2 BGB"
     ],
@@ -258,7 +258,7 @@
     "thema": "zugang",
     "typ": "abgrenzung",
     "vorne": "Empfangsbote oder Erklärungsbote?",
-    "hinten": "Frage: Auf wessen Seite steht der Bote?\n- **Empfangsbote** (z. B. Mitbewohner, Ehepartner): Seite des Empfängers. Zugang, sobald die Weitergabe zu erwarten ist. Gibt er nicht oder falsch weiter, trägt das der Empfänger.\n- **Erklärungsbote:** Seite des Absenders. Zugang erst bei Ankunft beim Empfänger. Verzögerung trägt der Absender.\n- Nachbarin oder kleines Kind sind meist kein Empfangsbote.",
+    "hinten": "Auf wessen Seite steht der Bote?\n- **Empfangsbote** (Mitbewohner, Ehepartner; Empfängerseite): Zugang, sobald Weitergabe zu erwarten; Fehler trägt der Empfänger.\n- **Erklärungsbote** (Absenderseite): Zugang erst bei Ankunft; Verzögerung trägt der Absender.\n- Nachbarin, kleines Kind: meist kein Empfangsbote.",
     "normen": [],
     "quelle": "material:faelle-2",
     "geprueft": true
@@ -267,8 +267,8 @@
     "id": "kk-033",
     "thema": "zugang",
     "typ": "falle",
-    "vorne": "Der Empfänger verhindert den Zugang (z. B. kein Briefkasten). Was gilt?",
-    "hinten": "- Zunächst kein Zugang, denn die Erklärung kam nicht in seinen Machtbereich.\n- Aber: Nach Treu und Glauben kann er sich darauf nicht berufen (Vorlesung: Gedanke der treuwidrigen Vereitelung). Versucht der Absender unverzüglich erneut zuzustellen, gilt die Erklärung als rechtzeitig.\n- Bei arglistiger Vereitelung gilt die Erklärung als zugegangen.",
+    "vorne": "Empfänger vereitelt den Zugang (z. B. kein Briefkasten)?",
+    "hinten": "- Zunächst kein Zugang.\n- Treuwidrige Vereitelung: Stellt der Absender unverzüglich erneut zu, gilt die Erklärung als rechtzeitig.\n- Arglistige Vereitelung: gilt als zugegangen.",
     "normen": [
       "§ 242 BGB",
       "§ 162 Abs. 1 BGB"
@@ -280,8 +280,8 @@
     "id": "kk-035",
     "thema": "geschaeftsfaehigkeit",
     "typ": "schema",
-    "vorne": "Welche Stufen der Geschäftsfähigkeit gibt es?",
-    "hinten": "- **Unter 7** oder eine nicht nur vorübergehende krankhafte Störung, die die freie Willensbildung ausschließt: geschäftsunfähig, Erklärung nichtig. Nichtig auch bei Bewusstlosigkeit oder vorübergehender Störung.\n- **7 bis 17:** beschränkt geschäftsfähig.\n- **Ab 18:** voll geschäftsfähig.\n- Falle: Am 7. Geburtstag ist das Kind schon beschränkt geschäftsfähig, der Geburtstag zählt mit.",
+    "vorne": "Stufen der Geschäftsfähigkeit?",
+    "hinten": "- **Unter 7** oder dauerhafte krankhafte Störung, die die freie Willensbestimmung ausschließt: geschäftsunfähig, Erklärung nichtig. Nichtig auch bei Bewusstlosigkeit oder vorübergehender Störung.\n- **7 bis 17:** beschränkt geschäftsfähig.\n- **Ab 18:** voll geschäftsfähig.\n- Der Geburtstag zählt mit: am 7. Geburtstag schon beschränkt.",
     "normen": [
       "§ 105 Abs. 1 BGB",
       "§ 105 Abs. 2 BGB",
@@ -298,8 +298,8 @@
     "id": "kk-037",
     "thema": "geschaeftsfaehigkeit",
     "typ": "merkmale",
-    "vorne": "Was kann ein Minderjähriger ohne Zustimmung wirksam tun?",
-    "hinten": "- **Nur rechtlicher Vorteil:** keine Pflicht, kein Rechtsverlust. Z. B. Schenkung und Übereignung an ihn. Es zählt nur das Rechtliche: Auch ein Schnäppchen-Kauf ist nachteilig, weil gezahlt werden muss.\n- **Achtung:** Übereignet der Minderjährige selbst etwas (auch Geld), verliert er Eigentum → nachteilig. Wirksam nur mit Einwilligung oder wenn ihm die Sache zur freien Verfügung überlassen war (Gedanke des Taschengeldparagraphen).\n- **Neutral:** als Vertreter für einen anderen handeln.\n- **Taschengeld:** wenn mit überlassenen Mitteln voll bezahlt.\n- **Teilgeschäftsfähig:** eigenes Erwerbsgeschäft (Ermächtigung der Eltern und Genehmigung des Familiengerichts) und Arbeitsverhältnis (Ermächtigung der Eltern). Nicht Ausbildung, nicht die Verwendung des Lohns.",
+    "vorne": "Was kann ein Minderjähriger ohne Zustimmung?",
+    "hinten": "- **Nur rechtlicher Vorteil** (keine Pflicht, kein Rechtsverlust; Schenkung und Übereignung an ihn). Wirtschaftlicher Vorteil egal: Auch ein Schnäppchen-Kauf ist nachteilig.\n- **Eigene Übereignung** (auch Geld) = Rechtsverlust → nur mit Einwilligung oder Mitteln zur freien Verfügung.\n- **Neutral:** Handeln als Vertreter.\n- **Taschengeld:** mit überlassenen Mitteln voll bezahlt.\n- **Teilgeschäftsfähig:** Erwerbsgeschäft (Eltern + Familiengericht), Arbeitsverhältnis (Eltern); nicht Ausbildung, nicht Verwendung des Lohns.",
     "normen": [
       "§ 107 BGB",
       "§ 165 BGB",
@@ -314,8 +314,8 @@
     "id": "kk-040",
     "thema": "geschaeftsfaehigkeit",
     "typ": "rechtsfolge",
-    "vorne": "Ein Minderjähriger schließt ohne die nötige Einwilligung einen Vertrag. Was gilt?",
-    "hinten": "- **Schwebend unwirksam:** Noch ist offen, ob er gilt.\n- Eltern genehmigen → wirksam von Anfang an.\n- Eltern verweigern → endgültig unwirksam. Schon Geleistetes geht über die Leistungskondiktion zurück; der Minderjährige darf sich auf Entreicherung berufen.\n- Merke: Einwilligung = vorher, Genehmigung = nachher.",
+    "vorne": "Minderjähriger schließt ohne Einwilligung einen Vertrag: Folge?",
+    "hinten": "- **Schwebend unwirksam.**\n- Genehmigung → von Anfang an wirksam.\n- Verweigerung → endgültig unwirksam; Rückgabe über Leistungskondiktion, Minderjähriger kann sich auf Entreicherung berufen.\n- Einwilligung = vorher, Genehmigung = nachher.",
     "normen": [
       "§ 108 Abs. 1 BGB",
       "§ 1629 Abs. 1 BGB",
@@ -332,8 +332,8 @@
     "id": "kk-041",
     "thema": "geschaeftsfaehigkeit",
     "typ": "merkmale",
-    "vorne": "Wie kann der Vertragspartner den Schwebezustand beenden?",
-    "hinten": "- **Aufforderung an die Eltern:** Sie können sich dann nur noch gegenüber dem Vertragspartner erklären. Eine frühere Erklärung gegenüber dem Kind wird unwirksam. Zwei Wochen Schweigen = verweigert.\n- **Widerruf** bis zur Genehmigung. Kannte der Vertragspartner die Minderjährigkeit, nur, wenn das Kind gelogen hat, die Eltern seien einverstanden, und er wusste nicht, dass das nicht stimmt.",
+    "vorne": "Wie beendet der Vertragspartner den Schwebezustand?",
+    "hinten": "- **Aufforderung an die Eltern:** Erklärung nur noch gegenüber dem Vertragspartner; frühere gegenüber dem Kind wird unwirksam; 2 Wochen Schweigen = verweigert.\n- **Widerruf** bis zur Genehmigung. Kannte er die Minderjährigkeit: nur, wenn das Kind die Einwilligung der Eltern vorgelogen hat und er das nicht wusste.",
     "normen": [
       "§ 108 Abs. 2 S. 1 BGB",
       "§ 108 Abs. 2 S. 2 BGB",
@@ -347,8 +347,8 @@
     "id": "kk-042",
     "thema": "geschaeftsfaehigkeit",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat der Taschengeldparagraph, und was gilt bei Raten und Abo?",
-    "hinten": "1. Vertrag ohne Zustimmung geschlossen\n2. Leistung **vollständig bewirkt** (ganz bezahlt)\n3. Mit Mitteln (Geld oder Sachen), die zu diesem Zweck oder zur freien Verfügung überlassen wurden, von den Eltern oder mit deren Zustimmung von Dritten\n- Folge: wirksam von Anfang an.\n- Ratenkauf: erst mit der letzten Rate; vorher schwebend unwirksam.\n- Abo: Lange Bindungen deckt der Paragraph nicht. Andere Ansicht: bezahlte Monate sind wirksam.",
+    "vorne": "Taschengeldparagraph: Voraussetzungen, Raten, Abo?",
+    "hinten": "1. Vertrag ohne Zustimmung\n2. Leistung **vollständig bewirkt**\n3. Mit Mitteln, überlassen zu diesem Zweck oder zur freien Verfügung (von den Eltern oder mit deren Zustimmung von Dritten)\n- Folge: von Anfang an wirksam.\n- Raten: erst mit der letzten Rate; vorher schwebend unwirksam.\n- Abo: lange Bindung nicht gedeckt; andere Ansicht: bezahlte Monate wirksam.",
     "normen": [
       "§ 110 BGB",
       "§ 108 Abs. 1 BGB"
@@ -360,8 +360,8 @@
     "id": "kk-044",
     "thema": "geschaeftsfaehigkeit",
     "typ": "rechtsfolge",
-    "vorne": "Einseitige Erklärungen: Was gilt von und gegenüber einem Minderjährigen?",
-    "hinten": "- **Vom Minderjährigen ohne Einwilligung** (z. B. Kündigung): sofort unwirksam, kein Schwebezustand.\n- **An den Minderjährigen:** wirksam erst, wenn sie den Eltern zugeht. Ab 7 sofort wirksam, wenn sie ihm nur einen rechtlichen Vorteil bringt oder die Eltern eingewilligt haben. Unter 7 immer erst mit Zugang bei den Eltern.",
+    "vorne": "Einseitige Erklärungen von und an Minderjährige?",
+    "hinten": "- **Von ihm ohne Einwilligung** (Kündigung): unwirksam, kein Schwebezustand.\n- **An ihn:** wirksam mit Zugang bei den Eltern. Ab 7 sofort, wenn nur rechtlich vorteilhaft oder Eltern eingewilligt. Unter 7 immer erst bei den Eltern.",
     "normen": [
       "§ 111 S. 1 BGB",
       "§ 131 Abs. 2 BGB",
@@ -374,8 +374,8 @@
     "id": "kk-047",
     "thema": "vertragsschluss",
     "typ": "schema",
-    "vorne": "Wie kommt ein Vertrag zustande, auch bei einer Versteigerung?",
-    "hinten": "- Zwei übereinstimmende Willenserklärungen: **Antrag und Annahme.**\n- Der Antrag nennt die wesentlichen Punkte (essentialia negotii: Parteien, Gegenstand, Preis), sodass ein bloßes „Ja“ genügt. Ohne Preis ist es nur eine Anfrage. Der Antrag muss rechtzeitig angenommen werden.\n- Versteigerung: Gebot = Antrag, Zuschlag = Annahme. Ein Gebot erlischt durch ein höheres Gebot oder wenn ohne Zuschlag geschlossen wird.",
+    "vorne": "Vertragsschluss, auch bei Versteigerung?",
+    "hinten": "- **Antrag + Annahme**, übereinstimmend.\n- Antrag mit wesentlichen Punkten (essentialia negotii: Parteien, Gegenstand, Preis), sodass „Ja“ genügt; ohne Preis nur Anfrage. Rechtzeitig annehmen.\n- Versteigerung: Gebot = Antrag, Zuschlag = Annahme. Gebot erlischt durch höheres Gebot oder Schluss ohne Zuschlag.",
     "normen": [
       "§ 145 BGB",
       "§ 147 BGB",
@@ -389,8 +389,8 @@
     "id": "kk-050",
     "thema": "vertragsschluss",
     "typ": "merkmale",
-    "vorne": "Bis wann kann ein Antrag angenommen werden, und wann braucht es keine Annahmeerklärung?",
-    "hinten": "- Anwesend oder Telefon: sofort.\n- Abwesend: bis die Antwort normalerweise zu erwarten ist.\n- Mit Frist: bis Fristende.\n- Danach oder bei Ablehnung erlischt der Antrag.\n- Zu späte Annahme = neuer Antrag. Annahme mit Änderungen = Ablehnung plus neuer Antrag. Hinweise auf das, was ohnehin gilt, sind keine Änderung.\n- Keine Erklärung an den Antragenden nötig, wenn das nach der Verkehrssitte nicht zu erwarten ist oder er darauf verzichtet. Der Annahmewille muss aber nach außen erkennbar sein (z. B. Geld wortlos behalten).",
+    "vorne": "Annahmefrist? Wann ist keine Annahmeerklärung nötig?",
+    "hinten": "- Anwesend/Telefon: sofort. Abwesend: bis Antwort normalerweise zu erwarten. Mit Frist: bis Fristende.\n- Danach oder bei Ablehnung erlischt der Antrag.\n- Verspätete Annahme = neuer Antrag. Annahme mit Änderungen = Ablehnung + neuer Antrag (Hinweis auf ohnehin Geltendes ändert nichts).\n- Keine Erklärung an den Antragenden nötig, wenn nach Verkehrssitte nicht zu erwarten oder verzichtet; Annahmewille muss erkennbar sein (Geld wortlos behalten).",
     "normen": [
       "§ 147 Abs. 1 BGB",
       "§ 147 Abs. 2 BGB",
@@ -407,8 +407,8 @@
     "id": "kk-054",
     "thema": "vertragsschluss",
     "typ": "merksatz",
-    "vorne": "Ein Unternehmer schickt einem Verbraucher unbestellt Ware. Muss der Verbraucher zahlen?",
-    "hinten": "- Nein. Es entsteht kein Anspruch, auch nicht, wenn er die Ware benutzt oder aufisst.\n- Auch gesetzliche Ansprüche (z. B. Bereicherung, Delikt) sind ausgeschlossen.\n- Ausnahme nur für gesetzliche Ansprüche: Die Ware war für jemand anderen bestimmt oder der Unternehmer glaubte irrig an eine Bestellung, und der Empfänger hat das erkannt oder hätte es erkennen können.",
+    "vorne": "Unbestellte Ware vom Unternehmer an Verbraucher: zahlen?",
+    "hinten": "- Nein, auch nicht bei Benutzung oder Verbrauch.\n- Auch gesetzliche Ansprüche (Bereicherung, Delikt) ausgeschlossen.\n- Ausnahme, nur für gesetzliche Ansprüche: Ware für anderen bestimmt oder irrig angenommene Bestellung, und der Empfänger erkannte das oder konnte es erkennen.",
     "normen": [
       "§ 241a Abs. 1 BGB",
       "§ 241a Abs. 2 BGB",
@@ -422,8 +422,8 @@
     "id": "kk-142",
     "thema": "vertragsschluss",
     "typ": "merkmale",
-    "vorne": "Welche Hauptpflichten haben Kaufvertrag und Werkvertrag?",
-    "hinten": "- **Kauf, Verkäufer:** Sache übergeben und übereignen, frei von Mängeln.\n- **Kauf, Käufer:** Kaufpreis zahlen und Sache abnehmen.\n- **Werkvertrag, Unternehmer:** Werk herstellen.\n- **Werkvertrag, Besteller:** Vergütung zahlen, fällig grundsätzlich mit der Abnahme.",
+    "vorne": "Hauptpflichten bei Kauf- und Werkvertrag?",
+    "hinten": "- **Verkäufer:** übergeben, übereignen, mangelfrei.\n- **Käufer:** zahlen, abnehmen.\n- **Werkunternehmer:** Werk herstellen.\n- **Besteller:** Vergütung, fällig grundsätzlich mit Abnahme.",
     "normen": [
       "§ 433 Abs. 1 S. 1 BGB",
       "§ 433 Abs. 1 S. 2 BGB",
@@ -438,8 +438,8 @@
     "id": "kk-056",
     "thema": "vertragsschluss",
     "typ": "merkmale",
-    "vorne": "Was sind AGB, wann gelten sie, und wo sind ihre Grenzen?",
-    "hinten": "- **AGB:** für viele Verträge vorformulierte Bedingungen, die eine Seite der anderen stellt.\n- Einzeln ausgehandelte Bedingungen sind keine AGB.\n- **Einbeziehung:** ausdrücklicher Hinweis bei Vertragsschluss, zumutbare Möglichkeit zum Lesen, Einverständnis. Gegenüber Unternehmern reicht weniger.\n- **Grenzen:** Überraschende Klauseln gelten nicht. Unklarheiten gehen zulasten des Verwenders. Eine Einzelabrede geht vor.\n- **Inhaltskontrolle** in der Reihenfolge: Verbote ohne Wertung, Verbote mit Wertung, Generalklausel.\n- **Klausel unwirksam:** Der Vertrag bleibt, an ihre Stelle tritt das Gesetz.",
+    "vorne": "AGB: Begriff, Einbeziehung, Grenzen?",
+    "hinten": "- **AGB:** für viele Verträge vorformuliert, von einer Seite gestellt; nicht einzeln ausgehandelt.\n- **Einbeziehung:** ausdrücklicher Hinweis, zumutbare Kenntnisnahme, Einverständnis; gegenüber Unternehmern weniger.\n- Überraschende Klauseln gelten nicht; Unklarheit zulasten des Verwenders; Einzelabrede geht vor.\n- **Inhaltskontrolle:** Verbote ohne Wertung → mit Wertung → Generalklausel.\n- Klausel unwirksam: Vertrag bleibt, Gesetz gilt.",
     "normen": [
       "§ 305 Abs. 1 BGB",
       "§ 305 Abs. 2 BGB",
@@ -460,8 +460,8 @@
     "id": "kk-058",
     "thema": "vertragsschluss",
     "typ": "abgrenzung",
-    "vorne": "Offener oder versteckter Dissens, und was gilt bei widersprechenden AGB?",
-    "hinten": "Dissens = Die Parteien haben sich über einen Punkt nicht geeinigt. Zuerst immer auslegen.\n- **Offen:** Beide wissen, dass ein Punkt fehlt → im Zweifel kein Vertrag.\n- **Versteckt:** Keiner merkt es → Vertrag gilt, wenn er auch ohne den Punkt geschlossen worden wäre.\n- **Widersprechende AGB:** Nach herrschender Meinung gilt, was übereinstimmt; im Übrigen das Gesetz. Wer den Vertrag durchführt, stimmt fremden AGB nicht zu. Vorlesung: versteckter Dissens.",
+    "vorne": "Offener oder versteckter Dissens? Widersprechende AGB?",
+    "hinten": "Dissens = fehlende Einigung über einen Punkt; erst auslegen.\n- **Offen** (beide wissen, dass ein Punkt fehlt): im Zweifel kein Vertrag.\n- **Versteckt** (keiner merkt es): Vertrag gilt, wenn er auch ohne den Punkt geschlossen worden wäre.\n- **Widersprechende AGB:** nach herrschender Meinung gilt Übereinstimmendes, sonst Gesetz; Durchführung ist keine Zustimmung zu fremden AGB. Vorlesung: versteckter Dissens.",
     "normen": [
       "§ 154 Abs. 1 S. 1 BGB",
       "§ 155 BGB",
@@ -474,8 +474,8 @@
     "id": "kk-060",
     "thema": "unwirksamkeit",
     "typ": "merkmale",
-    "vorne": "Welche Unwirksamkeitsgründe gibt es?",
-    "hinten": "- Fehlende Geschäftsfähigkeit\n- Formmangel\n- Gesetzliches Verbot, z. B. beide vereinbaren bewusst „ohne Rechnung“ (Schwarzarbeit) → nichtig\n- Sittenwidrigkeit und Wucher\n- Anfechtung (nichtig von Anfang an)",
+    "vorne": "Unwirksamkeitsgründe?",
+    "hinten": "- Fehlende Geschäftsfähigkeit\n- Formmangel\n- Gesetzliches Verbot, z. B. bewusst „ohne Rechnung“ (Schwarzarbeit)\n- Sittenwidrigkeit, Wucher\n- Anfechtung (von Anfang an nichtig)",
     "normen": [
       "§ 104 BGB",
       "§ 125 BGB",
@@ -491,8 +491,8 @@
     "id": "kk-065",
     "thema": "unwirksamkeit",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat der Wucher, und was ist ein wucherähnliches Geschäft?",
-    "hinten": "**Wucher** (zuerst prüfen):\n1. Auffälliges Missverhältnis von Leistung und Gegenleistung\n2. Schwäche des anderen: Zwangslage, Unerfahrenheit, Urteilsmangel oder erhebliche Willensschwäche\n3. Diese Schwäche wird ausgebeutet\n- Folge: nichtig, auch die Übereignung durch den Ausgebeuteten.\n- **Wucherähnlich:** besonders grobes Missverhältnis (etwa das Doppelte). Die verwerfliche Gesinnung wird dann vermutet → sittenwidrig, nichtig.",
+    "vorne": "Wucher und wucherähnliches Geschäft?",
+    "hinten": "**Wucher** (zuerst prüfen):\n1. Auffälliges Missverhältnis Leistung/Gegenleistung\n2. Zwangslage, Unerfahrenheit, Urteilsmangel oder erhebliche Willensschwäche\n3. Ausbeutung\n- Folge: nichtig, auch die Übereignung durch den Ausgebeuteten.\n- **Wucherähnlich:** besonders grobes Missverhältnis (etwa das Doppelte) → verwerfliche Gesinnung vermutet → sittenwidrig, nichtig.",
     "normen": [
       "§ 138 Abs. 2 BGB",
       "§ 138 Abs. 1 BGB"
@@ -504,8 +504,8 @@
     "id": "kk-061",
     "thema": "unwirksamkeit",
     "typ": "rechtsfolge",
-    "vorne": "Welche Geschäfte brauchen eine Form, und was folgt aus einem Verstoß?",
-    "hinten": "- Grundstückskauf: Notar.\n- Schenkungsversprechen: Notar.\n- Bürgschaftserklärung: Schriftform.\n- **Verstoß:** nichtig; bei vereinbarter Form im Zweifel nichtig.\n- **Heilung** nur, wo das Gesetz sie vorsieht: Grundstück durch Auflassung und Eintragung, Schenkung durch Vollzug, Bürgschaft durch Zahlung des Bürgen.\n- **Schriftform** = eigenhändige Unterschrift. **Textform** = lesbar, dauerhaft gespeichert, Name genannt, ohne Unterschrift (z. B. E-Mail).",
+    "vorne": "Formbedürftige Geschäfte, Verstoß, Heilung?",
+    "hinten": "- Notar: Grundstückskauf, Schenkungsversprechen. Schriftform: Bürgschaftserklärung.\n- **Verstoß:** nichtig; vereinbarte Form: im Zweifel nichtig.\n- **Heilung** nur, wo gesetzlich vorgesehen: Grundstück durch Auflassung + Eintragung, Schenkung durch Vollzug, Bürgschaft durch Zahlung des Bürgen.\n- **Schriftform** = eigenhändige Unterschrift. **Textform** = lesbar, auf dauerhaftem Datenträger, Name genannt, ohne Unterschrift (E-Mail).",
     "normen": [
       "§ 311b Abs. 1 BGB",
       "§ 518 Abs. 1 BGB",
@@ -522,8 +522,8 @@
     "id": "kk-068",
     "thema": "abstraktionsprinzip",
     "typ": "definition",
-    "vorne": "Was besagen Trennungs- und Abstraktionsprinzip?",
-    "hinten": "- **Trennung:** Verpflichtung (z. B. Kauf) und Verfügung (z. B. Übereignung) sind getrennte Geschäfte. Ein Barkauf sind drei Verträge: Kauf, Übereignung der Ware, Übereignung des Geldes.\n- **Abstraktion:** Jedes Geschäft ist für sich wirksam oder nicht. Ist der Kauf nichtig, gilt die Übereignung grundsätzlich trotzdem (Ausnahme: Fehleridentität, Wucher). Zurück geht es dann über die Leistungskondiktion.",
+    "vorne": "Trennungs- und Abstraktionsprinzip?",
+    "hinten": "- **Trennung:** Verpflichtung (Kauf) und Verfügung (Übereignung) sind eigene Geschäfte; Barkauf = 3 Verträge (Kauf, Übereignung der Ware, Übereignung des Geldes).\n- **Abstraktion:** Jedes ist für sich wirksam oder nicht. Nichtiger Kauf lässt die Übereignung grundsätzlich bestehen (außer Fehleridentität, Wucher) → zurück über Leistungskondiktion.",
     "normen": [
       "§ 433 BGB",
       "§ 929 S. 1 BGB",
@@ -536,8 +536,8 @@
     "id": "kk-070",
     "thema": "abstraktionsprinzip",
     "typ": "merkmale",
-    "vorne": "Wie wird übereignet? Nenne Paare aus Verpflichtung und Verfügung.",
-    "hinten": "- **Bewegliche Sache:** Einigung, Übergabe, Berechtigung (Veräußerer ist Eigentümer).\n- **Grundstück:** Einigung (Auflassung) und Eintragung ins Grundbuch.\n- **Paare:** Kauf → Übereignung. Grundstückskauf → Auflassung und Eintragung. Leihe → Überlassung des Besitzes.",
+    "vorne": "Übereignung? Paare aus Verpflichtung und Verfügung?",
+    "hinten": "- **Bewegliche Sache:** Einigung, Übergabe, Berechtigung.\n- **Grundstück:** Auflassung + Eintragung.\n- Paare: Kauf → Übereignung. Leihe → Besitzüberlassung.",
     "normen": [
       "§ 929 S. 1 BGB",
       "§ 873 Abs. 1 BGB",
@@ -553,8 +553,8 @@
     "id": "kk-071",
     "thema": "abstraktionsprinzip",
     "typ": "falle",
-    "vorne": "Wann ist ausnahmsweise auch die Übereignung unwirksam?",
-    "hinten": "- **Fehleridentität:** Derselbe Fehler trifft beide Geschäfte, z. B. arglistige Täuschung. Die Übereignung wird aber erst unwirksam, wenn auch sie angefochten wird.\n- **Wucher:** Die Übereignung durch den Ausgebeuteten ist von selbst nichtig.\n- Folge: Der bisherige Eigentümer bleibt Eigentümer und kann die Sache herausverlangen.",
+    "vorne": "Wann ist auch die Übereignung unwirksam?",
+    "hinten": "- **Fehleridentität** (derselbe Fehler trifft beide Geschäfte, z. B. arglistige Täuschung): erst, wenn auch die Übereignung angefochten ist.\n- **Wucher:** Übereignung durch den Ausgebeuteten von selbst nichtig.\n- Folge: Eigentum bleibt, Herausgabe verlangbar.",
     "normen": [
       "§ 123 Abs. 1 BGB",
       "§ 142 Abs. 1 BGB",
@@ -568,8 +568,8 @@
     "id": "kk-145",
     "thema": "abstraktionsprinzip",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat der Herausgabeanspruch des Eigentümers?",
-    "hinten": "1. Anspruchsteller ist **Eigentümer**\n2. Gegner ist **Besitzer**\n3. Gegner hat **kein Recht zum Besitz** (z. B. weil der Kauf nichtig ist)\n- Achtung: Ist nur der Kauf nichtig, ist die Übereignung meist wirksam. Dann bleibt nur die Leistungskondiktion.",
+    "vorne": "Herausgabeanspruch des Eigentümers: Voraussetzungen?",
+    "hinten": "1. Anspruchsteller **Eigentümer**\n2. Gegner **Besitzer**\n3. **Kein Recht zum Besitz**\n- Nur Kauf nichtig → Übereignung meist wirksam → nur Leistungskondiktion.",
     "normen": [
       "§ 985 BGB",
       "§ 986 Abs. 1 BGB",
@@ -582,8 +582,8 @@
     "id": "kk-072",
     "thema": "stellvertretung",
     "typ": "schema",
-    "vorne": "Welche Voraussetzungen hat die Stellvertretung?",
-    "hinten": "1. Zulässig (nicht bei höchstpersönlichen Geschäften wie Heirat oder Testament)\n2. **Eigene** Willenserklärung des Vertreters\n3. **Im fremden Namen** (Offenkundigkeit)\n4. **Mit Vertretungsmacht**\n- Folge: Das Geschäft wirkt direkt für und gegen den Vertretenen.",
+    "vorne": "Voraussetzungen der Stellvertretung?",
+    "hinten": "1. Zulässig (nicht höchstpersönlich: Heirat, Testament)\n2. **Eigene** Willenserklärung\n3. **Im fremden Namen** (Offenkundigkeit)\n4. **Mit Vertretungsmacht**\n- Folge: wirkt für und gegen den Vertretenen.",
     "normen": [
       "§ 164 Abs. 1 S. 1 BGB",
       "§ 1311 BGB",
@@ -596,8 +596,8 @@
     "id": "kk-073",
     "thema": "stellvertretung",
     "typ": "abgrenzung",
-    "vorne": "Vertreter oder Bote, und was gilt, wenn der Bote falsch übermittelt?",
-    "hinten": "- **Vertreter:** eigene Erklärung, eigener Entscheidungsspielraum.\n- **Bote:** überbringt nur eine fremde Erklärung. Auch ein Kind unter 7 kann Bote sein.\n- Maßstab: wie er nach außen auftritt.\n- **Versehentlich falsch übermittelt:** Die Erklärung gilt, wie sie ankommt. Der Auftraggeber kann anfechten, muss aber den Vertrauensschaden ersetzen.\n- **Bewusst verfälscht:** Dem Auftraggeber nicht zuzurechnen. Der Bote haftet wie ein Vertreter ohne Vertretungsmacht.",
+    "vorne": "Vertreter oder Bote? Bote übermittelt falsch?",
+    "hinten": "- **Vertreter:** eigene Erklärung, Spielraum. **Bote:** überbringt eine fremde Erklärung (auch Kind unter 7). Maßstab: Auftreten nach außen.\n- **Versehentlich falsch:** gilt wie angekommen; Auftraggeber kann anfechten, ersetzt Vertrauensschaden.\n- **Bewusst verfälscht:** nicht zurechenbar; Bote haftet wie Vertreter ohne Vertretungsmacht.",
     "normen": [
       "§ 120 BGB",
       "§ 122 Abs. 1 BGB",
@@ -611,8 +611,8 @@
     "id": "kk-075",
     "thema": "stellvertretung",
     "typ": "rechtsfolge",
-    "vorne": "Es ist nicht erkennbar, dass jemand für einen anderen handelt. Was gilt?",
-    "hinten": "- Der Handelnde ist selbst verpflichtet und kann nicht wegen Irrtums anfechten.\n- Erkennbar ist es auch, wenn es sich nur aus den Umständen ergibt.\n- Ausnahme: **Geschäft für den, den es angeht.** Beim Bargeschäft des Alltags ist dem Partner egal, mit wem er den Vertrag schließt.",
+    "vorne": "Handeln für einen anderen nicht erkennbar: Folge?",
+    "hinten": "- Handelnder selbst verpflichtet, keine Irrtumsanfechtung.\n- Erkennbarkeit aus den Umständen genügt.\n- Ausnahme: **Geschäft für den, den es angeht** (Bargeschäft des Alltags).",
     "normen": [
       "§ 164 Abs. 2 BGB",
       "§ 164 Abs. 1 S. 2 BGB"
@@ -624,8 +624,8 @@
     "id": "kk-077",
     "thema": "stellvertretung",
     "typ": "abgrenzung",
-    "vorne": "Was ist eine Vollmacht? Innen- oder Außenvollmacht?",
-    "hinten": "- **Vollmacht** = Vertretungsmacht, die durch Rechtsgeschäft erteilt wird.\n- **Innenvollmacht:** Erklärung gegenüber dem Vertreter.\n- **Außenvollmacht:** Erklärung gegenüber dem Dritten.\n- Grundsätzlich formfrei. Ihr Umfang ergibt sich durch Auslegung.\n- Gesetzliche Vertretungsmacht haben z. B. die Eltern.",
+    "vorne": "Vollmacht? Innen- oder Außenvollmacht?",
+    "hinten": "- **Vollmacht** = durch Rechtsgeschäft erteilte Vertretungsmacht.\n- **Innen:** gegenüber Vertreter. **Außen:** gegenüber Drittem.\n- Formfrei; Umfang durch Auslegung.\n- Gesetzliche Vertretungsmacht: z. B. Eltern.",
     "normen": [
       "§ 166 Abs. 2 S. 1 BGB",
       "§ 167 Abs. 1 BGB",
@@ -639,8 +639,8 @@
     "id": "kk-079",
     "thema": "stellvertretung",
     "typ": "merkmale",
-    "vorne": "Wann erlischt eine Vollmacht, und wie wird der Dritte geschützt?",
-    "hinten": "- **Erlöschen:** mit dem zugrunde liegenden Rechtsverhältnis (z. B. Ende des Auftrags) oder durch Widerruf.\n- Widerrufen werden kann gegenüber dem Vertreter oder dem Dritten.\n- **Schutz** nur, wenn die Vollmacht nach außen bekannt gemacht wurde (Außenvollmacht, Mitteilung, Urkunde). Dann wirkt sie weiter, bis das Erlöschen genauso bekannt gemacht wird (Anzeige an den Dritten, Widerruf der Mitteilung, Rückgabe der Urkunde). Bei einer bloßen Innenvollmacht kein Schutz.\n- **Kein Schutz,** wenn der Dritte das Erlöschen kennt oder kennen muss.",
+    "vorne": "Erlöschen der Vollmacht, Schutz des Dritten?",
+    "hinten": "- **Erlöschen:** mit dem Grundverhältnis oder durch Widerruf (gegenüber Vertreter oder Drittem).\n- **Schutz** nur bei Kundgabe nach außen (Außenvollmacht, Mitteilung, Urkunde): wirkt fort, bis das Erlöschen ebenso kundgetan ist (Anzeige, Widerruf der Mitteilung, Rückgabe der Urkunde). Bloße Innenvollmacht: kein Schutz.\n- Kein Schutz, wenn der Dritte das Erlöschen kennt oder kennen muss.",
     "normen": [
       "§ 168 S. 1 BGB",
       "§ 168 S. 2 BGB",
@@ -658,7 +658,7 @@
     "thema": "stellvertretung",
     "typ": "abgrenzung",
     "vorne": "Duldungs- oder Anscheinsvollmacht?",
-    "hinten": "- **Duldung:** Der Vertretene **weiß**, dass jemand für ihn auftritt, und lässt es geschehen.\n- **Anschein:** Er weiß es nicht, hätte es aber erkennen und verhindern können. Das Auftreten wiederholt sich über längere Zeit.\n- **Bei beiden:** Der Dritte vertraut gutgläubig darauf, und das war ursächlich. Folge: Der Vertretene wird behandelt, als hätte er Vollmacht erteilt.\n- Einmaliges Auftreten genügt nicht.",
+    "hinten": "- **Duldung:** Vertretener weiß, dass jemand für ihn auftritt, und lässt es geschehen.\n- **Anschein:** weiß es nicht, hätte es erkennen und verhindern können; Auftreten wiederholt über längere Zeit.\n- Beide: Dritter vertraut gutgläubig und ursächlich → wie erteilte Vollmacht.\n- Einmaliges Auftreten genügt nicht.",
     "normen": [
       "§ 170 BGB",
       "§ 171 BGB",
@@ -671,8 +671,8 @@
     "id": "kk-155",
     "thema": "stellvertretung",
     "typ": "falle",
-    "vorne": "Der Vertreter hat Vollmacht, missbraucht sie aber. Ist der Dritte geschützt?",
-    "hinten": "- Grundsätzlich ja: Die Vollmacht gilt nach außen, auch wenn der Vertreter intern Weisungen bricht.\n- Kein Schutz nur, wenn der Missbrauch offensichtlich ist (Evidenz) oder Vertreter und Dritter zusammenarbeiten, um den Vertretenen zu schädigen (Kollusion).",
+    "vorne": "Vollmacht missbraucht: Ist der Dritte geschützt?",
+    "hinten": "- Grundsätzlich ja; interne Weisungen wirken nicht nach außen.\n- Nicht bei Evidenz (offensichtlicher Missbrauch) oder Kollusion (Zusammenwirken zum Schaden des Vertretenen).",
     "normen": [
       "§ 164 Abs. 1 BGB",
       "§ 242 BGB"
@@ -684,8 +684,8 @@
     "id": "kk-081",
     "thema": "stellvertretung",
     "typ": "falle",
-    "vorne": "Auf wessen Irrtum und Wissen kommt es bei der Stellvertretung an?",
-    "hinten": "- Auf den **Vertreter.**\n- Ausnahme: Handelt er nach bestimmten Weisungen, kann sich der Vollmachtgeber nicht auf die Unkenntnis des Vertreters berufen, soweit er selbst Bescheid wusste oder Bescheid wissen musste.\n- Falle: Das gilt für das Vertretergeschäft. Für die Anfechtung der Vollmacht selbst zählt der Irrtum des Vollmachtgebers.",
+    "vorne": "Wessen Irrtum und Wissen zählt bei der Stellvertretung?",
+    "hinten": "- Des **Vertreters.**\n- Ausnahme: Handeln nach bestimmten Weisungen → Vollmachtgeber kann sich nicht auf Unkenntnis des Vertreters berufen, soweit er selbst wusste oder wissen musste.\n- Anfechtung der Vollmacht selbst: Irrtum des Vollmachtgebers.",
     "normen": [
       "§ 166 Abs. 1 BGB",
       "§ 166 Abs. 2 BGB",
@@ -699,8 +699,8 @@
     "id": "kk-082",
     "thema": "stellvertretung",
     "typ": "merksatz",
-    "vorne": "Darf ein Minderjähriger Vertreter sein, und darf ein Vertreter mit sich selbst abschließen?",
-    "hinten": "- **Minderjähriger:** Ab 7 ja, denn das Geschäft trifft ihn nicht. Ohne Zustimmung der Eltern haftet er auch nicht als Vertreter ohne Vertretungsmacht. Unter 7 kann er nur Bote sein.\n- **Insichgeschäft:** Vertrag mit sich selbst oder als Vertreter beider Seiten ist verboten. Erlaubt, wenn gestattet oder wenn nur eine Schuld erfüllt wird. Verstoß: schwebend unwirksam.",
+    "vorne": "Minderjähriger als Vertreter? Insichgeschäft?",
+    "hinten": "- **Minderjähriger:** ab 7 ja (trifft ihn nicht); ohne Zustimmung der Eltern keine Haftung als Vertreter ohne Vertretungsmacht. Unter 7 nur Bote.\n- **Insichgeschäft** (mit sich selbst oder für beide Seiten): verboten, außer gestattet oder nur Erfüllung einer Schuld. Verstoß: schwebend unwirksam.",
     "normen": [
       "§ 165 BGB",
       "§ 179 Abs. 3 S. 2 BGB",
@@ -715,8 +715,8 @@
     "id": "kk-085",
     "thema": "vertreter-ohne-vertretungsmacht",
     "typ": "rechtsfolge",
-    "vorne": "Jemand schließt ohne Vertretungsmacht einen Vertrag. Was gilt, und wie schafft der Gegner Klarheit?",
-    "hinten": "- **Schwebend unwirksam.**\n- Genehmigung → wirksam von Anfang an. Verweigerung → endgültig unwirksam; der Vertreter haftet, wenn kein Ausschluss greift.\n- **Aufforderung** an den Vertretenen: Er kann sich nur noch dem Gegner gegenüber erklären. Eine frühere Erklärung gegenüber dem Vertreter wird unwirksam. Zwei Wochen Schweigen = verweigert.\n- **Widerruf** durch den Gegner bis zur Genehmigung, außer er kannte den Mangel bei Abschluss.",
+    "vorne": "Vertrag ohne Vertretungsmacht: Folge? Wie schafft der Gegner Klarheit?",
+    "hinten": "- **Schwebend unwirksam.** Genehmigung → von Anfang an wirksam; Verweigerung → endgültig unwirksam, Vertreter haftet, sofern kein Ausschluss greift.\n- **Aufforderung an den Vertretenen:** Erklärung nur noch gegenüber dem Gegner; frühere gegenüber dem Vertreter wird unwirksam; 2 Wochen Schweigen = verweigert.\n- **Widerruf** durch den Gegner bis zur Genehmigung, außer er kannte den Mangel bei Abschluss.",
     "normen": [
       "§ 177 Abs. 1 BGB",
       "§ 184 Abs. 1 BGB",
@@ -731,8 +731,8 @@
     "id": "kk-087",
     "thema": "vertreter-ohne-vertretungsmacht",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat die Haftung des Vertreters ohne Vertretungsmacht?",
-    "hinten": "1. Vertrag im fremden Namen\n2. Ohne Vertretungsmacht (er kann sie nicht nachweisen)\n3. Genehmigung verweigert oder gilt als verweigert\n4. Kein Ausschluss:\n- Der Gegner kannte den Mangel oder musste ihn kennen.\n- Der Vertreter ist minderjährig und handelte ohne Zustimmung der Eltern.",
+    "vorne": "Haftung des Vertreters ohne Vertretungsmacht: Voraussetzungen?",
+    "hinten": "1. Vertrag im fremden Namen\n2. Ohne Vertretungsmacht (nicht nachgewiesen)\n3. Genehmigung verweigert oder gilt als verweigert\n4. Kein Ausschluss: Gegner kannte den Mangel oder musste ihn kennen; Vertreter minderjährig ohne Zustimmung der Eltern",
     "normen": [
       "§ 179 Abs. 1 BGB",
       "§ 177 Abs. 2 S. 2 BGB",
@@ -746,8 +746,8 @@
     "id": "kk-088",
     "thema": "vertreter-ohne-vertretungsmacht",
     "typ": "abgrenzung",
-    "vorne": "Vertreter ohne Vertretungsmacht: volle Haftung oder nur Vertrauensschaden?",
-    "hinten": "- **Kannte er den Mangel:** Der Gegner wählt Erfüllung oder Schadensersatz. Der Schadensersatz ist das positive Interesse (so stehen, als wäre erfüllt worden).\n- **Kannte er ihn nicht:** nur der Vertrauensschaden (so stehen, als hätte man nie auf den Vertrag vertraut), höchstens so viel wie das positive Interesse.",
+    "vorne": "Vertreter ohne Vertretungsmacht: volle Haftung oder Vertrauensschaden?",
+    "hinten": "- **Mangel gekannt:** Gegner wählt Erfüllung oder Schadensersatz (positives Interesse).\n- **Nicht gekannt:** nur Vertrauensschaden, höchstens bis zum positiven Interesse.",
     "normen": [
       "§ 179 Abs. 1 BGB",
       "§ 179 Abs. 2 BGB"
@@ -759,8 +759,8 @@
     "id": "kk-089",
     "thema": "vertreter-ohne-vertretungsmacht",
     "typ": "falle",
-    "vorne": "Die Vollmacht wird wegen einer Täuschung durch den Vertreter angefochten. Wie haftet er, und kann er Ersatz verlangen?",
-    "hinten": "- Die Vollmacht ist von Anfang an nichtig → er war Vertreter ohne Vertretungsmacht.\n- Wer die Anfechtbarkeit kannte oder kennen musste, wird behandelt, als hätte er die Nichtigkeit gekannt. Der Täuschende kannte den Grund → **volle Haftung.**\n- **Kein Rückgriff** auf den Vollmachtgeber über den Vertrauensschaden: Der gilt nur bei Scherz, Irrtum und falscher Übermittlung, nicht bei Täuschung. Außerdem kannte er den Grund selbst.",
+    "vorne": "Vollmacht wegen Täuschung durch den Vertreter angefochten: Haftung, Rückgriff?",
+    "hinten": "- Vollmacht von Anfang an nichtig → Vertreter ohne Vertretungsmacht.\n- Wer die Anfechtbarkeit kannte oder kennen musste, wird behandelt, als kannte er die Nichtigkeit; der Täuschende kannte sie → **volle Haftung.**\n- **Kein Rückgriff** auf den Vollmachtgeber über den Vertrauensschaden: gilt nicht bei Täuschung; außerdem kannte er den Grund.",
     "normen": [
       "§ 142 Abs. 1 BGB",
       "§ 142 Abs. 2 BGB",
@@ -776,8 +776,8 @@
     "id": "kk-092",
     "thema": "anfechtung",
     "typ": "schema",
-    "vorne": "Wie prüfst du eine Anfechtung vollständig?",
-    "hinten": "1. Anfechtbare Willenserklärung (auch eine Vollmacht, nach herrschender Meinung selbst dann, wenn der Vertreter sie schon benutzt hat)\n2. Anfechtungsgrund: Irrtum, falsche Übermittlung, Täuschung, Drohung\n3. Erklärung gegenüber dem richtigen Gegner\n4. Frist\n5. Kein Ausschluss durch Bestätigung\n6. Folge: nichtig von Anfang an",
+    "vorne": "Prüfung der Anfechtung?",
+    "hinten": "1. Anfechtbare Willenserklärung (auch Vollmacht, nach herrschender Meinung selbst nach Gebrauch)\n2. Grund: Irrtum, falsche Übermittlung, Täuschung, Drohung\n3. Erklärung gegenüber dem richtigen Gegner\n4. Frist\n5. Kein Ausschluss durch Bestätigung\n6. Folge: von Anfang an nichtig",
     "normen": [
       "§ 119 BGB",
       "§ 120 BGB",
@@ -796,7 +796,7 @@
     "thema": "anfechtung",
     "typ": "definition",
     "vorne": "Erklärungs-, Inhalts- oder Eigenschaftsirrtum?",
-    "hinten": "- **Erklärungsirrtum:** Man wollte das so gar nicht sagen: versprochen, verschrieben, vertippt.\n- **Inhaltsirrtum:** Man weiß, was man sagt, aber nicht, was es bedeutet. Z. B. „ein Gros“ bestellt im Glauben, das seien 12 Stück (es sind 144).\n- **Eigenschaftsirrtum:** Irrtum über eine verkehrswesentliche Eigenschaft einer Person oder Sache. Das sind dauerhafte, wertbildende Merkmale (z. B. Echtheit eines Bildes), nicht der Wert oder Preis selbst.",
+    "hinten": "- **Erklärung:** so nicht sagen wollen (versprochen, vertippt).\n- **Inhalt:** weiß, was man sagt, nicht, was es bedeutet („ein Gros“ für 12 gehalten, sind 144).\n- **Eigenschaft:** verkehrswesentliche Eigenschaft von Person oder Sache = dauerhafte, wertbildende Merkmale (Echtheit), nicht Wert oder Preis.",
     "normen": [
       "§ 119 Abs. 2 BGB",
       "§ 119 Abs. 1 Alt. 2 BGB",
@@ -810,7 +810,7 @@
     "thema": "anfechtung",
     "typ": "falle",
     "vorne": "Berechtigt jeder Irrtum zur Anfechtung?",
-    "hinten": "- Nein. **Motivirrtum** (falscher Beweggrund) und **Kalkulationsirrtum** (interner Rechenfehler) berechtigen grundsätzlich nicht.\n- Der Eigenschaftsirrtum ist die gesetzliche Ausnahme.\n- Immer nötig: Der Irrtum war **ursächlich und erheblich.** Hätte man die Lage gekannt und vernünftig bewertet, hätte man nicht so erklärt.",
+    "hinten": "- Nein: **Motivirrtum** (falscher Beweggrund) und **Kalkulationsirrtum** (interner Rechenfehler) grundsätzlich nicht; Eigenschaftsirrtum ist die gesetzliche Ausnahme.\n- Immer: **ursächlich und erheblich** (bei Kenntnis und vernünftiger Bewertung nicht so erklärt).",
     "normen": [
       "§ 119 Abs. 1 BGB",
       "§ 119 Abs. 2 BGB",
@@ -823,8 +823,8 @@
     "id": "kk-099",
     "thema": "anfechtung",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat die Anfechtung wegen arglistiger Täuschung?",
-    "hinten": "1. Täuschung über Tatsachen (lügen, verdrehen oder verschweigen trotz Aufklärungspflicht)\n2. Dadurch ein Irrtum\n3. Der Irrtum war ursächlich für die Erklärung\n4. Arglist: Vorsatz, billigend in Kauf nehmen genügt\n- **Täuscht ein Dritter:** nur, wenn der Empfänger es wusste oder wissen musste. Wer auf Seiten des Empfängers steht (z. B. für ihn verhandelt), ist kein Dritter.",
+    "vorne": "Arglistige Täuschung: Voraussetzungen?",
+    "hinten": "1. Täuschung über Tatsachen (auch Verschweigen bei Aufklärungspflicht)\n2. Irrtum\n3. Ursächlich für die Erklärung\n4. Arglist: Vorsatz, billigend in Kauf nehmen genügt\n- **Dritter täuscht:** nur, wenn der Empfänger es wusste oder wissen musste. Wer auf Empfängerseite steht (verhandelt für ihn), ist kein Dritter.",
     "normen": [
       "§ 123 Abs. 1 BGB",
       "§ 123 Abs. 2 S. 1 BGB"
@@ -836,8 +836,8 @@
     "id": "kk-101",
     "thema": "anfechtung",
     "typ": "merkmale",
-    "vorne": "Was ist eine Drohung, und wann ist sie widerrechtlich?",
-    "hinten": "- **Drohung:** ein empfindliches Übel in Aussicht stellen, auf das man Einfluss zu haben vorgibt.\n- **Widerrechtlich,** wenn das Mittel, der Zweck oder ihre Verbindung verwerflich ist.\n- Beispiel: Drohung mit Strafanzeige, damit der Täter den Schaden aus der Tat ersetzt → erlaubt. Damit er etwas ganz anderes tut → widerrechtlich.\n- Falle: Droht ein Dritter, darf man **immer** anfechten. Die Dritten-Regel gilt nur für die Täuschung.",
+    "vorne": "Drohung: Begriff, wann widerrechtlich?",
+    "hinten": "- Empfindliches Übel in Aussicht stellen, auf das man Einfluss vorgibt.\n- **Widerrechtlich:** Mittel, Zweck oder ihre Verbindung verwerflich.\n- Strafanzeige, damit der Täter den Tatschaden ersetzt: erlaubt; für etwas anderes: widerrechtlich.\n- Droht ein Dritter: **immer** anfechtbar (Dritten-Regel nur bei Täuschung).",
     "normen": [
       "§ 123 Abs. 1 BGB",
       "§ 123 Abs. 2 BGB"
@@ -849,8 +849,8 @@
     "id": "kk-102",
     "thema": "anfechtung",
     "typ": "merksatz",
-    "vorne": "Wem gegenüber wird angefochten, und muss das Wort „anfechten“ fallen?",
-    "hinten": "- Vertrag: gegenüber dem Vertragspartner, beim Vertretergeschäft also dem Vertretenen.\n- Vollmacht: bei der Innenvollmacht gegenüber dem Vertreter, bei der Außenvollmacht gegenüber dem Dritten.\n- Das Wort muss nicht fallen, auch „widerrufen“ kann reichen. Erkennbar muss nur sein, dass das Geschäft wegen des Willensmangels nicht gelten soll.",
+    "vorne": "Anfechtungsgegner? Muss „anfechten“ fallen?",
+    "hinten": "- Vertrag: Vertragspartner (bei Vertretung: Vertretener).\n- Vollmacht: innen → Vertreter, außen → Dritter.\n- Wort nicht nötig („widerrufen“ kann reichen); erkennbar sein muss: soll wegen des Willensmangels nicht gelten.",
     "normen": [
       "§ 143 Abs. 1 BGB",
       "§ 143 Abs. 2 BGB",
@@ -865,8 +865,8 @@
     "id": "kk-104",
     "thema": "anfechtung",
     "typ": "abgrenzung",
-    "vorne": "Welche Anfechtungsfristen gibt es?",
-    "hinten": "- **Irrtum und falsche Übermittlung:** unverzüglich (ohne schuldhaftes Zögern), sobald man den Grund kennt. Unter Abwesenden genügt rechtzeitiges Absenden.\n- **Täuschung und Drohung:** ein Jahr ab Entdeckung bzw. Ende der Zwangslage.\n- Immer höchstens 10 Jahre ab Abgabe der Erklärung.",
+    "vorne": "Anfechtungsfristen?",
+    "hinten": "- **Irrtum, Übermittlung:** unverzüglich (ohne schuldhaftes Zögern) ab Kenntnis des Grundes; unter Abwesenden genügt rechtzeitiges Absenden.\n- **Täuschung, Drohung:** 1 Jahr ab Entdeckung bzw. Ende der Zwangslage.\n- Immer höchstens 10 Jahre ab Abgabe.",
     "normen": [
       "§ 121 Abs. 1 S. 1 BGB",
       "§ 121 Abs. 1 S. 2 BGB",
@@ -880,8 +880,8 @@
     "id": "kk-106",
     "thema": "anfechtung",
     "typ": "rechtsfolge",
-    "vorne": "Welche Folgen hat die Anfechtung, und wann schuldet der Anfechtende Schadensersatz?",
-    "hinten": "- Das Geschäft ist **von Anfang an nichtig.**\n- **Schadensersatz** bei Irrtum und falscher Übermittlung (und beim nichtigen Scherz), **nicht** bei Täuschung oder Drohung.\n- Umfang: Vertrauensschaden, höchstens so viel wie bei Erfüllung.\n- Kein Ersatz, wenn der andere den Grund kannte oder kennen musste.",
+    "vorne": "Folgen der Anfechtung? Wann Schadensersatz?",
+    "hinten": "- **Von Anfang an nichtig.**\n- Vertrauensschaden (höchstens Erfüllungsinteresse) bei Irrtum, Übermittlung, Scherz; **nicht** bei Täuschung oder Drohung.\n- Nicht, wenn der andere den Grund kannte oder kennen musste.",
     "normen": [
       "§ 142 Abs. 1 BGB",
       "§ 122 Abs. 1 BGB",
@@ -898,8 +898,8 @@
     "id": "kk-108",
     "thema": "schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Nenne drei Arten von Schuldverhältnissen mit Beispiel.",
-    "hinten": "1. **Vertraglich:** z. B. Kauf\n2. **Vorvertraglich:** Vertragsverhandlungen, z. B. Kunde rutscht im Laden aus\n3. **Gesetzlich:** Geschäftsführung ohne Auftrag (Nachbar löscht Brand), Bereicherung (Zahlung auf nichtigen Vertrag), Delikt (Unfall)",
+    "vorne": "Drei Arten von Schuldverhältnissen?",
+    "hinten": "1. **Vertraglich:** Kauf\n2. **Vorvertraglich:** Kunde rutscht im Laden aus\n3. **Gesetzlich:** Geschäftsführung ohne Auftrag (Nachbar löscht Brand), Bereicherung (Zahlung auf nichtigen Vertrag), Delikt (Unfall)",
     "normen": [
       "§ 311 Abs. 1 BGB",
       "§ 311 Abs. 2 BGB",
@@ -915,8 +915,8 @@
     "id": "kk-109",
     "thema": "schuldverhaeltnisse",
     "typ": "abgrenzung",
-    "vorne": "Wie ordnest du Schuldverhältnisse nach Pflichten und nach Dauer?",
-    "hinten": "- **Einseitig** (nur einer schuldet): Schenkung.\n- **Unvollkommen zweiseitig** (Hauptpflicht nur bei einem): Leihe, Auftrag.\n- **Gegenseitig** (Leistung gegen Gegenleistung): Kauf, Miete. Nur hier gibt es die Einrede des nicht erfüllten Vertrags: Leistung nur gegen die Gegenleistung.\n- **Zielschuld:** einmaliger Austausch, endet durch Erfüllung (Kauf).\n- **Dauerschuld:** laufende Leistung, endet durch Zeitablauf oder Kündigung (Miete, Arbeit, Abo).",
+    "vorne": "Schuldverhältnisse nach Pflichten und Dauer?",
+    "hinten": "- **Einseitig** (nur einer schuldet): Schenkung. **Unvollkommen zweiseitig** (Hauptpflicht nur bei einem): Leihe, Auftrag. **Gegenseitig** (Leistung gegen Gegenleistung): Kauf, Miete; nur hier Einrede des nicht erfüllten Vertrags.\n- **Zielschuld:** einmaliger Austausch, endet durch Erfüllung (Kauf). **Dauerschuld:** laufende Leistung, endet durch Zeitablauf oder Kündigung (Miete, Arbeit, Abo).",
     "normen": [
       "§ 320 Abs. 1 BGB"
     ],
@@ -927,8 +927,8 @@
     "id": "kk-111",
     "thema": "schuldverhaeltnisse",
     "typ": "abgrenzung",
-    "vorne": "Welche Pflichten gibt es im Schuldverhältnis?",
-    "hinten": "- **Leistungspflichten:** Hauptpflichten (beim Kauf: liefern und zahlen) und Nebenpflichten (z. B. ordentlich verpacken).\n- **Rücksichtspflichten:** auf Rechte, Rechtsgüter und Interessen des anderen achten.\n- Wer eine Pflicht verletzt, schuldet Schadensersatz, außer er hat die Verletzung nicht zu vertreten (das wird vermutet).",
+    "vorne": "Pflichten im Schuldverhältnis?",
+    "hinten": "- **Leistungspflichten:** Haupt- (liefern, zahlen) und Nebenpflichten (verpacken).\n- **Rücksichtspflichten:** auf Rechte, Rechtsgüter, Interessen achten.\n- Verletzung → Schadensersatz; Vertretenmüssen wird vermutet.",
     "normen": [
       "§ 241 Abs. 1 BGB",
       "§ 241 Abs. 2 BGB",
@@ -943,8 +943,8 @@
     "id": "kk-113",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat die culpa in contrahendo (c.i.c.)?",
-    "hinten": "1. **Vorvertragliches Schuldverhältnis:** Vertrag angebahnt, man kann auf die Rechte des anderen einwirken\n2. **Pflichtverletzung** (Rücksichtspflicht)\n3. **Vertretenmüssen:** wird vermutet\n4. **Kausaler Schaden**\n- Ersatz: meist das negative Interesse; bei verletzten Rechtsgütern Ausgleich wie ohne die Verletzung.",
+    "vorne": "Culpa in contrahendo (c.i.c.): Voraussetzungen?",
+    "hinten": "1. Vorvertragliches Schuldverhältnis (angebahnt, Einwirkung möglich)\n2. Verletzung einer Rücksichtspflicht\n3. Vertretenmüssen (vermutet)\n4. Kausaler Schaden: meist negatives Interesse; bei verletzten Rechtsgütern Zustand wie ohne Verletzung",
     "normen": [
       "§ 280 Abs. 1 BGB",
       "§ 311 Abs. 2 BGB",
@@ -959,8 +959,8 @@
     "id": "kk-115",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "definition",
-    "vorne": "Was muss der Schuldner vertreten?",
-    "hinten": "- Vorsatz und Fahrlässigkeit.\n- **Fahrlässig** handelt, wer die im Verkehr erforderliche Sorgfalt außer Acht lässt.\n- Fehler von **Erfüllungsgehilfen** (Leute, die er für seine Pflicht einsetzt) muss er sich wie eigene zurechnen lassen.",
+    "vorne": "Was hat der Schuldner zu vertreten?",
+    "hinten": "- Vorsatz und Fahrlässigkeit (im Verkehr erforderliche Sorgfalt außer Acht gelassen).\n- Fehler von **Erfüllungsgehilfen** (Helfer, die er für seine Pflicht einsetzt) wie eigene.",
     "normen": [
       "§ 276 Abs. 1 BGB",
       "§ 276 Abs. 2 BGB",
@@ -974,7 +974,7 @@
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "abgrenzung",
     "vorne": "Positives oder negatives Interesse?",
-    "hinten": "Schaden = Unterschied zwischen der Lage jetzt und der Lage ohne das schädigende Ereignis.\n- **Positiv (Erfüllungsinteresse):** so stehen, als wäre richtig erfüllt worden. Z. B. Schadensersatz statt der Leistung, Vertreter ohne Vertretungsmacht, der den Mangel kannte.\n- **Negativ (Vertrauensschaden):** so stehen, als hätte man nie auf das Geschäft vertraut. Z. B. nach Irrtumsanfechtung, Vertreter, der den Mangel nicht kannte.",
+    "hinten": "Schaden = Unterschied zur Lage ohne das Ereignis.\n- **Positiv (Erfüllungsinteresse):** wie bei richtiger Erfüllung (Schadensersatz statt der Leistung; Vertreter ohne Vertretungsmacht mit Kenntnis).\n- **Negativ (Vertrauensschaden):** wie ohne Vertrauen auf das Geschäft (Irrtumsanfechtung; Vertreter ohne Kenntnis).",
     "normen": [
       "§ 249 Abs. 1 BGB",
       "§ 281 Abs. 1 BGB",
@@ -989,8 +989,8 @@
     "id": "kk-117",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat die Leistungskondiktion?",
-    "hinten": "Rückforderung einer Leistung ohne Rechtsgrund:\n1. **Etwas erlangt:** jeder Vermögensvorteil (Eigentum, Besitz, Geld, Befreiung von einer Schuld)\n2. **Durch Leistung:** bewusste und zweckgerichtete Mehrung fremden Vermögens\n3. **Ohne Rechtsgrund:** z. B. Vertrag nichtig oder angefochten\n4. **Kein Ausschluss:** Der Leistende wusste, dass er nicht schuldet. Oder ihm selbst fällt bewusst ein Gesetzes- oder Sittenverstoß zur Last (z. B. Schwarzarbeit).",
+    "vorne": "Leistungskondiktion: Voraussetzungen?",
+    "hinten": "1. **Etwas erlangt** (Eigentum, Besitz, Geld, Befreiung von einer Schuld)\n2. **Durch Leistung** (bewusste, zweckgerichtete Mehrung fremden Vermögens)\n3. **Ohne Rechtsgrund** (Vertrag nichtig oder angefochten)\n4. **Kein Ausschluss:** Leistender wusste, dass er nicht schuldet, oder ihm fällt selbst ein bewusster Gesetzes- oder Sittenverstoß zur Last (Schwarzarbeit)",
     "normen": [
       "§ 812 Abs. 1 S. 1 Alt. 1 BGB",
       "§ 814 BGB",
@@ -1003,8 +1003,8 @@
     "id": "kk-120",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "rechtsfolge",
-    "vorne": "Was schuldet der Bereicherte, und was, wenn das Erlangte weg ist?",
-    "hinten": "- Herausgabe des Erlangten und der gezogenen Nutzungen.\n- Geht das nicht: Wertersatz.\n- Ist er nicht mehr bereichert (Entreicherung): keine Pflicht mehr.\n- Ausnahme: Wer weiß, dass der Rechtsgrund fehlt, kann sich ab diesem Zeitpunkt nicht mehr auf Entreicherung berufen.\n- Haben beide geleistet: Rückgabe Zug um Zug.",
+    "vorne": "Was schuldet der Bereicherte, was bei Entreicherung?",
+    "hinten": "- Erlangtes + gezogene Nutzungen heraus; sonst Wertersatz.\n- Nicht mehr bereichert → frei; ab Kenntnis vom fehlenden Rechtsgrund keine Berufung auf Entreicherung mehr.\n- Beide geleistet: Zug um Zug.",
     "normen": [
       "§ 812 Abs. 1 S. 1 BGB",
       "§ 818 Abs. 2 BGB",
@@ -1021,8 +1021,8 @@
     "id": "kk-143",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "abgrenzung",
-    "vorne": "Welche Arten der Bereicherung gibt es?",
-    "hinten": "- **Leistungskondiktion:** Jemand hat geleistet, ohne dass ein Rechtsgrund bestand.\n- **Nichtleistungskondiktion:** Bereicherung auf andere Weise, z. B. durch einen Eingriff in fremdes Recht.\n- **Späterer Wegfall des Rechtsgrundes.**\n- **Zweckverfehlung:** Der mit der Leistung bezweckte Erfolg tritt nicht ein. Ausgeschlossen, wenn der Leistende wusste, dass der Zweck nicht eintreten kann.",
+    "vorne": "Arten der Bereicherung?",
+    "hinten": "- **Leistungskondiktion:** Leistung ohne Rechtsgrund.\n- **Nichtleistungskondiktion:** anders erlangt, z. B. Eingriff in fremdes Recht.\n- **Späterer Wegfall des Rechtsgrundes.**\n- **Zweckverfehlung:** bezweckter Erfolg bleibt aus; ausgeschlossen, wenn der Leistende wusste, dass er nicht eintreten kann.",
     "normen": [
       "§ 812 Abs. 1 S. 1 BGB",
       "§ 812 Abs. 1 S. 2 BGB",
@@ -1035,8 +1035,8 @@
     "id": "kk-121",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat der Anspruch aus unerlaubter Handlung?",
-    "hinten": "1. **Rechtsgut verletzt:** Leben, Körper, Gesundheit, Freiheit, Eigentum, sonstiges Recht. Das bloße Vermögen ist nicht geschützt; das schützt nur der Anspruch bei vorsätzlicher sittenwidriger Schädigung.\n2. **Handlung**\n3. **Haftungsbegründende Kausalität:** Handlung hat die Verletzung verursacht\n4. **Rechtswidrigkeit:** liegt vor, außer es gibt einen Rechtfertigungsgrund\n5. **Verschulden:** Vorsatz oder Fahrlässigkeit, Deliktsfähigkeit\n6. **Schaden** und haftungsausfüllende Kausalität: Verletzung hat den Schaden verursacht",
+    "vorne": "Anspruch aus unerlaubter Handlung: Voraussetzungen?",
+    "hinten": "1. **Rechtsgut verletzt:** Leben, Körper, Gesundheit, Freiheit, Eigentum, sonstiges Recht; bloßes Vermögen nur bei vorsätzlicher sittenwidriger Schädigung\n2. **Handlung**\n3. **Haftungsbegründende Kausalität** (Handlung → Verletzung)\n4. **Rechtswidrigkeit** (entfällt nur bei Rechtfertigungsgrund)\n5. **Verschulden** (Vorsatz, Fahrlässigkeit) + Deliktsfähigkeit\n6. **Schaden** + haftungsausfüllende Kausalität (Verletzung → Schaden)",
     "normen": [
       "§ 823 Abs. 1 BGB",
       "§ 276 BGB",
@@ -1052,8 +1052,8 @@
     "id": "kk-149",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Wie prüfst du, ob eine Handlung die Verletzung verursacht hat?",
-    "hinten": "- **Conditio sine qua non:** Ohne die Handlung wäre die Verletzung nicht eingetreten.\n- **Adäquanz:** Die Folge war nicht völlig ungewöhnlich.\n- **Schutzzweck:** Der Schaden muss zu den Gefahren gehören, vor denen die verletzte Pflicht schützen soll.\n- Unterbrochen durch völlig ungewöhnliches Eingreifen Dritter. Nicht unterbrochen, wenn der Geschädigte zu seinem Verhalten herausgefordert wurde.",
+    "vorne": "Kausalität der Handlung prüfen?",
+    "hinten": "- **Conditio sine qua non:** ohne Handlung keine Verletzung.\n- **Adäquanz:** Folge nicht völlig ungewöhnlich.\n- **Schutzzweck:** Schaden gehört zu den Gefahren, vor denen die verletzte Pflicht schützen soll.\n- Unterbrochen durch völlig ungewöhnliches Eingreifen Dritter; nicht, wenn der Geschädigte herausgefordert wurde.",
     "normen": [
       "§ 823 Abs. 1 BGB"
     ],
@@ -1065,7 +1065,7 @@
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
     "vorne": "Wann fehlt die Deliktsfähigkeit?",
-    "hinten": "- Unter 7: nie verantwortlich.\n- 7 bis 9: nicht bei Unfällen mit Auto oder Bahn, außer mit Vorsatz.\n- Unter 18: nur verantwortlich, wenn die nötige Einsicht da war.\n- Bewusstlosigkeit oder krankhafte Störung, die die freie Willensbildung ausschließt: nicht verantwortlich. Ausnahme: Wer sich schuldhaft betrunken oder berauscht hat, haftet wie bei Fahrlässigkeit.",
+    "hinten": "- Unter 7: nie verantwortlich.\n- 7 bis 9: nicht bei Unfällen mit Auto oder Bahn, außer Vorsatz.\n- Unter 18: nur mit der nötigen Einsicht.\n- Bewusstlosigkeit oder krankhafte Störung, die die freie Willensbestimmung ausschließt: nicht; aber schuldhafter Rausch → Haftung wie bei Fahrlässigkeit.",
     "normen": [
       "§ 828 Abs. 1 BGB",
       "§ 828 Abs. 2 BGB",
@@ -1081,7 +1081,7 @@
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
     "vorne": "Was umfasst der Schadensersatz?",
-    "hinten": "- Zustand wiederherstellen oder bei Sach- und Personenschäden das Geld dafür.\n- Entgangener Gewinn, Schmerzensgeld bei Verletzung von Körper, Gesundheit, Freiheit oder sexueller Selbstbestimmung.\n- Mitverschulden kürzt. Der Geschädigte muss den Schaden gering halten.\n- **Auto:** Reparatur bis 130 % des Wiederbeschaffungswerts, wenn fachgerecht repariert und weitergefahren wird. Darüber nur Wiederbeschaffung. Mietwagen nur in der eigenen Klasse.\n- Nicht ersetzt: was nicht auf der Verletzung beruht (z. B. eine schon vorher bestehende Krankheit).",
+    "hinten": "- Wiederherstellung oder bei Sach- und Personenschäden das Geld dafür.\n- Entgangener Gewinn; Schmerzensgeld (Körper, Gesundheit, Freiheit, sexuelle Selbstbestimmung).\n- Mitverschulden kürzt; Schaden gering halten.\n- **Auto:** Reparatur bis 130 % des Wiederbeschaffungswerts, wenn fachgerecht repariert und weitergefahren; sonst Wiederbeschaffung. Mietwagen nur eigene Klasse.\n- Nicht: was nicht auf der Verletzung beruht (Vorerkrankung).",
     "normen": [
       "§ 249 Abs. 1 BGB",
       "§ 249 Abs. 2 S. 1 BGB",
@@ -1097,8 +1097,8 @@
     "id": "kk-125",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Wer haftet bei einem Autounfall?",
-    "hinten": "- **Halter:** ohne Verschulden (Gefährdungshaftung), außer bei höherer Gewalt.\n- **Fahrer:** Sein Verschulden wird vermutet.\n- **Mehrere Autos:** Die Betriebsgefahren werden gegeneinander abgewogen.\n- **Haftpflichtversicherer:** kann direkt verklagt werden.\n- **Lohnfortzahlung:** Der Verdienstausfall bleibt Schaden des Verletzten, der Anspruch geht aber auf den Arbeitgeber über.",
+    "vorne": "Wer haftet beim Autounfall?",
+    "hinten": "- **Halter:** ohne Verschulden (Gefährdungshaftung), außer höhere Gewalt.\n- **Fahrer:** Verschulden vermutet.\n- **Mehrere Autos:** Betriebsgefahren abwägen.\n- **Haftpflichtversicherer:** direkt verklagbar.\n- **Lohnfortzahlung:** Verdienstausfall bleibt Schaden des Verletzten; Anspruch geht auf den Arbeitgeber über.",
     "normen": [
       "§ 7 Abs. 1 StVG",
       "§ 18 Abs. 1 StVG",
@@ -1114,8 +1114,8 @@
     "id": "kk-126",
     "thema": "gesetzliche-schuldverhaeltnisse",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat die berechtigte Geschäftsführung ohne Auftrag?",
-    "hinten": "1. Geschäftsbesorgung\n2. Fremdes Geschäft, und man will es für den anderen führen\n3. Ohne Auftrag oder sonstige Berechtigung\n4. Im Interesse und mit dem wirklichen oder mutmaßlichen Willen des Geschäftsherrn (dessen Geschäft geführt wird)\n- Folge: Ersatz der Aufwendungen.",
+    "vorne": "Berechtigte Geschäftsführung ohne Auftrag: Voraussetzungen?",
+    "hinten": "1. Geschäftsbesorgung\n2. Fremdes Geschäft, für den anderen geführt\n3. Ohne Auftrag oder sonstige Berechtigung\n4. Interesse und wirklicher oder mutmaßlicher Wille des Geschäftsherrn\n- Folge: Aufwendungsersatz.",
     "normen": [
       "§ 677 BGB",
       "§ 683 S. 1 BGB",
@@ -1128,8 +1128,8 @@
     "id": "kk-127",
     "thema": "widerruf-ruecktritt",
     "typ": "merkmale",
-    "vorne": "Wann hat ein Verbraucher ein Widerrufsrecht?",
-    "hinten": "1. **Verbraucher** (Mensch, handelt überwiegend privat) gegen **Unternehmer** (gewerblich oder selbständig)\n2. **Fernabsatz** (z. B. online, Telefon) oder **außerhalb von Geschäftsräumen**\n3. Keine Ausnahme\n4. **Erklärung** an den Unternehmer, ohne Begründung\n5. **Frist** gewahrt (rechtzeitiges Absenden genügt)",
+    "vorne": "Widerrufsrecht des Verbrauchers: Voraussetzungen?",
+    "hinten": "1. **Verbraucher** (Mensch, überwiegend privat) gegen **Unternehmer** (gewerblich oder selbständig)\n2. **Fernabsatz** (online, Telefon) oder **außerhalb von Geschäftsräumen**\n3. Keine Ausnahme\n4. **Erklärung** ohne Begründung\n5. **Frist** (rechtzeitiges Absenden genügt)",
     "normen": [
       "§ 13 BGB",
       "§ 14 Abs. 1 BGB",
@@ -1146,8 +1146,8 @@
     "id": "kk-128",
     "thema": "widerruf-ruecktritt",
     "typ": "merksatz",
-    "vorne": "Wie lange läuft die Widerrufsfrist, und was folgt aus dem Widerruf?",
-    "hinten": "- **14 Tage** ab Vertragsschluss; beim Warenkauf erst ab Erhalt der Ware.\n- Rechnen: Der Tag des Erhalts zählt nicht mit; die Frist endet mit Ablauf des 14. Tages.\n- Die Frist beginnt nicht, bevor richtig belehrt wurde. Ohne richtige Belehrung erlischt das Recht spätestens zwölf Monate und 14 Tage nach dem normalen Fristbeginn.\n- **Folge:** Beide geben das Empfangene zurück, spätestens nach 14 Tagen.\n- Frist verpasst: Prüfen, ob die Erklärung eine Anfechtung ist.",
+    "vorne": "Widerrufsfrist und Folgen?",
+    "hinten": "- **14 Tage** ab Vertragsschluss, bei Waren ab Erhalt; der Erhaltstag zählt nicht mit.\n- Beginn erst nach richtiger Belehrung; sonst erlischt das Recht spätestens 12 Monate + 14 Tage nach normalem Beginn.\n- **Folge:** Rückgabe beider Seiten binnen 14 Tagen.\n- Frist verpasst: als Anfechtung prüfen.",
     "normen": [
       "§ 355 Abs. 2 S. 1 BGB",
       "§ 356 Abs. 2 Nr. 1 lit. a BGB",
@@ -1166,8 +1166,8 @@
     "id": "kk-130",
     "thema": "widerruf-ruecktritt",
     "typ": "abgrenzung",
-    "vorne": "Widerruf, Anfechtung, Rücktritt: Wie löst man sich jeweils vom Vertrag?",
-    "hinten": "- **Widerruf vor Zugang:** Die Erklärung wird gar nicht erst wirksam.\n- **Verbraucherwiderruf:** ohne Grund, Rückgabe.\n- **Anfechtung:** Willensmangel beim Abschluss → nichtig von Anfang an.\n- **Rücktritt:** Leistungsstörung → Vertrag wird rückabgewickelt.",
+    "vorne": "Widerruf, Anfechtung, Rücktritt: Unterschied?",
+    "hinten": "- **Widerruf vor Zugang:** Erklärung wird nicht wirksam.\n- **Verbraucherwiderruf:** ohne Grund, Rückgabe.\n- **Anfechtung:** Willensmangel beim Abschluss → von Anfang an nichtig.\n- **Rücktritt:** Leistungsstörung → Rückabwicklung.",
     "normen": [
       "§ 130 Abs. 1 S. 2 BGB",
       "§ 355 BGB",
@@ -1181,8 +1181,8 @@
     "id": "kk-131",
     "thema": "widerruf-ruecktritt",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat der Rücktritt wegen nicht erbrachter Leistung?",
-    "hinten": "1. Gegenseitiger Vertrag\n2. Fällige, durchsetzbare Leistung (ohne Termin: sofort fällig)\n3. Nicht oder nicht vertragsgemäß erbracht\n4. Angemessene Frist erfolglos (manchmal entbehrlich)\n5. Kein Ausschluss (z. B. Gläubiger selbst verantwortlich, Pflichtverletzung unerheblich)\n6. Rücktrittserklärung (auch durch schlüssiges Verhalten)",
+    "vorne": "Rücktritt wegen nicht erbrachter Leistung: Voraussetzungen?",
+    "hinten": "1. Gegenseitiger Vertrag\n2. Fällige, durchsetzbare Leistung (ohne Termin sofort fällig)\n3. Nicht oder nicht vertragsgemäß erbracht\n4. Angemessene Frist erfolglos (manchmal entbehrlich)\n5. Kein Ausschluss (z. B. Gläubiger verantwortlich, Pflichtverletzung unerheblich)\n6. Rücktrittserklärung (auch durch Verhalten)",
     "normen": [
       "§ 323 Abs. 1 BGB",
       "§ 271 Abs. 1 BGB",
@@ -1198,8 +1198,8 @@
     "id": "kk-133",
     "thema": "widerruf-ruecktritt",
     "typ": "rechtsfolge",
-    "vorne": "Was folgt aus dem Rücktritt, und braucht er Verschulden?",
-    "hinten": "- Empfangenes zurück, gezogene Nutzungen (z. B. Gebrauchsvorteile) heraus. Noch nicht Erbrachtes muss nicht mehr geleistet werden.\n- **Falle:** Der Rücktritt braucht kein Vertretenmüssen, der Schadensersatz schon.\n- Beides geht nebeneinander.",
+    "vorne": "Rücktrittsfolgen? Braucht er Verschulden?",
+    "hinten": "- Empfangenes + gezogene Nutzungen zurück; Offenes entfällt.\n- Rücktritt ohne, Schadensersatz nur mit Vertretenmüssen; beides nebeneinander.",
     "normen": [
       "§ 346 Abs. 1 BGB",
       "§ 280 Abs. 1 S. 2 BGB",
@@ -1212,8 +1212,8 @@
     "id": "kk-146",
     "thema": "widerruf-ruecktritt",
     "typ": "merkmale",
-    "vorne": "Welche anderen Rücktrittsgründe gibt es?",
-    "hinten": "- **Rücksichtspflicht verletzt** und Festhalten am Vertrag unzumutbar.\n- **Leistung unmöglich:** Rücktritt ohne Fristsetzung.",
+    "vorne": "Andere Rücktrittsgründe?",
+    "hinten": "- Rücksichtspflicht verletzt, Festhalten unzumutbar.\n- Leistung unmöglich: ohne Fristsetzung.",
     "normen": [
       "§ 324 BGB",
       "§ 241 Abs. 2 BGB",
@@ -1228,7 +1228,7 @@
     "thema": "widerruf-ruecktritt",
     "typ": "abgrenzung",
     "vorne": "Werkvertrag: Rücktritt oder freie Kündigung?",
-    "hinten": "- **Rücktritt:** Der Werklohn entfällt.\n- **Freie Kündigung:** jederzeit bis zur Fertigstellung des Werks, aber der Unternehmer behält den Lohn minus ersparter Kosten.\n- Liegen die Rücktrittsvoraussetzungen vor, ist eine „Kündigung“ meist als Rücktritt zu verstehen.",
+    "hinten": "- **Rücktritt:** Werklohn entfällt.\n- **Freie Kündigung** des Bestellers (jederzeit bis zur Fertigstellung): Unternehmer behält Lohn minus ersparter Kosten.\n- Rücktrittsvoraussetzungen da → „Kündigung“ meist als Rücktritt verstehen.",
     "normen": [
       "§ 323 Abs. 1 BGB",
       "§ 648 S. 1 BGB",
@@ -1243,8 +1243,8 @@
     "id": "kk-134",
     "thema": "widerruf-ruecktritt",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat Schadensersatz statt der Leistung?",
-    "hinten": "1. Schuldverhältnis\n2. Fällige, durchsetzbare Leistung nicht erbracht\n3. Angemessene Frist erfolglos (manchmal entbehrlich)\n4. Vertretenmüssen (wird vermutet)\n5. Schaden: positives Interesse, z. B. Mehrkosten für den Ersatzkauf",
+    "vorne": "Schadensersatz statt der Leistung: Voraussetzungen?",
+    "hinten": "1. Schuldverhältnis\n2. Fällige, durchsetzbare Leistung nicht erbracht\n3. Angemessene Frist erfolglos (manchmal entbehrlich)\n4. Vertretenmüssen (vermutet)\n5. Schaden: positives Interesse (Mehrkosten des Ersatzkaufs)",
     "normen": [
       "§ 280 Abs. 1 BGB",
       "§ 280 Abs. 3 BGB",
@@ -1259,8 +1259,8 @@
     "id": "kk-135",
     "thema": "widerruf-ruecktritt",
     "typ": "merkmale",
-    "vorne": "Welche Voraussetzungen hat der Ersatz des Verzögerungsschadens?",
-    "hinten": "1. Fälliger, durchsetzbarer Anspruch\n2. Nicht geleistet\n3. **Mahnung** oder sie ist entbehrlich (z. B. fester Termin im Kalender); bei Geldforderungen auch 30 Tage nach Fälligkeit und Rechnung (beim Verbraucher nur mit Hinweis)\n4. Vertretenmüssen (wird vermutet)\n5. Schaden durch die Verspätung",
+    "vorne": "Verzögerungsschaden: Voraussetzungen?",
+    "hinten": "1. Fälliger, durchsetzbarer Anspruch\n2. Nicht geleistet\n3. **Mahnung** oder entbehrlich (Kalendertermin); Geldforderung: auch 30 Tage nach Fälligkeit und Rechnung (Verbraucher nur mit Hinweis)\n4. Vertretenmüssen (vermutet)\n5. Schaden durch die Verspätung",
     "normen": [
       "§ 280 Abs. 1 BGB",
       "§ 280 Abs. 2 BGB",
@@ -1276,8 +1276,8 @@
     "id": "kk-137",
     "thema": "widerruf-ruecktritt",
     "typ": "merksatz",
-    "vorne": "Die Ware geht beim Versand verloren. Muss der Käufer trotzdem zahlen?",
-    "hinten": "- Versendungskauf: Der Verkäufer schickt die Ware auf Wunsch des Käufers an einen anderen Ort als den Leistungsort.\n- Geht sie zufällig verloren, muss der Käufer ab Übergabe an die Transportperson trotzdem zahlen.\n- Verbraucher kauft beim Unternehmer: nur, wenn der Verbraucher den Transporteur selbst beauftragt hat und der Unternehmer ihn nicht genannt hat. Sonst trägt der Unternehmer das Risiko.",
+    "vorne": "Ware geht beim Versand verloren: Muss der Käufer zahlen?",
+    "hinten": "- Versendungskauf (Versand auf Wunsch an anderen Ort als Leistungsort): ja, bei zufälligem Verlust ab Übergabe an die Transportperson.\n- Verbraucher kauft beim Unternehmer: nur, wenn der Verbraucher den Transporteur selbst beauftragt hat und der Unternehmer ihn nicht genannt hat; sonst Risiko beim Unternehmer.",
     "normen": [
       "§ 447 Abs. 1 BGB",
       "§ 475 Abs. 2 BGB"
@@ -1289,8 +1289,8 @@
     "id": "kk-138",
     "thema": "grundlagen-recht",
     "typ": "abgrenzung",
-    "vorne": "Privatrecht oder öffentliches Recht, und wie ist das BGB aufgebaut?",
-    "hinten": "- **Privatrecht:** Beteiligte sind gleichgestellt (BGB, Handelsrecht).\n- **Öffentliches Recht:** Über- und Unterordnung, ein Träger von Hoheitsgewalt ist beteiligt (Verwaltungsrecht, Strafrecht).\n- **BGB, fünf Bücher:** Allgemeiner Teil (bis Paragraph 240; Regeln „vor der Klammer“, gelten für alle), Schuldrecht (241 bis 853), Sachenrecht, Familienrecht, Erbrecht.",
+    "vorne": "Privat- oder öffentliches Recht? Aufbau des BGB?",
+    "hinten": "- **Privatrecht:** Gleichordnung (BGB, Handelsrecht).\n- **Öffentliches Recht:** Über- und Unterordnung, Hoheitsträger beteiligt (Verwaltungs-, Strafrecht).\n- **BGB, 5 Bücher:** Allgemeiner Teil (bis Paragraph 240, „vor der Klammer“), Schuldrecht (241 bis 853), Sachenrecht, Familienrecht, Erbrecht.",
     "normen": [],
     "quelle": "material:folien",
     "geprueft": true
@@ -1299,8 +1299,8 @@
     "id": "kk-157",
     "thema": "grundlagen-recht",
     "typ": "schema",
-    "vorne": "Wie sieht die Normenhierarchie aus?",
-    "hinten": "- Von oben nach unten: EU-Recht, Grundgesetz, Bundesgesetze, Rechtsverordnungen, Satzungen.\n- Die höhere Norm geht vor.\n- EU-Recht hat Anwendungsvorrang: Widersprechendes deutsches Recht wird nicht angewendet, bleibt aber gültig.\n- Bundesrecht geht Landesrecht vor.",
+    "vorne": "Normenhierarchie?",
+    "hinten": "- EU-Recht > Grundgesetz > Bundesgesetze > Rechtsverordnungen > Satzungen; höhere Norm geht vor.\n- EU-Recht: Anwendungsvorrang (widersprechendes deutsches Recht wird nicht angewendet, bleibt gültig).\n- Bundesrecht geht Landesrecht vor.",
     "normen": [],
     "quelle": "material:folien",
     "geprueft": true
@@ -1309,8 +1309,8 @@
     "id": "kk-156",
     "thema": "grundlagen-recht",
     "typ": "abgrenzung",
-    "vorne": "Wer hat Rechte, und wer ist Verbraucher oder Unternehmer?",
-    "hinten": "- **Rechtsfähig** (Rechtssubjekt): Menschen ab vollendeter Geburt und juristische Personen (z. B. eingetragener Verein).\n- **Rechtsobjekte:** Sachen (körperliche Gegenstände). Tiere sind keine Sachen, werden aber meist so behandelt.\n- **Verbraucher:** Mensch, der überwiegend privat handelt.\n- **Unternehmer:** handelt gewerblich oder selbständig beruflich.",
+    "vorne": "Rechtssubjekte, Verbraucher, Unternehmer?",
+    "hinten": "- **Rechtsfähig:** Menschen ab vollendeter Geburt, juristische Personen (eingetragener Verein).\n- **Rechtsobjekte:** Sachen; Tiere sind keine Sachen, werden aber meist so behandelt.\n- **Verbraucher:** Mensch, überwiegend privat.\n- **Unternehmer:** gewerblich oder selbständig beruflich.",
     "normen": [
       "§ 1 BGB",
       "§ 21 BGB",
