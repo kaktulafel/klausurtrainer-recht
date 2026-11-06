@@ -18,7 +18,7 @@ Statische Lern-Website für die Nachklausur „Recht & Datenschutz“. Sie train
 - **Datenschutz-MC:** 141 Fragen (Single, Multi, Aussagenblöcke, Zuordnung), pur inhaltlich: Die DSGVO darf mit, deshalb Fälle statt Fundstellen; Normen stehen in der Erklärung. Modi: Üben, Prüfung, Nur Fehler, Heute fällig. Vier Bewertungsregeln stehen zur Wahl.
 - **Karteikarten Recht:** 88 Karten in einfacher Sprache mit allen Anspruchsvoraussetzungen und Definitionen; Rückseite in Stichpunkten, die Normen stehen gesammelt darunter. Mit Spaced Repetition und Themenfilter.
 - **Cheatsheets:** Anspruchsgrundlagen mit Tatbestandsmerkmalen, alle Schemata, Definitionen, Fristen, Abgrenzungen, Gutachtenstil-Sätze; durchsuchbar und druckbar.
-- **Normen-Kompass:** 132 Normkarten (beide Richtungen), Zitier-Trainer, Register mit 269 Normen und amtlichem Wortlaut (offline), Gliederung. Jedes Normzitat im Text ist anklickbar.
+- **Normen-Kompass:** 132 Normkarten (beide Richtungen), Zitier-Trainer, Register mit 270 Normen und amtlichem Wortlaut (offline), Gliederung. Jedes Normzitat im Text ist anklickbar.
 - **Schemata:** 19 Prüfungsschemata, jeweils mit Puzzle und Lückenschema.
 - **Wissensfragen:** 64 Fragen mit Musterantwort und automatischem Kernpunkt-Check.
 - **Probeklausur-Simulator:** 3 feste Klausuren und Zufallsklausuren, 90 min / 80 P. (A Fall 48 P. · B Wissen 12 P. · C MC 20 P.), Auswertung mit Note und Verlauf.

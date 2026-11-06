@@ -86,3 +86,8 @@ Jeder behobene Fehler: Datum · Fehler · Ursache · Lösung (bei ≥ 5 Versuche
 - **Randlinie durch die Tab-Beschriftung:** `.tabs` läuft über den Rand, hatte aber keinen Hintergrund. Fix: Hintergrund gesetzt.
 - **Zeilenumbruch zwischen „(“ und Normzitat:** Das Zitat ist ein Button, davor erlaubt der Browser immer einen Umbruch (bestand schon vor dem Redesign). Fix: `mitNormen` fasst „(“ und Button in `.norm-klammer` zusammen.
 - **Überzähliges Komma hinter dem Thema:** `.badge.thema:not(:last-child)` traf auch ein einzelnes Thema, wenn danach ein anderes Element folgt (Karteikarten, MC). Fix: Komma nur, wenn direkt ein weiteres Thema folgt.
+
+## 06.11.2026 – Deploy hing bei GitHub Pages (drei Fehlversuche)
+- **Symptom:** Job `deploy` brach ab, `test` war grün; live blieb die alte Version.
+- **Ursache:** Kein Fehler im Code. 1. Lauf: GitHub Pages blieb zehn Minuten auf „updating_pages“, `deploy-pages` brach per Timeout ab. 2. Versuch („Re-run failed jobs“): Der Neustart im selben Lauf fand zwei Artefakte „github-pages“ und brach ab. 3. Versuch (neuer Lauf direkt danach): „Deployment cancelled“, vermutlich weil der hängende Deploy noch aufgeräumt wurde. 4. Lauf zwei Minuten später: grün.
+- **Fix:** Nach einem Pages-Timeout nicht „Re-run failed jobs“, sondern kurz warten und einen frischen Lauf starten: `gh workflow run pages.yml --ref main`.

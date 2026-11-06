@@ -133,7 +133,7 @@ Schemata im Stichpunkt-Gutachtenstil, abgeleitet aus den Fällen: je Anspruchsgr
 - `grundlagen` (nur Ansprüche) müssen die Anspruchsgrundlagen aus den Stichpunktlösungen abdecken; jeder Fall muss in mindestens einem Pfad vorkommen (Validator und `tests/kompakt.test.mjs`).
 
 ## `karteikarten/*.json` – Karteikarten Recht (Array)
-`{ "id": "kk-001", "thema": "…", "typ": "definition|merkmale|schema|abgrenzung|rechtsfolge|falle|merksatz", "vorne": "…", "hinten": "… (Zeilen mit \\n)", "normen": ["§ 110 BGB"], "quelle", "geprueft" }`
+`{ "id": "kk-001", "thema": "…", "typ": "definition|merkmale|schema|abgrenzung|rechtsfolge|falle|merksatz", "vorne": "…", "hinten": "… (Stichpunkte mit „- “ oder „1. “, getrennt durch \\n; Zeilen ohne Marke laufen zu einem Absatz zusammen)", "normen": ["§ 110 BGB"], "quelle", "geprueft" }`
 `hinten` enthält keine Paragraphen (außer in „…“-Formulierungsbeispielen, Test); die App zeigt `normen` als Zeile unter der Rückseite. Jedes Thema mit `bereich: recht` braucht mindestens eine Karte (Validator). SRS-Schlüssel `karte:<id>`.
 
 ## `cheatsheets.json` – Cheatsheets (Array)
