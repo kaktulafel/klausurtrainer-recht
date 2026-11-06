@@ -1,7 +1,7 @@
 // Heute fällig: Spaced Repetition über alle Kartentypen. MC, Wissensfragen und Normkarten direkt hier,
 // übrige Typen (Schemata, Drills, Skizzen, Zitierübungen) per Link in ihren Trainer.
 import { h, leere, karte, md, inline, status, toast } from '../ui/dom.js';
-import { selbstbewertung } from '../ui/widgets.js';
+import { selbstbewertung, kartenRueckseite } from '../ui/widgets.js';
 import * as store from '../store.js';
 import { alleInhalte } from '../inhalte.js';
 import { bewerteMC } from '../grading.js';
@@ -88,7 +88,7 @@ export async function render(main, { query }) {
       tastatur = (e) => { if (e.target.matches('input[type=text], textarea, select')) return; if (/^[1-9]$/.test(e.key)) { ui.taste(+e.key - 1); e.preventDefault(); } };
     } else {
       const vorne = x.typ === 'wissen' ? h('h3', { class: 'lese' }, inline(obj.frage)) : x.typ === 'karte' ? h('h3', { class: 'lese' }, inline(obj.vorne)) : h('p', { class: 'lese' }, inline(obj.problem));
-      const rueck = x.typ === 'wissen' ? md(obj.antwort, { lese: true }) : x.typ === 'karte' ? md(obj.hinten, { lese: true }) : h('div', null, h('p', { class: 'gross' }, inline(obj.norm)), h('p', { class: 'klein' }, inline(obj.erklaerung)));
+      const rueck = x.typ === 'wissen' ? md(obj.antwort, { lese: true }) : x.typ === 'karte' ? kartenRueckseite(obj) : h('div', null, h('p', { class: 'gross' }, inline(obj.norm)), h('p', { class: 'klein' }, inline(obj.erklaerung)));
       const bew = selbstbewertung(bewerten);
       bew.hidden = true; rueck.hidden = true;
       const knopf = h('button', { type: 'button', class: 'btn' }, 'Aufdecken (Leertaste)');

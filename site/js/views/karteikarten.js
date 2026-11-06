@@ -1,6 +1,6 @@
 // Karteikarten: alles Rechtswissen als Frage und Antwort, mit Selbstbewertung und Spaced Repetition.
 import { h, leere, karte, md, inline, status } from '../ui/dom.js';
-import { selbstbewertung, ungeprueftBadge, themenWahl } from '../ui/widgets.js';
+import { selbstbewertung, ungeprueftBadge, themenWahl, kartenRueckseite } from '../ui/widgets.js';
 import { lade, ladeKategorie } from '../data.js';
 import * as store from '../store.js';
 import { mische } from '../grading.js';
@@ -55,7 +55,7 @@ function session(main, karten, themen, query) {
       return;
     }
     const k = stapel[i];
-    const rueck = md(k.hinten, { lese: true });
+    const rueck = kartenRueckseite(k);
     rueck.hidden = true;
     const bew = selbstbewertung((art) => { store.srsBewertung('karte:' + k.id, art); stand[art]++; i++; zeige(); });
     bew.hidden = true;

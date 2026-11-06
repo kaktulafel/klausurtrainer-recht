@@ -307,6 +307,7 @@ details.knoten > summary { padding: 4px 0; font-family: var(--serif); font-weigh
 .kk-karte .kk-art { margin: 0 0 4px; font-family: var(--sans); font-size: 14px; color: var(--text2); }
 .kk-vorne { font: 400 1.25rem/1.4 var(--serif); margin: 0; padding-bottom: 12px; border-bottom: 2px solid var(--randlinie); hyphens: auto; }
 .kk-karte .md { margin-top: 12px; }
+.kk-normen { margin-top: 14px; padding-top: 8px; border-top: 1px solid var(--randlinie); font-family: var(--sans); font-size: 14px; color: var(--text2); }
 h1.leiser { font-size: 1.15rem; margin-bottom: 8px; }
 
 /* Fehlerkarte */

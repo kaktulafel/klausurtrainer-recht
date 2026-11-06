@@ -1,5 +1,5 @@
 // Wiederverwendbare UI-Bausteine: Tabs, Timer, Sortierliste, Autosave-Editor, KI-Panel.
-import { h, leere, md, status, toast, karte } from './dom.js';
+import { h, leere, md, inline, status, toast, karte } from './dom.js';
 import * as store from '../store.js';
 import { woerter } from '../textcheck.js';
 import { sende, extrahiereJson, schwaerze, KIFehler } from '../ai.js';
@@ -182,6 +182,13 @@ export function kiPanel({ titel = 'KI-Korrektur (optional)', baueRequest, normal
 
 export function themenBadges(ids, themenMap) {
   return h('span', { class: 'zeile' }, ids.map(id => h('span', { class: 'badge thema' }, themenMap?.get(id)?.titel || id)));
+}
+
+/** Rückseite einer Karteikarte: Text ohne Paragraphen, die Normen gesammelt darunter. */
+export function kartenRueckseite(k) {
+  const rueck = md(k.hinten, { lese: true });
+  if (k.normen?.length) rueck.append(h('p', { class: 'kk-normen' }, inline(k.normen.join('; '))));
+  return rueck;
 }
 
 export function ungeprueftBadge(obj) {

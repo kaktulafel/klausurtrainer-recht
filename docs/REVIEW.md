@@ -152,6 +152,12 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
+### Karteikarten neu gefasst: kurze Rückseiten, Normen nur unten (06.11.2026, frischer Zweitkorrektor)
+Anlass: Wunsch des Nutzers: Rückseiten kürzer und einfacher, Paragraphen nur noch unten, aber aller Stoff (Anspruchsvoraussetzungen, Definitionen, Schuldarten) enthalten. Geprüft gegen den amtlichen Wortlaut, alle Kernpunkte der Wissensfragen, alle Prüfpfade und beide Vorfassungen. 1 kritisch, 16 mittel, 30 gering; alles eingearbeitet.
+- [x] Kritisch: kk-109 „Zug um Zug nur beim gegenseitigen Vertrag“ war falsch (auch § 273, Rückabwicklung); jetzt: nur dort die Einrede des nicht erfüllten Vertrags.
+- [x] Mittel: kk-017 (§ 326 Abs. 2 S. 1 Alt. 2 nur ohne Vertretenmüssen, Anrechnung S. 2), kk-018 (Definitionen der subjektiven Merkmale), kk-021 (Empfänger muss es so verstanden haben), kk-037 (Übereignung durch den Minderjährigen ist nachteilig), kk-042 („Mittel“ statt „Geld“), kk-054 (§ 241a Abs. 2 vollständig), kk-061 (Heilung nur, wo vorgesehen), kk-079 (Rechtsschein nur bei Kundgabe, § 168 S. 3), kk-092 (Anfechtung der ausgeübten Vollmacht), kk-111 (Vertretenmüssen), kk-117 (§ 815 nur bei Zweckverfehlung, § 817 S. 2 bewusst), kk-128 (Fristbeginn § 355 Abs. 2 S. 2, Berechnung §§ 187, 188), kk-136 (§ 648 nur bis Vollendung), kk-150 (§ 827 S. 2), kk-151 (Kenntnis vom Schuldner).
+- [x] Gering: Sprache, Bezüge, Normzitate präzisiert (u. a. § 119 Abs. 1 Alt. 1/2, § 7 Abs. 2 StVG, § 115 Abs. 1 S. 1 Nr. 1 VVG, § 131 Abs. 1), Beispiele ergänzt.
+
 ### Karteikarten auf 60 gekürzt, einfache Sprache (02.11.2026, frischer Zweitkorrektor)
 Anlass: Wunsch des Nutzers eine Woche vor der Klausur. Aus 157 Karten plus 17 erzeugten Schemakarten wurden 60; verwandte Karten zusammengelegt und neu formuliert. Geprüft gegen die alte Fassung und den amtlichen Wortlaut. **Keine falsche Aussage.** 0 kritisch, 6 mittel, 36 gering, 10 Lücken; alles eingearbeitet.
 - [x] Mittel: kk-071 (bei Täuschung erst durch Anfechtung auch der Übereignung unwirksam), kk-088 (positives Interesse nur beim Schadensersatz), kk-099 (Hauptnorm fehlte), kk-102 (§ 143 Abs. 3 S. 1 BGB trägt auch die Innenvollmacht), kk-104 (`normen`: § 124 Abs. 1 hat keinen S. 1), kk-131 (Schadensersatz setzt Vertretenmüssen voraus).

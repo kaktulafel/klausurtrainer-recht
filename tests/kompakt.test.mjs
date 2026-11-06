@@ -95,10 +95,12 @@ test('Prüfungspfade: Gutachtenstil – OS am Anfang, Erg. am Ende, Verweise gü
 
 const { schemaPunkte, eintragPasst, stapelAuswaehlen } = await import('../site/js/karteikarten.js');
 
-test('Karteikarten: genau 60 Karten, jedes Rechtsthema dabei', () => {
+test('Karteikarten: jedes Rechtsthema dabei, Paragraphen nur in der Normenzeile', () => {
   const karten = json('karteikarten/recht.json');
-  assert.equal(karten.length, 60);
   for (const t of json('themen.json').themen.filter(x => x.bereich === 'recht')) assert.ok(karten.some(k => k.thema === t.id), t.id);
+  // Zitate als Formulierungsbeispiel in „…“ sind erlaubt (Obersatz).
+  const ohneZitate = (s) => s.replace(/„[^“]*“/g, '');
+  for (const k of karten) assert.doesNotMatch(ohneZitate(k.vorne + ' ' + k.hinten), /§|Art\.\s*\d/, k.id);
 });
 
 test('Cheatsheets: Schemapunkte mit allen Hauptpunkten und Normen', () => {

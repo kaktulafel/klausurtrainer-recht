@@ -36,6 +36,8 @@
 
 - 02.11.2026: **Karteikarten auf 60 gekürzt** und in einfacherer Sprache neu gefasst (nach Klausurgewicht, erzeugte Schemakarten entfallen); zweitgeprüft (REVIEW.md), Test erzwingt die Zahl.
 
+- 06.11.2026: **Karteikarten neu gefasst** (88 Karten, kurze Stichpunkte, Normen nur unten, decken Wissensfragen und Prüfpfade ab); zweitgeprüft (REVIEW.md), Test verbietet Paragraphen im Kartentext.
+
 ## Offen / Ideen für später
 - Design: Vereinzelt stehen noch „·“-Zeilen in Bereichen der zweiten Reihe (Klausur-Auswertung, Statistik, Wissen, Normen). Die Musterlösung im Trainer hat ihre Gliederung noch nicht im Rand. Auf einem echten Android-Gerät prüfen (Noto Serif und Roboto sind lokal nur mit Georgia/Arial simuliert).
 - § 38 Abs. 1 BDSG zum Jahreswechsel 2026/27 prüfen (Aufhebung geplant) → ggf. ds-mc-101, 104, 107, nk-125 anpassen
