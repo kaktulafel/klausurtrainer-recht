@@ -9,7 +9,7 @@
 | Thema | Gew. | Kernnormen | Fundstelle im Material | Fälle | Wissen | MC | Normkarten | Schemata | Drills |
 |---|---|---|---|---|---|---|---|---|---|
 | Gutachtenstil & Falllösungstechnik | A | – | folien (Exkurs Methodenlehre 1–2); faelle-2 d); probeklausur | – | 4 / 3 | – | – | 1 | – |
-| Anspruchsaufbau: entstanden – erloschen – durchsetzbar | B | § 362 BGB, § 389 BGB, § 397 BGB, § 275 BGB, § 214 BGB, § 273 BGB, § 320 BGB | folien (Methodenlehre 2; Verzug) | 2 | 3 / 3 | – | 5 / 4 | 2 | – |
+| Anspruchsaufbau: entstanden – erloschen – durchsetzbar | B | § 362 BGB, § 389 BGB, § 397 BGB, § 275 BGB, § 214 BGB, § 273 BGB, § 320 BGB | folien (Methodenlehre 2; Verzug) | 2 | 3 / 3 | – | 5 / 4 | 1 | – |
 | Willenserklärung: Tatbestand & Auslegung | A | § 133 BGB, § 157 BGB, § 116 BGB, § 117 BGB, § 118 BGB | folien (WE 1); faelle-1 | 3 / 1 | 5 / 5 | – | 5 / 5 | 1 | – |
 | Wirksamwerden: Abgabe & Zugang | A | § 130 BGB, § 147 BGB, § 162 BGB | folien (WE 2); faelle-2 | 2 / 1 | 5 / 4 | – | 4 / 4 | 1 | – |
 | Geschäftsfähigkeit & Minderjährigenrecht (Taschengeld) ★ | A | § 104 BGB, § 105 BGB, § 106 BGB, § 107 BGB, § 108 BGB, § 109 BGB, § 110 BGB, § 112 BGB, § 113 BGB | folien (WE 3–5); faelle-3; faelle-7 c) | 5 / 2 | 6 / 6 | – | 10 / 8 | 1 | – |
@@ -19,8 +19,8 @@
 | Stellvertretung & Vollmacht | A | § 164 BGB, § 165 BGB, § 166 BGB, § 167 BGB, § 168 BGB, § 170 BGB, § 181 BGB | folien (Stellvertretung 1–2); faelle-6; probeklausur | 4 / 2 | 7 / 6 | – | 9 / 8 | 1 | 5 |
 | Vertreter ohne Vertretungsmacht (§§ 177–179) | A | § 177 BGB, § 178 BGB, § 179 BGB | folien (Stellvertretung 3); faelle-6 b), c); probeklausur | 3 / 2 | 3 / 3 | – | 5 / 4 | 1 | 5 |
 | Anfechtung (Irrtum, Täuschung, Drohung) ★ | A | § 119 BGB, § 120 BGB, § 121 BGB, § 122 BGB, § 123 BGB, § 124 BGB, § 142 BGB, § 143 BGB, § 144 BGB | folien (Vertragsauflösung 1, Anfechtungsgründe); faelle-8; probeklausur | 6 / 2 | 6 / 6 | – | 14 / 10 | 1 | 12 |
-| Arten von Schuldverhältnissen ★ | A | § 241 BGB, § 311 BGB, § 677 BGB, § 812 BGB, § 823 BGB | folien (Verschiebung durch Gesetz; gesetzliche Schuldverhältnisse 1) | 1 | 5 / 5 | – | 6 / 6 | – | – |
-| c.i.c., GoA, Bereicherung, Delikt | B | § 280 BGB, § 311 BGB, § 241 BGB, § 677 BGB, § 812 BGB, § 818 BGB, § 823 BGB, § 249 BGB, § 253 BGB | folien (gesetzliche Schuldverhältnisse 1–3); faelle-7 | 7 / 1 | 5 / 5 | – | 11 / 8 | 4 | – |
+| Arten von Schuldverhältnissen ★ | A | § 241 BGB, § 311 BGB, § 677 BGB, § 812 BGB, § 823 BGB | folien (Verschiebung durch Gesetz; gesetzliche Schuldverhältnisse 1) | 1 | 5 / 5 | – | 6 / 6 | 1 | – |
+| c.i.c., GoA, Bereicherung, Delikt | B | § 280 BGB, § 311 BGB, § 241 BGB, § 677 BGB, § 812 BGB, § 818 BGB, § 823 BGB, § 249 BGB, § 253 BGB | folien (gesetzliche Schuldverhältnisse 1–3); faelle-7 | 7 / 1 | 5 / 5 | – | 11 / 8 | 3 | – |
 | Widerruf, Rücktritt, Leistungsstörungen | B | § 312g BGB, § 355 BGB, § 323 BGB, § 324 BGB, § 346 BGB, § 349 BGB, § 286 BGB | folien (Vertragsauflösung 1–2, Leistungsstörungen, Verzug); faelle-8 a); faelle-9 | 2 | 3 / 3 | – | 8 / 6 | 2 | – |
 | Grundlagen: Rechtsgebiete, Normenhierarchie, Aufbau des BGB | C | – | folien (Einführung 1–6) | – | 2 / 2 | – | 1 / 1 | – | – |
 

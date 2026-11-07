@@ -69,6 +69,7 @@ const SCHEMA_ZU = [
   [/^§ 812 /, 'schema-812'],
   [/^§ 823 /, 'schema-823'],
   [/^§ 355 /, 'schema-widerruf'],
+  [/^§§ 280 Abs\. 1, 3, 281 /, 'schema-281'],
   [/^§§ 280 Abs\. 1, 311 Abs\. 2, 241 Abs\. 2 BGB$/, 'schema-cic']
 ];
 export function schemaFuer(grundlage) {

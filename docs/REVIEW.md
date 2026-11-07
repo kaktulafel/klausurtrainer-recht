@@ -152,6 +152,18 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
+### Schemata nach den 18 Fällen neu gefasst (07.11.2026, zwei frische Zweitkorrektoren nacheinander)
+Anlass: Wunsch des Nutzers: Die Schemata sollen die 18 Fälle wirklich abbilden; viele Paragraphen kamen in keinem Fall vor. 14 BGB-Schemata enthalten jetzt nur Prüfungsschritte und Paragraphen aus den Fällen (inkl. Abwandlungen) und verweisen an jedem Punkt auf den Fall. Gestrichen: schema-goa, schema-verzug (kein Fall prüft GoA oder Schuldnerverzug; Fall 1 D ist §§ 675, 670). Neu: schema-281 (Fall 15 Frage 2). Unverändert: schema-gutachten, schema-dsgvo, schema-datenpanne. Ein neuer Test verbietet in BGB-Schemata Paragraphen, die in keinem Fall stehen.
+- Erstes Review: 1 kritisch, 11 mittel, 23 gering, alles eingearbeitet.
+  - [x] Kritisch: schema-zugang nannte § 147 als Zugangsnorm unter Anwesenden. Knoten gestrichen, weil kein Fall den Zugang unter Anwesenden prüft; die Annahmefrist steht im Schema Vertragsschluss.
+  - [x] Mittel, rechtlich: schema-812 (Moped: nur Besitz, weil auch die Übereignung nach § 138 Abs. 2 nichtig ist; Wertersatz entfällt nur bei Entreicherung, nicht schon bei Verbrauch), schema-we (§ 118 jetzt Fall 2 Abwandlung 2 mit Ausschluss nach § 122 Abs. 2), schema-vertretung (Eltern: echte Vertretung nur in Fall 17 Abwandlung, Zustimmung → Schema Minderjährige).
+  - [x] Mittel, Reihenfolge wie in den Fällen: schema-179 (Kenntnis vor Abs. 3), schema-823 (wie Fall 14), schema-ruecktritt (Erklärung vor Grund wie Fall 15), schema-minderjaehrige (§ 113 unter der Einwilligung).
+  - [x] Mittel, Lücken: § 177 im Kaufpreisschema, § 323 Abs. 2 und § 648 (Fall 15 Abwandlung), schema-281 ergänzt.
+  - [x] Gering: weitere Anspruchsgrundlagen im Anspruchsaufbau, § 241a einheitlich als rechtshindernd, Rechtsbindungswille, AGB-Kollision (Fall 10), Versteigerung unter der Annahme, Abwandlungsbelege (Fall 1–6, 13, 16, 18), Normen präzisiert (§ 124 Abs. 2 S. 1, § 311 Abs. 2 Nr. 2, § 355 Abs. 1 S. 2, § 276 Abs. 1, 2), Fallverweise an jedem Punkt.
+- Nachprüfung: 0 kritisch, 1 mittel, 6 gering; Freigabe empfohlen, alles eingearbeitet.
+  - [x] Mittel: Fall 9 (Anfrage ohne Preis) ist ein Problem der essentialia, nicht des Rechtsbindungswillens.
+  - [x] Gering: Bargeld bzw. Gutschrift (Fall 5), Verweis zu § 170 nur Fall 4 Abwandlung 2, 130-%-Grenze nur bei Integritätsinteresse und darüber Wiederbeschaffungsaufwand, Annahme mit § 150 statt § 147, § 325 in die Einleitung von schema-281, Abwandlungen von Fall 6 und 16 mit Inhalt statt Nummer (in den Falldaten nicht nummeriert).
+
 ### Karteikarten auf 40 reduziert, die 18 Fälle als Maßstab (06.11.2026, frischer Zweitkorrektor)
 Anlass: Wunsch des Nutzers: 40 Karten, nur das Wichtige, einfacher erklärt, Hauptbezug die 18 Fälle. Aus 88 Karten wurden 40. Die IDs bleiben, verwandte Karten sind zusammengelegt, und jede Karte nennt den passenden Fall. Geprüft gegen die Stichpunktlösungen aller 18 Fälle, gegen die Vorfassung und den amtlichen Wortlaut (§§ 110, 124, 131, 138, 143, 151, 173, 177, 241a, 326, 447, 475 BGB). **Keine falsche Rechtsaussage, kein falscher Fallverweis.** 0 kritisch, 14 mittel, 21 gering, 10 Lücken; eingearbeitet wie folgt.
 - [x] Mittel:

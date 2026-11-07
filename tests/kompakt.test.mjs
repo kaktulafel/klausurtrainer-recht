@@ -51,6 +51,15 @@ test('gruppiereAnsprueche: jede Prüfung der obersten Ebene genau einmal, sortie
   assert.deepEqual(nrn, [...nrn].sort((a, b) => a - b));
 });
 
+test('Schemata BGB: nur Paragraphen, die in den Fällen vorkommen', () => {
+  const PARA = /§§?\s*\d+[a-z]?/g;
+  const para = (t) => (t.match(PARA) || []).map(p => p.replace(/§§?\s*/, '§ '));
+  const inFaellen = new Set(para(JSON.stringify(faelle)));
+  for (const s of json('schemata.json').filter(s => !s.thema.startsWith('ds-'))) {
+    for (const p of para(JSON.stringify(s))) assert.ok(inFaellen.has(p), `${s.id}: ${p}`);
+  }
+});
+
 test('schemaFuer: Zuordnungen zeigen auf vorhandene Schemata', () => {
   const ids = new Set(json('schemata.json').map(s => s.id));
   for (const id of SCHEMA_IDS) assert.ok(ids.has(id), id);

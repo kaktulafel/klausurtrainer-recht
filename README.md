@@ -19,7 +19,7 @@ Statische Lern-Website für die Nachklausur „Recht & Datenschutz“. Sie train
 - **Karteikarten Recht:** 88 Karten in einfacher Sprache mit allen Anspruchsvoraussetzungen und Definitionen; Rückseite in Stichpunkten, die Normen stehen gesammelt darunter. Mit Spaced Repetition und Themenfilter.
 - **Cheatsheets:** Anspruchsgrundlagen mit Tatbestandsmerkmalen, alle Schemata, Definitionen, Fristen, Abgrenzungen, Gutachtenstil-Sätze; durchsuchbar und druckbar.
 - **Normen-Kompass:** 132 Normkarten (beide Richtungen), Zitier-Trainer, Register mit 270 Normen und amtlichem Wortlaut (offline), Gliederung. Jedes Normzitat im Text ist anklickbar.
-- **Schemata:** 19 Prüfungsschemata, jeweils mit Puzzle und Lückenschema.
+- **Schemata:** 18 Prüfungsschemata, jeweils mit Puzzle und Lückenschema.
 - **Wissensfragen:** 64 Fragen mit Musterantwort und automatischem Kernpunkt-Check.
 - **Probeklausur-Simulator:** 3 feste Klausuren und Zufallsklausuren, 90 min / 80 P. (A Fall 48 P. · B Wissen 12 P. · C MC 20 P.), Auswertung mit Note und Verlauf.
 - **Meine Schwachstellen:** 22 Drills zu den vier Korrekturhinweisen, Gutachtenstil kompakt, Klausurtaktik.
