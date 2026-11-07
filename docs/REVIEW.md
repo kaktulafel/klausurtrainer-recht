@@ -222,6 +222,18 @@ Befunde:
 - [ ] Offen: F6 in `fall-06.json` und `fl-985` nennen weiterhin § 985 BGB als Weg für das Blatt. Beim nächsten Fall-Review wie im Cheatsheet fassen.
 - Nebenbei: Im Podcast „Ansprüche“ hieß die Holschuld-Variante von Fall 10 fälschlich „Abwandlung“. Sie steht in der Fallfrage selbst.
 
+#### Gekürzte Fassung (07.11.2026, zweiter frischer Zweitkorrektor)
+Anlass: Der Nutzer wünschte das Blatt weniger gefüllt und lesbarer. Deshalb zwei Spalten und rund 3.500 statt 5.700 Wörter. Geprüft wurde gegen die vorige Fassung (git HEAD), die 18 Fall-JSONs und `datenschutz.md`.
+- **Ergebnis:** Alle Fallzeilen stimmen, kein kritischer Befund; 6 mittlere und 8 geringe, alle eingearbeitet.
+- [x] Mittel:
+  - F18: Der Tippfehler war „nicht eindeutig“ erkennbar; bei § 122 Abs. 2 BGB gilt der strengere Maßstab.
+  - F1/2: Bei der Außenvollmacht ist der Partner der Anfechtungsgegner; dazu eine Fallzeile.
+  - F9/1: Die Begründung „Unternehmerin, § 241a BGB greift nicht“ fehlte.
+  - § 109 Abs. 2 BGB: Die Ausnahme „Einwilligung behauptet“ fehlte.
+  - Cookies: „außer unbedingt nötigen“ fehlte.
+  - § 38 BDSG: Gezählt werden nur Personen, die ständig automatisiert verarbeiten.
+- [x] Gering: Aufwendungsersatz nur in F1; § 475 Abs. 2 BGB nur gegenüber einem Unternehmer; „nur“ beim Schmerzensgeld gestrichen; „sonstiges Recht“ ergänzt; sensible Daten als Ausnahme formuliert; Bußgeld „je nachdem, was höher ist“; AGB nur bei Durchführung; Fristnormen in A8 und bei den DS-Rechten.
+
 ### Schemata nach den 18 Fällen neu gefasst (07.11.2026, zwei frische Zweitkorrektoren nacheinander)
 Anlass: Wunsch des Nutzers: Die Schemata sollen die 18 Fälle wirklich abbilden; viele Paragraphen kamen in keinem Fall vor. 14 BGB-Schemata enthalten jetzt nur Prüfungsschritte und Paragraphen aus den Fällen (inkl. Abwandlungen) und verweisen an jedem Punkt auf den Fall. Gestrichen: schema-goa, schema-verzug (kein Fall prüft GoA oder Schuldnerverzug; Fall 1 D ist §§ 675, 670). Neu: schema-281 (Fall 15 Frage 2). Unverändert: schema-gutachten, schema-dsgvo, schema-datenpanne. Ein neuer Test verbietet in BGB-Schemata Paragraphen, die in keinem Fall stehen.
 - Erstes Review: 1 kritisch, 11 mittel, 23 gering, alles eingearbeitet.

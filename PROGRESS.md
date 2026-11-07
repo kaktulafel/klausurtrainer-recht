@@ -41,7 +41,7 @@
 - 06.11.2026: **Karteikarten auf 40 reduziert** (Auswahl nach den 18 Fällen, einfachere Sprache, Fallverweis auf jeder Karte, Test erzwingt die Zahl); zweitgeprüft (REVIEW.md, keine falsche Aussage, kein falscher Fallverweis).
 - 07.11.2026: **Schemata nach den 18 Fällen neu gefasst** (nur Schritte und Paragraphen aus den Fällen, Fallverweis je Punkt, GoA/Verzug gestrichen, neu §§ 280, 281; 18 Schemata); zwei Reviews (REVIEW.md), Test verbietet fallfremde Paragraphen in BGB-Schemata.
 - 07.11.2026: **Flowchart-Cheatsheet** (`#/cheatsheets/cs-flowchart`: 12 Ansprüche + 3 Bausteine, alle Weichen aus den 18 Fällen und 31 Abwandlungen, „weiter“-Sprünge) und **Podcast-PDF „Ansprüche“** (`npm run podcast` → `podcast/podcast-ansprueche.pdf`: alle Tatbestandsmerkmale und alle 40 Karteikarten); zweitgeprüft (REVIEW.md, kein kritischer Befund).
-- 07.11.2026: **Druck-Cheatsheet** (`npm run cheatsheet` → `druck/cheatsheet.pdf`, 4 Seiten A4: Methode, alle 12 Ansprüche mit Merkmalen, Fundnormen und Fallweichen, 8 Bausteine, Datenschutz-Hauptkonzepte); zweitgeprüft (REVIEW.md).
+- 07.11.2026: **Druck-Cheatsheet** (`npm run cheatsheet` → `druck/cheatsheet.pdf`, 5 Seiten A4, zweispaltig, nach Nutzerwunsch luftiger gesetzt: Methode, alle 12 Ansprüche mit Merkmalen, Fundnormen und Fallweichen, 8 Bausteine, Datenschutz-Hauptkonzepte); zweitgeprüft (REVIEW.md).
 
 ## Offen / Ideen für später
 - Design: Vereinzelt stehen noch „·“-Zeilen in Bereichen der zweiten Reihe (Klausur-Auswertung, Statistik, Wissen, Normen). Die Musterlösung im Trainer hat ihre Gliederung noch nicht im Rand. Auf einem echten Android-Gerät prüfen (Noto Serif und Roboto sind lokal nur mit Georgia/Arial simuliert).
