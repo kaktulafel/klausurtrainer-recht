@@ -96,7 +96,7 @@ F: F11, F11/1 (−) „Ohne Rechnung“, auch nachträglich vereinbart → nicht
 5. **Kein Ausschluss** (Abs. 3). Ausgeschlossen, wenn der Partner den Mangel kannte oder kennen musste (S. 1) oder der Vertreter minderjährig war und ohne Zustimmung der Eltern handelte (S. 2)
 F: F1 (+) N täuschte selbst → Abs. 1: 4.500 € Zug um Zug gegen das Modell
 F: F1/1 (+) N war gutgläubig → Abs. 2: nur 80 €, die sie sich von J holt (A5)
-F: F4, F4/1 (−) Der Lieferant kannte die Grenze bzw. das Ende → S. 1
+F: F4, F4/1 (−) Der Lieferant kannte die Grenze bzw. musste das Ende kennen → S. 1
 F: F18 (−) T ist 17, die Eltern wussten nichts → S. 2; ebenso F1/3 und F4/3
 F: F18/1 (+) Die Eltern waren einverstanden → T haftet voll
 

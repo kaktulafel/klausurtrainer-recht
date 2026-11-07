@@ -234,6 +234,17 @@ Anlass: Der Nutzer wünschte das Blatt weniger gefüllt und lesbarer. Deshalb zw
   - § 38 BDSG: Gezählt werden nur Personen, die ständig automatisiert verarbeiten.
 - [x] Gering: Aufwendungsersatz nur in F1; § 475 Abs. 2 BGB nur gegenüber einem Unternehmer; „nur“ beim Schmerzensgeld gestrichen; „sonstiges Recht“ ergänzt; sensible Daten als Ausnahme formuliert; Bußgeld „je nachdem, was höher ist“; AGB nur bei Durchführung; Fristnormen in A8 und bei den DS-Rechten.
 
+
+#### Podcast „Cheatsheet“ `docs/podcast/cheatsheet.md` (07.11.2026, frischer Zweitkorrektor)
+Anlass: Der Nutzer wünschte ein Podcast-Blatt, das das Cheatsheet vollständig durchgeht. Geprüft wurde gegen das Cheatsheet, alle 18 Fall-JSONs, `ansprueche.md` und `datenschutz.md`.
+- **Ergebnis:** Alle Beträge, Abwandlungsnummern, Daten und Ergebnisse stimmen, der Datenschutzteil ist vollständig. Kein kritischer Befund, 3 mittlere, 10 geringe, alle eingearbeitet.
+- [x] Mittel:
+  - Der Sachverhalt von Fall 9 war unvollständig: gemischte Kiste, 15 € bzw. 5 €, Rückgabe des Rests.
+  - Fall 10, Zusatzfrage: Begründet wird mit § 446 BGB (Holschuld, kein Annahmeverzug), nicht mit § 475 Abs. 2 BGB.
+  - Fall 6 beim Vertrauensschaden: Frage 2 (Eigenschaftsirrtum) und Ausgangsfall (Täuschung) werden jetzt getrennt genannt.
+- [x] Gering: Lücken gegenüber dem Cheatsheet bei § 323 BGB (Abs. 2, 6, § 346 BGB) und bei AGB, Dissens und § 241a Abs. 2 BGB; fehlende Normangaben; unterschiedlicher Maßstab bei Fall 18 erklärt; § 118 BGB präzisiert; Mietwagenbetrag; Fall 8 Teil 2 mit Sachverhalt; Abkürzungen und Gesetzeskürzel zum Vorlesen aufgelöst; Kasusfehler.
+- Nebenbei selbst korrigiert, auch im Cheatsheet: In Fall 4, Abwandlung 1, musste der Lieferant das Ende der Vollmacht kennen. Er kannte es nicht, weil er die E-Mail nicht gelesen hatte.
+
 ### Schemata nach den 18 Fällen neu gefasst (07.11.2026, zwei frische Zweitkorrektoren nacheinander)
 Anlass: Wunsch des Nutzers: Die Schemata sollen die 18 Fälle wirklich abbilden; viele Paragraphen kamen in keinem Fall vor. 14 BGB-Schemata enthalten jetzt nur Prüfungsschritte und Paragraphen aus den Fällen (inkl. Abwandlungen) und verweisen an jedem Punkt auf den Fall. Gestrichen: schema-goa, schema-verzug (kein Fall prüft GoA oder Schuldnerverzug; Fall 1 D ist §§ 675, 670). Neu: schema-281 (Fall 15 Frage 2). Unverändert: schema-gutachten, schema-dsgvo, schema-datenpanne. Ein neuer Test verbietet in BGB-Schemata Paragraphen, die in keinem Fall stehen.
 - Erstes Review: 1 kritisch, 11 mittel, 23 gering, alles eingearbeitet.
