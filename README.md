@@ -45,6 +45,7 @@ Voraussetzung: Node.js ≥ 20. Für E2E, A11y und Screenshots zusätzlich `npm c
 | `npm run normen` | Normenregister: amtlichen Wortlaut neu laden (gesetze-im-internet.de, EUR-Lex) |
 | `npm run docs` | `docs/THEMENKARTE.md` aus `themen.json` erzeugen |
 | `npm run podcast` | PDFs für NotebookLM aus `docs/podcast/` erzeugen → `podcast/` (nicht im Repo) |
+| `npm run cheatsheet` | Druck-Cheatsheet (3 Spalten, höchstens 5 Seiten A4) aus `docs/cheatsheet/` → `druck/` (nicht im Repo) |
 | `npm run live-check -- <url> --warten` | Live-Seite: Version = aktueller Commit, alle Dateien erreichbar |
 | `npm run offline-check -- <url>` | Live-Seite offline mit echtem Service Worker testen |
 | `node scripts/screens.mjs tmp/screens "#/route"` | Screenshots 375 px hell/dunkel + Desktop |

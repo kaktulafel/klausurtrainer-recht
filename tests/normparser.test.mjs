@@ -123,12 +123,16 @@ test('Unbekannte Gesetze werden nicht als BGB gedeutet', async () => {
   assert.equal(d.gesetz, 'BGB');
 });
 
-test('Podcast-Quelltexte zitieren nur Normen aus dem Register', async () => {
+test('Podcast- und Cheatsheet-Quelltexte zitieren nur Normen aus dem Register', async () => {
   const { readFileSync, readdirSync } = await import('node:fs');
-  const dir = new URL('../docs/podcast/', import.meta.url);
   const reg = new Set(JSON.parse(readFileSync(new URL('../site/data/normen.json', import.meta.url), 'utf8')).map(n => n.id));
-  for (const d of readdirSync(dir).filter(x => x.endsWith('.md'))) {
-    const fehlt = parseNormen(readFileSync(new URL(d, dir), 'utf8')).filter(n => !reg.has(registerId(n))).map(formatNorm);
-    assert.deepEqual(fehlt, [], d);
+  for (const ordner of ['podcast', 'cheatsheet']) {
+    const dir = new URL(`../docs/${ordner}/`, import.meta.url);
+    const dateien = readdirSync(dir).filter(x => x.endsWith('.md'));
+    assert.ok(dateien.length > 0, ordner);
+    for (const d of dateien) {
+      const fehlt = parseNormen(readFileSync(new URL(d, dir), 'utf8')).filter(n => !reg.has(registerId(n))).map(formatNorm);
+      assert.deepEqual(fehlt, [], `${ordner}/${d}`);
+    }
   }
 });

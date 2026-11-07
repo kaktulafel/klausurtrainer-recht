@@ -193,6 +193,35 @@ Befunde:
   - § 113 in Fall 5
   - Fundnormen bei jedem Merkmal; ein Test prüft sie gegen das Register
 
+### Druck-Cheatsheet `docs/cheatsheet/cheatsheet.md` (07.11.2026, frischer Zweitkorrektor)
+Anlass: Der Nutzer wünschte ein PDF von höchstens 5 Seiten mit allem, was in ein Cheatsheet für den Rechtsteil gehört: alle Ansprüche und Tatbestandsmerkmale. Dazu sollte der Datenschutz auf einer halben Seite mit den Hauptkonzepten stehen (Privacy by Design und Default, Marktort usw.).
+- **Ergebnis:** 4 Seiten A4. Enthalten sind Methode, 12 Ansprüche, 8 Bausteine und Datenschutz.
+- **Geprüft gegen:** alle 18 Fall-JSONs mit allen Abwandlungen, `datenschutz.md`, `ansprueche.md`, `cs-flowchart` und alle 40 Karteikarten.
+- **Gesamturteil:** keine falsche Rechtsaussage zu Beträgen, Daten oder Ergebnissen. Alle in den Fällen geprüften Merkmale und alle Karteikarten-Inhalte sind abgedeckt.
+- **Befunde:** 0 kritisch, 5 mittel, 16 gering. Alle sind eingearbeitet.
+
+Befunde:
+- [x] Mittel:
+  - F8/1: „dasselbe am Telefon“ legte einen Vertrag nahe. Tatsächlich gibt es keinen Vertrag, weil M den neuen Antrag nicht annimmt.
+  - F9/1: Beim Wertersatz stand „allenfalls“ statt „jedenfalls“. Außerdem fehlte die Begründung, warum die 15 € (−) sind.
+  - F6 und § 985 BGB: Die Fehleridentität erfasst die Übereignung des Getäuschten. Die Rückgabe des Blattes läuft jedenfalls über § 812 BGB, über § 985 BGB nur bei weiter Auslegung der Anfechtung.
+  - Datenschutz: Die Informationspflichten (Art. 12 bis 14 DSGVO) fehlten. Ergänzt sind außerdem Verarbeitung (Art. 4 Nr. 2), Fristverlängerung, Beschwerde (Art. 77), Beschäftigte (§ 26 BDSG) und KI-VO.
+  - „Kein Ausschluss“ bei § 179 BGB und § 122 BGB: Jetzt steht ausdrücklich da, wann der Anspruch ausgeschlossen ist.
+- [x] Gering:
+  - F3/1 und F5/1: Der Kaufpreis ist erfüllt, kein offener Anspruch.
+  - F2/3: (−) erst nach der Anfechtung.
+  - F3/2 und F18/3: Geschwiegen wurde drei Wochen, die gesetzliche Frist beträgt zwei Wochen.
+  - Zitate präzisiert: § 109 Abs. 1, 2 BGB; § 311 Abs. 2 Nr. 1, 2 BGB; § 312b BGB; § 356 Abs. 3 S. 2 BGB (Höchstfrist); § 241a Abs. 2 BGB; § 164 Abs. 2 BGB; § 168 S. 2 BGB; §§ 249 ff. BGB mit haftungsausfüllender Kausalität.
+  - B5: „Sofort wirksam, ohne spätere Genehmigung“ statt „ohne Eltern“.
+  - F8: Widerruf um 22:05 Uhr. Auch in `cs-flowchart` und `ansprueche.md` korrigiert.
+  - § 323 Abs. 2 BGB genauer gefasst, dazu der Ausschluss nach § 323 Abs. 6 BGB und § 281 Abs. 2 BGB.
+  - Preisgefahr erklärt, mit der Rückausnahme des § 475 Abs. 2 BGB.
+  - § 38 BDSG mit Aufhebungsvorbehalt; Art. 38 Abs. 3 DSGVO ergänzt.
+  - Sensible Daten aufgezählt, Art. 9 Abs. 2 lit. a DSGVO ergänzt.
+  - § 122 BGB analog bei F7; F1/2 und F2/3 in der Fallzeile.
+- [ ] Offen: F6 in `fall-06.json` und `fl-985` nennen weiterhin § 985 BGB als Weg für das Blatt. Beim nächsten Fall-Review wie im Cheatsheet fassen.
+- Nebenbei: Im Podcast „Ansprüche“ hieß die Holschuld-Variante von Fall 10 fälschlich „Abwandlung“. Sie steht in der Fallfrage selbst.
+
 ### Schemata nach den 18 Fällen neu gefasst (07.11.2026, zwei frische Zweitkorrektoren nacheinander)
 Anlass: Wunsch des Nutzers: Die Schemata sollen die 18 Fälle wirklich abbilden; viele Paragraphen kamen in keinem Fall vor. 14 BGB-Schemata enthalten jetzt nur Prüfungsschritte und Paragraphen aus den Fällen (inkl. Abwandlungen) und verweisen an jedem Punkt auf den Fall. Gestrichen: schema-goa, schema-verzug (kein Fall prüft GoA oder Schuldnerverzug; Fall 1 D ist §§ 675, 670). Neu: schema-281 (Fall 15 Frage 2). Unverändert: schema-gutachten, schema-dsgvo, schema-datenpanne. Ein neuer Test verbietet in BGB-Schemata Paragraphen, die in keinem Fall stehen.
 - Erstes Review: 1 kritisch, 11 mittel, 23 gering, alles eingearbeitet.

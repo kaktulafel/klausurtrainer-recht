@@ -16,7 +16,8 @@
     "docs": "node scripts/gen-docs.mjs",
     "offline-check": "node scripts/offline-check.mjs",
     "a11y": "node scripts/a11y.mjs",
-    "podcast": "node scripts/podcast-pdf.mjs"
+    "podcast": "node scripts/podcast-pdf.mjs",
+    "cheatsheet": "node scripts/cheatsheet-pdf.mjs"
   },
   "engines": {
     "node": ">=20"
