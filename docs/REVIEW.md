@@ -152,6 +152,47 @@ Anlass: Die DSGVO darf in die Klausur. 98 MC-Fragen geändert, davon 62 neu gefa
 | DS-Schulung „Betroffenenrechte“ | Einschränkung „Art. 19“ | Art. 18 DSGVO (Art. 19 = Mitteilungspflicht) |
 | DS-Schulung Beschäftigte | Einwilligung „bedarf der Schriftform“ | § 26 Abs. 2 S. 3 BDSG: schriftlich oder elektronisch |
 
+### Flowchart-Cheatsheet und Podcast „Ansprüche“ (07.11.2026, frischer Zweitkorrektor)
+Anlass: Der Nutzer wünschte ein Cheatsheet, das jeden Anspruch als Ausgangspunkt nimmt und alle Varianten aus den Fällen als Flowchart zeigt. Dazu ein Podcast-PDF über alle Tatbestandsmerkmale und alle Karteikarten-Inhalte.
+- **Flowchart `cs-flowchart`:**
+  - 12 Ansprüche und 3 Bausteine
+  - alle 18 Fälle und alle 31 Abwandlungen verwiesen, per Test gesichert
+- **Podcast:** `docs/podcast/ansprueche.md`
+
+Geprüft gegen die Stichpunktlösungen, die Kurzlösungen der Abwandlungen und alle 40 Karteikarten:
+- **Keine falsche Rechtsaussage.** Alle Beträge und Ergebnisse stimmen.
+- Alle Abwandlungsnummern verweisen auf die richtige Abwandlung, alle 40 Karten sind im Podcast enthalten.
+- 0 kritisch, 3 mittel, 24 gering. Alles eingearbeitet, der Zweitkorrektor hielt ein erneutes Review danach nicht für nötig.
+
+Befunde:
+- [x] Mittel:
+  - fl-433-2: Das Ergebnis nennt jetzt auch die Abwandlungen mit (+).
+  - fl-179: fall-04/1 stand bei der falschen Weiche. Der Ausschluss folgt dort aus der zugegangenen E-Mail, nicht aus der 3.000-€-Grenze; das ist jetzt eine eigene Weiche.
+  - Podcast: Für Fall 10 war eine nicht existierende „zweite Abwandlung“ genannt.
+- [x] Gering, Flowchart:
+  - Gastronomin: Annahme und Wertersatz getrennt dargestellt
+  - „gerügt“ durch „angefochten“ ersetzt
+  - Gattungsschuld erst durch Auslegung
+  - nachträgliche Ohne-Rechnung-Abrede nur, wenn sie den Vertrag insgesamt umgestaltet
+  - Aufwendungsersatz nur bei Fall 1
+  - Ergebnisse von § 122, § 812 und § 985 vervollständigt
+  - Entreicherung als Einwand gegen den Wertersatz-Gegenanspruch
+  - § 306 Abs. 2 „entsprechend“, § 150 Abs. 2 ergänzt
+  - Vorbehalt der Vorlesungslösung in Fall 7
+  - Schuldverhältnis bei § 281
+  - Anspruchstellerin bei § 985 (Fall 6)
+- [x] Gering, Podcast:
+  - Abwandlungsnummern präzisiert
+  - Stufen in Fall 2 und Gebotserlöschen nur in Fall 2
+  - Geschäftsbesorgung statt Auftrag
+  - weitere Fälle mit Vertrauensschaden
+  - Außenvollmacht und Gewährleistungsvorrang
+  - Entbehrlichkeit der Frist und Frist vor Fälligkeit
+  - Deckel bei § 179 Abs. 2
+  - Rechtswidrigkeit indiziert, Betriebsgefahr
+  - § 113 in Fall 5
+  - Fundnormen bei jedem Merkmal; ein Test prüft sie gegen das Register
+
 ### Schemata nach den 18 Fällen neu gefasst (07.11.2026, zwei frische Zweitkorrektoren nacheinander)
 Anlass: Wunsch des Nutzers: Die Schemata sollen die 18 Fälle wirklich abbilden; viele Paragraphen kamen in keinem Fall vor. 14 BGB-Schemata enthalten jetzt nur Prüfungsschritte und Paragraphen aus den Fällen (inkl. Abwandlungen) und verweisen an jedem Punkt auf den Fall. Gestrichen: schema-goa, schema-verzug (kein Fall prüft GoA oder Schuldnerverzug; Fall 1 D ist §§ 675, 670). Neu: schema-281 (Fall 15 Frage 2). Unverändert: schema-gutachten, schema-dsgvo, schema-datenpanne. Ein neuer Test verbietet in BGB-Schemata Paragraphen, die in keinem Fall stehen.
 - Erstes Review: 1 kritisch, 11 mittel, 23 gering, alles eingearbeitet.

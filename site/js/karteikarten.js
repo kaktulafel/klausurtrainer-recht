@@ -10,8 +10,21 @@ export function schemaPunkte(schema) {
 export function eintragPasst(e, suche) {
   const woerter = String(suche ?? '').toLowerCase().split(/\s+/).filter(Boolean);
   if (!woerter.length) return true;
-  const text = [e.titel, e.norm, e.text, e.hinweis, ...(e.punkte || [])].filter(Boolean).join(' ').toLowerCase();
+  const text = [e.titel, e.norm, e.text, e.hinweis, ...(e.punkte || []), ...flussTexte(e)].filter(Boolean).join(' ').toLowerCase();
   return woerter.every(w => text.includes(w));
+}
+
+/** Fallverweis im Flowchart: „fall-02“ → „Fall 2“, „fall-02/3“ → „Fall 2, Abw. 3“. */
+export function fallLabel(ref) {
+  const m = String(ref).match(/^fall-0*(\d+)(?:\/(\d+))?$/);
+  if (!m) return String(ref);
+  return 'Fall ' + m[1] + (m[2] ? ', Abw. ' + m[2] : '');
+}
+
+/** Alle Texte eines Flowchart-Eintrags (Start, Fragen, Weichen, Fälle, Ziel) für die Suche. */
+export function flussTexte(e) {
+  if (!e.fluss) return [];
+  return [e.start, e.ziel, ...e.fluss.flatMap(s => [s.frage, ...s.wege.flatMap(w => [w.wenn, w.dann, ...(w.faelle || []).map(fallLabel)])])];
 }
 
 /** Kartenstapel: nach Thema filtern; Modus faellig/schwach; sonst unbekannte und schwache Karten zuerst. */

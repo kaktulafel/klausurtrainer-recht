@@ -139,6 +139,9 @@ Schemata im Stichpunkt-Gutachtenstil, abgeleitet aus den Fällen: je Anspruchsgr
 ## `cheatsheets.json` – Cheatsheets (Array)
 `{ "id": "cs-ansprueche", "titel": "…", "einleitung": "…", "eintraege": [{ "titel": "…", "norm": "…", "text": "…", "punkte": ["…"], "hinweis": "…", "schema": "schema-…", "pfad": "pfad-…" }], "quelle", "geprueft" }`
 Je Eintrag `text` oder `punkte`. Das Blatt „Schemata“ erzeugt die App aus `schemata.json`.
+- Flowchart-Einträge (Blatt `cs-flowchart`) haben stattdessen `{ "id": "fl-…", "titel", "norm", "start": "Wer will was?", "fluss": [{ "frage": "Merkmal?", "wege": [{ "wenn": "Variante aus dem Fall", "dann": "Folge (+)/(−)", "faelle": ["fall-02", "fall-02/3"], "stopp": true, "weiter": "fl-122" }] }], "ziel": "…", "schema"?, "pfad"? }`.
+  - `fall-02/3` = 3. Element von `abwandlungen` in Fall 2. `stopp` = Anspruch scheitert hier. `weiter` = anderer Flowchart-Eintrag desselben Blatts.
+  - Validator prüft Struktur, Fall- und Abwandlungsverweise; `tests/kompakt.test.mjs` verlangt einen Eintrag je Anspruchsgrundlage und jeden Fall samt Abwandlung.
 
 ## `drills.json` – Klausurtechnik-Drills (Array)
 `{ "id": "dr-12", "korrekturhinweis": 1–4, "typ": "fehlersuche|lueckentext|minifall|anfechtung|p179", "thema", "titel", "aufgabe", "antwort", "kernpunkte", "stichwoerter"?, "normen", "quelle", "geprueft" }`

@@ -12,13 +12,14 @@ const esc = (s) => s.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, 
 
 function html(md) {
   const teile = md.split(/\n\s*\n/).map(b => b.trim()).filter(Boolean).map(b => {
+    if (b.startsWith('### ')) return `<h3>${esc(b.slice(4))}</h3>`;
     if (b.startsWith('## ')) return `<h2>${esc(b.slice(3))}</h2>`;
     if (b.startsWith('# ')) return `<h1>${esc(b.slice(2))}</h1>`;
     return `<p>${esc(b)}</p>`;
   });
   return `<!doctype html><html lang="de"><head><meta charset="utf-8"><style>
     body { font-family: Georgia, 'Times New Roman', serif; font-size: 11.5pt; line-height: 1.5; color: #111; }
-    h1 { font-size: 20pt; margin: 0 0 12pt; } h2 { font-size: 14pt; margin: 16pt 0 6pt; break-after: avoid; }
+    h1 { font-size: 20pt; margin: 0 0 12pt; } h2 { font-size: 14pt; margin: 16pt 0 6pt; break-after: avoid; } h3 { font-size: 12pt; margin: 12pt 0 4pt; break-after: avoid; }
     p { margin: 0 0 8pt; }
   </style></head><body>${teile.join('\n')}</body></html>`;
 }

@@ -360,9 +360,28 @@ if (blaetter) {
       id(D, b, 'cheatsheet:');
       pflicht(D, b, { titel: 'str', einleitung: 'str', eintraege: 'arr' });
       quelle(D, b);
+      const flussIds = new Set((b.eintraege || []).filter(e => e.fluss).map(e => e.id));
       for (const e of b.eintraege || []) {
         if (!typ.str(e.titel)) F(D, b.id, 'Eintrag ohne titel');
-        if (!typ.str(e.text) && !typ.strArr(e.punkte)) F(D, b.id, `„${e.titel}“ braucht text oder punkte`);
+        if (e.fluss) {
+          // Flowchart: start → Schritte (frage + wege) → ziel; Fallverweise „fall-02“ oder „fall-02/3“ (3. Abwandlung)
+          id(D, e, 'flowchart:');
+          if (!typ.str(e.start) || !typ.str(e.ziel) || !typ.arr(e.fluss) || !e.fluss.length) F(D, e.id, 'Flowchart braucht start, fluss und ziel');
+          for (const s of e.fluss || []) {
+            if (!typ.str(s.frage) || !typ.arr(s.wege) || !s.wege.length) F(D, e.id, 'Schritt braucht frage und wege');
+            for (const w of s.wege || []) {
+              if (!typ.str(w.wenn) || !typ.str(w.dann)) F(D, e.id, 'Weiche braucht wenn und dann');
+              if (!typ.strArr(w.faelle) || !w.faelle.length) F(D, e.id, `Weiche „${w.wenn}“ ohne Fallverweis`);
+              for (const ref of w.faelle || []) {
+                const [fid, abw] = String(ref).split('/');
+                const fall = alleFaelle.get(fid);
+                if (!fall) F(D, e.id, `unbekannter Fall ${ref}`);
+                else if (abw !== undefined && !(Number(abw) >= 1 && Number(abw) <= (fall.abwandlungen || []).length)) F(D, e.id, `${fid} hat keine Abwandlung ${abw}`);
+              }
+              if (w.weiter && (!flussIds.has(w.weiter) || w.weiter === e.id)) F(D, e.id, `weiter: ${w.weiter} ungültig`);
+            }
+          }
+        } else if (!typ.str(e.text) && !typ.strArr(e.punkte)) F(D, b.id, `„${e.titel}“ braucht text oder punkte`);
         if (e.schema && !schemaIds.has(e.schema)) F(D, b.id, `unbekanntes Schema ${e.schema}`);
         if (e.pfad && !pfadIds.has(e.pfad)) F(D, b.id, `unbekannter Pfad ${e.pfad}`);
       }

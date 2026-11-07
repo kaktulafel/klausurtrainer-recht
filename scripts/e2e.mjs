@@ -30,7 +30,7 @@ async function keinMuell(route) {
 
 await schritt('Alle Bereiche laden ohne Konsolenfehler, ohne Überlauf, ohne null/undefined', async () => {
   for (const r of ['#/', '#/faelle', '#/faelle/fall-01', '#/mc', '#/normen', '#/normen/karten', '#/normen/zitieren', '#/normen/register', '#/wissen',
-    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/karteikarten', '#/cheatsheets', '#/cheatsheets/schemata', '#/cheatsheets/cs-definitionen', '#/mehr', '#/info', '#/gibtsnicht']) {
+    '#/schemata', '#/schwachstellen', '#/schwachstellen/stil', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik', '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/karteikarten', '#/cheatsheets', '#/cheatsheets/schemata', '#/cheatsheets/cs-flowchart', '#/cheatsheets/cs-definitionen', '#/mehr', '#/info', '#/gibtsnicht']) {
     await page.goto(basis + r, { waitUntil: 'networkidle' });
     await page.waitForSelector('main h1');
     await keinMuell(r);
@@ -120,6 +120,18 @@ await schritt('Karteikarte: umdrehen, bewerten, Lernstand speichern; Cheatsheet:
   await page.getByRole('searchbox').fill('§ 179');
   const treffer = await page.locator('.cs-e:visible').count();
   if (!(treffer > 0 && treffer < alle)) throw new Error(`Suche filtert nicht (${alle} → ${treffer})`);
+});
+
+await schritt('Flowchart: Fallsuche filtert, „weiter“ springt zum Anschlussanspruch', async () => {
+  await page.goto(basis + '#/cheatsheets/cs-flowchart', { waitUntil: 'networkidle' });
+  await page.waitForSelector('.fl');
+  const alle = await page.locator('.fl:visible').count();
+  await page.getByRole('searchbox').fill('Fall 18, Abw. 1');
+  const treffer = await page.locator('.fl:visible').count();
+  if (!(treffer > 0 && treffer < alle)) throw new Error(`Suche filtert nicht (${alle} → ${treffer})`);
+  await page.getByRole('searchbox').fill('');
+  await page.locator('#fl-433-2 .fl-weiter', { hasText: '§ 179' }).first().click();
+  await page.waitForFunction(() => document.activeElement?.closest('#fl-179'), null, { timeout: 5000 });
 });
 
 await schritt('Neue Bereiche sind per Klick erreichbar: Handy und Desktop', async () => {

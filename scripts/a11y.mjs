@@ -13,7 +13,7 @@ const ROUTEN = [
   '#/normen', '#/normen/karten', '#/normen/zitieren', '#/normen/register', '#/wissen', '#/wissen?start=1&n=3',
   '#/schemata', '#/schemata/schema-gutachten?modus=puzzle', '#/schemata/schema-gutachten?modus=luecken',
   '#/schwachstellen', '#/schwachstellen/dr-01', '#/schwachstellen/taktik', '#/klausur', '#/wiederholen', '#/statistik',
-  '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/karteikarten', '#/cheatsheets', '#/cheatsheets/schemata', '#/cheatsheets/cs-definitionen', '#/mehr', '#/info', '#/gibtsnicht'
+  '#/einstellungen', '#/uebersicht', '#/uebersicht/pfade', '#/uebersicht/ansprueche', '#/uebersicht/schemata', '#/karteikarten', '#/cheatsheets', '#/cheatsheets/schemata', '#/cheatsheets/cs-flowchart', '#/cheatsheets/cs-definitionen', '#/mehr', '#/info', '#/gibtsnicht'
 ];
 const server = await starteServer(0, '/klausurtrainer-recht/');
 const basis = `http://localhost:${server.address().port}/klausurtrainer-recht/`;

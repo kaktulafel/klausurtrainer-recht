@@ -376,4 +376,33 @@ p.ue-e1 { margin-top: 8px; }
   .cs-punkte li::before { left: -1.6em; width: 1.2em; }
 }
 
+/* Flowchart: Start → Merkmale als Kette mit Pfeilen, Weichen eingerückt am Merkmal, Ziel unten */
+.fl-raster { grid-template-columns: repeat(auto-fill, minmax(min(100%, 30rem), 1fr)); }
+.fl { scroll-margin-top: 80px; }
+.fl h3:focus { outline: none; }
+.fl-start, .fl-ziel { margin: 8px 0 0; padding: 6px 10px; border: 2px solid var(--akzent); border-radius: 18px; font: 600 15px/1.4 var(--sans); }
+.fl-ziel { border-style: double; border-width: 3px; margin-top: 0; }
+.fl-schritte { list-style: none; margin: 0; padding: 0; counter-reset: fl; }
+.fl-schritt { position: relative; counter-increment: fl; padding-top: 22px; }
+.fl-schritt::before, .fl-schritte + .fl-ziel::before { content: "↓"; position: absolute; top: 0; left: 14px; font: 600 16px/22px var(--sans); color: var(--akzent); }
+.fl-schritte + .fl-ziel { position: relative; margin-top: 22px; }
+.fl-schritte + .fl-ziel::before { top: -24px; }
+.fl-frage { margin: 0; padding: 6px 10px; background: var(--flaeche2); border: 1px solid var(--rand-stark); border-radius: var(--radius); font: 600 15px/1.4 var(--sans); }
+.fl-frage::before { content: counter(fl) ". "; color: var(--text2); }
+.fl-wege { list-style: none; margin: 0 0 0 14px; padding: 0; border-left: 2px solid var(--rand-stark); }
+.fl-weg { position: relative; margin: 0; padding: 6px 0 4px 18px; font-size: 16px; line-height: 1.4; }
+.fl-weg::before { content: ""; position: absolute; left: 0; top: 16px; width: 12px; border-top: 2px solid var(--rand-stark); }
+.cs-e .fl-weg p { margin: 0; }
+.fl-wenn { font-style: italic; }
+.fl-dann::before { content: "→ "; color: var(--text2); font-style: normal; }
+.fl-stopp .fl-dann { font-weight: 600; }
+.fl-marke { display: inline-block; margin-left: 4px; padding: 0 6px; border: 1px solid var(--text); border-radius: 3px; font: 600 12px/1.5 var(--sans); text-transform: uppercase; letter-spacing: .04em; }
+.fl-zeile { display: flex; flex-wrap: wrap; gap: 2px 10px; margin-top: 2px !important; }
+.fl-fall { color: var(--link); white-space: nowrap; }
+.fl-weiter { padding: 0; border: 0; background: none; color: var(--link); font: inherit; text-decoration: underline; cursor: pointer; }
+@media print {
+  .fl-raster { display: block; }
+  .fl-schritt { break-inside: avoid; }
+}
+
 @media (prefers-reduced-motion: reduce) { *, *::before, *::after { transition: none !important; animation: none !important; scroll-behavior: auto !important; } }

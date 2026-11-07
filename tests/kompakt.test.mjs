@@ -128,6 +128,22 @@ test('Karteikarten: Auswahl nach Thema und Modus, Unbekanntes zuerst', () => {
   assert.deepEqual(stapelAuswaehlen(k, srs, { modus: 'schwach', n: 9 }).map(x => x.id), ['b']);
 });
 
+test('Flowchart: jede Anspruchsgrundlage ist ein Startpunkt, jeder Fall und jede Abwandlung kommt vor', async () => {
+  const { fallLabel } = await import('../site/js/karteikarten.js');
+  const fl = json('cheatsheets.json').find(b => b.id === 'cs-flowchart').eintraege;
+  const normen = new Set(fl.map(e => e.norm));
+  for (const g of gruppiereAnsprueche(faelle).gruppen) assert.ok(normen.has(g.grundlage), `kein Flowchart für ${g.grundlage}`);
+  const refs = new Set(fl.flatMap(e => e.fluss.flatMap(s => s.wege.flatMap(w => w.faelle))));
+  for (const f of faelle) {
+    assert.ok(refs.has(f.id), f.id);
+    (f.abwandlungen || []).forEach((_, i) => assert.ok(refs.has(`${f.id}/${i + 1}`), `${f.id}, Abwandlung ${i + 1}`));
+  }
+  assert.equal(fallLabel('fall-02'), 'Fall 2');
+  assert.equal(fallLabel('fall-18/3'), 'Fall 18, Abw. 3');
+  assert.ok(eintragPasst(fl[0], 'fall 2, abw. 2'), 'Suche findet Fallverweise');
+  assert.ok(eintragPasst(fl[0], 'Versprecher 42.000'));
+});
+
 test('Cheatsheets: jede Anspruchsgrundlage aus den Fällen steht im Blatt, Suche greift', () => {
   const blatt = json('cheatsheets.json').find(b => b.id === 'cs-ansprueche');
   const pfade = new Set(blatt.eintraege.map(e => e.pfad).filter(Boolean));
